@@ -1,0 +1,28 @@
+{
+  "name": "financial-pods",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Financial Pods monorepo",
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=22 <25",
+    "pnpm": ">=11 <12"
+  },
+  "scripts": {
+    "setup": "node scripts/task.mjs setup",
+    "dev": "node scripts/task.mjs dev",
+    "lint": "node scripts/task.mjs lint",
+    "format-check": "node scripts/task.mjs format-check",
+    "typecheck": "node scripts/task.mjs typecheck",
+    "test": "node scripts/task.mjs test",
+    "build": "node scripts/task.mjs build",
+    "e2e": "node scripts/task.mjs e2e",
+    "up": "node scripts/task.mjs up",
+    "down": "node scripts/task.mjs down",
+    "logs": "node scripts/task.mjs logs",
+    "stack-check": "node scripts/task.mjs stack-check",
+    "stack-verify": "node scripts/task.mjs stack-verify",
+    "verify": "node scripts/task.mjs verify",
+    "verify-artifacts": "node scripts/task.mjs verify-artifacts"
+  }
+}
