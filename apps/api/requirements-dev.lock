@@ -8,6 +8,7 @@ colorama==0.4.6; sys_platform == "win32"
 hatchling==1.32.0
 httpcore==1.0.9
 httpx==0.28.1
+hypothesis==6.165.10
 iniconfig==2.3.0
 librt==0.15.0; python_version >= "3.13"
 mypy==2.3.1
@@ -19,5 +20,6 @@ pygments==2.20.0
 pytest==9.1.1
 pyproject-hooks==1.2.0
 ruff==0.16.3
+sortedcontainers==2.4.0
 tomlkit==0.15.1
 trove-classifiers==2026.6.1.19

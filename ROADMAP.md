@@ -2,8 +2,8 @@
 
 ## Now
 
-- Sprint 00: repository bootstrap and development foundation
-- Sprint 01: FinBank/Alpha Manufacturing deterministic domain model
+- Sprint 00 foundation: accepted with documented follow-up
+- Sprint 01 FinBank/Alpha Manufacturing deterministic domain model: accepted
 - Lock the coordinated initial-release definition: Product V1 Golden Lesson + Growth V1 social publishing
 
 ## Next

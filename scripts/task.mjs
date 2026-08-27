@@ -92,6 +92,11 @@ const apiModule = (module, args) => {
   requireSetup();
   run(venvPython(), ["-m", module, ...args], { cwd: join(projectRoot, "apps/api") });
 };
+const financeRoot = join(projectRoot, "packages/finance-engine");
+const financeModule = (module, args) => {
+  requireSetup();
+  run(venvPython(), ["-m", module, ...args], { cwd: financeRoot });
+};
 
 switch (requestedTask) {
   case "setup":
@@ -149,22 +154,27 @@ switch (requestedTask) {
     }
     web("lint");
     apiModule("ruff", ["check", "."]);
+    financeModule("ruff", ["check", "."]);
     break;
   case "format-check":
     web("format:check");
     apiModule("ruff", ["format", "--check", "."]);
+    financeModule("ruff", ["format", "--check", "."]);
     break;
   case "typecheck":
     web("typecheck");
     apiModule("mypy", []);
+    financeModule("mypy", []);
     break;
   case "test":
     web("test");
     apiModule("pytest", []);
+    financeModule("pytest", []);
     break;
   case "build":
     web("build");
     apiModule("build", ["--no-isolation", "--outdir", "dist"]);
+    financeModule("build", ["--no-isolation", "--outdir", "dist"]);
     break;
   case "e2e":
     run(process.execPath, ["scripts/run-web-e2e.mjs"]);

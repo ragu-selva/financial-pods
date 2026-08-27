@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "fixture_version": "1.0.0",
+  "currency_policy_version": "sprint-01-v1",
+  "institution": {
+    "id": "INS-FINBANK",
+    "name": "FinBank"
+  },
+  "counterparty": {
+    "id": "CP-ALPHA-MANUFACTURING",
+    "legal_name": "Alpha Manufacturing"
+  },
+  "product": {
+    "id": "PRD-TERM-LOAN",
+    "name": "Term Loan",
+    "kind": "term_loan"
+  },
+  "facility": {
+    "id": "FAC-ALPHA-TERM-LOAN-001",
+    "institution_id": "INS-FINBANK",
+    "borrower_id": "CP-ALPHA-MANUFACTURING",
+    "product_id": "PRD-TERM-LOAN",
+    "original_principal": {
+      "amount": "10000000.00",
+      "currency": "USD"
+    },
+    "origination_date": "2025-01-01",
+    "maturity_date": "2030-01-01"
+  },
+  "exposure": {
+    "id": "EXP-ALPHA-TERM-LOAN-20250101",
+    "facility_id": "FAC-ALPHA-TERM-LOAN-001",
+    "as_of_date": "2025-01-01",
+    "outstanding_principal": {
+      "amount": "10000000.00",
+      "currency": "USD"
+    }
+  },
+  "assumptions": [
+    {
+      "id": "ASM-FACILITY-DATES",
+      "description": "Synthetic origination and maturity dates for the first term-loan fixture.",
+      "value": "origination_date=2025-01-01; maturity_date=2030-01-01",
+      "status": "approved",
+      "approval_reference": "sprints/sprint-01/DOMAIN_MODEL_SCOPE.md#approved-synthetic-assumptions"
+    },
+    {
+      "id": "ASM-EXPOSURE-SNAPSHOT",
+      "description": "Synthetic exposure snapshot at origination with no inferred amortization.",
+      "value": "as_of_date=2025-01-01; outstanding_principal=USD 10000000.00",
+      "status": "approved",
+      "approval_reference": "sprints/sprint-01/DOMAIN_MODEL_SCOPE.md#approved-synthetic-assumptions"
+    }
+  ],
+  "provenance": [
+    {
+      "field_path": "institution.name",
+      "source_kind": "finalized_reference",
+      "source_locator": "Financial Pods Master Strategy, section 9",
+      "source_version": "sha256:40E3B48D84E8B5521B9AA112145D4E19F41EED78A92517A4D7BD2680182153E2"
+    },
+    {
+      "field_path": "counterparty.legal_name",
+      "source_kind": "finalized_reference",
+      "source_locator": "Financial Pods Master Strategy, section 6 learner-experience table",
+      "source_version": "sha256:40E3B48D84E8B5521B9AA112145D4E19F41EED78A92517A4D7BD2680182153E2"
+    },
+    {
+      "field_path": "product.kind",
+      "source_kind": "finalized_reference",
+      "source_locator": "Financial Pods Master Strategy, section 6 learner-experience table",
+      "source_version": "sha256:40E3B48D84E8B5521B9AA112145D4E19F41EED78A92517A4D7BD2680182153E2"
+    },
+    {
+      "field_path": "facility.original_principal",
+      "source_kind": "finalized_reference",
+      "source_locator": "Financial Pods Master Strategy, section 6 learner-experience table",
+      "source_version": "sha256:40E3B48D84E8B5521B9AA112145D4E19F41EED78A92517A4D7BD2680182153E2"
+    },
+    {
+      "field_path": "facility.origination_date",
+      "source_kind": "approved_assumption",
+      "source_locator": "ASM-FACILITY-DATES",
+      "source_version": "sprint-01-control-pack:2026-08-27"
+    },
+    {
+      "field_path": "facility.maturity_date",
+      "source_kind": "approved_assumption",
+      "source_locator": "ASM-FACILITY-DATES",
+      "source_version": "sprint-01-control-pack:2026-08-27"
+    },
+    {
+      "field_path": "exposure.as_of_date",
+      "source_kind": "approved_assumption",
+      "source_locator": "ASM-EXPOSURE-SNAPSHOT",
+      "source_version": "sprint-01-control-pack:2026-08-27"
+    },
+    {
+      "field_path": "exposure.outstanding_principal",
+      "source_kind": "approved_assumption",
+      "source_locator": "ASM-EXPOSURE-SNAPSHOT",
+      "source_version": "sprint-01-control-pack:2026-08-27"
+    }
+  ]
+}
