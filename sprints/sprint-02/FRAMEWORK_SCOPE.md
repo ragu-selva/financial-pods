@@ -2,7 +2,7 @@
 
 Status: PLANNING ONLY — NOT ACTIVE
 
-Architecture revision: 2026-09-08. Contracts below are proposed, not implemented.
+Final activation preparation: 2026-09-08. Contracts below are proposed, not implemented.
 Product direction is approved by the owner; regulatory sources, interpretations, facts, and expected
 outputs still require personally named human review. No candidate value here is executable authority.
 
@@ -21,21 +21,18 @@ a fixture ID, external-rating absence, or a BCBS SME sales threshold cannot choo
 
 ## 2. Candidate U.S. rule/source register
 
-Research access date: 2026-09-08. These official Federal Reserve pages were read for planning.
-Each entry has jurisdiction US, authority Board of Governors of the Federal Reserve System,
-regulation 12 CFR Part 217, and review status PENDING; human reviewer, approval date, exact
-effective interval, immutable source content/hash, and amendment-chain validation are NOT YET PINNED.
+Evidence captured on 2026-09-08 for the fixed regulatory/fact date **2025-01-01**.
+See [SOURCE_REVIEW.md](SOURCE_REVIEW.md) and [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json).
+Raw dated eCFR XML for all six required sections, the GovInfo 2025 annual edition, eCFR version
+metadata, two Federal Register source-chain documents, and separate R-1888 evidence are captured
+and SHA-256 pinned. This is non-executable review evidence, not an approved ruleset.
 
-Canonical codification entry point:
-[12 CFR Part 217](https://www.ecfr.gov/current/title-12/chapter-II/subchapter-A/part-217).
-Direct eCFR section retrieval failed in this session; the Board's Federal Reserve Regulatory Service
-(FRRS) provided readable primary-source text. Do not treat this access fallback as an approved
-version snapshot. A reviewer must reconcile the chosen dated eCFR/GovInfo text and Federal Register
-amendments before activation.
-
-[FRRS Regulation Q index](https://www.federalreserve.gov/frrs/regulations/regulation-q-capital-adequacy-of-bank-holding-companies-savings-and-loan-holding-companies-and-state-member-banks.htm)
-labels its compilation as amended effective July 1, 2026. That is compilation metadata, not proof
-that every selected paragraph took effect that day or applied on the Golden Case date.
+The dated eCFR API succeeded even though the browser-facing dated page did not. The GovInfo
+annual-edition XML explicitly carries 2025-01-01 in its publication metadata. The six section
+snapshots are the review baseline; FRRS 2026 pages below remain locator/context references only.
+No 2026 compilation date proves 2025 applicability. Exact paragraph-level effective intervals,
+the complete relevant amendment/LSA chain (especially § 217.2), applicability, and interpretation
+still require review. Source byte capture is VERIFIED; regulatory approval is PENDING.
 
 - **US-SCOPE:** [§ 217.1(c)](https://www.federalreserve.gov/frrs/regulations/section-2171-purpose-applicability-reservations-of-authority-and-timing.htm)
   and [§ 217.30](https://www.federalreserve.gov/frrs/regulations/section-21730-applicability.htm).
@@ -70,10 +67,14 @@ The Board's [R-1888 proposal record](https://www.federalreserve.gov/apps/proposa
 and [March 19, 2026 notice](https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260319a.htm)
 identify a proposed standardized-approach revision.
 The [proposal document](https://www.federalreserve.gov/aboutthefed/boardmeetings/files/npr-standardized-approach-20260319.pdf)
-describes changing the corporate weight from 100% to 95%. Record it as PROPOSED/non-executable;
-a comment deadline or publication does not make it a current approved rule. Recheck legal status
-and subsequent final/effective amendments at activation. Do not silently replace candidate 100%
-with 95%, and do not claim this research proves the absence of all subsequent amendments.
+describes a corporate-weight revision. The separately captured proposal record links to the
+March 27, 2026 Federal Register notice (document 2026-05960). Its manifest entry has
+legal_status=PROPOSED and executable=false and is excluded from candidate calculation sources.
+It never affects the 2025 case or a CURRENT alias. A subsequent final rule would require its own
+independently sourced, versioned, effective-dated and human-approved record, selected for a matching
+as-of date; never promote or mutate the proposal snapshot into executable authority.
+Tests must reject the proposal even if requested directly, accidentally aliased as CURRENT, or
+internally marked approved. See [PLANNED_TESTS.md](PLANNED_TESTS.md).
 
 ## 3. Source manifest and approval contract
 
@@ -89,7 +90,18 @@ Every eventual executable rule must have:
 - separate conceptual references, if any, clearly distinguished from executable U.S. authority.
 
 Missing source hashes or effective dates block approval; do not invent them or hash only a URL.
-Source/version verification remains a human-review prerequisite, not production ingestion work.
+[SOURCE_MANIFEST.json](SOURCE_MANIFEST.json) records observed hashes and source-version metadata.
+Unknown legal effective_from/effective_to fields remain null with effective_interval_status=PENDING;
+null does NOT mean unbounded validity. The eCFR versioner's amendment/date fields are editorial
+metadata, not automatically legal commencement dates. Human review must resolve intervals and
+review the relevant amendment chain before executable=true could ever be considered.
+Source/version verification is review preparation, not production ingestion.
+
+[ACTIVATION_RECORD.json](ACTIVATION_RECORD.json) provides the explicit accountable-human fields:
+reviewer_name, reviewer_role, reviewer_qualification_or_authority, responsibilities_accepted,
+review_date, review_decision, review_evidence. They are null until supplied or approved by the
+project owner; AI cannot populate the accountable identity, accept responsibilities, or sign approval.
+This identity record alone is insufficient: linked, immutable evidence must cover every approval gate.
 
 ## 4. Ruleset identity, status, and time
 
@@ -103,20 +115,23 @@ Two independent dimensions:
 - Legal lifecycle: CURRENT, PROPOSED, FUTURE, SUPERSEDED.
 - Internal review: DRAFT, PENDING_REVIEW, APPROVED, REJECTED.
 
-Normal execution requires APPROVED plus legal CURRENT for the explicitly requested as-of date,
-matching jurisdiction/regulator/regime, effective interval, and verified manifest/hash. Zero or
-multiple eligible versions are typed errors. PROPOSED and FUTURE versions never execute early.
-SUPERSEDED versions are not live defaults; later controlled historical replay would need a separate
-explicit policy. No such replay feature is implemented by this planning task.
+Execution must require APPROVED, executable=true, and legal CURRENT **for the selected as-of date**,
+matching jurisdiction/regulator/regime, a reviewed effective interval, and verified manifest/hash.
+Zero or multiple eligible versions are typed errors. The initial date is 2025-01-01, not today's date.
+A source now labelled SUPERSEDED can only support that historical date through an explicitly
+reviewed historical applicability record; it is never a live CURRENT default. This historical
+selection policy is an activation gate, not permission for broad replay functionality.
+PROPOSED never executes; FUTURE cannot execute before its reviewed effective date, and a later
+finalization requires a separately sourced final-rule version. No selector is implemented here.
 
 Approved rule content and manifests are immutable. Legal-status transitions, revocations, and
 supersession are append-only catalog events/new snapshots, not edits to prior evidence. Capture the
 catalog snapshot and selection decision in the trace; no ambient current date affects calculation.
 
-**Date decision pending:** the accepted Golden Case snapshot is 2025-01-01. Prefer preserving it
-and obtaining an approved historical U.S. snapshot effective that day. Alternatively approve a new,
-separately versioned current-dated fixture. Do not apply a July 2026 compilation as if it were proven
-2025 law, silently re-date the original, or blend fact and source-retrieval dates.
+**Date decision fixed by the owner:** preserve the accepted Golden Case regulatory/fact snapshot
+2025-01-01. Re-dating is not an activation alternative for Sprint 02. New regulatory enrichment
+is separately versioned but retains that date and leaves the Sprint 01 fixture unchanged.
+Only approved point-in-time U.S. authority applicable on that date may support this case.
 
 ## 5. Generic fact contract — regulatory-facts.v0.1-draft
 
@@ -141,24 +156,58 @@ applicable, and explicit assessment status. This is not a dictionary of guessed 
   accrued interest/fees/premium/discount and adjustments already reflected in carrying value.
   No double subtraction; positive/matching USD values and zero adjustments are proposed for the
   first fixture only. Nonzero adjustments require review and are outside the initial calculation path.
-- Scope guards: collateral, guarantee, netting, credit_risk_mitigation, real_estate_exposure,
-  retail_exposure, specialised_lending, and subordinated_exposure are explicitly assessed.
-  None/false is an affirmative reviewed fact, never an omitted-field default.
+- Initial product-scope guards: collateral, guarantee, netting, credit_risk_mitigation, security/
+  derivative/commitment components and non-ordinary loan features are explicitly assessed.
+  None/false is a proposed fact requiring review, never an omitted-field default.
+  Product-scope rejection means UNSUPPORTED_EXPOSURE_SCOPE, not a different legal classification.
 - Classification evidence: a versioned screen must positively address the exclusions in the selected
   corporate definition, including sovereign/supranational, bank/credit-union/PSE/GSE, mortgage and
   construction variants, QCCP/cleared/default-fund, securitization/equity/unsettled, and policy-loan/
   separate-account/PPP categories. Derive checks from granular counterparty/instrument facts; do not
   accept an unsubstantiated caller-supplied exposure_class=CORPORATE as proof.
 
-Proposed scope_assessments keys: sovereign_or_supranational, depository_or_foreign_bank_or_credit_union,
-public_sector_entity, gse, residential_mortgage, presold_construction, statutory_multifamily, hvcre,
-cleared_transaction, default_fund_contribution, securitization, equity, unsettled_transaction,
-policy_loan, separate_account, ppp_loan. Each assessment contains outcome YES/NO/UNKNOWN, supporting
-fact paths, and provenance; the first successful path requires evidenced NO for each exclusion.
-Additional measurement guards require assessment of securities, OTC derivatives, repo-style/eligible
-margin loans, and purchased-credit-deteriorated assets; these treatments are outside this first slice.
-The reviewer must approve this proposed complete screen against the selected dated definition.
-Unknown or absent assessments fail. Guards do not implement alternative exposure-class formulas.
+### U.S.-authority classification screen
+
+USStandardizedRuleset derives corporate status from the selected **2025 version of 12 CFR 217.2**
+and applicable Part 217 treatment provisions. The captured definition first requires an exposure
+to a company, then excludes the following numbered categories. Proposed screen keys map directly
+to these paragraph numbers (not to a BCBS taxonomy):
+
+1. Sovereign; BIS; ECB; European Commission; IMF; ESM; EFSF; MDB; depository institution;
+   foreign bank; credit union; or PSE. Every named alternative is assessed, not merely a loose
+   "sovereign/supranational" label.
+2. GSE.
+3. Residential mortgage exposure.
+4. Pre-sold construction loan.
+5. Statutory multifamily mortgage.
+6. HVCRE exposure.
+7. Cleared transaction.
+8. Default fund contribution.
+9. Securitization exposure.
+10. Equity exposure.
+11. Unsettled transaction.
+12. Policy loan.
+13. Separate account.
+14. Paycheck Protection Program covered loan.
+
+Each assessment records the exact definition paragraph, supporting fact paths, outcome
+YES/NO/UNKNOWN, provenance, and review status. Candidate NO is not reviewed NO. All fourteen
+need approved evidence for the first successful path; absent/unknown/conflicting material evidence
+is a typed error. A positive exclusion prevents the ordinary corporate path but does not implement
+the excluded class. Definitions and cross-references must be checked against the captured version.
+
+Separate **treatment/measurement/product-scope** screens must cover § 217.30(b) covered positions;
+§ 217.32(f)(2)-(3) QCCP exceptions; § 217.32(k) 90-days-past-due/nonaccrual;
+§ 217.2 exposure amount (1) exceptions and carrying-value basis; and CRM/guarantee/netting.
+The initial product path additionally accepts only a fully drawn, performing, zero-days-past-due,
+non-defaulted ordinary loan. These narrower product restrictions are not new statutory corporate
+exclusions. Future unsupported treatments must fail explicitly, not acquire a guessed risk weight.
+
+Specialised lending, generic regulatory retail, BCBS SME, and BCBS external-rating categories
+remain vocabulary/extension points. They MUST NOT independently set or veto U.S. corporate status.
+Only an explicitly approved mapping to a selected U.S. rule could make such a concept an executable
+U.S. predicate. A generic retail/specialised-lending flag alone is not a legal corporate exclusion.
+Underlying mortgage/HVCRE or other facts may still trigger a cited U.S. exclusion.
 
 ### Extension points, not initial requirements
 
@@ -191,7 +240,7 @@ Conceptual interface only (no implementation in this revision):
 
 - classify_exposure(facts, context) -> ClassificationResult
 - resolve_treatment(classification, facts, context) -> RegulatoryTreatment
-- determine_exposure_amount(facts, treatment, context) -> ExposureMeasure
+- determine_regulatory_exposure_measure(facts, treatment, context) -> RegulatoryExposureMeasure
 - determine_risk_weight(facts, treatment, context) -> RiskWeight
 - calculate_rwa(exposure_measure, risk_weight, context) -> RwaResult
 - calculate_capital_teaching_outputs(rwa, context) -> TeachingOutput[]
@@ -222,15 +271,14 @@ Example shape only. GENERAL_CORPORATE is a product taxonomy label mapped to U.S.
 an invented statutory definition. Successful live outputs must contain actual approved references;
 placeholder strings are invalid. Names are absent.
 
-## 7. Calculation result — regulatory-calculation.v0.1-draft
+## 7. Calculation result — regulatory-calculation.v0.2-draft
 
 Required successful-result fields:
 
 - schema_version, jurisdiction, as_of_date, calculation_id, fixture_version, fact_schema_version;
 - classification and regulatory_treatment;
-- exposure_amount: exact money plus measurement_basis and rule_refs;
+- regulatory_exposure_measure: RegulatoryExposureMeasure, the single authoritative RWA measure;
 - risk_weight: exact decimal ratio with unit=RATIO and rule_refs;
-- ead: explicit amount/basis mapping, as described below;
 - rwa: exact money plus rule_refs;
 - capital_teaching_outputs: ordered named amounts, ratio basis, references, warning/exclusion IDs;
 - ruleset_id, ruleset_version, rule_versions, manifest_hash, catalog_snapshot_id;
@@ -240,15 +288,37 @@ Money is plain decimal text paired with currency. Risk weight 100% is ratio "1.0
 Do not silently reinterpret existing Sprint 01 Percentage values (percentage points) as ratios.
 Unit conversion belongs to an explicit tested boundary. No floating-point authoritative arithmetic.
 
-**EAD contract decision proposed:** retain the generic ead slot with amount equal to exposure_amount
-for this fully drawn ordinary U.S. standardized case, basis=US_STANDARDIZED_EXPOSURE_AMOUNT_ALIAS,
-and a warning that this is a product-schema alias, not a separate advanced-approaches EAD estimate.
-No PD/LGD, maturity model, CCF, or new formula. Human review must approve this mapping and its
-terminology before activation. RWA uses the provider's cited exposure_amount, not an unexplained EAD.
+### RegulatoryExposureMeasure — regulatory-exposure-measure.v0.1-draft
 
-First teaching output name proposed: baseline_total_capital_equivalent, carrying ratio "0.08".
-The array can later support additional approved educational equivalents; no actual CET1/Tier 1
-ratio, capital numerator, or adequacy determination is introduced. Reject unapproved output names.
+Typed fields: amount, currency, measure_type, measurement_basis, rule_refs, warnings.
+
+```json
+{
+  "amount": "10000000.00",
+  "currency": "USD",
+  "measure_type": "EXPOSURE_AMOUNT",
+  "measurement_basis": "US_STANDARDIZED_CARRYING_VALUE",
+  "rule_refs": ["US-MEASURE"],
+  "warnings": []
+}
+```
+
+This is a candidate shape, not an approved result. Rule references must resolve to approved
+versioned evidence in a live result. The U.S. slice fixes measure_type=EXPOSURE_AMOUNT and
+measurement_basis=US_STANDARDIZED_CARRYING_VALUE. RWA consumes this typed measure and the cited
+risk weight. There is no top-level ead field or duplicated authoritative exposure_amount field,
+and no EAD label, alias, or conversion is permitted. The old v0.1 result proposal is superseded.
+
+The generic measure discriminator may later admit EAD only when a separate approved provider
+actually defines and requires it, with its own measurement basis, rules and tests. This is not
+a second implemented variant in Sprint 02. Incompatible type/basis/provider combinations fail.
+
+Exactly one Sprint 02 teaching output: baseline_total_capital_equivalent at ratio "0.08".
+No CET1 or Tier 1 educational equivalents in this sprint; those require separate Golden Lesson/
+UX-phase review. The 8% transformation is educational, based on the minimum total-capital ratio;
+it is not allocated capital for a loan, an institution-specific capital requirement, or a capital
+adequacy conclusion. It does not compute a capital numerator or actual bank ratio.
+Unknown/additional teaching names must fail the initial provider contract.
 
 Canonical JSON uses a documented key/order policy, ISO dates, exact decimals, stable ordered trace,
 and SHA-256 over the normalized fact snapshot including provenance and fact versions. Define the
@@ -266,11 +336,18 @@ Proposed enrichment, all PENDING human approval: in-scope U.S./FRB standardized 
 non-financial company borrower, ordinary fully drawn on-balance-sheet loan, no undrawn exposure,
 performing with zero past-due days/nonaccrual, no excluded categories, no CRM, and reviewed
 GAAP carrying value USD 10,000,000 with zero accounting adjustments and loss allowances.
+The institution is a synthetic in-scope Board-regulated state member bank, CBLR not elected,
+family US_FRB_PART217_STANDARDIZED, regulatory as-of 2025-01-01. Past_due=false,
+days_past_due=0 and nonaccrual=false are explicit candidates. All corporate exclusions require
+reviewed false/not-applicable evidence; CRM is none in scope.
+[GOLDEN_CASE_CANDIDATE.json](GOLDEN_CASE_CANDIDATE.json) records candidate assumptions and outputs
+with PENDING human review, not a new accepted Sprint 01 fixture or an executable request.
 
 **Conditional candidate outputs, NOT approved golden results:** only if that fact set and the
 matching dated U.S. sources are approved, classification CORPORATE / GENERAL_CORPORATE;
-exposure_amount USD 10,000,000; risk_weight ratio "1.00"; ead equal to exposure_amount under the
-explicit alias; rwa USD 10,000,000; baseline_total_capital_equivalent USD 800,000.
+regulatory_exposure_measure amount USD 10,000,000, type EXPOSURE_AMOUNT, basis
+US_STANDARDIZED_CARRYING_VALUE; risk_weight ratio "1.00"; rwa USD 10,000,000;
+baseline_total_capital_equivalent USD 800,000 at ratio "0.08". No EAD output.
 RWA follows US-RWA and the educational equivalent follows US-TEACHING plus a clearly labelled
 product transformation. Numerical coincidence with the old BCBS example does not transfer authority.
 
@@ -285,23 +362,28 @@ mortgage, SME, sovereign, and defaulted fixtures remain later scope, not success
 
 ## 9. First-class calculation / regulatory trace
 
-Proposed trace schema: regulatory-trace.v0.1-draft, an immutable ordered sequence:
+Proposed trace schema: regulatory-trace.v0.2-draft, an immutable ordered sequence:
 
 1. Select jurisdiction and institution/regime context.
 2. Resolve exact approved U.S. provider/version/effective interval.
 3. Validate material facts, provenance, and scope screens.
 4. Classify exposure using U.S. predicates.
 5. Resolve applicable corporate treatment and exclusions.
-6. Determine cited exposure amount and explicit EAD alias.
+6. Emit RegulatoryExposureMeasure: EXPOSURE_AMOUNT / US_STANDARDIZED_CARRYING_VALUE.
 7. Determine applicable risk weight.
 8. Calculate RWA.
-9. Calculate approved educational capital equivalent(s).
+9. Emit only baseline_total_capital_equivalent at ratio 0.08.
 10. Attach source evidence, warnings, and exclusions; finalize hashes.
 
 Each step contains step_id, sequence, operation, rule_id, rule_version, reason_code,
 source_locator/source_refs, inputs_used, typed output, and warnings.
 Non-regulatory steps use a versioned engine-contract reference, not a fabricated legal citation.
 Regulatory steps must resolve to approved source records; multiple rule_refs are allowed.
+Step 6 typed output contains all six measure fields (amount/currency/type/basis/refs/warnings).
+Step 8 inputs_used names regulatory_exposure_measure and risk_weight, not ead or an alias.
+The trace preserves the measure discriminator and basis, the fixed 2025-01-01 selection date,
+the exact manifest and source versions, and the proposal-exclusion decision.
+[PLANNED_TESTS.md](PLANNED_TESTS.md) defines negative/schema/trace and later runtime test vectors.
 
 Trace is produced with the computation from structured evidence, not reconstructed by an LLM.
 Failed selection/validation returns a typed failure trace without a successful financial result.
@@ -311,13 +393,17 @@ No network lookup, clock, random ID generation, or provider side effect inside t
 
 - [ ] Personally name the human regulatory reviewer and record role, authority, acceptance, and process.
 - [ ] Approve the U.S. institution/perimeter, including standardized versus other regimes/CBLR.
-- [ ] Approve historical 2025-01-01 sources or a new dated fixture; capture exact versions, intervals,
-  canonical snapshots/hashes, amendment references, and proposal-versus-effective status.
+- [ ] Review the captured 2025-01-01 sources, exact versions and hashes; finish relevant amendment/
+      LSA reconciliation and approve legal effective intervals, locators and proposal separation.
 - [ ] Approve the full corporate exclusion-screen contract and rule interpretation.
 - [ ] Approve Golden Case accounting/carrying-value reconciliation and all new negative facts.
-- [ ] Approve classification, risk weight, EAD alias, RWA, teaching transformation, amounts, and exclusions.
+- [ ] Approve classification, risk weight, regulatory exposure measure, RWA, the sole 8% teaching output,
+      candidate amounts, assumptions and exclusions.
 - [ ] Approve fact/classification/result/trace schemas, ratio units, hash policy, and precision/errors.
 - [ ] Approve lifecycle/revocation/replay policy and tests preventing proposed/future-rule execution.
-- [ ] Approve the control pack and proposed ADR together; explicitly authorize Sprint 02 activation.
+- [ ] Complete ACTIVATION_RECORD.json; only then prepare the separate documentation-only activation PR
+      from current main, accepting ADR 0004 and recording approval/status. Do not merge automatically.
+- [ ] Implementation may begin only after that activation PR is reviewed and merged, on a separate
+      codex/sprint-02-us-corporate-engine branch. Planning work is not activation.
 
 Until then: PLANNING ONLY — NOT ACTIVE. AI research is assistance, not regulatory sign-off.

@@ -1,0 +1,502 @@
+{
+  "status": "PLANNING ONLY — NOT ACTIVE",
+  "schema_version": "source-review-manifest.v0.1-draft",
+  "ruleset_family": "US_FRB_PART217_STANDARDIZED",
+  "ruleset_version": null,
+  "regulatory_as_of": "2025-01-01",
+  "capture_status": "CAPTURED",
+  "approval_status": "PENDING_REVIEW",
+  "executable": false,
+  "hash_policy": {
+    "id": "source-raw-bytes-sha256.v1-draft",
+    "algorithm": "SHA-256",
+    "normalization": "NONE. Hash complete downloaded response body bytes stored on disk; no XML/text/line-ending/Unicode reserialization. HTTP transport headers and URL are not the hash payload.",
+    "git_storage": "evidence/.gitattributes disables text conversion; verify working-tree and Git-blob bytes. A changed source requires a new snapshot/hash.",
+    "manifest_hash_policy": "Final executable manifest canonicalization/hash requires approval; this draft is not an approved manifest."
+  },
+  "candidate_execution_source_ids": [
+    "US-SCOPE-INSTITUTION",
+    "US-DEFINITIONS",
+    "US-TEACHING-SOURCE",
+    "US-SCOPE-STANDARDIZED",
+    "US-RWA-SOURCE",
+    "US-WEIGHT-TREATMENT"
+  ],
+  "sources": [
+    {
+      "source_id": "US-SCOPE-INSTITUTION",
+      "source_kind": "DATED_ECFR_SECTION",
+      "jurisdiction": "US",
+      "authority": "Board of Governors of the Federal Reserve System",
+      "regulation": "12 CFR Part 217",
+      "section": "217.1",
+      "point_in_time_date": "2025-01-01",
+      "canonical_source": "https://www.ecfr.gov/on/2025-01-01/title-12/chapter-II/subchapter-A/part-217/section-217.1",
+      "retrieval_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-01/title-12.xml?part=217&section=217.1",
+      "source_locator": {
+        "xml_section": "DIV8[@N='217.1']",
+        "candidate_rule_locators": [
+          "(c): applicability; relevant exceptions/timing to be reviewed"
+        ]
+      },
+      "local_path": "evidence/us-2025-01-01/217.1.xml",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "432eed1089ac4a55bd2c8e2dc4cee0186cf269a3aaa26e4239b2fe81bedcb084",
+      "byte_length": 17545,
+      "source_version_metadata": {
+        "api_requested_date": "2025-01-01",
+        "latest_editorial_record_before_as_of": {
+          "date": "2024-01-01",
+          "amendment_date": "2024-01-01",
+          "issue_date": "2024-03-06",
+          "identifier": "217.1",
+          "name": "§ 217.1   Purpose, applicability, reservations of authority, and timing.",
+          "part": "217",
+          "substantive": false,
+          "removed": false,
+          "subpart": "A",
+          "title": "12",
+          "type": "section"
+        },
+        "note": "API amendment/date/issue fields are editorial evidence, not approved paragraph-level legal effective dates."
+      },
+      "federal_register_references_as_printed": [
+        "[Reg. Q, 78 FR 62157, 62285, Oct. 11, 2013, as amended at 79 FR 24540, May 1, 2014; 79 FR 57744, Sept. 26, 2014; 80 FR 5670, Feb. 3, 2015; 80 FR 20157, Apr. 15, 2015; 80 FR 49103, Aug. 14, 2015; 83 FR 44198, Aug. 30, 2018; 84 FR 59269, Nov. 1, 2019; 88 FR 82967, Nov. 27, 2023]"
+      ],
+      "federal_register_chain_status": "PENDING_RECONCILIATION",
+      "federal_register_chain_note": "Printed section/source notes are a review starting point, not an independently approved complete amendment chain.",
+      "effective_from": null,
+      "effective_to": null,
+      "effective_interval_status": "PENDING",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "legal_status_review": "PENDING",
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null
+    },
+    {
+      "source_id": "US-DEFINITIONS",
+      "source_kind": "DATED_ECFR_SECTION",
+      "jurisdiction": "US",
+      "authority": "Board of Governors of the Federal Reserve System",
+      "regulation": "12 CFR Part 217",
+      "section": "217.2",
+      "point_in_time_date": "2025-01-01",
+      "canonical_source": "https://www.ecfr.gov/on/2025-01-01/title-12/chapter-II/subchapter-A/part-217/section-217.2",
+      "retrieval_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-01/title-12.xml?part=217&section=217.2",
+      "source_locator": {
+        "xml_section": "DIV8[@N='217.2']",
+        "candidate_rule_locators": [
+          "corporate exposure definition (1)-(14)",
+          "carrying value definition",
+          "exposure amount definition (1)"
+        ]
+      },
+      "local_path": "evidence/us-2025-01-01/217.2.xml",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "7b2340c44376ce4716a8a205614bbe82d891327f049c76865fb9dc1d9100ede5",
+      "byte_length": 111578,
+      "source_version_metadata": {
+        "api_requested_date": "2025-01-01",
+        "latest_editorial_record_before_as_of": {
+          "date": "2024-01-01",
+          "amendment_date": "2024-01-01",
+          "issue_date": "2024-01-01",
+          "identifier": "217.2",
+          "name": "§ 217.2   Definitions.",
+          "part": "217",
+          "substantive": true,
+          "removed": false,
+          "subpart": "A",
+          "title": "12",
+          "type": "section"
+        },
+        "note": "API amendment/date/issue fields are editorial evidence, not approved paragraph-level legal effective dates."
+      },
+      "federal_register_references_as_printed": [
+        "[Reg. Q, 78 FR 62157, 62285, Oct. 11, 2013]"
+      ],
+      "federal_register_chain_status": "PENDING_RECONCILIATION",
+      "federal_register_chain_note": "Section editorial note refers to the List of CFR Sections Affected; printed base citation is not a complete amendment chain.",
+      "effective_from": null,
+      "effective_to": null,
+      "effective_interval_status": "PENDING",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "legal_status_review": "PENDING",
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null
+    },
+    {
+      "source_id": "US-TEACHING-SOURCE",
+      "source_kind": "DATED_ECFR_SECTION",
+      "jurisdiction": "US",
+      "authority": "Board of Governors of the Federal Reserve System",
+      "regulation": "12 CFR Part 217",
+      "section": "217.10",
+      "point_in_time_date": "2025-01-01",
+      "canonical_source": "https://www.ecfr.gov/on/2025-01-01/title-12/chapter-II/subchapter-A/part-217/section-217.10",
+      "retrieval_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-01/title-12.xml?part=217&section=217.10",
+      "source_locator": {
+        "xml_section": "DIV8[@N='217.10']",
+        "candidate_rule_locators": ["(a)(1)(iii)", "(a)(2)", "(b)"]
+      },
+      "local_path": "evidence/us-2025-01-01/217.10.xml",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "7f4ae17530a9760070687d2391893eb36a98d783b60969d7202ef2c57710853f",
+      "byte_length": 27878,
+      "source_version_metadata": {
+        "api_requested_date": "2025-01-01",
+        "latest_editorial_record_before_as_of": {
+          "date": "2024-01-01",
+          "amendment_date": "2024-01-01",
+          "issue_date": "2024-01-10",
+          "identifier": "217.10",
+          "name": "§ 217.10   Minimum capital requirements.",
+          "part": "217",
+          "substantive": false,
+          "removed": false,
+          "subpart": "B",
+          "title": "12",
+          "type": "section"
+        },
+        "note": "API amendment/date/issue fields are editorial evidence, not approved paragraph-level legal effective dates."
+      },
+      "federal_register_references_as_printed": [
+        "[Reg. Q, 78 FR 62157, 62285, Oct. 11, 2013, as amended at 78 FR 62286, Oct. 11, 2013; 79 FR 57744, Sept. 26, 2014; 80 FR 41419, July 15, 2015; 84 FR 4242, Feb. 14, 2019; 84 FR 35259, July 22, 2019; 84 FR 59271, Nov. 1, 2019; 84 FR 61797, Nov. 13, 2019; 85 FR 4416, Jan. 24, 2020; 85 FR 4578, Jan. 27, 2020; 85 FR 57961, Sept. 17, 2020; 86 FR 732, Jan. 6, 2021; 88 FR 82969, Nov. 27, 2023]"
+      ],
+      "federal_register_chain_status": "PENDING_RECONCILIATION",
+      "federal_register_chain_note": "Printed section/source notes are a review starting point, not an independently approved complete amendment chain.",
+      "effective_from": null,
+      "effective_to": null,
+      "effective_interval_status": "PENDING",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "legal_status_review": "PENDING",
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null
+    },
+    {
+      "source_id": "US-SCOPE-STANDARDIZED",
+      "source_kind": "DATED_ECFR_SECTION",
+      "jurisdiction": "US",
+      "authority": "Board of Governors of the Federal Reserve System",
+      "regulation": "12 CFR Part 217",
+      "section": "217.30",
+      "point_in_time_date": "2025-01-01",
+      "canonical_source": "https://www.ecfr.gov/on/2025-01-01/title-12/chapter-II/subchapter-A/part-217/section-217.30",
+      "retrieval_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-01/title-12.xml?part=217&section=217.30",
+      "source_locator": {
+        "xml_section": "DIV8[@N='217.30']",
+        "candidate_rule_locators": ["(a)", "(b)"]
+      },
+      "local_path": "evidence/us-2025-01-01/217.30.xml",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "2ae989bc248d3f975aa4460b396686bae0449f35adeafba10ae83062c48b7150",
+      "byte_length": 877,
+      "source_version_metadata": {
+        "api_requested_date": "2025-01-01",
+        "latest_editorial_record_before_as_of": {
+          "date": "2017-01-01",
+          "amendment_date": "2017-01-01",
+          "issue_date": "2017-01-01",
+          "identifier": "217.30",
+          "name": "§ 217.30   Applicability.",
+          "part": "217",
+          "substantive": true,
+          "removed": false,
+          "subpart": "D",
+          "title": "12",
+          "type": "section"
+        },
+        "note": "API amendment/date/issue fields are editorial evidence, not approved paragraph-level legal effective dates."
+      },
+      "federal_register_references_as_printed": [],
+      "federal_register_chain_status": "PENDING_RECONCILIATION",
+      "federal_register_chain_note": "Printed section/source notes are a review starting point, not an independently approved complete amendment chain.",
+      "effective_from": null,
+      "effective_to": null,
+      "effective_interval_status": "PENDING",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "legal_status_review": "PENDING",
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null
+    },
+    {
+      "source_id": "US-RWA-SOURCE",
+      "source_kind": "DATED_ECFR_SECTION",
+      "jurisdiction": "US",
+      "authority": "Board of Governors of the Federal Reserve System",
+      "regulation": "12 CFR Part 217",
+      "section": "217.31",
+      "point_in_time_date": "2025-01-01",
+      "canonical_source": "https://www.ecfr.gov/on/2025-01-01/title-12/chapter-II/subchapter-A/part-217/section-217.31",
+      "retrieval_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-01/title-12.xml?part=217&section=217.31",
+      "source_locator": {
+        "xml_section": "DIV8[@N='217.31']",
+        "candidate_rule_locators": ["(a)(1)(i)-(v)", "(a)(2)"]
+      },
+      "local_path": "evidence/us-2025-01-01/217.31.xml",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "22abe088b84059e7d6dad4c5e83fc55897f4cd7c54bbe47e54acbf821eb05638",
+      "byte_length": 1606,
+      "source_version_metadata": {
+        "api_requested_date": "2025-01-01",
+        "latest_editorial_record_before_as_of": {
+          "date": "2017-01-01",
+          "amendment_date": "2017-01-01",
+          "issue_date": "2017-01-01",
+          "identifier": "217.31",
+          "name": "§ 217.31   Mechanics for calculating risk-weighted assets for general credit risk.",
+          "part": "217",
+          "substantive": true,
+          "removed": false,
+          "subpart": "D",
+          "title": "12",
+          "type": "section"
+        },
+        "note": "API amendment/date/issue fields are editorial evidence, not approved paragraph-level legal effective dates."
+      },
+      "federal_register_references_as_printed": [],
+      "federal_register_chain_status": "PENDING_RECONCILIATION",
+      "federal_register_chain_note": "Printed section/source notes are a review starting point, not an independently approved complete amendment chain.",
+      "effective_from": null,
+      "effective_to": null,
+      "effective_interval_status": "PENDING",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "legal_status_review": "PENDING",
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null
+    },
+    {
+      "source_id": "US-WEIGHT-TREATMENT",
+      "source_kind": "DATED_ECFR_SECTION",
+      "jurisdiction": "US",
+      "authority": "Board of Governors of the Federal Reserve System",
+      "regulation": "12 CFR Part 217",
+      "section": "217.32",
+      "point_in_time_date": "2025-01-01",
+      "canonical_source": "https://www.ecfr.gov/on/2025-01-01/title-12/chapter-II/subchapter-A/part-217/section-217.32",
+      "retrieval_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-01/title-12.xml?part=217&section=217.32",
+      "source_locator": {
+        "xml_section": "DIV8[@N='217.32']",
+        "candidate_rule_locators": ["(f)(1)-(3)", "(k)"]
+      },
+      "local_path": "evidence/us-2025-01-01/217.32.xml",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "f2611630df5ea4141bbeae737394e9fe99f0b881ba4f824f21b5980eb93e837a",
+      "byte_length": 22645,
+      "source_version_metadata": {
+        "api_requested_date": "2025-01-01",
+        "latest_editorial_record_before_as_of": {
+          "date": "2020-09-17",
+          "amendment_date": "2020-09-17",
+          "issue_date": "2024-06-11",
+          "identifier": "217.32",
+          "name": "§ 217.32   General risk weights.",
+          "part": "217",
+          "substantive": false,
+          "removed": false,
+          "subpart": "D",
+          "title": "12",
+          "type": "section"
+        },
+        "note": "API amendment/date/issue fields are editorial evidence, not approved paragraph-level legal effective dates."
+      },
+      "federal_register_references_as_printed": [
+        "[Reg. Q, 78 FR 62157, 62285, Oct. 11, 2013, as amended at 78 FR 62287, Oct. 11, 2013; 84 FR 35264, July 22, 2019; 85 FR 4417, Jan. 24, 2020; 85 FR 20393, Apr. 13, 2020; 85 FR 57961, Sept. 17, 2020]"
+      ],
+      "federal_register_chain_status": "PENDING_RECONCILIATION",
+      "federal_register_chain_note": "Printed section/source notes are a review starting point, not an independently approved complete amendment chain.",
+      "effective_from": null,
+      "effective_to": null,
+      "effective_interval_status": "PENDING",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "legal_status_review": "PENDING",
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null
+    }
+  ],
+  "supporting_evidence": [
+    {
+      "source_id": "GOVINFO-2025-PART217",
+      "source_kind": "SUPPORTING_EVIDENCE",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/CFR-2025-title12-vol2/xml/CFR-2025-title12-vol2-part217.xml",
+      "local_path": "evidence/us-2025-01-01/govinfo-2025-part217.xml",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "9460309a79664e83053e35aa60cc810cca272f1c139d88f86cc3589cf5852c34",
+      "byte_length": 1427664,
+      "purpose": "Annual-edition corroboration; FDSYS DATE/ORIGINALDATE 2025-01-01, title 12 volume 2; do not execute unrelated sections.",
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "publication_date": "2025-01-01"
+    },
+    {
+      "source_id": "ECFR-VERSION-HISTORY",
+      "source_kind": "SUPPORTING_EVIDENCE",
+      "retrieval_url": "https://www.ecfr.gov/api/versioner/v1/versions/title-12.json?part=217",
+      "local_path": "evidence/us-2025-01-01/part-217-versions.json",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "c030ff7770bb03d64666c5977ca661b729a68bbe582d994b526600529cd5f4a2",
+      "byte_length": 99738,
+      "purpose": "Retrieval-time editorial history; includes later/unrelated records, never automatically selects a version.",
+      "executable": false,
+      "review_status": "PENDING_REVIEW"
+    },
+    {
+      "source_id": "FR-2013-21653",
+      "source_kind": "SUPPORTING_EVIDENCE",
+      "retrieval_url": "https://www.govinfo.gov/link/fr/78/62157?link-type=html",
+      "local_path": "evidence/us-2025-01-01/fr-78-62157.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "93fb03f3f0b5d5b9d20ed61ed903228148325947c60e1e27a3d9595f2c435f02",
+      "byte_length": 2036968,
+      "purpose": "Founding rule, 78 FR 62018-62291; Part 217 codification around 62157/62285. Review applicability/timing, not publication-as-effective inference.",
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "publication_date": "2013-10-11",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2013-10-11/html/2013-21653.htm"
+    },
+    {
+      "source_id": "FR-2023-23911",
+      "source_kind": "SUPPORTING_EVIDENCE",
+      "retrieval_url": "https://www.govinfo.gov/link/fr/88/82967?link-type=html",
+      "local_path": "evidence/us-2025-01-01/fr-88-82967.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "bdd909aa60380a71b3b7e2ab85ce231cf70c6f510c5b71c860f2b37acea23b69",
+      "byte_length": 226948,
+      "purpose": "88 FR 82950-82980; insurance-activities rule amending relevant general provisions. Exact paragraph effects require review.",
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "publication_date": "2023-11-27",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2023-11-27/html/2023-23911.htm"
+    }
+  ],
+  "proposal_evidence": [
+    {
+      "source_id": "R-1888-PROPOSAL",
+      "source_kind": "PROPOSAL_RECORD",
+      "retrieval_url": "https://www.federalreserve.gov/apps/proposals/FR-2026-0008-01/details",
+      "local_path": "evidence/r-1888/proposal-record.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "e5b7ff5aaeff8eeb25a6f2b54b10255cf1f6586a61dd7fd92ff6cd74ba69ab08",
+      "byte_length": 56322,
+      "purpose": "Separate 2026 proposal evidence, never 2025 calculation authority.",
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "legal_status": "PROPOSED",
+      "effective_from": null,
+      "effective_to": null,
+      "regulation": "12 CFR Part 217 (proposed amendments)",
+      "federal_register_document": "2026-05960",
+      "publication_date": "2026-03-27",
+      "federal_register_url": "https://www.federalregister.gov/documents/2026/03/27/2026-05960/regulatory-capital-rules-regulatory-capital-and-standardized-approach-for-risk-weighted-assets",
+      "finalization_policy": "A final rule requires a new independently sourced, effective-dated, reviewed version; never mutate this proposal record or apply it to 2025.",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null
+    }
+  ],
+  "rule_bindings": [
+    {
+      "rule_id": "US-SCOPE",
+      "source_ids": ["US-SCOPE-INSTITUTION", "US-SCOPE-STANDARDIZED"],
+      "interpretation": "Candidate synthetic in-scope Board-regulated state member bank using standardized treatment; no CBLR election and no excluded covered position.",
+      "rule_version": null,
+      "applicability_review": "PENDING",
+      "exclusions_review": "PENDING",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "executable": false
+    },
+    {
+      "rule_id": "US-CLASS",
+      "source_ids": ["US-DEFINITIONS"],
+      "interpretation": "Company exposure satisfying the dated corporate definition; all fourteen numbered exclusions assessed. Generic BCBS labels cannot decide this.",
+      "rule_version": null,
+      "applicability_review": "PENDING",
+      "exclusions_review": "PENDING",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "executable": false
+    },
+    {
+      "rule_id": "US-MEASURE",
+      "source_ids": ["US-DEFINITIONS"],
+      "interpretation": "Ordinary on-balance-sheet exposure measured using applicable GAAP carrying value, without double subtracting allowance/write-offs. Type EXPOSURE_AMOUNT.",
+      "rule_version": null,
+      "applicability_review": "PENDING",
+      "exclusions_review": "PENDING",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "executable": false
+    },
+    {
+      "rule_id": "US-CORP-RW",
+      "source_ids": ["US-WEIGHT-TREATMENT"],
+      "interpretation": "Candidate 1.00 for ordinary corporate under (f)(1), with (f)(2)-(3), (k), CRM and other treatments screened.",
+      "rule_version": null,
+      "applicability_review": "PENDING",
+      "exclusions_review": "PENDING",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "executable": false
+    },
+    {
+      "rule_id": "US-RWA",
+      "source_ids": ["US-RWA-SOURCE"],
+      "interpretation": "Use the regulatory exposure measure times the applicable risk weight for single-exposure RWA.",
+      "rule_version": null,
+      "applicability_review": "PENDING",
+      "exclusions_review": "PENDING",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "executable": false
+    },
+    {
+      "rule_id": "US-TEACHING",
+      "source_ids": ["US-TEACHING-SOURCE"],
+      "interpretation": "Product educational transformation at 0.08 using minimum total-capital ratio as reference, not allocated loan capital or a bank-specific requirement.",
+      "rule_version": null,
+      "applicability_review": "PENDING",
+      "exclusions_review": "PENDING",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "executable": false
+    }
+  ],
+  "outstanding_gates": [
+    "Complete relevant Federal Register/LSA chain, including section 217.2 definition amendments.",
+    "Approve paragraph-level legal effective_from/effective_to and historical lifecycle selection.",
+    "Complete personally named human reviewer record and evidence.",
+    "Approve interpretations, all assumptions, classification, measure, weight, RWA, sole teaching output and exclusions.",
+    "Approve final contracts, normalization and activation control pack."
+  ]
+}

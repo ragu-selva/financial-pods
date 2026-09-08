@@ -1,4 +1,4 @@
-# Sprint 02 Planning Review — Architecture Revision
+# Sprint 02 Planning Review — Final Activation Preparation
 
 Status: PLANNING ONLY — NOT ACTIVE
 
@@ -17,7 +17,8 @@ regulatory interpretation and unimplemented software.
 - Reviewer role/authority/acceptance and review process: PENDING.
 - U.S. source versions, dates, hashes, locators, and interpretation approval: PENDING.
 - Golden Case assumptions/classification/risk weight/RWA/teaching outputs/exclusions: PENDING.
-- EAD alias, accounting basis, and final schema/trace/hash policies: PENDING.
+- Typed regulatory exposure measure replaces the rejected EAD alias by owner direction.
+- Accounting basis, regulatory interpretation, final schema/hash and historical-selection policies: PENDING.
 - No AI system is designated as the accountable regulatory reviewer.
 
 ## Planning changes made
@@ -27,7 +28,13 @@ regulatory interpretation and unimplemented software.
   ordinary corporate fixture without changing core orchestration.
 - Separated conceptual BCBS authority from executable domestic regulatory authority.
 - Defined minimum fact requirements, explicit negative/scope facts, extension points, and typed errors.
-- Defined structured classification/result contracts, ratio units, EAD alias proposal, and ordered trace.
+- Revised result/trace contracts to v0.2-draft and RegulatoryExposureMeasure to a typed contract.
+  U.S. output is EXPOSURE_AMOUNT / US_STANDARDIZED_CARRYING_VALUE; no EAD alias.
+- Kept 2025-01-01 fixed, restricted teaching to baseline_total_capital_equivalent at 0.08,
+  and mapped the corporate screen to the fourteen dated U.S. definition exclusions.
+- Separated generic future vocabulary from executable U.S. predicates and product-scope guards.
+- Added a null accountable-human activation record and conditional activation-PR/implementation sequence.
+- Added a draft Golden Case, source manifest, captured evidence, planning-only checks and future test vectors.
 - Replaced the old automatic net-provisions premise with review of U.S. carrying-value measurement.
 - Removed mandatory BCBS non-SME/EUR sales and rating-path assumptions from the first U.S. slice.
 - Added lifecycle versus review-status separation, date-matching, source manifests, and immutable evidence.
@@ -49,30 +56,33 @@ These are planning-file revisions, not checked-off Sprint 02 implementation acce
 
 ## Source research and limits
 
-Primary pages accessed 2026-09-08 are linked in FRAMEWORK_SCOPE.md:
-Federal Reserve FRRS Part 217 index; §§ 217.1, 217.2, 217.10, 217.30, 217.31, 217.32;
-the Board's March 2026 proposal material; and the official BCBS Framework overview.
+See [SOURCE_REVIEW.md](SOURCE_REVIEW.md) and [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json).
 
-The research located candidate U.S. applicability, corporate, measurement, risk-weight, RWA,
-and capital-teaching references. It did not approve a legal snapshot or expected result.
-Direct eCFR section retrieval failed through the browsing tool; readable official FRRS text was
-used as a planning reference. Exact historical/current effective intervals, Federal Register
-amendment chains, source-byte hashes, and human interpretation remain activation gates.
-
-The FRRS compilation date is not a paragraph-by-paragraph effective date. The original fixture's
-2025-01-01 as-of date must not be conflated with a 2026 retrieval or compilation date.
-The proposed 2026 corporate-weight change is explicitly non-executable pending a separately verified,
-effective, approved version. No claim is made that this review exhaustively found every amendment.
+- Captured all six required sections through the official dated eCFR API for 2025-01-01.
+- Captured the GovInfo 2025 annual Part 217 XML, which explicitly records 2025-01-01.
+- Captured eCFR version history and Federal Register documents 2013-21653 / 2023-23911 as source-chain
+  starting evidence. Section notes include further references; the full relevant amendment/LSA
+  reconciliation, especially § 217.2, is not complete.
+- Captured the R-1888 proposal record separately: PROPOSED, executable=false. No 2026 proposal
+  becomes 2025 authority or silently replaces a CURRENT rule.
+- Exact raw files and SHA-256 values are recorded. Effective_from/effective_to, interpretation
+  and reviewer fields are explicitly pending, not guessed from editorial dates.
+- A browser-page access failure was overcome using the dated eCFR API. Initial GovInfo volume-3
+  probes returned HTML rather than requested XML/PDF; those were not retained. Volume 2 is the
+  correct captured annual edition. No 2026 FRRS compilation is used as 2025 proof.
+- Sources are CAPTURED, NOT APPROVED. No execution-ready source manifest is claimed.
 
 ## Golden Case review checklist
 
 - [ ] In-scope synthetic U.S./FRB institutional perimeter, reporting regime, and CBLR decision.
-- [ ] Historical 2025-01-01 rules or an explicitly re-versioned/re-dated scenario.
+- [ ] Approve captured point-in-time 2025-01-01 sources and complete amendment/effective-interval review.
+      The date is fixed; no re-dating alternative.
 - [ ] Full corporate-definition exclusion screen and ordinary-loan applicability.
 - [ ] Carrying-value reconciliation, adjustments, performance state, and every material assumption.
 - [ ] U.S. corporate classification and risk weight.
-- [ ] Exposure amount, EAD naming/mapping, and RWA.
-- [ ] Educational total-capital equivalent, ratio basis, warnings, and exclusions.
+- [ ] Typed regulatory exposure measure (EXPOSURE_AMOUNT / US_STANDARDIZED_CARRYING_VALUE) and RWA.
+- [ ] Sole baseline_total_capital_equivalent at 0.08, candidate USD 800,000, warnings and exclusions.
+      No CET1/Tier 1 equivalents; no allocated-capital, institution-specific or adequacy claim.
 - [ ] Personally named human approval, source/version evidence, and independent expected results.
 
 Any illustrative USD 10 million RWA / USD 800,000 teaching value in the scope document remains
@@ -87,7 +97,7 @@ format/lint/types/builds and 10 artifact hashes passing. Sprint 01 hardening lat
 130 finance tests and successful hosted CI; its accepted review remains untouched.
 These results test the existing baseline, not an implemented U.S. regulatory engine.
 
-### This documentation revision
+### Prior architecture-revision verification (03d0e09), preserved evidence
 
 Verified locally on 2026-09-08:
 
@@ -109,10 +119,40 @@ change; the previously recorded local-runtime limitation remains, and no new Doc
 Non-failing baseline warnings included Starlette/httpx deprecation, pytest cache WinError 183,
 Next.js slow-filesystem detection, and FORCE_COLOR/NO_COLOR precedence.
 
+### Final activation-preparation verification
+
+Verified locally on 2026-09-08 for this preparation:
+
+- `node --test sprints/sprint-02/planning-evidence.test.mjs`: PASS, 12 planning-only tests.
+  Includes raw SHA-256 checks, all six dated sections, proposal-injection/alias/binding mutations,
+  no-EAD/wrong-basis/extra-teaching-output mutations, fixed date, U.S. screen structure,
+  null reviewer identity and inactive controls.
+- `node scripts/task.mjs verify`: PASS, exit 0. Formatting, lint, TypeScript/mypy, 130 finance
+  tests, 5 API tests, 3 web tests, 2 browser tests, web/Python builds and all 10 artifact hashes pass.
+- Authored planning Markdown/JSON/test formatting and JavaScript syntax checks: PASS.
+- Documentation links, JSON examples and code-fence checks: PASS.
+- Source XML parses and all six sections are present in the GovInfo 2025 annual-edition XML.
+- All 11 captured evidence hashes also match their staged Git blobs. Raw-source whitespace is
+  preserved through evidence-only Git attributes; authored files pass formatting and diff checks.
+- Accepted fixture matches its original Git blob; only checkout CRLF is normalized for that check.
+  Source evidence hashes use raw bytes with no normalization.
+- Production, data, infrastructure, reference artifacts and accepted historical sprint files remain
+  identical to origin/main. No regulatory runtime schemas, selector, classifier or calculator added.
+
+These checks validate review artifacts and the existing baseline, not legal interpretation or
+production regulatory behavior. The runtime vectors in PLANNED_TESTS.md remain unimplemented.
+Docker was not rerun for this non-runtime change; the previously recorded local-runtime limitation
+remains and no new stack pass is claimed. Existing non-failing Starlette/httpx, pytest cache
+WinError 183, Next.js slow-filesystem and FORCE_COLOR/NO_COLOR warnings remain.
+
 ## Known limitations and deferred work
 
-No U.S. executable rules, approved source manifest, new fixture, schemas in production, or engine
-implementation exist. Tests described in ACCEPTANCE_CRITERIA.md are future acceptance obligations.
+No U.S. executable rules, approved source manifest, accepted regulatory fixture, production schemas,
+or engine implementation exist. The draft JSON and local evidence-check tests are review artifacts,
+not production models or calculation/selection logic. PLANNED_TESTS.md describes future runtime tests.
+ACTIVATION_RECORD.json leaves all seven human reviewer fields null; the owner must supply/approve them.
+Legal source/effective-interval and Golden result review is incomplete. Activation PR creation is BLOCKED;
+no activation branch/PR or implementation branch was created.
 Local Docker's previously recorded runtime limitation is non-blocking for documentation work;
 this revision changes no runtime/infrastructure.
 
@@ -123,7 +163,9 @@ inspected, copied, or evaluated for reuse in this task; that requires a later bo
 
 ## Decision
 
-- [x] Record the owner-approved architecture direction as planning.
+- [x] Record the owner-approved final architecture directions as planning.
+- [x] Capture dated source bytes and prepare draft manifest/Golden/reviewer records.
+- [ ] Finish source/amendment/effective-interval review and named human sign-off.
 - [ ] Accept proposed ADR 0004 at activation.
 - [ ] Approve regulatory sources, interpretations, facts, and golden results.
 - [ ] Activate Sprint 02.

@@ -1,0 +1,3 @@
+# Preserve captured source bytes exactly for SHA-256 verification.
+# Original source whitespace is evidence, not authored formatting to repair.
+* -text -whitespace

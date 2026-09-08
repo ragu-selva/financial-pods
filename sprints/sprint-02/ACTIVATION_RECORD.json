@@ -1,0 +1,40 @@
+{
+  "status": "PLANNING ONLY — NOT ACTIVE",
+  "activation_status": "BLOCKED",
+  "regulatory_as_of": "2025-01-01",
+  "reviewer_name": null,
+  "reviewer_role": null,
+  "reviewer_qualification_or_authority": null,
+  "responsibilities_accepted": null,
+  "review_date": null,
+  "review_decision": null,
+  "review_evidence": null,
+  "identity_policy": "Project owner must supply or approve personally named human values. AI cannot provide accountable identity, accept responsibilities or sign approval.",
+  "required_review_subjects": [
+    "U.S. source versions and hashes",
+    "rule locators and amendment/effective-date chain",
+    "interpretation and institutional applicability",
+    "Golden Case assumptions",
+    "classification and regulatory exposure measure",
+    "risk weight and RWA",
+    "baseline_total_capital_equivalent only at 0.08",
+    "warnings and exclusions",
+    "contracts and historical source-selection policy"
+  ],
+  "source_approval_complete": false,
+  "golden_case_approval_complete": false,
+  "owner_activation_decision": null,
+  "adr_status": "PROPOSED",
+  "activation_pr": {
+    "branch": "codex/sprint-02-activation",
+    "base": "current main when prerequisites complete",
+    "created": false,
+    "url": null,
+    "merged": false
+  },
+  "implementation": {
+    "branch": "codex/sprint-02-us-corporate-engine",
+    "authorized": false,
+    "prerequisite": "Activation PR reviewed and merged; no implementation before that."
+  }
+}

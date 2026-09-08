@@ -49,7 +49,7 @@ flowchart TD
     G --> CL["Structured classification"]
     CL --> T["Regulatory treatment"]
     T --> W["Risk weight"]
-    T --> E["Exposure amount + explicit EAD mapping"]
+    T --> E["RegulatoryExposureMeasure: EXPOSURE_AMOUNT / carrying value"]
     W --> RW["RWA"]
     E --> RW
     RW --> O["Educational capital outputs"]
@@ -61,7 +61,7 @@ flowchart TD
 
 Provider selection precedes any regulatory classification. The generic classification layer
 dispatches to the selected provider; it is not a jurisdiction-blind classifier. Risk weight and
-exposure amount are parallel treatment outputs, not one derived from the other. Trace evidence is
+regulatory exposure measure are parallel treatment outputs, not one derived from the other. Trace evidence is
 collected throughout, not fabricated after the numeric result.
 
 Conceptual layering and later reuse:
@@ -90,7 +90,7 @@ Propose a RegulatoryRuleset interface with explicit, pure operations:
 ```text
 classify_exposure(facts, context) -> ClassificationResult
 resolve_treatment(classification, facts, context) -> RegulatoryTreatment
-determine_exposure_amount(facts, treatment, context) -> ExposureMeasure
+determine_regulatory_exposure_measure(facts, treatment, context) -> RegulatoryExposureMeasure
 determine_risk_weight(facts, treatment, context) -> RiskWeight
 calculate_rwa(exposure_measure, risk_weight, context) -> RwaResult
 calculate_capital_teaching_outputs(rwa, context) -> TeachingOutput[]
@@ -113,13 +113,21 @@ The proposed first executable path is the ordinary corporate Golden Case under F
 Basel III calculator. Applicability, exclusions, legal versions, and candidate locators are maintained
 in [FRAMEWORK_SCOPE.md](../../sprints/sprint-02/FRAMEWORK_SCOPE.md), not duplicated as generic policy.
 
-That source register proposes §§ 217.1/217.30 for scope, § 217.2 for classification/measurement,
+That source register pins raw eCFR/GovInfo evidence for 2025-01-01; legal approval is pending.
+The accepted fixture date stays 2025-01-01 and is not silently re-dated. It proposes §§ 217.1/217.30 for scope, § 217.2 for classification/measurement,
 § 217.32(f)(1) for ordinary corporate weight with exception screening, § 217.31 for RWA, and
 § 217.10 for a specifically labelled teaching transformation. Final legal interpretation is pending.
+USStandardizedRuleset uses the selected U.S. § 217.2 corporate definition (all fourteen exclusions)
+and applicable treatment rules. BCBS SME/rating, generic retail or specialised-lending vocabulary
+cannot independently determine U.S. corporate status; only an approved mapping to U.S. authority can.
+Product-scope guards must not masquerade as statutory exclusions.
 
 Legal lifecycle CURRENT / PROPOSED / FUTURE / SUPERSEDED is separate from internal APPROVED review.
 Execution must use an approved, effective-for-as-of manifest and allowed status. A proposal cannot
-silently replace a current rule. Exact source bytes/locators/dates/hashes, interpretation,
+silently replace a current rule. R-1888 is separately recorded as PROPOSED, executable=false,
+and excluded from 2025 calculation evidence; a later final rule needs a new independently approved
+record and applicable date. Source raw bytes are pinned, but effective intervals, amendment-chain
+reconciliation and reviewer evidence still block activation. Exact source bytes/locators/dates/hashes, interpretation,
 applicability, exclusions, and personally named reviewer evidence are mandatory before activation.
 Approved content is immutable; later status/revocation decisions preserve append-only history.
 
@@ -131,13 +139,21 @@ unsupported inputs produce typed errors. Later exposures add versioned fact/prov
 not borrower-name branches.
 
 Classification returns jurisdiction, ruleset/version, class/subclass, reason codes, references, and
-warnings. Calculation returns classification/treatment, exposure amount, risk weight, explicit EAD
-semantics, RWA, educational capital outputs, rule/version/hash metadata, trace, citations, warnings,
-and exclusions. Exact names and draft schema versions live in FRAMEWORK_SCOPE.md.
+warnings. Calculation returns classification/treatment, regulatory_exposure_measure, risk_weight,
+rwa, capital_teaching_outputs, rule/version/hash metadata, trace, citations, warnings and exclusions.
+The revised result and trace schemas are v0.2-draft; the previous EAD-alias proposal is superseded.
 
-The first EAD slot is proposed as an explicitly labelled standardized exposure-amount alias.
-It is not advanced-approaches EAD. Educational capital equivalents are not actual bank ratios or
-complete regulatory capital requirements. Both choices require human approval before execution.
+RegulatoryExposureMeasure has amount, currency, measure_type, measurement_basis, rule_refs, warnings.
+The first U.S. provider requires EXPOSURE_AMOUNT / US_STANDARDIZED_CARRYING_VALUE. This typed object
+is authoritative for RWA. Do not expose an ead alias or duplicate exposure_amount output.
+A future provider may use measure_type=EAD only if its approved framework actually defines/requires
+it; this is not an implemented Sprint 02 variant. Trace measurement outputs and RWA input references
+must retain the type and basis rather than relabelling the measure.
+
+Sprint 02 emits only baseline_total_capital_equivalent at ratio 0.08 (candidate USD 800,000).
+It is educational, based on the minimum total-capital ratio; it is not allocated loan capital,
+an institution-specific requirement or a capital adequacy conclusion. CET1/Tier 1 educational
+equivalents are deferred to a separately reviewed Golden Lesson/UX phase.
 
 Trace is a first-class ordered immutable object containing step IDs, rule/version, reason, source
 locator, inputs used, output, and warnings. Non-regulatory steps cite versioned engine contracts.
@@ -184,10 +200,16 @@ Generic design does not imply broad regulatory coverage.
 
 Personally named human review must approve U.S. source versions/locators, institution perimeter,
 interpretation, as-of policy, Golden Case assumptions, classification, risk weight, RWA,
-capital-teaching outputs, EAD terminology, and exclusions. Review all six activation dimensions:
+capital-teaching output, typed regulatory exposure measure, and exclusions. Review all six activation dimensions:
 framework, jurisdiction, sources, calculation scope, golden outputs, and regulatory review process.
 
-The owner must explicitly approve the control pack and promote this ADR from proposed at activation.
-AI may assist but cannot be the accountable reviewer. Until then:
+The owner must supply/approve reviewer_name, reviewer_role, reviewer_qualification_or_authority,
+responsibilities_accepted, review_date, review_decision and review_evidence in the activation record.
+AI cannot fill the accountable identity or approve it. The owner must explicitly approve the pack.
+
+Only when the source/review/Golden Case gates are complete may a separate activation branch/PR
+from current main accept this ADR and record activation, with approved documents/evidence only.
+No automatic merge. Implementation on codex/sprint-02-us-corporate-engine may start only after
+that PR is reviewed and merged. This ADR remains PROPOSED throughout this preparation. Until then:
 
 SPRINT 02 REMAINS INACTIVE
