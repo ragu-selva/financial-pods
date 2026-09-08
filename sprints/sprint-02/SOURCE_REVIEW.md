@@ -61,6 +61,51 @@ later supersession while preserving the requested 2025 applicability, without al
 
 ## Required amendment-chain review
 
+### Follow-up using existing captures only — 2026-09-08
+
+No source was recaptured or rewritten. All 11 evidence files and original retrieval metadata from
+4738841 are retained. SourceManifest v0.2-draft adds explicit US/FRB/regime selectors,
+resolution_status=UNRESOLVED and evidence-linked documentary observations; it does not promote
+any source to approved or executable.
+
+Resolved as documentary observations (not legal approval):
+
+- **Founding date clause:** FR-2013-21653, DATES, captured lines 156-162, states January 1, 2014
+  effectiveness with specified exceptions for other Part 208/225 amendments. It separately states
+  mandatory compliance on January 1, 2014 for advanced-approaches organizations other than savings
+  and loan holding companies, and January 1, 2015 for other covered organizations. Publication,
+  effectiveness and mandatory compliance must not be collapsed into one date.
+- **FRB adoption provenance:** the same document, 78 FR 62285, instructions 43-44, captured lines
+  33137-33166, adds Part 217 from the common preamble and specifies Board/Board-regulated-institution
+  substitutions. This connects common text to FRB authority; it does not allow an OCC/FDIC regime
+  substitution. The eCFR 2017 baseline cannot be treated as the founding rule's original effective date.
+- **2023 final-rule date:** FR-2023-23911, DATES at captured line 92, explicitly states January 1, 2024. Section II.B distinguishes this from first reporting as of December 31, 2024 and submissions
+  in March 2025. These are source-level statements, not blanket inception dates for unchanged paragraphs.
+- **2023 amendatory targets:** instructions 2-4 (88 FR 82968-82969; captured lines 2418-2604)
+  revise § 217.1(c)(1), add § 217.1(g), revise the covered-savings-and-loan-holding-company definition,
+  add five named insurance/regulated-affiliate definitions to § 217.2, and add § 217.10(f).
+  Those instructions do not amend the corporate exposure, carrying value or exposure amount
+  definitions, or § 217.10(a)(1)(iii). This bounded observation is not proof of an otherwise complete
+  amendment chain or a conclusion about the Golden Case institution.
+- **Dated text corroboration:** the direct paragraph sequences in the captured eCFR and GovInfo
+  XML contain respectively 48, 555, 75, 2, 9 and 70 paragraphs for .1, .2, .10, .30, .31 and .32.
+  An order-sensitive comparison of parsed paragraph InnerText, removing whitespace only, found
+  zero remaining character differences for all six sections. Headings, tables, footnotes and
+  editorial notes were outside this diagnostic comparison. This is neither legal equivalence nor
+  a replacement for amendment review. No normalization was applied to captured bytes or SHA-256.
+
+Exact findings and source IDs/locators are recorded in SOURCE_MANIFEST.json amendment_review.
+The first two final-rule records already captured supply these observations; no new authority was
+assumed and no new legal effective endpoint was assigned to a consolidated source.
+
+Still unresolved for every section: final reviewed effective_from/effective_to, full relevant
+amendment/correction/transition history, cross-reference completeness and human/legal applicability.
+Both interval fields remain null with status PENDING. In particular, the missing § 217.2 LSA/
+definition-amendment chain cannot be supplied by the limited 2023 insurance amendment alone.
+The additional section-note references for .1/.10/.32 also require reconciliation.
+
+### Remaining review work
+
 - Read the relevant final-rule applicability/compliance/effective provisions, not just publication.
 - Reconcile all relevant section and definition amendments through 2025-01-01 against dated eCFR,
   GovInfo annual text and Federal Register/LSA evidence. Record exact paragraph locators and dates.
@@ -90,6 +135,12 @@ Planning-only tests exercise unsafe candidate-source list mutations. Future prod
 tests in [PLANNED_TESTS.md](PLANNED_TESTS.md) remain unimplemented until activation.
 
 ## Human review and readiness
+
+The reusable [effective-dated regulatory source resolver skill](../../skills/effective-dated-regulatory-source-resolver/SKILL.md)
+documents separate U.S. and BCBS provider workflows. It preserves the full selector tuple and keeps
+CURRENT/PROPOSED/FUTURE/SUPERSEDED/REMOVED distinct from internal review status. It resolves source
+evidence only; it does not classify exposures, calculate, approve sources, populate reviewer identity
+or implement the future Change Detector.
 
 [ACTIVATION_RECORD.json](ACTIVATION_RECORD.json) leaves all seven reviewer fields null for the owner
 to supply/approve. Linked human evidence must approve sources, locators, interpretations, case

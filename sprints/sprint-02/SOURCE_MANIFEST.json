@@ -1,6 +1,6 @@
 {
   "status": "PLANNING ONLY — NOT ACTIVE",
-  "schema_version": "source-review-manifest.v0.1-draft",
+  "schema_version": "source-review-manifest.v0.2-draft",
   "ruleset_family": "US_FRB_PART217_STANDARDIZED",
   "ruleset_version": null,
   "regulatory_as_of": "2025-01-01",
@@ -491,6 +491,156 @@
       "review_evidence": null,
       "executable": false
     }
+  ],
+  "jurisdiction": "US",
+  "regulator": "FRB",
+  "regulatory_regime": "STANDARDIZED",
+  "resolution_status": "UNRESOLVED",
+  "amendment_review": {
+    "status": "PARTIAL_DOCUMENTARY_RECONCILIATION",
+    "verification_date": "2026-09-08",
+    "evidence_baseline_commit": "47388412c505b18ab682db40191c7a24b8074ca1",
+    "new_source_capture": false,
+    "observation_scope": "Documentary extraction and comparison only. No legal approval, borrower interpretation, classification or calculation. Section effective intervals remain unresolved.",
+    "observations": [
+      {
+        "observation_id": "FR-2013-DATES",
+        "source_id": "FR-2013-21653",
+        "source_locator": "DATES clause, captured lines 156-162; Federal Register 78 FR 62018",
+        "stated_rule_effective_date": "2014-01-01",
+        "explicit_exceptions": [
+          "Specified Part 208 appendixes, section 225.1 and Part 225 appendixes D/E: 2015-01-01.",
+          "Part 225 appendix A amendment: 2019-01-01."
+        ],
+        "stated_mandatory_compliance": [
+          {
+            "date": "2014-01-01",
+            "scope": "Advanced approaches banking organizations that are not savings and loan holding companies."
+          },
+          {
+            "date": "2015-01-01",
+            "scope": "All other covered banking organizations."
+          }
+        ],
+        "conclusion_limit": "These are dates stated by the founding document, not final effective_from/effective_to for the six consolidated 2025 sections. Do not infer institution eligibility."
+      },
+      {
+        "observation_id": "FR-2013-ADOPTION",
+        "source_id": "FR-2013-21653",
+        "source_locator": "78 FR 62285; amendatory instructions 43-44, captured lines 33137-33166",
+        "finding": "Part 217 is added from common preamble text with Board-specific substitutions for AGENCY/BANK and other placeholders. This connects the common source to FRB Part 217; it is not permission to substitute OCC/FDIC regimes.",
+        "conclusion_limit": "The eCFR 2017-01-01 baseline is not the rule's original effective date; full intervening amendment reconciliation is still required."
+      },
+      {
+        "observation_id": "FR-2023-DATES",
+        "source_id": "FR-2023-23911",
+        "source_locator": "DATES clause, captured line 92; section II.B, captured lines 613-657",
+        "stated_rule_effective_date": "2024-01-01",
+        "finding": "Final document states 2024-01-01 effectiveness; section II.B separately discusses first capital reporting as of 2024-12-31 and submissions in March 2025.",
+        "conclusion_limit": "Do not replace the final rule effective date with a reporting/submission date or apply it as the inception date of every pre-existing paragraph."
+      },
+      {
+        "observation_id": "FR-2023-TARGETS",
+        "source_id": "FR-2023-23911",
+        "source_locator": "88 FR 82968-82969; instructions 2-4, captured lines 2418-2604",
+        "affected_sections": [
+          {
+            "section": "217.1",
+            "instruction": "2",
+            "targets": ["Revise (c)(1)", "Add (g)"]
+          },
+          {
+            "section": "217.2",
+            "instruction": "3",
+            "targets": [
+              "Revise Covered savings and loan holding company",
+              "Add Insurance bank holding company",
+              "Add Insurance mid-tier holding company",
+              "Add Insurance savings and loan holding company",
+              "Add Regulated foreign subsidiary and regulated foreign affiliate",
+              "Add State-regulated insurer"
+            ]
+          },
+          {
+            "section": "217.10",
+            "instruction": "4",
+            "targets": ["Add (f)"]
+          }
+        ],
+        "finding": "These amendatory instructions identify the specified 2024 changes; they do not revise the corporate exposure, carrying value or exposure amount definitions, or the pre-existing 217.10(a)(1)(iii) paragraph in this final rule.",
+        "conclusion_limit": "This is a bounded reading of this document's instructions, not proof that no other final rule changed those provisions."
+      }
+    ],
+    "corroboration": {
+      "source_ids": [
+        "GOVINFO-2025-PART217",
+        "US-SCOPE-INSTITUTION",
+        "US-DEFINITIONS",
+        "US-TEACHING-SOURCE",
+        "US-SCOPE-STANDARDIZED",
+        "US-RWA-SOURCE",
+        "US-WEIGHT-TREATMENT"
+      ],
+      "method": "Parse existing XML; select each eCFR DIV8's direct P children and the corresponding GovInfo SECTION's direct P children; compare InnerText in document order after removing regex whitespace characters only. No case, punctuation or token rewriting. Comparison is diagnostic; raw source bytes/hashes are unchanged.",
+      "results": [
+        {
+          "section": "217.1",
+          "ecfr_paragraph_count": 48,
+          "govinfo_paragraph_count": 48,
+          "non_whitespace_mismatches": 0
+        },
+        {
+          "section": "217.2",
+          "ecfr_paragraph_count": 555,
+          "govinfo_paragraph_count": 555,
+          "non_whitespace_mismatches": 0
+        },
+        {
+          "section": "217.10",
+          "ecfr_paragraph_count": 75,
+          "govinfo_paragraph_count": 75,
+          "non_whitespace_mismatches": 0
+        },
+        {
+          "section": "217.30",
+          "ecfr_paragraph_count": 2,
+          "govinfo_paragraph_count": 2,
+          "non_whitespace_mismatches": 0
+        },
+        {
+          "section": "217.31",
+          "ecfr_paragraph_count": 9,
+          "govinfo_paragraph_count": 9,
+          "non_whitespace_mismatches": 0
+        },
+        {
+          "section": "217.32",
+          "ecfr_paragraph_count": 70,
+          "govinfo_paragraph_count": 70,
+          "non_whitespace_mismatches": 0
+        }
+      ],
+      "limitations": "Does not compare headings, tables, footnotes, editorial notes, definitions' cross-reference effects or the legal amendment chain. Removing whitespace is not a finding of legal equivalence or a hash-normalization policy."
+    },
+    "unresolved": [
+      "Complete relevant final-rule/LSA chain through 2025-01-01, especially 217.2 definitions; the two captured final rules do not establish completeness.",
+      "Trace additional references printed for 217.1, 217.10 and 217.32 and validate corrections/transition/commencement and any sunset boundaries.",
+      "Establish reviewed paragraph/source effective_from/effective_to, including explicit evidence if open-ended; all six intervals remain null/PENDING.",
+      "Reconcile required cross-reference dependencies and institutional applicability with a named human reviewer.",
+      "Approve source lifecycle-as-of, interpretations and Golden Case assumptions/results separately; no source or calculation is approved by these observations."
+    ],
+    "review_status": "PENDING_REVIEW",
+    "reviewer_name": null,
+    "review_date": null,
+    "review_evidence": null
+  },
+  "conflicts": [],
+  "unresolved_evidence": [
+    "Complete relevant final-rule/LSA chain through 2025-01-01, especially 217.2 definitions; the two captured final rules do not establish completeness.",
+    "Trace additional references printed for 217.1, 217.10 and 217.32 and validate corrections/transition/commencement and any sunset boundaries.",
+    "Establish reviewed paragraph/source effective_from/effective_to, including explicit evidence if open-ended; all six intervals remain null/PENDING.",
+    "Reconcile required cross-reference dependencies and institutional applicability with a named human reviewer.",
+    "Approve source lifecycle-as-of, interpretations and Golden Case assumptions/results separately; no source or calculation is approved by these observations."
   ],
   "outstanding_gates": [
     "Complete relevant Federal Register/LSA chain, including section 217.2 definition amendments.",

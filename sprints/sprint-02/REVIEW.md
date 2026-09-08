@@ -147,6 +147,40 @@ WinError 183, Next.js slow-filesystem and FORCE_COLOR/NO_COLOR warnings remain.
 
 ## Known limitations and deferred work
 
+### Reusable source-resolver follow-up
+
+The requested skill is at skills/effective-dated-regulatory-source-resolver/SKILL.md. Its scope is
+documentary source-version resolution for explicit jurisdiction/regulator/regime/as-of selectors,
+not legal judgment, exposure classification, calculations, source approval or sprint activation.
+U.S. and BCBS source universes are separate, with proposal/removal safety and fail-closed gaps.
+
+SOURCE_REVIEW.md and SourceManifest v0.2-draft record further documentary extraction from the
+unchanged 4738841 captures: founding effective/compliance clauses, Board-specific adoption,
+2023 effective date/amendatory targets and six-section paragraph-text corroboration.
+All six consolidated effective intervals and human/legal approval remain unresolved.
+ACTIVATION_RECORD.json and its seven null reviewer fields remain byte-for-byte unchanged.
+No new source capture, activation PR, production engine or Change Detector was created.
+
+Follow-up verification on 2026-09-08:
+
+- Skill Creator quick_validate.py: PASS. Project/global/bundled Python initially lacked PyYAML;
+  the validator ran with PyYAML 6.0.3 in an isolated temporary directory, with no project/global
+  dependency change. This validates skill structure, not regulatory reasoning or legal approval.
+- Skill is under 500 lines; local references, code fences, input JSON and authored formatting: PASS.
+- `node --test sprints/sprint-02/planning-evidence.test.mjs`: PASS, all 12 checks.
+- `node scripts/task.mjs verify`: PASS, exit 0; format/lint/types, 130 finance, 5 API, 3 web and
+  2 browser tests, web/Python builds and all 10 immutable reference-artifact hashes.
+- Additive-manifest audit: original source records, hashes, retrieval metadata, rule bindings,
+  proposal evidence, executable flags and review values match 4738841 exactly.
+- Raw evidence, seven-field activation record, Golden Case and production/historical files are
+  unchanged. `git diff --check`: PASS.
+- The ordered six-section XML paragraph comparison is diagnostic only, as documented in SOURCE_REVIEW.md.
+
+The source resolver is an authored reusable skill, not an installed global integration or a
+production source-selection engine. No activation/implementation authority follows from these passes.
+Docker was not rerun for this documentation-only change; existing non-failing environment warnings
+and the previously recorded local-runtime limitation remain unchanged.
+
 No U.S. executable rules, approved source manifest, accepted regulatory fixture, production schemas,
 or engine implementation exist. The draft JSON and local evidence-check tests are review artifacts,
 not production models or calculation/selection logic. PLANNED_TESTS.md describes future runtime tests.
