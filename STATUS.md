@@ -2,7 +2,13 @@
 
 ## Current Date
 
-2026-09-08, America/New_York. Sprint 01 integration/hardening snapshot.
+2026-09-08, America/New_York. Documentation-only post-merge cleanup snapshot.
+
+- Sprint 00: **ACCEPTED**.
+- Sprint 01: **ACCEPTED**.
+- Sprint 01 hardening: **ACCEPTED AND MERGED**.
+- PR #2: **MERGED** on 2026-09-08.
+- Sprint 02: **PLANNING ONLY — NOT ACTIVE**.
 
 Labels: **IMPLEMENTED** means present in inspected code; **VERIFIED** means an observed passing
 check; **PLANNED** means not implemented or authorized here; **BLOCKED** identifies an unmet gate.
@@ -10,20 +16,23 @@ Historical acceptance is preserved separately from fresh verification.
 
 ## Current Branch
 
-`codex/sprint-01-hardening`, tracking `origin/codex/sprint-01-hardening`.
+Local `main` was synchronized with `origin/main` at merge commit `b0cf3a9`.
+This documentation cleanup is published for review on `codex/post-merge-status-cleanup`, based on
+that merged main baseline. No history was rewritten or squashed.
 Repository: https://github.com/ragu-selva/financial-pods
 
 [PR #2 — Sprint 01: integrate and harden financial domain model](https://github.com/ragu-selva/financial-pods/pull/2)
-targets `main`. Open, non-draft, no merge conflicts observed. Not merged; no automatic merge requested.
+was merged into `main` on 2026-09-08 by the project owner.
 
-The branch was created from refreshed origin/main at
-`2781a8ed1c514d1efd6855c425105d6c3415b345`.
-It retains the original Sprint 01 commit through a merge, not a squash or replacement.
-Main is unchanged by this task.
+Main retains the original Sprint 01 implementation and hardening commits through merge history.
+The separate Sprint 02 planning branch is not merged into main.
 
 ## Latest Commit
 
-Latest implementation commit:
+Confirmed main merge commit:
+`b0cf3a95c97c80fc73d5dbf1b12b59b45cac6183` — merge PR #2, 2026-09-08 12:40:59 -04:00.
+
+Included implementation commit:
 `a71d6391daafcb5a9df4f4ce3e2fd19ed1b7274e` —
 `Harden Sprint 01 decimal, provenance, and immutable domain contracts`.
 
@@ -32,12 +41,14 @@ Relevant history:
 - `2281209` — integrates accepted Sprint 01 onto main's history.
 - `03b03ec29f699cd546414a339f7e03ce0cd9eed7` — original accepted Sprint 01 implementation,
   retained unchanged and already published on its original feature branch.
-- Documentation-only publication of this snapshot/review evidence follows the implementation
-  commit; the branch HEAD identifies that publication commit.
+- `46a723b` — hardening status/review evidence; included in PR #2 and the main merge.
+- This post-merge cleanup changes documentation only; its branch HEAD identifies the publication commit.
 
 Preserved separately: local `codex/sprint-02-rules-calculation` remains at
 `60fad85b78a1559fe61b78e461894587d165a304` (Sprint 02 draft controls).
-It is not an ancestor of the hardening branch and its Sprint 02 files are absent from this PR.
+It remains absent from main ancestry. Published review branch `codex/sprint-02-planning` at
+`f90ee1e` retains 60fad85 in its ancestry and contains four planning-only Sprint 02 Markdown files
+relative to merged main. Original local `codex/sprint-02-rules-calculation` remains unchanged.
 
 ## Completed
 
@@ -64,9 +75,10 @@ It is not an ancestor of the hardening branch and its Sprint 02 files are absent
 
 ## In Progress
 
-- Accountable reviewer acceptance and manual merge decision for PR #2.
-- Hosted GitHub Actions verification passed for the implementation commit; see the evidence below.
-- The Sprint 01 hardening implementation is complete. No Sprint 02 implementation is in progress.
+- Documentation-only post-merge synchronization of acceptance and publication records.
+- Architecture/regulatory review of the separately published Sprint 02 planning pack; no activation
+  or regulatory implementation has been authorized.
+- Sprint 01 hardening is accepted and merged; no acceptance or merge action remains for PR #2.
 
 ## Not Started
 
@@ -85,13 +97,16 @@ is not approval of framework selection, sources, reviewer provenance, or impleme
 
 ## Uncommitted Changes
 
-This task's hardening code is committed and pushed on the PR branch. STATUS.md and the hardening
-review/control evidence are published in a documentation-only follow-up commit. No unrelated local
-production edits were found or included.
+Sprint 01 hardening code and its evidence are committed and merged into main through PR #2.
+This follow-up publishes only documentation from the post-merge cleanup branch. No unrelated local
+production edits were found or included; no production files changed during cleanup.
 
-**Local work not pushed:** Sprint 02 planning commit 60fad85 remains on the original local branch;
-it was deliberately not published or merged by this task. The old current-state snapshot remains
-available on `codex/current-status-inventory` (`73860e1`). No branch was deleted.
+**Preserved and now published:** Sprint 02 planning commit 60fad85 is reachable from remote
+`codex/sprint-02-planning`; the original local branch still points to 60fad85. No unpublished
+production changes were introduced. The old inventory remains on `codex/current-status-inventory`
+(`73860e1`). No branch was deleted.
+
+Planning branch: https://github.com/ragu-selva/financial-pods/tree/codex/sprint-02-planning
 
 Generated caches/build outputs remain ignored. No secrets or real environment files are committed.
 
@@ -106,7 +121,8 @@ Generated caches/build outputs remain ignored. No secrets or real environment fi
   does not import web frameworks, databases, Redis, or LLM providers.
 - **IMPLEMENTED configuration:** Docker Compose web/API plus PostgreSQL 17 with pgvector 0.8.1
   and Redis 7.4.2. PostgreSQL named volume; Redis persistence off; localhost development endpoints.
-  **BLOCKED runtime:** Docker Desktop Linux engine unavailable during this verification.
+  **Non-blocking known limitation:** Docker Desktop Linux engine was unavailable during hardening
+  verification; local full-stack runtime was not revalidated by this documentation-only cleanup.
 - **IMPLEMENTED CI:** .github/workflows/ci.yml runs on main pushes, pull requests, and manual
   dispatch; Ubuntu/Node 24/Python 3.12, PostgreSQL/Redis services, pgvector enable/check, Compose
   validation, artifact checks, formatting/lint/types/tests/builds, and Chromium E2E.
@@ -131,6 +147,10 @@ feature. A running Docker demonstration was not available during this task.
 
 **VERIFIED locally, 2026-09-08:**
 
+Post-merge documentation cleanup reran `node scripts/task.mjs verify` to exit 0 on the accepted
+main baseline with documentation edits only. Protected historical reviews, reference artifacts,
+production code, fixtures, dependencies, and infrastructure are unchanged from b0cf3a9.
+
 - `node scripts/task.mjs verify` — exit 0.
 - Formatting: Prettier/web and Ruff/API/finance engine pass.
 - Lint: JavaScript syntax, ESLint, Ruff pass.
@@ -154,18 +174,24 @@ coverage/path policy, and runtime immutability.
 for implementation commit a71d639 is **VERIFIED / PASSED** (Ubuntu, Node 24, Python 3.12).
 All quality gates, pgvector setup/check, service health initialization, builds, and browser smoke
 tests passed. Hosted service checks are not a substitute for the blocked local four-service stack.
-Subsequent documentation-only commits trigger fresh PR checks; consult the PR for the latest run.
+The final PR #2 head `46a723b` also passed
+[run 34247638871](https://github.com/ragu-selva/financial-pods/actions/runs/34247638871).
+Both hosted runs are retained acceptance evidence. Cleanup PR checks are separate; no unobserved
+merge/push CI result is implied by these historical passing runs.
 
-**BLOCKED local stack:** `docker info` and `node scripts/task.mjs stack-check` fail:
+**Non-blocking known local-runtime limitation (recorded during hardening):** `docker info` and
+`node scripts/task.mjs stack-check` failed:
 `failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine;
 open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.`
-No stack-verify success is claimed. Containers/infrastructure were not changed.
+No stack-verify success is claimed. Containers/infrastructure were not changed. This limitation
+does not reopen or block the accepted and merged Sprint 01 baseline.
 
 ## Known Problems
 
-- **BLOCKED:** Local Docker daemon unavailable; full four-service local stack remains unverified
-  in this task. Recheck after Docker Desktop's Linux engine is running.
-- **BLOCKED pending governance:** PR review/acceptance/manual merge; separate Sprint 02 activation.
+- **Non-blocking known limitation:** Local Docker full-stack runtime was unavailable during
+  hardening verification. Recheck after Docker Desktop's Linux engine is running.
+- **BLOCKED from implementation:** Sprint 02 still requires separate explicit activation approvals.
+  PR #2 review, acceptance, and merge are complete.
 - Original Decimal/provenance/mutable-list defects are **FIXED / VERIFIED** by the hardening suite.
   This does not certify every future financial rule or arbitrary input boundary.
 - Existing non-failing warnings: Starlette/httpx TestClient deprecation, Windows pytest cache
@@ -182,19 +208,19 @@ No stack-verify success is claimed. Containers/infrastructure were not changed.
 
 ## Current Sprint
 
-**Sprint 01 Integration and Hardening** is the current authorized boundary.
-The original Sprint 01 is historically accepted; its three discovered correctness gaps have been
-fixed and locally verified. The hardening PR awaits review and acceptance. Sprint 00 is no longer
-the sole implementation boundary. Sprint 02 remains **PLANNED / NOT ACTIVE**.
+Sprint 00: **ACCEPTED**. Sprint 01: **ACCEPTED**. Sprint 01 hardening: **ACCEPTED AND MERGED**
+through PR #2 at `b0cf3a95c97c80fc73d5dbf1b12b59b45cac6183` on 2026-09-08.
+No implementation sprint is active. Sprint 02 is **PLANNING ONLY — NOT ACTIVE**.
 
 ## Recommended Next Sprint
 
-First review and accept PR #2, complete the manual merge decision, and establish the verified
-Sprint 01 baseline on main. Restore Docker and rerun stack verification when available.
+The verified Sprint 01 baseline is accepted and on main. Restore Docker and rerun stack verification
+when available as a non-blocking local-environment follow-up.
 
-Then consider Sprint 02 activation only through a separately approved control pack covering one
-framework/jurisdiction, exact sources/versions/applicability, accountable reviewer, and acceptance
-criteria. Preserve and review the draft 60fad85 planning branch rather than treating it as approval.
+Review the four documents on `codex/sprint-02-planning`. Sprint 02 must not begin until its framework,
+jurisdiction, regulatory sources, calculation scope, golden outputs, and regulatory review process
+are explicitly approved by the project owner and accountable regulatory reviewer. The preserved
+60fad85 draft and its publication are not implementation approval.
 Do not begin regulatory calculations merely because the domain hardening tests pass.
 
 ## Important Decisions

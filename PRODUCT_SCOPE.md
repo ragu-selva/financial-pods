@@ -57,8 +57,9 @@ Manual, human-approved channel publishing is sufficient for V1. Automated platfo
 
 ## Current boundary
 
-Sprint 01 is historically accepted. Sprint 01 integration and hardening is the current authorized
-boundary; see sprints/sprint-01-hardening/SPRINT.md. It fixes exact decimal handling, structural
-provenance, and runtime immutability in the existing domain model. Sprint 02 is not active.
+Sprint 00 and Sprint 01 are accepted. Sprint 01 hardening is accepted and merged through PR #2
+on 2026-09-08 at `b0cf3a9`; see sprints/sprint-01-hardening/REVIEW.md. Exact decimal handling,
+structural provenance, and runtime immutability are part of the accepted main baseline.
+Sprint 02 is PLANNING ONLY — NOT ACTIVE; its separate review branch grants no implementation authority.
 Regulatory classification, risk weights, EAD, RWA, capital calculations, lesson/tutor behavior,
 authentication, billing, production deployment, and social publishing remain unauthorized.

@@ -1,7 +1,7 @@
 # Sprint 01 — Integration and Hardening
 
-Status: Implementation complete and ready for review. Explicitly authorized by the project owner
-on 2026-09-08; acceptance/manual merge remain pending. No later sprint is activated.
+Status: Accepted and merged through PR #2 on 2026-09-08 at
+`b0cf3a95c97c80fc73d5dbf1b12b59b45cac6183`. No later sprint is activated.
 
 ## Goal and boundary
 
@@ -20,6 +20,9 @@ source ingestion, lesson UI, tutor, content/video generation, persistence, or AP
 Sprint 02 remains planning only and is not activated by this work.
 
 ## Stop condition
+
+Completed: the project owner accepted and merged PR #2. The original implementation stop condition
+below is retained as historical scope; it is not an outstanding merge or acceptance task.
 
 Push codex/sprint-01-hardening and create a review-ready PR targeting main. Record the PR and CI
 status in STATUS.md. Do not merge automatically or begin Sprint 02.
