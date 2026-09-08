@@ -57,4 +57,8 @@ Manual, human-approved channel publishing is sufficient for V1. Automated platfo
 
 ## Current boundary
 
-Sprint 01 is accepted. No later sprint is active. The implemented boundary remains the deterministic synthetic FinBank/Alpha Manufacturing case and framework-independent corporate-exposure domain model; regulatory classification, risk weights, EAD, RWA, capital calculations, lesson/tutor behavior, authentication, billing, production deployment, and social publishing remain unauthorized.
+Sprint 01 is historically accepted. Sprint 01 integration and hardening is the current authorized
+boundary; see sprints/sprint-01-hardening/SPRINT.md. It fixes exact decimal handling, structural
+provenance, and runtime immutability in the existing domain model. Sprint 02 is not active.
+Regulatory classification, risk weights, EAD, RWA, capital calculations, lesson/tutor behavior,
+authentication, billing, production deployment, and social publishing remain unauthorized.

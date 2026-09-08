@@ -28,5 +28,6 @@ Finalized documents, deck, prototype, and packages are catalogued in `ARTIFACT_C
 ## Current implementation status
 
 Sprint 00 and Sprint 01 are accepted. Sprint 01 delivered the synthetic FinBank/Alpha
-Manufacturing fixture and deterministic, framework-independent domain model. No later sprint is
-active; regulatory calculations and all later product features remain unauthorized.
+Manufacturing fixture and deterministic, framework-independent domain model. The current authorized
+boundary is sprints/sprint-01-hardening/; review integration, exact decimals, structural provenance,
+and runtime immutability before activating any later sprint. Sprint 02 remains unauthorized.

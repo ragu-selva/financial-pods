@@ -60,13 +60,23 @@ def valid_case() -> FinBankCase:
             outstanding_principal=Money(Decimal("10000000"), Currency("USD")),
         ),
         assumptions=(assumption,),
-        provenance=(
+        provenance=tuple(
             Provenance(
-                field_path="facility.origination_date",
+                field_path=path,
                 source_kind=SourceKind.APPROVED_ASSUMPTION,
                 source_locator="ASM-DATES",
                 source_version="sprint-01:2026-08-27",
-            ),
+            )
+            for path in (
+                "institution.name",
+                "counterparty.legal_name",
+                "product.kind",
+                "facility.original_principal",
+                "facility.origination_date",
+                "facility.maturity_date",
+                "exposure.as_of_date",
+                "exposure.outstanding_principal",
+            )
         ),
     )
 

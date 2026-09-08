@@ -4,6 +4,7 @@
 
 - Sprint 00 foundation: accepted with documented follow-up
 - Sprint 01 FinBank/Alpha Manufacturing deterministic domain model: accepted
+- Sprint 01 integration/hardening: current authorized boundary; review before Sprint 02 activation
 - Lock the coordinated initial-release definition: Product V1 Golden Lesson + Growth V1 social publishing
 
 ## Next

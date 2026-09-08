@@ -4,6 +4,7 @@
 
 - **Sprint 00** is accepted with documented follow-up.
 - **Sprint 01** is accepted; no later sprint is currently active.
+- **Sprint 01 hardening** is the current authorized integration/correctness task; see its control pack.
 - **Sprint 02 through Sprint 05** below are a proposed mapping of the approved implementation phases and updated Growth V1 roadmap. Each requires its own `SPRINT.md`, acceptance criteria, review file, owner, and approval before implementation.
 - **After V1** is an expansion phase driven by beta evidence rather than a currently authorized sprint.
 

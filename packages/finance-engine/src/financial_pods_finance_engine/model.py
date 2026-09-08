@@ -16,6 +16,41 @@ from .provenance import Assumption, AssumptionStatus, Provenance, SourceKind
 
 SCHEMA_VERSION = "1.0"
 
+# Schema 1.0 case facts, not regulatory assertions. Money paths cover amount AND currency.
+REQUIRED_PROVENANCE_PATHS = frozenset(
+    {
+        "institution.name",
+        "counterparty.legal_name",
+        "product.kind",
+        "facility.original_principal",
+        "facility.origination_date",
+        "facility.maturity_date",
+        "exposure.as_of_date",
+        "exposure.outstanding_principal",
+    }
+)
+SUPPORTED_PROVENANCE_PATHS = REQUIRED_PROVENANCE_PATHS | frozenset(
+    {
+        "schema_version",
+        "fixture_version",
+        "currency_policy_version",
+        "institution.id",
+        "counterparty.id",
+        "product.id",
+        "product.name",
+        "facility.id",
+        "facility.institution_id",
+        "facility.borrower_id",
+        "facility.product_id",
+        "facility.original_principal.amount",
+        "facility.original_principal.currency",
+        "exposure.id",
+        "exposure.facility_id",
+        "exposure.outstanding_principal.amount",
+        "exposure.outstanding_principal.currency",
+    }
+)
+
 
 def _require_text(value: object, *, field: str) -> None:
     if not isinstance(value, str) or not value.strip() or value != value.strip():
@@ -149,6 +184,8 @@ class FinBankCase:
         _require_exact_type(self.product, Product, field="product")
         _require_exact_type(self.facility, Facility, field="facility")
         _require_exact_type(self.exposure, Exposure, field="exposure")
+        _require_exact_type(self.assumptions, tuple, field="assumptions")
+        _require_exact_type(self.provenance, tuple, field="provenance")
         if not self.assumptions:
             invalid(code="missing_assumptions", field="assumptions", message="must not be empty")
         if not self.provenance:
@@ -224,6 +261,12 @@ class FinBankCase:
         field_paths: set[str] = set()
         for item in self.provenance:
             _require_exact_type(item, Provenance, field="provenance")
+            if item.field_path not in SUPPORTED_PROVENANCE_PATHS:
+                invalid(
+                    code="unsupported_provenance_path",
+                    field="provenance.field_path",
+                    message=f"unsupported schema {SCHEMA_VERSION} case field: {item.field_path}",
+                )
             if item.field_path in field_paths:
                 invalid(
                     code="duplicate_provenance",
@@ -246,3 +289,11 @@ class FinBankCase:
                         field="provenance.source_locator",
                         message=f"{referenced_id} is not present in assumptions",
                     )
+
+        missing = sorted(REQUIRED_PROVENANCE_PATHS - field_paths)
+        if missing:
+            invalid(
+                code="missing_provenance_coverage",
+                field="provenance",
+                message=f"missing required case-fact paths: {', '.join(missing)}",
+            )

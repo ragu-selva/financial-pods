@@ -14,6 +14,9 @@ Model FinBank, Alpha Manufacturing, loan/exposure inputs, money/percentage primi
 
 ## Phase 2 — Regulatory rules and calculation slice
 
+Entry dependency: complete and review the bounded Sprint 01 integration/hardening work in
+sprints/sprint-01-hardening/. This does not activate Phase 2 or import Sprint 02 planning into main.
+
 Introduce a reviewed, versioned ruleset for one explicitly selected jurisdiction/framework; implement deterministic exposure-to-capital calculation, audit trace, citations, fixtures, and regulatory regression tests.
 
 ## Phase 3 — Golden lesson experience

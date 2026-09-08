@@ -1,5 +1,16 @@
 from dataclasses import dataclass
-from decimal import Decimal
+from decimal import (
+    MAX_EMAX,
+    MIN_EMIN,
+    ROUND_HALF_EVEN,
+    Context,
+    Decimal,
+    Inexact,
+    InvalidOperation,
+    Overflow,
+    Rounded,
+    localcontext,
+)
 from typing import Self
 
 from .errors import invalid
@@ -16,12 +27,18 @@ def _require_decimal(value: object, *, field: str) -> Decimal:
     return value
 
 
-def _fractional_digits(value: Decimal) -> int:
-    normalized = value.normalize()
-    exponent = normalized.as_tuple().exponent
+def _canonical_parts(value: Decimal) -> tuple[int, tuple[int, ...], int]:
+    """Strip insignificant zeros without context-sensitive Decimal arithmetic."""
+    sign, digits, exponent = value.as_tuple()
     if not isinstance(exponent, int):
         invalid(code="non_finite_decimal", field="decimal", message="must be finite")
-    return max(0, -exponent)
+    if value.is_zero():
+        return sign, (0,), 0
+    end = len(digits)
+    while end > 1 and digits[end - 1] == 0:
+        end -= 1
+        exponent += 1
+    return sign, digits[:end], exponent
 
 
 @dataclass(frozen=True, slots=True)
@@ -57,27 +74,48 @@ class Money:
         value = _require_decimal(self.amount, field="amount")
         if type(self.currency) is not Currency:
             invalid(code="invalid_type", field="currency", message="must be a Currency")
-        if _fractional_digits(value) > 2:
+        sign, digits, exponent = _canonical_parts(value)
+        if exponent < -2:
             invalid(
                 code="excess_precision",
                 field="amount",
                 message="must have at most two fractional digits",
             )
-        object.__setattr__(self, "amount", value.quantize(Decimal("0.01")))
+        # The tuple constructor ignores precision, rounding, and context exponent limits.
+        fixed_digits = (0,) if value.is_zero() else digits + (0,) * (exponent + 2)
+        object.__setattr__(self, "amount", Decimal((sign, fixed_digits, -2)))
 
     def __add__(self, other: object) -> Self:
         if type(other) is not type(self):
             return NotImplemented
         if self.currency != other.currency:
             invalid(code="currency_mismatch", field="currency", message="currencies must match")
-        return type(self)(self.amount + other.amount, self.currency)
+        return self._combine(other, subtract=False)
 
     def __sub__(self, other: object) -> Self:
         if type(other) is not type(self):
             return NotImplemented
         if self.currency != other.currency:
             invalid(code="currency_mismatch", field="currency", message="currencies must match")
-        return type(self)(self.amount - other.amount, self.currency)
+        return self._combine(other, subtract=True)
+
+    def _combine(self, other: Self, *, subtract: bool) -> Self:
+        # Both operands have exponent -2. One extra coefficient digit covers any carry.
+        # Isolate arithmetic from the caller's traps, rounding, clamp, and exponent limits.
+        precision = max(len(self.amount.as_tuple().digits), len(other.amount.as_tuple().digits)) + 1
+        context = Context(
+            prec=precision,
+            rounding=ROUND_HALF_EVEN,
+            Emin=MIN_EMIN,
+            Emax=MAX_EMAX,
+            capitals=1,
+            clamp=0,
+            flags=[],
+            traps=[InvalidOperation, Overflow, Inexact, Rounded],
+        )
+        with localcontext(context):
+            amount = self.amount - other.amount if subtract else self.amount + other.amount
+        return type(self)(amount, self.currency)
 
     def to_decimal_string(self) -> str:
         return format(self.amount, ".2f")
@@ -89,13 +127,14 @@ class Percentage:
 
     def __post_init__(self) -> None:
         decimal_value = _require_decimal(self.value, field="percentage")
-        if _fractional_digits(decimal_value) > 6:
+        sign, digits, exponent = _canonical_parts(decimal_value)
+        if exponent < -6:
             invalid(
                 code="excess_precision",
                 field="percentage",
                 message="must have at most six fractional digits",
             )
-        canonical = Decimal(0) if decimal_value == 0 else decimal_value.normalize()
+        canonical = Decimal(0) if decimal_value.is_zero() else Decimal((sign, digits, exponent))
         object.__setattr__(self, "value", canonical)
 
     def require_range(

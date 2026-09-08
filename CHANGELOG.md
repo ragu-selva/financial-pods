@@ -20,6 +20,10 @@ All notable project changes are recorded here. The project intends to use semant
 
 ### Changed
 
+- Integrated the original Sprint 01 commit onto main's history without importing Sprint 02 planning.
+- Hardened Decimal context independence, required structural provenance coverage/path validation,
+  and exact-tuple runtime enforcement; added regression/property tests and ADR 0003.
+
 - Clarified `D:\Financial Ai studio\financial-pods` as the only live project root.
 - Updated README, manifest, intake guidance, and agent contract for the organized structure.
 - Aligned local-development guidance and dependency-lock documentation with the implemented toolchain.
