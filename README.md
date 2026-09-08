@@ -5,9 +5,9 @@ This folder is the single canonical Codex project for the Financial Pods product
 ## Current status
 
 Sprint 00 and Sprint 01 are accepted. Sprint 01 delivered the synthetic FinBank/Alpha
-Manufacturing case plus a deterministic, framework-independent domain model. Sprint 01 integration
-and hardening is the current authorized task; see STATUS.md and sprints/sprint-01-hardening/.
-Sprint 02 is not active; regulatory calculations, lesson/tutor behavior, authentication, billing, production
+Manufacturing case plus a deterministic, framework-independent domain model. Sprint 01 hardening
+is accepted and merged through PR #2; see STATUS.md and sprints/sprint-01-hardening/.
+Sprint 02 is PLANNING ONLY — NOT ACTIVE; regulatory calculations, lesson/tutor behavior, authentication, billing, production
 deployment, and social publishing remain out of scope.
 
 ## Quick start
@@ -46,7 +46,7 @@ Before implementation, read `AGENTS.md`, `PRODUCT_SCOPE.md`, `ARCHITECTURE.md`, 
 - `prompts/` and `skills/` — active prompt and Codex-skill assets when scheduled and reviewed.
 - `tests/` — unit, integration, regulatory regression, and AI evaluation suites.
 - `infra/` — Docker and Terraform configuration.
-- `sprints/` — the controlling execution boundary. Sprint 01 hardening is authorized; Sprint 02 is not active.
+- `sprints/` — the controlling execution boundary. Sprint 01 hardening is accepted and merged; Sprint 02 is planning only.
 - `archive/` — historical package snapshots; these are not the live codebase.
 
 ## Source-of-truth policy

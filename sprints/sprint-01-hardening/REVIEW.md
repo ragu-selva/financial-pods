@@ -1,6 +1,11 @@
 # Sprint 01 Hardening Review
 
-Status: Ready for review; local and hosted verification complete. Not yet accepted or merged.
+Status: Accepted and merged
+
+Acceptance date: 2026-09-08.
+Acceptance provenance: project owner's PR #2 merge and explicit post-merge cleanup instruction.
+Merged PR: https://github.com/ragu-selva/financial-pods/pull/2
+Merge commit: `b0cf3a95c97c80fc73d5dbf1b12b59b45cac6183` (2026-09-08 12:40:59 -04:00).
 
 ## Authorization and integration
 
@@ -42,10 +47,11 @@ pytest 9.1.1, Hypothesis 6.165.10. Commands below ran against the integrated har
   restricted exponent limits, clamp, traps on/off, unchanged context flags, 50-digit coefficients,
   excess precision, signed zero, fixture round trips, provenance paths/coverage, and tuple integrity.
 - VERIFIED: `docker compose --env-file .env.example config --quiet` passed (syntax/model only).
-- BLOCKED: `docker info` and `node scripts/task.mjs stack-check` failed because
+- NON-BLOCKING KNOWN LOCAL-RUNTIME LIMITATION: `docker info` and `node scripts/task.mjs stack-check` failed because
   `npipe:////./pipe/dockerDesktopLinuxEngine` is absent: `open //./pipe/dockerDesktopLinuxEngine:
   The system cannot find the file specified.` No running-stack success is claimed; stack-verify
   was not attempted after daemon unavailability was established. Infrastructure is unchanged.
+  This environmental limitation does not block or reverse Sprint 01 hardening acceptance.
 - VERIFIED: `git diff --check`; original 03b03ec ancestry; 60fad85 excluded from ancestry;
   original Sprint 02 branch still at 60fad85; no Sprint 02 files in this branch.
 - VERIFIED: data/finbank, docs/reference-artifacts, and Sprint 00/01 records match 03b03ec exactly.
@@ -57,17 +63,28 @@ pytest cache WinError 183, Next.js slow-filesystem warning, and FORCE_COLOR/NO_C
 
 ## Hosted review
 
-[PR #2](https://github.com/ragu-selva/financial-pods/pull/2) targets main from
-codex/sprint-01-hardening. Open, non-draft, no merge conflicts observed; not merged.
+Post-merge documentation cleanup, 2026-09-08: `node scripts/task.mjs verify` reran successfully
+(exit 0; 130 finance, 5 API, 3 web, 2 Chromium tests; formats/lint/types/builds/artifact checks).
+Only living Markdown acceptance/publication records changed. Production code, fixtures,
+dependencies, infrastructure, reference artifacts, and historical Sprint 00/01 reviews are unchanged.
+Local Docker runtime was not retested because this cleanup changes no runtime or infrastructure.
+
+[PR #2](https://github.com/ragu-selva/financial-pods/pull/2) was merged from
+codex/sprint-01-hardening into main at `b0cf3a95c97c80fc73d5dbf1b12b59b45cac6183`.
+The original commits and history remain preserved; no squash or history rewrite occurred.
 
 VERIFIED: [GitHub Actions run 34247265131](https://github.com/ragu-selva/financial-pods/actions/runs/34247265131)
 passed for implementation commit a71d639 on Ubuntu/Node 24/Python 3.12. All workflow steps passed,
 including PostgreSQL/Redis service initialization, pgvector enable/check, Compose validation,
 artifact hashes, lint, formatting, types, tests, builds, and Chromium smoke tests. Local Docker
-remains blocked independently. Subsequent documentation-only updates trigger fresh PR checks;
-the PR is the source for the latest run. Historical Sprint 01 review records remain unchanged.
+remains a non-blocking known local-runtime limitation. The final PR head `46a723b` also passed
+[run 34247638871](https://github.com/ragu-selva/financial-pods/actions/runs/34247638871).
+These are observed hosted CI results, not an assertion about uninspected later runs.
+Historical Sprint 00 and Sprint 01 review records remain unchanged.
 
 ## Deferred work and decision
 
 All Sprint 02 calculations and later product work remain unauthorized. Historical Sprint 00 and
-Sprint 01 review records are preserved. Accountable reviewer acceptance is pending the PR review.
+Sprint 01 review records are preserved. Acceptance and merge are complete on 2026-09-08.
+Sprint 02 remains PLANNING ONLY — NOT ACTIVE. Its separately published planning branch is for
+architecture/regulatory review only and is not merged into main.

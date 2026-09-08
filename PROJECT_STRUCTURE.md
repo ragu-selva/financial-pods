@@ -83,7 +83,7 @@ by later sprints.
 
 Sprint 00 runtime and onboarding details are documented in `docs/architecture/LOCAL_DEVELOPMENT.md`. Sprint 01 accepted only the domain package and synthetic fixture defined by its control pack; all other empty domain/content locations remain unused until a later sprint is approved.
 
-`sprints/sprint-01-hardening/` contains the current authorized integration/hardening control pack
+`sprints/sprint-01-hardening/` contains the accepted and merged integration/hardening control pack
 (SPRINT.md, ACCEPTANCE_CRITERIA.md, REVIEW.md). STATUS.md records fresh implementation and verification
 evidence. ADR 0003 documents exact primitives, structural provenance, and runtime tuple enforcement.
 
