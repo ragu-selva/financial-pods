@@ -27,7 +27,7 @@ Finalized documents, deck, prototype, and packages are catalogued in `ARTIFACT_C
 
 ## Current implementation status
 
-Sprint 00 foundation is accepted with documented follow-ups. It includes the
-minimal web and API shells, local PostgreSQL/pgvector and Redis, Docker Compose, cross-platform
-quality gates, tests, and a GitHub Actions workflow. No product feature has been authorized or
-implemented.
+Sprint 00 and Sprint 01 are accepted. Sprint 01 delivered the synthetic FinBank/Alpha
+Manufacturing fixture and deterministic, framework-independent domain model. The current authorized
+boundary is sprints/sprint-01-hardening/; review integration, exact decimals, structural provenance,
+and runtime immutability before activating any later sprint. Sprint 02 remains unauthorized.

@@ -57,4 +57,8 @@ Manual, human-approved channel publishing is sufficient for V1. Automated platfo
 
 ## Current boundary
 
-The active sprint is Sprint 00: repository and development-environment bootstrap only. No product feature or social-publishing implementation is authorized during Sprint 00. Growth V1 work begins only when included in an approved sprint.
+Sprint 01 is historically accepted. Sprint 01 integration and hardening is the current authorized
+boundary; see sprints/sprint-01-hardening/SPRINT.md. It fixes exact decimal handling, structural
+provenance, and runtime immutability in the existing domain model. Sprint 02 is not active.
+Regulatory classification, risk weights, EAD, RWA, capital calculations, lesson/tutor behavior,
+authentication, billing, production deployment, and social publishing remain unauthorized.

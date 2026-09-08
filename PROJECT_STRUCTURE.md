@@ -63,11 +63,15 @@ financial-pods/
 |   |-- docker/                     Local/container definitions
 |   `-- terraform/                  Reviewed infrastructure as code
 |-- sprints/
-|   |-- sprint-00/                  Current repository-bootstrap sprint
+|   |-- sprint-00/                  Accepted repository-bootstrap sprint
 |   |   |-- SPRINT.md               Scope, sequence, and stop condition
 |   |   |-- ACCEPTANCE_CRITERIA.md   Objective completion checklist
 |   |   `-- REVIEW.md               Verification evidence and acceptance decision
-|   |-- sprint-01/                  Planned deterministic domain-model sprint
+|   |-- sprint-01/                  Accepted deterministic domain-model sprint
+|   |   |-- SPRINT.md               Scope and execution boundary
+|   |   |-- DOMAIN_MODEL_SCOPE.md   Approved facts, terminology, assumptions, and decisions
+|   |   |-- ACCEPTANCE_CRITERIA.md  Objective completion checklist
+|   |   `-- REVIEW.md               Verification evidence and acceptance decision
 |   `-- sprint-02..05/               Future placeholders; no authorization implied
 `-- archive/
     `-- bootstrap-packages/          Historical generated snapshots, not live source
@@ -77,7 +81,11 @@ financial-pods/
 test. The regulatory and AI-evaluation test locations remain intentionally empty until authorized
 by later sprints.
 
-Sprint 00 runtime and onboarding details are documented in `docs/architecture/LOCAL_DEVELOPMENT.md`. Empty domain/content directories remain intentionally unused until an approved sprint authorizes their behavior.
+Sprint 00 runtime and onboarding details are documented in `docs/architecture/LOCAL_DEVELOPMENT.md`. Sprint 01 accepted only the domain package and synthetic fixture defined by its control pack; all other empty domain/content locations remain unused until a later sprint is approved.
+
+`sprints/sprint-01-hardening/` contains the current authorized integration/hardening control pack
+(SPRINT.md, ACCEPTANCE_CRITERIA.md, REVIEW.md). STATUS.md records fresh implementation and verification
+evidence. ADR 0003 documents exact primitives, structural provenance, and runtime tuple enforcement.
 
 ## Where Codex writes code
 
