@@ -1,6 +1,6 @@
 # ADR 0003: Exact primitives and structural case-data integrity
 
-- Status: Implemented; accountable reviewer acceptance pending the hardening PR
+- Status: Accepted through PR #2, merged on 2026-09-08 at b0cf3a9
 - Date: 2026-09-08
 - Authority: Project owner's explicit Sprint 01 Integration and Hardening request
 - Supersedes: No historical record; tightens enforcement of ADR 0002's existing promises
