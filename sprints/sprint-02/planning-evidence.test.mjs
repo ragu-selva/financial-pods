@@ -308,3 +308,265 @@ test("trace planning binds RWA to the typed measure; runtime tests remain deferr
     ),
   );
 });
+
+function checkParagraphEvidence(draft) {
+  assert.equal(draft.schema_version, "source-review-manifest.v0.3-draft");
+  assert.equal(draft.regulatory_as_of, "2025-01-01");
+  assert.equal(draft.resolution_status, "UNRESOLVED");
+  assert.equal(draft.source_readiness, "BLOCKED_ON_SOURCE_EVIDENCE");
+  const records = [...draft.sources, ...draft.supporting_evidence];
+  const sourceIds = new Set(records.map((x) => x.source_id));
+  const lineageIds = new Set(draft.paragraph_lineage.map((x) => x.lineage_id));
+  assert.equal(lineageIds.size, draft.paragraph_lineage.length);
+  const dependencyIds = new Set(
+    draft.dependency_inventory.map((x) => x.dependency_id),
+  );
+  assert.equal(dependencyIds.size, draft.dependency_inventory.length);
+  const validDate = (value) =>
+    typeof value === "string" &&
+    /^\d{4}-\d{2}-\d{2}$/.test(value) &&
+    !Number.isNaN(Date.parse(value)) &&
+    new Date(value).toISOString().slice(0, 10) === value;
+  const checkPending = (x) => {
+    assert.equal(x.review_status, "PENDING_REVIEW");
+    assert.equal(x.executable, false);
+  };
+  for (const x of draft.paragraph_lineage) {
+    checkPending(x);
+    assert.ok(sourceIds.has(x.source_id));
+    assert.equal(x.legal_status, "CURRENT");
+    assert.equal(x.legal_status_as_of, "2025-01-01");
+    assert.ok(validDate(x.effective_from));
+    assert.ok(x.effective_from <= "2025-01-01");
+    assert.equal(x.effective_to, null);
+    assert.equal(x.effective_to_status, "UNKNOWN_NOT_OPEN_ENDED");
+    assert.equal(x.documentary_coverage_through, "2025-01-01");
+    assert.equal(x.reviewer_name, null);
+    assert.equal(x.review_date, null);
+    assert.equal(x.review_evidence, null);
+    assert.ok(x.paragraph_locator.length > 0);
+    assert.ok(x.amendment_events.length > 0);
+    for (const event of x.amendment_events) {
+      checkPending(event);
+      assert.ok(sourceIds.has(event.source_id));
+      assert.ok(validDate(event.publication_date));
+      assert.ok(validDate(event.stated_effective_date));
+      assert.ok(event.evidence_locator.length > 0);
+    }
+  }
+  for (const x of draft.dependency_inventory) {
+    checkPending(x);
+    assert.ok(
+      [
+        "REQUIRED",
+        "SUPPORTING",
+        "NOT_REQUIRED_FOR_GOLDEN_CASE",
+        "UNRESOLVED",
+      ].includes(x.classification),
+    );
+    assert.equal(x.classification_is_candidate, true);
+    assert.ok(x.scope.length > 0);
+    for (const id of x.source_ids) assert.ok(sourceIds.has(id));
+    if (x.lineage_id !== null) assert.ok(lineageIds.has(x.lineage_id));
+  }
+  for (const x of draft.rule_bindings) {
+    checkPending(x);
+    assert.ok(validDate(x.effective_from));
+    assert.equal(x.effective_to, null);
+    assert.equal(x.effective_to_status, "UNKNOWN_NOT_OPEN_ENDED");
+    assert.equal(x.documentary_coverage_through, "2025-01-01");
+    for (const id of x.paragraph_lineage_ids) assert.ok(lineageIds.has(id));
+    for (const id of x.dependency_ids) assert.ok(dependencyIds.has(id));
+  }
+  for (const x of [
+    ...draft.sources,
+    ...draft.supporting_evidence,
+    ...draft.proposal_evidence,
+  ])
+    checkPending(x);
+}
+
+test("paragraph review dates are bounded documentary evidence, not approved selection", () => {
+  checkParagraphEvidence(manifest);
+  const byId = Object.fromEntries(
+    manifest.paragraph_lineage.map((x) => [x.lineage_id, x]),
+  );
+  for (const [id, date] of Object.entries({
+    "P-INSTITUTION": "2024-01-01",
+    "P-CORPORATE": "2020-04-13",
+    "P-CARRYING": "2019-07-01",
+    "P-EXPOSURE-AMOUNT": "2014-01-01",
+    "P-STANDARDIZED-SCOPE": "2014-01-01",
+    "P-CORPORATE-WEIGHT": "2020-09-17",
+    "P-RWA": "2014-01-01",
+    "P-TEACHING-SOURCE": "2020-01-01",
+    "P-PAST-DUE": "2019-10-01",
+    "P-CBLR-ELECTION": "2020-01-01",
+  }))
+    assert.equal(byId[id].effective_from, date);
+});
+
+test("review rejects invented open-ended or as-of-as-expiry intervals", () => {
+  for (const change of [
+    (x) => {
+      x.paragraph_lineage[0].effective_to_status = "OPEN_ENDED";
+    },
+    (x) => {
+      x.paragraph_lineage[0].effective_to = "2025-01-02";
+    },
+    (x) => {
+      x.paragraph_lineage[0].effective_from = "2024-02-30";
+    },
+    (x) => {
+      x.rule_bindings[0].effective_to_status = "OPEN_ENDED";
+    },
+    (x) => {
+      x.rule_bindings[0].effective_to = "2025-01-01";
+    },
+  ]) {
+    const unsafe = structuredClone(manifest);
+    change(unsafe);
+    assert.throws(() => checkParagraphEvidence(unsafe));
+  }
+});
+
+test("review rejects proposal injection into paragraph or dependency evidence", () => {
+  for (const change of [
+    (x) => {
+      x.paragraph_lineage[0].source_id = proposalId;
+    },
+    (x) => {
+      x.paragraph_lineage[0].amendment_events[0].source_id = proposalId;
+    },
+    (x) => {
+      x.dependency_inventory[0].source_ids = [proposalId];
+    },
+    (x) => {
+      x.rule_bindings[0].paragraph_lineage_ids = ["MISSING"];
+    },
+    (x) => {
+      x.rule_bindings[0].dependency_ids = ["MISSING"];
+    },
+  ]) {
+    const unsafe = structuredClone(manifest);
+    change(unsafe);
+    assert.throws(() => checkParagraphEvidence(unsafe));
+  }
+});
+
+test("review rejects approval or execution before dependency and human gates close", () => {
+  for (const change of [
+    (x) => {
+      x.paragraph_lineage[0].executable = true;
+    },
+    (x) => {
+      x.paragraph_lineage[0].amendment_events[0].review_status = "APPROVED";
+    },
+    (x) => {
+      x.dependency_inventory[0].review_status = "APPROVED";
+    },
+    (x) => {
+      x.rule_bindings[0].review_status = "APPROVED";
+    },
+    (x) => {
+      x.source_readiness = "READY_FOR_HUMAN_REVIEW";
+    },
+  ]) {
+    const unsafe = structuredClone(manifest);
+    change(unsafe);
+    assert.throws(() => checkParagraphEvidence(unsafe));
+  }
+});
+
+test("known delays, corrections and expired relief retain distinct dates", () => {
+  const source = (id) => allEvidence.find((x) => x.source_id === id);
+  assert.match(
+    read(source("FR-2019-06011").local_path),
+    /delayed until July 1, 2019/,
+  );
+  assert.match(
+    read(source("FR-2020-17744").local_path),
+    /paragraphs \(f\)\(2\) and \(f\)\(3\)/,
+  );
+  assert.match(
+    read(source("FR-2020-06755").local_path),
+    /effective\s+date will remain April 1, 2020/,
+  );
+  assert.match(read(source("FR-2020-21894").local_path), /without change/);
+  const expiry = manifest.interval_contract.bounded_expiry_example;
+  assert.equal(expiry.effective_from, "2020-12-02");
+  assert.equal(expiry.stated_last_day, "2021-12-31");
+  assert.equal(expiry.effective_to, "2022-01-01");
+  assert.equal(expiry.effective_to_status, "ESTABLISHED_EXCLUSIVE_SUNSET");
+  assert.equal(expiry.executable, false);
+});
+
+test("new required dependency sections are dated captures, not proposal or URL-only evidence", () => {
+  for (const [id, section] of [
+    ["DEP-CBLR", "217.12"],
+    ["DEP-COVERED-POSITION", "217.202"],
+    ["DEP-UNSETTLED", "217.38"],
+  ]) {
+    const dependency = manifest.dependency_inventory.find(
+      (x) => x.dependency_id === id,
+    );
+    assert.equal(dependency.classification, "REQUIRED");
+    const sourceId = "US-DEPENDENCY-" + section;
+    assert.ok(dependency.source_ids.includes(sourceId));
+    const source = allEvidence.find((x) => x.source_id === sourceId);
+    assert.equal(source.source_kind, "DATED_ECFR_SECTION");
+    assert.equal(source.point_in_time_date, "2025-01-01");
+    assert.equal(source.review_status, "PENDING_REVIEW");
+    assert.equal(source.executable, false);
+  }
+  for (const id of [
+    "DEP-EXTERNAL-IDENTITY",
+    "DEP-PPP",
+    "DEP-REPORTING-ACCOUNTING",
+  ])
+    assert.equal(
+      manifest.dependency_inventory.find((x) => x.dependency_id === id)
+        .classification,
+      "UNRESOLVED",
+    );
+});
+
+test("annual Title 12 LSA evidence excludes proposals and old Regulation Q identity", () => {
+  const index = json(
+    allEvidence.find((x) => x.source_id === "FR-PART217-FINAL-RULE-INDEX")
+      .local_path,
+  );
+  assert.equal(index.count, 56);
+  assert.ok(index.next_page_url == null);
+  assert.ok(index.results.some((x) => x.document_number === "2020-17744"));
+  for (const id of manifest.amendment_chain_screen.excluded_regime_documents)
+    assert.ok(index.results.some((x) => x.document_number === id));
+  for (let year = 2013; year <= 2024; year++) {
+    const source = allEvidence.find(
+      (x) => x.source_id === `LSA-${year}-12-TITLE12`,
+    );
+    assert.match(read(source.local_path), /TITLE 12_BANKS AND BANKING/);
+  }
+});
+
+test("activation record text is preserved and source review names its remaining block", () => {
+  // Authored JSON may receive checkout CRLF; raw regulatory evidence is never normalized.
+  // The task also separately audits actual working-tree bytes against the original Git blob.
+  const bytes = Buffer.from(
+    read("ACTIVATION_RECORD.json").replaceAll("\r\n", "\n"),
+    "utf8",
+  );
+  assert.equal(
+    createHash("sha256").update(bytes).digest("hex"),
+    "4af225c03848aa361fcd0efae64c61e565c9e21497eb224b3d2b5fc135fc014c",
+  );
+  const review = read("SOURCE_REVIEW.md");
+  for (const heading of [
+    "Resolved documentary evidence",
+    "Remaining human/legal-review items",
+    "Activation readiness",
+  ])
+    assert.ok(review.includes("## " + heading));
+  assert.ok(review.includes("BLOCKED_ON_SOURCE_EVIDENCE"));
+  assert.ok(review.includes("SPRINT 02 REMAINS INACTIVE"));
+});

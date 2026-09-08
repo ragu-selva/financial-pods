@@ -145,9 +145,56 @@ Docker was not rerun for this non-runtime change; the previously recorded local-
 remains and no new stack pass is claimed. Existing non-failing Starlette/httpx, pytest cache
 WinError 183, Next.js slow-filesystem and FORCE_COLOR/NO_COLOR warnings remain.
 
+### Source-chain and dependency follow-up (current, 2026-09-08)
+
+The source-resolver follow-up below describes 02904db historically. This later task reused all
+11 captures and added 48 official raw files: 30 FR documents, 12 cumulative Title 12 LSA editions,
+two discovery indexes and four dated dependency sections. SourceManifest v0.3-draft now records
+ten paragraph lineage candidates, explicit unknown-end semantics and the minimal dependency inventory.
+The existing six core section identities and regulatory/fact date remain unchanged.
+
+Resolved documentary matters include the 2019 carrying-value delay; 2019 corporate definition
+revision; 2020 PPP exclusion and final confirmation; 2020 corporate/QCCP cross-reference correction;
+2020 renumbering of the 8% source; original RWA/scope adoption; 2024 institution-perimeter locator;
+and the explicit 2021 end of temporary CBLR asset relief. See SOURCE_REVIEW.md for dates and limits.
+
+**BLOCKED_ON_SOURCE_EVIDENCE:** incorporated identity/PPP statutory definitions, reporting/accounting
+dependencies and covered-position/conditional-definition closure remain incomplete. The core
+findings are available for review, not approved. Neither missing facts nor unknown legal endpoints
+are defaulted. No activation PR is created.
+
+Verification for this follow-up:
+
+- Skill Creator quick_validate.py: PASS using the existing isolated PyYAML 6.0.3 validation directory;
+  no project/global dependency or skill change. The existing skill covers the issues encountered.
+- `node --test sprints/sprint-02/planning-evidence.test.mjs`: PASS, **20** planning-only checks.
+  Eight added checks cover date/unknown-end semantics, delay/correction/sunset evidence, source/
+  dependency links, proposal injection, premature approval and preserved activation controls.
+- `node scripts/task.mjs verify`: PASS, exit 0. Formatting, ESLint/Ruff, TypeScript/mypy,
+  130 finance tests (including existing Hypothesis tests), 5 API, 3 web, 2 browser tests,
+  Next.js production build, API/finance source/wheel builds and 10 immutable artifact hashes.
+- All **59** raw-byte source SHA-256/length checks: PASS. Original 11 source files and metadata,
+  proposal record, Golden Case and activation record are preserved; all seven human fields null.
+- New eCFR/annual direct paragraph comparisons: .12 32/32, .202 69/69, .22 102/102, .38 16/16;
+  zero non-whitespace mismatches. This is not legal applicability or full cross-reference proof.
+- `git diff --check` and `git diff --cached --check`: PASS. All 59 staged raw-source blobs
+  match manifest byte lengths and SHA-256. Original metadata/binding interpretations and
+  actual activation/Golden/skill bytes match 02904db; production/historical files match origin/main.
+- Production code, accepted Sprint 00/01/hardening records, infrastructure and reference artifacts
+  remain unchanged. Docker is not rerun for this non-runtime task; no new Docker pass is claimed.
+- Existing non-failing warnings: Starlette/httpx deprecation, pytest cache WinError 183,
+  Next.js slow filesystem and FORCE_COLOR/NO_COLOR precedence.
+- Hosted CI is not claimed: this repository triggers CI on main pushes, PRs or manual dispatch.
+  No activation PR/manual run is requested. Publication of this follow-up was stopped by the
+  permission review pending explicit approval to upload the planning/evidence files to GitHub.
+  The verified changes are retained in a local planning-branch commit; no remote push is claimed.
+
+These checks validate planning evidence and the existing baseline. They do not verify any
+production regulatory classifier/calculator, approve source intervals or activate Sprint 02.
+
 ## Known limitations and deferred work
 
-### Reusable source-resolver follow-up
+### Reusable source-resolver follow-up (02904db; historical)
 
 The requested skill is at skills/effective-dated-regulatory-source-resolver/SKILL.md. Its scope is
 documentary source-version resolution for explicit jurisdiction/regulator/regime/as-of selectors,

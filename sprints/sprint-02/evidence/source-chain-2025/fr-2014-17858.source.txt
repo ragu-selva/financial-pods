@@ -1,0 +1,768 @@
+<html>
+<head>
+<title>Federal Register, Volume 79 Issue 146 (Wednesday, July 30, 2014)</title>
+</head>
+<body><pre>
+[Federal Register Volume 79, Number 146 (Wednesday, July 30, 2014)]
+[Rules and Regulations]
+[Pages 44120-44125]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2014-17858]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TREASURY
+
+Office of the Comptroller of the Currency
+
+12 CFR Part 3
+
+[Docket ID OCC-2014-0012]
+RIN 1557-AD83
+
+FEDERAL RESERVE SYSTEM
+
+12 CFR Part 217
+
+[Regulation Q; Docket No. R-1488]
+RIN 7100-AE17
+
+FEDERAL DEPOSIT INSURANCE CORPORATION
+
+12 CFR Part 324
+
+RIN 3064-AE13
+
+
+Regulatory Capital Rules: Advanced Approaches Risk-Based Capital 
+Rule, Revisions to the Definition of Eligible Guarantee
+
+AGENCIES: Office of the Comptroller of the Currency, Treasury; the 
+Board of Governors of the Federal Reserve System; and the Federal 
+Deposit Insurance Corporation.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Office of the Comptroller of the Currency (OCC), the Board 
+of Governors of the Federal Reserve System (Board), and the Federal 
+Deposit Insurance Corporation (FDIC) (collectively, the agencies) are 
+adopting a final rule that revises the definition of eligible guarantee 
+in the agencies' advanced approaches risk-based capital rule, adopted 
+in the agencies' July 2013 regulatory capital rule (2013 capital rule). 
+The final rule removes the requirement that an eligible guarantee be 
+made by an eligible guarantor for purposes of calculating the risk-
+weighted assets of an exposure (other than a securitization exposure) 
+under the advanced approaches risk-based capital rule as incorporated 
+into the 2013 capital rule (advanced approaches). The change to the 
+definition of eligible guarantee applies to all banks, savings 
+associations, bank holding companies, and savings and loan holding 
+companies that are subject to the advanced approaches.
+
+DATES: This rule is effective on October 1, 2014. Any company subject 
+to the rule may elect to adopt it before this date.
+
+FOR FURTHER INFORMATION CONTACT:
+    OCC: Margot Schwadron, Senior Risk Expert; or Roger Tufts, Senior 
+Economic Advisor, Capital Policy, (202) 649-6370; or Carl Kaminski, 
+Counsel, Legislative and Regulatory Activities Division, (202) 649-
+5490, for persons who are deaf or hard of hearing, TTY, (202) 649-5597, 
+Office of the Comptroller of the Currency, 400 7th Street SW., 
+Washington, DC 20219.
+    Board: Anna Lee Hewko, Deputy Associate Director, (202) 530-6260; 
+Constance M. Horsley, Assistant Director, (202) 452-5239; Thomas 
+Boemio, Manager, (202) 452-2982; Andrew Willis, Supervisory Financial 
+Analyst, (202) 912-4323; or Justyna Milewski, Financial Analyst, (202) 
+452-3607, Capital and Regulatory Policy, Division of Banking 
+Supervision and Regulation; or Benjamin McDonough, Senior Counsel, 
+(202) 452-2036; April C. Snyder, Senior Counsel, (202) 452-3099; 
+Christine Graham, Counsel, (202) 452-3005; or Mark Buresh, Attorney, 
+(202) 452-5270, Legal Division, Board of Governors of the Federal 
+Reserve System, 20th and C Streets NW., Washington, DC 20551. For the 
+hearing impaired only, Telecommunication Device for the Deaf (TDD), 
+(202) 263-4869.
+    FDIC: Bobby R. Bean, Associate Director, <a href="/cdn-cgi/l/email-protection#85e7e7e0e4ebc5e3e1ece6abe2eaf3"><span class="__cf_email__" data-cfemail="1f7d7d7a7e715f797b767c31787069">[email&#160;protected]</span></a>; Ryan 
+Billingsley, Chief, Capital Policy Section, <a href="/cdn-cgi/l/email-protection#addfcfc4c1c1c4c3cadec1c8d4edcbc9c4ce83cac2db"><span class="__cf_email__" data-cfemail="8cfeeee5e0e0e5e2ebffe0e9f5cceae8e5efa2ebe3fa">[email&#160;protected]</span></a>; 
+Benedetto Bosco, Capital Markets Policy Analyst, <a href="/cdn-cgi/l/email-protection#385a5a574b5b57785e5c515b165f574e"><span class="__cf_email__" data-cfemail="c8aaaaa7bbaba788aeaca1abe6afa7be">[email&#160;protected]</span></a>, 
+Capital Markets Branch, Division of Risk Management Supervision, 
+<a href="/cdn-cgi/l/email-protection#02706765776e63766d707b6163726b76636e4264666b612c656d74"><span class="__cf_email__" data-cfemail="f98b9c9e8c95988d968b809a9889908d9895b99f9d909ad79e968f">[email&#160;protected]</span></a> or (202) 898-6888; or Michael Phillips, 
+Counsel, <a href="/cdn-cgi/l/email-protection#2f425f47464343465f5c6f494b464c01484059"><span class="__cf_email__" data-cfemail="fe938e96979292978e8dbe989a979dd0999188">[email&#160;protected]</span></a>; Rachel Ackmann, Senior Attorney, 
+<a href="/cdn-cgi/l/email-protection#afddceccc4c2cec1c1efc9cbc6cc81c8c0d9"><span class="__cf_email__" data-cfemail="c0b2a1a3abada1aeae80a6a4a9a3eea7afb6">[email&#160;protected]</span></a>; or Grace Pyun, Senior Attorney, <a href="/cdn-cgi/l/email-protection#1374636a667d5375777a703d747c65"><span class="__cf_email__" data-cfemail="781f08010d16381e1c111b561f170e">[email&#160;protected]</span></a>, 
+Supervision Branch, Legal Division, Federal Deposit Insurance 
+Corporation, 550 17th Street NW., Washington, DC 20429.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    On May 1, 2014, the Office of the Comptroller of the Currency 
+(OCC), the Board of Governors of the Federal Reserve System (Board), 
+and the Federal Deposit Insurance Corporation (FDIC) (collectively, the 
+agencies) published in the Federal Register a joint notice of proposed 
+rulemaking (NPR or proposed rule)\1\ seeking public comment on 
+revisions to the definition of eligible guarantee for purposes of 
+calculating the risk-weighted assets of an exposure (other than a 
+securitization exposure) under the advanced approaches risk-based 
+capital rule as incorporated into subpart E (advanced approaches) of 
+the agencies' July 2013 regulatory capital rule (2013 capital rule).\2\
+---------------------------------------------------------------------------
+
+    \1\ 79 FR 24618 (May 1, 2014).
+    \2\ 78 FR 55340 (September 10, 2013) (FDIC) and 78 FR 62018 
+(October 11, 2013) (OCC and Board). On April 8, 2014, the FDIC 
+adopted as final the 2013 revised capital rule, with no substantive 
+changes.
+---------------------------------------------------------------------------
+
+    Among other changes, the 2013 capital rule amended the 
+methodologies for calculating risk-weighted assets under the advanced 
+approaches, as well as the standardized approach for regulatory capital 
+in subpart D (standardized approach) of the 2013 capital rule, which is 
+generally consistent with the methodologies for calculating risk-
+weighted assets established by the Basel Committee on Banking 
+Supervision (BCBS) through its international framework.\3\ 
+Specifically, the 2013 capital rule included a definition of ``eligible 
+guarantee'' for purposes of both the standardized approach and the 
+advanced approaches and introduced a definition of ``eligible 
+guarantor.''
+---------------------------------------------------------------------------
+
+    \3\ See BCBS, ``Basel II: International Convergence of Capital 
+Measurement and Capital Standards: A Revised Framework'' (November 
+2005 and revised in June 2006), available at <a href="http://www.bis.org/publ/bcbs128.pdf">http://www.bis.org/publ/bcbs128.pdf</a>. See BCBS, ``Basel III: A Global Regulatory 
+Framework for More Resilient Banks and Banking Systems'' (December 
+2010 and revised in June 2011), available at <a href="http://www.bis.org/publ/bcbs189.htm">http://www.bis.org/publ/bcbs189.htm</a>. The BCBS is a committee of banking supervisory 
+authorities, which was established by the central bank governors of 
+the G-10 countries in 1975. More information regarding the BCBS and 
+its membership is available at <a href="http://www.bis.org/bcbs/about.htm">http://www.bis.org/bcbs/about.htm</a>. 
+Documents issued by the BCBS are available through the Bank for 
+International Settlements Web site at <a href="http://www.bis.org">http://www.bis.org</a>.
+---------------------------------------------------------------------------
+
+    The definition of eligible guarantee provided that an eligible 
+guarantee could be provided only by an eligible guarantor. The 
+definition of eligible guarantor includes a sovereign, the Bank for 
+International Settlements, the
+
+[[Page 44121]]
+
+International Monetary Fund, the European Central Bank, the European 
+Commission, a Federal Home Loan Bank, the Federal Agricultural Mortgage 
+Corporation (Farmer Mac), a multilateral development bank (MDB), a 
+depository institution, a bank holding company, a savings and loan 
+holding company, a credit union, a foreign bank, and a qualifying 
+central counterparty. The definition of eligible guarantor also 
+includes an entity (other than a special purpose entity) that at the 
+time the guarantee is issued or anytime thereafter, has issued and has 
+outstanding an unsecured debt security that is investment grade; whose 
+creditworthiness is not positively correlated with the credit risk of 
+the exposures for which it has provided guarantees; and that is not an 
+insurance company engaged predominately in the business of providing 
+credit protection (such as a monoline bond insurer or re-insurer).
+    Following the release of the 2013 capital rule, the agencies 
+received comments raising concerns about the definition of eligible 
+guarantee. Commenters noted that the revisions made to the definition 
+of eligible guarantee changed the recognition of these guarantees for 
+certain exposures under the advanced approaches wholesale framework. 
+For example, several advanced approaches banking organizations \4\ 
+observed that middle market and commercial real estate loans often 
+involve guarantors that do not meet the definition of eligible 
+guarantor. The guarantors for such transactions are often related 
+parties such as owners or sponsors that have not issued investment 
+grade debt securities. These commenters argued that such guarantees 
+provide valuable credit risk mitigation that should be recognized under 
+the advanced approaches capital requirements.
+---------------------------------------------------------------------------
+
+    \4\ Advanced approaches banking organizations generally refers 
+to banking organizations with total consolidated assets of $250 
+billion or more, that have total consolidated on-balance sheet 
+foreign exposure of $10 billion or more, are a subsidiary of an 
+advanced approaches depository institution, or that elect to use the 
+advanced approaches.
+---------------------------------------------------------------------------
+
+    As explained in the proposal, the agencies did not intend for the 
+revisions to the definition of eligible guarantee in the 2013 capital 
+rule to prevent advanced approaches banking organizations from 
+recognizing the risk-mitigation benefits of the aforementioned types of 
+guarantees. The agencies believe that these guarantees should continue 
+to qualify as credit risk mitigants for purposes of the advanced 
+approaches because they provide banking organizations with credit 
+enhancement with respect to their exposures.
+    On May 1, 2014, the agencies published in the Federal Register, a 
+proposed rule to effectively revert to the previous treatment of 
+eligible guarantees under the 2007 advanced approaches final rule \5\ 
+for non-securitization exposures.\6\ Under the proposal, the 
+requirement that an eligible guarantee be provided by an eligible 
+guarantor for exposures that are not securitizations for the purpose of 
+the advanced approaches would be removed from the definition of 
+eligible guarantee. However, the proposed rule would have retained the 
+definition of eligible guarantee in the 2013 capital rule for purposes 
+of calculating risk-weighted assets under the standardized approach 
+because the standardized approach generally assigns a single risk 
+weight to exposures to most corporate borrowers and guarantors and does 
+not incorporate the definition of eligible guarantee into a risk-
+sensitive methodology like the advanced approaches.
+---------------------------------------------------------------------------
+
+    \5\ 72 FR 69288 (December 7, 2007).
+    \6\ 79 FR 24618 (May 1, 2014).
+---------------------------------------------------------------------------
+
+II. Comments
+
+    The agencies received two comment letters on the proposed change to 
+the eligible guarantee definition, one from a trade association and the 
+other from a monoline insurance company. The trade association fully 
+supported the proposal, and urged timely adoption of the proposed rule 
+without modification. The commenter also requested that the agencies 
+provide banking organizations with the option to elect the early 
+adoption of the proposed rule before its official effective date so 
+that the amended definition would be available for public disclosures 
+for advanced approaches banking organizations that have completed their 
+parallel run and will publicly disclose their risk-based capital ratios 
+determined using the advanced approaches beginning with the second 
+quarter of 2014.
+    The monoline insurance company commented that the proposed 
+revisions to the definition of eligible guarantee, and by extension the 
+definition of eligible guarantor under the 2013 capital rule, should be 
+further clarified and expanded under both the standardized approach and 
+advanced approaches to include monoline insurance companies (monoline 
+insurers) that meet certain conditions. According to the commenter, the 
+agencies' definition of eligible guarantor in the 2013 capital rule 
+intended to include monoline insurers that are subsidiaries of 
+depository institution holding companies or nonbank financial companies 
+supervised by the Board pursuant to the Dodd-Frank Wall Street Reform 
+and Consumer Protection Act because these subsidiaries are subject to 
+extensive supervisory and regulatory standards. The commenter further 
+argued that expanding the definition to include monoline insurers could 
+reduce systemic and prudential risks by reducing interconnectedness as 
+well as reliance on guarantees from the public sector, such as 
+guarantees from sovereigns and government-sponsored enterprises. The 
+commenter also sought clarification as to whether, by virtue of the 
+definition's exclusion of monoline insurers, the agencies also 
+inadvertently excluded from the definition of eligible guarantor 
+depository institution holding companies and nonbank systemically 
+important financial institutions designated by the Financial Stability 
+Oversight Council.
+    The definition of eligible guarantor in the 2013 capital rule 
+explicitly states that an insurance company engaged predominately in 
+the business of providing credit protection (such as a monoline bond 
+insurer or re-insurer) does not qualify as an eligible guarantor. As 
+stated in the preamble to the 2013 capital rule, the agencies believe 
+that guarantees issued by monoline insurers, including financial 
+guaranty and private mortgage insurers, can exhibit significant wrong-
+way risk.\7\ Thus, modifying the definition of eligible guarantor to 
+include these entities would be contrary to one of the key objectives 
+of the capital framework, which is to mitigate interconnectedness and 
+systemic vulnerabilities within the financial system. The agencies are, 
+therefore, retaining the 2013 capital rule's definition of eligible 
+guarantor. The definition of eligible guarantor in the 2013 capital 
+rule includes depository institution holding companies as well as 
+nonbank financial companies that meet the qualifying criteria included 
+in the definition of eligible guarantor.
+---------------------------------------------------------------------------
+
+    \7\ 78 FR 62104 (October 11, 2013) (OCC and FRB) and 78 FR 55422 
+(September 10, 2013) (FDIC).
+---------------------------------------------------------------------------
+
+ III. Final Rule
+
+    After carefully considering the comments the agencies are adopting 
+as a final rule the eligible guarantee definition as proposed in the 
+NPR. Under the final rule, an eligible guarantee must be in writing and 
+also be either an unconditional guarantee or a contingent obligation of 
+the U.S. government or its agencies, the enforceability of which is 
+dependent upon some affirmative action on the
+
+[[Page 44122]]
+
+part of the beneficiary of the guarantee or a third party (for example, 
+meeting servicing requirements). The guarantee also must cover all or a 
+pro rata portion of all contractual payments of the obligated party on 
+the reference exposure and give the beneficiary a direct claim against 
+the protection provider. Additionally, the guarantee must not be 
+unilaterally cancelable by the protection provider for reasons other 
+than the breach of the contract by the beneficiary, and it must be 
+legally enforceable against the protection provider in a jurisdiction 
+where the protection provider has sufficient assets against which a 
+judgment may be attached and enforced (except for a guarantee by a 
+sovereign). The guarantee also must require the protection provider to 
+make payment to the beneficiary on the occurrence of a default (as 
+defined in the guarantee) of the obligated party on the reference 
+exposure in a timely manner without the beneficiary first having to 
+take legal actions to pursue the obligor for payment and must not 
+increase the beneficiary's cost of credit protection on the guarantee 
+in response to deterioration in the credit quality of the reference 
+exposure. Furthermore, the guarantee may not be provided by an 
+affiliate of the banking organization, unless the affiliate is an 
+insured depository institution, foreign bank, securities broker or 
+dealer, or insurance company that does not control the banking 
+organization and is subject to consolidated supervision and regulation 
+comparable to that imposed on depository institutions, U.S. securities 
+broker-dealers, or U.S. insurance companies (as the case may be) and 
+for purposes of Sec. Sec.  --.141 to --.145 of the advanced approaches 
+and of the standardized approach, the guarantee would have to be 
+provided by an eligible guarantor.
+
+IV. Early Compliance
+
+    The final rule will be effective October 1, 2014; however, any 
+advanced approaches banking organization may elect to adopt the 
+requirements in the final rule before the effective date.
+    Subject to certain exceptions, 12 U.S.C. 4802(b) provides that new 
+regulations and amendments to regulations prescribed by a Federal 
+banking agency which impose additional reporting, disclosures, or other 
+new requirements on an insured depository institution shall take effect 
+on the first day of a calendar quarter which begins on or after the 
+date on which the regulations are published in final form. The agencies 
+note that this final rule does not impose any additional reporting or 
+disclosure requirements. Instead, this final rule revises an existing 
+requirement to remove a restriction on the recognition of guarantors 
+for the purpose of calculating minimum risk-based capital requirements. 
+Additionally, section 4802(b) permits persons who are subject to the 
+Federal banking agency regulations to comply with a regulation before 
+its effective date. Accordingly, the agencies will not object if an 
+institution wishes to apply the provisions of this final rule beginning 
+with the date it is published in the Federal Register.
+
+V. Regulatory Analyses
+
+A. Paperwork Reduction Act
+
+    In accordance with the requirements of the Paperwork Reduction Act 
+of 1995 (44 U.S.C. 3501-3521) (PRA), the agencies may not conduct or 
+sponsor, and a respondent is not required to respond to, an information 
+collection unless it displays a currently valid Office of Management 
+and Budget (OMB) control number. The agencies have reviewed the final 
+rule and determined that the rule does not introduce any new collection 
+of information pursuant to the PRA.
+
+B. Regulatory Flexibility Act Analysis
+
+    OCC: The Regulatory Flexibility Act, 5 U.S.C. 601 et seq. (RFA), 
+requires an agency, in connection with a notice of final rulemaking, to 
+prepare a Final Regulatory Flexibility Act analysis describing the 
+impact of the rule on small entities (defined by the Small Business 
+Administration (SBA) for purposes of the RFA to include banking 
+entities with total assets of $550 million or less) or to certify that 
+the rule will not have a significant economic impact on a substantial 
+number of small entities.
+    Using the SBA's size standards effective on July 14, 2014, the OCC 
+currently supervises approximately 1,200 small entities (361 Federal 
+savings associations, 818 national banks, and 21 trust companies).\8\
+---------------------------------------------------------------------------
+
+    \8\ The OCC calculated the number of small entities using the 
+SBA's size thresholds for commercial banks and savings institutions, 
+and trust companies, which, effective July 14, 2014, are $550 
+million and $38.5 million, respectively. Consistent with the General 
+Principles of Affiliation 13 CFR 121.103(a), the OCC counted the 
+assets of affiliated financial institutions when determining whether 
+to classify an OCC-supervised entity as a small entity. The OCC used 
+December 31, 2013 to determine size because a ``financial 
+institution's assets are determined by averaging the assets reported 
+on its four quarterly financial statements for the preceding year.'' 
+See footnote 8 of the SBA's Table of Size Standards.
+---------------------------------------------------------------------------
+
+    As described in the SUPPLEMENTARY INFORMATION section of the 
+preamble, the final rule applies only to advanced approaches banking 
+organizations. Advanced approaches banking organization is defined to 
+include a national bank or Federal savings associations that has, or 
+is, a subsidiary of a bank holding company or savings and loan holding 
+company that has total consolidated assets of $250 billion or more, 
+total consolidated on-balance sheet foreign exposure of $10 billion or 
+more, or that has elected to use the advanced approaches. After 
+considering the SBA's size standards and General Principals of 
+Affiliation to identify small entities, the OCC determined that no 
+small national banks or Federal savings associations are advanced 
+approaches banking organizations. Because the final rule applies only 
+to advanced approaches banking organizations, it does not impact any 
+OCC-supervised small entities. Therefore, the OCC certifies that the 
+final rule will not have a significant economic impact on a substantial 
+number of OCC-supervised small entities.
+    Board: The Regulatory Flexibility Act, 5 U.S.C. 601 et seq. (RFA) 
+requires an agency to provide a final regulatory flexibility analysis 
+with a final rule or to certify that the rule will not have a 
+significant economic impact on a substantial number of small entities. 
+Under regulations issued by the Small Business Administration, a small 
+entity includes a depository institution, bank holding company, or 
+savings and loan holding company with total assets of $550 million or 
+less (a small banking organization).\9\ As of March 31, 2014, there 
+were approximately 653 small state member banks. As of December 31, 
+2013, there were approximately 3,783 small bank holding companies and 
+approximately 276 small savings and loan holding companies.
+---------------------------------------------------------------------------
+
+    \9\ See 13 CFR 121.201. Effective July 14, 2014, the Small 
+Business Administration revised the size standards for banking 
+organizations to $550 million in assets from $500 million in assets. 
+79 FR 33647 (June 12, 2014).
+---------------------------------------------------------------------------
+
+    The Board is providing a final regulatory flexibility analysis with 
+respect to this final rule. As discussed above, this final rule would 
+amend the definition of ``eligible guarantee'' in section 2 of 
+Regulation Q (12 CFR part 217) for the purposes of calculating risk-
+weighted assets under the advanced approaches in Regulation Q (12 CFR 
+part 217, subpart E). The Board received no public comments related to 
+the initial Regulatory Flexibility Act analysis in the proposed rule 
+from members of the general public or from the Chief Counsel for 
+Advocacy of the Small Business Administration. Thus,
+
+[[Page 44123]]
+
+no issues were raised in public comments related to the Board's initial 
+Regulatory Flexibility Act analysis and no changes are being made in 
+response to such comments.
+    The final rule would apply only to advanced approaches banking 
+organizations, which, generally, are banking organizations with total 
+consolidated assets of $250 billion or more, that have total 
+consolidated on-balance sheet foreign exposure of $10 billion or more, 
+are a subsidiary of an advanced approaches depository institution, or 
+that elect to use the advanced approaches. Currently, no small top-tier 
+bank holding company, top-tier savings and loan holding company, or 
+state member bank is an advanced approaches banking organization, so 
+there would be no additional projected compliance requirements imposed 
+on small bank holding companies, savings and loan holding companies, or 
+state member banks. The Board expects that any small bank holding 
+companies, savings and loan holding companies, or state member banks 
+that would be covered by this final rule would rely on their parent 
+banking organization for compliance and would not bear additional 
+costs.
+    The Board believes that the final rule will not have a significant 
+economic impact on small banking organizations supervised by the Board 
+and therefore believes that there are no significant alternatives to 
+the rule that would reduce the economic impact on small banking 
+organizations supervised by the Board.
+    FDIC: The Regulatory Flexibility Act, 5 U.S.C. 601 et seq. (RFA), 
+requires an agency, in connection with a notice of final rulemaking, to 
+prepare a Final Regulatory Flexibility Act analysis describing the 
+impact of the rule on small entities (defined by the Small Business 
+Administration for purposes of the RFA to include banking entities with 
+total assets of $550 million or less) or to certify that the rule will 
+not have a significant economic impact on a substantial number of small 
+entities.
+    As of March 31, 2014, the FDIC supervised 3,604 small entities. As 
+described in the SUPPLEMENTARY INFORMATION section of the preamble, 
+however, the final rule applies only to advanced approaches banking 
+organizations. Advanced approaches banking organization is defined to 
+include a state nonmember bank or a State savings association that has, 
+or is a subsidiary of a bank holding company or savings and loan 
+holding company that has, total consolidated assets of $250 billion or 
+more, total consolidated on-balance sheet foreign exposure of $10 
+billion or more, or that has elected to use the advanced approaches. As 
+of March 31, 2014 based on a $550 million threshold, 2 (out of 3,296) 
+small state nonmember banks and no (out of 308) small state savings 
+associations were under the advanced approaches. Therefore, the FDIC 
+does not believe that the final rule will result in a significant 
+economic impact on a substantial number of small entities under its 
+supervisory jurisdiction.
+    The FDIC certifies that the final rule will not have a significant 
+economic impact on a substantial number of small FDIC-supervised 
+institutions.
+
+C. OCC Unfunded Mandates Reform Act of 1995 Determination
+
+    The OCC has analyzed the final rule under the factors in the 
+Unfunded Mandates Reform Act of 1995 (UMRA) (2 U.S.C. 1532). Under this 
+analysis, the OCC considered whether the rule includes a Federal 
+mandate that may result in the expenditure by State, local, and tribal 
+governments, in the aggregate, or by the private sector, of $100 
+million or more in any one year (adjusted annually for inflation). As 
+detailed in the SUPPLEMENTARY INFORMATION section, the final rule 
+revises the definition of eligible guarantee as incorporated into the 
+OCC's advanced approaches risk-based capital rule. In 2013, when the 
+Federal banking agencies revised their respective risk-based capital 
+requirements, they added a requirement that an eligible guarantee be 
+from an eligible guarantor. This rule removes that requirement for the 
+purposes of calculating the risk-weighted asset amount for an exposure 
+(other than for a securitization exposure) under the OCC's advanced 
+approaches risk-based capital rule. For example, the OCC understands 
+that advanced approaches banking organizations commonly obtain 
+guarantees from guarantors that do not qualify as eligible guarantors 
+for exposures in their commercial real estate and other wholesale 
+portfolios. Under this rule, these guarantees will qualify as credit 
+risk mitigants for purposes of the wholesale framework in the advanced 
+approaches risk-based capital rule.
+    This final rule does not increase the minimum capital requirements 
+for any institutions subject to the OCC's risk-based capital rules. 
+After comparing existing capital levels with these requirements, and 
+considering the burden and other compliance costs associated with the 
+changes, the OCC has determined that its final rule will not result in 
+expenditures by State, local, and tribal governments, or by the private 
+sector, of $100 million or more (adjusted annually for inflation). 
+Accordingly, the OCC is not including a written statement to accompany 
+this proposed rule.
+
+D. Plain Language
+
+    Section 722 of the Gramm-Leach-Bliley Act requires the Federal 
+banking agencies to use plain language in all proposed and final rules 
+published after January 1, 2000. The agencies have sought to present 
+the final rule in a simple and straightforward manner, and did not 
+receive any comments on the use of plain language.
+
+List of Subjects
+
+12 CFR Part 3
+
+    Administrative practice and procedure, Capital, National banks, 
+Reporting and recordkeeping requirements, Risk.
+
+12 CFR Part 217
+
+    Administrative practice and procedure, Banks, Banking, Capital, 
+Federal Reserve System, Holding companies, Reporting and recordkeeping 
+requirements, Securities.
+
+12 CFR Part 324
+
+    Administrative practice and procedure, Banks, Banking, Capital 
+Adequacy, Reporting and recordkeeping requirements, Savings 
+associations, State non-member banks.
+
+Department of the Treasury
+
+Office of the Comptroller of the Currency
+
+12 CFR Chapter I
+
+Authority and Issuance
+
+    For the reasons set forth in the preamble and under the authority 
+of 12 U.S.C. 93a, 1462, 1462a, 1463, 1464, 3907, 3909, 1831o, and 
+5412(b)(2)(B), the Office of the Comptroller of the Currency amends 
+part 3 of chapter I of title 12, Code of Federal Regulations as 
+follows:
+
+PART 3--CAPITAL ADEQUACY STANDARDS
+
+0
+1. The authority citation for part 3 continues to read as follows:
+
+    Authority: 12 U.S.C. 93a, 161, 1462, 1462a, 1463, 1464, 1818, 
+1828(n), 1828 note, 1831n note, 1835, 3907, 3909, and 5412(b)(2)(B).
+
+
+0
+2. In Sec.  3.2, revise the definition of ``Eligible guarantee'' to 
+read as follows:
+
+
+Sec.  3.2  Definitions.
+
+* * * * *
+
+Eligible guarantee means a guarantee that:
+
+    (1) Is written;
+
+[[Page 44124]]
+
+    (2) Is either:
+    (i) Unconditional; or
+    (ii) A contingent obligation of the U.S. government or its 
+agencies, the enforceability of which is dependent upon some 
+affirmative action on the part of the beneficiary of the guarantee or a 
+third party (for example, meeting servicing requirements);
+    (3) Covers all or a pro rata portion of all contractual payments of 
+the obligated party on the reference exposure;
+    (4) Gives the beneficiary a direct claim against the protection 
+provider;
+    (5) Is not unilaterally cancelable by the protection provider for 
+reasons other than the breach of the contract by the beneficiary;
+    (6) Except for a guarantee by a sovereign, is legally enforceable 
+against the protection provider in a jurisdiction where the protection 
+provider has sufficient assets against which a judgment may be attached 
+and enforced;
+    (7) Requires the protection provider to make payment to the 
+beneficiary on the occurrence of a default (as defined in the 
+guarantee) of the obligated party on the reference exposure in a timely 
+manner without the beneficiary first having to take legal actions to 
+pursue the obligor for payment;
+    (8) Does not increase the beneficiary's cost of credit protection 
+on the guarantee in response to deterioration in the credit quality of 
+the reference exposure;
+    (9) Is not provided by an affiliate of the national bank or Federal 
+savings association, unless the affiliate is an insured depository 
+institution, foreign bank, securities broker or dealer, or insurance 
+company that:
+    (i) Does not control the national bank or Federal savings 
+association; and
+    (ii) Is subject to consolidated supervision and regulation 
+comparable to that imposed on depository institutions, U.S. securities 
+broker-dealers, or U.S. insurance companies (as the case may be); and
+    (10) For purposes of Sec. Sec.  3.141 through 3.145 and subpart D 
+of this part, is provided by an eligible guarantor.
+* * * * *
+
+Board of Governors of the Federal Reserve System
+
+12 CFR Chapter II
+
+Authority and Issuance
+
+    For the reasons set forth in the preamble, part 217 of chapter II 
+of title 12 of the Code of Federal Regulations is amended as follows:
+
+PART 217--CAPITAL ADEQUACY OF BANK HOLDING COMPANIES, SAVINGS AND 
+LOAN HOLDING COMPANIES, AND STATE MEMBER BANKS (REGULATION Q)
+
+0
+3. The authority citation for part 217 is revised to read as follows:
+
+    Authority: 12 U.S.C. 248(a), 321-338a, 481-486, 1462a, 1467a, 
+1818, 1828, 1831n, 1831o, 1831p-l, 1831w, 1835, 1844(b), 1851, 3904, 
+3906-3909, 4808, 5365, 5368, 5371.
+
+
+0
+4. The heading of part 217 is revised to read as set forth above.
+0
+5. In Sec.  217.2, revise the definition of ``Eligible guarantee'' to 
+read as follows:
+
+
+Sec.  217.2  Definitions.
+
+* * * * *
+
+Eligible guarantee means a guarantee that:
+
+    (1) Is written;
+    (2) Is either:
+    (i) Unconditional, or
+    (ii) A contingent obligation of the U.S. government or its 
+agencies, the enforceability of which is dependent upon some 
+affirmative action on the part of the beneficiary of the guarantee or a 
+third party (for example, meeting servicing requirements);
+    (3) Covers all or a pro rata portion of all contractual payments of 
+the obligated party on the reference exposure;
+    (4) Gives the beneficiary a direct claim against the protection 
+provider;
+    (5) Is not unilaterally cancelable by the protection provider for 
+reasons other than the breach of the contract by the beneficiary;
+    (6) Except for a guarantee by a sovereign, is legally enforceable 
+against the protection provider in a jurisdiction where the protection 
+provider has sufficient assets against which a judgment may be attached 
+and enforced;
+    (7) Requires the protection provider to make payment to the 
+beneficiary on the occurrence of a default (as defined in the 
+guarantee) of the obligated party on the reference exposure in a timely 
+manner without the beneficiary first having to take legal actions to 
+pursue the obligor for payment;
+    (8) Does not increase the beneficiary's cost of credit protection 
+on the guarantee in response to deterioration in the credit quality of 
+the reference exposure;
+    (9) Is not provided by an affiliate of the Board-regulated 
+institution, unless the affiliate is an insured depository institution, 
+foreign bank, securities broker or dealer, or insurance company that:
+    (i) Does not control the Board-regulated institution; and
+    (ii) Is subject to consolidated supervision and regulation 
+comparable to that imposed on depository institutions, U.S. securities 
+broker-dealers, or U.S. insurance companies (as the case may be); and
+    (10) For purposes of Sec. Sec.  217.141 through 217.145 and subpart 
+D of this part, is provided by an eligible guarantor.
+* * * * *
+
+Federal Deposit Insurance Corporation
+
+12 CFR Chapter III
+
+Authority and Issuance
+
+    For the reasons set forth in the preamble, part 324 of chapter III 
+of title 12 of the Code of Federal Regulations is amended as follows:
+
+PART 324--CAPITAL ADEQUACY OF FDIC-SUPERVISED INSTITUTIONS
+
+0
+6. The authority citation for part 324 continues to read as follows:
+
+    Authority: 12 U.S.C. 1815(a), 1815(b), 1816, 1818(a), 1818(b), 
+1818(c), 1818(t), 1819(Tenth), 1828(c), 1828(d), 1828(i), 1828(n), 
+1828(o), 1831o, 1835, 3907, 3909, 4808; 5371; 5412; Pub. L. 102-233, 
+105 Stat. 1761, 1789, 1790 (12 U.S.C. 1831n note); Pub. L. 102-242, 
+105 Stat. 2236, 2355, as amended by Pub. L. 103-325, 108 Stat. 2160, 
+2233 (12 U.S.C. 1828 note); Pub. L. 102-242, 105 Stat. 2236, 2386, 
+as amended by Pub. L. 102-550, 106 Stat. 3672, 4089 (12 U.S.C. 1828 
+note); Pub. L. 111-203, 124 Stat. 1376, 1887 (15 U.S.C. 78o-7 note).
+
+
+0
+7. In Sec.  324.2, revise the definition of ``Eligible guarantee'' to 
+read as follows:
+
+
+Sec.  324.2  Definitions.
+
+* * * * *
+
+Eligible guarantee means a guarantee that:
+
+    (1) Is written;
+    (2) Is either:
+    (i) Unconditional, or
+    (ii) A contingent obligation of the U.S. government or its 
+agencies, the enforceability of which is dependent upon some 
+affirmative action on the part of the beneficiary of the guarantee or a 
+third party (for example, meeting servicing requirements);
+    (3) Covers all or a pro rata portion of all contractual payments of 
+the obligated party on the reference exposure;
+    (4) Gives the beneficiary a direct claim against the protection 
+provider;
+    (5) Is not unilaterally cancelable by the protection provider for 
+reasons other than the breach of the contract by the beneficiary;
+    (6) Except for a guarantee by a sovereign, is legally enforceable 
+against the protection provider in a jurisdiction
+
+[[Page 44125]]
+
+where the protection provider has sufficient assets against which a 
+judgment may be attached and enforced;
+    (7) Requires the protection provider to make payment to the 
+beneficiary on the occurrence of a default (as defined in the 
+guarantee) of the obligated party on the reference exposure in a timely 
+manner without the beneficiary first having to take legal actions to 
+pursue the obligor for payment;
+    (8) Does not increase the beneficiary's cost of credit protection 
+on the guarantee in response to deterioration in the credit quality of 
+the reference exposure;
+    (9) Is not provided by an affiliate of the FDIC-supervised 
+institution, unless the affiliate is an insured depository institution, 
+foreign bank, securities broker or dealer, or insurance company that:
+    (i) Does not control the FDIC-supervised institution; and
+    (ii) Is subject to consolidated supervision and regulation 
+comparable to that imposed on depository institutions, U.S. securities 
+broker-dealers, or U.S. insurance companies (as the case may be); and
+    (10) For purposes of Sec. Sec.  324.141 through 324.145 and subpart 
+D of this part, is provided by an eligible guarantor.
+* * * * *
+
+    Dated: July 15, 2014.
+Thomas J. Curry,
+Comptroller of the Currency.
+    By order of the Board of Governors of the Federal Reserve 
+System, July 23, 2014.
+Robert deV. Frierson,
+Secretary of the Board.
+    Dated at Washington, DC, this 15th day of July, 2014.
+
+    By order of the Board of Directors.
+
+Federal Deposit Insurance Corporation.
+Robert E. Feldman,
+Executive Secretary.
+[FR Doc. 2014-17858 Filed 7-29-14; 8:45 am]
+BILLING CODE P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

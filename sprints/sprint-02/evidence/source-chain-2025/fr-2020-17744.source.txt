@@ -1,0 +1,1034 @@
+<html>
+<head>
+<title>Federal Register, Volume 85 Issue 181 (Thursday, September 17, 2020)</title>
+</head>
+<body><pre>
+[Federal Register Volume 85, Number 181 (Thursday, September 17, 2020)]
+[Rules and Regulations]
+[Pages 57956-57964]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2020-17744]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TREASURY
+
+Office of the Comptroller of the Currency
+
+12 CFR Part 3
+
+[Docket ID OCC-2018-0030]
+RIN 1557-AE93
+
+FEDERAL RESERVE SYSTEM
+
+12 CFR Part 217
+
+[Docket R-1629]
+RIN 7100-AF22
+
+FEDERAL DEPOSIT INSURANCE CORPORATION
+
+12 CFR Part 324
+
+RIN 3064-AF52
+
+
+Standardized Approach for Calculating the Exposure Amount of 
+Derivative Contracts; Correction
+
+AGENCY: The Office of the Comptroller of the Currency, Treasury; Board 
+of Governors of the Federal Reserve System; and Federal Deposit 
+Insurance Corporation.
+
+ACTION: Final rule; correcting amendments.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Office of the Comptroller of the Currency (OCC), the Board 
+of Governors of the Federal Reserve System (Board), and the Federal 
+Deposit Insurance Corporation (FDIC) are issuing this final rule to 
+make technical corrections to certain provisions of the capital rule 
+related to the standardized approach for counterparty credit risk, 
+which is used for calculating the exposure amount of derivative 
+contracts and was adopted in a final rule published on January 24, 
+2020.
+
+DATES: This final rule is effective September 17, 2020.
+
+FOR FURTHER INFORMATION CONTACT: 
+
+[[Page 57957]]
+
+    OCC: Margot Schwadron, Director, or Guowei Zhang, Risk Expert, 
+Capital and Regulatory Policy, (202) 649-6370; or Kevin Korzeniewski, 
+Counsel, Daniel Perez, Senior Attorney, or Daniel Sufranski, Attorney, 
+Chief Counsel's Office, (202) 649-5490; or, for persons who are deaf or 
+hearing impaired, TTY, (202) 649-5597; the Office of the Comptroller of 
+the Currency, 400 7th Street SW, Washington, DC 20219.
+    Board: Benjamin McDonough, Assistant General Counsel, (202) 452-
+2036; Mark Buresh, Senior Counsel, (202) 452-5270; Gillian Burgess, 
+Senior Counsel, (202) 736-5564; or Andrew Hartlage, Counsel, (202) 452-
+6483, Legal Division, Board of Governors of the Federal Reserve System, 
+20th Street and Constitution Avenue NW, Washington, DC 20551. Users of 
+Telecommunications Device for the Deaf (TDD) only, call (202) 263-4869.
+    FDIC: Michael Phillips, Counsel, <a href="/cdn-cgi/l/email-protection#0b667b63626767627b784b6d6f6268256c647d"><span class="__cf_email__" data-cfemail="0d607d65646161647d7e4d6b69646e236a627b">[email&#160;protected]</span></a>, (202) 898-
+3581; Catherine Wood, Counsel, <a href="/cdn-cgi/l/email-protection#8cefedfbe3e3e8cceae8e5efa2ebe3fa"><span class="__cf_email__" data-cfemail="fd9e9c8a929299bd9b99949ed39a928b">[email&#160;protected]</span></a>, (202) 898-3788; Francis 
+Kuo, Counsel, <a href="/cdn-cgi/l/email-protection#6e08051b012e080a070d40090118"><span class="__cf_email__" data-cfemail="8debe6f8e2cdebe9e4eea3eae2fb">[email&#160;protected]</span></a>, (202) 898-6654; Supervision Branch, Legal 
+Division, Federal Deposit Insurance Corporation, 550 17th Street NW, 
+Washington, DC 20429.
+
+SUPPLEMENTARY INFORMATION: The Office of the Comptroller of the 
+Currency (OCC), the Board of Governors of the Federal Reserve System 
+(Board), and the Federal Deposit Insurance Corporation (FDIC) 
+(collectively, the ``agencies'') are making technical corrections to 
+certain provisions of the capital rule relating to the standardized 
+approach for counterparty credit risk (SA-CCR), which is used for 
+calculating the exposure amount of derivative contracts and was adopted 
+in a final rule published on January 24, 2020 (the SA-CCR final 
+rule).\1\ The amendatory text of the SA-CCR final rule did not 
+accurately reflect the treatment described in the Supplementary 
+Information section of the SA-CCR final rule for the items described 
+below. This final rule corrects the agencies' capital rule consistent 
+with the Supplementary Information section of the SA-CCR final rule. 
+The agencies are also making corrections to certain cross-references 
+within the capital rule that are no longer accurate as of the SA-CCR 
+final rule's effective date.
+---------------------------------------------------------------------------
+
+    \1\ Standardized Approach for Calculating the Exposure Amount of 
+Derivative Contracts, 85 FR 4362 (January 24, 2020). The SA-CCR 
+final rule took effect on April 1, 2020. The agencies also recently 
+issued a notice stating that banking organizations could elect to 
+adopt SA-CCR for the first quarter of 2020, on a best-efforts basis. 
+85 FR 17721 (March 31, 2020).
+---------------------------------------------------------------------------
+
+    Specifically, these technical corrections revise the capital rule 
+for the following items:
+    <bullet> In Sec.  _.10(c)(4)(ii)(B)(1), related to the definition 
+of total leverage exposure, two cross-references are being updated to 
+reflect the renumbering of a provision in Sec.  _.34 in the SA-CCR 
+final rule. The SA-CCR final rule modified the previous Sec.  _.34(b) 
+to become Sec.  _.34(c), but the current capital rule erroneously 
+continues to refer to Sec.  _.34(b).
+    <bullet> In Sec.  _.10(c)(4)(ii)(B)(2), related to the definition 
+of total leverage exposure, the agencies are consolidating the text of 
+paragraphs (i) and (ii) into a single new paragraph (i). Also, a new 
+paragraph (ii) is being added to correspond to paragraphs 
+(c)(4)(ii)(B)(1)(i) and (ii). As a result of these revisions, a banking 
+organization that uses SA-CCR will be permitted to exclude the 
+potential future exposure (PFE) of all credit derivatives or other 
+similar instruments through which it provides credit protection from 
+total leverage exposure, provided that it does so consistently over 
+time. The option to exclude the PFE of certain credit derivatives is 
+available to banking organizations that use the current exposure 
+methodology (CEM) and the technical correction provides such option to 
+banking organizations that use SA-CCR. The agencies indicated in the 
+Supplementary Information section of the SA-CCR final rule that they 
+would adopt the same treatment under SA-CCR as under CEM.\2\
+---------------------------------------------------------------------------
+
+    \2\ See 85 FR 4362 at 4394-95. Specifically, the agencies stated 
+that a banking organization subject to the supplementary leverage 
+ratio may choose to exclude from the potential future exposures 
+(PFE) component of the exposure amount calculation the portion of a 
+written credit derivative that is not offset according to Sec.  
+_.10(c)(4)(ii)(D)(1)-(2) and for which the effective notional amount 
+of the written credit derivative is included in total leverage 
+exposure.
+---------------------------------------------------------------------------
+
+    <bullet> In Sec.  _.10, each use of the term ``U.S. GAAP'' is being 
+replaced with ``GAAP'' because ``GAAP'' is the appropriate defined term 
+in Sec.  _.2. Under Sec.  _.2, ``GAAP'' is defined as generally 
+accepted accounting principles as used in the United States.
+    <bullet> In Sec.  _.32(f)(1), related to the general risk weight 
+for corporate exposures and the exceptions for certain exposures to a 
+qualifying central counterparty (QCCP), the cross-reference is being 
+updated to refer to both paragraph (f)(2) and paragraph (f)(3). The SA-
+CCR final rule added paragraph (f)(3), but the current capital rule 
+refers only to paragraph (f)(2).
+    <bullet> In Sec.  _.37(c)(2)(i)(B), related to the calculation of 
+exposure amount for collateralized transactions, cross-references to 
+Sec.  _.34(a)(1)-(2) are being updated to reflect the renumbering of a 
+provision in Sec.  _.34 in the SA-CCR final rule. The SA-CCR final rule 
+modified the previous Sec.  _.34(a) to become Sec.  _.34(b).
+    <bullet> In Sec.  _.132(c)(8)(iii) and (iv), and Sec.  
+_.132(c)(9)(i), references to table 2 for applicable supervisory factor 
+determination are being updated to reflect the renumbering of the 
+table.
+    <bullet> In Sec.  _.132(c)(9)(ii)(A)(1), related to the adjusted 
+notional amount for an interest rate derivative contract or a credit 
+derivative contract, the formula for supervisory duration is being 
+updated to correct a typographical error.
+    <bullet> In Sec.  _.132(c)(9)(iv)(A)(3), related to the maturity 
+factor, the revision provides that the higher margin period of risk set 
+forth in that section must be used if there have been ``more than two'' 
+outstanding margin disputes in the netting set during the prior two 
+quarters. The Supplementary Information section of the SA-CCR final 
+rule indicated that the agencies intended to align the criteria for 
+applying the higher margin period of risk in SA-CCR with that in the 
+internal models methodology, which applies only if more than two margin 
+disputes in a netting set have occurred over the two previous 
+quarters.\3\ In other sections of the capital rule, the SA-CCR final 
+rule included language referencing ``more than two'' margin disputes. 
+However, in this section, the phrase ``two or more'' was used instead. 
+The revised language thus implements the intended treatment as provided 
+in the Supplementary Information section of the SA-CCR final rule.
+---------------------------------------------------------------------------
+
+    \3\ See 85 FR 4362 at 4387.
+
+---------------------------------------------------------------------------
+
+[[Page 57958]]
+
+[GRAPHIC] [TIFF OMITTED] TR17SE20.017
+
+    <bullet> In Sec.  _.133(d)(5) and (6), related to the exposure of a 
+clearing member banking organization to a QCCP arising from a default 
+fund contribution, the revision corrects the calculation of the 
+hypothetical capital requirement of a QCCP (KCCP) and adds appropriate 
+subscripts. The term EAD<INF>i</INF> is amended to equal the exposure 
+of the QCCP to each clearing member of the QCCP. While the 
+Supplementary Information section of the SA-CCR final rule had 
+discussed this treatment, the amendatory text referred to the exposure 
+of each clearing member to the QCCP. The agencies also are making 
+conforming corrections to the calculation of EAD for repo-style 
+transactions in Sec.  _.133(d)(6)(iii). In addition, references to 
+``CCP'' in these paragraphs are being replaced by ``QCCP'' for clarity, 
+as the paragraphs already only apply in the context of a QCCP.
+
+Administrative Law
+
+A. Administrative Procedure Act
+
+    The agencies are issuing this final rule without prior notice and 
+the opportunity for public comment and the 30-day delayed effective 
+date ordinarily prescribed by the Administrative Procedure Act 
+(APA).\4\ Pursuant to section 553(b)(B) of the APA, general notice and 
+the opportunity for public comment are not required with respect to a 
+rulemaking when an ``agency for good cause finds (and incorporates the 
+finding and a brief statement of reasons therefor in the rules issued) 
+that notice and public procedure thereon are impracticable, 
+unnecessary, or contrary to the public interest.'' \5\
+---------------------------------------------------------------------------
+
+    \4\ 5 U.S.C. 553.
+    \5\ 5 U.S.C. 553(b)(B).
+---------------------------------------------------------------------------
+
+    The agencies believe that the public interest is best served by 
+implementing the final rule as soon as possible. Public comment is 
+unnecessary, as the SA-CCR final rule was previously issued for 
+comment, and the technical edits discussed here merely correct errors 
+in the SA-CCR final rule.
+    The technical corrections made by this final rule will reduce 
+ambiguity and ensure that banking organizations implement the SA-CCR 
+provisions of the capital rule in a consistent manner and as described 
+in the Supplementary Information section of the SA-CCR final rule. This 
+will facilitate the ability of banking organizations to make the 
+changes necessary to implement the SA-CCR final rule.
+    The APA also requires a 30-day delayed effective date, except for 
+(1) substantive rules which grant or recognize an exemption or relieve 
+a restriction; (2) interpretative rules and statements of policy; or 
+(3) as otherwise provided by the agency for good cause.\6\ The agencies 
+find good cause to publish the final rule correction with an immediate 
+effective date for the same reasons set forth above under the 
+discussion of section 553(b)(B) of the APA.
+---------------------------------------------------------------------------
+
+    \6\ 5 U.S.C. 553(d).
+---------------------------------------------------------------------------
+
+B. Congressional Review Act
+
+    For purposes of Congressional Review Act, the OMB makes a 
+determination as to whether a final rule constitutes a ``major'' 
+rule.\7\ If a rule is deemed a ``major rule'' by the Office of 
+Management and Budget (OMB), the Congressional Review Act generally 
+provides that the rule may not take effect until at least 60 days 
+following its publication.\8\
+---------------------------------------------------------------------------
+
+    \7\ 5 U.S.C. 801 et seq.
+    \8\ 5 U.S.C. 801(a)(3).
+---------------------------------------------------------------------------
+
+    In the event that the final rule is deemed a ``major'' rule for 
+purposes of the Congressional Review Act, the agencies are adopting the 
+final rule without the delayed effective date generally prescribed 
+under the Congressional Review Act. The delayed effective date required 
+by the Congressional Review Act does not apply to any rule for which an 
+agency for good cause finds (and incorporates the finding and a brief 
+statement of reasons therefor in the rule issued) that notice and 
+public procedure thereon are impracticable, unnecessary, or contrary to 
+the public interest.\9\ As described above, the agencies believe that 
+delaying the effective date of this final rule would be contrary to the 
+public interest.
+---------------------------------------------------------------------------
+
+    \9\ 5 U.S.C. 808.
+---------------------------------------------------------------------------
+
+    As required by the Congressional Review Act, the agencies will 
+submit the final rule and other appropriate reports to Congress and the 
+Government Accountability Office for review.
+
+C. Paperwork Reduction Act
+
+    The Paperwork Reduction Act of 1995 (44 U.S.C. 3501-3521) (PRA) 
+states that no agency may conduct or sponsor, nor is the respondent 
+required to respond to, an information collection unless it displays a 
+currently valid OMB control number. This final rule does not contain 
+any information collection requirements and therefore, no submissions 
+will be made by the agencies to OMB in connection with this final rule.
+
+D. Regulatory Flexibility Act
+
+    The Regulatory Flexibility Act (RFA) \10\ requires an agency to 
+consider whether the rules it proposes will have a significant economic 
+impact on a substantial number of small entities.\11\ The RFA applies 
+only to rules for which an agency publishes a general notice of 
+proposed rulemaking pursuant to 5 U.S.C. 553(b). As discussed 
+previously, consistent with section 553(b)(B) of the APA, the agencies 
+have determined for good cause that general notice and opportunity for 
+public comment is unnecessary and contrary to the public's interest, 
+and therefore the agencies are not issuing a notice of proposed 
+rulemaking. Accordingly, the Agencies have concluded that the RFA's 
+requirements relating to an initial and final regulatory flexibility 
+analysis do not apply.
+---------------------------------------------------------------------------
+
+    \10\ 5 U.S.C. 601 et seq.
+    \11\ Under regulations issued by the Small Business 
+Administration, a small entity includes a depository institution, 
+bank holding company, or savings and loan holding company with total 
+assets of $600 million or less and trust companies with average 
+annual receipts of $41.5 million or less. See 13 CFR 121.201.
+---------------------------------------------------------------------------
+
+E. Riegle Community Development and Regulatory Improvement Act of 1994
+
+    Pursuant to section 302(a) of the Riegle Community Development and 
+Regulatory Improvement Act (RCDRIA),\12\ in determining the effective 
+date and administrative compliance requirements for new regulations 
+that impose additional reporting, disclosure, or other requirements on 
+insured depository institutions (IDIs), each Federal banking agency 
+must consider, consistent with the principle of safety and soundness 
+and the public interest, any administrative burdens that such
+
+[[Page 57959]]
+
+regulations would place on depository institutions, including small 
+depository institutions, and customers of depository institutions, as 
+well as the benefits of such regulations. In addition, section 302(b) 
+of RCDRIA requires new regulations and amendments to regulations that 
+impose additional reporting, disclosures, or other new requirements on 
+IDIs generally to take effect on the first day of a calendar quarter 
+that begins on or after the date on which the regulations are published 
+in final form, with certain exceptions, including for good cause.\13\ 
+For the reasons described above, the agencies find good cause exists 
+under section 302 of RCDRIA to publish this final rule with an 
+immediate effective date.
+---------------------------------------------------------------------------
+
+    \12\ 12 U.S.C. 4802(a).
+    \13\ 12 U.S.C. 4802.
+---------------------------------------------------------------------------
+
+F. Plain Language
+
+    Section 722 of the Gramm-Leach-Bliley Act \14\ requires the Federal 
+banking agencies to use ``plain language'' in all proposed and final 
+rules published after January 1, 2000. In light of this requirement, 
+the agencies have sought to present the final rule in a simple and 
+straightforward manner.
+---------------------------------------------------------------------------
+
+    \14\ 12 U.S.C. 4809.
+---------------------------------------------------------------------------
+
+G. OCC Unfunded Mandates Reform Act of 1995 Determination
+
+    As a general matter, the Unfunded Mandates Act of 1995 (UMRA), 2 
+U.S.C. 1531 et seq., requires the preparation of a budgetary impact 
+statement before promulgating a rule that includes a Federal mandate 
+that may result in the expenditure by State, local, and tribal 
+governments, in the aggregate, or by the private sector, of $100 
+million or more in any one year. However, the UMRA does not apply to 
+final rules for which a general notice of proposed rulemaking was not 
+published. See 2 U.S.C. 1532(a). Therefore, because the OCC has found 
+good cause to dispense with notice and comment for this final rule, the 
+OCC has not prepared an economic analysis of the rule under the UMRA.
+
+List of Subjects
+
+12 CFR Part 3
+
+    Administrative practice and procedure, Capital, National banks, 
+Risk.
+
+12 CFR Part 217
+
+    Administrative practice and procedure, Banks, Banking, Capital, 
+Federal Reserve System, Holding companies, Reporting and recordkeeping 
+requirements, Risk, Securities.
+
+12 CFR Part 324
+
+    Administrative practice and procedure, Banks, Reporting and 
+recordkeeping requirements, Savings associations, State non-member 
+banks.
+
+Office of the Comptroller of the Currency
+
+12 CFR Chapter I
+
+Authority and Issuance
+
+    For the reasons set forth in the preamble, the OCC amends 12 CFR 
+part 3 as follows:
+
+PART 3--CAPITAL ADEQUACY STANDARDS
+
+0
+1. The authority citation for part 3 continues to read as follows:
+
+    Authority: 12 U.S.C. 93a, 161, 1462, 1462a, 1463, 1464, 1818, 
+1828(n), 1828 note, 1831n note, 1835, 3907, 3909, 5412(b)(2)(B), and 
+Pub. L. 116-136, 134 Stat. 281.
+
+
+0
+2. Amend Sec.  3.10 by:
+0
+a. Removing, in paragraphs (c)(4)(ii)(A), (c)(4)(ii)(B)(1) introductory 
+text, (c)(4)(ii)(C)(2)(i), and (c)(4)(ii)(H), the phrase ``U.S. GAAP'' 
+and by adding in its place the phrase ``GAAP'';
+0
+b. Removing, in paragraphs (c)(4)(ii)(B)(1) introductory text and 
+(c)(4)(ii)(B)(1)(i), the phrase ``without regard to Sec.  3.34(b)'' and 
+by adding in its place the phrase ``without regard to Sec.  3.34(c)''; 
+and
+0
+c. Revising paragraphs (c)(4)(ii)(B)(2)(i) and (ii).
+    The revisions read as follows:
+
+
+Sec.  3.10  Minimum capital requirements.
+
+* * * * *
+    (c) * * *
+    (4) * * *
+    (ii) * * *
+    (B) * * *
+    (2)(i) For a national bank or Federal savings association that uses 
+the standardized approach for counterparty credit risk under section 
+Sec.  3.132(c) for its standardized risk-weighted assets, the PFE for 
+each netting set to which the national bank or Federal savings 
+association is a counterparty (including cleared transactions except as 
+provided in paragraph (c)(4)(ii)(I) of this section and, at the 
+discretion of the national bank or Federal savings association, 
+excluding a forward agreement treated as a derivative contract that is 
+part of a repurchase or reverse repurchase or a securities borrowing or 
+lending transaction that qualifies for sales treatment under GAAP), as 
+determined under Sec.  3.132(c)(7), in which the term C in Sec.  
+3.132(c)(7)(i) equals zero, and, for any counterparty that is not a 
+commercial end-user, multiplied by 1.4. For purposes of this paragraph 
+(c)(4)(ii)(B)(2)(i), a national bank or Federal savings association may 
+set the value of the term C in Sec.  3.132(c)(7)(i) equal to the amount 
+of collateral posted by a clearing member client of the national bank 
+or Federal savings association in connection with the client-facing 
+derivative transactions within the netting set; and
+    (ii) A national bank or Federal savings association may choose to 
+exclude the PFE of all credit derivatives or other similar instruments 
+through which it provides credit protection when calculating the PFE 
+under Sec.  3.132(c), provided that it does so consistently over time 
+for the calculation of the PFE for all such instruments;
+* * * * *
+
+0
+3. Section 3.32 is amended by revising paragraph (f)(1) to read as 
+follows:
+
+
+Sec.  3.32   General risk weights.
+
+* * * * *
+    (f) * * * (1) A national bank or Federal savings association must 
+assign a 100 percent risk weight to all its corporate exposures, except 
+as provided in paragraphs (f)(2) and (f)(3) of this section.
+* * * * *
+
+
+Sec.  3.37  [Amended]
+
+0
+4. Section 3.37 is amended by, in paragraph (c)(2)(i)(B), removing 
+``Sec.  3.34(a)(1) or (2)'' and adding in its place ``Sec.  3.34(b)(1) 
+or (2).''
+
+0
+5. Amend Sec.  3.132 by:
+0
+a. In paragraphs (c)(8)(iii) and (iv), and (c)(9)(i), removing ``Table 
+2'' and adding in its place ``Table 3''; and
+0
+b. Revising paragraphs (c)(9)(ii)(A)(1) and (c)(9)(iv)(A)(3).
+    The revisions read as follows:
+
+
+Sec.  3.132   Counterparty credit risk of repo-style transactions, 
+eligible margin loans, and OTC derivative contracts.
+
+* * * * *
+    (c) * * *
+    (9) * * *
+    (ii) * * *
+    (A)(1) For an interest rate derivative contract or a credit 
+derivative contract, the adjusted notional amount equals the product of 
+the notional amount of the derivative contract, as measured in U.S. 
+dollars using the exchange rate on the date of the calculation, and the 
+supervisory duration, as calculated by the following formula:
+
+[[Page 57960]]
+
+[GRAPHIC] [TIFF OMITTED] TR17SE20.011
+
+Where:
+
+S is the number of business days from the present day until the 
+start date of the derivative contract, or zero if the start date has 
+already passed; and
+E is the number of business days from the present day until the end 
+date of the derivative contract.
+* * * * *
+    (iv) * * *
+    (A) * * *
+    (3) Notwithstanding paragraphs (c)(9)(iv)(A)(1) and (2) of this 
+section, for a netting set subject to more than two outstanding 
+disputes over margin that lasted longer than the MPOR over the previous 
+two quarters, the applicable floor is twice the amount provided in 
+paragraphs (c)(9)(iv)(A)(1) and (2) of this section.
+* * * * *
+
+0
+6. Section 3.133 is amended by revising paragraphs (d)(4) and (5), 
+(d)(6) paragraph introductory text, and paragraphs (d)(6)(i) through 
+(iii) to read as follows:
+
+
+Sec.  3.133   Cleared transactions.
+
+* * * * *
+    (d) * * *
+    (4) Capital requirement for default fund contributions to a QCCP. A 
+clearing member national bank's or Federal savings association's 
+capital requirement for its default fund contribution to a QCCP (KCM) 
+is equal to:
+[GRAPHIC] [TIFF OMITTED] TR17SE20.012
+
+    (5) Hypothetical capital requirement of a QCCP. Where a QCCP has 
+provided its K<INF>CCP</INF>, a national bank or Federal savings 
+association must rely on such disclosed figure instead of calculating 
+K<INF>CCP</INF> under this paragraph (d)(5), unless the national bank 
+or Federal savings association determines that a more conservative 
+figure is appropriate based on the nature, structure, or 
+characteristics of the QCCP. The hypothetical capital requirement of a 
+QCCP (KCCP), as determined by the national bank or Federal savings 
+association, is equal to:
+
+KCCP = [Sigma]CMiEADi * 1.6 percent
+
+Where:
+
+CMi is each clearing member of the QCCP; and
+EADi is the exposure amount of the QCCP to each clearing member of 
+the QCCP, as determined under paragraph (d)(6) of this section.
+
+    (6) EAD of a QCCP to a clearing member. (i) The EAD of a QCCP to a 
+clearing member is equal to the sum of the EAD for derivative contracts 
+determined under paragraph (d)(6)(ii) of this section and the EAD for 
+repo-style transactions determined under paragraph (d)(6)(iii) of this 
+section.
+    (ii) With respect to any derivative contracts between the QCCP and 
+the clearing member that are cleared transactions and any guarantees 
+that the clearing member has provided to the QCCP with respect to 
+performance of a clearing member client on a derivative contract, the 
+EAD is equal to the exposure amount of the QCCP to the clearing member 
+for all such derivative contracts and guarantees of derivative 
+contracts calculated under SA-CCR in Sec.  3.132(c) (or, with respect 
+to a QCCP located outside the United States, under
+
+[[Page 57961]]
+
+a substantially identical methodology in effect in the jurisdiction) 
+using a value of 10 business days for purposes of Sec.  
+3.132(c)(9)(iv); less the value of all collateral held by the QCCP 
+posted by the clearing member or a client of the clearing member in 
+connection with a derivative contract for which the clearing member has 
+provided a guarantee to the QCCP and the amount of the prefunded 
+default fund contribution of the clearing member to the QCCP.
+    (iii) With respect to any repo-style transactions between the QCCP 
+and a clearing member that are cleared transactions, EAD is equal to:
+
+EADi = max{EBRMi-IMi-DFi; 0{time} 
+
+Where:
+
+EBRMi is the exposure amount of the QCCP to each clearing member for 
+all repo-style transactions between the QCCP and the clearing 
+member, as determined under Sec.  3.132(b)(2) and without 
+recognition of the initial margin collateral posted by the clearing 
+member to the QCCP with respect to the repo-style transactions or 
+the prefunded default fund contribution of the clearing member 
+institution to the QCCP;
+    IMi is the initial margin collateral posted by each clearing 
+member to the QCCP with respect to the repo-style transactions; and
+    DFi is the prefunded default fund contribution of each clearing 
+member to the QCCP that is not already deducted in paragraph 
+(d)(6)(ii) of this section.
+* * * * *
+
+Board of Governors of the Federal Reserve System
+
+12 CFR Chapter II
+
+Authority and Issuance
+
+    For the reasons set forth in the preamble, chapter II of title 12 
+of the Code of Federal Regulations is amended as follows:
+
+PART 217--CAPITAL ADEQUACY OF BANK HOLDING COMPANIES, SAVINGS AND 
+LOAN HOLDING COMPANIES, AND STATE MEMBER BANKS (REGULATION Q)
+
+0
+7. The authority citation for part 217 continues to read as follows:
+
+    Authority:  12 U.S.C. 248(a), 321-338a, 481-486, 1462a, 1467a, 
+1818, 1828, 1831n, 1831o, 1831p-1, 1831w, 1835, 1844(b), 1851, 3904, 
+3906-3909, 4808, 5365, 5368, 5371, and 5371 note; Pub. L. 116-136, 
+134 Stat. 281.
+
+
+0
+8. Amend Sec.  217.10 by:
+0
+a. Removing, in paragraphs (c)(4)(ii)(A), (c)(4)(ii)(B)(1), 
+(c)(4)(ii)(B)(2)(i), and (c)(4)(ii)(H), the phrase ``U.S. GAAP'' and by 
+adding in its place the phrase ``GAAP'';
+0
+b. Removing, in paragraphs (c)(4)(ii)(B)(1) introductory text and 
+(c)(4)(ii)(B)(1)(i), the phrase ``without regard to Sec.  217.34(b)'' 
+and by adding in its place the phrase ``without regard to Sec.  
+217.34(c)''; and
+0
+c. Revising paragraphs (c)(4)(ii)(B)(2)(i) and (ii).
+    The revisions read as follows:
+
+
+Sec.  217.10  Minimum capital requirements.
+
+* * * * *
+    (c) * * *
+    (4) * * *
+    (ii) * * *
+    (B) * * *
+    (2)(i) For a Board-regulated institution that uses the standardized 
+approach for counterparty credit risk under section Sec.  217.132(c) 
+for its standardized risk-weighted assets, the PFE for each netting set 
+to which the Board-regulated institution is a counterparty (including 
+cleared transactions except as provided in paragraph (c)(4)(ii)(I) of 
+this section and, at the discretion of the Board-regulated institution, 
+excluding a forward agreement treated as a derivative contract that is 
+part of a repurchase or reverse repurchase or a securities borrowing or 
+lending transaction that qualifies for sales treatment under GAAP), as 
+determined under Sec.  217.132(c)(7), in which the term C in Sec.  
+217.132(c)(7)(i) equals zero, and, for any counterparty that is not a 
+commercial end-user, multiplied by 1.4. For purposes of this paragraph 
+(c)(4)(ii)(B)(2)(i), a Board-regulated institution may set the value of 
+the term C in Sec.  217.132(c)(7)(i) equal to the amount of collateral 
+posted by a clearing member client of the Board-regulated institution 
+in connection with the client-facing derivative transactions within the 
+netting set; and
+    (ii) A Board-regulated institution may choose to exclude the PFE of 
+all credit derivatives or other similar instruments through which it 
+provides credit protection when calculating the PFE under Sec.  
+217.132(c), provided that it does so consistently over time for the 
+calculation of the PFE for all such instruments;
+* * * * *
+
+0
+9. Section 217.32 is amended by revising paragraph (f)(1) to read as 
+follows:
+
+
+Sec.  217.32  General risk weights.
+
+* * * * *
+    (f) * * * (1) A Board-regulated institution must assign a 100 
+percent risk weight to all its corporate exposures, except as provided 
+in paragraphs (f)(2) and (f)(3) of this section.
+* * * * *
+
+
+Sec.  217.37  [Amended]
+
+0
+10. Section 217.37 is amended by, in paragraph (c)(2)(i)(B), removing 
+``Sec.  217.34(a)(1) or (2)'' and adding in its place ``Sec.  
+217.34(b)(1) or (2).''
+
+0
+11. Amend Sec.  217.132 by:
+0
+a. In paragraphs (c)(8)(iii) and (iv), and (c)(9)(i), removing the 
+words ``Table 2'' and adding in its place ``Table 3''; and
+0
+b. Revising paragraphs (c)(9)(ii)(A)(1) and (c)(9)(iv)(A)(3).
+    The revisions read as follows:
+
+
+Sec.  217.132   Counterparty credit risk of repo-style transactions, 
+eligible margin loans, and OTC derivative contracts.
+
+* * * * *
+    (c) * * *
+    (9) * * *
+    (ii) * * *
+    (A)(1) For an interest rate derivative contract or a credit 
+derivative contract, the adjusted notional amount equals the product of 
+the notional amount of the derivative contract, as measured in U.S. 
+dollars using the exchange rate on the date of the calculation, and the 
+supervisory duration, as calculated by the following formula:
+[GRAPHIC] [TIFF OMITTED] TR17SE20.013
+
+Where:
+
+S is the number of business days from the present day until the 
+start date of the derivative contract, or zero if the start date has 
+already passed; and
+E is the number of business days from the present day until the end 
+date of the derivative contract.
+* * * * *
+    (iv) * * *
+    (A) * * *
+    (3) Notwithstanding paragraphs (c)(9)(iv)(A)(1) and (2) of this 
+section, for a netting set subject to more than two outstanding 
+disputes over margin that lasted longer than the MPOR over the previous 
+two quarters, the applicable
+
+[[Page 57962]]
+
+floor is twice the amount provided in paragraphs (c)(9)(iv)(A)(1) and 
+(2) of this section.
+* * * * *
+
+0
+12. Section 217.133 is amended by revising paragraphs (d)(4) and (5), 
+(d)(6) introductory text, and paragraphs (d)(6)(i) through (iii) to 
+read as follows:
+
+
+Sec.  217.133   Cleared transactions.
+
+* * * * *
+    (d) * * *
+    (4) Capital requirement for default fund contributions to a QCCP. A 
+clearing member Board-regulated institution's capital requirement for 
+its default fund contribution to a QCCP (KCM) is equal to:
+[GRAPHIC] [TIFF OMITTED] TR17SE20.014
+
+    (5) Hypothetical capital requirement of a QCCP. Where a QCCP has 
+provided its K<INF>CCP</INF>, a Board-regulated institution must rely 
+on such disclosed figure instead of calculating K<INF>CCP</INF> under 
+this paragraph (d)(5), unless the Board-regulated institution 
+determines that a more conservative figure is appropriate based on the 
+nature, structure, or characteristics of the QCCP. The hypothetical 
+capital requirement of a QCCP (KCCP), as determined by the Board-
+regulated institution, is equal to:
+
+KCCP = [Sigma]CMi EADi * 1.6 percent
+
+Where:
+
+CM<INF>i</INF> is each clearing member of the QCCP; and
+EADi is the exposure amount of the QCCP to each clearing member of 
+the QCCP, as determined under paragraph (d)(6) of this section.
+
+    (6) EAD of a QCCP to a clearing member. (i) The EAD of a QCCP to a 
+clearing member is equal to the sum of the EAD for derivative contracts 
+determined under paragraph (d)(6)(ii) of this section and the EAD for 
+repo-style transactions determined under paragraph (d)(6)(iii) of this 
+section.
+    (ii) With respect to any derivative contracts between the QCCP and 
+the clearing member that are cleared transactions and any guarantees 
+that the clearing member has provided to the QCCP with respect to 
+performance of a clearing member client on a derivative contract, the 
+EAD is equal to the exposure amount of the QCCP to the clearing member 
+for all such derivative contracts and guarantees of derivative 
+contracts calculated under SA-CCR in Sec.  217.132(c) (or, with respect 
+to a QCCP located outside the United States, under a substantially 
+identical methodology in effect in the jurisdiction) using a value of 
+10 business days for purposes of Sec.  217.132(c)(9)(iv); less the 
+value of all collateral held by the QCCP posted by the clearing member 
+or a client of the clearing member in connection with a derivative 
+contract for which the clearing member has provided a guarantee to the 
+QCCP and the amount of the prefunded default fund contribution of the 
+clearing member to the QCCP.
+    (iii) With respect to any repo-style transactions between the QCCP 
+and a clearing member that are cleared transactions, EAD is equal to:
+
+EADi = max{EBRMi-IMi-DFi;0{time} 
+
+Where:
+
+EBRMi is the exposure amount of the QCCP to each clearing member for 
+all repo-style transactions between the QCCP and the clearing 
+member, as determined under Sec.  217.132(b)(2) and without 
+recognition of the initial margin collateral posted by the clearing 
+member to the QCCP with respect to the repo-style transactions or 
+the prefunded default fund contribution of the clearing member 
+institution to the QCCP;
+IMi is the initial margin collateral posted by each clearing member 
+to the QCCP with respect to the repo-style transactions; and
+DFi is the prefunded default fund contribution of each clearing 
+member to the QCCP that is not already deducted in paragraph 
+(d)(6)(ii) of this section.
+* * * * *
+
+[[Page 57963]]
+
+Federal Deposit Insurance Corporation
+
+12 CFR Chapter III
+
+Authority and Issuance
+
+    For the reasons set forth in the preamble, chapter III of title 12 
+of the Code of Federal Regulations is amended as follows:
+
+PART 324--CAPITAL ADEQUACY OF FDIC-SUPERVISED INSTITUTIONS
+
+0
+13. The authority citation for part 324 continues to read as follows:
+
+    Authority:  12 U.S.C. 1815(a), 1815(b), 1816, 1818(a), 1818(b), 
+1818(c), 1818(t), 1819(Tenth), 1828(c), 1828(d), 1828(i), 1828(n), 
+1828(o), 1831o, 1835, 3907, 3909, 4808; 5371; 5412; Pub. L. 102-233, 
+105 Stat. 1761, 1789, 1790 (12 U.S.C. 1831n note); Pub. L. 102-242, 
+105 Stat. 2236, 2355, as amended by Pub. L. 103-325, 108 Stat. 2160, 
+2233 (12 U.S.C. 1828 note); Pub. L. 102-242, 105 Stat. 2236, 2386, 
+as amended by Pub. L. 102-550, 106 Stat. 3672, 4089 (12 U.S.C. 1828 
+note); Pub. L. 111-203, 124 Stat. 1376, 1887 (15 U.S.C. 78o-7 note); 
+Pub. L. 115-174; Pub. L. 116-136, 134 Stat. 281.
+
+
+0
+14. Amend Sec.  324.10 by:
+0
+a. Removing, in paragraphs (c)(4)(ii)(A), (c)(4)(ii)(B)(1), 
+(c)(4)(ii)(B)(2)(i), and (c)(4)(ii)(H), the phrase ``U.S. GAAP'' and by 
+adding in its place the phrase ``GAAP'';
+0
+b. Removing, in paragraphs (c)(4)(ii)(B)(1) introductory text and 
+(c)(4)(ii)(B)(1)(i), the phrase ``without regard to Sec.  324.34(b)'' 
+and by adding in its place the phrase ``without regard to Sec.  
+324.34(c)''; and
+0
+c. Revising paragraphs (c)(4)(ii)(B)(2)(i) and (ii).
+    The revisions read as follows:
+
+
+Sec.  324.10  Minimum capital requirements.
+
+* * * * *
+    (c) * * *
+    (4) * * *
+    (ii) * * *
+    (B) * * *
+    (2)(i) For an FDIC-supervised institution that uses the 
+standardized approach for counterparty credit risk under section Sec.  
+324.132(c) for its standardized risk-weighted assets, the PFE for each 
+netting set to which the FDIC-supervised institution is a counterparty 
+(including cleared transactions except as provided in paragraph 
+(c)(4)(ii)(I) of this section and, at the discretion of the FDIC-
+supervised institution, excluding a forward agreement treated as a 
+derivative contract that is part of a repurchase or reverse repurchase 
+or a securities borrowing or lending transaction that qualifies for 
+sales treatment under GAAP), as determined under Sec.  324.132(c)(7), 
+in which the term C in Sec.  324.132(c)(7)(i) equals zero, and, for any 
+counterparty that is not a commercial end-user, multiplied by 1.4. For 
+purposes of this paragraph (c)(4)(ii)(B)(2)(i), an FDIC-supervised 
+institution may set the value of the term C in Sec.  324.132(c)(7)(i) 
+equal to the amount of collateral posted by a clearing member client of 
+the FDIC-supervised institution in connection with the client-facing 
+derivative transactions within the netting set; and
+    (ii) An FDIC-supervised institution may choose to exclude the PFE 
+of all credit derivatives or other similar instruments through which it 
+provides credit protection when calculating the PFE under Sec.  
+324.132(c), provided that it does so consistently over time for the 
+calculation of the PFE for all such instruments;
+* * * * *
+
+0
+15. Section 324.32 is amended by revising paragraph (f)(1) to read as 
+follows:
+
+
+Sec.  324.32   General risk weights.
+
+* * * * *
+    (f) * * * (1) An FDIC-supervised institution must assign a 100 
+percent risk weight to all its corporate exposures, except as provided 
+in paragraphs (f)(2) and (f)(3) of this section.
+* * * * *
+
+
+Sec.  324.37  [Amended]
+
+0
+16. Section 324.37 is amended by, in paragraph (c)(2)(i)(B), removing 
+``Sec.  324.34(a)(1) or (2)'' and adding in its place ``Sec.  
+324.34(b)(1) or (2).''
+
+0
+17. Amend Sec.  324.132 by:
+0
+a. In paragraphs (c)(8)(iii) and (iv), and (c)(9)(i), removing ``Table 
+2'' and adding in its place ``Table 3''; and
+0
+b. Revising paragraphs (c)(9)(ii)(A)(1) and (c)(9)(iv)(A)(3).
+    The revisions read as follows:
+
+
+Sec.  324.132  Counterparty credit risk of repo-style transactions, 
+eligible margin loans, and OTC derivative contracts.
+
+* * * * *
+    (c) * * *
+    (9) * * *
+    (ii) * * *
+    (A)(1) For an interest rate derivative contract or a credit 
+derivative contract, the adjusted notional amount equals the product of 
+the notional amount of the derivative contract, as measured in U.S. 
+dollars using the exchange rate on the date of the calculation, and the 
+supervisory duration, as calculated by the following formula:
+[GRAPHIC] [TIFF OMITTED] TR17SE20.015
+
+Where:
+
+S is the number of business days from the present day until the 
+start date of the derivative contract, or zero if the start date has 
+already passed; and
+E is the number of business days from the present day until the end 
+date of the derivative contract.
+* * * * *
+    (iv) * * *
+    (A) * * *
+    (3) Notwithstanding paragraphs (c)(9)(iv)(A)(1) and (2) of this 
+section, for a netting set subject to more than two outstanding 
+disputes over margin that lasted longer than the MPOR over the previous 
+two quarters, the applicable floor is twice the amount provided in 
+paragraphs (c)(9)(iv)(A)(1) and (2) of this section.
+* * * * *
+
+0
+18. Section 324.133 is amended by revising paragraphs (d)(4) and (5), 
+(d)(6) introductory text, and (d)(6)(i) through (iii) to read as 
+follows:
+
+
+Sec.  324.133   Cleared transactions.
+
+* * * * *
+    (d) * * *
+    (4) Capital requirement for default fund contributions to a QCCP. A 
+clearing member FDIC-supervised institution's capital requirement for 
+its default fund contribution to a QCCP (KCM) is equal to:
+
+[[Page 57964]]
+
+[GRAPHIC] [TIFF OMITTED] TR17SE20.016
+
+    (5) Hypothetical capital requirement of a QCCP. Where a QCCP has 
+provided its K<INF>CCP</INF>, an FDIC-supervised institution must rely 
+on such disclosed figure instead of calculating K<INF>CCP</INF> under 
+this paragraph (d)(5), unless the FDIC-supervised institution 
+determines that a more conservative figure is appropriate based on the 
+nature, structure, or characteristics of the QCCP. The hypothetical 
+capital requirement of a QCCP (KCCP), as determined by the FDIC-
+supervised institution, is equal to:
+
+KCCP = [Sigma]CMi EADi * 1.6 percent
+
+Where:
+
+ CMi is each clearing member of the QCCP; and
+EADi is the exposure amount of the QCCP to each clearing member of 
+the QCCP, as determined under paragraph (d)(6) of this section.
+
+    (6) EAD of a QCCP to a clearing member. (i) The EAD of a QCCP to a 
+clearing member is equal to the sum of the EAD for derivative contracts 
+determined under paragraph (d)(6)(ii) of this section and the EAD for 
+repo-style transactions determined under paragraph (d)(6)(iii) of this 
+section.
+    (ii) With respect to any derivative contracts between the QCCP and 
+the clearing member that are cleared transactions and any guarantees 
+that the clearing member has provided to the QCCP with respect to 
+performance of a clearing member client on a derivative contract, the 
+EAD is equal to the exposure amount of the QCCP to the clearing member 
+for all such derivative contracts and guarantees of derivative 
+contracts calculated under SA-CCR in Sec.  324.132(c) (or, with respect 
+to a QCCP located outside the United States, under a substantially 
+identical methodology in effect in the jurisdiction) using a value of 
+10 business days for purposes of Sec.  324.132(c)(9)(iv); less the 
+value of all collateral held by the QCCP posted by the clearing member 
+or a client of the clearing member in connection with a derivative 
+contract for which the clearing member has provided a guarantee to the 
+QCCP and the amount of the prefunded default fund contribution of the 
+clearing member to the QCCP.
+    (iii) With respect to any repo-style transactions between the QCCP 
+and a clearing member that are cleared transactions, EAD is equal to:
+
+EADI = max{EBRMI-IMi-DFI;0{time} 
+
+Where:
+
+EBRMi is the exposure amount of the QCCP to each clearing member for 
+all repo-style transactions between the QCCP and the clearing 
+member, as determined under Sec.  324.132(b)(2) and without 
+recognition of the initial margin collateral posted by the clearing 
+member to the QCCP with respect to the repo-style transactions or 
+the prefunded default fund contribution of the clearing member 
+institution to the QCCP;
+IMi is the initial margin collateral posted by each clearing member 
+to the QCCP with respect to the repo-style transactions; and
+DFi is the prefunded default fund contribution of each clearing 
+member to the QCCP that is not already deducted in paragraph 
+(d)(6)(ii) of this section.
+* * * * *
+
+Brian P. Brooks,
+Acting Comptroller of the Currency.
+
+    By order of the Board of Governors of the Federal Reserve 
+System.
+Margaret McCloskey Shanks,
+Deputy Secretary of the Board.
+
+Federal Deposit Insurance Corporation.
+
+    Dated at Washington, DC, on or about July 31, 2020.
+James P. Sheesley,
+Acting Assistant Secretary.
+[FR Doc. 2020-17744 Filed 9-16-20; 8:45 am]
+BILLING CODE 4810-33-P; 6210-01-P; 6714-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

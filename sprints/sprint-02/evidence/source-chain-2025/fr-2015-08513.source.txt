@@ -1,0 +1,728 @@
+<html>
+<head>
+<title>Federal Register, Volume 80 Issue 72 (Wednesday, April 15, 2015)</title>
+</head>
+<body><pre>
+[Federal Register Volume 80, Number 72 (Wednesday, April 15, 2015)]
+[Rules and Regulations]
+[Pages 20153-20158]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2015-08513]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+FEDERAL RESERVE SYSTEM
+
+12 CFR Parts 217, 225, and 238
+
+[Docket No. R-1509]
+RIN 1700-AE 30
+
+
+Regulations Q, Y, and LL: Small Bank Holding Company Policy 
+Statement; Capital Adequacy of Board-Regulated Institutions; Bank 
+Holding Companies; Savings and Loan Holding Companies
+
+AGENCY: Board of Governors of the Federal Reserve System (Board).
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Board is adopting final amendments (Final Rule) to the 
+Small
+
+[[Page 20154]]
+
+Bank Holding Company Policy Statement (Regulation Y, Appendix C) 
+(Policy Statement) that: raise from $500 million to $1 billion the 
+asset threshold to qualify for the Policy Statement; and expand the 
+scope of companies eligible under the Policy Statement to include 
+savings and loan holding companies. The Board is also adopting final 
+conforming revisions to Regulation Y and Regulation LL, the Board's 
+regulations governing the operations and activities of bank holding 
+companies and savings and loan holding companies, respectively, and 
+Regulation Q, the Board's regulatory capital rules.
+
+DATES: The final rule is effective May 15, 2015.
+
+FOR FURTHER INFORMATION CONTACT: Constance M. Horsley, Assistant 
+Director, (202) 452-5239, Cynthia Ayouch, Manager, (202) 452-2204, 
+Thomas Boemio, Manager, (202) 452-2982, Douglas Carpenter, Senior 
+Supervisory Financial Analyst, (202) 452-2205, Page Conkling, 
+Supervisory Financial Analyst, (202) 912-4647, or Noah Cuttler, Senior 
+Financial Analyst, (202) 912-4678, Division of Banking Supervision and 
+Regulation; Laurie Schaffer, Associate General Counsel, (202) 452-2272, 
+or Tate Wilson, Counsel, (202) 452-3696, Legal Division; Board of 
+Governors of the Federal Reserve System, 20th and C Streets NW., 
+Washington, DC 20551.
+
+SUPPLEMENTARY INFORMATION:
+
+Table of Contents
+
+I. Background
+II. Overview of Comments
+III. Summary of the Final Rule
+IV. Administrative Law Matters
+    A. Regulatory Flexibility Act
+    B. Paperwork Reduction Act
+    C. Plain Language
+
+I. Background
+
+    On February 3, 2015, the Board invited comment on a proposed rule 
+(Proposed Rule) \1\ to implement Public Law 113-250 (the Act).\2\ The 
+Proposed Rule proposed increasing the amount of assets qualifying 
+holding companies may have, expanding the application of the Policy 
+Statement to qualifying savings and loan holding companies, revising 
+the applicability of the Board's regulatory capital rules \3\ to 
+exclude savings and loan holding companies subject to the Policy 
+Statement, and revising certain reporting requirements. Specifically, 
+the Proposed Rule would allow bank holding companies and savings and 
+loan holding companies with less than $1 billion in total consolidated 
+assets to qualify under the Policy Statement, provided the holding 
+companies also comply with three qualitative requirements (Qualitative 
+Requirements). Previously, only bank holding companies with less than 
+$500 million in total consolidated assets that complied with the 
+Qualitative Requirements could qualify under the Policy Statement. With 
+the exception of the proposed changes to the reporting requirements, 
+the Board is adopting as final the Proposed Rule without changes.\4\
+---------------------------------------------------------------------------
+
+    \1\ 80 FR 5694 (February 3, 2015) (Proposed Rule).
+    \2\ Pub. L. 113-250 (December 18, 2014) (Pub. L. 113-250). The 
+Act was enacted on December 18, 2014, and became immediately 
+effective.
+    \3\ 12 CFR part 217 (Regulation Q).
+    \4\ The comment period for the proposed changes to the reporting 
+requirements in the Proposed Rule runs through April 6, 2015. Once 
+the comment period for the proposed reporting requirements closes, 
+the Board will consider any and all reporting and Paperwork 
+Reduction Act-related comments before finalizing any reporting 
+changes.
+---------------------------------------------------------------------------
+
+    The Board issued the Policy Statement in 1980 to facilitate the 
+transfer of ownership of small community-based banks in a manner 
+consistent with bank safety and soundness. The Board has generally 
+discouraged the use of debt by bank holding companies to finance the 
+acquisition of banks or other companies because high levels of debt can 
+impair the ability of the holding company to serve as a source of 
+strength to its subsidiary banks. The Board has recognized, however, 
+that small bank holding companies have less access to equity financing 
+than larger bank holding companies and that the transfer of ownership 
+of small banks often requires the use of acquisition debt. Accordingly, 
+the Board adopted the Policy Statement to permit the formation and 
+expansion of small bank holding companies with debt levels that are 
+higher than typically permitted for larger bank holding companies. The 
+Policy Statement contains several conditions and restrictions designed 
+to ensure that small bank holding companies that operate with the 
+higher levels of debt permitted by the Policy Statement do not present 
+an undue risk to the safety and soundness of their subsidiary banks.
+    Previously, the Policy Statement applied only to bank holding 
+companies with pro forma consolidated assets of less than $500 million 
+that met the following Qualitative Requirements: (i) Were not engaged 
+in significant nonbanking activities either directly or through a 
+nonbank subsidiary; (ii) did not conduct significant off-balance sheet 
+activities (including securitization and asset management or 
+administration) either directly or through a nonbank subsidiary; \5\ 
+and (iii) did not have a material amount of debt or equity securities 
+outstanding (other than trust preferred securities) that are registered 
+with the Securities and Exchange Commission. The Board last raised the 
+asset threshold in 2006 when it increased it from $150 million to $500 
+million.\6\
+---------------------------------------------------------------------------
+
+    \5\ The examples provided in the Policy Statement--
+securitization and asset management or administration--are not 
+exhaustive and serve to highlight off-balance sheet activities that 
+may involve substantial risk. Other activities may present similar 
+concerns. See also 71 FR 9897, 9899, fn. 2 (February 28, 2006) (2006 
+Final Rule).
+    \6\ See 2006 Final Rule.
+---------------------------------------------------------------------------
+
+    Under the Policy Statement, holding companies that meet the 
+Qualitative Requirements may use debt to finance up to 75 percent of 
+the purchase price of an acquisition (that is, they may have a debt-to-
+equity ratio of up to 3.0:1), but are subject to a number of ongoing 
+requirements. The principal ongoing requirements are that a qualifying 
+holding company: (i) Reduce its parent company debt in such a manner 
+that all debt is retired within 25 years of being incurred; (ii) reduce 
+its debt-to equity ratio to .30:1 or less within 12 years of the debt 
+being incurred; (iii) ensure that each of its subsidiary insured 
+depository institutions is well capitalized; and (iv) refrain from 
+paying dividends until such time as it reduces its debt-to-equity ratio 
+to 1.0:1 or less. The Policy Statement also specifically provides that 
+a qualifying bank holding company may not use the expedited procedures 
+for obtaining approval of acquisition proposals or obtaining a waiver 
+of the stock redemption filing requirements applicable to bank holding 
+companies under the Board's Regulation Y (12 CFR 225.4(b), 225.14, and 
+225.23) unless the bank holding company has a pro forma debt-to-equity 
+ratio of 1.0:1 or less.
+
+II. Overview of Comments
+
+    The Board received 11 comments on the Proposed Rule. Comments were 
+submitted by financial trade associations, individuals associated with 
+financial institutions, and a law firm that represents bank holding 
+companies and savings and loan holding companies. While each commenter 
+expressed general support for the Proposed Rule, some commenters 
+recommended revisions to the Proposed Rule. For instance, one commenter 
+expressed support for raising the asset threshold higher than $1 
+billion. Another commenter expressed support for the nonbanking and 
+off-balance sheet activity requirements but suggested that the Board 
+consider rescinding or revising
+
+[[Page 20155]]
+
+the requirement relating to outstanding debt or equity securities 
+registered with the SEC. The Board's responses to these comments are 
+discussed below.
+
+III. Summary of the Final Rule
+
+Increase in Amount of Qualifying Assets
+
+    Under the Final Rule, a holding company with less than $1 billion 
+in total consolidated assets may qualify under the Policy Statement, 
+provided it also complies with the Qualitative Requirements. This new 
+asset limit is set by statute.\7\ As noted above, commenters generally 
+supported the Board's proposal to increase the scope of the Policy 
+Statement by allowing firms with less than $1 billion in total assets 
+to qualify. One commenter suggested that the threshold be increased to 
+$5 billion. The Act directs the Board to increase the threshold to $1 
+billion, and section 171 of the Dodd-Frank Wall Street Reform and 
+Consumer Protection Act (Dodd-Frank Act) \8\ effectively prevents the 
+threshold from being raised any higher.
+---------------------------------------------------------------------------
+
+    \7\ Public Law 113-250.
+    \8\ 12 U.S.C. 5371, as amended.
+---------------------------------------------------------------------------
+
+Policy Statement's Application to Savings and Loan Holding Companies
+
+    The Act also directs the Board to propose revisions to the Policy 
+Statement that would extend its application to certain savings and loan 
+holding companies. Consistent with the Proposed Rule, the Final Rule 
+applies the revised Policy Statement to savings and loan holding 
+companies by amending Appendix C to 12 CFR part 225 and adding new 
+section 238.9 to Subpart A of Regulation LL.
+    As explained in the Proposed Rule, this change requires other 
+modifications to the Policy Statement to take into account the status 
+of savings associations under the Bank Holding Company Act of 1956, as 
+amended (BHC Act). The first Qualitative Requirement uses the terms 
+``nonbanking activities'' and ``nonbank subsidiary'' to refer to the 
+activities of a bank holding company. Under the BHC Act, however, 
+control of a savings association by a bank holding company is 
+considered a nonbanking activity.\9\ Because savings and loan holding 
+companies control savings associations, all activities of savings and 
+loan holding companies, including the control of savings associations 
+would be considered nonbanking activities under the Policy Statement.
+---------------------------------------------------------------------------
+
+    \9\ See 12 U.S.C. 1841(c)(2)(B), 1841(j), and 1843(i)(1).
+---------------------------------------------------------------------------
+
+    This outcome would be inconsistent with Congressional intent to 
+apply the Policy Statement to savings and loan holding companies.\10\ 
+The Board therefore will treat subsidiary savings associations of 
+savings and loan holding companies as if they were banks for purposes 
+of applying the Policy Statement.
+---------------------------------------------------------------------------
+
+    \10\ See, e.g., Pub. L. 113-250, sec. 2(b).
+---------------------------------------------------------------------------
+
+    As is the case with bank holding companies, whether a savings and 
+loan holding company engages in ``significant'' nonbanking activities 
+will depend on the scope of the activities of the savings and loan 
+holding company, the nature and level of risk of the activities, the 
+condition of the savings and loan holding company, and other criteria 
+as appropriate.\11\
+---------------------------------------------------------------------------
+
+    \11\ For purposes of applying the Policy Statement to savings 
+and loan holding companies, the term ``nonbank subsidiary'' as used 
+in the Policy Statement refers to a subsidiary of a savings and loan 
+holding company other than a savings association or a subsidiary of 
+a savings association.
+---------------------------------------------------------------------------
+
+    Consistent with the Policy Statement's provisions for bank holding 
+companies, the Board retains the right to exclude any savings and loan 
+holding company, regardless of size, from the Policy Statement if the 
+Board determines that such action is warranted for supervisory 
+purposes.
+
+Policy Statement's Qualitative Requirements
+
+    The Final Rule retains the Qualitative Requirements without change. 
+One commenter noted that the Qualitative Requirements concerning 
+nonbanking and off-balance sheet activities adequately cover bank 
+holding companies and savings and loan holding companies that meet the 
+size threshold but have unusually complex activities at the holding 
+company level. None of the commenters expressed concerns related to the 
+nonbanking or off-balance sheet activities requirements. Consistent 
+with the Board's previously-issued guidance on these two Qualitative 
+Requirements,\12\ whether a bank holding company or savings and loan 
+holding company engages in significant nonbanking or off-balance sheet 
+activities will continue to depend on a consideration of the scope of 
+the activities, the nature and level of risk of the activities, the 
+condition of the holding company and its subsidiary depository 
+institution, and other criteria as appropriate. As previously stated, 
+determinations of significance are made on a case-by-case basis, and 
+relatively few bank holding companies or savings and loan holding 
+companies are likely to be excluded from the Policy Statement due to 
+the Qualitative Requirements concerning nonbanking and off-balance 
+sheet activities.\13\
+---------------------------------------------------------------------------
+
+    \12\ See Proposed Rule, 80 FR 5695; 2006 Final Rule, 71 FR 9899-
+9900.
+    \13\ 2006 Final Rule, 71 FR 9900.
+---------------------------------------------------------------------------
+
+    One commenter urged the Board to rescind the Qualitative 
+Requirement that would disqualify a bank holding company or savings and 
+loan holding company with a material amount of outstanding SEC-
+registered debt or equity securities. In the alternative, the commenter 
+suggested the Board clarify whether bank holding companies and savings 
+and loan holding companies that meet the asset size threshold and would 
+otherwise qualify under the Policy Statement but for having SEC-
+registered debt or equity could qualify under the Policy Statement.
+    The exclusion from the Policy Statement of any bank holding company 
+that has a material amount of SEC-registered debt or equity securities 
+reflected the view that SEC registrants typically exhibited a degree of 
+complexity of operations and access to multiple funding sources that 
+warranted exclusion from the Policy Statement.\14\ Determinations of 
+materiality are made on a case-by-case basis in order to assess the 
+complexity of a firm. In considering whether a savings and loan holding 
+company or bank holding company has a material amount of SEC-registered 
+debt or equity securities outstanding that contributes to its 
+complexity (other than trust preferred securities), the Board may 
+consider, among other factors: The number and type of classes and 
+series of stock issued; the holding company's market capitalization; 
+the number of outstanding shares; the average trading volume; the 
+holding company's history of issuing equity and debt securities, 
+including whether the entity has issued any other securities that are 
+not registered with the SEC (e.g., privately-placed securities); the 
+nature and distribution of ownership; whether the securities are listed 
+on a national exchange; whether the holding company qualifies as a 
+``smaller reporting company'' pursuant to the SEC's regulations and 
+related interpretations; and the amount, type, and terms of any debt 
+instruments issued by the entity. While the Policy Statement has 
+included the ``materiality'' standard since 2006, as a general matter, 
+application of this standard has not resulted in many bank holding 
+companies being excluded from the Policy Statement. After considering 
+the concerns raised by the commenter, the Board is adopting the 
+Qualitative Requirements unchanged.
+---------------------------------------------------------------------------
+
+    \14\ 2006 Final Rule, 71 FR 9899.
+
+---------------------------------------------------------------------------
+
+[[Page 20156]]
+
+Regulation Q Change
+
+    When the Board proposed the Proposed Rule, the Board separately 
+revised Regulation Q, 12 CFR part 217, through issuance of an interim 
+final rule (Interim Final Rule), to exclude a qualifying savings and 
+loan holding company from consolidated regulatory capital 
+requirements.\15\ The Interim Final Rule gave effect to the Act, which 
+immediately excepted savings and loan holding companies that complied 
+with the Policy Statement then in effect from the provisions of section 
+171 of the Dodd-Frank Act.\16\ At that time, the Policy Statement 
+applied to firms with less than $500 million in total consolidated 
+assets so the Interim Final Rule contained the same limit. In the 
+Proposed Rule, the Board proposed further revisions to Regulation Q 
+that would expand the scope of the exclusion for savings and loan 
+holding companies to firms with less than $1 billion in total 
+consolidated assets that also meet the Qualitative Requirements. The 
+proposed revisions to Regulation Q in the Proposed Rule would supersede 
+the changes to Regulation Q from the Interim Final Rule. The Board did 
+not receive any comments concerning the proposed change to Regulation 
+Q. The Board is adopting as final the proposed revisions to Regulation 
+Q that conform it to reflect the revised Policy Statement.
+---------------------------------------------------------------------------
+
+    \15\ 80 FR 5666 (February 3, 2015).
+    \16\ See Pub. L. 113-250.
+---------------------------------------------------------------------------
+
+Conforming Amendments
+
+    A number of filing and other provisions in Regulations Y and LL are 
+triggered by the asset size established in the Policy Statement. The 
+Board is adopting as final the proposed changes that enable qualifying 
+small bank holding companies and savings and loan holding companies to 
+take advantage of the streamlined informational, notice, and other 
+regulatory requirements. These technical and conforming amendments 
+provide relief to most bank holding companies and savings and loan 
+holding companies with less than $1 billion of total consolidated 
+assets. The Final Rule includes the following technical and conforming 
+amendments:
+    <bullet> In section 217.1(c)(1)(iii), Regulation Q (12 CFR part 
+217) excludes savings and loan holding companies that are subject to 
+the Policy Statement through operation of section 238.9 of the Board's 
+Regulation LL (12 CFR part 238).
+    <bullet> In section 225.2(r), footnote 2, the footnote describing 
+the application of the definition of ``well-capitalized'' in the 
+Board's Regulation Y (12 CFR part 225) applies to entities with less 
+than $1 billion of total assets.
+    <bullet> In section 225.4(b)(2)(iii), different pro forma financial 
+information is required of smaller bank holding companies with less 
+than $1 billion in total assets than for larger bank holding companies 
+under section 225.4(b)(1) of the Board's Regulation Y.
+    <bullet> In section 225.14(a)(1)(v), different pro forma financial 
+information is required of smaller bank holding companies with less 
+than $1 billion in total assets than for larger bank holding companies 
+under section 225.14 of the Board's Regulation Y.
+    <bullet> In section 225.17(a)(6), footnote 6, a bank holding 
+company with less than $1 billion in assets can satisfy the debt 
+requirement if it complies with the Policy Statement.
+    <bullet> In section 225.23(a)(1)(iii), different pro forma 
+financial information is required of smaller bank holding companies 
+with less than $1 billion in total assets than for larger bank holding 
+companies under section 225.23 of the Board's Regulation Y.
+
+IV. Administrative Law Matters
+
+A. Regulatory Flexibility Act Analysis
+
+    The Board is providing a final regulatory flexibility analysis with 
+respect to the Final Rule. As discussed above, the Final Rule reduces 
+regulatory burden on small entities by excluding many bank holding 
+companies and savings and loan holding companies with total 
+consolidated assets of less than $1 billion that meet the Qualitative 
+Requirements from the application of Regulation Q.
+    The Regulatory Flexibility Act, 5 U.S.C. 601 et seq., generally 
+requires that an agency provide a final regulatory flexibility analysis 
+in connection with a final rule. Under regulations issued by the Small 
+Business Administration, a small bank holding company, bank, or savings 
+and loan holding company is defined as having assets of $550 million or 
+less (collectively, small banking organizations).\17\ As of December 
+31, 2014, there were approximately 3,862 small bank holding companies 
+and 275 small savings and loan holding companies.
+---------------------------------------------------------------------------
+
+    \17\ See 13 CFR 121.201. Effective July 14, 2014, the Small 
+Business Administration revised the size standards for banking 
+organizations to $550 million in assets from $500 million in assets. 
+79 FR 33647 (June 12, 2014).
+---------------------------------------------------------------------------
+
+    The Board received no comments from the public or from the Chief 
+Counsel for Advocacy of the Small Business Administration in response 
+to the initial regulatory flexibility analysis provided with the notice 
+of proposed rulemaking. Thus, no issues were raised in public comments 
+related to the Board's initial regulatory flexibility act analysis and 
+no changes are being made in response to such comments.
+    The Final Rule impacts small bank holding companies and small 
+savings and loan holding companies with total consolidated assets of 
+$500 to $550 million that meet the Qualitative Requirements by 
+providing an exclusion for these companies from Regulation Q. The Board 
+believes that most affected small banking organizations already hold 
+more capital than is required under Regulation Q, so the burden 
+reduction from the exclusion from Regulation Q is primarily related to 
+compliance and systems necessary to comply with Regulation Q. In 
+addition, affected small bank holding companies will now be able to 
+take advantage of the applications processing procedures provided to 
+qualifying companies under the Policy Statement.
+    There are no significant alternatives to the Final Rule that have 
+less economic impact on small banking organizations, and the Final Rule 
+significantly reduces burden on nearly all small banking organizations.
+
+B. Paperwork Reduction Act
+
+    At this time, the Board is not adopting as final the changes to 
+reporting requirements in the Proposed Rule. The comment period for the 
+proposed changes to the reporting requirements in the Proposed Rule 
+runs through April 6, 2015. Once the comment period for the proposed 
+reporting requirements closes, the Board will consider any and all 
+reporting and Paperwork Reduction Act-related comments before 
+finalizing any reporting changes.
+
+C. Plain Language
+
+    Section 722 of the Gramm-Leach-Bliley Act (Pub. L. 106-102, 113 
+Stat. 1338, 1471, 12 U.S.C. 4809) requires the Federal banking agencies 
+to use ``plain language'' in all proposed and final rules published 
+after January 1, 2000. In light of this requirement, the Board has 
+sought to present the Final Rule in a simple and straightforward 
+manner. The Board sought to present the Proposed Rule in a simple and 
+straightforward manner and solicited comment on how to make the 
+Proposed Rule easier to understand. No comments were received on the 
+use of plain language.
+
+List of Subjects
+
+12 CFR Part 217
+
+    Administrative practice and procedure, Banks, banking, Capital, 
+Federal Reserve System, Holding
+
+[[Page 20157]]
+
+companies, Reporting and recordkeeping requirements, Securities.
+
+12 CFR Part 225
+
+    Administrative practice and procedure, Banks, banking, Federal 
+Reserve System, Holding companies, Reporting and recordkeeping 
+requirements.
+
+12 CFR Part 238
+
+    Administrative practice and procedure, Banks, banking, Federal 
+Reserve System, Holding companies, Reporting and recordkeeping 
+requirements.
+
+Federal Reserve System
+
+12 CFR CHAPTER II
+
+Authority and Issuance
+
+    For the reasons set forth in the preamble, chapter II of title 12 
+of the Code of Federal Regulations is amended as set forth below:
+
+PART 217--CAPITAL ADEQUACY OF BANK HOLDING COMPANIES, SAVINGS AND 
+LOAN HOLDING COMPANIES, AND STATE MEMBER BANKS (REGULATION Q)
+
+0
+1. The authority citation for part 217 continues to read as follows:
+
+    Authority: 12 U.S.C. 248(a), 321-338a, 481-486, 1462a, 1467a, 
+1818, 1828, 1831n, 1831o, 1831p-l, 1831w, 1835, 1844(b), 1851, 3904, 
+3906-3909, 4808, 5365, 5368, 5371.
+
+
+0
+2. In Sec.  217.1, revise paragraph (c)(1)(iii) to read as follows:
+
+
+Sec.  217.1  Purpose, applicability, reservations of authority, and 
+timing.
+
+* * * * *
+    (c) * * *
+    (1) * * *
+    (iii) A covered savings and loan holding company domiciled in the 
+United States, other than a savings and loan holding company that has 
+total consolidated assets of less than $1 billion and meets the 
+requirements of 12 CFR part 225, appendix C, as if the savings and loan 
+holding company were a bank holding company and the savings association 
+were a bank. For purposes of compliance with the capital adequacy 
+requirements and calculations in this part, savings and loan holding 
+companies that do not file the FR Y-9C should follow the instructions 
+to the FR Y-9C.
+* * * * *
+
+PART 225--BANK HOLDING COMPANIES AND CHANGE IN BANK CONTROL 
+(REGULATION Y)
+
+0
+3. The authority citation for part 225 continues to read as follows:
+
+    Authority: 12 U.S.C. 1817(j)(13), 1818, 1828(o), 1831i, 1831p-1, 
+1843(c)(8), 1844(b), 1972(1), 3106, 3108, 3310, 3331-3351, 3906, 
+3907, and 3909; 15 U.S.C. 1681s, 1681w, 6801 and 6805.
+
+
+0
+4. In Sec.  225.2, paragraph (r), revise footnote 2 to read as follows:
+
+
+Sec.  225.2  Definitions.
+
+* * * * *
+    (r) * * *
+
+Footnote 2: For purposes of this subpart and subparts B and C of 
+this part, a bank holding company with consolidated assets of less 
+than $1 billion that is subject to the Small Bank Holding Company 
+Policy Statement in appendix C of this part will be deemed to be 
+``well-capitalized'' if the bank holding company meets the 
+requirements for expedited/waived processing in appendix C.
+
+
+0
+5. In Sec.  225.4, revise paragraph (b)(2)(iii) to read as follows:
+
+
+Sec.  225.4  Corporate practices.
+
+* * * * *
+    (b) * * *
+    (2) * * *
+    (iii)(A) If the bank holding company has consolidated assets of $1 
+billion or more, consolidated pro forma risk-based capital and leverage 
+ratio calculations for the bank holding company as of the most recent 
+quarter, and, if the redemption is to be debt funded, a parent-only pro 
+forma balance sheet as of the most recent quarter; or
+    (B) If the bank holding company has consolidated assets of less 
+than $1 billion, a pro forma parent-only balance sheet as of the most 
+recent quarter, and, if the redemption is to be debt funded, one-year 
+income statement and cash flow projections.
+* * * * *
+
+0
+6. In Sec.  225.14, revise paragraph (a)(1)(v) to read as follows:
+
+
+Sec.  225.14  Expedited action for certain bank acquisitions by well-
+run bank holding companies.
+
+* * * * *
+    (a) * * *
+    (1) * * *
+    (v)(A) If the bank holding company has consolidated assets of $1 
+billion or more, an abbreviated consolidated pro forma balance sheet as 
+of the most recent quarter showing credit and debit adjustments that 
+reflect the proposed transaction, consolidated pro forma risk-based 
+capital ratios for the acquiring bank holding company as of the most 
+recent quarter, and a description of the purchase price and the terms 
+and sources of funding for the transaction;
+    (B) If the bank holding company has consolidated assets of less 
+than $1 billion, a pro forma parent-only balance sheet as of the most 
+recent quarter showing credit and debit adjustments that reflect the 
+proposed transaction, and a description of the purchase price, the 
+terms and sources of funding for the transaction, and the sources and 
+schedule for retiring any debt incurred in the transaction;
+* * * * *
+
+0
+7. In Sec.  225.17, in paragraph (a)(6), revise footnote 6 to read as 
+follows:
+
+
+Sec.  225.17  Notice procedure for one-bank holding company formations.
+
+* * * * *
+    (a) * * *
+    (6) * * *
+
+Footnote 6--For a banking organization with consolidated assets, on 
+a pro forma basis, of less than $1 billion (other than a banking 
+organization that will control a de novo bank), this requirement is 
+satisfied if the proposal complies with the Board's Small Bank 
+Holding Company Policy Statement (appendix C of this part).
+
+
+0
+8. In Sec.  225.23, revise paragraph (a)(1)(iii) to read as follows:
+
+
+Sec.  225.23  Expedited action for certain nonbanking proposals by 
+well-run bank holding companies.
+
+* * * * *
+    (a) * * *
+    (1) * * *
+    (iii) If the proposal involves an acquisition of a going concern:
+    (A) If the bank holding company has consolidated assets of $1 
+billion or more, an abbreviated consolidated pro forma balance sheet 
+for the acquiring bank holding company as of the most recent quarter 
+showing credit and debit adjustments that reflect the proposed 
+transaction, consolidated pro forma risk-based capital ratios for the 
+acquiring bank holding company as of the most recent quarter, a 
+description of the purchase price and the terms and sources of funding 
+for the transaction, and the total revenue and net income of the 
+company to be acquired;
+    (B) If the bank holding company has consolidated assets of less 
+than $1 billion, a pro forma parent-only balance sheet as of the most 
+recent quarter showing credit and debit adjustments that reflect the 
+proposed transaction, a description of the purchase price and the terms 
+and sources of funding for the transaction and the sources and schedule 
+for retiring any debt incurred in the transaction, and the total 
+assets, off-balance sheet items, revenue and net income of the company 
+to be acquired;
+    (C) For each insured depository institution whose Tier 1 capital, 
+total capital, total assets or risk-weighted assets change as a result 
+of the transaction, the total risk-weighted
+
+[[Page 20158]]
+
+assets, total assets, Tier 1 capital and total capital of the 
+institution on a pro forma basis;
+* * * * *
+
+0
+9. In appendix C to part 225, revise the heading and, under section 1, 
+revise the first undesignated paragraph to read as follows:
+
+Appendix C to Part 225--Small Bank Holding Company and Savings and Loan 
+Holding Company Policy Statement
+
+* * * * *
+
+1. Applicability of Policy Statement
+
+    This policy statement applies only to bank holding companies 
+with pro forma consolidated assets of less than $1 billion that (i) 
+are not engaged in significant nonbanking activities either directly 
+or through a nonbank subsidiary; (ii) do not conduct significant 
+off-balance sheet activities (including securitization and asset 
+management or administration) either directly or through a nonbank 
+subsidiary; and (iii) do not have a material amount of debt or 
+equity securities outstanding (other than trust preferred 
+securities) that are registered with the Securities and Exchange 
+Commission. The Board may in its discretion exclude any bank holding 
+company, regardless of asset size, from the policy statement if such 
+action is warranted for supervisory purposes.\1\ With the exception 
+of section 4 (Additional Application Requirements for Expedited/
+Waived Processing), the policy statement applies to savings and loan 
+holding companies as if they were bank holding companies.
+---------------------------------------------------------------------------
+
+    \1\ Footnote 1: [Reserved]
+---------------------------------------------------------------------------
+
+* * * * *
+
+PART 238--SAVINGS AND LOAN HOLDING COMPANIES (REGULATION LL)
+
+0
+10. The authority citation for part 238 continues to read as follows:
+
+    Authority: 5 U.S.C. 552, 559; 12 U.S.C. 1462, 1462a, 1463, 1464, 
+1467, 1467a, 1468, 1813, 1817, 1829e, 1831i, 1972; 15 U.S.C. 78l.
+
+0
+11. Add Sec.  238.9 to subpart A to read as follows:
+
+
+Sec.  238.9  Small Bank Holding Company Policy Statement.
+
+    (a) The Board's Small Bank Holding Company Policy Statement (12 CFR 
+part 225, appendix C) (Policy Statement) applies to savings and loan 
+holding companies as if they were bank holding companies. To qualify or 
+rely on the Policy Statement, savings and loan holding companies must 
+meet all qualifying requirements in the Policy Statement as if they 
+were a bank holding company. For purposes of applying the Policy 
+Statement, the term ``nonbank subsidiary'' as used in the Policy 
+Statement refers to a subsidiary of a savings and loan holding company 
+other than a savings association or a subsidiary of a savings 
+association.
+    (b) The Board may exclude any savings and loan holding company, 
+regardless of asset size, from the Policy Statement under paragraph (a) 
+of this section if the Board determines that such action is warranted 
+for supervisory purposes.
+
+    By order of the Board of Governors of the Federal Reserve 
+System, April 9, 2015.
+Margaret McCloskey Shanks,
+Deputy Secretary of the Board.
+[FR Doc. 2015-08513 Filed 4-14-15; 8:45 am]
+BILLING CODE 6210-01-P
+
+
+</pre></body>
+</html>

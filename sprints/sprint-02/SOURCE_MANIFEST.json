@@ -1,12 +1,965 @@
 {
   "status": "PLANNING ONLY — NOT ACTIVE",
-  "schema_version": "source-review-manifest.v0.2-draft",
+  "schema_version": "source-review-manifest.v0.3-draft",
   "ruleset_family": "US_FRB_PART217_STANDARDIZED",
   "ruleset_version": null,
   "regulatory_as_of": "2025-01-01",
   "capture_status": "CAPTURED",
   "approval_status": "PENDING_REVIEW",
   "executable": false,
+  "source_readiness": "BLOCKED_ON_SOURCE_EVIDENCE",
+  "interval_contract": {
+    "version": "paragraph-effective-interval.v0.1-draft",
+    "date_semantics": "effective_from inclusive; effective_to exclusive only where an actual successor/sunset is evidenced. documentary_coverage_through is an inclusive observation bound, NEVER a legal end.",
+    "unknown_end": "effective_to=null with effective_to_status=UNKNOWN_NOT_OPEN_ENDED. No inference of perpetual validity or eligibility after 2025-01-01.",
+    "granularity": "Whole-section dates remain null/PENDING. Use paragraph_lineage; binding dates refer only to cited text versions, not approved applicability or ruleset activation.",
+    "selection": "No production selection implemented. All dependencies and named-human review must close before executable selection. Unknown intervals fail closed.",
+    "bounded_expiry_example": {
+      "source_id": "FR-2020-26138",
+      "paragraph_locator": "217.12(a)(4)(i)",
+      "effective_from": "2020-12-02",
+      "effective_to": "2022-01-01",
+      "effective_to_status": "ESTABLISHED_EXCLUSIVE_SUNSET",
+      "stated_last_day": "2021-12-31",
+      "legal_status_as_of": "2025-01-01",
+      "legal_status": "SUPERSEDED",
+      "lifecycle_note": "Relief's operative interval expired; text remains printed, not repealed. Does not mean section 217.12 was removed.",
+      "review_status": "PENDING_REVIEW",
+      "executable": false
+    }
+  },
+  "paragraph_lineage": [
+    {
+      "lineage_id": "P-INSTITUTION",
+      "source_id": "US-SCOPE-INSTITUTION",
+      "paragraph_locator": "217.1(c)(1)(i)(A), read with (c)(2), (f)(1)-(2), (f)(4), and 217.2 state member bank / Board-regulated institution",
+      "effective_from": "2024-01-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "interval_status": "DOCUMENTARY_START_AND_AS_OF_CORROBORATION",
+      "documentary_coverage_through": "2025-01-01",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
+      "executable": false,
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "amendment_events": [
+        {
+          "source_id": "FR-2013-21653",
+          "federal_register_amendment_reference": "78 FR 62285; instructions 43-45; captured lines 33137-33268",
+          "publication_date": "2013-10-11",
+          "stated_effective_date": "2014-01-01",
+          "mandatory_compliance": [
+            {
+              "date": "2014-01-01",
+              "scope": "Advanced approaches organizations other than SLHCs; 217.1(f)(1) imposes 2014 standardized-RWA substitution."
+            },
+            {
+              "date": "2015-01-01",
+              "scope": "Other covered organizations; 217.1(f)(1)(i) starts standardized calculations for advanced approaches in 2015; (f)(2)/(f)(4) govern other institutions."
+            }
+          ],
+          "evidence_locator": "78 FR 62285; instructions 43-45; captured lines 33137-33268",
+          "finding": "Board-specific 217.1(c)(1)(i) lists state member banks; separate compliance/substitution timing.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        },
+        {
+          "source_id": "FR-2023-23911",
+          "federal_register_amendment_reference": "88 FR 82967-82968; instruction 2, 217.1(c)(1)",
+          "publication_date": "2023-11-27",
+          "stated_effective_date": "2024-01-01",
+          "mandatory_compliance": null,
+          "evidence_locator": "88 FR 82967-82968; instruction 2, 217.1(c)(1)",
+          "finding": "Rewrites (c)(1); state member bank moves to (c)(1)(i)(A). Insurance holding-company regimes are separate; 2024 reporting dates are not commencement.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        }
+      ],
+      "limitations": "Documented text/perimeter only, not a finding that the synthetic institution qualifies. Other intervening c(1)(iii) SLHC changes are screened in amendment_chain_screen; no blanket date for section 217.1."
+    },
+    {
+      "lineage_id": "P-CORPORATE",
+      "source_id": "US-DEFINITIONS",
+      "paragraph_locator": "217.2 Corporate exposure, introductory text and (1)-(14)",
+      "effective_from": "2020-04-13",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "interval_status": "DOCUMENTARY_START_AND_AS_OF_CORROBORATION",
+      "documentary_coverage_through": "2025-01-01",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
+      "executable": false,
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "amendment_events": [
+        {
+          "source_id": "FR-2013-21653",
+          "federal_register_amendment_reference": "78 FR 62160; common corporate definition; 78 FR 62285-62286 instructions 44/46",
+          "publication_date": "2013-10-11",
+          "stated_effective_date": "2014-01-01",
+          "mandatory_compliance": [
+            {
+              "date": "2014-01-01",
+              "scope": "Advanced approaches organizations other than SLHCs; 217.1(f)(1) imposes 2014 standardized-RWA substitution."
+            },
+            {
+              "date": "2015-01-01",
+              "scope": "Other covered organizations; 217.1(f)(1)(i) starts standardized calculations for advanced approaches in 2015; (f)(2)/(f)(4) govern other institutions."
+            }
+          ],
+          "evidence_locator": "78 FR 62160; common corporate definition; 78 FR 62285-62286 instructions 44/46",
+          "finding": "Adopts common exclusions (1)-(11) plus Board-specific policy-loan/separate-account exclusions (12)-(13).",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        },
+        {
+          "source_id": "FR-2019-15131",
+          "federal_register_amendment_reference": "84 FR 35259; instruction 26, corporate exposure definition",
+          "publication_date": "2019-07-22",
+          "stated_effective_date": "2019-10-01",
+          "mandatory_compliance": null,
+          "evidence_locator": "84 FR 35259; instruction 26, corporate exposure definition",
+          "finding": "Revises complete definition including European Stability Mechanism / European Financial Stability Facility in (1). Separate deduction dates do not apply to this paragraph.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        },
+        {
+          "source_id": "FR-2020-07712",
+          "federal_register_amendment_reference": "85 FR 20393; instruction 7, Corporate exposure (12)-(14)",
+          "publication_date": "2020-04-13",
+          "stated_effective_date": "2020-04-13",
+          "mandatory_compliance": null,
+          "evidence_locator": "85 FR 20393; instruction 7, Corporate exposure (12)-(14)",
+          "finding": "Adds PPP covered-loan exclusion (14), revises punctuation (12)-(13); preceding text retained.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        },
+        {
+          "source_id": "FR-2020-21894",
+          "federal_register_amendment_reference": "85 FR 68243-68248; DATES and Authority and Issuance",
+          "publication_date": "2020-10-28",
+          "stated_effective_date": "2020-12-28",
+          "mandatory_compliance": null,
+          "evidence_locator": "85 FR 68243-68248; DATES and Authority and Issuance",
+          "finding": "Adopts the April 13 interim rule without change. Finalization is distinct from initial legal commencement.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        }
+      ],
+      "limitations": "Introductory text/(1)-(11) current version starts 2019-10-01; (12)-(14) starts 2020-04-13. Earliest date all current definition text coexists is shown, not a claim all clauses began then. External statutory/definition dependencies remain open."
+    },
+    {
+      "lineage_id": "P-CARRYING",
+      "source_id": "US-DEFINITIONS",
+      "paragraph_locator": "217.2 Carrying value (both sentences)",
+      "effective_from": "2019-07-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "interval_status": "DOCUMENTARY_START_AND_AS_OF_CORROBORATION",
+      "documentary_coverage_through": "2025-01-01",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
+      "executable": false,
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "amendment_events": [
+        {
+          "source_id": "FR-2013-21653",
+          "federal_register_amendment_reference": "Founding rule; common carrying-value definition plus instruction 44",
+          "publication_date": "2013-10-11",
+          "stated_effective_date": "2014-01-01",
+          "mandatory_compliance": [
+            {
+              "date": "2014-01-01",
+              "scope": "Advanced approaches organizations other than SLHCs; 217.1(f)(1) imposes 2014 standardized-RWA substitution."
+            },
+            {
+              "date": "2015-01-01",
+              "scope": "Other covered organizations; 217.1(f)(1)(i) starts standardized calculations for advanced approaches in 2015; (f)(2)/(f)(4) govern other institutions."
+            }
+          ],
+          "evidence_locator": "Founding rule; common carrying-value definition plus instruction 44",
+          "finding": "Original carrying-value wording adopted for Board institutions.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        },
+        {
+          "source_id": "FR-2018-28281",
+          "federal_register_amendment_reference": "84 FR 4241; Board instruction 14(b), carrying value; DATES",
+          "publication_date": "2019-02-14",
+          "stated_effective_date": "2019-04-01",
+          "mandatory_compliance": null,
+          "evidence_locator": "84 FR 4241; Board instruction 14(b), carrying value; DATES",
+          "finding": "Originally scheduled date only: superseded before commencement by 2019-06011; not used as current-version effective_from.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        },
+        {
+          "source_id": "FR-2019-06011",
+          "federal_register_amendment_reference": "84 FR 11879; DATES / delay of 84 FR 4222",
+          "publication_date": "2019-03-29",
+          "stated_effective_date": "2019-07-01",
+          "mandatory_compliance": null,
+          "evidence_locator": "84 FR 11879; DATES / delay of 84 FR 4222",
+          "finding": "Delays final rule to July 1; optional earlier adoption remains allowed, so earlier institution-specific applicability needs adoption evidence.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        }
+      ],
+      "limitations": "2019-07-01 is general final-rule commencement, not a claim every institution first applied it then. No allowance or CECL election is inferred. PCD/AFS exceptions, accounting reconciliation and institutional transition applicability need review."
+    },
+    {
+      "lineage_id": "P-EXPOSURE-AMOUNT",
+      "source_id": "US-DEFINITIONS",
+      "paragraph_locator": "217.2 Exposure amount (1)",
+      "effective_from": "2014-01-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "interval_status": "DOCUMENTARY_START_AND_AS_OF_CORROBORATION",
+      "documentary_coverage_through": "2025-01-01",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
+      "executable": false,
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "amendment_events": [
+        {
+          "source_id": "FR-2013-21653",
+          "federal_register_amendment_reference": "78 FR 62163; common Exposure amount (1), captured lines 17831-17838; Board instruction 44",
+          "publication_date": "2013-10-11",
+          "stated_effective_date": "2014-01-01",
+          "mandatory_compliance": [
+            {
+              "date": "2014-01-01",
+              "scope": "Advanced approaches organizations other than SLHCs; 217.1(f)(1) imposes 2014 standardized-RWA substitution."
+            },
+            {
+              "date": "2015-01-01",
+              "scope": "Other covered organizations; 217.1(f)(1)(i) starts standardized calculations for advanced approaches in 2015; (f)(2)/(f)(4) govern other institutions."
+            }
+          ],
+          "evidence_locator": "78 FR 62163; common Exposure amount (1), captured lines 17831-17838; Board instruction 44",
+          "finding": "On-balance-sheet carrying-value measurement subject to enumerated exceptions. 2020 SA-CCR did not rewrite this definition.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        }
+      ],
+      "limitations": "Ordinary on-balance-sheet limb only. General rule effectiveness is separate from 2015 standardized compliance. Other measurement limbs and external cross-references are not approved; no EAD alias."
+    },
+    {
+      "lineage_id": "P-STANDARDIZED-SCOPE",
+      "source_id": "US-SCOPE-STANDARDIZED",
+      "paragraph_locator": "217.30(a)-(b)",
+      "effective_from": "2014-01-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "interval_status": "DOCUMENTARY_START_AND_AS_OF_CORROBORATION",
+      "documentary_coverage_through": "2025-01-01",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
+      "executable": false,
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "amendment_events": [
+        {
+          "source_id": "FR-2013-21653",
+          "federal_register_amendment_reference": "78 FR 62179; common 217.30, captured lines 19937-19948; Board instruction 44",
+          "publication_date": "2013-10-11",
+          "stated_effective_date": "2014-01-01",
+          "mandatory_compliance": [
+            {
+              "date": "2014-01-01",
+              "scope": "Advanced approaches organizations other than SLHCs; 217.1(f)(1) imposes 2014 standardized-RWA substitution."
+            },
+            {
+              "date": "2015-01-01",
+              "scope": "Other covered organizations; 217.1(f)(1)(i) starts standardized calculations for advanced approaches in 2015; (f)(2)/(f)(4) govern other institutions."
+            }
+          ],
+          "evidence_locator": "78 FR 62179; common 217.30, captured lines 19937-19948; Board instruction 44",
+          "finding": "Adopts standardized applicability and covered-position exclusion. No targeted subsequent change found in captured 2013-2024 LSA chain.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        }
+      ],
+      "limitations": "Covered-position dependency at 217.202 and the stated exceptions still require fact/legal review; not an institution-specific conclusion."
+    },
+    {
+      "lineage_id": "P-CORPORATE-WEIGHT",
+      "source_id": "US-WEIGHT-TREATMENT",
+      "paragraph_locator": "217.32(f)(1), with mandatory (f)(2)-(3) screen",
+      "effective_from": "2020-09-17",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "interval_status": "DOCUMENTARY_START_AND_AS_OF_CORROBORATION",
+      "documentary_coverage_through": "2025-01-01",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
+      "executable": false,
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "amendment_events": [
+        {
+          "source_id": "FR-2013-21653",
+          "federal_register_amendment_reference": "78 FR 62181; common .32(f), captured lines 20185-20186; Board instruction 44",
+          "publication_date": "2013-10-11",
+          "stated_effective_date": "2014-01-01",
+          "mandatory_compliance": [
+            {
+              "date": "2014-01-01",
+              "scope": "Advanced approaches organizations other than SLHCs; 217.1(f)(1) imposes 2014 standardized-RWA substitution."
+            },
+            {
+              "date": "2015-01-01",
+              "scope": "Other covered organizations; 217.1(f)(1)(i) starts standardized calculations for advanced approaches in 2015; (f)(2)/(f)(4) govern other institutions."
+            }
+          ],
+          "evidence_locator": "78 FR 62181; common .32(f), captured lines 20185-20186; Board instruction 44",
+          "finding": "Original 100% corporate wording.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        },
+        {
+          "source_id": "FR-2019-27249",
+          "federal_register_amendment_reference": "85 FR 4417; instruction 17, 217.32(f)",
+          "publication_date": "2020-01-24",
+          "stated_effective_date": "2020-04-01",
+          "mandatory_compliance": {
+            "date": "2022-01-01",
+            "scope": "SA-CCR methodology mandatory for advanced approaches organizations, not a postponement of all amendments or of ordinary corporate treatment."
+          },
+          "evidence_locator": "85 FR 4417; instruction 17, 217.32(f)",
+          "finding": "Rewrites (f), retains 100%, adds QCCP cash-collateral exceptions; original (f)(1) names only (f)(2).",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        },
+        {
+          "source_id": "FR-2020-06755",
+          "federal_register_amendment_reference": "85 FR 17721-17722; notification and final explanatory paragraph",
+          "publication_date": "2020-03-31",
+          "stated_effective_date": "2020-03-31",
+          "mandatory_compliance": null,
+          "evidence_locator": "85 FR 17721-17722; notification and final explanatory paragraph",
+          "finding": "Notification allows optional best-efforts early adoption but expressly retains 2020-04-01 rule effectiveness / 2022-01-01 mandatory compliance.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        },
+        {
+          "source_id": "FR-2020-17744",
+          "federal_register_amendment_reference": "85 FR 57961; instruction 9, 217.32(f)(1)",
+          "publication_date": "2020-09-17",
+          "stated_effective_date": "2020-09-17",
+          "mandatory_compliance": null,
+          "evidence_locator": "85 FR 57961; instruction 9, 217.32(f)(1)",
+          "finding": "Corrects exception reference to both (f)(2) and (f)(3); 100% unchanged.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        }
+      ],
+      "limitations": "Current (f)(1) wording starts September 17, not January 24 publication or 2022 mandatory SA-CCR compliance. QCCP and past-due/CRM screens cannot be skipped."
+    },
+    {
+      "lineage_id": "P-RWA",
+      "source_id": "US-RWA-SOURCE",
+      "paragraph_locator": "217.31(a)(2), read with (a)(1) scope exclusions",
+      "effective_from": "2014-01-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "interval_status": "DOCUMENTARY_START_AND_AS_OF_CORROBORATION",
+      "documentary_coverage_through": "2025-01-01",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
+      "executable": false,
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "amendment_events": [
+        {
+          "source_id": "FR-2013-21653",
+          "federal_register_amendment_reference": "78 FR 62179; common .31(a)(1)-(2), captured lines 19953-19976; Board instruction 44",
+          "publication_date": "2013-10-11",
+          "stated_effective_date": "2014-01-01",
+          "mandatory_compliance": [
+            {
+              "date": "2014-01-01",
+              "scope": "Advanced approaches organizations other than SLHCs; 217.1(f)(1) imposes 2014 standardized-RWA substitution."
+            },
+            {
+              "date": "2015-01-01",
+              "scope": "Other covered organizations; 217.1(f)(1)(i) starts standardized calculations for advanced approaches in 2015; (f)(2)/(f)(4) govern other institutions."
+            }
+          ],
+          "evidence_locator": "78 FR 62179; common .31(a)(1)-(2), captured lines 19953-19976; Board instruction 44",
+          "finding": "Exposure amount multiplied by applicable risk weight; no subsequent targeted amendment found in captured LSA chain.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        }
+      ],
+      "limitations": "Original effective date, not a waiver of 217.1 standardized timing. Does not authorize institution-wide capital calculations."
+    },
+    {
+      "lineage_id": "P-TEACHING-SOURCE",
+      "source_id": "US-TEACHING-SOURCE",
+      "paragraph_locator": "217.10(a)(1)(iii), read with (a)(2) and (b)(3)",
+      "effective_from": "2020-01-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "interval_status": "DOCUMENTARY_START_AND_AS_OF_CORROBORATION",
+      "documentary_coverage_through": "2025-01-01",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
+      "executable": false,
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "amendment_events": [
+        {
+          "source_id": "FR-2013-21653",
+          "federal_register_amendment_reference": "78 FR 62170; common .10(a)(3), captured lines 18725-18743; Board instruction 44",
+          "publication_date": "2013-10-11",
+          "stated_effective_date": "2014-01-01",
+          "mandatory_compliance": [
+            {
+              "date": "2014-01-01",
+              "scope": "Advanced approaches organizations other than SLHCs; 217.1(f)(1) imposes 2014 standardized-RWA substitution."
+            },
+            {
+              "date": "2015-01-01",
+              "scope": "Other covered organizations; 217.1(f)(1)(i) starts standardized calculations for advanced approaches in 2015; (f)(2)/(f)(4) govern other institutions."
+            }
+          ],
+          "evidence_locator": "78 FR 62170; common .10(a)(3), captured lines 18725-18743; Board instruction 44",
+          "finding": "8% total capital minimum originally at (a)(3); common (b)(3) defines bank-level ratio.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        },
+        {
+          "source_id": "FR-2019-23472",
+          "federal_register_amendment_reference": "84 FR 61797; instruction 39, 217.10(a)",
+          "publication_date": "2019-11-13",
+          "stated_effective_date": "2020-01-01",
+          "mandatory_compliance": null,
+          "evidence_locator": "84 FR 61797; instruction 39, 217.10(a)",
+          "finding": "Rewrites (a), retains 8% under (a)(1)(iii) and adds CBLR exception (a)(2). 2019-27717 and C1-2019-23472 corrections do not change these paragraphs.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        }
+      ],
+      "limitations": "Source for educational transformation only. It is not a legal requirement to allocate 8% of each loan RWA, nor total bank requirement including buffers/supervision."
+    },
+    {
+      "lineage_id": "P-PAST-DUE",
+      "source_id": "US-WEIGHT-TREATMENT",
+      "paragraph_locator": "217.32(k), particularly introductory 90-days-or-nonaccrual condition",
+      "effective_from": "2019-10-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "interval_status": "DOCUMENTARY_START_AND_AS_OF_CORROBORATION",
+      "documentary_coverage_through": "2025-01-01",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
+      "executable": false,
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "amendment_events": [
+        {
+          "source_id": "FR-2013-21653",
+          "federal_register_amendment_reference": "78 FR 62182 / 62287; common .32(k) and Board-specific amendatory text",
+          "publication_date": "2013-10-11",
+          "stated_effective_date": "2014-01-01",
+          "mandatory_compliance": [
+            {
+              "date": "2014-01-01",
+              "scope": "Advanced approaches organizations other than SLHCs; 217.1(f)(1) imposes 2014 standardized-RWA substitution."
+            },
+            {
+              "date": "2015-01-01",
+              "scope": "Other covered organizations; 217.1(f)(1)(i) starts standardized calculations for advanced approaches in 2015; (f)(2)/(f)(4) govern other institutions."
+            }
+          ],
+          "evidence_locator": "78 FR 62182 / 62287; common .32(k) and Board-specific amendatory text",
+          "finding": "Original past-due provision and Board policy-loan exception.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        },
+        {
+          "source_id": "FR-2019-15131",
+          "federal_register_amendment_reference": "84 FR 35264-35265; instruction 32, 217.32(k)",
+          "publication_date": "2019-07-22",
+          "stated_effective_date": "2019-10-01",
+          "mandatory_compliance": null,
+          "evidence_locator": "84 FR 35264-35265; instruction 32, 217.32(k)",
+          "finding": "Revises past-due provision; retains 90 days or more / nonaccrual trigger and conditional CRM references.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        }
+      ],
+      "limitations": "Existing zero days and nonaccrual=false are unapproved facts. A positive trigger remains out of first-slice scope; no past-due calculation authorized."
+    },
+    {
+      "lineage_id": "P-CBLR-ELECTION",
+      "source_id": "US-DEPENDENCY-217.12",
+      "paragraph_locator": "217.12(a)(1), (a)(3), and (c) grace-period conditions",
+      "effective_from": "2020-01-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "interval_status": "DOCUMENTARY_START_AND_AS_OF_CORROBORATION",
+      "documentary_coverage_through": "2025-01-01",
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
+      "executable": false,
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "amendment_events": [
+        {
+          "source_id": "FR-2019-23472",
+          "federal_register_amendment_reference": "84 FR 61797-61798; instruction 40, 217.12",
+          "publication_date": "2019-11-13",
+          "stated_effective_date": "2020-01-01",
+          "mandatory_compliance": null,
+          "evidence_locator": "84 FR 61797-61798; instruction 40, 217.12",
+          "finding": "Adds CBLR opt-in/opt-out and continuing grace-period treatment.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        },
+        {
+          "source_id": "FR-2020-26138",
+          "federal_register_amendment_reference": "85 FR 77361; Board 217.12(a)(4)",
+          "publication_date": "2020-12-02",
+          "stated_effective_date": "2020-12-02",
+          "mandatory_compliance": null,
+          "evidence_locator": "85 FR 77361; Board 217.12(a)(4)",
+          "finding": "Temporary asset-threshold relief expressly runs through 2021-12-31, not an election or 2025 relief.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        },
+        {
+          "source_id": "FR-2020-19922",
+          "federal_register_amendment_reference": "85 FR 64003-64006; 217.304 transition schedule",
+          "publication_date": "2020-10-09",
+          "stated_effective_date": "2020-11-09",
+          "mandatory_compliance": null,
+          "evidence_locator": "85 FR 64003-64006; 217.304 transition schedule",
+          "finding": "Confirms 2020/2021 temporary ratios and return to >9% after 2021; not the educational 8% total-capital source.",
+          "review_status": "PENDING_REVIEW",
+          "executable": false
+        }
+      ],
+      "limitations": "Current a(1)/a(3) election text unchanged by temporary relief. Check no existing election/grace status; no need to compute CBLR eligibility when a reviewed never-elected fact establishes non-election."
+    }
+  ],
+  "dependency_inventory": [
+    {
+      "dependency_id": "DEP-CBLR",
+      "classification": "REQUIRED",
+      "locators": ["217.10(a)(2)", "217.12(a)(1), (a)(3), (c)"],
+      "source_ids": [
+        "US-DEPENDENCY-217.12",
+        "FR-2019-23472",
+        "FR-2020-26138",
+        "FR-2020-19922"
+      ],
+      "scope": "Prove no operative opt-in or continuing grace-period status. Existing cblr_elected=false is unapproved; never infer non-election from size. No eligibility/ratio calculation.",
+      "lineage_id": "P-CBLR-ELECTION",
+      "classification_is_candidate": true,
+      "review_status": "PENDING_REVIEW",
+      "executable": false
+    },
+    {
+      "dependency_id": "DEP-COVERED-POSITION",
+      "classification": "REQUIRED",
+      "locators": ["217.30(b)", "217.202(b) Covered position"],
+      "source_ids": [
+        "US-DEPENDENCY-217.202",
+        "FR-2013-21653",
+        "FR-2015-28294",
+        "FR-2019-15131",
+        "FR-2019-27249"
+      ],
+      "scope": "Exact covered-position definition needed for negative scope screen. Current text captured and annual-corroborated; full dependency/footnote/reporting-history closure remains unresolved.",
+      "lineage_id": null,
+      "classification_is_candidate": true,
+      "review_status": "PENDING_REVIEW",
+      "executable": false
+    },
+    {
+      "dependency_id": "DEP-UNSETTLED",
+      "classification": "REQUIRED",
+      "locators": [
+        "217.2 Corporate exposure (11)",
+        "217.31(a)(1)(i)",
+        "217.38(a)-(b)"
+      ],
+      "source_ids": ["US-DEPENDENCY-217.38", "FR-2013-21653"],
+      "scope": "Scope of unsettled transactions must be screened; not just a generic 'settled loan' label. No settlement-delay charge calculation.",
+      "lineage_id": null,
+      "classification_is_candidate": true,
+      "review_status": "PENDING_REVIEW",
+      "executable": false
+    },
+    {
+      "dependency_id": "DEP-AOCI",
+      "classification": "SUPPORTING",
+      "locators": ["217.2 Exposure amount (1)-(3)", "217.22(b)(2)"],
+      "source_ids": ["US-DEPENDENCY-217.22"],
+      "scope": "AOCI election matters for specified securities, not automatically for an ordinary loan. Retain dated context; reviewer must confirm instrument is not AFS/HTM/preferred security. No deduction engine or full 217.22 lineage claim.",
+      "lineage_id": null,
+      "classification_is_candidate": true,
+      "review_status": "PENDING_REVIEW",
+      "executable": false
+    },
+    {
+      "dependency_id": "DEP-EXTERNAL-IDENTITY",
+      "classification": "UNRESOLVED",
+      "locators": [
+        "217.2 Depository institution -> FDIA section 3 / 12 USC 1813",
+        "217.2 Foreign bank -> 12 CFR 211.2",
+        "217.2 Corporate exposure (1) credit union"
+      ],
+      "source_ids": ["US-DEFINITIONS"],
+      "scope": "Determine minimum authoritative identity evidence for the negative non-financial-company screen. Exact 2025 statutory/Regulation K versions and applicable credit-union definition are not captured/reconciled. No automatic dismissal using borrower name.",
+      "lineage_id": null,
+      "classification_is_candidate": true,
+      "review_status": "PENDING_REVIEW",
+      "executable": false
+    },
+    {
+      "dependency_id": "DEP-PPP",
+      "classification": "UNRESOLVED",
+      "locators": ["217.2 Corporate exposure (14) -> 15 USC 636(a)(36)"],
+      "source_ids": ["US-DEFINITIONS", "FR-2020-07712", "FR-2020-21894"],
+      "scope": "Incorporating paragraph's 2025 text is established; incorporated statutory definition/version is not. Reviewer must approve a non-PPP documentary exclusion or require dated statute/CARES amendment evidence before closure.",
+      "lineage_id": null,
+      "classification_is_candidate": true,
+      "review_status": "PENDING_REVIEW",
+      "executable": false
+    },
+    {
+      "dependency_id": "DEP-REPORTING-ACCOUNTING",
+      "classification": "UNRESOLVED",
+      "locators": [
+        "217.202 Covered position (1), notes 32-33",
+        "217.12(a)(3) Call Report / FR Y-9C",
+        "217.2 GAAP and carrying value"
+      ],
+      "source_ids": [
+        "US-DEPENDENCY-217.202",
+        "US-DEPENDENCY-217.12",
+        "US-DEFINITIONS"
+      ],
+      "scope": "Determine whether explicit reviewed synthetic facts suffice or dated Call Report/FR Y-9C definitions and accounting guidance are required. Do not infer trading-book status or PCD/AFS treatment from the display label. Missing dependencies remain a source-evidence gate.",
+      "lineage_id": null,
+      "classification_is_candidate": true,
+      "review_status": "PENDING_REVIEW",
+      "executable": false
+    },
+    {
+      "dependency_id": "DEP-QCCP",
+      "classification": "NOT_REQUIRED_FOR_GOLDEN_CASE",
+      "locators": [
+        "217.32(f)(2)-(3) -> 217.35(b)(3)(i)(A)-(B), (c)(3)(i)",
+        "217.2 Cleared transaction -> 217.3(a)"
+      ],
+      "source_ids": [
+        "US-WEIGHT-TREATMENT",
+        "US-DEFINITIONS",
+        "GOVINFO-2025-PART217"
+      ],
+      "scope": "Conditional on reviewed absence of a CCP/clearing-member/cash-collateral transaction. Definitions and exception triggers are required; detailed QCCP qualification and collateral rate conditions are not evaluated when the outer trigger is demonstrably false. If facts are missing or positive, reject/defer, do not default corporate.",
+      "lineage_id": null,
+      "classification_is_candidate": true,
+      "review_status": "PENDING_REVIEW",
+      "executable": false
+    },
+    {
+      "dependency_id": "DEP-CRM-DERIVATIVES",
+      "classification": "NOT_REQUIRED_FOR_GOLDEN_CASE",
+      "locators": ["217.34-.37", "217.33", "217.2 Exposure amount (4)-(8)"],
+      "source_ids": ["US-DEFINITIONS", "GOVINFO-2025-PART217"],
+      "scope": "Conditional on reviewed fully drawn, non-derivative, non-repo, non-margin, unguaranteed, uncollateralized/no-netting facts. No CCF/CRM formulas or SA-CCR methodology. 2022 SA-CCR compliance date does not delay the 2020 text amendments.",
+      "lineage_id": null,
+      "classification_is_candidate": true,
+      "review_status": "PENDING_REVIEW",
+      "executable": false
+    },
+    {
+      "dependency_id": "DEP-OTHER-CLASSES",
+      "classification": "NOT_REQUIRED_FOR_GOLDEN_CASE",
+      "locators": [
+        "217.41-.45",
+        "217.51-.53",
+        "217.2 Pre-sold construction loan / Statutory multifamily mortgage / HVCRE"
+      ],
+      "source_ids": [
+        "US-DEFINITIONS",
+        "GOVINFO-2025-PART217",
+        "FR-2015-15748",
+        "FR-2019-26544"
+      ],
+      "scope": "Conditional on reviewed non-securitization/non-equity/non-real-estate facts. Category definitions and negative-screen reasons remain required; downstream risk formulas and conditional real-estate statutory safe harbors are not required when outer category predicates are demonstrably false.",
+      "lineage_id": null,
+      "classification_is_candidate": true,
+      "review_status": "PENDING_REVIEW",
+      "executable": false
+    },
+    {
+      "dependency_id": "DEP-PAST-DUE",
+      "classification": "REQUIRED",
+      "locators": ["217.32(k)"],
+      "source_ids": ["US-WEIGHT-TREATMENT", "FR-2019-15131"],
+      "scope": "Inside existing six sections, not a newly added outside source. Zero days past due/nonaccrual=false must be reviewed explicitly; performing/defaulted labels alone do not replace this trigger.",
+      "lineage_id": "P-PAST-DUE",
+      "classification_is_candidate": true,
+      "review_status": "PENDING_REVIEW",
+      "executable": false
+    },
+    {
+      "dependency_id": "DEP-INSTITUTION",
+      "classification": "SUPPORTING",
+      "locators": [
+        "217.2 Board-regulated institution / State bank / State member bank or member bank",
+        "217.1(c)(1)(i)(A), (c)(2), (f)"
+      ],
+      "source_ids": [
+        "US-DEFINITIONS",
+        "US-SCOPE-INSTITUTION",
+        "FR-2013-21653",
+        "FR-2023-23911"
+      ],
+      "scope": "State-member-bank meaning is supplied in 217.2. No additional BHC/SLHC threshold engine is needed for an explicitly reviewed synthetic state member bank. Real charter evidence, if ever used, is a separate provenance task.",
+      "lineage_id": "P-INSTITUTION",
+      "classification_is_candidate": true,
+      "review_status": "PENDING_REVIEW",
+      "executable": false
+    }
+  ],
+  "definition_review": {
+    "scope": "Only names required to measure or screen the first ordinary corporate case. Named exclusions are not themselves approved fact findings. No review of unrelated trading/IRB definitions.",
+    "core": [
+      {
+        "names": [
+          "Board-regulated institution",
+          "State bank",
+          "State member bank or member bank",
+          "Company",
+          "GAAP",
+          "Exposure amount (1)"
+        ],
+        "source_ids": ["US-DEFINITIONS", "FR-2013-21653"],
+        "lineage": "2013 common text plus Board instructions 44/46; no targeted revision identified in 2013-2024 LSA/FR screen. General legal commencement 2014-01-01; statutory/institution/standardized timing remains separate.",
+        "effective_from": "2014-01-01",
+        "effective_to": null,
+        "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+        "documentary_coverage_through": "2025-01-01",
+        "review_status": "PENDING_REVIEW",
+        "executable": false
+      },
+      {
+        "names": ["Carrying value"],
+        "source_ids": ["US-DEFINITIONS", "FR-2018-28281", "FR-2019-06011"],
+        "lineage_id": "P-CARRYING",
+        "effective_from": "2019-07-01",
+        "effective_to": null,
+        "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+        "documentary_coverage_through": "2025-01-01",
+        "review_status": "PENDING_REVIEW",
+        "executable": false
+      },
+      {
+        "names": ["Corporate exposure introductory text and (1)-(11)"],
+        "source_ids": ["US-DEFINITIONS", "FR-2013-21653", "FR-2019-15131"],
+        "lineage_id": "P-CORPORATE",
+        "effective_from": "2019-10-01",
+        "effective_to": null,
+        "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+        "documentary_coverage_through": "2025-01-01",
+        "review_status": "PENDING_REVIEW",
+        "executable": false
+      },
+      {
+        "names": ["Corporate exposure (12)-(14)"],
+        "source_ids": ["US-DEFINITIONS", "FR-2020-07712", "FR-2020-21894"],
+        "lineage_id": "P-CORPORATE",
+        "effective_from": "2020-04-13",
+        "effective_to": null,
+        "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+        "documentary_coverage_through": "2025-01-01",
+        "review_status": "PENDING_REVIEW",
+        "executable": false
+      }
+    ],
+    "conditional_screen_groups": [
+      {
+        "names": [
+          "Sovereign",
+          "Government-sponsored enterprise (GSE)",
+          "Multilateral development bank (MDB)",
+          "Public sector entity (PSE)",
+          "Default fund contribution",
+          "Equity exposure",
+          "Policy loan",
+          "Separate account",
+          "Statutory multifamily mortgage",
+          "Securitization exposure"
+        ],
+        "source_ids": ["US-DEFINITIONS", "FR-2013-21653"],
+        "status": "DATED_TEXT_CAPTURED_BASELINE_IDENTIFIED_DEPENDENCY_REVIEW_PENDING",
+        "notes": "2013 common text and Board insurance additions are starting lineage. Do not claim transitive definition/statutory closure, including traditional/synthetic securitization and financial-institution identity.",
+        "review_status": "PENDING_REVIEW",
+        "executable": false
+      },
+      {
+        "names": ["Residential mortgage exposure"],
+        "source_ids": ["US-DEFINITIONS", "FR-2015-15748"],
+        "status": "DATED_TEXT_AND_AMENDMENT_IDENTIFIED",
+        "notes": "Board instruction 14 effective 2015-10-01; current definition's standardized/advanced distinction must not be inferred from document title.",
+        "review_status": "PENDING_REVIEW",
+        "executable": false
+      },
+      {
+        "names": ["High volatility commercial real estate (HVCRE) exposure"],
+        "source_ids": ["US-DEFINITIONS", "FR-2013-21653", "FR-2019-26544"],
+        "status": "DATED_TEXT_AND_AMENDMENT_IDENTIFIED",
+        "notes": "Current definition effective 2020-04-01; paragraph (7) preserves certain pre-April-2020 classification treatment and (3) excludes pre-2015 loans. No real-estate applicability decided.",
+        "review_status": "PENDING_REVIEW",
+        "executable": false
+      },
+      {
+        "names": ["Pre-sold construction loan"],
+        "source_ids": ["US-DEFINITIONS", "FR-2013-21653"],
+        "status": "DATED_TEXT_CAPTURED_BASELINE_IDENTIFIED_DEPENDENCY_REVIEW_PENDING",
+        "notes": "Board instruction 46 alters paragraph (4); statutory and prudential conditions only needed if real-estate outer predicate cannot be rejected from approved facts.",
+        "review_status": "PENDING_REVIEW",
+        "executable": false
+      },
+      {
+        "names": [
+          "Cleared transaction",
+          "Eligible margin loan",
+          "Repo-style transaction",
+          "Qualifying master netting agreement",
+          "Collateral agreement",
+          "Qualifying central counterparty (QCCP)"
+        ],
+        "source_ids": [
+          "US-DEFINITIONS",
+          "FR-2013-21653",
+          "FR-2014-30218",
+          "FR-2017-19053",
+          "FR-2019-27249"
+        ],
+        "status": "DATED_TEXT_AND_RELEVANT_AMENDMENTS_CAPTURED_CLOSURE_PENDING",
+        "notes": "2014 interim / 2017 final QFC amendments affect conditional exclusions. Detailed contractual enforceability, QCCP and 217.3 conditions are not adjudicated.",
+        "review_status": "PENDING_REVIEW",
+        "executable": false
+      },
+      {
+        "names": [
+          "Depository institution",
+          "Foreign bank",
+          "Credit union",
+          "PPP covered loan"
+        ],
+        "source_ids": ["US-DEFINITIONS"],
+        "status": "INCORPORATED_SOURCE_CHAIN_UNRESOLVED",
+        "notes": "See DEP-EXTERNAL-IDENTITY and DEP-PPP; no blanket 2013 date assigned to external definitions.",
+        "review_status": "PENDING_REVIEW",
+        "executable": false
+      }
+    ]
+  },
+  "amendment_chain_screen": {
+    "status": "CORE_PARAGRAPH_CHAIN_RECONCILED_DEPENDENCY_CLOSURE_PENDING",
+    "as_of": "2025-01-01",
+    "lsa_source_ids": [
+      "LSA-2013-12-TITLE12",
+      "LSA-2014-12-TITLE12",
+      "LSA-2015-12-TITLE12",
+      "LSA-2016-12-TITLE12",
+      "LSA-2017-12-TITLE12",
+      "LSA-2018-12-TITLE12",
+      "LSA-2019-12-TITLE12",
+      "LSA-2020-12-TITLE12",
+      "LSA-2021-12-TITLE12",
+      "LSA-2022-12-TITLE12",
+      "LSA-2023-12-TITLE12",
+      "LSA-2024-12-TITLE12"
+    ],
+    "index_source_ids": [
+      "FR-PART217-FINAL-RULE-INDEX",
+      "FR-PART217-CORRECTION-INDEX"
+    ],
+    "method": "Screen Chapter II final/amended entries separately from Proposed Rules for each December cumulative Title 12 issue; follow relevant final/correction/delay instructions for core paragraphs and compare dated eCFR with annual CFR. Discovery index is cross-check, not completeness authority.",
+    "excluded_regime_documents": ["97-12706", "2011-17886"],
+    "key_findings": [
+      "No post-adoption amendment entry targeting 217.30 or 217.31 found through 2024.",
+      "217.2's printed base citation alone omitted definition changes. Relevant current corporate text combines 2019 revision and 2020 PPP addition; carrying value follows the 2019 delay.",
+      "2013-29883, 2019-27717 and C1-2019-23472 do not alter core paragraphs despite matching the part-level search.",
+      "2015 LSA renders some 49103 entries under 217.10 that actual 2015-18702 instructions 9-10 assign to 217.11. Direct final-rule targets and later dated text prevent treating this index layout as an amendment to 217.10(a).",
+      "December 2022 and 2024 lists show no target entries; 2023 insurance rule effective 2024-01-01 is retained. No inference of validity after requested as-of.",
+      "A zero-hit CORRECT search does not mean no corrections: the RULE index contains correction notices."
+    ],
+    "coverage_limit": "Reconciled core paragraph text only. Transitive exclusion/statutory/reporting definitions and all possible supervisory/legal applicability are not fully reconciled. No assertion of complete Part 217 review.",
+    "review_status": "PENDING_REVIEW",
+    "executable": false
+  },
+  "dependency_text_corroboration": {
+    "verification_date": "2026-09-08",
+    "source_ids": [
+      "GOVINFO-2025-PART217",
+      "US-DEPENDENCY-217.12",
+      "US-DEPENDENCY-217.202",
+      "US-DEPENDENCY-217.22",
+      "US-DEPENDENCY-217.38"
+    ],
+    "method": "Direct P children in dated eCFR DIV8 versus corresponding GovInfo annual SECTION, document order, InnerText with whitespace removed only; raw captures/hashes unchanged.",
+    "results": [
+      {
+        "section": "217.12",
+        "ecfr_paragraph_count": 32,
+        "govinfo_paragraph_count": 32,
+        "non_whitespace_mismatches": 0
+      },
+      {
+        "section": "217.202",
+        "ecfr_paragraph_count": 69,
+        "govinfo_paragraph_count": 69,
+        "non_whitespace_mismatches": 0
+      },
+      {
+        "section": "217.22",
+        "ecfr_paragraph_count": 102,
+        "govinfo_paragraph_count": 102,
+        "non_whitespace_mismatches": 0
+      },
+      {
+        "section": "217.38",
+        "ecfr_paragraph_count": 16,
+        "govinfo_paragraph_count": 16,
+        "non_whitespace_mismatches": 0
+      }
+    ],
+    "limitations": "Diagnostic text corroboration only; excludes headings/tables/footnotes/editorial notes and does not close transitive legal dependencies."
+  },
   "hash_policy": {
     "id": "source-raw-bytes-sha256.v1-draft",
     "algorithm": "SHA-256",
@@ -26,6 +979,9 @@
     {
       "source_id": "US-SCOPE-INSTITUTION",
       "source_kind": "DATED_ECFR_SECTION",
+      "paragraph_lineage_ids": ["P-INSTITUTION"],
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "paragraph_chain_status": "CORE_TEXT_RECONCILED_DEPENDENCIES_PENDING",
       "jurisdiction": "US",
       "authority": "Board of Governors of the Federal Reserve System",
       "regulation": "12 CFR Part 217",
@@ -80,6 +1036,13 @@
     {
       "source_id": "US-DEFINITIONS",
       "source_kind": "DATED_ECFR_SECTION",
+      "paragraph_lineage_ids": [
+        "P-CORPORATE",
+        "P-CARRYING",
+        "P-EXPOSURE-AMOUNT"
+      ],
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "paragraph_chain_status": "CORE_TEXT_RECONCILED_DEPENDENCIES_PENDING",
       "jurisdiction": "US",
       "authority": "Board of Governors of the Federal Reserve System",
       "regulation": "12 CFR Part 217",
@@ -136,6 +1099,9 @@
     {
       "source_id": "US-TEACHING-SOURCE",
       "source_kind": "DATED_ECFR_SECTION",
+      "paragraph_lineage_ids": ["P-TEACHING-SOURCE"],
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "paragraph_chain_status": "CORE_TEXT_RECONCILED_DEPENDENCIES_PENDING",
       "jurisdiction": "US",
       "authority": "Board of Governors of the Federal Reserve System",
       "regulation": "12 CFR Part 217",
@@ -188,6 +1154,9 @@
     {
       "source_id": "US-SCOPE-STANDARDIZED",
       "source_kind": "DATED_ECFR_SECTION",
+      "paragraph_lineage_ids": ["P-STANDARDIZED-SCOPE"],
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "paragraph_chain_status": "CORE_TEXT_RECONCILED_DEPENDENCIES_PENDING",
       "jurisdiction": "US",
       "authority": "Board of Governors of the Federal Reserve System",
       "regulation": "12 CFR Part 217",
@@ -238,6 +1207,9 @@
     {
       "source_id": "US-RWA-SOURCE",
       "source_kind": "DATED_ECFR_SECTION",
+      "paragraph_lineage_ids": ["P-RWA"],
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "paragraph_chain_status": "CORE_TEXT_RECONCILED_DEPENDENCIES_PENDING",
       "jurisdiction": "US",
       "authority": "Board of Governors of the Federal Reserve System",
       "regulation": "12 CFR Part 217",
@@ -288,6 +1260,9 @@
     {
       "source_id": "US-WEIGHT-TREATMENT",
       "source_kind": "DATED_ECFR_SECTION",
+      "paragraph_lineage_ids": ["P-CORPORATE-WEIGHT", "P-PAST-DUE"],
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "paragraph_chain_status": "CORE_TEXT_RECONCILED_DEPENDENCIES_PENDING",
       "jurisdiction": "US",
       "authority": "Board of Governors of the Federal Reserve System",
       "regulation": "12 CFR Part 217",
@@ -391,6 +1366,930 @@
       "review_status": "PENDING_REVIEW",
       "publication_date": "2023-11-27",
       "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2023-11-27/html/2023-23911.htm"
+    },
+    {
+      "source_id": "US-DEPENDENCY-217.12",
+      "source_kind": "DATED_ECFR_SECTION",
+      "source_version_metadata": {
+        "api_requested_date": "2025-01-01",
+        "metadata_source_id": "ECFR-VERSION-HISTORY",
+        "latest_editorial_record_before_as_of": {
+          "date": "2020-12-02",
+          "amendment_date": "2020-12-02",
+          "issue_date": "2020-12-02",
+          "identifier": "217.12",
+          "name": "§ 217.12   Community bank leverage ratio framework.",
+          "part": "217",
+          "substantive": true,
+          "removed": false,
+          "subpart": "B",
+          "title": "12",
+          "type": "section"
+        },
+        "note": "Editorial date/amendment_date/issue_date are not legal commencement. Preserve source notes; paragraph and cross-reference review remains required."
+      },
+      "federal_register_references_as_printed": [
+        "[Reg. Q, 84 FR 61797, Nov. 13, 2019, as amended at 85 FR 77361, Dec. 2, 2020]"
+      ],
+      "federal_register_chain_status": "RELEVANT_SCOPE_PARAGRAPHS_DOCUMENTED_PENDING_REVIEW",
+      "federal_register_chain_note": "Use P-CBLR-ELECTION and bounded-expiry example; no blanket section date.",
+      "local_path": "evidence/source-chain-2025/217.12.xml",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "b77af40617e9d05cdaf796a00c7a591ca8a245d8f629af2b441bf43058c059bb",
+      "byte_length": 9418,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "jurisdiction": "US",
+      "regulator": "FRB",
+      "authority": "Board of Governors of the Federal Reserve System",
+      "regulation": "12 CFR Part 217",
+      "section": "217.12",
+      "point_in_time_date": "2025-01-01",
+      "canonical_source": "https://www.ecfr.gov/on/2025-01-01/title-12/section-217.12",
+      "retrieval_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-01/title-12.xml?part=217&section=217.12",
+      "source_locator": {
+        "xml_section": "DIV8[@N='217.12']"
+      },
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "legal_status_review": "PENDING",
+      "effective_from": null,
+      "effective_to": null,
+      "effective_interval_status": "PENDING",
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "purpose": "Required CBLR election/grace-period screen, not CBLR calculations."
+    },
+    {
+      "source_id": "US-DEPENDENCY-217.202",
+      "source_kind": "DATED_ECFR_SECTION",
+      "source_version_metadata": {
+        "api_requested_date": "2025-01-01",
+        "metadata_source_id": "ECFR-VERSION-HISTORY",
+        "latest_editorial_record_before_as_of": {
+          "date": "2020-04-01",
+          "amendment_date": "2020-04-01",
+          "issue_date": "2020-04-01",
+          "identifier": "217.202",
+          "name": "§ 217.202   Definitions.",
+          "part": "217",
+          "substantive": true,
+          "removed": false,
+          "subpart": "F",
+          "title": "12",
+          "type": "section"
+        },
+        "note": "Editorial date/amendment_date/issue_date are not legal commencement. Preserve source notes; paragraph and cross-reference review remains required."
+      },
+      "federal_register_references_as_printed": [
+        "[Reg. Q, 78 FR 62157, 62285, Oct. 11, 2013, as amended at 78 FR 62290, Oct. 11, 2013; 79 FR 78295, Dec. 30, 2014; 80 FR 70672, Nov. 16, 2015; 84 FR 35269, July 22, 2019; 85 FR 4419, Jan. 24, 2020]"
+      ],
+      "federal_register_chain_status": "DEPENDENCY_CLOSURE_PENDING",
+      "federal_register_chain_note": "Source-note references and current dated text are preserved; no complete transitive lineage asserted.",
+      "local_path": "evidence/source-chain-2025/217.202.xml",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "ad2a60dbcc2a7c9e16926bedc0eeecf68ad4520f1501a5aea4dbafcf5996ac7e",
+      "byte_length": 12633,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "jurisdiction": "US",
+      "regulator": "FRB",
+      "authority": "Board of Governors of the Federal Reserve System",
+      "regulation": "12 CFR Part 217",
+      "section": "217.202",
+      "point_in_time_date": "2025-01-01",
+      "canonical_source": "https://www.ecfr.gov/on/2025-01-01/title-12/section-217.202",
+      "retrieval_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-01/title-12.xml?part=217&section=217.202",
+      "source_locator": {
+        "xml_section": "DIV8[@N='217.202']"
+      },
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "legal_status_review": "PENDING",
+      "effective_from": null,
+      "effective_to": null,
+      "effective_interval_status": "PENDING",
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "purpose": "Required covered-position definition screen, not market-risk calculations."
+    },
+    {
+      "source_id": "US-DEPENDENCY-217.22",
+      "source_kind": "DATED_ECFR_SECTION",
+      "source_version_metadata": {
+        "api_requested_date": "2025-01-01",
+        "metadata_source_id": "ECFR-VERSION-HISTORY",
+        "latest_editorial_record_before_as_of": {
+          "date": "2021-04-01",
+          "amendment_date": "2021-04-01",
+          "issue_date": "2023-03-29",
+          "identifier": "217.22",
+          "name": "§ 217.22   Regulatory capital adjustments and deductions.",
+          "part": "217",
+          "substantive": false,
+          "removed": false,
+          "subpart": "C",
+          "title": "12",
+          "type": "section"
+        },
+        "note": "Editorial date/amendment_date/issue_date are not legal commencement. Preserve source notes; paragraph and cross-reference review remains required."
+      },
+      "federal_register_references_as_printed": [
+        "[Reg. Q, 78 FR 62157, 62285, Oct. 11, 2013, as amended at 78 FR 62287, Oct. 11, 2013; 79 FR 78295, Dec. 30, 2014; 80 FR 41419, July 15, 2015; 84 FR 4242, Feb. 14, 2019; 84 FR 35261, July 22, 2019; 84 FR 59271, Nov. 1, 2019; 84 FR 61798, Nov. 13, 2019; 86 FR 735, Jan. 6, 2021]"
+      ],
+      "federal_register_chain_status": "SUPPORTING_ONLY_NOT_FULLY_RECONCILED",
+      "federal_register_chain_note": "Source-note references and current dated text are preserved; no complete transitive lineage asserted.",
+      "local_path": "evidence/source-chain-2025/217.22.xml",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "3dcc9142dea761f13db187d867410e4d60353d37fb1de950cdbd307d853fe177",
+      "byte_length": 45906,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "jurisdiction": "US",
+      "regulator": "FRB",
+      "authority": "Board of Governors of the Federal Reserve System",
+      "regulation": "12 CFR Part 217",
+      "section": "217.22",
+      "point_in_time_date": "2025-01-01",
+      "canonical_source": "https://www.ecfr.gov/on/2025-01-01/title-12/section-217.22",
+      "retrieval_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-01/title-12.xml?part=217&section=217.22",
+      "source_locator": {
+        "xml_section": "DIV8[@N='217.22']"
+      },
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "legal_status_review": "PENDING",
+      "effective_from": null,
+      "effective_to": null,
+      "effective_interval_status": "PENDING",
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "purpose": "Supporting measurement exception/AOCI context only; not an approved dependency or deduction calculator."
+    },
+    {
+      "source_id": "FR-2013-29883",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2013-29883.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "68358ddbf0aeb4e8ecd441594ecc4352ed14adb0a5f571a532155c46c30e8878",
+      "byte_length": 4447,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2013-29883",
+      "publication_date": "2013-12-20",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2013-12-20/html/2013-29883.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2013-12-20/html/2013-29883.htm",
+      "source_locator": "Federal Register document 2013-29883; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: Effective Date: January 1, 2014.",
+      "purpose": "Correction screened: Part 208 authority and 217.20(d)(1)(vi), not the six core paragraphs."
+    },
+    {
+      "source_id": "FR-2014-09367",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2014-09367.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "124bf63a29a7a9de915935a13095d2fa5a6ba5a8856cf44bcd3a8fb38393e4f0",
+      "byte_length": 105356,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2014-09367",
+      "publication_date": "2014-05-01",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2014-05-01/html/2014-09367.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2014-05-01/html/2014-09367.htm",
+      "source_locator": "Federal Register document 2014-09367; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The final rule is effective January 1, 2018.",
+      "purpose": "Enhanced SLR/covered BHC, later withdrawn before commencement by 2015-18702; not state-member-bank/corporate/carrying-value wording."
+    },
+    {
+      "source_id": "FR-2014-17858",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2014-17858.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "b2344a2bbd52a09047c149b900bd67065c619ccadcfc58fa9a06d1131eac2b33",
+      "byte_length": 39965,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2014-17858",
+      "publication_date": "2014-07-30",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2014-07-30/html/2014-17858.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2014-07-30/html/2014-17858.htm",
+      "source_locator": "Federal Register document 2014-17858; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: This rule is effective on October 1, 2014. Any company subject \nto the rule may elect to adopt it before this date.",
+      "purpose": "Eligible-guarantee definition; conditional CRM dependency, not ordinary unguaranteed-loan measurement."
+    },
+    {
+      "source_id": "FR-2014-22083",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2014-22083.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "de8ed9c675873a294ff76ba9144fe8a051fc74be197beadad17c15b4b317fac9",
+      "byte_length": 189037,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2014-22083",
+      "publication_date": "2014-09-26",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2014-09-26/html/2014-22083.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2014-09-26/html/2014-22083.htm",
+      "source_locator": "Federal Register document 2014-22083; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The final rule is effective January 1, 2015.",
+      "purpose": "SLR/total-leverage-exposure amendments, not exposure amount (1) or carrying value."
+    },
+    {
+      "source_id": "FR-2014-30218",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2014-30218.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "2b631436da07176961cf447c3a55f515b894fc7cde04ea3cf716627b3d56c958",
+      "byte_length": 82440,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2014-30218",
+      "publication_date": "2014-12-30",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2014-12-30/html/2014-30218.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2014-12-30/html/2014-30218.htm",
+      "source_locator": "Federal Register document 2014-30218; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: This rule is effective on January 1, 2015. Comments must be \nreceived on or before March 3, 2015.",
+      "purpose": "Interim collateral-agreement, eligible-margin-loan, repo-style and qualifying-netting definition revisions."
+    },
+    {
+      "source_id": "FR-2015-02038",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2015-02038.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "df0294c43dddeb6bc6b4daeed93fce6509f193b5e9ea0d09e05aa59ca56ba1b5",
+      "byte_length": 33491,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2015-02038",
+      "publication_date": "2015-02-03",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2015-02-03/html/2015-02038.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2015-02-03/html/2015-02038.htm",
+      "source_locator": "Federal Register document 2015-02038; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: This interim final rule is effective January 30, 2015. Comments \non the interim final rule must be received on or before March 5, 2015. \nComments on the Paperwork Reduction Act burden estimates must be \nreceived on or before April 6, 2015.",
+      "purpose": "217.1(c)(1)(iii) small SLHC amendment; not state member bank limb."
+    },
+    {
+      "source_id": "FR-2015-08513",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2015-08513.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "03684ae0a40eeee48cfa91d9338d2aa4a4284fbce78f2b33b032050bc6c26df9",
+      "byte_length": 34598,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2015-08513",
+      "publication_date": "2015-04-15",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2015-04-15/html/2015-08513.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2015-04-15/html/2015-08513.htm",
+      "source_locator": "Federal Register document 2015-08513; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The final rule is effective May 15, 2015.",
+      "purpose": "217.1(c)(1)(iii) SLHC revision; not state member bank limb."
+    },
+    {
+      "source_id": "FR-2015-15748",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2015-15748.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "cb51066023f4e63b0cdd62722db561ff1d74010b320e8b4875e872958a19aa09",
+      "byte_length": 129623,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2015-15748",
+      "publication_date": "2015-07-15",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2015-07-15/html/2015-15748.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2015-07-15/html/2015-15748.htm",
+      "source_locator": "Federal Register document 2015-15748; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: This rule is effective on October 1, 2015.",
+      "purpose": "217.2 residential mortgage definition revision; screen dependency. Other changes advanced-approaches/reporting."
+    },
+    {
+      "source_id": "FR-2015-18702",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2015-18702.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "682f55337a0b834dcbb230af36ec0eeec5bf5e44786ea68ea742e2c956939c1d",
+      "byte_length": 271439,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2015-18702",
+      "publication_date": "2015-08-14",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2015-08-14/html/2015-18702.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2015-08-14/html/2015-18702.htm",
+      "source_locator": "Federal Register document 2015-18702; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The final rule is effective December 1, 2015, except that \namendatory instructions 2, 3, 6, 8, and 10 amending 12 CFR 208.41, \n208.43, 217.1, 217.2, and 217.11 are effective January 1, 2018.",
+      "purpose": "GSIB definitions and timing; withdrawal of prospective covered-BHC definition. Printed LSA 2015 labels some 217.11 changes as 217.10; use actual instructions 9-10."
+    },
+    {
+      "source_id": "FR-2015-28294",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2015-28294.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "bd07fc237561f42d9a318c97df32b90269a17a3a6b121a44affe6743ff1965ec",
+      "byte_length": 15932,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2015-28294",
+      "publication_date": "2015-11-16",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2015-11-16/html/2015-28294.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2015-11-16/html/2015-28294.htm",
+      "source_locator": "Federal Register document 2015-28294; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The corrections are effective November 16, 2015, except that \ninstructions 10.b and 10.f amending 12 CFR 208.43 are effective January \n1, 2018.",
+      "purpose": "Covered SLHC definition and 217.202 technical corrections; no corporate/carrying/exposure amount revision."
+    },
+    {
+      "source_id": "FR-2017-19053",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2017-19053.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "45e39d86b5e0a8ef7f9c73f154e5d348de5104753d0bcfaed071f9ffb56e9bce",
+      "byte_length": 386281,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2017-19053",
+      "publication_date": "2017-09-12",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2017-09-12/html/2017-19053.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2017-09-12/html/2017-19053.htm",
+      "source_locator": "Federal Register document 2017-19053; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The final rule is effective on November 13, 2017.",
+      "purpose": "Final QFC-related collateral, eligible-margin-loan, netting and repo-style definitions; screen dependencies only."
+    },
+    {
+      "source_id": "FR-2018-18756",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2018-18756.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "1abeec73af6b58990e89829267e7f8e6a76554ec6e9305b047009f834ca71128",
+      "byte_length": 29505,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2018-18756",
+      "publication_date": "2018-08-30",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2018-08-30/html/2018-18756.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2018-08-30/html/2018-18756.htm",
+      "source_locator": "Federal Register document 2018-18756; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The interim final rule is effective August 30, 2018. Comments on \nthe interim final rule must be received no later than October 29, 2018.",
+      "purpose": "217.1(c)(1)(iii) small SLHC threshold; state-member-bank limb unchanged."
+    },
+    {
+      "source_id": "FR-2018-28281",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2018-28281.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "bacbb9998311a28e8ce18323e11ec4bbc9ce9d68e0c96f03be84af2749a978c2",
+      "byte_length": 214575,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2018-28281",
+      "publication_date": "2019-02-14",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2019-02-14/html/2018-28281.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2019-02-14/html/2018-28281.htm",
+      "source_locator": "Federal Register document 2018-28281; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The final rule is effective on April 1, 2019. Banking \norganizations may early adopt this final rule prior to that date.",
+      "purpose": "217.2 carrying-value revision; DATES later delayed by 2019-06011. Keep CECL transition separate."
+    },
+    {
+      "source_id": "FR-2019-06011",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2019-06011.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "e062dadb559df167176c2ce0de78d4066921f84469ebb86b0bd021ef0fe9d62e",
+      "byte_length": 8199,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2019-06011",
+      "publication_date": "2019-03-29",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2019-03-29/html/2019-06011.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2019-03-29/html/2019-06011.htm",
+      "source_locator": "Federal Register document 2019-06011; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The effective date of the final rule published February 14, 2019 \n(84 FR 4222) is delayed until July 1, 2019. Banking organizations may \nearly adopt this final rule prior to that date.",
+      "purpose": "Delay of CECL final-rule effectiveness to 2019-07-01, with optional early adoption preserved."
+    },
+    {
+      "source_id": "FR-2019-15131",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2019-15131.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "efbb8a0a643ee2b11bdc5949156176e79ee37f39de224e5e76166c7771e6ae3b",
+      "byte_length": 374567,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2019-15131",
+      "publication_date": "2019-07-22",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2019-07-22/html/2019-15131.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2019-07-22/html/2019-15131.htm",
+      "source_locator": "Federal Register document 2019-15131; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: This rule is effective October 1, 2019, except for the \namendments to 12 CFR 3.21, 3.22, 3.300, 217.21, 217.22, 217.300(b) and \n(d), 324.21, 324.22, and 324.300, which are effective April 1, 2020. \nFor more information, see SUPPLEMENTARY INFORMATION.",
+      "purpose": "Corporate definition and 217.32(k) revision effective 2019-10-01; other capital-deduction amendments have different dates."
+    },
+    {
+      "source_id": "FR-2019-23467",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2019-23467.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "3f8112dfa339933b0b59bb6f9490d5a62d47ad354b037d20f12bf6006b154bee",
+      "byte_length": 28989,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2019-23467",
+      "publication_date": "2019-11-13",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2019-11-13/html/2019-23467.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2019-11-13/html/2019-23467.htm",
+      "source_locator": "Federal Register document 2019-23467; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: This rule is effective January 1, 2020. The effective date for \nthe amendments to 12 CFR 3.21, 3.22, 3.300(b) and (d), 217.21, 217.22, \n217.300(b) and (d), 324.21, 324.22, and 324.300(b) and (d) published on \nJuly 22, 2019 (84 FR 35234), is changed from April 1, 2020, to January \n1, 2020.",
+      "purpose": "Changes specified deduction/transition amendment dates to 2020-01-01; does not redetermine corporate-definition or past-due dates."
+    },
+    {
+      "source_id": "FR-2019-23472",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2019-23472.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "8212acb39ccf12c8ff9817fc519df42049d4c38f06d626c1ae96572fecb9bc2c",
+      "byte_length": 217581,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2019-23472",
+      "publication_date": "2019-11-13",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2019-11-13/html/2019-23472.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2019-11-13/html/2019-23472.htm",
+      "source_locator": "Federal Register document 2019-23472; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The final rule is effective on January 1, 2020.",
+      "purpose": "217.10(a) rewritten/renumbered, 8% retained at (a)(1)(iii), CBLR exception at (a)(2); adds 217.12."
+    },
+    {
+      "source_id": "FR-2019-23800",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2019-23800.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "ed29100986572af2ed00bdb0504e4a8b022ca16f04272ee037939ceaf720eb88",
+      "byte_length": 418439,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2019-23800",
+      "publication_date": "2019-11-01",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2019-11-01/html/2019-23800.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2019-11-01/html/2019-23800.htm",
+      "source_locator": "Federal Register document 2019-23800; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The final rule is effective December 31, 2019.",
+      "purpose": "Category II/III definitions, 217.1(f)(5), 217.10 category scope; not ordinary corporate definitions."
+    },
+    {
+      "source_id": "FR-2019-26544",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2019-26544.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "7621a6b6af85643b20c29d947d41a8280f9da82be04241773bc325e065c0a3ba",
+      "byte_length": 122059,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2019-26544",
+      "publication_date": "2019-12-13",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2019-12-13/html/2019-26544.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2019-12-13/html/2019-26544.htm",
+      "source_locator": "Federal Register document 2019-26544; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The final rule is effective on April 1, 2020.",
+      "purpose": "HVCRE definition and origination/reclassification transition; negative-screen source, not a mortgage calculator."
+    },
+    {
+      "source_id": "FR-2019-27249",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2019-27249.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "3050cd6c4ec8c1084093dbfae8520a18324a6321863a79e7d68ffc8a40cc32d6",
+      "byte_length": 613356,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2019-27249",
+      "publication_date": "2020-01-24",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2020-01-24/html/2019-27249.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2020-01-24/html/2019-27249.htm",
+      "source_locator": "Federal Register document 2019-27249; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: Effective date: April 1, 2020. Mandatory compliance date: \nJanuary 1, 2022, for advanced approaches banking organizations.",
+      "purpose": "SA-CCR final rule: 217.32(f) rewrite and QCCP exceptions; no revision of 217.2 exposure amount (1)."
+    },
+    {
+      "source_id": "FR-2019-27717",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2019-27717.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "51a05ea934fa89ee265b813dfc7fd91efce88c3f6ef97032b93ac9fdfbe241c3",
+      "byte_length": 2209,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2019-27717",
+      "publication_date": "2019-12-26",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2019-12-26/html/2019-27717.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2019-12-26/html/2019-27717.htm",
+      "source_locator": "Federal Register document 2019-27717; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: This correction is effective on January 1, 2020.",
+      "purpose": "CBLR correction only to 208.43 and 225.14 instructions."
+    },
+    {
+      "source_id": "FR-2019-28293",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2019-28293.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "f21a7e62d24407c0bdf02a50e38ecd7647f4674b5f021a176bdd706533aab057",
+      "byte_length": 82928,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2019-28293",
+      "publication_date": "2020-01-27",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2020-01-27/html/2019-28293.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2020-01-27/html/2019-28293.htm",
+      "source_locator": "Federal Register document 2019-28293; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The rule is effective April 1, 2020.",
+      "purpose": "Custodial/total-leverage-exposure definitions and SLR; not ordinary exposure-amount definition."
+    },
+    {
+      "source_id": "FR-2020-06755",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2020-06755.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "2e475cb7fe718b992c13ef7d5569ec21b44f78e5a0f15bda700f6d84a1154ef7",
+      "byte_length": 10913,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2020-06755",
+      "publication_date": "2020-03-31",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2020-03-31/html/2020-06755.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2020-03-31/html/2020-06755.htm",
+      "source_locator": "Federal Register document 2020-06755; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: Effective March 31, 2020.",
+      "purpose": "Optional best-efforts early SA-CCR adoption; explicitly retains April 1 effectiveness and January 1, 2022 mandatory compliance."
+    },
+    {
+      "source_id": "FR-2020-07712",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2020-07712.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "b7e208920117b080ea199442dc060af60f4c636c6a46503b4389e6224bc9a255",
+      "byte_length": 58873,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2020-07712",
+      "publication_date": "2020-04-13",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2020-04-13/html/2020-07712.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2020-04-13/html/2020-07712.htm",
+      "source_locator": "Federal Register document 2020-07712; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: \n    Effective date: The interim final rule is effective April 13, 2020.\n    Comment date: Comments on the interim final rule must be received \nno later than May 13, 2020.",
+      "purpose": "Adds PPP corporate exclusion (14) and changes punctuation (12)-(13); interim effective 2020-04-13."
+    },
+    {
+      "source_id": "FR-2020-17744",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2020-17744.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "ede0cc1bbef23a853798fc7f5bc9937cab7d531b10df09288d3de79849b8eb40",
+      "byte_length": 45002,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2020-17744",
+      "publication_date": "2020-09-17",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2020-09-17/html/2020-17744.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2020-09-17/html/2020-17744.htm",
+      "source_locator": "Federal Register document 2020-17744; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: This final rule is effective September 17, 2020.",
+      "purpose": "217.32(f)(1) correction refers to both (f)(2) and (f)(3); effective 2020-09-17, 100% unchanged."
+    },
+    {
+      "source_id": "FR-2020-19922",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2020-19922.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "f5371451633fbe9ab2b9a23f7fe7e9d7004a9fe6681f513b00d8a32866b0e633",
+      "byte_length": 50012,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2020-19922",
+      "publication_date": "2020-10-09",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2020-10-09/html/2020-19922.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2020-10-09/html/2020-19922.htm",
+      "source_locator": "Federal Register document 2020-19922; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The final rule is effective November 9, 2020.",
+      "purpose": "Final temporary CBLR ratio transition; 217.304 evidence, no CBLR election made for the Golden Case."
+    },
+    {
+      "source_id": "FR-2020-21894",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2020-21894.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "e138c172efadb96794517c9bb251cf3f3b6606c6907f68350fc4d2530c5a9bbb",
+      "byte_length": 47419,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2020-21894",
+      "publication_date": "2020-10-28",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2020-10-28/html/2020-21894.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2020-10-28/html/2020-21894.htm",
+      "source_locator": "Federal Register document 2020-21894; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The final rule is effective December 28, 2020.\n\n[[Page 68244]]",
+      "purpose": "Adopts 2020 emergency interim rules without change; final effective 2020-12-28, does not erase April 13 PPP commencement."
+    },
+    {
+      "source_id": "FR-2020-26138",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2020-26138.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "5bafbefd68d5dddf55b238e112e2826d387327ebd996aa15ad4c3f47a2b19d0f",
+      "byte_length": 157311,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2020-26138",
+      "publication_date": "2020-12-02",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2020-12-02/html/2020-26138.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2020-12-02/html/2020-26138.htm",
+      "source_locator": "Federal Register document 2020-26138; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: \n    Effective date: This rule is effective on December 2, 2020.\n    Comment date: Comments must be received on or before February 1, \n2021.",
+      "purpose": "217.12(a)(4) temporary asset-threshold relief expressly ends 2021-12-31; not live relief in 2025."
+    },
+    {
+      "source_id": "FR-2020-27046",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-2020-27046.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "29ace0132a38c1ea54a26d71ce681c876c292bacfd53171a219f0f6ab1828f3e",
+      "byte_length": 309568,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "2020-27046",
+      "publication_date": "2021-01-06",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2021-01-06/html/2020-27046.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2021-01-06/html/2020-27046.htm",
+      "source_locator": "Federal Register document 2020-27046; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": "DATES: The final rule is effective on April 1, 2021.",
+      "purpose": "Covered-debt/synthetic/indirect exposure and SLR updates; review exclusion dependencies, not a new ordinary corporate weight."
+    },
+    {
+      "source_id": "FR-C1-2019-23472",
+      "source_kind": "FEDERAL_REGISTER_AMENDMENT",
+      "local_path": "evidence/source-chain-2025/fr-C1-2019-23472.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "03f8868c7be07945fddfeb0a38076b1d110d36b603188449341b4694b1dfb808",
+      "byte_length": 1760,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "federal_register_document": "C1-2019-23472",
+      "publication_date": "2020-02-26",
+      "canonical_source": "https://www.govinfo.gov/content/pkg/FR-2020-02-26/html/C1-2019-23472.htm",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/FR-2020-02-26/html/C1-2019-23472.htm",
+      "source_locator": "Federal Register document C1-2019-23472; DATES and Board Part 217 amendatory instructions (or correction targets)",
+      "stated_dates_clause": null,
+      "purpose": "CBLR correction to OCC 6.4 only; no Part 217 paragraph change."
+    },
+    {
+      "source_id": "FR-PART217-CORRECTION-INDEX",
+      "source_kind": "FEDERAL_REGISTER_SEARCH_INDEX",
+      "local_path": "evidence/source-chain-2025/fr-part217-correction-index.json",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "2d8144a18a3cf895342f75c6440bfd0e084b1c2c60cf72224ed6f35505321729",
+      "byte_length": 117,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "retrieval_url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bcfr%5D%5Btitle%5D=12&conditions%5Bcfr%5D%5Bpart%5D=217&conditions%5Bpublication_date%5D%5Blte%5D=2025-01-01&conditions%5Btype%5D%5B%5D=CORRECT&per_page=1000&order=oldest",
+      "result_count": 0,
+      "purpose": "No CORRECT-type hits; not proof of no corrections. Corrections also appear as RULE."
+    },
+    {
+      "source_id": "FR-PART217-FINAL-RULE-INDEX",
+      "source_kind": "FEDERAL_REGISTER_SEARCH_INDEX",
+      "local_path": "evidence/source-chain-2025/fr-part217-final-rule-index.json",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "7989f99d319f9018e51c7c874718e97a78785ff56cef5b1782954f1c139ae442",
+      "byte_length": 148776,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "retrieval_url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bcfr%5D%5Btitle%5D=12&conditions%5Bcfr%5D%5Bpart%5D=217&conditions%5Bpublication_date%5D%5Blte%5D=2025-01-01&conditions%5Btype%5D%5B%5D=RULE&per_page=1000&order=oldest",
+      "result_count": 56,
+      "purpose": "Discovery cross-check against LSA. Exclude 1997/2011 demand-deposit Regulation Q, a different regulatory regime sharing the part number. Not exhaustive legal proof."
+    },
+    {
+      "source_id": "LSA-2013-12-TITLE12",
+      "source_kind": "LSA_CUMULATIVE_INDEX",
+      "local_path": "evidence/source-chain-2025/lsa-2013-12-title12.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "79dfe2bf308477b31d06c92b061a2a3b1788c80d5c48dc629dc35d6b68fe958a",
+      "byte_length": 56352,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/LSA-2013-12/html/LSA-2013-12-title12.htm",
+      "edition": "December 2013",
+      "source_locator": "TITLE 12_BANKS AND BANKING; Chapter II entries before Proposed Rules",
+      "purpose": "Cumulative annual Title 12 amendment index; distinguish prospective dates and proposed-rule entries. Publication day not inferred from edition."
+    },
+    {
+      "source_id": "LSA-2014-12-TITLE12",
+      "source_kind": "LSA_CUMULATIVE_INDEX",
+      "local_path": "evidence/source-chain-2025/lsa-2014-12-title12.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "cd7a68d684278fadcc728e59bc1256ac2f19f147f030473876e48021ed1b1dfb",
+      "byte_length": 42578,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/LSA-2014-12/html/LSA-2014-12-title12.htm",
+      "edition": "December 2014",
+      "source_locator": "TITLE 12_BANKS AND BANKING; Chapter II entries before Proposed Rules",
+      "purpose": "Cumulative annual Title 12 amendment index; distinguish prospective dates and proposed-rule entries. Publication day not inferred from edition."
+    },
+    {
+      "source_id": "LSA-2015-12-TITLE12",
+      "source_kind": "LSA_CUMULATIVE_INDEX",
+      "local_path": "evidence/source-chain-2025/lsa-2015-12-title12.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "00cb5cc73ae2dc91f7030857fb9c12db923b2fbe6f61466fdd42559743fd756d",
+      "byte_length": 54070,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/LSA-2015-12/html/LSA-2015-12-title12.htm",
+      "edition": "December 2015",
+      "source_locator": "TITLE 12_BANKS AND BANKING; Chapter II entries before Proposed Rules",
+      "purpose": "Cumulative annual Title 12 amendment index; distinguish prospective dates and proposed-rule entries. Publication day not inferred from edition."
+    },
+    {
+      "source_id": "LSA-2016-12-TITLE12",
+      "source_kind": "LSA_CUMULATIVE_INDEX",
+      "local_path": "evidence/source-chain-2025/lsa-2016-12-title12.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "e17bc78a147249cb5320c3e8bdeca5a9d04f09880944ab5655783c733a644a7d",
+      "byte_length": 43231,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/LSA-2016-12/html/LSA-2016-12-title12.htm",
+      "edition": "December 2016",
+      "source_locator": "TITLE 12_BANKS AND BANKING; Chapter II entries before Proposed Rules",
+      "purpose": "Cumulative annual Title 12 amendment index; distinguish prospective dates and proposed-rule entries. Publication day not inferred from edition."
+    },
+    {
+      "source_id": "LSA-2017-12-TITLE12",
+      "source_kind": "LSA_CUMULATIVE_INDEX",
+      "local_path": "evidence/source-chain-2025/lsa-2017-12-title12.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "7c2d4ab186eb50847f09b6a4da385a9bdef208afc7f89ef7b53528e3889df39b",
+      "byte_length": 32507,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/LSA-2017-12/html/LSA-2017-12-title12.htm",
+      "edition": "December 2017",
+      "source_locator": "TITLE 12_BANKS AND BANKING; Chapter II entries before Proposed Rules",
+      "purpose": "Cumulative annual Title 12 amendment index; distinguish prospective dates and proposed-rule entries. Publication day not inferred from edition."
+    },
+    {
+      "source_id": "LSA-2018-12-TITLE12",
+      "source_kind": "LSA_CUMULATIVE_INDEX",
+      "local_path": "evidence/source-chain-2025/lsa-2018-12-title12.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "78aa3bd08df7a98200c9ad9625282f70ed7406b971c2cf106dd654c579285a8d",
+      "byte_length": 40250,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/LSA-2018-12/html/LSA-2018-12-title12.htm",
+      "edition": "December 2018",
+      "source_locator": "TITLE 12_BANKS AND BANKING; Chapter II entries before Proposed Rules",
+      "purpose": "Cumulative annual Title 12 amendment index; distinguish prospective dates and proposed-rule entries. Publication day not inferred from edition."
+    },
+    {
+      "source_id": "LSA-2019-12-TITLE12",
+      "source_kind": "LSA_CUMULATIVE_INDEX",
+      "local_path": "evidence/source-chain-2025/lsa-2019-12-title12.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "06ab85617b5f1e2096d06a675bb0f06903e09538332a1e2f5e9b8d354f32eafd",
+      "byte_length": 73415,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/LSA-2019-12/html/LSA-2019-12-title12.htm",
+      "edition": "December 2019",
+      "source_locator": "TITLE 12_BANKS AND BANKING; Chapter II entries before Proposed Rules",
+      "purpose": "Cumulative annual Title 12 amendment index; distinguish prospective dates and proposed-rule entries. Publication day not inferred from edition."
+    },
+    {
+      "source_id": "LSA-2020-12-TITLE12",
+      "source_kind": "LSA_CUMULATIVE_INDEX",
+      "local_path": "evidence/source-chain-2025/lsa-2020-12-title12.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "7886ba2444273e8272acf38d685aba3fcb152602f885b8886abf1d2515adcf57",
+      "byte_length": 71749,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/LSA-2020-12/html/LSA-2020-12-title12.htm",
+      "edition": "December 2020",
+      "source_locator": "TITLE 12_BANKS AND BANKING; Chapter II entries before Proposed Rules",
+      "purpose": "Cumulative annual Title 12 amendment index; distinguish prospective dates and proposed-rule entries. Publication day not inferred from edition."
+    },
+    {
+      "source_id": "LSA-2021-12-TITLE12",
+      "source_kind": "LSA_CUMULATIVE_INDEX",
+      "local_path": "evidence/source-chain-2025/lsa-2021-12-title12.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "7e21369f22f086d589765462c51965c946d59251eb907f116bc5998b462c32cb",
+      "byte_length": 36689,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/LSA-2021-12/html/LSA-2021-12-title12.htm",
+      "edition": "December 2021",
+      "source_locator": "TITLE 12_BANKS AND BANKING; Chapter II entries before Proposed Rules",
+      "purpose": "Cumulative annual Title 12 amendment index; distinguish prospective dates and proposed-rule entries. Publication day not inferred from edition."
+    },
+    {
+      "source_id": "LSA-2022-12-TITLE12",
+      "source_kind": "LSA_CUMULATIVE_INDEX",
+      "local_path": "evidence/source-chain-2025/lsa-2022-12-title12.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "eb8327b56e1dbd8228827ce3a37f5f73d1f9c494de83e74d37d6e91a9064d322",
+      "byte_length": 21621,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/LSA-2022-12/html/LSA-2022-12-title12.htm",
+      "edition": "December 2022",
+      "source_locator": "TITLE 12_BANKS AND BANKING; Chapter II entries before Proposed Rules",
+      "purpose": "Cumulative annual Title 12 amendment index; distinguish prospective dates and proposed-rule entries. Publication day not inferred from edition."
+    },
+    {
+      "source_id": "LSA-2023-12-TITLE12",
+      "source_kind": "LSA_CUMULATIVE_INDEX",
+      "local_path": "evidence/source-chain-2025/lsa-2023-12-title12.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "3d08679635f200b453f72fc2646f8a6c1d1458d8189615c9a83c4ac1ba08948e",
+      "byte_length": 17616,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/LSA-2023-12/html/LSA-2023-12-title12.htm",
+      "edition": "December 2023",
+      "source_locator": "TITLE 12_BANKS AND BANKING; Chapter II entries before Proposed Rules",
+      "purpose": "Cumulative annual Title 12 amendment index; distinguish prospective dates and proposed-rule entries. Publication day not inferred from edition."
+    },
+    {
+      "source_id": "LSA-2024-12-TITLE12",
+      "source_kind": "LSA_CUMULATIVE_INDEX",
+      "local_path": "evidence/source-chain-2025/lsa-2024-12-title12.source.txt",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "d36c4463d1841113c729a3f2319831111fe412dc2bc11bf64082b21e7a18dd6a",
+      "byte_length": 26139,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "retrieval_url": "https://www.govinfo.gov/content/pkg/LSA-2024-12/html/LSA-2024-12-title12.htm",
+      "edition": "December 2024",
+      "source_locator": "TITLE 12_BANKS AND BANKING; Chapter II entries before Proposed Rules",
+      "purpose": "Cumulative annual Title 12 amendment index; distinguish prospective dates and proposed-rule entries. Publication day not inferred from edition."
+    },
+    {
+      "source_id": "US-DEPENDENCY-217.38",
+      "source_kind": "DATED_ECFR_SECTION",
+      "source_version_metadata": {
+        "api_requested_date": "2025-01-01",
+        "metadata_source_id": "ECFR-VERSION-HISTORY",
+        "latest_editorial_record_before_as_of": {
+          "date": "2019-10-01",
+          "amendment_date": "2019-10-01",
+          "issue_date": "2024-06-11",
+          "identifier": "217.38",
+          "name": "§ 217.38   Unsettled transactions.",
+          "part": "217",
+          "substantive": false,
+          "removed": false,
+          "subpart": "D",
+          "title": "12",
+          "type": "section"
+        },
+        "note": "Editorial date/amendment_date/issue_date are not legal commencement. Preserve source notes; paragraph and cross-reference review remains required."
+      },
+      "federal_register_references_as_printed": [
+        "[Reg. Q, 78 FR 62157, Oct. 11, 2013, as amended at 84 FR 35266, July 22, 2019]"
+      ],
+      "federal_register_chain_status": "RELEVANT_SCOPE_PARAGRAPHS_DOCUMENTED_PENDING_REVIEW",
+      "federal_register_chain_note": "Founding common .38(a)-(b) adopted by Board instruction 44. 2019-15131 instruction 37 revises only (e)(2), effective 2019-10-01; does not change (a)-(b).",
+      "local_path": "evidence/source-chain-2025/217.38.xml",
+      "retrieval_date": "2026-09-08",
+      "content_sha256": "7bb0da309b37442252e177f3bcdcf9457830ff6cb238756331760cd5a122ddd8",
+      "byte_length": 5809,
+      "executable": false,
+      "review_status": "PENDING_REVIEW",
+      "jurisdiction": "US",
+      "regulator": "FRB",
+      "authority": "Board of Governors of the Federal Reserve System",
+      "regulation": "12 CFR Part 217",
+      "section": "217.38",
+      "point_in_time_date": "2025-01-01",
+      "canonical_source": "https://www.ecfr.gov/on/2025-01-01/title-12/section-217.38",
+      "retrieval_url": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-01/title-12.xml?part=217&section=217.38",
+      "source_locator": {
+        "xml_section": "DIV8[@N='217.38']"
+      },
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "legal_status_review": "PENDING",
+      "effective_from": null,
+      "effective_to": null,
+      "effective_interval_status": "PENDING",
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "reviewer_name": null,
+      "review_date": null,
+      "review_evidence": null,
+      "purpose": "Required unsettled-transaction scope screen (a)-(b), not settlement-risk calculations."
     }
   ],
   "proposal_evidence": [
@@ -421,6 +2320,18 @@
   "rule_bindings": [
     {
       "rule_id": "US-SCOPE",
+      "paragraph_lineage_ids": [
+        "P-INSTITUTION",
+        "P-STANDARDIZED-SCOPE",
+        "P-CBLR-ELECTION"
+      ],
+      "dependency_ids": ["DEP-CBLR", "DEP-COVERED-POSITION", "DEP-INSTITUTION"],
+      "effective_from": "2024-01-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "effective_interval_status": "DOCUMENTARY_TEXT_VERSION_ONLY_NOT_APPROVED_APPLICABILITY",
+      "documentary_coverage_through": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
       "source_ids": ["US-SCOPE-INSTITUTION", "US-SCOPE-STANDARDIZED"],
       "interpretation": "Candidate synthetic in-scope Board-regulated state member bank using standardized treatment; no CBLR election and no excluded covered position.",
       "rule_version": null,
@@ -433,6 +2344,20 @@
     },
     {
       "rule_id": "US-CLASS",
+      "paragraph_lineage_ids": ["P-CORPORATE"],
+      "dependency_ids": [
+        "DEP-EXTERNAL-IDENTITY",
+        "DEP-PPP",
+        "DEP-UNSETTLED",
+        "DEP-OTHER-CLASSES",
+        "DEP-QCCP"
+      ],
+      "effective_from": "2020-04-13",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "effective_interval_status": "DOCUMENTARY_TEXT_VERSION_ONLY_NOT_APPROVED_APPLICABILITY",
+      "documentary_coverage_through": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
       "source_ids": ["US-DEFINITIONS"],
       "interpretation": "Company exposure satisfying the dated corporate definition; all fourteen numbered exclusions assessed. Generic BCBS labels cannot decide this.",
       "rule_version": null,
@@ -445,6 +2370,18 @@
     },
     {
       "rule_id": "US-MEASURE",
+      "paragraph_lineage_ids": ["P-CARRYING", "P-EXPOSURE-AMOUNT"],
+      "dependency_ids": [
+        "DEP-AOCI",
+        "DEP-REPORTING-ACCOUNTING",
+        "DEP-CRM-DERIVATIVES"
+      ],
+      "effective_from": "2019-07-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "effective_interval_status": "DOCUMENTARY_TEXT_VERSION_ONLY_NOT_APPROVED_APPLICABILITY",
+      "documentary_coverage_through": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
       "source_ids": ["US-DEFINITIONS"],
       "interpretation": "Ordinary on-balance-sheet exposure measured using applicable GAAP carrying value, without double subtracting allowance/write-offs. Type EXPOSURE_AMOUNT.",
       "rule_version": null,
@@ -457,6 +2394,14 @@
     },
     {
       "rule_id": "US-CORP-RW",
+      "paragraph_lineage_ids": ["P-CORPORATE-WEIGHT", "P-PAST-DUE"],
+      "dependency_ids": ["DEP-QCCP", "DEP-PAST-DUE", "DEP-CRM-DERIVATIVES"],
+      "effective_from": "2020-09-17",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "effective_interval_status": "DOCUMENTARY_TEXT_VERSION_ONLY_NOT_APPROVED_APPLICABILITY",
+      "documentary_coverage_through": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
       "source_ids": ["US-WEIGHT-TREATMENT"],
       "interpretation": "Candidate 1.00 for ordinary corporate under (f)(1), with (f)(2)-(3), (k), CRM and other treatments screened.",
       "rule_version": null,
@@ -469,6 +2414,14 @@
     },
     {
       "rule_id": "US-RWA",
+      "paragraph_lineage_ids": ["P-RWA"],
+      "dependency_ids": ["DEP-UNSETTLED", "DEP-OTHER-CLASSES", "DEP-QCCP"],
+      "effective_from": "2014-01-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "effective_interval_status": "DOCUMENTARY_TEXT_VERSION_ONLY_NOT_APPROVED_APPLICABILITY",
+      "documentary_coverage_through": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
       "source_ids": ["US-RWA-SOURCE"],
       "interpretation": "Use the regulatory exposure measure times the applicable risk weight for single-exposure RWA.",
       "rule_version": null,
@@ -481,6 +2434,14 @@
     },
     {
       "rule_id": "US-TEACHING",
+      "paragraph_lineage_ids": ["P-TEACHING-SOURCE", "P-CBLR-ELECTION"],
+      "dependency_ids": ["DEP-CBLR"],
+      "effective_from": "2020-01-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "effective_interval_status": "DOCUMENTARY_TEXT_VERSION_ONLY_NOT_APPROVED_APPLICABILITY",
+      "documentary_coverage_through": "2025-01-01",
+      "review_status": "PENDING_REVIEW",
       "source_ids": ["US-TEACHING-SOURCE"],
       "interpretation": "Product educational transformation at 0.08 using minimum total-capital ratio as reference, not allocated loan capital or a bank-specific requirement.",
       "rule_version": null,
@@ -500,8 +2461,8 @@
     "status": "PARTIAL_DOCUMENTARY_RECONCILIATION",
     "verification_date": "2026-09-08",
     "evidence_baseline_commit": "47388412c505b18ab682db40191c7a24b8074ca1",
-    "new_source_capture": false,
-    "observation_scope": "Documentary extraction and comparison only. No legal approval, borrower interpretation, classification or calculation. Section effective intervals remain unresolved.",
+    "new_source_capture": true,
+    "observation_scope": "Documentary research only. Earlier observations are retained; paragraph_lineage and amendment_chain_screen record the 48 new captures and updated findings. Whole-section dates remain unassigned; dependency closure and human review remain unresolved.",
     "observations": [
       {
         "observation_id": "FR-2013-DATES",
@@ -623,11 +2584,12 @@
       "limitations": "Does not compare headings, tables, footnotes, editorial notes, definitions' cross-reference effects or the legal amendment chain. Removing whitespace is not a finding of legal equivalence or a hash-normalization policy."
     },
     "unresolved": [
-      "Complete relevant final-rule/LSA chain through 2025-01-01, especially 217.2 definitions; the two captured final rules do not establish completeness.",
-      "Trace additional references printed for 217.1, 217.10 and 217.32 and validate corrections/transition/commencement and any sunset boundaries.",
-      "Establish reviewed paragraph/source effective_from/effective_to, including explicit evidence if open-ended; all six intervals remain null/PENDING.",
-      "Reconcile required cross-reference dependencies and institutional applicability with a named human reviewer.",
-      "Approve source lifecycle-as-of, interpretations and Golden Case assumptions/results separately; no source or calculation is approved by these observations."
+      "DEP-EXTERNAL-IDENTITY: reconcile incorporated 12 USC 1813 / 12 CFR 211.2 and applicable credit-union identity sources at 2025-01-01, or document an approved reason these transitive sources are unnecessary for explicit synthetic negative facts.",
+      "DEP-PPP: incorporated 15 USC 636(a)(36) statutory source chain is not independently captured/reconciled. Approve a supported non-PPP exclusion or obtain the dated statute/amendment chain.",
+      "DEP-REPORTING-ACCOUNTING / DEP-COVERED-POSITION: close reporting-instruction, accounting-basis and covered-position definition dependencies. Dated 217.202/217.12 text is captured but transitive history is not certified complete.",
+      "Conditional exclusion definitions have captured text and identified relevant amendments, not blanket full-chain approval. The reviewer must establish the minimum closed dependency set and all negative facts without silently defaulting them.",
+      "Paragraph commencement candidates are documented; effective_to is unknown, explicitly not open-ended. No selection after 2025-01-01 or whole-section commencement is established.",
+      "Named-human lifecycle/applicability, interpretation, assumptions, expected outputs and activation approval remain missing; documentary checks never substitute for them."
     ],
     "review_status": "PENDING_REVIEW",
     "reviewer_name": null,
@@ -636,17 +2598,18 @@
   },
   "conflicts": [],
   "unresolved_evidence": [
-    "Complete relevant final-rule/LSA chain through 2025-01-01, especially 217.2 definitions; the two captured final rules do not establish completeness.",
-    "Trace additional references printed for 217.1, 217.10 and 217.32 and validate corrections/transition/commencement and any sunset boundaries.",
-    "Establish reviewed paragraph/source effective_from/effective_to, including explicit evidence if open-ended; all six intervals remain null/PENDING.",
-    "Reconcile required cross-reference dependencies and institutional applicability with a named human reviewer.",
-    "Approve source lifecycle-as-of, interpretations and Golden Case assumptions/results separately; no source or calculation is approved by these observations."
+    "DEP-EXTERNAL-IDENTITY: reconcile incorporated 12 USC 1813 / 12 CFR 211.2 and applicable credit-union identity sources at 2025-01-01, or document an approved reason these transitive sources are unnecessary for explicit synthetic negative facts.",
+    "DEP-PPP: incorporated 15 USC 636(a)(36) statutory source chain is not independently captured/reconciled. Approve a supported non-PPP exclusion or obtain the dated statute/amendment chain.",
+    "DEP-REPORTING-ACCOUNTING / DEP-COVERED-POSITION: close reporting-instruction, accounting-basis and covered-position definition dependencies. Dated 217.202/217.12 text is captured but transitive history is not certified complete.",
+    "Conditional exclusion definitions have captured text and identified relevant amendments, not blanket full-chain approval. The reviewer must establish the minimum closed dependency set and all negative facts without silently defaulting them.",
+    "Paragraph commencement candidates are documented; effective_to is unknown, explicitly not open-ended. No selection after 2025-01-01 or whole-section commencement is established.",
+    "Named-human lifecycle/applicability, interpretation, assumptions, expected outputs and activation approval remain missing; documentary checks never substitute for them."
   ],
   "outstanding_gates": [
-    "Complete relevant Federal Register/LSA chain, including section 217.2 definition amendments.",
-    "Approve paragraph-level legal effective_from/effective_to and historical lifecycle selection.",
-    "Complete personally named human reviewer record and evidence.",
-    "Approve interpretations, all assumptions, classification, measure, weight, RWA, sole teaching output and exclusions.",
-    "Approve final contracts, normalization and activation control pack."
+    "Close the explicitly listed incorporated statutory/reporting/conditional-definition source gaps; source side remains BLOCKED_ON_SOURCE_EVIDENCE.",
+    "Approve paragraph-level dates, lifecycle and applicability independently of mechanical source checks.",
+    "Complete personally named human reviewer record and linked evidence.",
+    "Approve all interpretations, negative scope facts, measurement reconciliation and independent Golden outputs.",
+    "Approve final contracts and activation controls; no activation PR authorized in this task."
   ]
 }
