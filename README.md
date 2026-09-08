@@ -4,10 +4,10 @@ This folder is the single canonical Codex project for the Financial Pods product
 
 ## Current status
 
-Sprint 00 is accepted with documented follow-ups. It provides the development foundation only:
-minimal web and API applications, local PostgreSQL/pgvector and Redis, Docker Compose, automated
-quality gates, and a CI workflow. Product, regulatory, lesson, tutor, and social-publishing
-behavior remain out of scope.
+Sprint 00 and Sprint 01 are accepted. Sprint 01 delivered the synthetic FinBank/Alpha
+Manufacturing case plus a deterministic, framework-independent domain model. No later sprint is
+active; regulatory calculations, lesson/tutor behavior, authentication, billing, production
+deployment, and social publishing remain out of scope.
 
 ## Quick start
 
@@ -45,7 +45,7 @@ Before implementation, read `AGENTS.md`, `PRODUCT_SCOPE.md`, `ARCHITECTURE.md`, 
 - `prompts/` and `skills/` — active prompt and Codex-skill assets when scheduled and reviewed.
 - `tests/` — unit, integration, regulatory regression, and AI evaluation suites.
 - `infra/` — Docker and Terraform configuration.
-- `sprints/` — the controlling execution boundary. Sprint 00 is current.
+- `sprints/` — the controlling execution boundary. Sprint 01 is accepted; no later sprint is active.
 - `archive/` — historical package snapshots; these are not the live codebase.
 
 ## Source-of-truth policy
