@@ -1,104 +1,134 @@
-# Sprint 02 Review
+# Sprint 02 Planning Review — Architecture Revision
 
 Status: PLANNING ONLY — NOT ACTIVE
 
-Publication is for architecture/regulatory review only, not implementation approval. Sprint 02
-must not begin until the framework, jurisdiction, regulatory sources, calculation scope, golden
-outputs, and regulatory review process are explicitly approved by the project owner and the
-accountable regulatory reviewer. Candidate source claims below are preserved draft material from
-2026-08-27, not freshly validated regulatory authority.
+Revision date: 2026-09-08. This record distinguishes completed planning work from unapproved
+regulatory interpretation and unimplemented software.
 
-Status: Activation draft; implementation not started.
+## Architecture direction versus activation
 
-## Activation evidence
+- Product architecture direction: approved by the project owner's explicit architecture-revision request.
+- Generalized engine, pluggable rulesets, BCBS concept layer, U.S. first executable jurisdiction:
+  documented design intent, not implemented behavior.
+- Proposed ADR: [0004 — Generalized regulatory engine](../../docs/adr/0004-generalized-regulatory-engine.md).
+  Status PROPOSED until Sprint 02 activation.
+- Product-owner implementation activation: NOT GRANTED.
+- Personally named human regulatory reviewer: PENDING.
+- Reviewer role/authority/acceptance and review process: PENDING.
+- U.S. source versions, dates, hashes, locators, and interpretation approval: PENDING.
+- Golden Case assumptions/classification/risk weight/RWA/teaching outputs/exclusions: PENDING.
+- EAD alias, accounting basis, and final schema/trace/hash policies: PENDING.
+- No AI system is designated as the accountable regulatory reviewer.
 
-- Product owner approval: Pending
-- Accountable regulatory reviewer: Pending; must be personally named
-- Reviewer role and authority: Pending
-- Reviewer acceptance of responsibilities: Pending
-- Framework/source snapshot approval: Pending
-- Rule interpretation and golden-output approval: Pending
-- Approved control-pack date: Pending
-- Root status documents updated: No; Sprint 02 is not active
+## Planning changes made
 
-## Drafting evidence
+- Replaced a BCBS-first, case-focused proposal with generic orchestration and a U.S. Part 217 provider.
+- Made Alpha Manufacturing presentation/fixture data only; required name-invariance and another
+  ordinary corporate fixture without changing core orchestration.
+- Separated conceptual BCBS authority from executable domestic regulatory authority.
+- Defined minimum fact requirements, explicit negative/scope facts, extension points, and typed errors.
+- Defined structured classification/result contracts, ratio units, EAD alias proposal, and ordered trace.
+- Replaced the old automatic net-provisions premise with review of U.S. carrying-value measurement.
+- Removed mandatory BCBS non-SME/EUR sales and rating-path assumptions from the first U.S. slice.
+- Added lifecycle versus review-status separation, date-matching, source manifests, and immutable evidence.
+- Documented future BCBS calculator, Regxify Regulatory Core reuse, and existing Basel/ERBA integration
+  analysis as later work. No provider implementation or repository extraction occurred.
 
-Publication update, 2026-09-08: original planning commit
-`60fad85b78a1559fe61b78e461894587d165a304` is retained in this branch's ancestry, and the original
-local `codex/sprint-02-rules-calculation` branch remains unchanged. Review branch:
-https://github.com/ragu-selva/financial-pods/tree/codex/sprint-02-planning
+These are planning-file revisions, not checked-off Sprint 02 implementation acceptance criteria.
 
-This planning branch is based on accepted main merge `b0cf3a9`; its only additions relative to
-that baseline are the four Sprint 02 control documents. It must not be merged into main as part
-of post-merge cleanup. Historical drafting evidence below remains dated 2026-08-27.
+## History and preservation
 
-- Sprint 01 baseline: Accepted in commit `03b03ec`
-- Draft branch: `codex/sprint-02-rules-calculation`
-- Draft date: 2026-08-27
-- Finalized reference artifacts reviewed: research blueprint, V1 specification, engineering
-  playbook, prudential capital change assurance plan, regulatory content policy, and testing strategy
-- Primary-source hierarchy applied: Yes; official BCBS sources take precedence over reference
-  artifact prose and legacy locators
-- Candidate official sources retrieved: BCBS CRE20, BCBS RBC20, and BCBS publication-status guidance
-- Regulatory code or fixture changes made: No
+- Original accepted Sprint 01: 03b03ec; hardening merge PR #2: b0cf3a9.
+- Post-merge acceptance cleanup PR #3: 5fcfc5a, brought into this planning branch without rewriting history.
+- Original Sprint 02 planning commit 60fad85b78a1559fe61b78e461894587d165a304 remains preserved in
+  ancestry and at the untouched local codex/sprint-02-rules-calculation branch.
+- Planning publication f90ee1e remains in history. Old BCBS candidate text is superseded as an
+  execution proposal, not erased from historical commits.
+- Review branch: https://github.com/ragu-selva/financial-pods/tree/codex/sprint-02-planning
+- No Sprint 02 branch merge into main, activation, production-code change, or fixture change is authorized.
 
-## Known source-version issue
+## Source research and limits
 
-Some finalized reference prose cites the older CRE20.17 corporate-exposure rule. The current
-consolidated Basel Framework snapshot uses revised corporate-exposure numbering, including CRE20.43
-and Table 10 for the candidate unrated path. The activation pack therefore forbids copying the legacy
-locator and requires a reviewer-approved current snapshot/hash before any rule becomes executable.
+Primary pages accessed 2026-09-08 are linked in FRAMEWORK_SCOPE.md:
+Federal Reserve FRRS Part 217 index; §§ 217.1, 217.2, 217.10, 217.30, 217.31, 217.32;
+the Board's March 2026 proposal material; and the official BCBS Framework overview.
 
-## Candidate golden-output review
+The research located candidate U.S. applicability, corporate, measurement, risk-weight, RWA,
+and capital-teaching references. It did not approve a legal snapshot or expected result.
+Direct eCFR section retrieval failed through the browsing tool; readable official FRRS text was
+used as a planning reference. Exact historical/current effective intervals, Federal Register
+amendment chains, source-byte hashes, and human interpretation remain activation gates.
 
-- Classification: Pending approval
-- Exposure amount: Pending approval
-- Risk weight: Pending approval
-- RWA: Pending approval
-- Minimum-total-capital teaching amount and exclusions: Pending approval
+The FRRS compilation date is not a paragraph-by-paragraph effective date. The original fixture's
+2025-01-01 as-of date must not be conflated with a 2026 retrieval or compilation date.
+The proposed 2026 corporate-weight change is explicitly non-executable pending a separately verified,
+effective, approved version. No claim is made that this review exhaustively found every amendment.
 
-No candidate output is accepted regulatory truth until the accountable reviewer signs off.
+## Golden Case review checklist
+
+- [ ] In-scope synthetic U.S./FRB institutional perimeter, reporting regime, and CBLR decision.
+- [ ] Historical 2025-01-01 rules or an explicitly re-versioned/re-dated scenario.
+- [ ] Full corporate-definition exclusion screen and ordinary-loan applicability.
+- [ ] Carrying-value reconciliation, adjustments, performance state, and every material assumption.
+- [ ] U.S. corporate classification and risk weight.
+- [ ] Exposure amount, EAD naming/mapping, and RWA.
+- [ ] Educational total-capital equivalent, ratio basis, warnings, and exclusions.
+- [ ] Personally named human approval, source/version evidence, and independent expected results.
+
+Any illustrative USD 10 million RWA / USD 800,000 teaching value in the scope document remains
+conditional. Matching the old BCBS numeric example cannot substitute for U.S. regulatory review.
 
 ## Verification evidence
 
-- Verification date: 2026-08-27
-- Markdown/control-pack review: Passed; required files present and no trailing whitespace
-- `git diff --check`: Passed on the staged four-file Sprint 02 draft
-- `node scripts/task.mjs format-check`: Passed
-- `node scripts/task.mjs lint`: Passed
-- `node scripts/task.mjs typecheck`: Passed; API 5 files and finance engine 12 files
-- `node scripts/task.mjs test`: Passed; Vitest 3, API pytest 5, finance-engine pytest 41
-- `node scripts/task.mjs build`: Passed; web production build plus API and finance-engine packages
-- `node scripts/task.mjs e2e`: Passed; 2 Chromium smoke tests
-- `node scripts/task.mjs verify-artifacts`: Passed; 10 immutable artifacts verified
-- Infrastructure validation: Not required; the draft changes only Markdown control files
-- Existing non-failing warnings: Starlette TestClient deprecation, pytest cache creation, and
-  Playwright `NO_COLOR`/`FORCE_COLOR` notices
+### Historical evidence, not verification of a Sprint 02 implementation
 
-## Risks and limitations
+The 2026-08-27 draft review recorded 41 finance, 5 API, 3 web, and 2 browser tests plus
+format/lint/types/builds and 10 artifact hashes passing. Sprint 01 hardening later recorded
+130 finance tests and successful hosted CI; its accepted review remains untouched.
+These results test the existing baseline, not an implemented U.S. regulatory engine.
 
-- The BCBS Framework is a canonical international baseline, not directly binding domestic law.
-- The framework is consolidated and versioned over time; a source hash and current-version metadata
-  must be pinned at activation.
-- The proposed Alpha Manufacturing regulatory facts are synthetic assumptions awaiting approval.
-- The candidate output excludes domestic implementation choices, capital buffers, Pillar 2,
-  output-floor calculations, provisions other than zero, CRM, and all other excluded treatments.
-- No personally named accountable regulatory reviewer has yet accepted responsibility.
+### This documentation revision
 
-## Deferred work
+Verified locally on 2026-09-08:
 
-- Domestic United States, SAMA, CBUAE, and other jurisdiction overlays or comparisons
-- Rated corporate, SME, specialised-lending, retail, defaulted, off-balance-sheet, provisions, CCF,
-  CRM, collateral, guarantee, and netting paths
-- Buffers, Pillar 2, output floor, available capital, ratios, adequacy conclusions, portfolio
-  aggregation, and regulatory reporting
-- API, database, UI, lesson, tutor, LLM, authentication, billing, and deployment work
+- `node scripts/task.mjs verify`: PASS (exit 0).
+- Formatting, ESLint/Ruff lint, TypeScript, and mypy: PASS.
+- Existing tests: 130 finance, 5 API, 3 web, and 2 browser tests: PASS.
+- Web production build and API/finance source and wheel builds: PASS.
+- All 10 immutable reference-artifact hashes: PASS.
+- Planning-document banners, proposed ADR status, relative links, balanced code fences,
+  and the JSON classification example: PASS.
+- `git diff --check`: PASS.
+- Production code, fixtures, infrastructure, reference artifacts, and historical Sprint 00,
+  Sprint 01, and Sprint 01 hardening files match origin/main.
+
+These checks verify the existing baseline and revised documentation, not an implemented
+classification/calculation/provider or the proposed regulatory outputs. No new Sprint 02
+implementation tests were added. Docker stack verification was not rerun for this documentation-only
+change; the previously recorded local-runtime limitation remains, and no new Docker pass is claimed.
+Non-failing baseline warnings included Starlette/httpx deprecation, pytest cache WinError 183,
+Next.js slow-filesystem detection, and FORCE_COLOR/NO_COLOR precedence.
+
+## Known limitations and deferred work
+
+No U.S. executable rules, approved source manifest, new fixture, schemas in production, or engine
+implementation exist. Tests described in ACCEPTANCE_CRITERIA.md are future acceptance obligations.
+Local Docker's previously recorded runtime limitation is non-blocking for documentation work;
+this revision changes no runtime/infrastructure.
+
+BCBS/SAMA/CBUAE providers; broad Basel calculator; bank/retail/mortgage/SME/sovereign/defaulted
+and other classes; IRB/ERBA; CCF/CRM; actual capital ratios/adequacy; UI/API/database/AI/content;
+and external core extraction are deferred. The owner's existing Basel/ERBA engine has not been
+inspected, copied, or evaluated for reuse in this task; that requires a later bounded analysis.
 
 ## Decision
 
-- [ ] Accepted
-- [ ] Accepted with documented follow-up
-- [ ] Rework required
-- [x] Awaiting activation decision; implementation blocked
+- [x] Record the owner-approved architecture direction as planning.
+- [ ] Accept proposed ADR 0004 at activation.
+- [ ] Approve regulatory sources, interpretations, facts, and golden results.
+- [ ] Activate Sprint 02.
+- [ ] Accept Sprint 02 implementation.
 
-Reviewer/date: Pending
+Named regulatory reviewer/date: PENDING.
+
+SPRINT 02 REMAINS INACTIVE

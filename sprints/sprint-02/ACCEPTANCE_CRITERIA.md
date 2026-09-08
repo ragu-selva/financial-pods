@@ -1,84 +1,97 @@
-# Sprint 02 Acceptance Criteria
+# Sprint 02 Acceptance Criteria — Generic Engine, U.S. First
 
 Status: PLANNING ONLY — NOT ACTIVE
 
-Publication is for architecture/regulatory review only, not implementation approval. Sprint 02
-must not begin until the framework, jurisdiction, regulatory sources, calculation scope, golden
-outputs, and regulatory review process are explicitly approved by the project owner and the
-accountable regulatory reviewer. Candidate source claims below are preserved draft material from
-2026-08-27, not freshly validated regulatory authority.
+Architecture direction approved by the owner on 2026-09-08; these implementation/activation criteria
+are proposed and unfulfilled. A checked drafting task in REVIEW.md does not satisfy a regulatory gate.
 
-Status: Activation draft; not approved. Record objective evidence for completed items in REVIEW.md.
+## Activation and personally accountable review
 
-## Activation and governance
+- [ ] Owner and personally named human regulatory reviewer approve this pack and proposed ADR 0004.
+- [ ] Reviewer name, qualifications/role, authority, accepted responsibilities, review date, and
+  evidence are recorded. An AI system cannot occupy this role.
+- [ ] Framework, jurisdiction/institution perimeter, regulatory sources, calculation scope, golden
+  outputs, and review process are explicitly approved together.
+- [ ] Golden Case as-of date is reconciled with effective-dated U.S. sources; neither retrieval date
+  nor a current compilation substitutes for proof of historical applicability.
+- [ ] Exact U.S. locators, interpretations, snapshots/content hashes, publication/amendment metadata,
+  effective intervals, statuses, and exclusions are approved.
+- [ ] An explicit activation decision changes planning status; architecture approval alone does not.
 
-- [ ] Project owner approves SPRINT.md, FRAMEWORK_SCOPE.md, and this file together.
-- [ ] A personally named accountable regulatory reviewer accepts responsibility for the official
-  source interpretation and golden expected results.
-- [ ] Every activation decision in FRAMEWORK_SCOPE.md is resolved.
-- [ ] Exact source snapshots/hashes and current-version metadata are captured before implementation.
-- [ ] Root status documents consistently identify Sprint 02 as active only after approval.
-- [ ] Material architecture/rule-contract decisions are recorded in an accepted ADR.
+## Generic architecture and scope
 
-## Regulatory source and rule model
+- [ ] Generic facts, validation, classification dispatch, provider selection, treatment, measurement,
+  risk weight, RWA, educational outputs, and trace are separate typed contracts.
+- [ ] Only the approved USStandardizedRuleset corporate slice is implemented after activation.
+- [ ] Generic orchestration has no borrower/case-name logic and no scattered jurisdiction conditionals.
+- [ ] BCBS is conceptual context, never an automatic executable U.S. fallback.
+- [ ] Provider contracts permit later BCBS/SAMA/CBUAE implementations without implementing them now.
+- [ ] No broad Basel calculator, other exposure-class calculators, UI/API business route, persistence,
+  LLM/tutor, ingestion, content generation, or repository extraction is introduced.
+- [ ] Future analysis of the owner's Basel/ERBA engine is recorded, not substituted by blind recreation.
 
-- [ ] The ruleset is explicitly a BCBS canonical baseline and cannot be presented as domestic law.
-- [ ] Every executable rule carries authority/framework, jurisdiction, source URL, locator,
-  publication/effective/retrieval dates, version/hash, applicability, status, and reviewer provenance.
-- [ ] Draft/unapproved/superseded rules are non-executable by default.
-- [ ] Legacy CRE20 paragraph numbering is absent from the current executable rule version.
-- [ ] Approved rule records and expected results are immutable; corrections create new versions.
-- [ ] The candidate ruleset implements only the approved in-scope path and rejects excluded paths.
+## Facts and classification
 
-## Synthetic case and deterministic calculation
+- [ ] All material facts required by the selected U.S. provider are explicit and provenance-linked.
+- [ ] Missing/unknown/contradictory material facts produce stable typed errors, never default values.
+- [ ] Institution/regulator/regime applicability and CBLR exclusion are explicitly validated.
+- [ ] The complete versioned U.S. corporate exclusion screen is approved and cannot be bypassed by
+  declaring exposure_class=CORPORATE or naming the borrower.
+- [ ] Nonaccrual/past-due/default and excluded exposure/CRM states are rejected by this narrow path.
+- [ ] Annual sales/external rating are not imported as BCBS-driven thresholds for ordinary U.S. treatment.
+- [ ] The accepted Sprint 01 fixture/schema are unchanged; approved enrichment has a separate version.
+- [ ] Classification includes jurisdiction, ruleset/version, class/subclass, reason_codes, rule_refs,
+  warnings, and schema version, without borrower-specific logic.
 
-- [ ] The Sprint 01 fixture remains reproducible and gains only approved, versioned Sprint 02 facts.
-- [ ] Classification requires explicit facts and produces stable rule/reason codes.
-- [ ] Exposure amount is calculated deterministically with explicit provision/write-off treatment.
-- [ ] Risk weight, RWA, and minimum-total-capital teaching amount match approved golden outputs.
-- [ ] The teaching amount is never labelled or exposed as a complete required-capital conclusion.
-- [ ] No LLM, database, web framework, Redis, locale, timezone, or current-time input affects results.
-- [ ] Decimal precision and undefined-rounding behavior match the approved policy.
-- [ ] Invalid, missing, conflicting, or out-of-scope inputs produce typed stable errors with no guessed
-  defaults.
+## Measurement, numeric integrity, and outputs
 
-## Trace and serialization
+- [ ] Carrying-value treatment is tied to the approved U.S. definition and accounting reconciliation.
+  Provisions/write-offs are not blindly subtracted or counted twice.
+- [ ] Exposure amount, risk weight, RWA, and teaching outputs match independently approved U.S.
+  expected results; numerical agreement with a BCBS example is not validation.
+- [ ] Generic EAD field semantics/alias warning are approved; no advanced-approaches EAD is implied.
+- [ ] Decimal operations remain exact and context-independent; ratio units are explicit and tested
+  against the existing percentage-point primitive. No implicit rounding or guessed rounding policy.
+- [ ] Result includes classification, regulatory treatment, exposure_amount, risk_weight, ead, rwa,
+  capital_teaching_outputs, ruleset/rule versions, input hash, trace, citations, warnings, and exclusions.
+- [ ] Educational equivalents are not labelled actual capital ratios, complete required capital, or
+  adequacy conclusions. No unapproved teaching output or buffer is added.
 
-- [ ] Each result records run/as-of IDs, input hash, fixture/schema/ruleset/rule versions, exact
-  decimals, ordered steps, reason codes, citations, warnings, and exclusions.
-- [ ] Serialization is strict, versioned, canonical, and round-trips without losing provenance.
-- [ ] Unknown/missing fields, unsupported versions/statuses, tampered hashes, and unapproved rules
-  have explicit tested behavior.
-- [ ] Re-running identical approved inputs produces byte-equivalent canonical output apart from a
-  caller-supplied run ID, if the run ID is part of the contract.
+## Effective-dated rules and immutable evidence
 
-## Tests and engineering integration
+- [ ] CURRENT/PROPOSED/FUTURE/SUPERSEDED are distinct from internal reviewer approval.
+- [ ] Execution requires APPROVED, effective-for-as-of, permitted legal status, correct jurisdiction,
+  and matching source/manifest evidence. No eligible match or overlapping matches are typed errors.
+- [ ] Proposal, future, revoked, unapproved, and superseded-as-live-default cases cannot execute.
+- [ ] A CURRENT display alias is resolved once to a pinned manifest and recorded; no silent upgrades.
+- [ ] Approved content is immutable; lifecycle changes preserve prior manifest/status snapshots.
+- [ ] Historical replay policy is explicitly approved before any replay behavior is enabled.
 
-- [ ] Unit tests cover every rule branch and representative failure behavior.
-- [ ] Golden and regulatory regression tests use reviewer-approved expected outputs.
-- [ ] Boundary tests cover the SME threshold, zero/excess provisions, rating states, dates, decimal
-  precision, and every scope rejection.
-- [ ] Property tests cover multiplication identities and deterministic serialization where valid.
-- [ ] Tests prove the finance domain/rule packages have no prohibited framework/provider imports.
-- [ ] Root format, lint, type-check, test, and build tasks include all Sprint 02 code and fixtures.
-- [ ] Existing Sprint 00 and Sprint 01 contracts continue to pass.
+## Trace, serialization, and reproducibility
 
-## Completion evidence
+- [ ] Every trace step has ID/order, operation, rule ID/version or engine-contract ref, reason code,
+  source locator, inputs used, typed output, and warnings.
+- [ ] Regulatory references resolve to U.S. authority; conceptual BCBS links are separately labelled.
+- [ ] Hash and canonical serialization policies are documented and tested, including plain decimals,
+  ISO dates, schema versions, stable ordering, and rejection of unknown/missing fields.
+- [ ] Repeated identical inputs/versions produce reproducible calculations and evidence without
+  network, wall-clock, random, database, or LLM dependencies.
+- [ ] Failed requests return typed errors/failure trace and no successful financial outputs.
 
-- [ ] `node scripts/task.mjs format-check` passes.
-- [ ] `node scripts/task.mjs lint` passes.
-- [ ] `node scripts/task.mjs typecheck` passes.
-- [ ] `node scripts/task.mjs test` passes.
-- [ ] `node scripts/task.mjs build` passes.
-- [ ] `node scripts/task.mjs e2e` passes if affected; otherwise REVIEW.md records why not.
-- [ ] `node scripts/task.mjs verify-artifacts` confirms every finalized reference artifact is
-  unchanged.
-- [ ] Infrastructure validation runs if affected; otherwise REVIEW.md records why not.
-- [ ] `git diff --check` passes.
-- [ ] REVIEW.md records command evidence, environment versions, limitations, deferrals, source
-  metadata, reviewer provenance, and final acceptance decision.
+## Tests required before eventual Sprint 02 acceptance
 
-## Final review
+- [ ] Golden outputs and exclusions are independently signed off by the named human reviewer.
+- [ ] Borrower-name/ID invariance and another ordinary corporate amount prove generic orchestration;
+  identity metadata may differ, financial outputs may not depend on it.
+- [ ] Boundary tests cover missing facts, contradictory balance-sheet flags, carrying-value
+  reconciliation, nonzero/out-of-scope adjustments, nonaccrual/past-due states, and each scope guard.
+- [ ] Version/status tests cover proposal/current confusion (including the 2026 proposal candidate),
+  effective-date boundaries, overlaps, mismatched hashes, revocations, and unapproved rules.
+- [ ] Property/regression tests cover exact arithmetic, immutable facts/results, canonical hashes,
+  trace/source completeness, and deterministic provider calls.
+- [ ] Existing Sprint 00 and hardened Sprint 01 tests continue to pass.
+- [ ] Formatting, lint, mypy/TypeScript, tests, builds, artifact hashes, and relevant E2E/infrastructure
+  checks pass with exact evidence and limitations in REVIEW.md.
 
-- [ ] Accountable regulatory reviewer approves the implemented interpretation and golden results.
-- [ ] Project owner accepts the sprint only after every applicable criterion has evidence.
+No implementation acceptance is recorded by this document revision.
+SPRINT 02 REMAINS INACTIVE
