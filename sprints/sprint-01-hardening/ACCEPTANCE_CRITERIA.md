@@ -12,5 +12,5 @@
 - [x] Complete task-runner verify passes: format, lint, types, tests, builds, E2E, artifact hashes.
 - [x] Docker stack verification passes or its exact environmental blocker is recorded.
 - [x] Historical reviews/reference artifacts are unchanged; no future-sprint features are added.
-- [ ] PR targets main, distinguishes integration from hardening, and is not automatically merged.
-- [ ] STATUS.md records IMPLEMENTED / VERIFIED / PLANNED / BLOCKED, PR, and hosted CI evidence.
+- [x] PR targets main, distinguishes integration from hardening, and is not automatically merged.
+- [x] STATUS.md records IMPLEMENTED / VERIFIED / PLANNED / BLOCKED, PR, and hosted CI evidence.

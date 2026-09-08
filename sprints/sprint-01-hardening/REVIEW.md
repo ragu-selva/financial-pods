@@ -1,6 +1,6 @@
 # Sprint 01 Hardening Review
 
-Status: Local verification complete; PR publication/hosted CI pending. Not yet accepted.
+Status: Ready for review; local and hosted verification complete. Not yet accepted or merged.
 
 ## Authorization and integration
 
@@ -57,8 +57,15 @@ pytest cache WinError 183, Next.js slow-filesystem warning, and FORCE_COLOR/NO_C
 
 ## Hosted review
 
-PR number and hosted CI evidence will be recorded after publication. Local success is not presented
-as hosted CI success. Historical Sprint 01 review records remain unchanged.
+[PR #2](https://github.com/ragu-selva/financial-pods/pull/2) targets main from
+codex/sprint-01-hardening. Open, non-draft, no merge conflicts observed; not merged.
+
+VERIFIED: [GitHub Actions run 34247265131](https://github.com/ragu-selva/financial-pods/actions/runs/34247265131)
+passed for implementation commit a71d639 on Ubuntu/Node 24/Python 3.12. All workflow steps passed,
+including PostgreSQL/Redis service initialization, pgvector enable/check, Compose validation,
+artifact hashes, lint, formatting, types, tests, builds, and Chromium smoke tests. Local Docker
+remains blocked independently. Subsequent documentation-only updates trigger fresh PR checks;
+the PR is the source for the latest run. Historical Sprint 01 review records remain unchanged.
 
 ## Deferred work and decision
 

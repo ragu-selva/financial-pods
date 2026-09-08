@@ -1,6 +1,7 @@
 # Sprint 01 — Integration and Hardening
 
-Status: Active, explicitly authorized by the project owner on 2026-09-08.
+Status: Implementation complete and ready for review. Explicitly authorized by the project owner
+on 2026-09-08; acceptance/manual merge remain pending. No later sprint is activated.
 
 ## Goal and boundary
 
