@@ -1,5 +1,13 @@
 # Sprint 02 Framework and Calculation Scope
 
+Status: PLANNING ONLY — NOT ACTIVE
+
+Publication is for architecture/regulatory review only, not implementation approval. Sprint 02
+must not begin until the framework, jurisdiction, regulatory sources, calculation scope, golden
+outputs, and regulatory review process are explicitly approved by the project owner and the
+accountable regulatory reviewer. Candidate source claims below are preserved draft material from
+2026-08-27, not freshly validated regulatory authority.
+
 Status: Candidate control document; not approved and not executable authority.
 
 ## Recommendation for approval

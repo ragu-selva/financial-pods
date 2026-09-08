@@ -1,5 +1,13 @@
 # Sprint 02 Review
 
+Status: PLANNING ONLY — NOT ACTIVE
+
+Publication is for architecture/regulatory review only, not implementation approval. Sprint 02
+must not begin until the framework, jurisdiction, regulatory sources, calculation scope, golden
+outputs, and regulatory review process are explicitly approved by the project owner and the
+accountable regulatory reviewer. Candidate source claims below are preserved draft material from
+2026-08-27, not freshly validated regulatory authority.
+
 Status: Activation draft; implementation not started.
 
 ## Activation evidence
@@ -14,6 +22,15 @@ Status: Activation draft; implementation not started.
 - Root status documents updated: No; Sprint 02 is not active
 
 ## Drafting evidence
+
+Publication update, 2026-09-08: original planning commit
+`60fad85b78a1559fe61b78e461894587d165a304` is retained in this branch's ancestry, and the original
+local `codex/sprint-02-rules-calculation` branch remains unchanged. Review branch:
+https://github.com/ragu-selva/financial-pods/tree/codex/sprint-02-planning
+
+This planning branch is based on accepted main merge `b0cf3a9`; its only additions relative to
+that baseline are the four Sprint 02 control documents. It must not be merged into main as part
+of post-merge cleanup. Historical drafting evidence below remains dated 2026-08-27.
 
 - Sprint 01 baseline: Accepted in commit `03b03ec`
 - Draft branch: `codex/sprint-02-rules-calculation`

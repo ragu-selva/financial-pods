@@ -1,5 +1,13 @@
 # Sprint 02 — Reviewed Regulatory Rules and Calculation Slice
 
+Status: PLANNING ONLY — NOT ACTIVE
+
+Publication is for architecture/regulatory review only, not implementation approval. Sprint 02
+must not begin until the framework, jurisdiction, regulatory sources, calculation scope, golden
+outputs, and regulatory review process are explicitly approved by the project owner and the
+accountable regulatory reviewer. Candidate source claims below are preserved draft material from
+2026-08-27, not freshly validated regulatory authority.
+
 Status: Activation draft; not active. Implementation is blocked until every activation decision in
 FRAMEWORK_SCOPE.md is approved and an accountable regulatory reviewer accepts the review role.
 
@@ -35,7 +43,9 @@ unresolved decisions, and approval record. ACCEPTANCE_CRITERIA.md is the complet
 
 ## Entry and activation gates
 
-Sprint 01 is accepted and preserved in commit `03b03ec`.
+Sprint 01 is accepted and preserved in commit `03b03ec`. Sprint 01 hardening is accepted and
+merged through PR #2 at `b0cf3a95c97c80fc73d5dbf1b12b59b45cac6183` on 2026-09-08.
+That acceptance does not activate Sprint 02.
 
 This sprint becomes active only after the project owner and an accountable regulatory reviewer
 approve SPRINT.md, FRAMEWORK_SCOPE.md, and ACCEPTANCE_CRITERIA.md together. Approval must resolve the
