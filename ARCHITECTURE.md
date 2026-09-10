@@ -44,7 +44,7 @@ Local development uses Docker Compose. CI verifies formatting, lint, types, test
 
 Material decisions must be captured as numbered ADRs in `docs/adr/` with context, decision, consequences, and status.
 
-## Sprint 02 accepted design, not implemented
+## Sprint 02 implemented narrow domain slice
 
 ADR 0004 is ACCEPTED for the internal prototype: generic regulatory engine -> ruleset registry ->
 jurisdiction provider -> USStandardizedRuleset first. BCBS supplies concepts, not binding U.S.
@@ -52,4 +52,11 @@ numerical defaults; other providers and Regxify core extraction are future work.
 The approved evidence package is pinned to US / FRB / US_FRB_PART217_STANDARDIZED / 2025-01-01.
 Only the approved ordinary corporate Golden Case boundary is covered; borrower names cannot
 choose rules. Source resolution never performs classification/calculation or human approval.
-No production engine exists yet. Implementation waits for activation PR review and merge.
+PR #4 merged at a89eeb6; the authorized implementation lives inside
+packages/finance-engine/src/financial_pods_finance_engine/regulatory. Generic immutable contracts,
+canonical serialization and registry/orchestration are separate from us_sources/us_standardized.
+The adapter loads pinned local evidence and the unchanged Sprint 01 fixture before calculation.
+The in-memory engine emits a 12-step trace, exact exposure amount/1.00 weight/RWA and the sole
+0.08 educational equivalent. Only the exact approved ruleset/date can execute; no EAD alias.
+No calculation network, clock, random, database, Redis or LLM calls. Other package directories,
+product persistence and business routes remain planned. See sprints/sprint-02/RUNTIME_CONTRACT.md.

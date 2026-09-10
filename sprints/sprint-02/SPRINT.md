@@ -7,12 +7,15 @@ Reviewer: **Ragunath Selvaraj — Project Owner / Internal Regulatory Reviewer**
 This is the owner's accountable internal-prototype approval, not independent legal counsel,
 regulatory certification, production-bank sign-off or real-bank GAAP certification.
 
-Sprint 02: **ACTIVE** on the activation branch. Implementation: **NOT YET STARTED**.
-Implementation remains blocked until the activation PR is reviewed and merged; no automatic merge.
+Sprint 02: **ACTIVE** on main through merged PR #4 at
+`a89eeb60727c5f615514f75ecc27f57f19ec23cf`. The owner authorized the separate
+`codex/sprint-02-us-corporate-engine` implementation branch. Implementation is present;
+engineering verification and implementation PR review are recorded in REVIEW.md.
+No automatic merge or broader regulatory scope is authorized.
 
 ## Goal
 
-Implement, only after this activation PR is reviewed and merged, a reusable Regulatory Classification + Calculation Engine. Its first executable
+Implement the now-authorized, reusable Regulatory Classification + Calculation Engine. Its first executable
 slice is the United States standardized corporate-exposure path under an approved, effective-dated
 12 CFR Part 217 ruleset. FinBank lending USD 10,000,000 to Alpha Manufacturing is the first Golden
 Case, not an engine design constraint. Names and case IDs must never select rules or results.
@@ -34,9 +37,10 @@ binding U.S. law and is not a fallback when U.S. rules or facts are missing.
 
 See [accepted ADR 0004](../../docs/adr/0004-generalized-regulatory-engine.md) for diagrams,
 provider boundaries, dependencies, and the potential shared-core direction.
-[FRAMEWORK_SCOPE.md](FRAMEWORK_SCOPE.md) owns the approved design contracts; runtime implementation/finalization remains future work.
+[FRAMEWORK_SCOPE.md](FRAMEWORK_SCOPE.md) preserves the approved design scope.
+[RUNTIME_CONTRACT.md](RUNTIME_CONTRACT.md) finalizes the implemented v1 contracts without changing source approval.
 
-## First eventual functional slice
+## First implemented functional slice
 
 - Explicit U.S. / Federal Reserve Part 217 applicability and version selection.
 - Structural validation and jurisdiction-specific fact requirements with typed errors.
@@ -50,7 +54,7 @@ provider boundaries, dependencies, and the potential shared-core direction.
 - Name-invariance and alternate synthetic corporate-case tests demonstrating generic orchestration.
 - Source/status/hash/date/reviewer gates; no unapproved executable rules.
 
-Only USStandardizedRuleset is planned for initial implementation after activation. Contracts should
+Only USStandardizedRuleset is implemented in this slice. Contracts
 permit BCBSStandardizedRuleset, SAMAStandardizedRuleset, and CBUAEStandardizedRuleset later.
 Do not implement placeholder providers with invented regulatory behavior.
 
@@ -94,14 +98,14 @@ No changed date, material fact or positive excluded treatment inherits this appr
 ## Activation and human review
 
 Sprint 00, Sprint 01 and Sprint 01 hardening remain accepted; PR #2 merged at b0cf3a9 and
-post-merge cleanup at 5fcfc5a. This activation branch starts at that current main commit.
+post-merge cleanup at 5fcfc5a. PR #4 subsequently merged the activation at a89eeb6.
 Ragunath Selvaraj explicitly accepted accountability and the source/Golden boundary for the
 internal prototype on 2026-09-10. ACTIVATION_RECORD.json transcribes the human decision.
 ADR 0004 is ACCEPTED. The existing source resolver skill is approved for evidence resolution
 only; it cannot classify, calculate or grant approval. Its historical planning-run note is not
 current sprint control. No AI is the accountable regulatory reviewer.
 
-## Activation PR and implementation sequence
+## Activation PR and implementation sequence — completed authorization gates
 
 1. Complete human-approved control documents, source/interpretation manifest, all source hashes
    and effective dates, Golden Case assumptions/expected outputs and accountable reviewer record.
@@ -117,8 +121,11 @@ current sprint control. No AI is the accountable regulatory reviewer.
    capital equivalent, trace, source/version enforcement, Golden/alternate-name/alternate-amount
    cases and regulatory regression/property tests. No other jurisdictions or exposure classes.
 
-## Stop condition for this activation task
+## Current implementation stop condition
 
-Verify and publish this governance/evidence-only branch and open the activation PR against main.
-Do not merge automatically and do not write production regulatory-engine code.
-Implementation: NOT YET STARTED. The separate implementation milestone remains gated on PR merge.
+Verify the narrow engine, publish codex/sprint-02-us-corporate-engine and open its review PR against main.
+Stop with the implementation PR open; do not merge automatically or start another exposure class/sprint.
+ACTIVATION_RECORD.json remains the immutable activation-time approval snapshot. The separate
+IMPLEMENTATION_RECORD.json records the merged activation baseline and this authorized implementation.
+The owner expressly requested a different-name case and a USD 5 million case with otherwise
+identical approved assumptions; variable principal does not authorize other material fact changes.

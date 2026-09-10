@@ -7,12 +7,17 @@ Reviewer: **Ragunath Selvaraj — Project Owner / Internal Regulatory Reviewer**
 This is the owner's accountable internal-prototype approval, not independent legal counsel,
 regulatory certification, production-bank sign-off or real-bank GAAP certification.
 
-Sprint 02: **ACTIVE** on the activation branch. Implementation: **NOT YET STARTED**.
-Implementation remains blocked until the activation PR is reviewed and merged; no automatic merge.
+Sprint 02: **ACTIVE** on main through merged PR #4 at
+`a89eeb60727c5f615514f75ecc27f57f19ec23cf`. The owner authorized the separate
+`codex/sprint-02-us-corporate-engine` implementation branch. Implementation is present;
+engineering verification and implementation PR review are recorded in REVIEW.md.
+No automatic merge or broader regulatory scope is authorized.
 
-The design contracts below are approved inputs to the next implementation milestone, not running
-software. GOLDEN_CASE_APPROVED.json and the source approval envelope are authoritative for the
-approved expectations. Runtime schema versions retain their draft suffix until implemented/tested.
+The design contracts below preserve the approved activation-time scope and draft schema history.
+GOLDEN_CASE_APPROVED.json and the source approval envelope remain unchanged authoritative inputs.
+RUNTIME_CONTRACT.md finalizes the implemented regulatory-facts.v1, regulatory-classification.v1,
+regulatory-calculation.v1 and regulatory-trace.v1 contracts. Draft examples below are not runtime
+payloads; no old-draft compatibility or EAD alias is provided.
 
 ## 1. Separate conceptual authority from executable jurisdiction
 
