@@ -10,7 +10,8 @@
   "activation_approval_record": "ACTIVATION_RECORD.json",
   "activation_approval_record_sha256": "58c65c7bc05f75db2ab167ab950aa104f57930fe7884b8838c240f559998f838",
   "ruleset_version": "US_FRB_PART217_STANDARDIZED@2025-01-01.internal-v1",
-  "implementation_pr": null,
+  "implementation_pr": 5,
+  "implementation_commit": "0f386d2f4d880a0cfb1fd4ab8eb6283b47634d65",
   "implementation_accepted": false,
   "automatic_merge_authorized": false,
   "source_approval_changed": false,
@@ -28,6 +29,7 @@
     "source_captures_verified": 71,
     "amount_property_examples": 50,
     "docker_runtime": "BLOCKED: Docker Desktop Linux engine pipe unavailable",
-    "hosted_ci": "PENDING_PUBLICATION"
+    "hosted_ci": "PENDING",
+    "hosted_ci_url": "https://github.com/ragu-selva/financial-pods/pull/5/checks"
   }
 }

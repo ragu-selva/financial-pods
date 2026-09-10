@@ -4,7 +4,9 @@ Status: ACTIVE
 
 Review date: 2026-09-10. Implementation: IMPLEMENTED / locally VERIFIED / PENDING HUMAN REVIEW.
 Activation PR #4 is MERGED at a89eeb60727c5f615514f75ecc27f57f19ec23cf.
-Implementation branch: codex/sprint-02-us-corporate-engine. Implementation PR: pending publication.
+Implementation branch: codex/sprint-02-us-corporate-engine.
+Implementation PR: [#5](https://github.com/ragu-selva/financial-pods/pull/5), OPEN FOR REVIEW.
+Implementation commit: 0f386d2f4d880a0cfb1fd4ab8eb6283b47634d65.
 No automatic merge; this engineering review is not final human implementation acceptance.
 
 ## Implemented scope
@@ -38,7 +40,8 @@ name invariance and generated alternate amounts. No excluded treatment is calcul
 - Planning/activation source-hash checks: 35 PASS; all 71 captures and approval pins unchanged.
 - Amount property: 50 generated examples PASS, zero failing/invalid examples; 1 passed, 298 deselected.
 - git diff --check: PASS; original fixture, source and historical paths unchanged.
-- Hosted implementation CI: pending publication; no unobserved success claimed.
+- Hosted implementation CI: PENDING for the publication head; no unobserved success claimed.
+  See [PR #5 checks](https://github.com/ragu-selva/financial-pods/pull/5/checks).
 
 Docker Compose configuration passes. Docker runtime remains a non-blocking local limitation:
 failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine;

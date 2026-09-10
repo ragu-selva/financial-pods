@@ -12,13 +12,15 @@ not implemented; BLOCKED names a concrete unmet prerequisite. Tests are not huma
 ## Current Branch
 
 codex/sprint-02-us-corporate-engine, created fresh from updated origin/main after PR #4 merged.
-Implementation PR: pending publication. Do not merge automatically.
+Implementation PR: [#5](https://github.com/ragu-selva/financial-pods/pull/5), OPEN FOR REVIEW.
+Do not merge automatically.
 The planning and activation branches were not used for implementation.
 
 ## Latest Commit
 
 Activated base: a89eeb60727c5f615514f75ecc27f57f19ec23cf (PR #4 merge).
-Implementation commits are on the current branch; final publication records its head.
+Implementation commit: 0f386d2f4d880a0cfb1fd4ab8eb6283b47634d65.
+The follow-up documentation commit records PR #5; see the branch head for publication metadata.
 Accepted Sprint 01/hardening history, PR #2 merge b0cf3a95c97c80fc73d5dbf1b12b59b45cac6183,
 and cleanup PR #3 remain in ancestry. Original 03b03ec and 60fad85 are preserved.
 codex/sprint-02-planning remains separately published at 79b33dbb1f069a89fc6d87336a23268adea08589.
@@ -45,8 +47,8 @@ codex/sprint-02-planning remains separately published at 79b33dbb1f069a89fc6d873
 
 ## In Progress
 
-Implementation PR publication and human review/acceptance. No automatic merge.
-Engineering verification is complete locally; hosted CI status is recorded after publication.
+PR #5 human review/acceptance and hosted CI. No automatic merge.
+Engineering verification is complete locally; hosted CI is pending for the publication head.
 
 ## Not Started
 
@@ -60,7 +62,8 @@ GCP remains a preference, not a locked or deployed production architecture.
 
 This task changes only the finance-engine regulatory subpackage/new tests, active implementation
 controls/evidence checks and living documentation. No unrelated local changes were found.
-Publication and final git status will establish the clean branch head. Generated outputs stay ignored.
+All scoped changes are committed/pushed; final publication checks confirm a clean branch head.
+Generated outputs stay ignored.
 Planning/activation branches and original Sprint 00/01 records, fixture and raw evidence are preserved.
 
 ## Current Architecture
@@ -102,7 +105,8 @@ Fresh local verification, 2026-09-10:
 - Amount property: 50 generated examples PASS, zero failures; 1 test passed / 298 deselected.
 - git diff --check: PASS; protected fixture, source and historical paths unchanged.
 - Docker Compose configuration: PASS; Docker runtime: BLOCKED, no stack-runtime pass.
-- Hosted implementation CI: pending publication, not yet claimed as passing.
+- Hosted implementation CI: PENDING for the publication head; no hosted pass claimed.
+  See [PR #5 checks](https://github.com/ragu-selva/financial-pods/pull/5/checks).
 
 Retained historical acceptance evidence: Sprint 01/hardening 130 finance tests, 5 API, 3 web,
 2 browser tests and full gates passed on 2026-09-08. Hosted hardening runs
