@@ -2,25 +2,29 @@
 
 ## Current Date
 
-2026-09-10, America/New_York. Sprint 02 implementation review snapshot.
+2026-09-10, America/New_York. Sprint 02 post-merge acceptance snapshot.
 
 Sprint 00: ACCEPTED. Sprint 01: ACCEPTED. Sprint 01 hardening: ACCEPTED AND MERGED.
-PR #2: MERGED. Sprint 02: ACTIVE on main after PR #4 merge; narrow implementation pending review.
+PR #2: MERGED. Sprint 02: ACCEPTED AND MERGED. Activation PR #4 and implementation PR #5: MERGED.
+U.S. corporate regulatory engine: IMPLEMENTED AND VERIFIED. Sprint 03: NOT ACTIVE / NOT STARTED.
 IMPLEMENTED means present software; VERIFIED means an observed passing check; PLANNED means
 not implemented; BLOCKED names a concrete unmet prerequisite. Tests are not human acceptance.
 
 ## Current Branch
 
-codex/sprint-02-us-corporate-engine, created fresh from updated origin/main after PR #4 merged.
-Implementation PR: [#5](https://github.com/ragu-selva/financial-pods/pull/5), OPEN FOR REVIEW.
-Do not merge automatically.
-The planning and activation branches were not used for implementation.
+Local main was fast-forwarded to origin/main at 979dda66a3cc3424d1bf244680ef719a879680e1.
+Current cleanup branch: codex/sprint-02-post-merge-cleanup, created from that synchronized main.
+Implementation PR [#5](https://github.com/ragu-selva/financial-pods/pull/5) is MERGED.
+The cleanup is a separate documentation-only PR; no automatic merge or Sprint 03 work.
 
 ## Latest Commit
 
-Activated base: a89eeb60727c5f615514f75ecc27f57f19ec23cf (PR #4 merge).
-Implementation commit: 0f386d2f4d880a0cfb1fd4ab8eb6283b47634d65.
-The follow-up documentation commit records PR #5; see the branch head for publication metadata.
+Accepted main merge: 979dda66a3cc3424d1bf244680ef719a879680e1 (PR #5), merged 2026-09-10
+at 21:00:17 UTC / 17:00:17 America/New_York. The owner confirmed review and acceptance.
+Activation merge: a89eeb60727c5f615514f75ecc27f57f19ec23cf (PR #4).
+Implementation 0f386d2f4d880a0cfb1fd4ab8eb6283b47634d65 and publication
+2fa438062977e15651ca4ad79d74795df820edec remain unchanged in main history.
+See the cleanup branch head for the documentation-only publication commit.
 Accepted Sprint 01/hardening history, PR #2 merge b0cf3a95c97c80fc73d5dbf1b12b59b45cac6183,
 and cleanup PR #3 remain in ancestry. Original 03b03ec and 60fad85 are preserved.
 codex/sprint-02-planning remains separately published at 79b33dbb1f069a89fc6d87336a23268adea08589.
@@ -39,16 +43,21 @@ codex/sprint-02-planning remains separately published at 79b33dbb1f069a89fc6d873
 - IMPLEMENTED / VERIFIED: Generic immutable regulatory contracts, exact-version registry,
   orchestration, one U.S. provider, classification, treatment, typed exposure measure, RWA,
   sole educational output, ordered trace, canonical serialization and stable typed failures.
-- IMPLEMENTED / VERIFIED: Golden USD 10m -> CORPORATE, weight 1.00, RWA USD 10m,
-  baseline_total_capital_equivalent USD 800k at 0.08.
+- ACCEPTED AND MERGED / IMPLEMENTED AND VERIFIED: exact ruleset
+  US_FRB_PART217_STANDARDIZED@2025-01-01.internal-v1, US/FRB standardized, as-of 2025-01-01.
+- VERIFIED AT RUNTIME after merge: CORPORATE; EXPOSURE_AMOUNT /
+  US_STANDARDIZED_CARRYING_VALUE USD 10,000,000.00; risk weight 1.00;
+  RWA USD 10,000,000.00; baseline_total_capital_equivalent USD 800,000.00 at 0.08.
+  The result contains a 12-step immutable, source-linked calculation trace.
 - IMPLEMENTED / VERIFIED: Different-name/IDs invariance, USD 5m -> USD 5m RWA/USD 400k teaching,
   hostile Decimal contexts, all required fields/exclusions, source/proposal tampering and direct
   provider safeguards. Original accepted fixture and source/human approval artifacts unchanged.
 
 ## In Progress
 
-PR #5 human review/acceptance and hosted CI. No automatic merge.
-Engineering verification is complete locally; hosted CI is pending for the publication head.
+Documentation-only post-merge cleanup and its separate review PR.
+Sprint 02 implementation review, acceptance, merge and hosted CI are complete.
+No Sprint 03 implementation is in progress.
 
 ## Not Started
 
@@ -60,11 +69,10 @@ GCP remains a preference, not a locked or deployed production architecture.
 
 ## Uncommitted Changes
 
-This task changes only the finance-engine regulatory subpackage/new tests, active implementation
-controls/evidence checks and living documentation. No unrelated local changes were found.
-All scoped changes are committed/pushed; final publication checks confirm a clean branch head.
-Generated outputs stay ignored.
-Planning/activation branches and original Sprint 00/01 records, fixture and raw evidence are preserved.
+This cleanup changes only STATUS.md, ROADMAP.md and sprints/sprint-02/REVIEW.md.
+No production code, tests, source evidence, approved Golden Case, reviewer evidence or infrastructure
+changes. No unrelated local changes were found. Generated outputs remain ignored; publication
+checks verify the committed/pushed branch and clean working tree. All original branches/history remain.
 
 ## Current Architecture
 
@@ -93,20 +101,22 @@ See packages/finance-engine/README.md for a runnable local calculation example.
 
 ## Tests and Verification
 
-Fresh local verification, 2026-09-10:
+Post-merge local verification, 2026-09-10, against accepted main 979dda6:
 
 - node scripts/task.mjs verify: PASS / exit 0.
 - Formatting, JavaScript/ESLint/Ruff lint, TypeScript and strict mypy: PASS.
-- Python finance engine: 429 PASS (130 preserved baseline + 299 new regulatory tests), 68.54s.
+- Python finance engine: 429 PASS (130 preserved baseline + 299 regulatory tests).
 - Python API: 5 PASS. Web unit: 3 PASS. Chromium E2E: 2 PASS.
 - Next.js production build and both Python sdist/wheel builds: PASS.
 - Immutable reference artifacts: all 10 hashes PASS.
 - Source/activation/planning checks: 35 PASS; all 71 raw hashes and approved pins unchanged.
-- Amount property: 50 generated examples PASS, zero failures; 1 test passed / 298 deselected.
+- Retained implementation property evidence: 50 generated examples PASS, zero failures;
+  1 test passed / 298 deselected. The full property/regression suite also reran after merge.
 - git diff --check: PASS; protected fixture, source and historical paths unchanged.
 - Docker Compose configuration: PASS; Docker runtime: BLOCKED, no stack-runtime pass.
-- Hosted implementation CI: PENDING for the publication head; no hosted pass claimed.
-  See [PR #5 checks](https://github.com/ragu-selva/financial-pods/pull/5/checks).
+- Hosted implementation CI: VERIFIED / PASSED, [run 34515138968](https://github.com/ragu-selva/financial-pods/actions/runs/34515138968),
+  status completed / conclusion success for PR #5 head 2fa438062977e15651ca4ad79d74795df820edec.
+  Cleanup-PR CI is a separate run; that pass is not assumed.
 
 Retained historical acceptance evidence: Sprint 01/hardening 130 finance tests, 5 API, 3 web,
 2 browser tests and full gates passed on 2026-09-08. Hosted hardening runs
@@ -120,7 +130,8 @@ These historical runs are not the implementation branch's hosted CI result.
 - Non-blocking local runtime limitation: docker info failed to connect to the Docker API at
   npipe:////./pipe/dockerDesktopLinuxEngine; open //./pipe/dockerDesktopLinuxEngine:
   The system cannot find the file specified. No Docker runtime pass claimed.
-- Exact approved 2025-01-01 only; no general historical replay or current alias. R-1888 cannot execute.
+- Exact approved 2025-01-01 only; no general historical replay or current alias.
+  R-1888 remains PROPOSED / non-executable; no regulatory coverage expansion.
 - Synthetic zero-adjustment/zero-allowance assumptions are not real-bank GAAP/CECL certification.
   Different material assumptions or positive excluded facts need separate review; no fallback.
 - Fractional-cent teaching results fail with ROUNDING_POLICY_UNDEFINED. No rounding policy or
@@ -128,21 +139,28 @@ These historical runs are not the implementation branch's hosted CI result.
 - Provenance is traceability, not truth verification or submitter authentication.
 - Existing non-failing warnings: Starlette/httpx TestClient deprecation, Windows pytest cache
   WinError 183, Next.js slow filesystem, FORCE_COLOR/NO_COLOR notices.
-- Historical approval/planning documents retain prior-time wording. ACTIVATION_RECORD.json is
-  immutable activation-time approval; IMPLEMENTATION_RECORD.json carries current software status.
+- Historical approval/planning and pre-merge implementation records retain prior-time wording.
+  ACTIVATION_RECORD.json and IMPLEMENTATION_RECORD.json are unchanged snapshots, not current
+  delivery status. This STATUS.md and the post-merge section in REVIEW.md supersede their
+  pending-review/acceptance labels and earlier control-document execution labels.
 - No production-bank, legal, accounting or final implementation acceptance is implied by tests.
 
 ## Current Sprint
 
-Sprint 02: ACTIVE on main after merged PR #4. Narrow engine IMPLEMENTED and locally VERIFIED,
-pending separate human implementation review/acceptance/merge.
-Sprint 00/01/hardening remain accepted. No subsequent sprint has begun.
+Sprint 02: ACCEPTED AND MERGED through PR #5 at 979dda6; activation PR #4 also merged.
+The approved U.S. corporate engine is IMPLEMENTED AND VERIFIED, with hosted CI passed.
+Sprint 00/01/hardening remain accepted. Sprint 03 is NOT ACTIVE / NOT STARTED.
 
 ## Recommended Next Sprint
 
-Review the Sprint 02 implementation PR and its trace/source/Golden evidence. Merge only after
-human acceptance. Separately restore Docker Desktop and run node scripts/task.mjs stack-verify.
-Do not begin another sprint or expand regulatory scope automatically.
+First agree and approve a bounded Sprint 03 Golden Lesson integration control pack and acceptance
+criteria. Recommended first vertical slice: present the unchanged approved case facts, exact engine
+result, educational warnings and source-linked 12-step trace through a thin application/API boundary
+and a read-only learner screen. Reuse the accepted engine; do not recalculate in the browser or
+broaden rulesets, dates or exposure classes. Tutor, persistence and wider lesson features need scope approval.
+This is a recommendation only: no Sprint 03 files or implementation were created here.
+Restore Docker Desktop separately and rerun node scripts/task.mjs stack-verify; the current limitation
+is non-blocking for accepted Sprint 02 and this documentation-only cleanup.
 
 ## Important Decisions
 
