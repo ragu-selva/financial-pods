@@ -2,7 +2,7 @@
 
 Status: PLANNING ONLY — NOT ACTIVE
 
-Revision date: 2026-09-08. This record distinguishes completed planning work from unapproved
+Revision date: 2026-09-10. This record distinguishes completed planning work from unapproved
 regulatory interpretation and unimplemented software.
 
 ## Architecture direction versus activation
@@ -13,8 +13,9 @@ regulatory interpretation and unimplemented software.
 - Proposed ADR: [0004 — Generalized regulatory engine](../../docs/adr/0004-generalized-regulatory-engine.md).
   Status PROPOSED until Sprint 02 activation.
 - Product-owner implementation activation: NOT GRANTED.
-- Personally named human regulatory reviewer: PENDING.
-- Reviewer role/authority/acceptance and review process: PENDING.
+- Owner has agreed to act as accountable human reviewer for the internal prototype.
+- Personally named reviewer identity/authority, final review evidence and approval: PENDING.
+- Final reviewer fields are deliberately unfilled; willingness to review is not completed approval.
 - U.S. source versions, dates, hashes, locators, and interpretation approval: PENDING.
 - Golden Case assumptions/classification/risk weight/RWA/teaching outputs/exclusions: PENDING.
 - Typed regulatory exposure measure replaces the rejected EAD alias by owner direction.
@@ -145,7 +146,7 @@ Docker was not rerun for this non-runtime change; the previously recorded local-
 remains and no new stack pass is claimed. Existing non-failing Starlette/httpx, pytest cache
 WinError 183, Next.js slow-filesystem and FORCE_COLOR/NO_COLOR warnings remain.
 
-### Source-chain and dependency follow-up (current, 2026-09-08)
+### Source-chain and dependency follow-up (historical, 2026-09-08)
 
 The source-resolver follow-up below describes 02904db historically. This later task reused all
 11 captures and added 48 official raw files: 30 FR documents, 12 cumulative Title 12 LSA editions,
@@ -192,6 +193,58 @@ Verification for this follow-up:
 These checks validate planning evidence and the existing baseline. They do not verify any
 production regulatory classifier/calculator, approve source intervals or activate Sprint 02.
 
+### Minimum material source closure (current, 2026-09-10)
+
+The owner approved proceeding to human activation review for the internal V1 prototype, subject
+to a narrow material-evidence boundary. This is **not implementation activation**. See
+[MATERIAL_SOURCE_CLOSURE.md](MATERIAL_SOURCE_CLOSURE.md) and
+[GOLDEN_CASE_SOURCE_BOUNDARY.json](GOLDEN_CASE_SOURCE_BOUNDARY.json).
+
+- **Source side: READY_FOR_HUMAN_REVIEW**, not APPROVED. The earlier documentary block is
+  superseded for these explicit facts and this date only.
+- Four documentary gaps resolved: institutional counterparty exclusion, PPP exclusion,
+  carrying-value/accounting basis, and covered-position/market-risk outer scope.
+- Added 12 official raw captures; all 59 earlier captures retained. Total **71** source files.
+- SourceManifest v0.4-draft: 8 REQUIRED_AND_RESOLVED; 0 REQUIRED_BUT_UNRESOLVED;
+  4 NOT_REQUIRED_FOR_GOLDEN_CASE; 2 DEFERRED_FUTURE_SCOPE groups.
+- The new synthetic fact supplement is proposed for the owner's review, not an approved fixture.
+  Zero allowance is an explicit educational simplification, not an inferred CECL/GAAP conclusion;
+  the gross/net/regulatory carrying-value distinction is documented.
+- Source collection stops here unless a material fact/source finding is rejected or changes.
+- All source/dependency reviews remain PENDING_REVIEW; every executable flag remains false.
+  R-1888 remains PROPOSED / executable=false. Fixed selectors and candidate outputs are unchanged.
+- Owner willingness to act as reviewer is recorded, but ACTIVATION_RECORD.json and all seven
+  human fields remain unchanged/null. No personal identity, qualification or sign-off is invented.
+- Commit 6405e628f4ec365981a32d07cd5c37a4303b73ee was subsequently published with explicit owner
+  approval; the preceding historical publication-block note is not the current branch status.
+- No activation PR, main merge, production regulatory code or implementation activation.
+
+Verification completed locally on 2026-09-10:
+
+- `node --test sprints/sprint-02/planning-evidence.test.mjs`: PASS, **26** planning-only
+  checks. Six new checks cover the minimum boundary, required-dependency removal/downgrade,
+  explicit fact omissions/contradictions, individual material-source link removal, PPP edition
+  reconciliation, and bounded identity/reporting captures. Readiness cannot imply approval.
+- All **71** raw evidence SHA-256/byte-length checks: PASS, including the four new PDFs.
+  Every original source record and all 59 earlier raw files match 6405e62 byte-for-byte;
+  all original rule bindings, candidate outputs and activation-record bytes are unchanged.
+- PPP (a)(36) edition-fragment comparison: identical, 47,441 bytes, documented SHA-256.
+  Regulation K eCFR/annual comparison: 58/58 direct paragraphs, zero whitespace-normalized
+  differences. Relevant PDF passages, printed dates and footnotes were visually inspected.
+- `node scripts/task.mjs verify`: PASS, exit 0. Formatting, ESLint/Ruff, TypeScript/mypy,
+  130 finance tests including Hypothesis tests, 5 API tests, 3 web tests, 2 browser tests,
+  Next.js production build, API/finance wheel/source builds, and 10 immutable artifact hashes.
+- Authored planning-file Prettier checks, JavaScript syntax, local Markdown links/code fences
+  and `git diff --check`: PASS.
+- Production, accepted fixtures, infrastructure, immutable references and historical Sprint
+  00/01/hardening records remain unchanged. No regulatory engine is implemented or tested.
+- Docker stack verification was not rerun for this planning-only change. The previously
+  recorded local-runtime limitation remains; no fresh Docker pass is claimed.
+- Non-failing existing warnings: Starlette/httpx deprecation, pytest cache WinError 183,
+  Next.js slow-filesystem detection and FORCE_COLOR/NO_COLOR precedence.
+- No new hosted CI run, activation PR or remote publication is claimed for this local closure.
+  All checks above are local documentary/baseline checks, not human legal/accounting approval.
+
 ## Known limitations and deferred work
 
 ### Reusable source-resolver follow-up (02904db; historical)
@@ -232,7 +285,8 @@ No U.S. executable rules, approved source manifest, accepted regulatory fixture,
 or engine implementation exist. The draft JSON and local evidence-check tests are review artifacts,
 not production models or calculation/selection logic. PLANNED_TESTS.md describes future runtime tests.
 ACTIVATION_RECORD.json leaves all seven human reviewer fields null; the owner must supply/approve them.
-Legal source/effective-interval and Golden result review is incomplete. Activation PR creation is BLOCKED;
+Narrow documentary source closure is ready for human review; final legal/fact/Golden-result
+acceptance and executable interval policy remain unapproved. Activation PR creation is not authorized;
 no activation branch/PR or implementation branch was created.
 Local Docker's previously recorded runtime limitation is non-blocking for documentation work;
 this revision changes no runtime/infrastructure.
@@ -246,7 +300,8 @@ inspected, copied, or evaluated for reuse in this task; that requires a later bo
 
 - [x] Record the owner-approved final architecture directions as planning.
 - [x] Capture dated source bytes and prepare draft manifest/Golden/reviewer records.
-- [ ] Finish source/amendment/effective-interval review and named human sign-off.
+- [x] Resolve the minimum documentary source dependencies for the fixed synthetic Golden Case.
+- [ ] Complete named human source/applicability/fact/result sign-off.
 - [ ] Accept proposed ADR 0004 at activation.
 - [ ] Approve regulatory sources, interpretations, facts, and golden results.
 - [ ] Activate Sprint 02.

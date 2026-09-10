@@ -1,0 +1,171 @@
+{
+  "status": "PLANNING ONLY — NOT ACTIVE",
+  "schema_version": "golden-source-boundary.v0.1-draft",
+  "review_status": "PENDING_REVIEW",
+  "executable": false,
+  "context": {
+    "as_of_date": "2025-01-01",
+    "jurisdiction": "US",
+    "regulator": "FRB",
+    "ruleset_family": "US_FRB_PART217_STANDARDIZED"
+  },
+  "candidate_file": "GOLDEN_CASE_CANDIDATE.json",
+  "provenance": {
+    "kind": "PROPOSED_SYNTHETIC_FACTS_FOR_OWNER_REVIEW",
+    "basis": "Owner authorized the minimum negative classification and accounting assumptions for the internal prototype on 2026-09-10. These explicit case stipulations are newly authored review candidates, not extracted borrower records or approved facts.",
+    "human_approved": false,
+    "reviewer_name": null,
+    "review_date": null,
+    "review_evidence": null
+  },
+  "fact_groups": {
+    "institution": {
+      "dependency_ids": ["DEP-INSTITUTION", "DEP-CBLR"],
+      "facts": {
+        "state_member_bank": true,
+        "frb_supervised": true,
+        "standardized_reporting": true,
+        "cblr_elected": false,
+        "cblr_ever_elected": false,
+        "cblr_grace_period": false,
+        "call_report_not_holding_company_report": true
+      },
+      "note": "Synthetic institutional perimeter, not a real bank charter or a determination of reporting-size eligibility."
+    },
+    "counterparty": {
+      "dependency_ids": ["DEP-EXTERNAL-IDENTITY"],
+      "facts": {
+        "legal_form": "DOMESTIC_PRIVATE_FOR_PROFIT_CORPORATION",
+        "organized_in": "US",
+        "business_activity": "MANUFACTURE_AND_SALE_OF_PHYSICAL_GOODS",
+        "banking_business": false,
+        "receives_deposits": false,
+        "power_to_accept_demand_deposits": false,
+        "national_or_state_bank_or_banking_association": false,
+        "trust_savings_or_industrial_bank": false,
+        "federal_or_state_savings_association": false,
+        "former_savings_association": false,
+        "joint_agency_savings_association_determination": false,
+        "foreign_bank_or_bank_branch_or_agency": false,
+        "recognized_as_bank_by_supervisor": false,
+        "federal_or_state_credit_union_charter": false,
+        "member_thrift_credit_cooperative": false,
+        "government_or_political_subdivision": false,
+        "government_established_or_chartered_public_purpose_enterprise": false,
+        "multilateral_or_supranational_institution": false,
+        "central_bank": false
+      },
+      "note": "Tests structural attributes, not the Alpha Manufacturing name. No inference that all financial companies are excluded from U.S. corporate exposures. U.S. credit-union statute is explanatory identity evidence, not an invented incorporation in Part 217."
+    },
+    "ppp": {
+      "dependency_ids": ["DEP-PPP"],
+      "facts": {
+        "ppp_loan": false,
+        "originated_under_15_usc_636_a_36": false,
+        "originated_under_15_usc_636_a_37": false,
+        "sba_program_loan": false,
+        "ppp_refinancing_or_acquired_ppp_loan": false
+      },
+      "note": "Ordinary privately originated loan; program provenance is the negative gate. Neither a 2025 snapshot nor the borrower name proves that an outstanding loan is non-PPP."
+    },
+    "accounting": {
+      "dependency_ids": ["DEP-REPORTING-ACCOUNTING", "DEP-AOCI"],
+      "facts": {
+        "accounting_basis": "US_GAAP",
+        "originated_by_finbank": true,
+        "acquired_loan": false,
+        "held_for_investment": true,
+        "intent_and_ability_to_hold": true,
+        "held_for_sale": false,
+        "measurement": "AMORTIZED_COST",
+        "fair_value_option": false,
+        "pcd": false,
+        "legacy_pci_pool": false,
+        "afs_debt_security": false,
+        "htm_debt_security": false,
+        "preferred_security": false,
+        "original_principal": "10000000.00",
+        "outstanding_principal": "10000000.00",
+        "principal_repayments": "0.00",
+        "accrued_interest_receivable": "0.00",
+        "unamortized_premium": "0.00",
+        "unamortized_discount": "0.00",
+        "unamortized_deferred_fees": "0.00",
+        "unamortized_deferred_costs": "0.00",
+        "full_charge_offs": "0.00",
+        "partial_write_offs": "0.00",
+        "credit_loss_allowance": "0.00",
+        "specific_provisions": "0.00",
+        "allocated_transfer_risk_reserve": "0.00",
+        "foreign_exchange_adjustments": "0.00",
+        "fair_value_hedge_adjustments": "0.00",
+        "other_carrying_value_adjustments": "0.00",
+        "currency": "USD",
+        "gross_amortized_cost": "10000000.00",
+        "net_balance_sheet_amount_candidate": "10000000.00",
+        "gaap_based_regulatory_carrying_value_candidate": "10000000.00"
+      },
+      "note": "All adjustments are explicit candidate zero balances at the fixed snapshot, not defaults. No elapsed unpaid interest is included. Allowance zero is a synthetic simplification requiring express human acceptance, NOT a CECL estimate or a consequence of performing status; GAAP compliance of a real loan is not certified. Gross amortized cost, net balance-sheet amount and Part 217 carrying value are distinct concepts even though their candidate amounts coincide. Do not subtract provisions and allowance again from the ordinary non-PCD regulatory measure."
+    },
+    "market_risk": {
+      "dependency_ids": ["DEP-COVERED-POSITION"],
+      "facts": {
+        "bank_functional_currency": "USD",
+        "loan_currency": "USD",
+        "short_term_resale_intent": false,
+        "short_term_price_profit_intent": false,
+        "arbitrage_intent": false,
+        "market_making_or_customer_trading_accommodation": false,
+        "managed_as_trading": false,
+        "reported_as_trading_asset": false,
+        "hedges_another_covered_position": false,
+        "foreign_exchange_position": false,
+        "commodity_position": false,
+        "securities_lending_or_repo_position": false,
+        "embedded_derivative": false
+      },
+      "note": "Ordinary domestic USD loan retained for investment; RC-D exclusion follows the explicit substance/intent facts, not mere failure to file a schedule. No institution-wide exemption from market-risk rules is asserted."
+    },
+    "other_scope": {
+      "dependency_ids": [
+        "DEP-UNSETTLED",
+        "DEP-QCCP",
+        "DEP-CRM-DERIVATIVES",
+        "DEP-OTHER-CLASSES",
+        "DEP-PAST-DUE"
+      ],
+      "facts": {
+        "fully_drawn": true,
+        "on_balance_sheet": true,
+        "off_balance_sheet": false,
+        "undrawn_amount": "0.00",
+        "security_or_fx_or_commodity_settlement_trade": false,
+        "unsettled_transaction": false,
+        "ccp_or_clearing_member_transaction": false,
+        "cash_collateral_to_ccp": false,
+        "cleared_transaction": false,
+        "default_fund_contribution": false,
+        "derivative": false,
+        "repo_style_transaction": false,
+        "eligible_margin_loan": false,
+        "collateral": false,
+        "guarantee": false,
+        "netting": false,
+        "crm_recognition": false,
+        "real_estate_collateral": false,
+        "real_estate_acquisition_development_or_construction_purpose": false,
+        "securitization_or_tranching": false,
+        "equity_or_equity_linked_return": false,
+        "policy_loan": false,
+        "separate_account": false,
+        "days_past_due": 0,
+        "nonaccrual": false,
+        "defaulted": false
+      },
+      "note": "Direct unsecured corporate debt for ordinary manufacturing operations, not a real-estate funding project, insurance asset, securitization, trade settlement or clearing arrangement. The fourteen existing NO screen outcomes remain unapproved candidates."
+    }
+  },
+  "missing_or_changed_fact_policy": "No material field may be silently defaulted. Missing, contradictory or positive exclusion facts invalidate this narrow source-closure assessment and require human re-review or rejection/deferment of the future path. This is a planning constraint, not implemented runtime validation.",
+  "approval_boundary": "Owner willingness to act as accountable prototype reviewer is recorded in REVIEW.md. Final named human review and all activation fields remain unfilled; this file does not authorize execution.",
+  "candidate_outputs_policy": "No Golden Case candidate output or accepted Sprint 01 fixture has been changed."
+}

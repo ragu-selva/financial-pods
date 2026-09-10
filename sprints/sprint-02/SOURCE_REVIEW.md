@@ -2,19 +2,19 @@
 
 Status: PLANNING ONLY — NOT ACTIVE
 
-Review/capture date: 2026-09-08. Regulatory/fact as-of: **2025-01-01**, unchanged.
-Source-side status: **BLOCKED_ON_SOURCE_EVIDENCE**. Internal review: **PENDING_REVIEW**.
+Review update: 2026-09-10. Captures retain their individual retrieval dates. Regulatory/fact as-of: **2025-01-01**, unchanged.
+Source-side status: **READY_FOR_HUMAN_REVIEW**. Internal review: **PENDING_REVIEW**.
 This is documentary research, not regulatory approval, classification, calculation or activation.
 
 ## Resolved documentary evidence
 
-### Preserved baseline and new evidence
+### Preserved earlier source-chain evidence (2026-09-08)
 
 All 11 raw captures from 4738841 remain unchanged, including their original hashes/retrieval
-metadata and the isolated R-1888 record. The accepted Golden Case and ACTIVATION_RECORD.json
+metadata and the isolated R-1888 record. The unchanged Golden Case candidate and ACTIVATION_RECORD.json
 are unchanged. The existing planning branch/history is retained; nothing is merged into main.
 
-[SOURCE_MANIFEST.json](SOURCE_MANIFEST.json), now source-review-manifest.v0.3-draft, adds:
+The prior source-review-manifest.v0.3-draft source-chain follow-up added:
 
 - 12 official December cumulative **Title 12** LSA captures, 2013–2024. Chapter II amendment
   entries are distinguished from the separate proposed-rule lists. These are edition labels,
@@ -30,7 +30,7 @@ are unchanged. The existing planning branch/history is retained; nothing is merg
   The first three support required scope screens; .22 is supporting measurement-exception context,
   not authority to implement a capital-deduction engine.
 
-There are **59 registered raw evidence files** in total (11 preserved + 48 new). Capturing a
+That follow-up produced **59 registered raw evidence files** (11 original + 48 added). Capturing a
 whole document does not place every provision in scope. The six core candidate source IDs remain
 unchanged; required dependency records are linked separately. No source is an executable allowlist.
 
@@ -41,6 +41,43 @@ Primary evidence locations:
 [2019 simplifications](https://www.govinfo.gov/content/pkg/FR-2019-07-22/html/2019-15131.htm),
 [2020 corporate correction](https://www.govinfo.gov/content/pkg/FR-2020-09-17/html/2020-17744.htm).
 The manifest supplies all other URLs and local locators, not just these representative links.
+
+### Current minimum material closure (2026-09-10)
+
+[SOURCE_MANIFEST.json](SOURCE_MANIFEST.json), now **v0.4-draft**, retains all 59 earlier captures
+and adds **12** official captures, for **71** registered raw files. These are four U.S. Code
+section editions, two dated Regulation K renditions, two FDIC historical indexes and four
+reporting-component/update PDFs. No earlier raw evidence, Golden output or activation field changed.
+
+Earlier source records retain their original capture-time metadata, including pending-chain
+observations. The current narrow assessment is in material_closure and dependency_inventory;
+historical capture observations are not new unresolved material dependencies. Whole-interval
+and human approval remain pending.
+
+[MATERIAL_SOURCE_CLOSURE.md](MATERIAL_SOURCE_CLOSURE.md) records the four resolved documentary
+gaps, source locators, dated reconciliation, exact factual boundary and limitations.
+[GOLDEN_CASE_SOURCE_BOUNDARY.json](GOLDEN_CASE_SOURCE_BOUNDARY.json) supplies explicit proposed
+synthetic facts for human review; it does not overwrite the original candidate/accepted fixture.
+
+- Identity: FDIA 1813 bank/savings-association definitions, Regulation K 211.2(j), credit-union
+  identity under 1752, and existing PSE/GSE/sovereign/MDB definitions, paired with explicit
+  domestic private manufacturing/non-bank/non-cooperative/non-public facts.
+- PPP: 636(a)(36)(A)(ii)-(iii), with 2023/2024 edition reconciliation and explicit non-program
+  origination facts. A 2025 snapshot alone cannot prove a loan is non-PPP.
+- Accounting: dated amortized-cost components, HFI/allowance/net balance and acquired-PCD gate;
+  explicit zero adjustments and measurement exceptions. Zero allowance remains a proposed
+  synthetic simplification requiring human acceptance, not a verified CECL result.
+- Market risk: dated covered-position outer predicates, footnotes and trading instructions,
+  paired with explicit non-trading/non-hedge/non-FX/non-commodity facts.
+
+The 2024 Code edition includes laws through January 6, 2025. Selected-definition amendment notes
+and PPP edition comparison reconcile that cutoff to January 1; the edition label is not treated
+as a point-in-time guarantee. All 58 Regulation K direct paragraphs agree with annual CFR.
+
+The full FFIEC December PDF's direct download returned 403/CAPTCHA; the required raw passages
+were obtained from the official FDIC historical components plus December replacement list.
+No access challenge was bypassed, no error page was retained, and no complete reporting-book
+or accounting-standard review is claimed. Source collection has stopped at the narrow boundary.
 
 ### Paragraph lineage and date semantics
 
@@ -129,60 +166,43 @@ zero non-whitespace differences in the previous diagnostic comparison. Newly cap
 sections are checked in the same way in this follow-up. This is text corroboration, not proof
 of legal equivalence or transitive cross-reference closure.
 
-### Minimal dependency inventory
+### Final minimum dependency inventory
 
-These classifications are review candidates, conditional on approved facts—not a new executable
-dependency registry. Every dependency has source IDs and an explicit scope in the manifest.
+Every dependency uses an owner-requested label, with source IDs, scope and fact-group references:
 
-- **REQUIRED:** 217.12 election/grace-period screen; 217.202 covered-position definition;
-  217.38(a)–(b) unsettled-transaction scope. The 217.32(k) past-due/nonaccrual screen is also
-  required but is already inside the six captured sections.
-- **SUPPORTING:** 217.22(b)(2) AOCI/measurement-exception context; 217.2 institution definitions
-  and 217.1 timing, already captured. No BHC/SLHC threshold engine, capital deductions, or
-  CBLR eligibility calculator is added.
-- **NOT_REQUIRED_FOR_GOLDEN_CASE, conditional:** detailed 217.35 QCCP rates and 217.3 cleared
-  transaction conditions if the outer CCP/cash-collateral predicate is demonstrably false;
-  217.33–.37 CCF/derivative/CRM calculations; securitization/equity calculations; conditional
-  real-estate statutory safe harbors where the outer category is demonstrably absent.
-  The definitions, exception triggers and negative reasons are still required. Missing or
-  positive facts must reject/defer the path, not silently select corporate.
-- **UNRESOLVED:** incorporated depository-institution/foreign-bank/credit-union identity
-  sources; the PPP statutory definition; necessary reporting/accounting dependencies and
-  the complete covered-position definition/footnote chain. Details follow.
+- REQUIRED_AND_RESOLVED: **8** — institution, CBLR, external identity, PPP, accounting,
+  covered position, unsettled-transaction scope and past-due/nonaccrual.
+- REQUIRED_BUT_UNRESOLVED: **0** for the explicit 2025-01-01 internal-prototype boundary.
+- NOT_REQUIRED_FOR_GOLDEN_CASE: **4** — downstream AOCI, QCCP, CRM/derivatives and other-class
+  conditional treatments. Their outer negative screens remain required and documented.
+- DEFERRED_FUTURE_SCOPE: **2 groups** — full positive-treatment/accounting/eligibility engines
+  and other dates/jurisdictions, including full legal interval endpoints.
+
+These labels describe documentary readiness, not approved legal/factual findings. Missing,
+contradictory or changed facts, or reviewer rejection, reopen the relevant dependency.
+Detailed incorporated statutes behind demonstrably absent outer categories are not required.
+Neither full Part 217 review nor a broad bank/PPP/CECL/market-risk engine is authorized.
 
 ## Remaining human/legal-review items
 
-1. **Close incorporated identity sources.** 217.2 points to FDIA section 3 / 12 USC 1813
-   and Regulation K / 12 CFR 211.2. The relevant 2025 external chains are not independently
-   captured/reconciled; the minimum credit-union identity authority also needs confirmation.
-   A reviewer must either require and reconcile those exact dated sources or document why
-   approved explicit synthetic negative facts make further incorporated detail unnecessary.
-   A non-financial-company label or borrower name is not evidence closure.
-2. **Close PPP incorporation.** The corporate definition's amendment is established, but
-   the referenced 15 USC 636(a)(36) statutory version/chain is not independently established.
-   Obtain the dated statute and applicable amendments if needed, or secure an evidenced,
-   reviewed basis for excluding PPP without evaluating its subsidiary conditions.
-3. **Close reporting/accounting and covered-position dependencies.** Dated 217.202 is
-   captured, but its transitive/footnote lineage and required Call Report/FR Y-9C reporting
-   definitions are not certified complete. Determine whether the synthetic case needs those
-   exact dated instructions. Likewise approve the non-AFS/HTM/non-PCD measurement screen,
-   GAAP carrying-value reconciliation and any relevant CECL adoption/transition facts.
-4. **Approve the minimal fact/dependency boundary.** All fourteen corporate exclusions,
-   the measurement exceptions, CBLR election/grace state, market-risk scope and QCCP/past-due
-   triggers need accountable human review. Existing NO assessments are candidates, not legal
-   findings. No facts were added or changed to make the source review pass.
-5. **Approve date/lifecycle and interpretation.** Document why each cited paragraph version
-   applies on 2025-01-01, with any institution-specific timing. Unknown end dates prohibit
-   inferred future validity. Current text corroboration does not approve executable selection.
-6. **Provide accountable human approval.** The owner must supply/approve the personally
-   named reviewer, role/authority, responsibilities, date, decision and linked evidence.
-   Sources, interpretations, assumptions, classification, risk weight, RWA, sole teaching
-   output and exclusions require that review. All seven activation-record fields remain null.
+1. Approve the exact dated source versions, selected locators and interpretations, including the
+   minimum boundary rather than every provision in a captured document.
+2. Accept or reject every proposed synthetic fact. Specifically review non-institutional and
+   non-PPP provenance, CBLR never-election/grace status, measurement and market-risk exclusions.
+3. Approve the itemized accounting reconciliation and zero-allowance educational simplification.
+   Performing status does not justify zero expected credit loss. Gross amortized cost, net GAAP
+   balance and Part 217 carrying value are distinct; no real-loan GAAP compliance is certified.
+4. Independently approve classification, 100% weight, USD 10m RWA and sole 8%/USD 800k educational
+   output and limitations. Source and planning tests do not verify these regulatory conclusions.
+5. Personally complete reviewer identity/authority, responsibilities, date, decision and linked
+   evidence. The owner agreed to act as accountable prototype reviewer, but no final approval
+   or identity fields were populated. All seven activation fields remain null.
+6. Approve final executable version/hash/trace/selector contracts and activation separately.
+   Unknown legal endpoints remain unknown, not open-ended; no future-date validity is inferred.
 
-Items 1–3 are specific remaining source-evidence/dependency questions, not merely absent signatures.
-Official sources were reachable; no access failure is being claimed as the reason for this
-remaining block. Further capture should follow the minimum dependency decision and preserve
-this evidence, rather than refetch unchanged material or treat an unbounded legal corpus as reviewed.
+No material documentary gap remains under the explicit candidate boundary. These remaining
+items are human acceptance/interpretation and future implementation-contract gates, not an
+instruction to expand the legal corpus. A rejected assumption reopens its dependency.
 
 ## Hash and verification policy
 
@@ -191,8 +211,8 @@ newline, Unicode or whitespace normalization is applied to raw hashes. HTML in .
 inert evidence, not executable content. evidence/.gitattributes disables text conversion and
 source whitespace checks; authored documents/tests still require formatting and whitespace checks.
 
-Manifest v0.3 adds paragraph/binding interval semantics, dependency classifications and precise
-gaps while retaining original source metadata, proposal evidence and interpretations. Final
+Manifest v0.4 adds the bounded source closure and four-way dependency labels while retaining
+the earlier raw source metadata, proposal evidence, rule interpretations and unknown-end semantics. Final
 approved manifest canonicalization/hash remains a separate contract decision.
 
 The planning-evidence suite checks all registered raw files, proposal isolation, unknown-end
@@ -206,10 +226,10 @@ no interpreter/calculator behavior was added to the skill.
 
 ## Activation readiness
 
-**Source side: BLOCKED_ON_SOURCE_EVIDENCE**, not READY_FOR_HUMAN_REVIEW as a complete source pack.
-The core documentary findings can be reviewed now, but the full minimum dependency set is not
-closed. Resolution remains UNRESOLVED; approval and every review status remain PENDING_REVIEW;
-every executable flag remains false.
+**Source side: READY_FOR_HUMAN_REVIEW**. The previous BLOCKED_ON_SOURCE_EVIDENCE status is
+superseded only for the documented narrow Golden Case. Resolution is RESOLVED_FOR_NARROW_GOLDEN_CASE;
+approval and every review status remain PENDING_REVIEW and every executable flag remains false.
+This is not APPROVED, approved GAAP accounting, a complete Part 217 corpus or activation.
 
 R-1888 remains **PROPOSED**, executable=false, isolated from all 2025 source/rule/lineage/dependency
 bindings. Neither an alias nor a future finalization may retroactively replace the 2025 evidence.
