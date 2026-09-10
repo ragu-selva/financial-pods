@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="cfr.xsl"?>
+<CFRGRANULE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CFRMergedXML.xsd">
+    <FDSYS>
+        <CFRTITLE>12</CFRTITLE>
+        <CFRTITLETEXT>Banks and Banking</CFRTITLETEXT>
+        <VOL>2</VOL>
+        <DATE>2025-01-01</DATE>
+        <COVERONLY>false</COVERONLY>
+        <ORIGINALDATE>2025-01-01</ORIGINALDATE>
+        <ANCESTORS>
+            <PARENT HEADING="Title 12" SEQ="4">Banks and Banking</PARENT>
+            <PARENT HEADING="CHAPTER II" SEQ="3">FEDERAL RESERVE SYSTEM</PARENT>
+            <PARENT HEADING="SUBCHAPTER A" SEQ="2">BOARD OF GOVERNORS OF THE FEDERAL RESERVE SYSTEM</PARENT>
+            <PARENT HEADING="PART 211" SEQ="1">INTERNATIONAL BANKING OPERATIONS (REGULATION K)</PARENT>
+            <PARENT HEADING="Subpart A" SEQ="0">International Operations of U.S. Banking Organizations</PARENT>
+        </ANCESTORS>
+    </FDSYS>
+    <SECTION>
+        <SECTNO>§ 211.2</SECTNO>
+        <SUBJECT>Definitions.</SUBJECT>
+        <P>Unless otherwise specified, for purposes of this subpart:</P>
+        <P>
+            (a) An 
+            <E T="03">affiliate</E>
+             of an organization means:
+        </P>
+        <P>(1) Any entity of which the organization is a direct or indirect subsidiary; or</P>
+        <P>(2) Any direct or indirect subsidiary of the organization or such entity.</P>
+        <P>
+            (b) 
+            <E T="03">Capital and surplus</E>
+             means, unless otherwise provided in this part:
+        </P>
+        <P>(1) For organizations subject to the capital rule:</P>
+        <P>(i) Tier 1 and tier 2 capital included in an organization's risk-based capital (under the capital rule); and</P>
+        <P>(ii) The balance of allowance for loan and lease losses or adjusted allowance for credit losses, as applicable, not included in an organization's tier 2 capital for calculation of risk-based capital, based on the organization's most recent consolidated Report of Condition and Income.</P>
+        <P>(iii) For qualifying community banking organizations (as defined in § 217.12 of this chapter) that are subject to the community bank leverage ratio framework (as defined in § 217.12 of this chapter), tier 1 capital (as defined in § 217.2 of this chapter and calculated in accordance with § 217.12(b) of this chapter) plus allowances for loan and lease losses or adjusted allowance for credit losses, as applicable.</P>
+        <P>(2) For all other organizations, paid-in and unimpaired capital and surplus, and includes undivided profits but does not include the proceeds of capital notes or debentures.</P>
+        <P>
+            (c) 
+            <E T="03">Capital rule</E>
+             means part 217 of this chapter.
+        </P>
+        <P>
+            (d) 
+            <E T="03">Directly</E>
+             or 
+            <E T="03">indirectly,</E>
+             when used in reference to activities or investments of an organization, means activities or investments of the organization or of any subsidiary of the organization.
+        </P>
+        <P>
+            (e) 
+            <E T="03">Eligible country</E>
+             means any country:
+        </P>
+        <P>(1) For which an allocated transfer risk reserve is required pursuant to § 211.43 of this part and that has restructured its sovereign debt held by foreign creditors; and</P>
+        <P>(2) Any other country that the Board deems to be eligible.</P>
+        <P>
+            (f) An Edge corporation is 
+            <E T="03">engaged in banking</E>
+             if it is ordinarily engaged in 
+            <PRTPAGE P="316"/>
+            the business of accepting deposits in the United States from nonaffiliated persons.
+        </P>
+        <P>
+            (g) 
+            <E T="03">Engaged in business</E>
+             or 
+            <E T="03">engaged in activities</E>
+             in the United States means maintaining and operating an office (other than a representative office) or subsidiary in the United States.
+        </P>
+        <P>
+            (h) 
+            <E T="03">Equity</E>
+             means an ownership interest in an organization, whether through:
+        </P>
+        <P>(1) Voting or nonvoting shares;</P>
+        <P>(2) General or limited partnership interests;</P>
+        <P>(3) Any other form of interest conferring ownership rights, including warrants, debt, or any other interests that are convertible into shares or other ownership rights in the organization; or</P>
+        <P>(4) Loans that provide rights to participate in the profits of an organization, unless the investor receives a determination that such loans should not be considered equity in the circumstances of the particular investment.</P>
+        <P>
+            (i) 
+            <E T="03">Foreign</E>
+             or 
+            <E T="03">foreign country</E>
+             refers to one or more foreign nations, and includes the overseas territories, dependencies, and insular possessions of those nations and of the United States, and the Commonwealth of Puerto Rico.
+        </P>
+        <P>
+            (j) 
+            <E T="03">Foreign bank</E>
+             means an organization that:
+        </P>
+        <P>(1) Is organized under the laws of a foreign country;</P>
+        <P>(2) Engages in the business of banking;</P>
+        <P>(3) Is recognized as a bank by the bank supervisory or monetary authority of the country of its organization or principal banking operations;</P>
+        <P>(4) Receives deposits to a substantial extent in the regular course of its business; and</P>
+        <P>(5) Has the power to accept demand deposits.</P>
+        <P>
+            (k) 
+            <E T="03">Foreign branch</E>
+             means an office of an organization (other than a representative office) that is located outside the country in which the organization is legally established and at which a banking or financing business is conducted.
+        </P>
+        <P>
+            (l) 
+            <E T="03">Foreign person</E>
+             means an office or establishment located outside the United States, or an individual residing outside the United States.
+        </P>
+        <P>
+            (m) 
+            <E T="03">Investment</E>
+             means:
+        </P>
+        <P>(1) The ownership or control of equity;</P>
+        <P>(2) Binding commitments to acquire equity;</P>
+        <P>(3) Contributions to the capital and surplus of an organization; or</P>
+        <P>(4) The holding of an organization's subordinated debt when the investor and the investor's affiliates hold more than 5 percent of the equity of the organization.</P>
+        <P>
+            (n) 
+            <E T="03">Investment grade</E>
+             means a security that is rated in one of the four highest rating categories by:
+        </P>
+        <P>(1) Two or more NRSROs; or</P>
+        <P>(2) One NRSRO if the security has been rated by only one NRSRO.</P>
+        <P>
+            (o) 
+            <E T="03">Investor</E>
+             means an Edge corporation, agreement corporation, bank holding company, or member bank.
+        </P>
+        <P>
+            (p) 
+            <E T="03">Joint venture</E>
+             means an organization that has 20 percent or more of its voting shares held directly or indirectly by the investor or by an affiliate of the investor under any authority, but which is not a subsidiary of the investor or of an affiliate of the investor.
+        </P>
+        <P>
+            (q) 
+            <E T="03">Loans and extensions of credit</E>
+             means all direct and indirect advances of funds to a person made on the basis of any obligation of that person to repay the funds.
+        </P>
+        <P>
+            (r) 
+            <E T="03">NRSRO</E>
+             means a nationally recognized statistical rating organization as designated by the Securities and Exchange Commission.
+        </P>
+        <P>
+            (s) 
+            <E T="03">Organization</E>
+             means a corporation, government, partnership, association, or any other entity.
+        </P>
+        <P>
+            (t) 
+            <E T="03">Person</E>
+             means an individual or an organization.
+        </P>
+        <P>
+            (u) 
+            <E T="03">Portfolio investment</E>
+             means an investment in an organization other than a subsidiary or joint venture.
+        </P>
+        <P>
+            (v) 
+            <E T="03">Representative office</E>
+             means an office that:
+        </P>
+        <P>
+            (1) Engages solely in representational and administrative functions (such as soliciting new business or acting as liaison between the organization's head office and customers in the United States); and
+            <PRTPAGE P="317"/>
+        </P>
+        <P>(2) Does not have authority to make any business decision (other than decisions relating to its premises or personnel) for the account of the organization it represents, including contracting for any deposit or deposit-like liability on behalf of the organization.</P>
+        <P>
+            (w) 
+            <E T="03">Subsidiary</E>
+             means an organization that has more than 50 percent of its voting shares held directly or indirectly, or that otherwise is controlled or capable of being controlled, by the investor or an affiliate of the investor under any authority. Among other circumstances, an investor is considered to control an organization if:
+        </P>
+        <P>(1) The investor or an affiliate is a general partner of the organization; or</P>
+        <P>(2) The investor and its affiliates directly or indirectly own or control more than 50 percent of the equity of the organization.</P>
+        <P>
+            (x) 
+            <E T="03">Tier 1 capital</E>
+             has the same meaning as provided in § 217.2 of this chapter. A qualifying community banking organization (as defined in § 217.12 of this chapter) that is subject to the community bank leverage ratio framework (as defined in § 217.12 of this chapter), calculates its tier 1 capital in accordance with § 217.12(b) of this chapter.
+        </P>
+        <P>
+            (y) 
+            <E T="03">Well capitalized</E>
+             means:
+        </P>
+        <P>(1) In relation to a parent member or insured bank, that the standards set out in § 208.43(b)(1) of Regulation H (12 CFR 208.43(b)(1)) are satisfied;</P>
+        <P>(2) In relation to a bank holding company, that the standards set out in § 225.2(r)(1) of Regulation Y (12 CFR 225.2(r)(1)) are satisfied; and</P>
+        <P>(3) In relation to an Edge or agreement corporation, that it has tier 1 and total risk-based capital ratios of 6.0 and 10.0 percent, respectively, or greater.</P>
+        <P>
+            (z) 
+            <E T="03">Well managed</E>
+             means that the Edge or agreement corporation, any parent insured bank, and the bank holding company either received a composite rating of 1 or 2 or is considered satisfactory under the applicable rating system, and has at least a satisfactory rating for management if such a rating is given, at their most recent examination or review.
+        </P>
+        <CITA>[Reg. K, 66 FR 54374, Oct. 26, 2001, as amended at 83 FR 58734, Nov. 21, 2018; 84 FR 4241, Feb. 14, 2019; 84 FR 61797, Nov. 13, 2019]</CITA>
+    </SECTION>
+</CFRGRANULE>

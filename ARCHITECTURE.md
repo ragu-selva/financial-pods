@@ -43,3 +43,13 @@ Local development uses Docker Compose. CI verifies formatting, lint, types, test
 ## Architecture decisions
 
 Material decisions must be captured as numbered ADRs in `docs/adr/` with context, decision, consequences, and status.
+
+## Sprint 02 accepted design, not implemented
+
+ADR 0004 is ACCEPTED for the internal prototype: generic regulatory engine -> ruleset registry ->
+jurisdiction provider -> USStandardizedRuleset first. BCBS supplies concepts, not binding U.S.
+numerical defaults; other providers and Regxify core extraction are future work.
+The approved evidence package is pinned to US / FRB / US_FRB_PART217_STANDARDIZED / 2025-01-01.
+Only the approved ordinary corporate Golden Case boundary is covered; borrower names cannot
+choose rules. Source resolution never performs classification/calculation or human approval.
+No production engine exists yet. Implementation waits for activation PR review and merge.

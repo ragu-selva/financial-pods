@@ -1,0 +1,579 @@
+<html>
+<head>
+<title>Federal Register, Volume 84 Issue 219 (Wednesday, November 13, 2019)</title>
+</head>
+<body><pre>
+[Federal Register Volume 84, Number 219 (Wednesday, November 13, 2019)]
+[Rules and Regulations]
+[Pages 61804-61808]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2019-23467]
+
+
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TREASURY
+
+Office of the Comptroller of the Currency
+
+12 CFR Part 3
+
+[Docket ID OCC-2017-0018]
+RIN 1557-AE70
+
+FEDERAL RESERVE SYSTEM
+
+12 CFR Part 217
+
+[Regulation Q; Docket No. R-1576]
+RIN 7100-AE74
+
+FEDERAL DEPOSIT INSURANCE CORPORATION
+
+12 CFR Part 324
+
+RIN 3064-AF18
+
+
+Regulatory Capital Rule: Simplifications to the Capital Rule 
+Pursuant to the Economic Growth and Regulatory Paperwork Reduction Act 
+of 1996; Revised Effective Date
+
+AGENCY: Office of the Comptroller of the Currency, Treasury; the Board 
+of Governors of the Federal Reserve System; and the Federal Deposit 
+Insurance Corporation.
+
+ACTION: Final rule, announcement of effective date, early adoption.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Office of the Comptroller of the Currency, the Board of 
+Governors of the Federal Reserve System, and the Federal Deposit 
+Insurance Corporation (collectively, the agencies) are adopting a final 
+rule that permits insured depository institutions and depository 
+institution holding companies not subject to the advanced approaches 
+capital rule to implement certain
+
+[[Page 61805]]
+
+provisions of the final rule titled Regulatory Capital: Simplifications 
+to the Capital Rule Pursuant to the Economic Growth and Regulatory 
+Paperwork Reduction Act of 1996, which was issued by the agencies in 
+July 22, 2019, (Capital Simplifications Final Rule) on January 1, 2020, 
+rather than April 1, 2020, as initially provided. Consistent with this 
+approach, the transitions provisions of the regulatory capital rule are 
+being amended to provide that banking organizations not subject to the 
+advanced approaches capital rule will be permitted to implement the 
+Capital Simplifications Final Rule as of its revised effective date in 
+the quarter beginning January 1, 2020, or to wait until the quarter 
+beginning April 1, 2020.
+
+DATES: This rule is effective January 1, 2020. The effective date for 
+the amendments to 12 CFR 3.21, 3.22, 3.300(b) and (d), 217.21, 217.22, 
+217.300(b) and (d), 324.21, 324.22, and 324.300(b) and (d) published on 
+July 22, 2019 (84 FR 35234), is changed from April 1, 2020, to January 
+1, 2020.
+
+FOR FURTHER INFORMATION CONTACT: 
+    OCC: David Elkes, Risk Expert, or JungSup Kim, Risk Specialist, 
+Capital and Regulatory Policy (202) 649-6370; or Carl Kaminski, Special 
+Counsel, or Daniel Perez, Senior Attorney, or Rima Kundnani, Senior 
+Attorney, Chief Counsel's Office, (202) 649-5490, for persons who are 
+deaf or hearing impaired, TTY, (202) 649-5597, Office of the 
+Comptroller of the Currency, 400 7th Street SW, Washington, DC 20219.
+    Board: Constance M. Horsley, Deputy Associate Director, (202) 452-
+5239; Juan Climent, Manager, (202) 872-7526; or Andrew Willis, Lead 
+Financial Institutions Policy Analyst, (202) 912-4323, Division of 
+Supervision and Regulation; or Jay Schwarz, Special Counsel (202) 452-
+2970; Gillian Burgess, Senior Counsel (202) 736-5564, or Mark Buresh, 
+Senior Counsel (202) 452-5270, Legal Division, Board of Governors of 
+the Federal Reserve System, 20th and C Streets NW, Washington, DC 
+20551. For the hearing impaired only, Telecommunication Device for the 
+Deaf (TDD), (202) 263-4869.
+    FDIC: Benedetto Bosco, Chief, Capital Policy Section, 
+<a href="/cdn-cgi/l/email-protection#7416161b07171b3412101d175a131b02"><span class="__cf_email__" data-cfemail="80e2e2eff3e3efc0e6e4e9e3aee7eff6">[email&#160;protected]</span></a>; Michael Maloney, Senior Policy Analyst, 
+<a href="/cdn-cgi/l/email-protection#bad7d7dbd6d5d4dfc3fadcded3d994ddd5cc"><span class="__cf_email__" data-cfemail="274a4a464b4849425e6741434e4409404851">[email&#160;protected]</span></a>; <a href="/cdn-cgi/l/email-protection#c0b2a5a7b5aca1b4afb2b9a3a1b0a9b4a1ac80a6a4a9a3eea7afb6"><span class="__cf_email__" data-cfemail="285a4d4f5d44495c475a514b4958415c4944684e4c414b064f475e">[email&#160;protected]</span></a>; Capital Markets Branch, 
+Division of Risk Management Supervision, (202) 898-6888; or Michael 
+Phillips, Counsel, <a href="/cdn-cgi/l/email-protection#89e4f9e1e0e5e5e0f9fac9efede0eaa7eee6ff"><span class="__cf_email__" data-cfemail="167b667e7f7a7a7f66655670727f7538717960">[email&#160;protected]</span></a>; Supervision Branch, Legal 
+Division, Federal Deposit Insurance Corporation, 550 17th Street NW, 
+Washington, DC 20429.
+
+SUPPLEMENTARY INFORMATION: The Office of the Comptroller of the 
+Currency, the Board of Governors of the Federal Reserve System, and the 
+Federal Deposit Insurance Corporation (collectively, the agencies) 
+adopted the Simplifications to the Capital Rule Pursuant to the 
+Economic Growth and Regulatory Paperwork Reduction Act of 1996 (Capital 
+Simplifications Final Rule) to simplify certain aspects of the capital 
+rule.\1\ The Capital Simplifications Final Rule is responsive to the 
+agencies' March 2017 report to Congress pursuant to the Economic Growth 
+and Regulatory Paperwork Reduction Act of 1996 (EGRPRA), in which the 
+agencies committed to meaningfully reduce regulatory burden, especially 
+on community banking organizations. The key elements of the Capital 
+Simplifications Final Rule apply solely to banking organizations that 
+are not subject to the advanced approaches capital rule (non-advanced 
+approaches banking organizations). Under the Capital Simplifications 
+Final Rule, non-advanced approaches banking organizations will be 
+subject to simpler regulatory capital requirements for mortgage 
+servicing assets, certain deferred tax assets arising from temporary 
+differences, and investments in the capital of unconsolidated financial 
+institutions than those currently applied. The Capital Simplifications 
+Final Rule also simplifies, for non-advanced approaches banking 
+organizations, the calculation for the amount of capital issued by a 
+consolidated subsidiary of a banking organization and held by third 
+parties (sometimes referred to as a minority interest) that is 
+includable in regulatory capital.
+---------------------------------------------------------------------------
+
+    \1\ See 84 FR 35234 (July 22, 2019).
+---------------------------------------------------------------------------
+
+    The simpler capital requirements described above are implemented 
+through the Capital Simplifications Final Rule via amendments to 12 CFR 
+3.21, 3.22, 3.300, 217.21, 217.22, 217.300(b) and (d), 324.21, 324.22, 
+and 324.300 that were originally effective April 1, 2020. The agencies 
+initially set an effective date of April 1, 2020, for those amendments 
+to the capital rule, in part, to give institutions sufficient time to 
+update their recordkeeping and reporting systems. Subsequent to the 
+publication of the Capital Simplifications Final Rule, the agencies 
+received letters from the banking industry groups seeking the ability 
+to adopt the Capital Simplifications Final Rule earlier than April 1, 
+2020. After considering these requests, the agencies have determined 
+that allowing non-advanced approaches banking organizations to 
+implement the Capital Simplifications Final Rule in the first quarter 
+of 2020 would be appropriate. Allowing non-advanced approaches banking 
+organizations to implement the Capital Simplifications Final Rule in 
+the first quarter of 2020 would permit banking organizations that have 
+updated their reporting systems to implement the simplifications and 
+obtain regulatory burden relief one quarter earlier than initially 
+provided in the Capital Simplifications Final Rule.
+    The agencies are adopting this direct final rule to permit non-
+advanced approaches banking organizations to implement the sections of 
+the Capital Simplifications Final Rule that were originally effective 
+on April 1, 2020, beginning on January 1, 2020. Specifically, the 
+sections in the Capital Simplifications Final Rule that were effective 
+April 1, 2020, under that rule are now effective January 1, 2020. Non-
+advanced approaches banking organizations can elect whether to 
+implement the changes in the quarter beginning January 1, 2020, or to 
+implement them in the quarter beginning April 1, 2020. The affected 
+sections are those related to mortgage servicing assets, certain 
+deferred tax assets arising from temporary differences, investments in 
+the capital of unconsolidated financial institutions, and the 
+calculation of minority interest and will become mandatory as of April 
+1, 2020. If a non-advanced approaches banking organization elects to 
+adopt these revisions for the quarter beginning January 1, 2020, it 
+must adopt all of these revisions for that quarter and thereafter. 
+Consistent with the Capital Simplifications Final Rule, the transition 
+provisions adopted by the agencies in November 2017 will cease to apply 
+to non-advanced approaches banking organizations in the quarter in 
+which the firm elects to adopt the these portions of the Capital 
+Simplifications Final Rule.\2\ As a result, non-advanced approaches 
+banking organizations may choose to begin implementing the capital 
+treatment under the Capital Simplifications Final Rule for the 
+reporting period ending on March 31, 2020. All non-advanced approaches 
+banking organizations must implement the capital treatment under the 
+Capital Simplifications Final Rule for the reporting period ending on 
+June 30, 2020.
+---------------------------------------------------------------------------
+
+    \2\ 82 FR 55309 (Nov. 21, 2017).
+
+---------------------------------------------------------------------------
+
+[[Page 61806]]
+
+Administrative Law Matters
+
+A. Administrative Procedure Act
+
+    The agencies are issuing this direct final rule without prior 
+notice and the opportunity for public comment and without the 30-day 
+delayed effective date ordinarily prescribed by the Administrative 
+Procedure Act (APA).\3\ Pursuant to section 553(b)(B) of the APA, 
+general notice and the opportunity for public comment are not required 
+with respect to a rulemaking when an ``agency for good cause finds (and 
+incorporates the finding and a brief statement of reasons therefor in 
+the rules issued) that notice and public procedure thereon are 
+impracticable, unnecessary, or contrary to the public interest.'' \4\
+---------------------------------------------------------------------------
+
+    \3\ 5 U.S.C. 553.
+    \4\ 5 U.S.C. 553(b)(B).
+---------------------------------------------------------------------------
+
+    As discussed above, this direct final rule addresses requests from 
+banking industry groups to be allowed to comply starting on January 1, 
+2020, with certain requirements of the Capital Simplifications Final 
+Rule that otherwise were subject to an effective date of April 1, 2020. 
+This direct final rule will allow banking organizations to begin 
+implementing the revised requirements either on January 1, 2020 or 
+April 1, 2020. Non-advanced approaches banking organizations that 
+choose not to implement the revised requirements on January 1, 2020, 
+still will be required to do so beginning April 1, 2020. The agencies 
+initially set an effective date of April 1, 2020, for those amendments 
+to the capital rule, in part, to give institutions sufficient time to 
+update their systems and reporting systems. After the rule was 
+finalized, the agencies received requests to allow banking 
+organizations the option to adopt the rule on January 1, 2020, rather 
+than April 1, 2020, on grounds that early adoption would simplify the 
+reporting requirements for banking organizations whose systems will be 
+in place by January 1, 2020, thereby reducing regulatory burden.
+    The agencies believe that there is good cause to issue this direct 
+final rule without notice and public procedure because that process 
+would be unnecessary as the agencies recently issued a final rule after 
+providing notice and receiving comment from the public. Specifically, 
+the original administrative record that supports the Capital 
+Simplifications Final Rule is still pertinent and, as a result, a new 
+round of notice and comment on the Capital Simplifications Final Rule 
+is unnecessary. The agencies could have issued the Capital 
+Simplifications Final Rule with the provisions now being issued in the 
+current direct final rule. The agencies believe that the implementation 
+provisions of the current direct final rule are appropriate now given 
+the feedback from the public since issuance of the Capital 
+Simplifications Final Rule. In particular, the public feedback has 
+indicated that many banking organizations would be prepared to 
+implement the Capital Simplifications Final Rule for the quarter 
+beginning January 1, 2020. Further, this final rule (1) relieves 
+burden; (2) does not change any substantive requirements of the Capital 
+Simplifications Final Rule or impose any new mandates on any banking 
+organization; and (3) allows, but does not require, banking 
+organizations to implement the revised requirements in the Capital 
+Simplifications Final Rule earlier than initially provided.
+    In addition, the agencies believe that there is good cause 
+consistent with the public interest to issue this direct final rule 
+without notice and public procedure. This direct final rule benefits 
+banking organizations subject to the Capital Simplifications Final Rule 
+by allowing them to begin complying with the new requirements in the 
+Capital Simplifications Final Rule one quarter before they become 
+mandatory, thereby simplifying the reporting requirements for those 
+banking organizations whose systems will be in place by January 1, 
+2020. Notably, this direct final rule does not impose any new 
+requirements or mandatory burdens on any banking organization. Finally, 
+the agencies believe that there is good cause to issue this direct 
+final rule without notice and public procedure since it would be 
+impracticable to request comment given the request for relief is to 
+begin on January 1, 2020.
+    The APA also requires a 30-day delayed effective date, except for 
+(1) substantive rules which grant or recognize an exemption or relieve 
+a restriction; (2) interpretative rules and statements of policy; or 
+(3) as otherwise provided by the agency for good cause.\5\ The agencies 
+find good cause to publish the direct final rule with an immediate 
+effective date because the rule grants relief to banking organizations 
+and because there is good cause for the same reasons set forth above 
+under the discussion of section 553(b)(B) of the APA. Delaying the 
+implementation date would deprive banking organizations that are 
+considering adopting the requirements of the Capital Simplification 
+Final Rule earlier of the ability to make modifications to their 
+reporting prior on their preferred effective date.
+---------------------------------------------------------------------------
+
+    \5\ 5 U.S.C. 553(d).
+---------------------------------------------------------------------------
+
+B. Solicitation of Comments on Use of Plain Language
+
+    Section 722 of the Gramm-Leach-Bliley Act \6\ requires Federal 
+banking agencies to use plain language in all proposed and final rules 
+published after January 1, 2000. The agencies have sought to present 
+this direct final rule in a simple and straightforward manner.
+---------------------------------------------------------------------------
+
+    \6\ Public Law 106-102, section 722, 113 Stat. 1338, 1471 
+(1999).
+---------------------------------------------------------------------------
+
+C. Paperwork Reduction Act Analysis
+
+    In accordance with the requirements of the Paperwork Reduction Act 
+of 1995 (PRA), 44 U.S.C. 3501-3521, the agencies may not conduct or 
+sponsor, and a respondent is not required to respond to, an information 
+collection unless it displays a currently-valid Office of Management 
+and Budget (OMB) control number. The OCC, Board, and FDIC have reviewed 
+this direct final rule and determined that it does not introduce a new 
+collection of information pursuant to the PRA.
+
+D. Regulatory Flexibility Act Analysis
+
+    The Regulatory Flexibility Act (RFA) does not apply to a rulemaking 
+when a general notice of proposed rulemaking is not required.\7\ As 
+noted previously, the agencies are issuing this direct final rule 
+without notice and public procedure. Accordingly, the RFA's 
+requirements relating to an initial and final regulatory flexibility 
+analysis do not apply. Nonetheless, the agencies believe that, with 
+respect to the entities subject to the direct final rule and within 
+each agency's respective jurisdiction, the direct final rule would not 
+have a significant economic impact on a substantial number of small 
+entities.\8\
+---------------------------------------------------------------------------
+
+    \7\ 5 U.S.C. 603 and 604.
+    \8\ Under regulations issued by the Small Business 
+Administration, a small entity includes a depository institution, 
+bank holding company, or savings and loan holding company with total 
+assets of $600 million or less and trust companies with total assets 
+of $41.5 million or less.
+---------------------------------------------------------------------------
+
+E. Unfunded Mandates Reform Act of 1995
+
+    The OCC analyzed the final rule under the factors set forth in the 
+Unfunded Mandates Reform Act of 1995 (UMRA) (2 U.S.C. 1532). Under this 
+analysis, the OCC considered whether the rule includes a Federal 
+mandate that may result in the expenditure by State, local, and Tribal 
+governments, in the aggregate, or by the private sector, of $100 
+million or more in any one year (adjusted for inflation). The OCC has 
+determined that this rule will not result
+
+[[Page 61807]]
+
+in expenditures by State, local, and Tribal governments, or the private 
+sector, of $100 million or more in any one year. Accordingly, the OCC 
+has not prepared a written statement to accompany this rule.
+
+F. Riegle Community Development and Regulatory Improvement Act of 1994
+
+    Pursuant to section 302(a) of the Riegle Community Development and 
+Regulatory Improvement Act (RCDRIA),\9\ in determining the effective 
+date and administrative compliance requirements for new regulations 
+that impose additional reporting, disclosure, or other requirements on 
+IDIs, each Federal banking agency must consider, consistent with 
+principles of safety and soundness and the public interest, any 
+administrative burdens that such regulations would place on depository 
+institutions, including small depository institutions, and customers of 
+depository institutions, as well as the benefits of such regulations. 
+In addition, section 302(b) of RCDRIA requires new regulations and 
+amendments to regulations that impose additional reporting, 
+disclosures, or other new requirements on IDIs generally to take effect 
+on the first day of a calendar quarter that begins on or after the date 
+on which the regulations are published in final form.\10\
+---------------------------------------------------------------------------
+
+    \9\ 12 U.S.C. 4802(a).
+    \10\ 12 U.S.C. 4802.
+---------------------------------------------------------------------------
+
+    Because the direct final rule would not impose additional 
+reporting, disclosure, or other requirements on IDIs, section 302 of 
+the RCDRIA does not apply. In any event, the direct final rule will 
+take effect on January 1, 2020.
+
+G. The Congressional Review Act
+
+    For purposes of Congressional Review Act, the OMB makes a 
+determination as to whether a final rule constitutes a ``major'' 
+rule.\11\ If a rule is deemed a ``major rule'' by the OMB, the 
+Congressional Review Act generally provides that the rule may not take 
+effect until at least 60 days following its publication.\12\
+---------------------------------------------------------------------------
+
+    \11\ 5 U.S.C. 801 et seq.
+    \12\ 5 U.S.C. 801(a)(3).
+---------------------------------------------------------------------------
+
+    The Congressional Review Act defines a ``major rule'' as any rule 
+that the Administrator of the Office of Information and Regulatory 
+Affairs of the OMB finds has resulted in or is likely to result in--(A) 
+an annual effect on the economy of $100,000,000 or more; (B) a major 
+increase in costs or prices for consumers, individual industries, 
+Federal, State, or local government agencies or geographic regions, or 
+(C) significant adverse effects on competition, employment, investment, 
+productivity, innovation, or on the ability of United States-based 
+enterprises to compete with foreign-based enterprises in domestic and 
+export markets.\13\ As required by the Congressional Review Act, the 
+agencies will submit the direct final rule and other appropriate 
+reports to Congress and the Government Accountability Office for 
+review.
+---------------------------------------------------------------------------
+
+    \13\ 5 U.S.C. 804(2).
+---------------------------------------------------------------------------
+
+    The OMB has determined that the direct final ruleis not a ``major 
+rule'' within the meaning of the Congressional Review Act.\14\ As 
+required by the Congressional Review Act, the agencies will submit the 
+direct final rule and other appropriate reports to Congress and the 
+Government Accountability Office for review.
+---------------------------------------------------------------------------
+
+    \14\ 5 U.S.C. 801 et seq.
+---------------------------------------------------------------------------
+
+List of Subjects
+
+12 CFR Part 3
+
+    Administrative practice and procedure, Capital, National banks, 
+Risk.
+
+12 CFR Part 217
+
+    Administrative practice and procedure, Banks, Banking, Capital, 
+Federal Reserve System, Holding companies.
+
+12 CFR Part 324
+
+    Administrative practice and procedure, Banks, Banking, Capital 
+adequacy, Savings associations, State non-member banks.
+
+Office of the Comptroller of the Currency
+
+    For the reasons set out in the joint preamble, 12 CFR part 3 is 
+amended as follows.
+
+PART 3--CAPITAL ADEQUACY STANDARDS
+
+0
+1. The authority citation for part 3 continues to read as follows:
+
+    Authority: 12 U.S.C. 93a, 161, 1462, 1462a, 1463, 1464, 1818, 
+1828(n), 1828 note, 1831n note, 1835, 3907, 3909, and 5412(b)(2)(B).
+
+
+0
+2. Section 3.300 is amended by adding paragraph (f) to read as follows:
+
+
+Sec.  3.300   Transitions.
+
+* * * * *
+    (f) A national bank or Federal savings association that is not an 
+advanced approaches national bank or Federal savings association may 
+apply the treatment under Sec. Sec.  3.21 and 3.22(c)(2), (5), (6), and 
+(d)(2) applicable to an advanced approaches national bank or Federal 
+savings association during the calendar quarter beginning January 1, 
+2020. During the quarter beginning January 1, 2020, a national bank or 
+Federal savings association that makes such an election must deduct 80 
+percent of the amount otherwise required to be deducted under Sec.  
+3.22(d)(2) and must apply a 100 percent risk weight to assets not 
+deducted under Sec.  3.22(d)(2). In addition, during the quarter 
+beginning January 1, 2020, a national bank or Federal savings 
+association that makes such an election must include in its regulatory 
+capital 20 percent of any minority interest that exceeds the amount of 
+minority interest includable in regulatory capital under Sec.  3.21 as 
+it applies to an advanced approaches national bank or Federal savings 
+association. A national bank or Federal savings association that is not 
+an advanced approaches national bank or Federal savings association 
+must apply the treatment under Sec. Sec.  3.21 and 3.22 applicable to a 
+national bank or Federal savings association that is not an advanced 
+approaches national bank or Federal savings association beginning April 
+1, 2020, and thereafter.
+* * * * *
+
+Board of Governors of the Federal Reserve System
+
+    For the reasons set out in the joint preamble, the Board of 
+Governors of the Federal Reserve System amends 12 CFR part 217 as 
+follows:
+
+PART 217--CAPITAL ADEQUACY OF BANK HOLDING COMPANIES, SAVINGS AND 
+LOAN HOLDING COMPANIES, AND STATE MEMBER BANKS (REGULATION Q)
+
+0
+3. The authority citation for part 217 continues to read as follows:
+
+    Authority: 12 U.S.C. 248(a), 321-338a, 481-486, 1462a, 1467a, 
+1818, 1828, 1831n, 1831o, 1831p-l, 1831w, 1835, 1844(b), 1851, 3904, 
+3906-3909, 4808, 5365, 5368, 5371.
+
+
+0
+4. Section 217.300 is amended by adding paragraph (g) to read as 
+follows:
+
+
+Sec.  217.300   Transitions.
+
+* * * * *
+    (g) A Board-regulated institution that is not an advanced 
+approaches Board-regulated institution may apply the treatment under 
+Sec. Sec.  217.21 and 217.22(c)(2), (5), (6), and (d)(2) applicable to 
+an advanced approaches Board-regulated institution during the calendar 
+quarter beginning January 1, 2020. During the quarter beginning January 
+1, 2020, a Board-regulated institution that makes such an election must 
+deduct 80 percent of the amount otherwise required to be deducted under 
+Sec.  217.22(d)(2) and must apply a
+
+[[Page 61808]]
+
+100 percent risk weight to assets not deducted under Sec.  
+217.22(d)(2). In addition, during the quarter beginning January 1, 
+2020, a Board-regulated institution that makes such an election must 
+include in its regulatory capital 20 percent of any minority interest 
+that exceeds the amount of minority interest includable in regulatory 
+capital under Sec.  217.21 as it applies to an advanced approaches 
+Board-regulated institution. A Board-regulated institution that is not 
+an advanced approaches Board-regulated institution must apply the 
+treatment under Sec. Sec.  217.21 and 217.22 applicable to a Board-
+regulated institution that is not an advanced approaches Board-
+regulated institution beginning April 1, 2020, and thereafter.
+* * * * *
+
+12 CFR Part 324
+
+FEDERAL DEPOSIT INSURANCE CORPORATION
+
+    For the reasons set out in the joint preamble, 12 CFR part 324 is 
+amended as follows.
+
+PART 324--CAPITAL ADEQUACY OF FDIC-SUPERVISED INSTITUTIONS
+
+0
+5. The authority citation for part 324 continues to read as follows:
+
+    Authority: 12 U.S.C. 1815(a), 1815(b), 1816, 1818(a), 1818(b), 
+1818(c), 1818(t), 1819(Tenth), 1828(c), 1828(d), 1828(i), 1828(n), 
+1828(o), 1831o, 1835, 3907, 3909, 4808; 5371; 5412; Pub. L. 102-233, 
+105 Stat. 1761, 1789, 1790 (12 U.S.C. 1831n note); Pub. L. 102-242, 
+105 Stat. 2236, 2355, as amended by Pub. L. 103-325, 108 Stat. 2160, 
+2233 (12 U.S.C. 1828 note); Pub. L. 102-242, 105 Stat. 2236, 2386, 
+as amended by Pub. L. 102-550, 106 Stat. 3672, 4089 (12 U.S.C. 1828 
+note); Pub. L. 111-203, 124 Stat. 1376, 1887 (15 U.S.C. 78o-7 note).
+
+0
+6. Effective January 1, 2020, Sec.  324.300 is amended by adding 
+paragraph (f) to read as follows:
+
+
+Sec.  324.300  Transitions.
+
+* * * * *
+    (f) An FDIC-supervised institution that is not an advanced 
+approaches FDIC-supervised institution may apply the treatment under 
+Sec. Sec.  324.21 and 324.22(c)(2), (5), (6), and (d)(2) applicable to 
+an advanced approaches FDIC-supervised institution during the calendar 
+quarter beginning January 1, 2020. During the quarter beginning January 
+1, 2020, an FDIC-supervised institution that makes such an election 
+must deduct 80 percent of the amount otherwise required to be deducted 
+under Sec.  324.22(d)(2) and must apply a 100 percent risk weight to 
+assets not deducted under Sec.  324.22(d)(2). In addition, during the 
+quarter beginning January 1, 2020, an FDIC-supervised institution that 
+makes such an election must include in its regulatory capital 20 
+percent of any minority interest that exceeds the amount of minority 
+interest includable in regulatory capital under Sec.  324.21 as it 
+applies to an advanced approaches FDIC-supervised institution. An FDIC-
+supervised institution that is not an advanced approaches institution 
+must apply the treatment under Sec. Sec.  324.21 and 324.22 applicable 
+to an FDIC-supervised institution that is a non-advanced approaches 
+institution beginning April 1, 2020, and thereafter.
+* * * * *
+
+    Dated: September 17, 2019.
+Joseph M. Otting,
+Comptroller of the Currency.
+    By order of the Board of Governors of the Federal Reserve 
+System, October 16, 2019
+Ann E. Misback,
+Secretary of the Board.
+
+Federal Deposit Insurance Corporation.
+
+    By order of the Board of Directors.
+
+    Dated at Washington, DC, on September 17, 2019.
+Robert E. Feldman,
+Executive Secretary.
+[FR Doc. 2019-23467 Filed 11-12-19; 8:45 am]
+BILLING CODE 6210-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

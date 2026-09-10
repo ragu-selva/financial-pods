@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<DIV8 N="217.31" TYPE="SECTION" hierarchy_metadata="{&quot;path&quot;:&quot;/on/_SUBSTITUTE_DATE_/title-12/section-217.31&quot;,&quot;citation&quot;:&quot;12 CFR 217.31&quot;}">
+<HEAD>§ 217.31 Mechanics for calculating risk-weighted assets for general credit risk.</HEAD>
+<P>(a) <I>General risk-weighting requirements.</I> A Board-regulated institution must apply risk weights to its exposures as follows:</P>
+<P>(1) A Board-regulated institution must determine the exposure amount of each on-balance sheet exposure, each OTC derivative contract, and each off-balance sheet commitment, trade and transaction-related contingency, guarantee, repo-style transaction, financial standby letter of credit, forward agreement, or other similar transaction that is not:</P>
+<P>(i) An unsettled transaction subject to § 217.38;</P>
+<P>(ii) A cleared transaction subject to § 217.35;</P>
+<P>(iii) A default fund contribution subject to § 217.35;</P>
+<P>(iv) A securitization exposure subject to §§ 217.41 through 217.45; or</P>
+<P>(v) An equity exposure (other than an equity OTC derivative contract) subject to §§ 217.51 through 217.53.</P>
+<P>(2) The Board-regulated institution must multiply each exposure amount by the risk weight appropriate to the exposure based on the exposure type or counterparty, eligible guarantor, or financial collateral to determine the risk-weighted asset amount for each exposure.</P>
+<P>(b) Total risk-weighted assets for general credit risk equals the sum of the risk-weighted asset amounts calculated under this section.</P>
+</DIV8>

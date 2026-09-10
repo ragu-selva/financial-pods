@@ -1,0 +1,623 @@
+{
+  "schema_version": "source-approval-package.v1",
+  "status": "ACTIVE",
+  "approval_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+  "source_readiness": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+  "ruleset_family": "US_FRB_PART217_STANDARDIZED",
+  "ruleset_version": "US_FRB_PART217_STANDARDIZED@2025-01-01.internal-v1",
+  "regulatory_as_of": "2025-01-01",
+  "jurisdiction": "US",
+  "regulator": "FRB",
+  "regulatory_regime": "STANDARDIZED",
+  "executable": false,
+  "execution_policy": "Approved source evidence, not executable software. Only the scoped approved_rules and approved_required_dependencies may justify the internal Golden Case after activation PR review and merge. No blanket approval of captured documents.",
+  "approval_record": "ACTIVATION_RECORD.json",
+  "approved_golden_case": "GOLDEN_CASE_APPROVED.json",
+  "reviewed_manifest": {
+    "path": "SOURCE_MANIFEST.reviewed-v0.4.json",
+    "sha256": "acae53f92c283487d9d7bbd2692d6e25900cc0d63ebb1cfe9a0e2666f92862f2",
+    "hash_policy": "UTF-8 text, CRLF converted to LF only; retain final newline.",
+    "planning_commit": "79b33dbb1f069a89fc6d87336a23268adea08589",
+    "role": "Immutable documentary baseline; its PENDING_REVIEW fields describe capture-time state. This separate envelope records subsequent human approval."
+  },
+  "selection_policy": {
+    "approved_as_of_dates": ["2025-01-01"],
+    "legal_status_as_of": "CURRENT",
+    "effective_to": null,
+    "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+    "unknown_endpoint_is_open_ended": false,
+    "other_dates": "REQUIRE_NEW_REVIEW",
+    "aliases": "Discovery only; resolve to exact version and manifest hash; never replace pinned replay evidence.",
+    "revocation": "Append-only new catalog event; never overwrite approved package/source bytes.",
+    "ambiguous_or_missing_evidence": "FAIL_CLOSED",
+    "scope": "Internal synthetic ordinary fully drawn corporate loan with approved facts and negative screens only. Not arbitrary real-bank exposures."
+  },
+  "approved_rules": [
+    {
+      "rule_id": "US-SCOPE",
+      "rule_version": "US-SCOPE@2025-01-01.internal-v1",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "reviewer_name": "Ragunath Selvaraj",
+      "review_date": "2026-09-10",
+      "review_evidence": "ACTIVATION_RECORD.json",
+      "approved_for_execution_evidence": true,
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "effective_from": "2024-01-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "approved_as_of_dates": ["2025-01-01"],
+      "paragraph_lineage_ids": [
+        "P-INSTITUTION",
+        "P-STANDARDIZED-SCOPE",
+        "P-CBLR-ELECTION"
+      ],
+      "locators": [
+        "217.1(c)(1)(i)(A), read with (c)(2), (f)(1)-(2), (f)(4), and 217.2 state member bank / Board-regulated institution",
+        "217.30(a)-(b)",
+        "217.12(a)(1), (a)(3), and (c) grace-period conditions"
+      ],
+      "source_refs": [
+        {
+          "source_id": "US-SCOPE-INSTITUTION",
+          "content_sha256": "432eed1089ac4a55bd2c8e2dc4cee0186cf269a3aaa26e4239b2fe81bedcb084"
+        },
+        {
+          "source_id": "US-SCOPE-STANDARDIZED",
+          "content_sha256": "2ae989bc248d3f975aa4460b396686bae0449f35adeafba10ae83062c48b7150"
+        }
+      ],
+      "dependency_ids": ["DEP-CBLR", "DEP-COVERED-POSITION", "DEP-INSTITUTION"],
+      "interpretation": "synthetic in-scope Board-regulated state member bank using standardized treatment; no CBLR election and no excluded covered position.",
+      "scope": "Approved Golden Case predicates, outer negative screens and educational transformation only; not positive excluded treatments."
+    },
+    {
+      "rule_id": "US-CLASS",
+      "rule_version": "US-CLASS@2025-01-01.internal-v1",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "reviewer_name": "Ragunath Selvaraj",
+      "review_date": "2026-09-10",
+      "review_evidence": "ACTIVATION_RECORD.json",
+      "approved_for_execution_evidence": true,
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "effective_from": "2020-04-13",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "approved_as_of_dates": ["2025-01-01"],
+      "paragraph_lineage_ids": ["P-CORPORATE"],
+      "locators": ["217.2 Corporate exposure, introductory text and (1)-(14)"],
+      "source_refs": [
+        {
+          "source_id": "US-DEFINITIONS",
+          "content_sha256": "7b2340c44376ce4716a8a205614bbe82d891327f049c76865fb9dc1d9100ede5"
+        }
+      ],
+      "dependency_ids": [
+        "DEP-EXTERNAL-IDENTITY",
+        "DEP-PPP",
+        "DEP-UNSETTLED",
+        "DEP-OTHER-CLASSES",
+        "DEP-QCCP"
+      ],
+      "interpretation": "Company exposure satisfying the dated corporate definition; all fourteen numbered exclusions assessed. Generic BCBS labels cannot decide this.",
+      "scope": "Approved Golden Case predicates, outer negative screens and educational transformation only; not positive excluded treatments."
+    },
+    {
+      "rule_id": "US-MEASURE",
+      "rule_version": "US-MEASURE@2025-01-01.internal-v1",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "reviewer_name": "Ragunath Selvaraj",
+      "review_date": "2026-09-10",
+      "review_evidence": "ACTIVATION_RECORD.json",
+      "approved_for_execution_evidence": true,
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "effective_from": "2019-07-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "approved_as_of_dates": ["2025-01-01"],
+      "paragraph_lineage_ids": ["P-CARRYING", "P-EXPOSURE-AMOUNT"],
+      "locators": [
+        "217.2 Carrying value (both sentences)",
+        "217.2 Exposure amount (1)"
+      ],
+      "source_refs": [
+        {
+          "source_id": "US-DEFINITIONS",
+          "content_sha256": "7b2340c44376ce4716a8a205614bbe82d891327f049c76865fb9dc1d9100ede5"
+        }
+      ],
+      "dependency_ids": [
+        "DEP-AOCI",
+        "DEP-REPORTING-ACCOUNTING",
+        "DEP-CRM-DERIVATIVES"
+      ],
+      "interpretation": "Ordinary on-balance-sheet exposure measured using applicable GAAP carrying value, without double subtracting allowance/write-offs. Type EXPOSURE_AMOUNT.",
+      "scope": "Approved Golden Case predicates, outer negative screens and educational transformation only; not positive excluded treatments."
+    },
+    {
+      "rule_id": "US-CORP-RW",
+      "rule_version": "US-CORP-RW@2025-01-01.internal-v1",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "reviewer_name": "Ragunath Selvaraj",
+      "review_date": "2026-09-10",
+      "review_evidence": "ACTIVATION_RECORD.json",
+      "approved_for_execution_evidence": true,
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "effective_from": "2020-09-17",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "approved_as_of_dates": ["2025-01-01"],
+      "paragraph_lineage_ids": ["P-CORPORATE-WEIGHT", "P-PAST-DUE"],
+      "locators": [
+        "217.32(f)(1), with mandatory (f)(2)-(3) screen",
+        "217.32(k), particularly introductory 90-days-or-nonaccrual condition"
+      ],
+      "source_refs": [
+        {
+          "source_id": "US-WEIGHT-TREATMENT",
+          "content_sha256": "f2611630df5ea4141bbeae737394e9fe99f0b881ba4f824f21b5980eb93e837a"
+        }
+      ],
+      "dependency_ids": ["DEP-QCCP", "DEP-PAST-DUE", "DEP-CRM-DERIVATIVES"],
+      "interpretation": "1.00 for ordinary corporate under (f)(1), with (f)(2)-(3), (k), CRM and other treatments screened.",
+      "scope": "Approved Golden Case predicates, outer negative screens and educational transformation only; not positive excluded treatments."
+    },
+    {
+      "rule_id": "US-RWA",
+      "rule_version": "US-RWA@2025-01-01.internal-v1",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "reviewer_name": "Ragunath Selvaraj",
+      "review_date": "2026-09-10",
+      "review_evidence": "ACTIVATION_RECORD.json",
+      "approved_for_execution_evidence": true,
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "effective_from": "2014-01-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "approved_as_of_dates": ["2025-01-01"],
+      "paragraph_lineage_ids": ["P-RWA"],
+      "locators": ["217.31(a)(2), read with (a)(1) scope exclusions"],
+      "source_refs": [
+        {
+          "source_id": "US-RWA-SOURCE",
+          "content_sha256": "22abe088b84059e7d6dad4c5e83fc55897f4cd7c54bbe47e54acbf821eb05638"
+        }
+      ],
+      "dependency_ids": ["DEP-UNSETTLED", "DEP-OTHER-CLASSES", "DEP-QCCP"],
+      "interpretation": "Use the regulatory exposure measure times the applicable risk weight for single-exposure RWA.",
+      "scope": "Approved Golden Case predicates, outer negative screens and educational transformation only; not positive excluded treatments."
+    },
+    {
+      "rule_id": "US-TEACHING",
+      "rule_version": "US-TEACHING@2025-01-01.internal-v1",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "reviewer_name": "Ragunath Selvaraj",
+      "review_date": "2026-09-10",
+      "review_evidence": "ACTIVATION_RECORD.json",
+      "approved_for_execution_evidence": true,
+      "legal_status": "CURRENT",
+      "legal_status_as_of": "2025-01-01",
+      "effective_from": "2020-01-01",
+      "effective_to": null,
+      "effective_to_status": "UNKNOWN_NOT_OPEN_ENDED",
+      "approved_as_of_dates": ["2025-01-01"],
+      "paragraph_lineage_ids": ["P-TEACHING-SOURCE", "P-CBLR-ELECTION"],
+      "locators": [
+        "217.10(a)(1)(iii), read with (a)(2) and (b)(3)",
+        "217.12(a)(1), (a)(3), and (c) grace-period conditions"
+      ],
+      "source_refs": [
+        {
+          "source_id": "US-TEACHING-SOURCE",
+          "content_sha256": "7f4ae17530a9760070687d2391893eb36a98d783b60969d7202ef2c57710853f"
+        }
+      ],
+      "dependency_ids": ["DEP-CBLR"],
+      "interpretation": "Product educational transformation at 0.08 using minimum total-capital ratio as reference, not allocated loan capital or a bank-specific requirement.",
+      "scope": "Approved Golden Case predicates, outer negative screens and educational transformation only; not positive excluded treatments."
+    }
+  ],
+  "approved_required_dependencies": [
+    {
+      "dependency_id": "DEP-CBLR",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "reviewer_name": "Ragunath Selvaraj",
+      "review_date": "2026-09-10",
+      "review_evidence": "ACTIVATION_RECORD.json",
+      "approved_for_execution_evidence": true,
+      "approved_as_of_dates": ["2025-01-01"],
+      "locators": ["217.10(a)(2)", "217.12(a)(1), (a)(3), (c)"],
+      "source_refs": [
+        {
+          "source_id": "US-DEPENDENCY-217.12",
+          "content_sha256": "b77af40617e9d05cdaf796a00c7a591ca8a245d8f629af2b441bf43058c059bb"
+        },
+        {
+          "source_id": "FR-2019-23472",
+          "content_sha256": "8212acb39ccf12c8ff9817fc519df42049d4c38f06d626c1ae96572fecb9bc2c"
+        },
+        {
+          "source_id": "FR-2020-26138",
+          "content_sha256": "5bafbefd68d5dddf55b238e112e2826d387327ebd996aa15ad4c3f47a2b19d0f"
+        },
+        {
+          "source_id": "FR-2020-19922",
+          "content_sha256": "f5371451633fbe9ab2b9a23f7fe7e9d7004a9fe6681f513b00d8a32866b0e633"
+        }
+      ],
+      "scope": "Dated election/grace rules plus explicit never-elected/no-grace candidate facts. No threshold or CBLR-ratio model.",
+      "fact_group_refs": ["institution"],
+      "closure_evidence": "MATERIAL_SOURCE_CLOSURE.md"
+    },
+    {
+      "dependency_id": "DEP-COVERED-POSITION",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "reviewer_name": "Ragunath Selvaraj",
+      "review_date": "2026-09-10",
+      "review_evidence": "ACTIVATION_RECORD.json",
+      "approved_for_execution_evidence": true,
+      "approved_as_of_dates": ["2025-01-01"],
+      "locators": ["217.30(b)", "217.202(b) Covered position"],
+      "source_refs": [
+        {
+          "source_id": "US-DEPENDENCY-217.202",
+          "content_sha256": "ad2a60dbcc2a7c9e16926bedc0eeecf68ad4520f1501a5aea4dbafcf5996ac7e"
+        },
+        {
+          "source_id": "FR-2013-21653",
+          "content_sha256": "93fb03f3f0b5d5b9d20ed61ed903228148325947c60e1e27a3d9595f2c435f02"
+        },
+        {
+          "source_id": "FR-2015-28294",
+          "content_sha256": "bd07fc237561f42d9a318c97df32b90269a17a3a6b121a44affe6743ff1965ec"
+        },
+        {
+          "source_id": "FR-2019-15131",
+          "content_sha256": "efbb8a0a643ee2b11bdc5949156176e79ee37f39de224e5e76166c7771e6ae3b"
+        },
+        {
+          "source_id": "FR-2019-27249",
+          "content_sha256": "3050cd6c4ec8c1084093dbfae8520a18324a6321863a79e7d68ffc8a40cc32d6"
+        },
+        {
+          "source_id": "FFIEC-GLOSSARY-2024-06",
+          "content_sha256": "4e3e95b4af27501c94ce7ae28ae1a88c61ec6a34d386f294544753e3a8a3013f"
+        },
+        {
+          "source_id": "FFIEC-RC-2024-03",
+          "content_sha256": "73cb63e58bda8d4349a450c93f7ef5c56a7b9c26f5cf9e18f8477e89bf63e992"
+        },
+        {
+          "source_id": "FDIC-2024-06-INSTRUCTIONS-INDEX",
+          "content_sha256": "1913862752fe1f5556bf4577d0f940258dcb3a893f3cb8728687604d54d8a716"
+        },
+        {
+          "source_id": "FDIC-2024-12-INDEX",
+          "content_sha256": "8a96fc422f92df120be58757328df6d1fcf9b1eb4c7ff4aae16b578408edc6cc"
+        },
+        {
+          "source_id": "FFIEC-2024-12-UPDATES",
+          "content_sha256": "74308f902bb78c698e783583581caf9a1b637077ee5e1240f7c2c1e547d1dee0"
+        },
+        {
+          "source_id": "FFIEC-RCD-2020-09",
+          "content_sha256": "086bad9aad72602668a0d9e4ffb9ed7bb1366e23a87b4373b1135ccfe02e4551"
+        }
+      ],
+      "scope": "Dated 217.202 covered-position (1)/(2), footnotes 32/33 and trading/FX definitions; RC-D-1 and Trading Account passages. Explicit no trading, hedge, FX, commodity or securities-lending/repo facts close the outer gate, not the entire market-risk framework.",
+      "fact_group_refs": ["market_risk"],
+      "closure_evidence": "MATERIAL_SOURCE_CLOSURE.md"
+    },
+    {
+      "dependency_id": "DEP-UNSETTLED",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "reviewer_name": "Ragunath Selvaraj",
+      "review_date": "2026-09-10",
+      "review_evidence": "ACTIVATION_RECORD.json",
+      "approved_for_execution_evidence": true,
+      "approved_as_of_dates": ["2025-01-01"],
+      "locators": [
+        "217.2 Corporate exposure (11)",
+        "217.31(a)(1)(i)",
+        "217.38(a)-(b)"
+      ],
+      "source_refs": [
+        {
+          "source_id": "US-DEPENDENCY-217.38",
+          "content_sha256": "7bb0da309b37442252e177f3bcdcf9457830ff6cb238756331760cd5a122ddd8"
+        },
+        {
+          "source_id": "FR-2013-21653",
+          "content_sha256": "93fb03f3f0b5d5b9d20ed61ed903228148325947c60e1e27a3d9595f2c435f02"
+        }
+      ],
+      "scope": "217.38(a)-(b) securities/FX/commodity settlement scope is excluded by explicit absence of that kind of transaction. No settlement-delay charges.",
+      "fact_group_refs": ["other_scope"],
+      "closure_evidence": "MATERIAL_SOURCE_CLOSURE.md"
+    },
+    {
+      "dependency_id": "DEP-EXTERNAL-IDENTITY",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "reviewer_name": "Ragunath Selvaraj",
+      "review_date": "2026-09-10",
+      "review_evidence": "ACTIVATION_RECORD.json",
+      "approved_for_execution_evidence": true,
+      "approved_as_of_dates": ["2025-01-01"],
+      "locators": [
+        "217.2 Depository institution -> FDIA section 3 / 12 USC 1813",
+        "217.2 Foreign bank -> 12 CFR 211.2",
+        "217.2 Corporate exposure (1) credit union"
+      ],
+      "source_refs": [
+        {
+          "source_id": "US-DEFINITIONS",
+          "content_sha256": "7b2340c44376ce4716a8a205614bbe82d891327f049c76865fb9dc1d9100ede5"
+        },
+        {
+          "source_id": "USC-2024-12-1813",
+          "content_sha256": "2d04a179690981c6daf7ae713a4ca831300006c16f9b7de7a73e683ec60e2524"
+        },
+        {
+          "source_id": "US-INCORPORATED-211.2",
+          "content_sha256": "29e2217b13f1fb3f02e4df752ce698b5be5ab7565be670bcf6bcf68542a1f093"
+        },
+        {
+          "source_id": "GOVINFO-2025-211.2",
+          "content_sha256": "e71c037432685f57ac07ac2e538bf72180e2df82879a473ad24a0b03d7db9ccd"
+        },
+        {
+          "source_id": "USC-2024-12-1752",
+          "content_sha256": "7fff1b2aa9d31787aaaaad202f062bb23c728b50e6e0d6ccae5cd4d782435a65"
+        }
+      ],
+      "scope": "Dated 12 USC 1813(a)/(b)/(c)(1), 211.2(j), 1752(1)/(6)/(7) and existing 217.2 PSE/GSE/sovereign/MDB definitions support explicit domestic private manufacturing/non-bank/non-cooperative/non-public candidate facts. Not a bank-charter classifier; no inference from name or lack of insurance.",
+      "fact_group_refs": ["counterparty"],
+      "closure_evidence": "MATERIAL_SOURCE_CLOSURE.md"
+    },
+    {
+      "dependency_id": "DEP-PPP",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "reviewer_name": "Ragunath Selvaraj",
+      "review_date": "2026-09-10",
+      "review_evidence": "ACTIVATION_RECORD.json",
+      "approved_for_execution_evidence": true,
+      "approved_as_of_dates": ["2025-01-01"],
+      "locators": ["217.2 Corporate exposure (14) -> 15 USC 636(a)(36)"],
+      "source_refs": [
+        {
+          "source_id": "US-DEFINITIONS",
+          "content_sha256": "7b2340c44376ce4716a8a205614bbe82d891327f049c76865fb9dc1d9100ede5"
+        },
+        {
+          "source_id": "FR-2020-07712",
+          "content_sha256": "b7e208920117b080ea199442dc060af60f4c636c6a46503b4389e6224bc9a255"
+        },
+        {
+          "source_id": "FR-2020-21894",
+          "content_sha256": "e138c172efadb96794517c9bb251cf3f3b6606c6907f68350fc4d2530c5a9bbb"
+        },
+        {
+          "source_id": "USC-2023-15-636",
+          "content_sha256": "1a82370876246fa8dbdb92c9784f2f50a1171ec7917a4087f4401e207012d91a"
+        },
+        {
+          "source_id": "USC-2024-15-636",
+          "content_sha256": "1154f3dbc2aa2d9a75c79000efe8a3a436e73683b401c15b6c61f7b0ceb4852e"
+        }
+      ],
+      "scope": "15 USC 636(a)(36)(A)(ii)-(iii), dated edition reconciliation and existing 217.2(14) chain support ppp_loan=false plus explicit no origination under (36)/(37), SBA program, PPP acquisition or refinancing. No PPP eligibility/forgiveness analysis.",
+      "fact_group_refs": ["ppp"],
+      "closure_evidence": "MATERIAL_SOURCE_CLOSURE.md"
+    },
+    {
+      "dependency_id": "DEP-REPORTING-ACCOUNTING",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "reviewer_name": "Ragunath Selvaraj",
+      "review_date": "2026-09-10",
+      "review_evidence": "ACTIVATION_RECORD.json",
+      "approved_for_execution_evidence": true,
+      "approved_as_of_dates": ["2025-01-01"],
+      "locators": [
+        "217.202 Covered position (1), notes 32-33",
+        "217.12(a)(3) Call Report / FR Y-9C",
+        "217.2 GAAP and carrying value"
+      ],
+      "source_refs": [
+        {
+          "source_id": "US-DEPENDENCY-217.202",
+          "content_sha256": "ad2a60dbcc2a7c9e16926bedc0eeecf68ad4520f1501a5aea4dbafcf5996ac7e"
+        },
+        {
+          "source_id": "US-DEPENDENCY-217.12",
+          "content_sha256": "b77af40617e9d05cdaf796a00c7a591ca8a245d8f629af2b441bf43058c059bb"
+        },
+        {
+          "source_id": "US-DEFINITIONS",
+          "content_sha256": "7b2340c44376ce4716a8a205614bbe82d891327f049c76865fb9dc1d9100ede5"
+        },
+        {
+          "source_id": "FFIEC-GLOSSARY-2024-06",
+          "content_sha256": "4e3e95b4af27501c94ce7ae28ae1a88c61ec6a34d386f294544753e3a8a3013f"
+        },
+        {
+          "source_id": "FFIEC-RC-2024-03",
+          "content_sha256": "73cb63e58bda8d4349a450c93f7ef5c56a7b9c26f5cf9e18f8477e89bf63e992"
+        },
+        {
+          "source_id": "FDIC-2024-06-INSTRUCTIONS-INDEX",
+          "content_sha256": "1913862752fe1f5556bf4577d0f940258dcb3a893f3cb8728687604d54d8a716"
+        },
+        {
+          "source_id": "FDIC-2024-12-INDEX",
+          "content_sha256": "8a96fc422f92df120be58757328df6d1fcf9b1eb4c7ff4aae16b578408edc6cc"
+        },
+        {
+          "source_id": "FFIEC-2024-12-UPDATES",
+          "content_sha256": "74308f902bb78c698e783583581caf9a1b637077ee5e1240f7c2c1e547d1dee0"
+        }
+      ],
+      "scope": "Dated GAAP/carrying-value rule plus FFIEC A-11, A-102 and RC-9/10 support a fully itemized candidate reconciliation. Gross amortized cost is 10m with zero adjustments; net amount is 10m only under the explicit zero-allowance simplification pending human acceptance. No claim that performing implies zero expected loss, no independently verified GAAP/CECL estimate.",
+      "fact_group_refs": ["accounting"],
+      "closure_evidence": "MATERIAL_SOURCE_CLOSURE.md"
+    },
+    {
+      "dependency_id": "DEP-PAST-DUE",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "reviewer_name": "Ragunath Selvaraj",
+      "review_date": "2026-09-10",
+      "review_evidence": "ACTIVATION_RECORD.json",
+      "approved_for_execution_evidence": true,
+      "approved_as_of_dates": ["2025-01-01"],
+      "locators": ["217.32(k)"],
+      "source_refs": [
+        {
+          "source_id": "US-WEIGHT-TREATMENT",
+          "content_sha256": "f2611630df5ea4141bbeae737394e9fe99f0b881ba4f824f21b5980eb93e837a"
+        },
+        {
+          "source_id": "FR-2019-15131",
+          "content_sha256": "efbb8a0a643ee2b11bdc5949156176e79ee37f39de224e5e76166c7771e6ae3b"
+        }
+      ],
+      "scope": "217.32(k) current paragraph and explicit zero days past due/nonaccrual=false facts. No defaulted-loan treatment.",
+      "fact_group_refs": ["other_scope"],
+      "closure_evidence": "MATERIAL_SOURCE_CLOSURE.md"
+    },
+    {
+      "dependency_id": "DEP-INSTITUTION",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "reviewer_name": "Ragunath Selvaraj",
+      "review_date": "2026-09-10",
+      "review_evidence": "ACTIVATION_RECORD.json",
+      "approved_for_execution_evidence": true,
+      "approved_as_of_dates": ["2025-01-01"],
+      "locators": [
+        "217.2 Board-regulated institution / State bank / State member bank or member bank",
+        "217.1(c)(1)(i)(A), (c)(2), (f)"
+      ],
+      "source_refs": [
+        {
+          "source_id": "US-DEFINITIONS",
+          "content_sha256": "7b2340c44376ce4716a8a205614bbe82d891327f049c76865fb9dc1d9100ede5"
+        },
+        {
+          "source_id": "US-SCOPE-INSTITUTION",
+          "content_sha256": "432eed1089ac4a55bd2c8e2dc4cee0186cf269a3aaa26e4239b2fe81bedcb084"
+        },
+        {
+          "source_id": "FR-2013-21653",
+          "content_sha256": "93fb03f3f0b5d5b9d20ed61ed903228148325947c60e1e27a3d9595f2c435f02"
+        },
+        {
+          "source_id": "FR-2023-23911",
+          "content_sha256": "bdd909aa60380a71b3b7e2ab85ce231cf70c6f510c5b71c860f2b37acea23b69"
+        }
+      ],
+      "scope": "Existing 217.1/217.2 state-member-bank perimeter and statutory timing plus explicit synthetic FRB/standardized facts. No BHC/SLHC threshold analysis or real charter lookup.",
+      "fact_group_refs": ["institution"],
+      "closure_evidence": "MATERIAL_SOURCE_CLOSURE.md"
+    }
+  ],
+  "dependency_boundary": [
+    {
+      "dependency_id": "DEP-CBLR",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "approved_for_execution_evidence": true
+    },
+    {
+      "dependency_id": "DEP-COVERED-POSITION",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "approved_for_execution_evidence": true
+    },
+    {
+      "dependency_id": "DEP-UNSETTLED",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "approved_for_execution_evidence": true
+    },
+    {
+      "dependency_id": "DEP-AOCI",
+      "classification": "NOT_REQUIRED_FOR_GOLDEN_CASE",
+      "approved_for_execution_evidence": false
+    },
+    {
+      "dependency_id": "DEP-EXTERNAL-IDENTITY",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "approved_for_execution_evidence": true
+    },
+    {
+      "dependency_id": "DEP-PPP",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "approved_for_execution_evidence": true
+    },
+    {
+      "dependency_id": "DEP-REPORTING-ACCOUNTING",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "approved_for_execution_evidence": true
+    },
+    {
+      "dependency_id": "DEP-QCCP",
+      "classification": "NOT_REQUIRED_FOR_GOLDEN_CASE",
+      "approved_for_execution_evidence": false
+    },
+    {
+      "dependency_id": "DEP-CRM-DERIVATIVES",
+      "classification": "NOT_REQUIRED_FOR_GOLDEN_CASE",
+      "approved_for_execution_evidence": false
+    },
+    {
+      "dependency_id": "DEP-OTHER-CLASSES",
+      "classification": "NOT_REQUIRED_FOR_GOLDEN_CASE",
+      "approved_for_execution_evidence": false
+    },
+    {
+      "dependency_id": "DEP-PAST-DUE",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "approved_for_execution_evidence": true
+    },
+    {
+      "dependency_id": "DEP-INSTITUTION",
+      "classification": "REQUIRED_AND_RESOLVED",
+      "approved_for_execution_evidence": true
+    },
+    {
+      "dependency_id": "DEP-FUTURE-POSITIVE-TREATMENTS",
+      "classification": "DEFERRED_FUTURE_SCOPE",
+      "approved_for_execution_evidence": false
+    },
+    {
+      "dependency_id": "DEP-OTHER-DATES-AND-JURISDICTIONS",
+      "classification": "DEFERRED_FUTURE_SCOPE",
+      "approved_for_execution_evidence": false
+    }
+  ],
+  "required_but_unresolved_ids": [],
+  "archive_policy": "All 71 captures retain pinned source, amendment, comparison and proposal-rejection evidence. Approval covers only exact rule/dependency locators. Other content remains audit/context only; no general Part 217, bank, PPP, CECL, market-risk or other-class engine is approved.",
+  "proposal_evidence": [
+    {
+      "source_id": "R-1888-PROPOSAL",
+      "legal_status": "PROPOSED",
+      "executable": false,
+      "content_sha256": "e5b7ff5aaeff8eeb25a6f2b54b10255cf1f6586a61dd7fd92ff6cd74ba69ab08",
+      "approved_for_execution_evidence": false
+    }
+  ],
+  "contract_policy": {
+    "reviewed_design": "FRAMEWORK_SCOPE.md: v0.x-draft runtime schemas are approved design inputs, not finalized/implemented runtime schemas.",
+    "source_hashes": "SHA-256 over original raw bytes, without normalization.",
+    "manifest_hash": "SHA-256 over UTF-8 authored manifest; CRLF converted to LF, final newline retained, all fields included. Reformatting requires a new approved version/hash.",
+    "input_snapshot": "Before runtime acceptance implement/test sorted-key UTF-8 JSON, preserved array order, ISO dates, exact decimal strings/units; include computational facts, provenance, schema and selected ruleset versions. Exclude display names and caller trace IDs. No repr, float, clock or guessed metadata.",
+    "runtime_output_evidence": "No executed trace, input hash or calculation result is fabricated by this approval."
+  }
+}

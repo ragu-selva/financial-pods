@@ -1,0 +1,1847 @@
+<html>
+<head>
+<title>Federal Register, Volume 79 Issue 84 (Thursday, May 1, 2014)</title>
+</head>
+<body><pre>
+[Federal Register Volume 79, Number 84 (Thursday, May 1, 2014)]
+[Rules and Regulations]
+[Pages 24528-24541]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2014-09367]
+
+
+
+[[Page 24528]]
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TREASURY
+
+Office of the Comptroller of the Currency
+
+12 CFR Part 6
+
+[Docket ID OCC-2013-0008]
+RIN 1557-AD69
+
+FEDERAL RESERVE SYSTEM
+
+12 CFR Parts 208 and 217
+
+[Regulation H and Q; Docket No. R-1460]
+RIN 7100-AD 99
+
+FEDERAL DEPOSIT INSURANCE CORPORATION
+
+12 CFR Part 324
+
+RIN 3064-AE01
+
+
+Regulatory Capital Rules: Regulatory Capital, Enhanced 
+Supplementary Leverage Ratio Standards for Certain Bank Holding 
+Companies and Their Subsidiary Insured Depository Institutions
+
+AGENCIES:  Office of the Comptroller of the Currency, Treasury; the 
+Board of Governors of the Federal Reserve System; and the Federal 
+Deposit Insurance Corporation.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Office of the Comptroller of the Currency (OCC), the Board 
+of Governors of the Federal Reserve System (Board), and the Federal 
+Deposit Insurance Corporation (FDIC) (collectively, the agencies) are 
+adopting a final rule that strengthens the agencies' supplementary 
+leverage ratio standards for large, interconnected U.S. banking 
+organizations (the final rule). The final rule applies to any U.S. top-
+tier bank holding company (BHC) with more than $700 billion in total 
+consolidated assets or more than $10 trillion in assets under custody 
+(covered BHC) and any insured depository institution (IDI) subsidiary 
+of these BHCs (together, covered organizations). In the revised 
+regulatory capital rule adopted by the agencies in July 2013 (2013 
+revised capital rule), the agencies established a minimum supplementary 
+leverage ratio of 3 percent, consistent with the minimum leverage ratio 
+adopted by the Basel Committee on Banking Supervision (BCBS), for 
+banking organizations subject to the agencies' advanced approaches 
+risk-based capital rules. The final rule establishes enhanced 
+supplementary leverage ratio standards for covered BHCs and their 
+subsidiary IDIs. Under the final rule, an IDI that is a subsidiary of a 
+covered BHC must maintain a supplementary leverage ratio of at least 6 
+percent to be well capitalized under the agencies' prompt corrective 
+action (PCA) framework. The Board also is adopting in the final rule a 
+supplementary leverage ratio buffer (leverage buffer) for covered BHCs 
+of 2 percent above the minimum supplementary leverage ratio requirement 
+of 3 percent. The leverage buffer functions like the capital 
+conservation buffer for the risk-based capital ratios in the 2013 
+revised capital rule. A covered BHC that maintains a leverage buffer of 
+tier 1 capital in an amount greater than 2 percent of its total 
+leverage exposure is not subject to limitations on distributions and 
+discretionary bonus payments under the final rule.
+    Elsewhere in today's Federal Register, the agencies are proposing 
+changes to the 2013 revised capital rule's supplementary leverage 
+ratio, including changes to the definition of total leverage exposure, 
+which would apply to all advanced approaches banking organizations and 
+thus, if adopted, would affect banking organizations subject to this 
+final rule.
+
+DATES: The final rule is effective January 1, 2018.
+
+FOR FURTHER INFORMATION CONTACT: 
+    OCC: Roger Tufts, Senior Economic Advisor, (202) 649-6981; Nicole 
+Billick, Risk Expert, (202) 649-7932, Capital Policy; or Carl Kaminski, 
+Counsel; or Henry Barkhausen, Attorney, Legislative and Regulatory 
+Activities Division, (202) 649-5490, Office of the Comptroller of the 
+Currency, 400 7th Street SW., Washington, DC 20219.
+    Board: Constance M. Horsley, Assistant Director, (202) 452-5239; 
+Juan C. Climent, Senior Supervisory Financial Analyst, (202) 872-7526; 
+or Sviatlana Phelan, Senior Financial Analyst, (202) 912-4306, Capital 
+and Regulatory Policy, Division of Banking Supervision and Regulation; 
+or Benjamin McDonough, Senior Counsel, (202) 452-2036; April C. Snyder, 
+Senior Counsel, (202) 452-3099; or Mark C. Buresh, Attorney, (202) 452-
+5270, Legal Division, Board of Governors of the Federal Reserve System, 
+20th and C Streets NW., Washington, DC 20551. For the hearing impaired 
+only, Telecommunication Device for the Deaf (TDD), (202) 263-4869.
+    FDIC: George French, Deputy Director, <a href="/cdn-cgi/l/email-protection#70171602151e131830161419135e171f06"><span class="__cf_email__" data-cfemail="14737266717a777c5472707d773a737b62">[email&#160;protected]</span></a>; Bobby R. 
+Bean, Associate Director, <a href="/cdn-cgi/l/email-protection#2644444347486640424f4508414950"><span class="__cf_email__" data-cfemail="f99b9b9c9897b99f9d909ad79e968f">[email&#160;protected]</span></a>; Ryan Billingsley, Chief, 
+Capital Policy Section, <a href="/cdn-cgi/l/email-protection#b5c7d7dcd9d9dcdbd2c6d9d0ccf5d3d1dcd69bd2dac3"><span class="__cf_email__" data-cfemail="592b3b30353530373e2a353c20193f3d303a773e362f">[email&#160;protected]</span></a>; Karl Reitz, Chief, 
+Capital Markets Strategies Section, <a href="/cdn-cgi/l/email-protection#4b20392e223f310b2d2f2228652c243d"><span class="__cf_email__" data-cfemail="eb80998e829f91ab8d8f8288c58c849d">[email&#160;protected]</span></a>; Capital Markets 
+Branch, Division of Risk Management Supervision, 
+<a href="/cdn-cgi/l/email-protection#56243331233a372239242f3537263f22373a1630323f3578313920"><span class="__cf_email__" data-cfemail="8af8efedffe6ebfee5f8f3e9ebfae3feebe6caeceee3e9a4ede5fc">[email&#160;protected]</span></a> or (202) 898-6888; or Mark Handzlik, 
+Counsel, <a href="/cdn-cgi/l/email-protection#4b26232a252f312722200b2d2f2228652c243d"><span class="__cf_email__" data-cfemail="75181d141b110f191c1e3513111c165b121a03">[email&#160;protected]</span></a>; Michael Phillips, Counsel, 
+<a href="/cdn-cgi/l/email-protection#8be6fbe3e2e7e7e2fbf8cbedefe2e8a5ece4fd"><span class="__cf_email__" data-cfemail="1578657d7c79797c65665573717c763b727a63">[email&#160;protected]</span></a>; Rachel Ackmann, Senior Attorney, 
+<a href="/cdn-cgi/l/email-protection#ea988b8981878b8484aa8c8e8e8389c48d859c"><span class="__cf_email__" data-cfemail="fa889b9991979b9494ba9c9e9e9399d49d958c">[email&#160;protected]</span></a>; Supervision Branch, Legal Division, Federal Deposit 
+Insurance Corporation, 550 17th Street NW., Washington, DC 20429.
+
+SUPPLEMENTARY INFORMATION: 
+
+I. Background
+
+    On August 20, 2013, the agencies published in the Federal Register, 
+for public comment, a joint notice of proposed rulemaking (the 2013 
+NPR) to strengthen the agencies' supplementary leverage ratio standards 
+for large, interconnected U.S. banking organizations.\1\ As noted in 
+the 2013 NPR, the recent financial crisis showed that some financial 
+companies had grown so large, leveraged, and interconnected that their 
+failure could pose a threat to overall financial stability. The sudden 
+collapses or near-collapses of major financial companies were among the 
+most destabilizing events of the crisis. As a result of the imprudent 
+risk taking of major financial companies and the severe consequences to 
+the financial system and the economy associated with the disorderly 
+failure of these companies, the U.S. government (and many foreign 
+governments in their home countries) intervened on an unprecedented 
+scale to reduce the impact of, or prevent, the failure of these 
+companies and the attendant consequences for the broader financial 
+system.
+---------------------------------------------------------------------------
+
+    \1\ 78 FR 51101 (August 20, 2013).
+---------------------------------------------------------------------------
+
+    A perception persists in the markets that some companies remain 
+``too big to fail,'' posing an ongoing threat to the financial system. 
+First, the perception that certain companies are ``too big to fail'' 
+reduces the incentives of shareholders, creditors and counterparties of 
+these companies to discipline excessive risk-taking by the companies. 
+Second, it produces competitive distortions because those companies can 
+often fund themselves at a lower cost than other companies. This 
+distortion is unfair to smaller companies, damaging to fair 
+competition, and may artificially encourage further consolidation and 
+concentration in the financial system.
+    An important objective of the Dodd-Frank Wall Street Reform and 
+Consumer Protection Act of 2010 (Dodd-Frank Act) is to mitigate the 
+threat to financial stability posed by systemically-
+
+[[Page 24529]]
+
+important financial companies.\2\ The agencies have sought to address 
+this concern through enhanced supervisory programs, including 
+heightened supervisory expectations for large, complex institutions and 
+stress testing requirements. In addition, the Dodd-Frank Act mandates 
+the implementation of a multi-pronged approach to address this concern: 
+A new orderly liquidation authority for financial companies (other than 
+banks and insurance companies); the establishment of the Financial 
+Stability Oversight Council, empowered with the authority to designate 
+nonbank financial companies for Board supervision (designated nonbank 
+financial companies); stronger regulation of large BHCs and designated 
+nonbank financial companies through enhanced prudential standards; and 
+enhanced regulation of over-the-counter (OTC) derivatives, other core 
+financial markets and financial market utilities.
+---------------------------------------------------------------------------
+
+    \2\ See, e.g., Public Law 111-203, 124 Stat. 1376, 1394, 1571, 
+1803 (2010).
+---------------------------------------------------------------------------
+
+    This final rule builds on these efforts by adopting enhanced 
+supplementary leverage ratio standards for the largest and most 
+interconnected U.S. banking organizations. The agencies have broad 
+authority to set regulatory capital standards.\3\ As a general matter, 
+the agencies' authority to set regulatory capital requirements and 
+standards for the institutions they regulate derives from the 
+International Lending Supervision Act (ILSA) \4\ and the PCA provisions 
+\5\ of the Federal Deposit Insurance Act (FDIA). In enacting ILSA, 
+Congress codified its intentions, providing that ``it is the policy of 
+the Congress to assure that the economic health and stability of the 
+United States and the other nations of the world shall not be adversely 
+affected or threatened in the future by imprudent lending practices or 
+inadequate supervision.'' \6\ ILSA encourages the agencies to work with 
+their international counterparts to establish effective and consistent 
+supervisory policies, standards, and practices and specifically 
+provides the agencies authority to set broadly applicable minimum 
+capital levels \7\ as well as individual capital requirements.\8\ 
+Additionally, ILSA specifically directs U.S. regulators to encourage 
+governments, central banks, and bank regulatory authorities in other 
+major banking countries to work toward maintaining and, where 
+appropriate, strengthening the capital bases of banking institutions 
+involved in international banking.\9\ With its focus on international 
+lending and the safety of the broader financial system, ILSA provides 
+the agencies with the authority to consider an institution's 
+interconnectedness and other systemic factors when setting capital 
+standards.
+---------------------------------------------------------------------------
+
+    \3\ The agencies have authority to establish capital 
+requirements for depository institutions under the prompt corrective 
+action provisions of the Federal Deposit Insurance Act (12 U.S.C. 
+1831o). In addition, the Federal Reserve has broad authority to 
+establish various regulatory capital standards for BHCs under the 
+Bank Holding Company Act and the Dodd-Frank Act. See, for example, 
+sections 165 and 171 of the Dodd-Frank Act (12 U.S.C. 5365 and 12 
+U.S.C. 5371).
+    \4\ 12 U.S.C. 3901-3911.
+    \5\ 12 U.S.C. 1831o.
+    \6\ 12 U.S.C. 3901(a).
+    \7\ ``Each appropriate Federal banking agency shall cause 
+banking institutions to achieve and maintain adequate capital by 
+establishing levels of capital for such banking institutions and by 
+using such other methods as the appropriate Federal banking agency 
+deems appropriate.'' 12 U.S.C. 3907(a)(1).
+    \8\ ``Each appropriate Federal banking agency shall have the 
+authority to establish such minimum level of capital for a banking 
+institution as the appropriate Federal banking agency, in its 
+discretion, deems to be necessary or appropriate in light of the 
+particular circumstances of the banking institution.'' 12 U.S.C. 
+3907(a)(2).
+    \9\ 12 U.S.C. 3907(b)(3)(C).
+---------------------------------------------------------------------------
+
+    As part of the overall prudential framework for bank capital, the 
+agencies have long expected institutions to maintain capital well above 
+regulatory minimums and have monitored banking organizations' capital 
+adequacy through the supervisory process in accordance with this 
+expectation. This expectation is also codified for IDIs in the 
+statutory PCA framework, which requires the agencies to establish 
+capital ratio thresholds for both leverage and risk-based capital that 
+banking organizations must satisfy to be considered well capitalized.
+    Additionally, section 165 of the Dodd-Frank Act requires the Board 
+to develop enhanced prudential standards for BHCs with total 
+consolidated assets of $50 billion or more and for designated nonbank 
+companies (together, section 165 covered companies).\10\ The Dodd-Frank 
+Act requires that prudential standards for section 165 covered 
+companies include enhanced leverage standards. In general, the Dodd-
+Frank Act directs the Board to implement enhanced prudential standards 
+that strengthen existing micro-prudential supervision and regulation of 
+individual companies and incorporate macro-prudential considerations to 
+reduce threats posed by section 165 covered companies to the stability 
+of the financial system as a whole. The enhanced prudential standards 
+must increase in stringency based on the systemic footprint and risk 
+characteristics of individual companies. When differentiating among 
+companies for purposes of applying the standards established under 
+section 165, the Board may consider the companies' size, capital 
+structure, riskiness, complexity, financial activities, and any other 
+risk-related factors the Board deems appropriate.\11\
+---------------------------------------------------------------------------
+
+    \10\ See 12 U.S.C. 5365; 77 FR 593 (January 5, 2012); and 77 FR 
+76627 (December 28, 2012).
+    \11\ 12 U.S.C. 5365(a)(2)(A).
+---------------------------------------------------------------------------
+
+    In the agencies' experience, strong capital is an important 
+safeguard that helps financial institutions navigate periods of 
+financial or economic stress. Maintenance of a strong capital base at 
+the largest, systemically important institutions is particularly 
+important because capital shortfalls at these institutions can 
+contribute to systemic distress and can have material adverse economic 
+effects. Higher capital standards for these institutions would place 
+additional private capital at risk, thereby reducing the risks for the 
+Deposit Insurance Fund while improving the ability of these 
+institutions to serve as a source of credit to the economy during times 
+of economic stress. Furthermore, the agencies believe that the enhanced 
+supplementary leverage ratio standards would reduce the likelihood of 
+resolutions, and would allow regulators to tailor resolution efforts 
+were a resolution to become necessary. By further enhancing the capital 
+strength of covered organizations, the enhanced supplementary leverage 
+ratio standards could counterbalance possible funding cost advantages 
+that these organizations may enjoy as a result of being perceived as 
+``too big to fail.''
+
+A. The Supplementary Leverage Ratio
+
+    The 2013 revised capital rule comprehensively revises and 
+strengthens the capital regulations applicable to banking 
+organizations.\12\ It strengthens the definition of regulatory capital, 
+increases the minimum risk-based capital requirements for all banking 
+organizations, and modifies the requirements for how banking 
+organizations calculate risk-weighted assets. The 2013 revised capital 
+rule also retains the generally applicable leverage ratio requirement 
+(generally applicable leverage ratio) that the agencies believe to be a 
+simple and transparent measure of capital adequacy that is credible to 
+market participants and ensures a meaningful amount of capital is 
+available to absorb losses. The minimum generally applicable leverage
+
+[[Page 24530]]
+
+ratio requirement \13\ of 4 percent applies to all IDIs, and is the 
+``generally applicable'' leverage ratio for purposes of section 171 of 
+the Dodd-Frank Act. Accordingly, the minimum tier 1 leverage ratio 
+requirement for depository institution holding companies is also 4 
+percent.\14\
+---------------------------------------------------------------------------
+
+    \12\ 78 FR 55340 (September 10, 2013) (FDIC) and 78 FR 62018 
+(October 11, 2013) (OCC and Board). On April 8, 2014, the FDIC 
+adopted as final the 2013 revised capital rule, with no substantive 
+changes.
+    \13\ The generally applicable leverage ratio under the 2013 
+revised capital rule is the ratio of a banking organization's tier 1 
+capital to its average total consolidated assets as reported on the 
+banking organization's regulatory report minus amounts deducted from 
+tier 1 capital.
+    \14\ 12 U.S.C. 5371.
+---------------------------------------------------------------------------
+
+    In the 2013 revised capital rule, the agencies established a 
+minimum supplementary leverage ratio requirement of 3 percent for 
+banking organizations subject to the banking agencies' advanced 
+approaches rules (advanced approaches banking organizations) \15\ based 
+on the BCBS's Basel III leverage ratio (Basel III leverage ratio) as it 
+was established at the time.\16\ The agencies believe the introduction 
+of the leverage ratio by the BCBS is an important step in improving the 
+framework for international capital standards. The Basel III leverage 
+ratio is a non-risk-based measure of tier 1 capital relative to an 
+exposure amount that includes both on- and off-balance sheet exposures. 
+The agencies implemented the Basel III leverage ratio through the 
+supplementary leverage ratio, which the agencies believe to be 
+particularly relevant for large, complex organizations that are 
+internationally active and often have substantial off-balance sheet 
+exposures.
+---------------------------------------------------------------------------
+
+    \15\ A banking organization is subject to the advanced 
+approaches rule if it has consolidated assets of at least $250 
+billion, if it has total consolidated on-balance sheet foreign 
+exposures of at least $10 billion, if it elects to apply the 
+advanced approaches rule, or it is a subsidiary of a depository 
+institution, bank holding company, or savings and loan holding 
+company that uses the advanced approaches to calculate risk-weighted 
+assets. See 78 FR 62018, 62204 (October 11, 2013); 78 FR 55340, 
+55523 (September 10, 2013).
+    \16\ The BCBS is a committee of banking supervisory authorities, 
+which was established by the central bank governors of the G-10 
+countries in 1975. It currently consists of senior representatives 
+of bank supervisory authorities and central banks from Argentina, 
+Australia, Belgium, Brazil, Canada, China, France, Germany, Hong 
+Kong SAR, India, Indonesia, Italy, Japan, Korea, Luxembourg, Mexico, 
+the Netherlands, Russia, Saudi Arabia, Singapore, South Africa, 
+Sweden, Switzerland, Turkey, the United Kingdom, and the United 
+States. Documents issued by the BCBS are available through the Bank 
+for International Settlements Web site at <a href="http://www.bis.org">http://www.bis.org</a>. See 
+BCBS, ``Basel III: A global regulatory framework for more resilient 
+banks and banking systems'' (December 2010 (revised June 2011)), 
+available at <a href="http://www.bis.org/publ/bcbs189.htm">http://www.bis.org/publ/bcbs189.htm</a>.
+---------------------------------------------------------------------------
+
+    The agencies' supplementary leverage ratio is the arithmetic mean 
+of the ratio of an advanced approaches banking organization's tier 1 
+capital to total leverage exposure (each as defined in the 2013 revised 
+capital rule) calculated as of the last day of each month in the 
+reporting quarter. In contrast to the denominator of the agencies' 
+generally applicable leverage ratio, which includes only on-balance 
+sheet assets, the denominator for the supplementary leverage ratio is 
+based on a banking organization's total leverage exposure, which 
+includes all on-balance sheet assets and many off-balance sheet 
+exposures. The 2013 revised capital rule requires that an advanced 
+approaches banking organization calculate and report its supplementary 
+leverage ratio beginning in 2015 and maintain a supplementary leverage 
+ratio of at least 3 percent beginning in 2018.
+    Because total leverage exposure includes off-balance sheet 
+exposures, for any given company with material off-balance sheet 
+exposures the amount of capital required to meet the supplementary 
+leverage ratio will exceed the amount of capital that is required to 
+meet the generally applicable leverage ratio, assuming that both ratios 
+are set at the same level. To illustrate, as the agencies noted in the 
+2013 NPR, based on supervisory estimates for a group of advanced 
+approaches banking organizations using supervisory data as of third 
+quarter 2012,\17\ a 5 percent supplementary leverage ratio corresponds 
+to roughly a 7.2 percent generally applicable leverage ratio and a 6 
+percent supplementary leverage ratio corresponds to roughly an 8.6 
+percent generally applicable leverage ratio. According to supervisory 
+estimates, 2013 data yield similar results. These estimates represent 
+averages and the numbers vary from institution to institution.
+---------------------------------------------------------------------------
+
+    \17\ The supervisory estimates were generated using CCAR 
+September 2012 and CCAR September 2013 data.
+---------------------------------------------------------------------------
+
+    The agencies noted in the 2013 revised capital rule and in the 2013 
+NPR that the BCBS planned to collect additional data from institutions 
+in member countries and potentially make adjustments to the Basel III 
+leverage ratio requirement. The agencies indicated that they would 
+review any modifications to the Basel III leverage ratio made by the 
+BCBS and consider proposing to modify the supplementary leverage ratio 
+consistent with those revisions, as appropriate.
+    In June 2013, the BCBS published and requested comment on a 
+consultative paper that proposed significant modifications to the 
+denominator of the Basel III leverage ratio (consultative paper).\18\ 
+The consultative paper proposed a number of approaches that generally 
+would increase the denominator of the leverage ratio originally set out 
+in the 2010 Basel III framework. Based on its review of comments on the 
+consultative paper, in January 2014, the BCBS adopted certain aspects 
+of the proposals in the consultative paper as well as other changes to 
+the denominator (BCBS 2014 revisions).\19\ The BCBS has indicated that 
+it will continue to study the Basel III leverage ratio through the 
+implementation phase into 2017 and will consider further modifications 
+to the ratio.
+---------------------------------------------------------------------------
+
+    \18\ See BCBS ``Revised Basel III leverage ratio framework and 
+disclosure requirements--consultative document'' (June 2013) 
+available at <a href="http://www.bis.org/publ/bcbs251.htm">http://www.bis.org/publ/bcbs251.htm</a>.
+    \19\ See BCBS ``Basel III leverage ratio framework and 
+disclosure requirements'' (January 2014) available at <a href="http://www.bis.org/publ/bcbs270.htm">http://www.bis.org/publ/bcbs270.htm</a>.
+---------------------------------------------------------------------------
+
+    As discussed further below, several commenters raised concerns 
+about the agencies' intention to adopt the proposed enhanced 
+supplementary leverage ratio standards while the BCBS continues to 
+revise the Basel III leverage ratio. The agencies believe that it is 
+important to maintain consistency with international standards, as 
+appropriate, for internationally active banking organizations and, 
+accordingly, have published a separate notice of proposed rulemaking 
+elsewhere in today's Federal Register that seeks public comment on 
+revisions to the denominator of the supplementary leverage ratio that 
+would be applicable to advanced approaches banking organizations (2014 
+NPR). These proposed revisions are generally consistent with the BCBS 
+2014 revisions.
+    The agencies also believe that it is important to establish 
+enhanced supplementary leverage ratio standards for the largest, most 
+interconnected banking organizations to strengthen the overall 
+regulatory capital framework in the United States. Therefore, after 
+reviewing comments on the 2013 NPR, the agencies are finalizing the 
+enhanced supplementary leverage ratio standards substantially as 
+proposed, based on the methodology for determining the supplementary 
+leverage ratio in the 2013 revised capital rule. As discussed further 
+below, the agencies believe the proposed changes to the supplementary 
+leverage ratio denominator in the 2014 NPR would be responsive to some 
+of the concerns that commenters raised in connection with the 2013 NPR. 
+The agencies will carefully consider all comments received on the 
+proposed revisions to the supplementary leverage
+
+[[Page 24531]]
+
+ratio calculation in the 2014 NPR, including those related to the 
+impact of the proposed changes on advanced approaches banking 
+organizations' capital requirements.
+
+B. The Proposed Enhanced Supplementary Leverage Ratio Standards
+
+    The 2013 NPR proposed applying enhanced supplementary leverage 
+standards to any U.S. top-tier BHC that has more than $700 billion in 
+total consolidated assets or more than $10 trillion in assets under 
+custody and any IDI subsidiary of such a BHC.\20\ As explained in the 
+2013 NPR, the list of covered BHCs identified by these thresholds is 
+consistent with the list of banking organizations that meet the BCBS 
+definition of a global systemically important bank (G-SIB), based on 
+year-end 2011 data.\21\ In November 2011, the BCBS released a document 
+entitled, Global Systemically Important Banks (G-SIBs): Assessment 
+methodology and the additional loss absorbency requirement, which sets 
+out a framework for a new capital surcharge for G-SIBs (BCBS G-SIB 
+framework).\22\ The BCBS G-SIB framework incorporates five broad 
+characteristics of a banking organization that the agencies consider to 
+be good proxies for, and correlated with, systemic importance: Size, 
+complexity, interconnectedness, lack of substitutes, and cross-border 
+activity. Further, the Board believes that the criteria and methodology 
+used by the BCBS to identify G-SIBs are consistent with the criteria it 
+must consider under the Dodd-Frank Act when tailoring enhanced 
+prudential standards based on the systemic footprint and risk 
+characteristics of individual section 165 covered companies.\23\
+---------------------------------------------------------------------------
+
+    \20\ Under the 2013 NPR, applicability of the proposed enhanced 
+supplementary leverage ratio standards would have been determined 
+based on assets reported on a BHC's most recent Consolidated 
+Financial Statement for Bank Holding Companies (FR Y-9C) or based on 
+assets under custody as reported on a BHC's most recent Banking 
+Organization Systemic Risk Report (FR Y-15).
+    \21\ In November 2012, the Financial Stability Board and BCBS 
+published a list of banks that meet the BCBS definition of a G-SIB 
+based on year-end 2011 data. A revised list based on year-end 2012 
+data was published November 11, 2013 (available at <a href="http://www.financialstabilityboard.org/publications/r_131111.pdf">http://www.financialstabilityboard.org/publications/r_131111.pdf</a>). The 
+U.S. top-tier bank holding companies that are currently identified 
+as G-SIBs are Bank of America Corporation, The Bank of New York 
+Mellon Corporation, Citigroup Inc., Goldman Sachs Group, Inc., JP 
+Morgan Chase & Co., Morgan Stanley, State Street Corporation, and 
+Wells Fargo & Company.
+    \22\ Available at <a href="http://www.bis.org/publ/bcbs207.pdf">http://www.bis.org/publ/bcbs207.pdf</a>. The BCBS 
+published a revised version of this document in July 2013, available 
+at <a href="http://www.bis.org/publ/bcbs255.pdf">http://www.bis.org/publ/bcbs255.pdf</a>.
+    \23\ See 12 U.S.C. 5365(a).
+---------------------------------------------------------------------------
+
+    Under the 2013 NPR, a covered BHC would have been subject to a 
+leverage buffer composed of tier 1 capital, in addition to the minimum 
+3 percent supplementary leverage ratio requirement established in the 
+2013 revised capital rule. Under the 2013 NPR, a covered BHC that 
+maintains a leverage buffer of tier 1 capital in an amount greater than 
+2 percent of its total leverage exposure would not have been subject to 
+limitations on its distributions and discretionary bonus payments. If a 
+covered BHC were to maintain a leverage buffer of 2 percent or less, it 
+would have been subject to increasingly strict limitations on its 
+distributions and discretionary bonus payments. The proposed leverage 
+buffer followed the same general mechanics and structure as the capital 
+conservation buffer contained in the 2013 revised capital rule. Any 
+constraints on distributions and discretionary bonus payments resulting 
+from a covered BHC maintaining a leverage buffer of 2 percent or less 
+would have been independent of any constraints imposed by the capital 
+conservation buffer or other supervisory or regulatory measures.
+    As noted in the 2013 NPR, the 2013 revised capital rule 
+incorporated the 3 percent supplementary leverage ratio minimum 
+requirement into the PCA framework as an adequately capitalized 
+threshold for IDIs subject to the advanced approaches risk-based 
+capital rules, but did not establish a well-capitalized threshold for 
+this ratio. Under the 2013 NPR, an IDI that is a subsidiary of a 
+covered BHC would have been required to satisfy a 6 percent 
+supplementary leverage ratio to be considered well-capitalized for PCA 
+purposes.
+
+II. Summary of Comments on the 2013 NPR
+
+    The agencies sought comment on all aspects of the 2013 NPR and 
+received approximately 30 public comments from banking organizations, 
+trade associations representing the banking or financial services 
+industry, supervisory authorities, public interest advocacy groups, 
+private individuals, members of Congress, and other interested parties. 
+In general, comments from financial services firms, banking 
+organizations, banking trade associations and other industry groups 
+were critical of the 2013 NPR, while comments from organizations 
+representing smaller banks or their supervisors, public interest 
+advocacy groups and the public generally were supportive of the 2013 
+NPR. A detailed discussion of commenters' concerns and the agencies' 
+response follows.
+
+A. Timing of the Final Rule
+
+    A number of commenters made reference to the BCBS consultative 
+paper that proposed to revise the denominator for the Basel III 
+leverage ratio.\24\ While the proposals outlined in the BCBS 
+consultative paper were not part of the 2013 NPR, commenters stated 
+that they believe the final BCBS changes eventually will be 
+incorporated into the U.S. supplementary leverage ratio, and that it 
+would be premature to finalize the 2013 NPR before the BCBS process is 
+complete. Commenters recommended that a final rule adopting the 
+proposed enhanced supplementary leverage ratio standards be delayed 
+until the BCBS finalized the consultative paper and the Board adopted a 
+final rule implementing enhanced prudential standards under section 165 
+of the Dodd Frank Act.\25\ In addition, these commenters argued that 
+the proposed enhanced supplementary leverage ratio standards, if 
+applied in conjunction with the denominator changes proposed in the 
+BCBS consultative paper, would result in inappropriately high capital 
+charges.
+---------------------------------------------------------------------------
+
+    \24\ See BCBS, ``Revised Basel III leverage ratio framework and 
+disclosure requirements--consultative document'' (June 2013), 
+available at <a href="http://www.bis.org/publ/bcbs251.htm">http://www.bis.org/publ/bcbs251.htm</a>.
+    \25\ The Board's proposed rules to implement the provisions of 
+sections 165 and 166 of the Dodd-Frank Act for bank holding 
+companies with total consolidated assets of $50 billion or more and 
+for nonbank financial firms supervised by the Board (domestic 
+proposal) and for foreign banking organizations with total 
+consolidated assets of $50 billion or more and foreign nonbank 
+financial companies supervised by the Board (foreign proposal) can 
+be found at 77 FR 594 (January 5, 2012) and 77 FR 76628 (December 
+28, 2012) for the domestic proposal and foreign proposal, 
+respectively. The Board's final rule implementing these provisions 
+is available at <a href="http://www.federalreserve.gov/newsevents/press/bcreg/20140218a.htm">http://www.federalreserve.gov/newsevents/press/bcreg/20140218a.htm</a>.
+---------------------------------------------------------------------------
+
+    The agencies emphasize that the 2013 NPR did not propose or seek 
+comment on the revisions to the supplementary leverage ratio 
+denominator that were being considered by the BCBS. The agencies are 
+moving forward with the finalization of the proposed enhanced 
+supplementary leverage ratio standards to further enhance the capital 
+position of covered organizations and to strengthen financial 
+stability. As noted earlier, the agencies are seeking comment elsewhere 
+in today's Federal Register on the 2014 NPR, which proposes revisions 
+to the definition of total leverage exposure in the 2013 revised 
+capital rule as well as other proposed requirements relating to the 
+supplementary leverage ratio that would reflect the BCBS 2014 
+revisions. The
+
+[[Page 24532]]
+
+agencies believe that the proposed revisions to the definition of total 
+leverage exposure in the 2014 NPR are responsive to a number of 
+concerns that commenters expressed about the relationship between the 
+BCBS process and the supplementary leverage ratio. As noted above, the 
+agencies will carefully review all comments received on the 2014 NPR.
+
+B. Scope of Application
+
+    The 2013 NPR would have applied enhanced supplementary leverage 
+ratio standards to the largest, most interconnected U.S. BHCs and their 
+subsidiary IDIs (specifically, to any U.S. top-tier BHC with more than 
+$700 billion in total consolidated assets or more than $10 trillion in 
+assets under custody and any IDI subsidiary of these BHCs).\26\ Several 
+commenters criticized the 2013 NPR's scope of application, including 
+the proposed quantitative thresholds for determining applicability of 
+the enhanced supplementary leverage ratio standards. These commenters 
+stated that tying the application of the 2013 NPR to size alone would 
+not be appropriate, as size is not always a reliable indicator of the 
+degree of risk to financial stability. In addition, commenters stated 
+that the quantitative thresholds may capture the G-SIBs today, but 
+there is no assurance that this will be the case in the future. A few 
+commenters asserted that applicability should be based on the systemic 
+risk posed by an institution's failure and not just on quantitative 
+thresholds. For instance, one commenter suggested extending the 
+applicability of the final rule beyond the largest financial 
+institutions to institutions that are smaller, but nonetheless are 
+integral parts of the financial system. A few commenters favored 
+expanding the quantitative thresholds of the 2013 NPR to include 
+additional banking organizations, for example, by applying the proposed 
+enhanced supplementary leverage ratio standards to all advanced 
+approaches banking organizations. Some commenters asserted that using 
+assets under custody as one of the metrics to determine the 2013 NPR's 
+applicability significantly overstates the risk of the custody bank 
+business model. In addition, several commenters suggested that it is 
+not clear that the enhanced supplementary leverage ratio standards are 
+necessary or appropriate for any organization. These commenters stated 
+that substantial steps have been taken toward addressing ``too big to 
+fail'' concerns, and that the 2013 NPR should not be extended to 
+banking organizations that, in the commenters' view, may not present 
+systemic risk.
+---------------------------------------------------------------------------
+
+    \26\ Under the 2013 revised capital rule, a ``subsidiary'' is 
+defined as a company controlled by another company, and a person or 
+company ``controls'' a company if it: (1) Owns, controls, or holds 
+with power to vote 25 percent or more of a class of voting 
+securities of the company; or (2) consolidates the company for 
+financial reporting purposes. See section 2 of the 2013 revised 
+capital rule.
+---------------------------------------------------------------------------
+
+    The agencies have decided to finalize the proposed enhanced 
+supplementary leverage ratio standards, including the proposed 
+applicability thresholds, substantively as proposed. In the agencies' 
+view, the proposed asset thresholds capture banking organizations that 
+are so large or interconnected that they pose substantial systemic 
+risk. As explained above, these banking organizations have also been 
+identified by the BCBS as G-SIBs, which are subject to heightened risk-
+based capital standards under the Basel framework. The agencies believe 
+the application of the enhanced supplementary leverage ratio standards 
+to covered organizations is an appropriate way to further strengthen 
+the ability of the these organizations to remain a going concern during 
+times of economic stress and to minimize the likelihood that problems 
+at these organizations would contribute to financial instability.
+    The agencies continue to believe that the benefits to financial 
+stability of the enhanced supplementary leverage ratio standards are 
+most pronounced for these large and systemically important 
+institutions, and have decided not to extend these enhanced standards 
+to smaller institutions. In addition, as also discussed in the 2013 
+NPR, it is anticipated that over time, as the BCBS G-SIB framework is 
+implemented in the United States or revised by the BCBS, the agencies 
+may consider modifying the scope of application of the enhanced 
+supplementary leverage ratio standards to align more closely with the 
+scope of application of the BCBS G-SIB framework. In addition, the 
+agencies will otherwise continue to evaluate the applicability 
+thresholds and may consider revising them in the future to ensure they 
+remain appropriate.
+
+C. Calibration of the Enhanced Supplementary Leverage Ratio Standards
+
+    The agencies received several comments expressing concern with the 
+proposed calibration of the enhanced supplementary leverage ratio 
+standards. Commenters stated that the proposed enhanced supplementary 
+leverage ratio standards should be set no higher than those that would 
+apply to banking organizations in other jurisdictions to maintain the 
+competitive position of covered organizations with respect to their 
+foreign competitors. A number of commenters viewed the proposed 
+calibration as arbitrary, stating that it should be supported by 
+quantitative studies of the cumulative impact of the enhanced 
+supplementary leverage ratio standards and other financial reforms on 
+the ability of U.S. banking organizations to provide financial services 
+to customers and businesses. A number of commenters stated that the 
+2013 NPR would cause the supplementary leverage ratio to become the 
+binding regulatory capital constraint, rather than a backstop to the 
+risk-based capital measures, and expressed concern that an unintended 
+consequence of a binding supplementary leverage ratio could be that 
+covered organizations would divest lower risk assets and instead assume 
+more risk, to the detriment of financial stability.
+    Some commenters expressed concern that a binding supplementary 
+leverage ratio could have negative consequences, including the creation 
+of disincentives for banking organizations to engage in robust risk 
+assessment and management practices. Furthermore, according to 
+commenters, the 2013 NPR could incentivize banking organizations to 
+engage in financial activities with a higher risk-reward profile as 
+there would be no regulatory capital benefit for holding low-risk 
+assets, potentially resulting in institutions that are less stable. For 
+instance, one commenter stated that unsecured commercial loans would be 
+more attractive than secured lines of credit because the former have a 
+stronger return on assets and both would require equal amounts of 
+regulatory capital under the supplementary leverage ratio framework. 
+The commenter warned that in the mortgage banking industry, this could 
+constrain warehouse lines of credit needed to finance the production of 
+new mortgages and mortgage-backed securities. Another commenter stated 
+that the proposed enhanced supplementary leverage ratio standards could 
+make it uneconomical for covered organizations to hold or provide 
+unfunded revolving lines of credit with maturities of less than one 
+year, cash, U.S. Treasuries, reverse repurchase agreements, certain 
+traditional interest rate swaps, and credit default swaps on corporate 
+bonds. Other commenters maintained that the 2013 NPR could incentivize 
+banking organizations to hold the lowest quality assets possible within 
+the constraints of the other credit quality regulations and, thus, 
+would be fundamentally at odds with the
+
+[[Page 24533]]
+
+agencies' proposed liquidity coverage ratio (LCR) by encouraging 
+banking organizations to divest low-risk assets above the minimum 
+required by the proposed LCR.\27\ In addition, according to commenters, 
+banking organizations would find high-volume, low-risk and low-return, 
+client-driven financial activities less profitable, such as deposit 
+taking. As such, commenters stated that a binding leverage ratio would 
+result in higher prices, less liquidity, and reduction of business 
+lines that have lower returns on assets.
+---------------------------------------------------------------------------
+
+    \27\ On November 29, 2013, the agencies issued a joint notice of 
+proposed rulemaking that would implement quantitative liquidity 
+requirements for certain banking organizations. See 78 FR 71818 
+(November 29, 2013).
+---------------------------------------------------------------------------
+
+    Some commenters recommended that the agencies use a more tailored 
+approach to calibrate the proposed enhanced supplementary leverage 
+ratio standards, for example by proposing a leverage buffer for covered 
+BHCs that would be aligned with the capital surcharges provided in the 
+BCBS G-SIB framework. These commenters asserted that there is 
+significant diversity among G-SIBs in risk profile, operating 
+structure, and approaches to balance sheet management and that a one-
+size-fits-all approach is unduly punitive for banking organizations 
+with significant amounts of highly liquid, low-risk assets.
+    In contrast, a few commenters stated that the supplementary 
+leverage ratio is a more accurate measure of regulatory capital than 
+the risk-based capital ratios, easier to understand, comparable across 
+firms, less prone to manipulation and, therefore, should be the binding 
+capital standard. Commenters supported a revised calibration as strong, 
+or stronger, than the one set forth in the 2013 NPR. For example, some 
+commenters suggested substantially increasing the proposed enhanced 
+supplementary leverage ratio standards for covered organizations (for 
+example, by implementing an 8 percent well-capitalized threshold for 
+any IDI subsidiary of a covered BHC and a 4 or 5 percent leverage 
+buffer (in addition to the minimum 3 percent) for covered BHCs). These 
+commenters argued that incentivizing covered organizations to be better 
+capitalized as a group through the proposed standards would improve 
+their ability to provide credit during periods of economic stress. 
+Others supported either increasing or maintaining the proposed 
+calibration of the enhanced supplementary leverage ratio standards by 
+emphasizing the importance of constraining the risks large institutions 
+pose to the financial system. Other commenters supported strengthening 
+the supplementary leverage ratio standards based on their view that the 
+risk-based capital framework is subjective and may excessively rely on 
+the use of models.
+    With regard to the concerns raised by commenters about potential 
+competitive disadvantages for covered organizations as a result of the 
+proposed enhanced supplementary leverage ratio standards, in the 
+agencies' experience, a strong regulatory capital base is a competitive 
+strength for banking organizations, rather than a competitive weakness. 
+Specifically, strong capital promotes confidence among banking 
+organizations' market counterparties and bolsters the ability of 
+banking organizations to lend and otherwise serve customers during 
+stressed market conditions. The agencies are of the view that a 
+strongly capitalized banking system also promotes the resilience of the 
+broader economy because it promotes the stability of the financial 
+system, which allows a wide range of firms to efficiently access 
+funding and liquidity to meet their business needs. The agencies also 
+note that banking organizations in the U.S. have long been subject to a 
+leverage ratio framework, whereas banking organizations in other 
+jurisdictions generally have not been subject to any leverage 
+requirement. The agencies do not believe this longstanding difference 
+has adversely affected the competitive strength of U.S. banking 
+organizations. Finally, the agencies believe that the benefits to the 
+banking and financial system from more resilient systemically important 
+banking organizations outweigh any potential competitive disadvantages 
+of related implementation costs that covered organizations may face.
+    With regard to the comments asserting that the proposed enhanced 
+supplementary leverage ratio standards were arbitrary, the 2013 NPR 
+described the agencies' approach to calibration. According to the 
+agencies' analysis, a 3 percent minimum supplementary leverage ratio 
+would have been too low to have meaningfully constrained the buildup of 
+leverage at the largest institutions in the years leading up to the 
+financial crisis. To address this issue the agencies proposed the 
+enhanced supplementary leverage ratio standards.
+    The agencies believe that the leverage and risk-based capital 
+ratios play complementary roles, with each offsetting potential 
+weaknesses of the other. The 2013 revised capital rule implemented the 
+capital conservation buffer framework (which is only applicable to 
+risk-based capital ratios) and increased risk-based capital 
+requirements more than it increased leverage requirements, reducing the 
+ability of the leverage requirements to act as an effective complement 
+to the risk-based requirements, as they had historically. As a result, 
+the degree to which covered organizations could potentially benefit 
+from active management of risk-weighted assets before they breach the 
+leverage requirements may be greater. As described in the 2013 NPR, 
+such potential behavior suggests that the increase in stringency of the 
+leverage and risk-based standards should be more closely calibrated to 
+each other so that they remain in an effective complementary 
+relationship. These considerations were important in calibrating the 
+enhanced supplementary leverage ratio standards. Specifically, the 2013 
+NPR noted that the proposed enhanced supplementary leverage ratio's 
+well-capitalized threshold for IDI subsidiaries of covered BHCs and the 
+proposed leverage buffer for covered BHCs would retain a degree of 
+proportionality with the stronger tier 1 risk-based capital standards 
+(including the minimum risk-based capital requirements and the capital 
+conservation buffer) under the 2013 revised capital rule.
+    Consistent with the calibration goals described in the 2013 NPR, 
+the agencies believe that the proposed enhanced supplementary leverage 
+ratio standards should broadly preserve the historical relationship 
+between the tier 1 leverage and risk-based capital levels for covered 
+organizations, rather than fundamentally alter such a relationship as 
+several commenters suggest. With respect to IDI subsidiaries of covered 
+BHCs, the increase in stringency in terms of the additional tier 1 
+capital that would be required to be well capitalized under the 
+enhanced supplementary leverage ratio standards is roughly equivalent 
+to the increase in stringency resulting from the application of the 
+2013 revised capital rule's risk-based capital standards.
+    Moreover, in response to comments suggesting that the supplementary 
+leverage ratio well-capitalized threshold for an IDI subsidiary of a 
+covered BHC should result in the same amount of capital needed by a 
+covered BHC to meet the minimum supplementary ratio requirement plus 
+the proposed leverage buffer, the agencies note that the PCA framework 
+and the proposed leverage buffer were designed for different purposes. 
+The PCA framework is intended to ensure that problems at depository 
+institutions are addressed promptly and at the least cost to the 
+Deposit Insurance Fund. The leverage buffer (as well as the capital
+
+[[Page 24534]]
+
+conservation buffer) was designed and calibrated to provide incentives 
+to banking organizations to hold sufficient capital to reduce the risk 
+that their capital levels would fall below their minimum requirements 
+during times of economic and financial stress. In addition, as 
+discussed in the 2013 NPR, the relationship between the 5 percent 
+supplementary leverage ratio for covered BHCs (resulting from the 3 
+percent minimum supplementary leverage ratio plus the 2 percent 
+leverage buffer) and the 6 percent supplementary leverage ratio's well-
+capitalized threshold for IDI subsidiaries of covered BHCs is generally 
+structurally consistent with the relationship between the 4 percent 
+minimum leverage ratio for BHCs and the 5 percent well-capitalized 
+leverage ratio threshold for IDIs under the generally applicable 
+regulatory capital framework, including as revised under the 2013 
+revised capital rule.
+    The agencies note that the maintenance of a complementary 
+relationship between the leverage and risk-based capital ratios is 
+designed to mitigate any regulatory capital incentives for covered 
+organizations to inappropriately increase their risk profile in 
+response to a binding supplementary leverage ratio. Similarly, stress 
+testing provides another mechanism to counterbalance the risk that 
+these institutions could potentially increase their risk profile in 
+response to a binding supplementary leverage ratio. If the 
+supplementary leverage ratio is binding and covered organizations 
+acquire more higher-risk assets, risk weights should increase until the 
+risk-based capital framework becomes binding. Conversely, if a binding 
+risk-based capital ratio induces an institution to expand portfolios 
+whose risk is insufficiently addressed by the risk-based capital 
+framework, its total leverage exposure would increase until the 
+leverage ratio becomes binding. Moreover, the agencies believe that 
+banking organizations choose their asset mix based on a variety of 
+factors, including yields available relative to the overall cost of 
+funds, the need to preserve financial flexibility and liquidity, 
+revenue generation and the maintenance of market share and business 
+relationships, and the likelihood that principal will be repaid.
+    The agencies also believe that the enhanced supplementary leverage 
+ratio standards, together with the strong risk-based regulatory capital 
+framework in the 2013 revised capital rule, will increase stability and 
+improve safety and soundness in the banking system. In particular, the 
+agencies believe that the complementary relationship between the 
+enhanced supplementary leverage ratio standards and the risk-based 
+capital framework under the 2013 revised capital rule will strengthen 
+capital positions at covered organizations, thereby reducing the 
+likelihood that they fail or experience severe difficulties.
+    With regard to the comments suggesting that the calibration of the 
+enhanced supplementary leverage ratio should vary in accordance with 
+the specific systemic footprint of a covered organization, the agencies 
+note that such issues are addressed in part by the risk-differentiation 
+that exists within the risk-based capital framework. The agencies 
+believe that all covered organizations, despite differences in business 
+models, are systemically important and highly interconnected and, 
+therefore, uniformly-applied leverage capital standards across these 
+organizations are warranted.
+
+D. Economic Impact of the 2013 NPR on Specific Types of Securities and 
+Credit Transactions and on the Custody Bank Business Model
+
+    Commenters also expressed concern about the effect the 2013 NPR 
+would have for particular types of transactions and business models. 
+Commenters asserted that the 2013 NPR would directly affect short-term 
+securities financing transactions, including repurchase agreements, 
+reverse repurchase agreements, and revolving lines of credit, among 
+other similar transactions, by imposing additional capital requirements 
+on low-risk exposures held by covered organizations when they enter 
+into these arrangements. Some commenters argued that the enhanced 
+supplementary leverage ratio standards may encourage covered 
+organizations to reduce their participation in securities financing 
+transactions. One commenter also indicated that the 2013 NPR would 
+result in the entrance into the securities financing transactions 
+market of smaller, less-experienced, and less well-capitalized 
+counterparties who may fall outside existing regulatory oversight, 
+resulting in additional systemic risk due to insufficient oversight of 
+these counterparties. That commenter argued that the 2013 NPR may 
+result in the overexposure to individual counterparties, because 
+covered organizations could conclude that securities financing 
+transactions are more costly to them and, as a result, may limit the 
+availability (or the best terms) of this financing to only those asset 
+managers to whom they provide other lines of service. In addition, 
+commenters asserted that asset managers might respond by directing 
+business to a single large banking organization in order to receive the 
+best terms for securities financing transactions.
+    Several commenters argued that there would be less flexibility for 
+mutual fund managers and insurance companies to execute certain 
+transactions with covered organizations as a result of the enhanced 
+supplementary leverage ratio standards, which could give rise to less 
+liquid markets at the time that liquidity is needed the most. These 
+commenters indicated that when mutual fund redemptions rise because 
+individual investors desire liquidity, investment managers are required 
+to meet those redemption requests immediately, and that if many 
+requests come at once, the investment manager will use securities 
+financing arrangements to smooth out the flow of capital, rather than 
+be forced to sell investments in a rapid or disorderly fashion. 
+Commenters also noted that if securities financing arrangements are 
+less accessible, an investment manager may incur higher costs related 
+to the forced sale of underlying securities.
+    Some commenters suggested that the agencies recalibrate the 
+enhanced supplementary leverage ratio standards to better reflect the 
+business model and risk profile of custody banks, either through an 
+approach tied to each covered company's G-SIB risk-based capital 
+surcharge (which incorporates various measures to identify systemic 
+risk) or an adjustment specific to these organizations, because a one-
+size-fits-all approach would be unduly punitive for covered 
+organizations with significant amounts of highly liquid, low-risk 
+assets. One commenter asserted that custody banks have balance sheets 
+that are uniquely constructed as they are built around client deposits 
+derived from the provision of core safekeeping and fund administration 
+services, whereas most other covered organizations feature extensive 
+commercial and investment banking operations. Some commenters asserted 
+that the enhanced supplementary leverage ratio standards would 
+significantly punish or effectively limit important custody bank 
+functions such as those which are associated with central bank deposits 
+and committed facilities. These commenters also noted that the enhanced 
+supplementary leverage ratio standards may limit the ability of custody 
+banks to accept deposits, particularly during periods of systemic 
+stress. One commenter asserted that global payment systems could be 
+adversely affected by a
+
+[[Page 24535]]
+
+reduction in central bank balances, which are broadly used by banking 
+organizations to reduce the risk of payment failures and facilitate 
+consistent and smooth payment flows. In addition, some commenters 
+asserted that the enhanced supplementary leverage ratio standards would 
+reduce incentives to hold low-risk assets and would increase the cost 
+to comply with increased margin requirements, particularly initial 
+margin, for derivatives transactions. The agencies note that several of 
+the commenters' concerns were related to aspects of the BCBS 
+consultative paper.
+    With regard to the comments expressing concern about the impact of 
+the enhanced supplementary leverage ratio standards on securities 
+financing transactions, the agencies believe that certain provisions of 
+the 2014 NPR would address several of these concerns. In addition, the 
+agencies believe it is important to consider that counterparties may 
+view favorably a banking organization's maintenance of a meaningfully 
+higher supplementary leverage ratio. To the extent this occurs, there 
+might be some reduction in a banking organization's cost of funds that 
+potentially offsets any costs related to holding more regulatory 
+capital. In this regard, the agencies also note that any change in 
+regulatory capital costs would affect a banking organization's overall 
+cost of funds only to the extent it affects the weighted average cost 
+of its deposits, debt, and equity.
+    The agencies believe that using daily average balance sheet assets, 
+rather than requiring the average of three end-of-month balances in the 
+calculation of the supplementary leverage ratio under the 2013 revised 
+capital rule would be an appropriate way to address the commenters' 
+concerns on the impact of spikes in deposits and, in the 2014 NPR, are 
+proposing changes to the calculation of total leverage exposure that 
+would incorporate this concept.
+    Likewise, for purposes of determining total leverage exposure, the 
+2014 NPR would permit cash variation margin that satisfies certain 
+requirements to reduce the positive mark-to-fair value of derivative 
+contracts. The agencies believe this proposed revision in the 2014 NPR 
+would address the commenters' concerns regarding the potential increase 
+in the cost to comply with increased margin requirements.
+
+E. Measure of Capital Used as the Numerator of the Supplementary 
+Leverage Ratio
+
+    The agencies sought comment on the appropriate measure of capital 
+for the numerator of the supplementary leverage ratio. Many commenters 
+supported tier 1 capital as the appropriate measure of capital for the 
+numerator of the supplementary leverage ratio because it is designed 
+specifically to absorb losses on a going concern basis and has been 
+meaningfully strengthened under the 2013 revised capital rule.
+    One commenter encouraged the agencies to allow covered banking 
+organizations to include the amount of a covered organization's 
+allowance for loan and lease losses (ALLL) because it is available to 
+absorb losses. A few commenters, however, asserted that the numerator 
+of the supplementary leverage ratio should be common equity tier 1 
+(CET1) capital. One commenter supported this assertion with the 
+observation that CET1 capital is the standard most likely to keep an 
+institution solvent and able to lend during periods of market distress, 
+and suggested it would be the only measure of capital strength trusted 
+by the markets during a financial crisis. Another commenter asserted 
+that a tangible equity measure is preferable because it is the most 
+simple, transparent, and useful measure of loss-absorbing capital.
+    One commenter recognized the importance of having a single 
+definition of tier 1 capital for both risk-based and leverage 
+requirements, but urged the agencies to revisit the treatment of 
+unrealized gains and losses included in accumulated other comprehensive 
+income (AOCI) for large banking organizations under the 2013 revised 
+capital rule.
+    The agencies have considered the comments and have decided to 
+retain tier 1 capital as the numerator of the supplementary leverage 
+ratio. The agencies agree that CET1 capital is the most conservative 
+measure of capital defined in the 2013 revised capital rule and has the 
+highest capacity to absorb losses, similar to most common descriptions 
+of ``tangible common equity.'' However, as a practical matter for U.S. 
+banking organizations, tier 1 capital consists of CET1 capital plus 
+non-cumulative perpetual preferred stock, a form of preferred stock 
+that the agencies believe has strong loss-absorbing capacity. 
+Accordingly, the agencies believe that tier 1 capital, as defined in 
+the 2013 revised capital rule, is an appropriately conservative measure 
+of capital for the purposes of the supplementary leverage ratio. 
+Furthermore, tier 1 capital incorporates substantial regulatory 
+adjustments and deductions that are not typically made from market 
+measures of tangible equity. Moreover, using tier 1 capital as the 
+numerator of the supplementary leverage ratio has the advantage of 
+maintaining consistency with the numerator of the leverage ratio that 
+has long applied broadly to U.S. banking organizations and that now 
+applies to banking organizations in other jurisdictions adopting the 
+Basel III leverage ratio.
+    With respect to allowing covered banking organizations to include 
+ALLL as part of the capital measure for the numerator, the agencies 
+note that ALLL is partially includable in tier 2 capital under the 
+risk-based capital framework and under the 2013 revised capital rule. 
+However, ALLL is not includable in tier 1 capital and the agencies 
+believe that such an inclusion would weaken the quality of tier 1 
+capital as it relates to the supplementary leverage ratio when compared 
+to the risk-based capital framework.
+    The agencies considered comments on the recognition of unrealized 
+gains and losses in AOCI in connection with the development of the 2013 
+revised capital rule, which requires advanced approaches banking 
+organizations to recognize unrealized gains and losses in AOCI for 
+purposes of determining CET1 capital.\28\ The agencies believe that 
+requiring a banking organization to reflect unrealized gains and losses 
+in regulatory capital provides a more accurate depiction of its loss-
+absorption capacity at a specific point in time, which is particularly 
+important for large, internationally active banking organizations. For 
+this reason and the reasons discussed above, the agencies are retaining 
+tier 1 capital as the numerator of the enhanced supplementary leverage 
+ratio standards under this final rule.\29\
+---------------------------------------------------------------------------
+
+    \28\ Banking organizations that are not subject to the advanced 
+approaches rule may elect to opt out of the requirement to recognize 
+unrealized gains and losses in AOCI for purposes of determining CET1 
+capital.
+    \29\ See section III.C. of the preamble in the 2013 final 
+capital rule issued by the Board and OCC for a discussion of 
+accumulated other comprehensive income. 78 FR 62018, 62026-62027 
+(October 11, 2013). See section V.B.2.c. of the preamble in the 2013 
+interim final capital rule issued by the FDIC for a discussion of 
+accumulated other comprehensive income. 78 FR 55340, 55377-55380 
+(September 10, 2013).
+---------------------------------------------------------------------------
+
+F. Total Leverage Exposure Definition
+
+    The 2013 NPR would not have amended the definition of total 
+leverage exposure (the denominator of the supplementary leverage ratio) 
+under the 2013 revised capital rule. However, a significant number of 
+commenters criticized the components and methodology for calculating 
+total leverage exposure.
+
+[[Page 24536]]
+
+    Many commenters asserted that total leverage exposure should be 
+more risk-sensitive. For instance, commenters encouraged the agencies 
+to exclude highly liquid assets, such as cash on hand and claims on 
+central banks, and sovereign securities, particularly U.S. Treasuries, 
+from total leverage exposure. Commenters maintained that, if the 
+agencies opt to not exclude risk-free or very low-risk, highly liquid 
+assets from total leverage exposure, then these assets should be 
+discounted according to their relative levels of liquidity similar to 
+the categories of eligible assets under the standardized approach in 
+the 2013 revised capital rule. In addition, commenters stated that bank 
+deposits with central banks such as the Federal Reserve Banks should be 
+excluded in order to accommodate increases in banks' assets, both 
+temporary and sustained, that occur as a result of macroeconomic 
+factors and monetary policy decisions, particularly during periods of 
+financial market stress. Commenters urged the agencies to exclude 
+assets such as U.S. government obligations securing public sector 
+entity (PSE) deposits from total leverage exposure. Commenters argued 
+that a banking organization holding PSE deposits is required to pledge 
+U.S. Treasuries to collateralize the deposits, and that if U.S. 
+Treasuries are not excluded from total leverage exposure, the cost of 
+additional capital would result in higher costs being passed on to the 
+PSEs. Another commenter, however, asked that the agencies not introduce 
+any risk-based capital measure into the supplementary leverage 
+ratio.\30\
+---------------------------------------------------------------------------
+
+    \30\ One commenter also noted that retaining the proposal to 
+include U.S. Treasury debt securities in total leverage exposure 
+could present certain national security concerns.
+---------------------------------------------------------------------------
+
+    Several commenters encouraged the agencies not to include in total 
+leverage exposure the notional amount of all off-balance sheet assets, 
+particularly for undrawn commitments. Commenters stated that using the 
+notional value is inaccurate, particularly for trade finance and 
+committed credit lines. Commenters encouraged the agencies to use the 
+more granular standardized approach credit conversion factors (CCF) in 
+the 2013 revised capital rule.
+    With respect to the commenters' request for more risk-sensitivity 
+in the supplementary leverage ratio calculation, the agencies believe 
+that excluding categories of assets from the denominator of the 
+supplementary leverage ratio is generally inconsistent with the 
+intended role of this ratio as an overall limitation on leverage that 
+does not differentiate across asset types. Accordingly, the agencies 
+have decided not to exempt any categories of balance sheet assets from 
+the denominator of the supplementary leverage ratio in the final rule. 
+Thus, for example, cash, U.S. Treasuries, and deposits at the Federal 
+Reserve are included in the denominator of the supplementary leverage 
+ratio, as has been the case in the agencies' generally applicable 
+leverage ratio. The agencies recognize the low risk of these assets 
+under the agencies' risk-based capital rules, which complement the 
+minimum supplementary leverage ratio requirement and the enhanced 
+supplementary leverage ratio standards, as discussed above. Excluding 
+specific categories of assets from the supplementary leverage ratio 
+denominator would in effect allow banking organizations to finance 
+these assets exclusively with debt, potentially resulting in a 
+significant increase in a banking organizations' ability to deploy 
+financial leverage.
+    With regard to the comments criticizing the use of the notional 
+amounts of off-balance sheet commitments for purposes of the 
+supplementary leverage ratio, the agencies are seeking comment on 
+proposed changes to the denominator in the 2014 NPR that would include 
+the use of standardized approach CCFs for most off-balance sheet 
+commitments.
+
+G. Proposed Basel III Leverage Ratio Revisions
+
+    A number of commenters were concerned about the relationship 
+between the enhanced supplementary leverage ratio standards and the 
+revisions to the Basel III leverage ratio framework proposed by the 
+BCBS consultative paper, which proposed a leverage ratio exposure 
+measure that would result in greater reported exposure than the total 
+leverage exposure as defined in the 2013 revised capital rule.
+    A number of commenters were concerned that covered organizations 
+would be placed at a competitive disadvantage relative to foreign 
+competitors if the enhanced supplementary leverage ratio standards in 
+the U.S. are set at a higher level than the Basel III leverage ratio. 
+Some commenters also expressed concern that the proposed BCBS revisions 
+to the denominator would be inappropriately restrictive and might be 
+incorporated into the U.S. supplementary leverage ratio. However, 
+another commenter argued that a stronger leverage ratio standard would 
+enhance the competitive position of U.S. banking organizations by 
+improving the relative stability and financial strength of the U.S. 
+banking system.
+    One commenter included a study of the impact of the revisions 
+proposed in the BCBS's consultative paper, and, where relevant, the 
+U.S. enhanced supplementary leverage ratio standards, on the U.S. 
+banking industry, products offered by U.S. banks, and U.S. markets. The 
+study concludes that, on average, U.S. advanced approaches banking 
+organizations (including U.S. G-SIBs) exceed the 3 percent 
+supplementary leverage ratio threshold based both on the ratio as 
+formulated in the Basel III leverage ratio framework and after giving 
+effect to the BCBS proposed revisions, but when measured against the 
+proposed enhanced supplementary leverage ratio standards, U.S. advanced 
+approaches banking organizations would have substantial tier 1 capital 
+shortfalls. Specifically, the study suggests that if the revisions 
+proposed in the consultative paper and the proposed enhanced 
+supplementary leverage ratio standards were both implemented, the U.S. 
+advanced approaches banking organizations would need $202 billion in 
+additional tier 1 capital or a reduction in exposures of $3.7 trillion 
+to meet those standards, and to meet the proposed enhanced 
+supplementary leverage ratio standards without giving effect to the 
+BCBS consultative paper changes, these banking organizations would need 
+to raise $69 billion in additional capital or reduce exposures by $1.2 
+trillion. The study suggests that if the agencies adopted the Basel 
+proposed total leverage exposure as contemplated in the consultative 
+paper in combination with the proposed enhanced supplementary leverage 
+ratio standards, the leverage ratio would become the binding constraint 
+for banking organizations holding 67 percent of U.S. G-SIB assets.
+    One commenter, on the other hand, encouraged the agencies to revise 
+the denominator of the supplementary leverage ratio in accordance with 
+the BCBS's consultative paper. This commenter further encouraged the 
+agencies to restrict derivatives netting permitted under the BCBS 
+consultative paper and to substantially increase the standardized 
+measurement of the potential future exposure for derivative 
+transactions. Similarly, another commenter asked the agencies to 
+consider the use of International Financial Reporting Standards (IFRS) 
+for purposes of measuring off-balance sheet derivatives exposures.
+    Neither the 2013 NPR nor the final rule includes the changes to 
+total leverage exposure described in the
+
+[[Page 24537]]
+
+BCBS consultative paper. Therefore, the agencies' supplementary 
+leverage ratio is consistent with the international leverage ratio 
+established by the BCBS in 2010. The agencies' analysis of the impact 
+of this final rule is summarized in the next section of this preamble.
+    As discussed above, in January 2014 the BCBS adopted certain 
+aspects of the proposals outlined in the BCBS consultative paper as 
+well as other changes to the denominator. The changes to the 
+denominator included, among other items, revising CCFs for certain off-
+balance sheet exposures, incorporating the notional amount of sold 
+credit protection (that is, credit derivatives sold by a banking 
+organization acting as a credit protection provider) in total leverage 
+exposure, and modifying the measure of exposure for derivatives and 
+repo-style transactions, including changes to the criteria for 
+recognizing netting for repo-style transactions and cash collateral for 
+derivatives. The agencies believe that the changes introduced by the 
+BCBS strengthen the Basel III leverage ratio in important ways. In the 
+2014 NPR, published elsewhere in today's Federal Register, the agencies 
+are proposing revisions to the supplementary leverage ratio that are 
+generally consistent with the BCBS 2014 revisions. The agencies believe 
+that the proposed revisions to the definition of total leverage 
+exposure published in the 2014 NPR are responsive to a number of 
+concerns that commenters expressed about the relationship between the 
+BCBS process and the supplementary leverage ratio. In this regard, the 
+agencies will carefully review all comments received on these aspects 
+of the definition of total leverage exposure in the 2014 NPR.
+
+H. Impact Analysis
+
+    Commenters suggested that, in addition to waiting for the BCBS to 
+finalize the denominator of the Basel leverage ratio, the agencies 
+should conduct a quantitative impact study to assess the cumulative 
+impact of bank capital and other financial reform regulations on the 
+ability of U.S. banking organizations to provide financial services to 
+consumers and businesses.
+    In the 2013 NPR, the agencies cited data from the Board's 
+Comprehensive Capital Analysis and Review (CCAR) process in which all 
+of the agencies participate. This information reflects banking 
+organizations' own projections of their supplementary leverage ratios 
+under the supervisory baseline scenario, including institutions' own 
+assumptions about earnings retention and other strategic actions.
+    As noted in the 2013 NPR, in the 2013 CCAR, all 8 covered BHCs met 
+the 3 percent supplementary leverage ratio as of third quarter 2012, 
+and almost all projected that their supplementary leverage ratios would 
+exceed 5 percent at year-end 2017. If the enhanced supplementary 
+leverage ratio standards had been in effect as of third quarter 2012, 
+covered BHCs under the 2013 NPR that did not exceed a minimum 
+supplementary leverage ratio requirement of 3 percent plus a 2 percent 
+leverage buffer would have needed to increase their tier 1 capital by 
+about $63 billion to meet that ratio.
+    Because CCAR is focused on the consolidated capital of BHCs, BHCs 
+did not project future Basel III leverage ratios for their IDIs. To 
+estimate the impact of the 2013 NPR on the lead subsidiary IDIs of 
+covered BHCs, the agencies assumed that an IDI has the same ratio of 
+total leverage exposure to total assets as its BHC. Using this 
+assumption and CCAR 2013 projections, all 8 lead subsidiary IDIs of 
+covered BHCs were estimated to meet the 3 percent supplementary 
+leverage ratio as of third quarter 2012. If the enhanced supplementary 
+leverage ratio standards had been in effect as of third quarter 2012, 
+the lead subsidiary IDIs of covered BHCs that did not meet a 6 percent 
+supplementary leverage ratio would have needed to increase their tier 1 
+capital by about $89 billion to meet that ratio.
+    In finalizing the rule, the agencies updated their supervisory 
+estimates of the amount of tier 1 capital that would be required for 
+covered BHCs and their lead subsidiary IDIs to meet the enhanced 
+supplementary leverage ratio standards. Using updated CCAR estimates, 
+all 8 covered BHCs meet the 3 percent supplementary leverage ratio as 
+of fourth quarter 2013. If the enhanced supplementary leverage ratio 
+standards had been in effect as of fourth quarter 2013, CCAR data 
+suggests that covered BHCs that would not have met a 5 percent 
+supplementary leverage ratio would have needed to increase their tier 1 
+capital by about $22 billion to meet that ratio.
+    Assuming that an IDI has the same ratio of total leverage exposure 
+to total assets as its BHC to estimate the impact at the IDI level, the 
+updated CCAR data indicates that all 8 lead subsidiary IDIs of covered 
+BHCs meet the 3 percent supplementary leverage ratio as of fourth 
+quarter 2013. If the enhanced supplementary leverage ratio standards 
+had been in effect as of fourth quarter 2013, the updated CCAR data 
+suggests that the lead subsidiary IDIs of covered BHCs that did not 
+meet a 6 percent ratio would have needed to increase their tier 1 
+capital by about $38 billion to meet that ratio. The agencies believe 
+that the affected covered BHCs and their subsidiary IDIs would be able 
+to effectively manage their capital structures to meet the enhanced 
+supplementary leverage ratio standards in the final rule by January 1, 
+2018. The agencies believe that this transition period should help to 
+reduce any short-term consequences and allow covered organizations to 
+adjust smoothly to the new supplementary leverage ratio standards.
+
+I. Advanced Approaches Framework
+
+    The agencies sought comment on whether in light of the proposed 
+enhanced supplementary leverage ratio standards and ongoing 
+standardized risk-based capital floors, the agencies should consider, 
+in some future regulatory action, simplifying or eliminating portions 
+of the advanced approaches rule if they are unnecessary or duplicative. 
+One commenter stated that mandatory application of the advanced 
+approaches rule is based on an outdated size-based threshold, and that 
+the agencies should review the thresholds for mandatory application of 
+the advanced approaches risk-based capital rules and consider whether, 
+in light of recently implemented reforms to the regulatory capital 
+framework, the criteria remain appropriate or whether they should be 
+refined given the purpose of those rules. Another commenter recommended 
+delaying consideration of the proposed enhanced supplementary leverage 
+ratio standards pending the review and completion of regulatory 
+initiatives based on the BCBS's discussion paper entitled, The 
+regulatory framework: balancing risk sensitivity, simplicity and 
+comparability.\31\
+---------------------------------------------------------------------------
+
+    \31\ Available at <a href="http://www.bis.org/publ/bcbs258.pdf">http://www.bis.org/publ/bcbs258.pdf</a>.
+---------------------------------------------------------------------------
+
+    The agencies are not proposing any changes to the advanced 
+approaches rule in connection with the final rule. As with any aspect 
+of the regulatory capital framework, the agencies will continue to 
+evaluate the appropriateness of the requirements of the advanced 
+approaches rule in light of this final rule and the ongoing evolution 
+of the U.S. financial regulatory framework.
+
+III. Description of the Final Rule
+
+    For the reasons discussed above, and consistent with the transition 
+provisions set forth in subpart G of the 2013 revised capital rule, the 
+agencies have decided to adopt the 2 percent leverage buffer for 
+covered BHCs and the 6
+
+[[Page 24538]]
+
+percent well-capitalized threshold for subsidiary IDIs of covered BHCs 
+effective on January 1, 2018. The final rule implements the provisions 
+in the 2013 NPR as proposed. Accordingly, the final rule applies to any 
+U.S. top-tier BHC with more than $700 billion in total consolidated 
+assets or more than $10 trillion in assets under custody and any 
+advanced approaches IDI subsidiary of such BHCs.
+    As further discussed above, the agencies are proposing elsewhere in 
+the Federal Register changes to the calculation of the supplementary 
+leverage ratio that would amend the 2013 revised capital rule and 
+change the basis for calculating the supplementary leverage ratio.
+    Under the final rule, a covered BHC that maintains a leverage 
+buffer greater than 2 percent of its total leverage exposure is not 
+subject to the rule's limitations on its distributions and 
+discretionary bonus payments.\32\ If the covered BHC maintains a 
+leverage buffer of 2 percent or less, it is subject to increasingly 
+stricter limitations on such payouts. An IDI that is a subsidiary of a 
+covered BHC is required to satisfy a 6 percent supplementary leverage 
+ratio to be considered well capitalized for PCA purposes. The leverage 
+ratio PCA thresholds under the 2013 revised capital rule and this final 
+rule are shown in Table 1.
+---------------------------------------------------------------------------
+
+    \32\ See section 11(a)(4) of the 2013 revised capital rule.
+
+                                       Table 1--Leverage Ratio PCA Levels
+----------------------------------------------------------------------------------------------------------------
+                                                                    Supplementary
+                                                                  leverage ratio for     Supplementary leverage
+           PCA category                Generally applicable      advanced approaches   ratio for subsidiary IDIs
+                                     leverage ratio (percent)   banking organizations  of covered BHCs (percent)
+                                                                      (percent)
+----------------------------------------------------------------------------------------------------------------
+Well Capitalized..................  >=5.......................  Not applicable.......  >=6.
+Adequately Capitalized............  >=4.......................  >=3..................  >=3.
+Undercapitalized..................  <4........................  <3...................  <3.
+Significantly Undercapitalized....  <3........................  Not applicable.......  Not applicable.
+Critically Undercapitalized.......  Tangible equity (defined    Not applicable.......  Not applicable.
+                                     as tier 1 capital plus
+                                     non-tier 1 perpetual
+                                     preferred stock) to Total
+                                     Assets <=2.
+----------------------------------------------------------------------------------------------------------------
+Note: The supplementary leverage ratio includes many off-balance sheet exposures in its denominator; the
+  generally applicable leverage ratio does not.
+
+    All advanced approaches banking organizations must calculate and 
+begin reporting their supplementary leverage ratios beginning in the 
+first quarter of 2015. However, the enhanced supplementary leverage 
+ratio standards for covered organizations set forth in the final rule 
+do not become effective until January 1, 2018.
+
+IV. Regulatory Analysis
+
+A. Paperwork Reduction Act (PRA)
+
+    There is no new collection of information pursuant to the PRA (44 
+U.S.C. 3501 et seq.) contained in this final rule. The agencies did not 
+receive any comment on their PRA analysis.
+
+B. Regulatory Flexibility Act Analysis
+
+OCC
+    The Regulatory Flexibility Act, 5 U.S.C. 601 et seq. (RFA) requires 
+an agency, in connection with a final rule, to prepare a Final 
+Regulatory Flexibility Act analysis describing the impact of the rule 
+on small entities (defined by the Small Business Administration for 
+purposes of the RFA to include banking entities with total assets of 
+$500 million or less) or to certify that the rule will not have a 
+significant economic impact on a substantial number of small entities.
+    Using the SBA's size standards, as of December 31, 2013, the OCC 
+supervised 1,195 small entities.\33\
+---------------------------------------------------------------------------
+
+    \33\ The OCC calculated the number of small entities using the 
+SBA's size thresholds for commercial banks and savings institutions, 
+and trust companies, which are $500 million and $35.5 million, 
+respectively. 78 FR 37409 (June 20, 2013). Consistent with the 
+General Principles of Affiliation 13 CFR 121.103(a), the OCC counted 
+the assets of affiliated financial institutions when determining 
+whether to classify a national bank or Federal savings association 
+as a small entity. The OCC used December 31, 2013, to determine size 
+because a ``financial institution's assets are determined by 
+averaging the assets reported on its four quarterly financial 
+statements for the preceding year.'' See footnote 8 of the U.S. 
+Small Business Administration's Table of Size Standards.
+---------------------------------------------------------------------------
+
+    As described in the SUPPLEMENTARY INFORMATION section of the 
+preamble, the final rule strengthens the supplementary leverage ratio 
+standards for covered BHCs and their IDI subsidiaries. Because the 
+final rule applies only to covered BHCs and their IDI subsidiaries, it 
+does not impact any OCC-supervised small entities. Therefore, the OCC 
+certifies that the final rule will not have a significant economic 
+impact on a substantial number of OCC-supervised small entities.
+Board
+    The Regulatory Flexibility Act, 5 U.S.C. 601 et seq. (RFA) requires 
+an agency to provide a final regulatory flexibility analysis with a 
+final rule or to certify that the rule will not have a significant 
+economic impact on a substantial number of small entities (defined for 
+purposes of the RFA beginning on July 22, 2013, to include banks with 
+assets less than or equal to $500 million) \34\ and publish its 
+analysis or a summary, or its certification and a short, explanatory 
+statement, in the Federal Register along with the final rule.
+---------------------------------------------------------------------------
+
+    \34\ See 13 CFR 121.201. Effective July 22, 2013, the Small 
+Business Administration revised the size standards for banking 
+organizations to $500 million in assets from $175 million in assets. 
+78 FR 37409 (June 20, 2013).
+---------------------------------------------------------------------------
+
+    The Board is providing a final regulatory flexibility analysis with 
+respect to this final rule. As discussed above, this final rule is 
+designed to enhance the safety and soundness of U.S. top-tier bank 
+holding companies with at least $700 billion in consolidated assets or 
+at least $10 trillion in assets under custody (covered BHCs), and the 
+insured depository institution subsidiaries of covered BHCs. The Board 
+received no public comments on the proposed rule from members of the 
+general public or from the Chief Counsel for Advocacy of the Small 
+Business Administration. Thus, no issues were raised in public comments 
+relating to the Board's initial regulatory flexibility act analysis and 
+no changes are being made in response to such comments.
+    Under regulations issued by the Small Business Administration, a 
+small entity includes a depository institution or
+
+[[Page 24539]]
+
+bank holding company with total assets of $500 million or less (a small 
+banking organization). As of December 31, 2013, there were 627 small 
+state member banks. As of December 31, 2013, there were approximately 
+3,676 small bank holding companies. No small top-tier bank holding 
+company would meet the threshold provided in the final rule, so there 
+would be no additional projected compliance requirements imposed on 
+small bank holding companies. One covered bank holding company has one 
+small state member bank subsidiary, which would be covered by the final 
+rule. The Board expects that any small banking organization covered by 
+the final rule would rely on its parent banking organization for 
+compliance and would not bear additional costs.
+    The Board believes that the final rule will not have a significant 
+economic impact on small banking organizations supervised by the Board 
+and therefore believes that there are no significant alternatives to 
+the final rule that would reduce the economic impact on small banking 
+organizations supervised by the Board.
+FDIC
+    The RFA requires an agency to provide an FRFA with a final rule or 
+to certify that the rule will not have a significant economic impact on 
+a substantial number of small entities (defined for purposes of the RFA 
+to include banking entities with total assets of $500 million or 
+less).\35\
+---------------------------------------------------------------------------
+
+    \35\ Effective July 22, 2013, the SBA revised the size standards 
+for banking organizations to $500 million in assets from $175 
+million in assets. 78 FR 37409 (June 20, 2013).
+---------------------------------------------------------------------------
+
+    As described in sections I and III of this preamble, the final rule 
+strengthens the supplementary leverage ratio standards for covered BHCs 
+and their advanced approaches IDI subsidiaries. As of December 31, 
+2013, 1 (out of 3,394) small state nonmember bank and no (out of 303) 
+small state savings associations were advanced approaches IDI 
+subsidiaries of a covered BHC. Therefore, the FDIC does not believe 
+that the final rule will result in a significant economic impact on a 
+substantial number of small entities under its supervisory 
+jurisdiction.
+    The FDIC certifies that the final rule does not have a significant 
+economic impact on a substantial number of small FDIC-supervised 
+institutions.
+
+C. OCC Unfunded Mandates Reform Act of 1995 Determination
+
+    Section 202 of the Unfunded Mandates Reform Act of 1995, Public Law 
+104-4 (Unfunded Mandates Reform Act) provides that an agency that is 
+subject to the Unfunded Mandates Act must prepare a budgetary impact 
+statement before promulgating a rule that includes a Federal mandate 
+that may result in expenditure by State, local, and tribal governments, 
+in the aggregate, or by the private sector, of $100 million (adjusted 
+for inflation) or more in any one year. The current inflation-adjusted 
+expenditure threshold is $141 million. If a budgetary impact statement 
+is required, section 205 of the UMRA also requires an agency to 
+identify and consider a reasonable number of regulatory alternatives 
+before promulgating a rule. The OCC has determined this proposed rule 
+is likely to result in the expenditure by the private sector of $141 
+million or more. The OCC has prepared a budgetary impact analysis and 
+identified and considered alternative approaches. When the final rule 
+is published in the Federal Register, the full text of the OCC's 
+analyses will available at: <a href="http://www.regulations.gov">http://www.regulations.gov</a>, Docket ID OCC-
+2013-0008.
+
+D. Plain Language
+
+    Section 722 of the Gramm-Leach-Bliley Act requires the Federal 
+banking agencies to use plain language in all proposed and final rules 
+published after January 1, 2000. The agencies have sought to present 
+the final rule in a simple and straightforward manner. The agencies did 
+not receive any comment on their use of plain language.
+
+List of Subjects
+
+12 CFR Part 6
+
+    National banks.
+
+12 CFR Part 208
+
+    Confidential business information, Crime, Currency, Federal Reserve 
+System, Mortgages, Reporting and recordkeeping requirements, 
+Securities.
+
+12 CFR Part 217
+
+    Administrative practice and procedure, Banks, Banking, Capital, 
+Federal Reserve System, Holding companies, Reporting and recordkeeping 
+requirements, Securities.
+
+12 CFR Part 324
+
+    Administrative practice and procedure, Banks, banking, Capital 
+Adequacy, Reporting and recordkeeping requirements, Savings 
+associations, State non-member banks.
+
+DEPARTMENT OF THE TREASURY
+
+Office of the Comptroller of the Currency
+
+12 CFR Chapter I
+Authority and Issuance
+    For the reasons set forth in the preamble and under the authority 
+of 12 U.S.C. 93a, 1831o, and 5412(b)(2)(B), the Office of the 
+Comptroller of the Currency amends part 6 of chapter I of title 12, 
+Code of Federal Regulations as follows:
+
+PART 6--PROMPT CORRECTIVE ACTION
+
+0
+1. The authority citation for part 6 continues to read as follows:
+
+    Authority:  12 U.S.C. 93a, 1831o, 5412(b)(2)(B).
+
+
+0
+2. Amend Sec.  6.4 by revising paragraph (c)(1)(iv) to read as follows:
+
+
+Sec.  6.4  Capital measures and capital category definition.
+
+* * * * *
+    (c) * * *
+    (1) * * *
+    (iv) Leverage Measure:
+    (A) The national bank or Federal savings association has a leverage 
+ratio of 5.0 percent or greater; and
+    (B) With respect to a national bank or Federal savings association 
+that is a subsidiary of a U.S. top-tier bank holding company that has 
+more than $700 billion in total assets as reported on the company's 
+most recent Consolidated Financial Statement for Bank Holding Companies 
+(FR Y-9C) or more than $10 trillion in assets under custody as reported 
+on the company's most recent Banking Organization Systemic Risk Report 
+(Y-15), on January 1, 2018 and thereafter, the national bank or Federal 
+savings association has a supplementary leverage ratio of 6.0 percent 
+or greater; and
+* * * * *
+
+Board of Governors of the Federal Reserve System
+
+12 CFR Chapter II
+Authority and Issuance
+    For the reasons set forth in the preamble, chapter II of title 12 
+of the Code of Federal Regulations is amended as follows:
+
+PART 208--MEMBERSHIP OF STATE BANKING INSTITUTIONS IN THE FEDERAL 
+RESERVE SYSTEM (REGULATION H)
+
+0
+3. The authority citation for part 208 is revised to read as follows:
+
+
+[[Page 24540]]
+
+
+    Authority:  12 U.S.C. 24, 36, 92a, 93a, 248(a), 248(c), 321-
+338a, 371d, 461, 481-486, 601, 611, 1814, 1816, 1818, 1820(d)(9), 
+1833(j), 1828(o), 1831, 1831o, 1831p-1, 1831r-1, 1831w, 1831x, 
+1835a, 1882, 2901-2907, 3105, 3310, 3331-3351, 3905-3909, and 5371; 
+15 U.S.C. 78b, 78I(b), 78l(i), 780-4(c)(5), 78q, 78q-1, and 78w, 
+1681s, 1681w, 6801, and 6805; 31 U.S.C. 5318; 42 U.S.C. 4012a, 
+4104a, 4104b, 4106 and 4128.
+
+
+0
+4. In Sec.  208.41, redesignate paragraphs (c) through (j) as 
+paragraphs (d) through (k), and add a new paragraph (c) to read as 
+follows:
+
+
+Sec.  208.41  Definitions for purposes of this subpart.
+
+* * * * *
+    (c) Covered BHC means a covered BHC as defined in Sec.  217.2 of 
+Regulation Q (12 CFR 217.2).
+* * * * *
+
+0
+5. Amend Sec.  208.43 as follows:
+0
+a. Add paragraph (a)(2)(iv)(C).
+0
+b. Revise paragraph (c)(1)(iv).
+
+
+Sec.  208.43  Capital measures and capital category definitions.
+
+    (a) * * *
+    (2) * * *
+    (iv) * * *
+    (C) With respect to any bank that is a subsidiary (as defined in 
+Sec.  217.2 of Regulation Q (12 CFR 217.2)) of a covered BHC, on 
+January 1, 2018, and thereafter, the supplementary leverage ratio.
+* * * * *
+    (c) * * *
+    (1) * * *
+    (iv) Leverage Measure:
+    (A) The bank has a leverage ratio of 5.0 percent or greater; and
+    (B) Beginning on January 1, 2018, with respect to any bank that is 
+a subsidiary of a covered BHC under the definition of ``subsidiary'' in 
+section 217.2 of Regulation Q (12 CFR 217.2), the bank has a 
+supplementary leverage ratio of 6.0 percent or greater; and
+* * * * *
+
+PART 217--CAPITAL ADEQUACY OF BOARD-REGULATED INSTITUTIONS
+
+0
+6. The authority citation for part 217 is revised to read as follows:
+
+    Authority:  12 U.S.C. 248(a), 321-338a, 481-486, 1462a, 1467a, 
+1818, 1828, 1831n, 1831o, 1831p-l, 1831w, 1835, 1844(b), 1851, 3904, 
+3906-3909, 4808, 5365, 5368, 5371.
+
+0
+7. Amend Sec.  217.1 by revising paragraph (f)(4) to read as follows:
+
+
+Sec.  217.1  Purpose, applicability, reservations of authority, and 
+timing.
+
+* * * * *
+    (f) * * *
+    (4) Beginning January 1, 2018, a covered BHC (as defined in Sec.  
+217.2) is subject to limitations on distributions and discretionary 
+bonus payments in accordance with the lower of the maximum payout 
+amount as determined under Sec.  217.11(a)(2)(iii) and the maximum 
+leverage payout amount as determined under Sec.  217.11(a)(2)(vi).
+
+0
+8. In Sec.  217.2 add a definition of ``covered BHC'' in alphabetical 
+order to read as follows:
+
+
+Sec.  217.2  Definitions.
+
+* * * * *
+    Covered BHC means a U.S. top-tier bank holding company that has 
+more than $700 billion in total assets as reported on the company's 
+most recent Consolidated Financial Statements for Holding Companies (FR 
+Y-9C) or more than $10 trillion in assets under custody as reported on 
+the company's most recent Banking Organization Systemic Risk Report (FR 
+Y-15).
+* * * * *
+
+0
+9. In Sec.  217.11
+0
+A. Add new paragraphs (a)(2)(v) and (a)(2)(vi), and (c);
+0
+B. Revise paragraph (a)(4); and
+0
+C. Add Table 2 to read as follows.
+
+
+Sec.  217.11  Capital conservation buffer and countercyclical capital 
+buffer amount.
+
+    (a) * * *
+    (2) * * *
+    (v) Maximum leverage payout ratio. The maximum leverage payout 
+ratio is the percentage of eligible retained income that a covered BHC 
+can pay out in the form of distributions and discretionary bonus 
+payments during the current calendar quarter. The maximum leverage 
+payout ratio is based on the covered BHC's leverage buffer, calculated 
+as of the last day of the previous calendar quarter, as set forth in 
+Table 2 of this section.
+    (vi) Maximum leverage payout amount. A covered BHC's maximum 
+leverage payout amount for the current calendar quarter is equal to the 
+covered BHC's eligible retained income, multiplied by the applicable 
+maximum leverage payout ratio, as set forth in Table 2 of this section.
+* * * * *
+    (4) Limits on distributions and discretionary bonus payments. (i) A 
+Board-regulated institution shall not make distributions or 
+discretionary bonus payments or create an obligation to make such 
+distributions or payments during the current calendar quarter that, in 
+the aggregate, exceed the maximum payout amount or, as applicable, the 
+maximum leverage payout amount.
+    (ii) A Board-regulated institution that has a capital conservation 
+buffer that is greater than 2.5 percent plus 100 percent of its 
+applicable countercyclical capital buffer, in accordance with paragraph 
+(b) of this section, and, if applicable, that has a leverage buffer 
+that is greater than 2.0 percent, in accordance with paragraph (c) of 
+this section, is not subject to a maximum payout amount or maximum 
+leverage payout amount under this section.
+    (iii) Negative eligible retained income. Except as provided in 
+paragraph (a)(4)(iv) of this section, a Board-regulated institution may 
+not make distributions or discretionary bonus payments during the 
+current calendar quarter if the Board-regulated institution's:
+    (A) Eligible retained income is negative; and
+    (B) Capital conservation buffer was less than 2.5 percent, or, if 
+applicable, leverage buffer was less than 2.0 percent, as of the end of 
+the previous calendar quarter.
+* * * * *
+    (c) Leverage buffer--(1) General. A covered BHC is subject to the 
+lower of the maximum payout amount as determined under paragraph 
+(a)(2)(iii) of this section and the maximum leverage payout amount as 
+determined under paragraph (a)(2)(vi) of this section.
+    (2) Composition of the leverage buffer. The leverage buffer is 
+composed solely of tier 1 capital.
+    (3) Calculation of the leverage buffer. (i) A covered BHC's 
+leverage buffer is equal to the covered BHC's supplementary leverage 
+ratio minus 3 percent, calculated as of the last day of the previous 
+calendar quarter based on the covered BHC's most recent Consolidated 
+Financial Statement for Bank Holding Companies (FR Y-9C).
+    (ii) Notwithstanding paragraph (c)(3)(i) of this section, if the 
+covered BHC's supplementary leverage ratio is less than or equal to 3 
+percent, the covered BHC's leverage buffer is zero.
+
+[[Page 24541]]
+
+
+
+ Table 2 to Sec.   217.11--Calculation of Maximum Leverage Payout Amount
+------------------------------------------------------------------------
+                                       Maximum leverage payout ratio (as
+           Leverage buffer             a percentage of eligible retained
+                                                    income)
+------------------------------------------------------------------------
+Greater than 2.0 percent............  No payout ratio limitation
+                                       applies.
+Less than or equal to 2.0 percent,    60 percent.
+ and greater than 1.5 percent.
+Less than or equal to 1.5 percent,    40 percent.
+ and greater than 1.0 percent.
+Less than or equal to 1.0 percent,    20 percent.
+ and greater than 0.5 percent.
+Less than or equal to 0.5 percent...  0 percent.
+------------------------------------------------------------------------
+
+Federal Deposit Insurance Corporation
+
+12 CFR Chapter III
+Authority and Issuance
+    For the reasons stated in the preamble, the Federal Deposit 
+Insurance Corporation is amending part 324 of chapter III of Title 12, 
+Code of Federal Regulations as follows:
+
+PART 324--CAPITAL ADEQUACY OF FDIC-SUPERVISED INSTITUTIONS
+
+0
+10. The authority section for part 324 continues to read as follows:
+
+    Authority:  12 U.S.C. 1815(a), 1815(b), 1816, 1818(a), 1818(b), 
+1818(c), 1818(t), 1819(Tenth), 1828(c), 1828(d), 1828(i), 1828(n), 
+1828(o), 1831o, 1835, 3907, 3909, 4808; 5371; 5412; Pub. L. 102-233, 
+105 Stat. 1761, 1789, 1790 (12 U.S.C. 1831n note); Pub. L. 102-242, 
+105 Stat. 2236, 2355, as amended by Pub. L. 103-325, 108 Stat. 2160, 
+2233 (12 U.S.C. 1828 note); Pub. L. 102-242, 105 Stat. 2236, 2386, 
+as amended by Pub. L. 102-550, 106 Stat. 3672, 4089 (12 U.S.C. 1828 
+note); Pub. L. 111-203, 124 Stat. 1376, 1887 (15 U.S.C. 78o-7 note).
+
+0
+11. Revise Sec.  324.403(b)(1)(v) to read as follows:
+
+
+Sec.  324.403  Capital measures and capital category definitions.
+
+* * * * *
+    (b) * * *
+    (1) * * *
+    (v) Beginning on January 1, 2018 and thereafter, an FDIC-supervised 
+institution that is a subsidiary of a covered BHC will be deemed to be 
+well capitalized if the FDIC-supervised institution satisfies 
+paragraphs (b)(1)(i) through (iv) of this section and has a 
+supplementary leverage ratio of 6.0 percent or greater. For purposes of 
+this paragraph, a covered BHC means a U.S. top-tier bank holding 
+company with more than $700 billion in total assets as reported on the 
+company's most recent Consolidated Financial Statement for Bank Holding 
+Companies (FR Y-9C) or more than $10 trillion in assets under custody 
+as reported on the company's most recent Banking Organization Systemic 
+Risk Report (FR Y-15); and
+* * * * *
+
+    Dated: April 8, 2014.
+Thomas J. Curry,
+Comptroller of the Currency.
+
+    By order of the Board of Governors of the Federal Reserve 
+System, April 10, 2014.
+Robert deV. Frierson,
+Secretary of the Board.
+
+    Dated at Washington, DC, this 8th day of April, 2014.
+
+    By order of the Board of Directors.
+Robert E. Feldman,
+Executive Secretary, Federal Deposit Insurance Corporation.
+[FR Doc. 2014-09367 Filed 4-30-14; 8:45 am]
+BILLING CODE P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

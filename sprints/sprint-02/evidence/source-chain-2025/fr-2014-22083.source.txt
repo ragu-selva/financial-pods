@@ -1,0 +1,3234 @@
+<html>
+<head>
+<title>Federal Register, Volume 79 Issue 187 (Friday, September 26, 2014)</title>
+</head>
+<body><pre>
+[Federal Register Volume 79, Number 187 (Friday, September 26, 2014)]
+[Rules and Regulations]
+[Pages 57725-57751]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2014-22083]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TREASURY
+
+Office of the Comptroller of the Currency
+
+12 CFR Part 3
+
+[Docket ID OCC-2014-0008]
+RIN 1557-AD81
+
+FEDERAL RESERVE SYSTEM
+
+12 CFR Part 217
+
+[Regulation Q Docket No. R-1487]
+RIN 7100-AD16
+
+FEDERAL DEPOSIT INSURANCE CORPORATION
+
+12 CFR Part 324
+
+RIN 3064-AE12
+
+
+Regulatory Capital Rules: Regulatory Capital, Revisions to the 
+Supplementary Leverage Ratio
+
+AGENCY: Office of the Comptroller of the Currency, Treasury; the Board 
+of Governors of the Federal Reserve System; and the Federal Deposit 
+Insurance Corporation.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In May 2014, the Office of the Comptroller of the Currency 
+(OCC), the Board of Governors of the Federal Reserve System (Board), 
+and the Federal Deposit Insurance Corporation (FDIC) (collectively, the 
+agencies) issued a notice of proposed rulemaking (NPR or proposed rule) 
+to revise the definition of the denominator of the supplementary 
+leverage ratio (total leverage exposure) that the agencies adopted in 
+July 2013 as part of comprehensive revisions to the agencies' 
+regulatory capital rules (2013 revised capital rule). The agencies are 
+adopting the proposed rule as final (final rule) with certain revisions 
+and clarifications based on comments received on the proposed rule.
+    The final rule revises total leverage exposure as defined in the 
+2013 revised capital rule to include the effective notional principal 
+amount of credit derivatives and other similar instruments through 
+which a banking
+
+[[Page 57726]]
+
+organization provides credit protection (sold credit protection); 
+modifies the calculation of total leverage exposure for derivative and 
+repo-style transactions; and revises the credit conversion factors 
+applied to certain off-balance sheet exposures. The final rule also 
+changes the frequency with which certain components of the 
+supplementary leverage ratio are calculated and establishes the public 
+disclosure requirements of certain items associated with the 
+supplementary leverage ratio.
+    The final rule applies to all banks, savings associations, bank 
+holding companies, and savings and loan holding companies (banking 
+organizations) that are subject to the agencies' advanced approaches 
+risk-based capital rules, as defined in the 2013 revised capital rule 
+(advanced approaches banking organizations), including advanced 
+approaches banking organizations that are subject to the enhanced 
+supplementary leverage ratio standards that the agencies finalized in 
+May 2014 (eSLR standards). Consistent with the 2013 revised capital 
+rule, advanced approaches banking organizations will be required to 
+disclose their supplementary leverage ratios beginning January 1, 2015, 
+and will be required to comply with a minimum supplementary leverage 
+ratio capital requirement of 3 percent and, as applicable, the eSLR 
+standards beginning January 1, 2018.
+
+DATES: The final rule is effective January 1, 2015.
+
+FOR FURTHER INFORMATION CONTACT:
+    OCC: Margot Schwadron, Senior Risk Expert, (202) 649-6982; or 
+Nicole Billick, Risk Expert, (202) 649-7932, Capital Policy; or Carl 
+Kaminski, Counsel; or Henry Barkhausen, Attorney, Legislative and 
+Regulatory Activities Division, (202) 649-5490, for persons who are 
+deaf or hard of hearing, TTY (202) 649-5597, Office of the Comptroller 
+of the Currency, 400 7th Street SW., Washington, DC 20219.
+    Board: Constance M. Horsley, Assistant Director, (202) 452-5239; 
+Thomas Boemio, Manager, (202) 452-2982; Sviatlana Phelan, Supervisory 
+Financial Analyst, (202) 912-4306; or Holly Kirkpatrick, Supervisory 
+Financial Analyst, (202) 452-2796, Capital and Regulatory Policy, 
+Division of Banking Supervision and Regulation; or April C. Snyder, 
+Senior Counsel, (202) 452-3099; Christine E. Graham, Counsel (202) 452-
+3005; or Mark Buresh, Attorney, (202) 452-5270, Legal Division, Board 
+of Governors of the Federal Reserve System, 20th and C Streets NW., 
+Washington, DC 20551. For the hearing impaired only, Telecommunication 
+Device for the Deaf (TDD), (202) 263-4869.
+    FDIC: Bobby R. Bean, Associate Director, <a href="/cdn-cgi/l/email-protection#84e6e6e1e5eac4e2e0ede7aae3ebf2"><span class="__cf_email__" data-cfemail="e88a8a8d8986a88e8c818bc68f879e">[email&#160;protected]</span></a>; Ryan 
+Billingsley, Chief, Capital Policy Section, <a href="/cdn-cgi/l/email-protection#a6d4c4cfcacacfc8c1d5cac3dfe6c0c2cfc588c1c9d0"><span class="__cf_email__" data-cfemail="a1d3c3c8cdcdc8cfc6d2cdc4d8e1c7c5c8c28fc6ced7">[email&#160;protected]</span></a>; Karl 
+Reitz, Chief, Capital Markets Strategies Section, <a href="/cdn-cgi/l/email-protection#a9c2dbccc0ddd3e9cfcdc0ca87cec6df"><span class="__cf_email__" data-cfemail="e48f96818d909ea482808d87ca838b92">[email&#160;protected]</span></a>; 
+Capital Markets Branch, Division of Risk Management Supervision, 
+<a href="/cdn-cgi/l/email-protection#bfcddad8cad3decbd0cdc6dcdecfd6cbded3ffd9dbd6dc91d8d0c9"><span class="__cf_email__" data-cfemail="daa8bfbdafb6bbaeb5a8a3b9bbaab3aebbb69abcbeb3b9f4bdb5ac">[email&#160;protected]</span></a> or (202) 898-6888; or Michael Phillips, 
+Counsel, <a href="/cdn-cgi/l/email-protection#1d706d75747171746d6e5d7b79747e337a726b"><span class="__cf_email__" data-cfemail="0865786061646461787b486e6c616b266f677e">[email&#160;protected]</span></a>; or Rachel Ackmann, Senior Attorney, 
+<a href="/cdn-cgi/l/email-protection#b3c1d2d0d8ded2ddddf3d5d7dad09dd4dcc5"><span class="__cf_email__" data-cfemail="2b594a4840464a45456b4d4f4248054c445d">[email&#160;protected]</span></a>; or Grace Pyun, Senior Attorney, <a href="/cdn-cgi/l/email-protection#84e3f4fdf1eac4e2e0ede7aae3ebf2"><span class="__cf_email__" data-cfemail="ddbaada4a8b39dbbb9b4bef3bab2ab">[email&#160;protected]</span></a>; 
+Supervision Branch, Legal Division, Federal Deposit Insurance 
+Corporation, 550 17th Street NW., Washington, DC 20429.
+
+SUPPLEMENTARY INFORMATION:
+
+I. Background
+
+    The Office of the Comptroller of the Currency (OCC), the Board of 
+Governors of the Federal Reserve System (Board), and the Federal 
+Deposit Insurance Corporation (FDIC) (collectively, the agencies) 
+adopted the supplementary leverage ratio in July 2013 as part of 
+comprehensive revisions to the agencies' regulatory capital rule (2013 
+revised capital rule).\1\ Under the 2013 revised capital rule, a 
+minimum supplementary leverage ratio requirement of 3 percent applies 
+to all banking organizations that are subject to the agencies' advanced 
+approaches risk-based capital rule (advanced approaches banking 
+organizations).\2\ The supplementary leverage ratio in the 2013 revised 
+capital rule is generally consistent with the international leverage 
+ratio introduced by the Basel Committee on Banking Supervision (BCBS) 
+in 2010 (Basel III leverage ratio). Under the enhanced supplementary 
+leverage ratio standards (eSLR standards) finalized by the agencies in 
+May 2014, U.S. top-tier bank holding companies (BHCs) with more than 
+$700 billion in consolidated total assets or more than $10 trillion in 
+assets under custody must maintain a leverage buffer greater than 2 
+percentage points above the minimum supplementary leverage ratio 
+requirement of 3 percent, for a total of more than 5 percent, to avoid 
+restrictions on capital distributions and discretionary bonus 
+payments.\3\ Insured depository institution (IDI) subsidiaries of such 
+BHCs must maintain at least a 6 percent supplementary leverage ratio to 
+be considered ``well-capitalized'' under the agencies' prompt 
+corrective action framework.
+---------------------------------------------------------------------------
+
+    \1\ The Board and the OCC published a joint final rule in the 
+Federal Register on October 11, 2013 (78 FR 62018) and the FDIC 
+published in the Federal Register a substantially identical final 
+rule on April 14, 2014 (79 FR 20754).
+    \2\ 12 CFR 3.10(a)(5) (OCC); 12 CFR 217.10(a)(5) (Board); and 12 
+CFR 324.10(a)(5) (FDIC).
+    \3\ The eSLR standards were finalized by the agencies on May 1, 
+2014 (79 FR 24528).
+---------------------------------------------------------------------------
+
+    On May 1, 2014, the agencies published in the Federal Register, for 
+public comment, a notice of proposed rulemaking (NPR or proposed rule) 
+to revise the definition of the denominator of the supplementary 
+leverage ratio (total leverage exposure).\4\ The proposed rule would 
+have revised the supplementary leverage ratio, consistent with the 
+January 2014 BCBS revisions to the Basel III leverage ratio (BCBS 2014 
+revisions), to incorporate in total leverage exposure the effective 
+notional principal amount of credit derivatives or similar instruments 
+through which a banking organization provides credit protection (sold 
+credit protection), modify the measure of exposure for derivative and 
+repo-style transactions, and revise the credit conversion factors 
+(CCFs) for certain off-balance sheet exposures.\5\ It would have 
+required total leverage exposure to be calculated as the mean of total 
+leverage exposure, calculated daily, and would have required public 
+disclosure of certain items associated with the supplementary leverage 
+ratio. In general, the proposed changes were designed to strengthen the 
+supplementary leverage ratio by more appropriately capturing the 
+exposure of a banking organization's on- and off-balance sheet items.
+---------------------------------------------------------------------------
+
+    \4\ 79 FR 24596 (May 1, 2014).
+    \5\ See BCBS, ``Basel III leverage ratio framework and 
+disclosure requirements'' (January 2014), available at <a href="http://www.bis.org/publ/bcbs270.htm">http://www.bis.org/publ/bcbs270.htm</a>. See also BCBS, ``Revised Basel III 
+leverage ratio framework and disclosure requirements--consultative 
+document'' (June 2013), available at <a href="http://www.bis.org/publ/bcbs251.htm">http://www.bis.org/publ/bcbs251.htm</a>.
+---------------------------------------------------------------------------
+
+    As discussed further below, the agencies are adopting the proposed 
+rule as final (final rule) with certain revisions and clarifications 
+based on comments received on the proposed rule. In addition, the 
+agencies are revising the calculation of total leverage exposure to 
+provide that the on-balance sheet portion of total leverage exposure 
+will be calculated as the average of each day of the reporting quarter, 
+but the off-balance sheet portion of total leverage exposure will be 
+calculated as the average of the three month-end amounts of the most 
+recent three months. Consistent with the 2013 revised capital rule, 
+advanced approaches banking organizations will be required to disclose 
+their supplementary leverage ratios beginning January 1, 2015, and will 
+be required to comply with the minimum supplementary leverage ratio
+
+[[Page 57727]]
+
+capital requirement and, as applicable, the eSLR standards, beginning 
+January 1, 2018.
+
+II. Summary of Comments on the NPR and Description of the Final Rule
+
+    The agencies sought comment on all aspects of the NPR and received 
+14 public comments from banking organizations, trade associations 
+representing the banking or financial services industry, an options and 
+futures exchange, a supervisory authority, a public interest advocacy 
+group, three private individuals, and other interested parties. In 
+general, comments from financial services firms, banking organizations, 
+banking trade associations and other industry groups were supportive of 
+the proposed rule because it would enhance international consistency, 
+but were critical of certain aspects of the NPR. Comments from an 
+organization representing smaller banking organizations, a group of 
+state bank supervisors, a public interest advocacy group, and two 
+individuals were more generally supportive of the NPR, but they also 
+expressed certain concerns. One individual commenter strongly opposed 
+the proposed rule. A detailed discussion of the proposed rule, 
+commenters' concerns, and the agencies' responses to those concerns are 
+provided in the remainder of this preamble.
+
+A. Calibration of the Supplementary Leverage Ratio and the eSLR 
+Standards
+
+    As noted above in Part I, a U.S. top-tier BHC with more than $700 
+billion in consolidated total assets or more than $10 trillion in 
+assets under custody must maintain a leverage buffer greater than 2 
+percentage points above the minimum supplementary leverage ratio 
+requirement of 3 percent, for a total of more than 5 percent, to avoid 
+restrictions on capital distributions and discretionary bonus payments. 
+IDI subsidiaries of such BHCs must maintain at least a 6 percent 
+supplementary leverage ratio to be considered ``well capitalized'' 
+under the agencies' prompt corrective action framework. The NPR did not 
+propose changes to the minimum supplementary leverage ratio or eSLR 
+standards, but did propose changes to the denominator of the 
+supplementary leverage ratio, which could require banking organizations 
+subject to the supplementary leverage ratio standards (including the 
+eSLR standards) to hold higher amounts of tier 1 capital to meet the 
+standards. The agencies asked in the proposal whether the proposed 
+changes to the definition of total leverage exposure warranted any 
+changes to the calibration of the minimum ratios, or the well-
+capitalized or buffer levels of the supplementary leverage ratio.
+    Some commenters encouraged the agencies to reconsider the eSLR 
+standards in general, raising issues similar to the comments that the 
+agencies received on the proposal to implement the eSLR standards.\6\ 
+For example, commenters expressed the view that the eSLR standards were 
+not consistent with the BCBS's leverage ratio framework and could 
+therefore result in competitive disparities across jurisdictions. One 
+commenter expressed disappointment with the decision to bifurcate the 
+eSLR standards for BHCs and IDIs. A number of commenters expressed 
+concern that the NPR, in combination with the eSLR standards, could 
+cause the supplementary leverage ratio to become the binding regulatory 
+capital constraint, rather than a backstop to the risk-based capital 
+measure. These commenters concluded that a consequence of a binding 
+supplementary leverage ratio could be that banking organizations may 
+divest lower risk assets and assume more risk, to the detriment of 
+financial stability.
+---------------------------------------------------------------------------
+
+    \6\ 78 FR 51101 (Aug. 20, 2013).
+---------------------------------------------------------------------------
+
+    The agencies considered these comments in connection with adopting 
+the eSLR standards, and the agencies' views on those comments are set 
+forth in the preamble to the final rule implementing the eSLR 
+standards. As noted in that preamble, and discussed further below, the 
+agencies believe that the maintenance of a complementary relationship 
+between the leverage and risk-based capital ratios is important to 
+ensure that each type of capital requirement continues to serve as an 
+appropriate counterbalance to offset potential weaknesses of the other. 
+The 2013 revised capital rule implemented the capital conservation 
+buffer framework (which is only applicable to risk-based capital 
+ratios) and increased risk-based capital requirements more than it 
+increased leverage requirements, reducing the ability of the leverage 
+requirements to act as an effective complement to the risk-based 
+requirements, as they had historically. As a result, the degree to 
+which banking organizations could potentially benefit from active 
+management of risk-weighted assets before they breach the leverage 
+requirements may be greater. To account for the increases in stringency 
+in the risk-based capital framework, the agencies calibrated the eSLR 
+standards so that they remain in an effective complementary 
+relationship with the risk-based capital requirements. The proposed 
+revisions to total leverage exposure were designed to more 
+appropriately capture the exposure of a banking organization's on- and 
+off-balance sheet exposures, which furthers this complementarity.
+    In adopting the eSLR standards and developing the proposed rule, 
+the agencies considered the combined impact of the eSLR standards and 
+the proposed changes to total leverage exposure.\7\ The agencies noted 
+that, quantitatively, compared to the 2013 revised capital rule, the 
+most important changes in total leverage exposure in the proposed rule 
+are: (i) The proposed use of standardized CCFs for certain off-balance 
+sheet activities, which should lead to a reduction in total leverage 
+exposure, and (ii) the proposed treatment of sold credit derivatives, 
+which should lead to an increase in total leverage exposure. However, 
+the actual total leverage exposure under the proposed rule would be 
+especially sensitive to the volume of sold credit derivative activities 
+and would be dependent on whether those activities are hedged in a 
+manner recognized under the proposed rule. As discussed in the proposed 
+rule, supervisory estimates suggested that the proposed changes to the 
+definition of total leverage exposure would result in an approximately 
+8.5 percent aggregate increase in total leverage exposure across the 
+BHCs subject to the eSLR standards, relative to the definition of total 
+leverage exposure in the 2013 revised capital rule. Based on current 
+estimates, total leverage exposure across the eight BHCs subject to the 
+eSLR standards would increase by an average of 2.6 percent under the 
+proposed rule as compared to the definition of total leverage exposure 
+under the 2013 revised capital rule. In both analyses, on an individual 
+firm basis, for some BHCs subject to the eSLR standards, total leverage 
+exposure increased, while for others it decreased, relative to the 
+definition of total leverage exposure in the 2013 revised capital rule. 
+The decline from an 8.5 percent to a 2.6 percent aggregate increase 
+reflects a lower estimate of the impact of including the notional 
+amount of credit derivatives, resulting from trade compression and 
+possibly more
+
+[[Page 57728]]
+
+offsetting of credit derivatives in response to the proposed rule.
+---------------------------------------------------------------------------
+
+    \7\ The estimates were generated by using December 2013 
+Comprehensive Capital Analysis and Review process data (which 
+reflects banking organizations' own projections of their 
+supplementary leverage ratios under the supervisory baseline 
+scenario, including banking organizations' own assumptions about 
+earnings retention and other strategic actions), December Y-9C data, 
+and June 2013 Quantitative Impact Study data.
+---------------------------------------------------------------------------
+
+    Using data as of the second quarter of 2014, the agencies estimate 
+that BHCs subject to the eSLR standards will need to raise, in the 
+aggregate, approximately $14.5 billion of tier 1 capital to exceed a 5 
+percent supplementary leverage ratio under the definition of total 
+leverage exposure in the final rule, over and above the amount BHCs 
+subject to the eSLR standards would have needed to raise under the 
+definition of total leverage exposure in the 2013 revised capital rule. 
+This is less than the incremental effect estimated in the proposed rule 
+of $46 billion, based on data as of the fourth quarter of 2013. The 
+change is the result of capital raising by BHCs subject to the eSLR 
+standards, who increased their tier 1 capital by 9.3 percent, in 
+combination with a 2.9 percent increase in total leverage exposure, 
+between the fourth quarter of 2013 and the second quarter of 2014.
+    Based on these considerations, the agencies believe that the 
+revisions to the definition of total leverage exposure should not 
+affect the calibration of the 5 and 6 percent supplementary leverage 
+ratio thresholds under the eSLR standards.
+
+B. Total Leverage Exposure Definition
+
+    The proposed rule would have adjusted the measure of total leverage 
+exposure to more appropriately capture the exposure of a banking 
+organization's on- and off-balance sheet items. For example, the 
+proposed rule would have included in total leverage exposure the 
+effective notional principal amount of credit derivatives and other 
+similar instruments through which a banking organization provides 
+credit protection (sold credit protection), which has the effect of 
+increasing total leverage exposure associated with these credit 
+derivatives, and would have introduced graduated CCFs for off-balance 
+sheet exposures, which would have reduced total leverage exposure with 
+respect to these items. The proposed rule also would have modified the 
+total leverage exposure calculation for derivative contracts and repo-
+style transactions in a manner that is intended to ensure that the 
+supplementary leverage ratio appropriately reflects the economic 
+exposure of these activities.
+1. Exclusion of Certain On-balance Sheet Assets
+    Many commenters expressed the view that the definition of total 
+leverage exposure should exclude certain categories of assets. 
+Specifically, commenters encouraged the agencies to exclude from total 
+leverage exposure highly liquid assets, such as cash, claims on central 
+banks, and sovereign securities, particularly U.S. Treasuries. Some 
+commenters expressed concern that including highly liquid and low-risk 
+assets in total leverage exposure could have negative consequences, 
+including the creation of disincentives for banking organizations to 
+engage in prudent risk management practices. According to commenters, 
+total leverage exposure as proposed could incentivize banking 
+organizations to abandon lower-margin business lines in favor of 
+higher-risk, higher-return activities, in order to increase return on 
+equity.
+    Some commenters also expressed the view that the inclusion of the 
+full value of highly liquid and low-risk assets in total leverage 
+exposure would conflict with the agencies' proposed liquidity coverage 
+ratio (LCR) rulemaking, which requires holdings of high-quality liquid 
+assets (HQLA).\8\ These commenters maintained that the proposed changes 
+to the supplementary leverage ratio would increase capital requirements 
+for banking organizations that have been increasing their inventories 
+of HQLA in an effort to comply with the LCR requirements because the 
+proposed supplementary leverage ratio would effectively penalize HQLA 
+with higher capital charges per unit of risk.
+---------------------------------------------------------------------------
+
+    \8\ 78 FR 71818 (Nov. 29, 2013).
+---------------------------------------------------------------------------
+
+    Certain commenters also expressed the view that the inclusion of 
+low-risk assets in the definition of total leverage exposure penalizes 
+core aspects of the custody bank business model, including the 
+intermediation of high-volume, low-risk, low-return financial 
+activities and broad reliance on essentially riskless assets, notably 
+central bank deposits. Specifically, these commenters recommended that 
+the final rule exclude deposits with central banks (including Federal 
+Reserve Banks) from total leverage exposure in order to accommodate 
+increases in banking organizations' assets, both temporary and 
+sustained, that occur as a result of macroeconomic factors and monetary 
+policy decisions, particularly during periods of financial market 
+stress. Additionally, these commenters recommended that the agencies 
+adjust total leverage exposure for central bank deposits associated 
+with excess amounts of operationally-linked client deposit balances. 
+Under this approach, a banking organization would be permitted to 
+deduct its excess operational deposits placed with a central bank from 
+its measure of total leverage exposure, subject to a standardized 
+supervisory factor and excluding any balances resulting from reserve or 
+other similar requirements. Several commenters noted that custody 
+banks, which can experience volatility in deposits tied to day-to-day 
+activities, could potentially take actions, such as limiting payment, 
+clearing, and settlement activities, or placing unilateral restrictions 
+on deposit inflows, if the definition of total leverage exposure is 
+unchanged from the proposed rule. Some commenters also noted that the 
+daily averaging provision in the NPR, which would have required that 
+banking organizations calculate quarter-end total leverage exposure 
+based on the daily average of exposure amounts throughout the quarter, 
+would not significantly address these concerns.
+    Alternatively, some commenters suggested that the agencies discount 
+or cap the amount of such assets included in total leverage exposure. 
+In particular, they suggested that the agencies could set certain 
+threshold levels for particular low-risk assets relative to total 
+assets where any holdings of such low-risk assets beyond this threshold 
+would be excluded from total leverage exposure. In addition, some 
+commenters recommended that the agencies preserve flexibility during 
+periods of financial market stress, particularly to address a large, 
+temporary increase in a banking organization's cash account that could 
+lead to a sharp decrease in the banking organization's supplementary 
+leverage ratio.
+    The agencies addressed similar comments in the final rule 
+implementing the eSLR standards. In general, the supplementary leverage 
+ratio is designed to require a banking organization to hold a minimum 
+amount of capital against total assets and off-balance sheet exposures, 
+regardless of the riskiness of the individual assets. Excluding central 
+bank deposits would not be consistent with this principle. In response 
+to commenters' concern that total leverage exposure as proposed could 
+incentivize banking organizations to hold higher-risk, higher-return 
+assets, the agencies maintain that the complementary relationship 
+between the leverage and risk-based capital ratios is designed to 
+mitigate any regulatory capital incentives for banking organizations to 
+inappropriately increase their risk profile in response to a strict 
+supplementary leverage ratio.\9\ If
+
+[[Page 57729]]
+
+the supplementary leverage ratio were to become the binding regulatory 
+capital ratio for a particular banking organization, and that banking 
+organization were to acquire more higher-risk assets, risk-weighted 
+assets should increase until the risk-based capital framework becomes 
+binding. Conversely, if a binding risk-based capital ratio induces an 
+institution to expand portfolios whose risk is insufficiently addressed 
+by the risk-based capital framework, its total leverage exposure would 
+increase until the supplementary leverage ratio would become binding. 
+Regardless of which framework is binding, banking organizations could 
+potentially increase their holdings of assets whose risks are not 
+adequately addressed by the binding framework. In this regard, the 
+agencies note the importance of the complementary nature of the two 
+frameworks in counterbalancing such incentives. Moreover, the agencies 
+observe that banking organizations choose their asset mix based on a 
+variety of factors, including yields available relative to the overall 
+cost of funds, the need to preserve financial flexibility and 
+liquidity, revenue generation and the maintenance of market share and 
+business relationships, and the likelihood that principal will be 
+repaid, in addition to regulatory capital considerations.
+---------------------------------------------------------------------------
+
+    \9\ The 2013 revised capital rule implemented the capital 
+conservation buffer framework (which is only applicable to risk-
+based capital ratios) and increased risk-based capital requirements 
+more than it increased leverage requirements, reducing the ability 
+of the leverage requirements to act as an effective complement to 
+the risk-based requirements, as they had historically. As a result, 
+the degree to which banking organizations could potentially benefit 
+from active management of risk-weighted assets before they breach 
+the leverage requirements may be greater. The agencies sought to 
+calibrate the leverage and risk-based standards more closely to each 
+other so that they remain in an effective complementary 
+relationship.
+---------------------------------------------------------------------------
+
+    In response to commenters' concern that the inclusion of the full 
+value of highly liquid and low-risk assets in total leverage exposure 
+would conflict with the agencies' proposed LCR rulemaking, the agencies 
+believe that while the supplementary leverage ratio requires capital to 
+be held against the HQLA required by the LCR, there are actions a 
+banking organization could take to address an LCR HQLA shortfall, such 
+as reducing short-term funding sources or off-balance sheet 
+requirements, that would not necessarily increase a firm's capital 
+requirement under the supplementary leverage ratio. The agencies 
+believe that, in many ways, the LCR and the supplementary leverage 
+ratio are complementary. In isolation, the supplementary leverage ratio 
+may encourage firms to take greater liquidity risk by purchasing less 
+liquid assets that have a greater yield. In contrast, the LCR, in 
+isolation, may allow the firm to rely on substantial short-term funding 
+as long as the firm also holds HQLA. The two measures together provide 
+assurance that firms that rely substantially on short-term funding hold 
+appropriate capital and liquid assets.
+    The agencies understand the commenters' observation that the 
+custody banks, which act as intermediaries in high-volume, low-risk, 
+low-return financial activities, may experience increases in assets 
+that occur as a result of macroeconomic factors and monetary policy 
+decisions, particularly during periods of financial market stress. The 
+agencies also recognize that certain monetary policy actions, such as 
+quantitative easing, create additional reserve balances that banking 
+organizations must add to their balance sheets, thereby impacting 
+firms' leverage ratios. Because the supplementary leverage ratio is 
+insensitive to risk, it is possible that banking organizations' costs 
+of holding low-risk, low-return assets--such as reserve balances--could 
+increase if such ratio were to become the binding regulatory capital 
+constraint. However, as mentioned above, the agencies observe that 
+banking organizations consider many factors beyond regulatory capital 
+requirements, such as yields available relative to the overall cost of 
+funds, the need to preserve financial flexibility and liquidity, 
+revenue generation and the maintenance of market share and business 
+relationships, and the likelihood that principal will be repaid, when 
+choosing an appropriate asset mix.
+    With regard to the commenters' request to exclude certain low-risk 
+assets, such as cash, central bank deposits, or sovereign securities 
+from total leverage exposure, the agencies believe that excluding broad 
+categories of assets from the denominator of the supplementary leverage 
+ratio is generally inconsistent with the goal of limiting leverage 
+without differentiating across asset types. Such exclusions could, for 
+example, allow a banking organization to take on additional debt 
+without increasing its supplementary leverage ratio requirements (if 
+the proceeds from such debt are invested in certain types of assets). 
+The agencies therefore believe that all of a banking organization's 
+assets, including those that are viewed as low-risk assets, should be 
+reflected in the supplementary leverage ratio. This makes the 
+supplementary leverage ratio more difficult to arbitrage and results in 
+a simpler calculation. Furthermore, the agencies do not believe that 
+there is sufficient justification to treat certain low-risk assets, 
+such as central bank deposits, differently in the denominator of the 
+supplementary leverage ratio than other low-risk assets, such as cash 
+or U.S. Treasuries. In addition, retaining the treatment as proposed 
+better aligns the supplementary leverage ratio with the Basel III 
+leverage ratio, which promotes international consistency in the 
+calculation of total leverage exposure.
+    Accordingly, the agencies have decided to not exempt or limit any 
+categories of balance sheet assets from the denominator of the 
+supplementary leverage ratio in the final rule. Thus, all categories of 
+assets, including cash, U.S. Treasuries, and deposits at the Federal 
+Reserve, are included in the denominator of the supplementary leverage 
+ratio.
+    The agencies note that, under the 2013 revised capital rule, the 
+agencies reserved the authority to consider whether average total 
+consolidated assets or total leverage exposure for a banking 
+organization's supplementary leverage ratio is appropriate given the 
+banking organization's exposures or its circumstances, and the agencies 
+may require adjustments to those amounts. The final rule clarifies that 
+this authority would be applicable by replacing the term ``leverage 
+ratio exposure amount'' with the defined term ``total leverage 
+exposure.''
+2. Cash Variation Margin Associated With Derivative Transactions
+    The proposed rule would have revised the circumstances under which 
+a banking organization could offset cash collateral received from a 
+counterparty against any positive mark-to-fair value of a derivative 
+contract for purposes of measuring total leverage exposure. Under the 
+2013 revised capital rule, total leverage exposure includes a banking 
+organization's on-balance sheet assets, including the carrying value, 
+if any, of derivative contracts on the banking organization's balance 
+sheet. For the purpose of determining the carrying value of derivative 
+contracts, U.S. generally accepted accounting principles (GAAP) provide 
+a banking organization the option to reduce any positive mark-to-fair 
+value of a derivative contract by the amount of any cash collateral 
+received from the counterparty, provided the relevant GAAP criteria for 
+offsetting are met (the GAAP offset option).\10\ Similarly, under the 
+GAAP offset option, a banking organization has the option to offset the 
+negative mark-to-fair value of a derivative contract with a 
+counterparty
+
+[[Page 57730]]
+
+by the amount of any cash collateral posted to the counterparty.
+---------------------------------------------------------------------------
+
+    \10\ See Accounting Standards Codification paragraphs 815-10-45-
+1 through 7.
+---------------------------------------------------------------------------
+
+    Under the 2013 revised capital rule, regardless of whether a 
+banking organization uses the GAAP offset option to calculate the on-
+balance sheet amount of derivative contracts, a banking organization 
+must include any on-balance sheet assets arising from the receipt of 
+cash collateral from the counterparty in its total leverage exposure.
+    Under the proposed rule, if a banking organization applies the GAAP 
+offset option to determine the carrying value of its derivative 
+contracts, the banking organization would be required to reverse the 
+effect of the GAAP offset option for purposes of determining total 
+leverage exposure, unless the cash collateral recognized to reduce the 
+mark-to-fair value is cash variation margin that satisfies all of the 
+following conditions:
+    (1) For derivative contracts that are not cleared through a 
+qualifying central counterparty (QCCP), the cash collateral received by 
+the recipient counterparty is not segregated;
+    (2) Variation margin is calculated and transferred on a daily basis 
+based on the mark-to-fair value of the derivative contract;
+    (3) The variation margin transferred under the derivative contract 
+or the governing rules for a cleared transaction is the full amount 
+that is necessary to fully extinguish the current credit exposure 
+amount to the counterparty of the derivative contract, subject to the 
+threshold and minimum transfer amounts applicable to the counterparty 
+under the terms of the derivative contract or the governing rules for a 
+cleared transaction;
+    (4) The variation margin is in the form of cash in the same 
+currency as the currency of settlement set forth in the derivative 
+contract, provided that, for purposes of this paragraph, currency of 
+settlement means any currency for settlement specified in the 
+qualifying master netting agreement,\11\ the credit support annex to 
+the qualifying master netting agreement, or in the governing rules for 
+a cleared transaction; and
+---------------------------------------------------------------------------
+
+    \11\ Qualifying master netting agreement is defined in section 2 
+of the 2013 revised capital rule.
+---------------------------------------------------------------------------
+
+    (5) The derivative contract and the variation margin are governed 
+by a qualifying master netting agreement between the legal entities 
+that are the counterparties to the derivative contract or by the 
+governing rules for a cleared transaction. The qualifying master 
+netting agreement or the governing rules for a cleared transaction must 
+explicitly stipulate that the counterparties agree to settle any 
+payment obligations on a net basis, taking into account any variation 
+margin received or provided under the contract if a credit event 
+involving either counterparty occurs.
+    With respect to the potential reduction of gross fair value amounts 
+for cash variation margin, one commenter expressed the view that the 
+calculation of total leverage exposure should follow the treatment of 
+cash collateral under IFRS rather than GAAP. The agencies believe that 
+the netting criteria specified in the proposal, which were developed 
+without regard to whether a banking organization applies GAAP or IFRS, 
+produce an appropriate measure of a banking organization's exposure to 
+derivative transactions.
+    With respect to the first proposed criterion, commenters expressed 
+concern that a banking organization that posts cash variation margin to 
+a counterparty that is not a QCCP may not know whether that 
+counterparty has segregated the cash variation margin that it has 
+received. These commenters recommended that the agencies clarify in the 
+final rule that a banking organization posting cash variation margin 
+may presume that a counterparty has not segregated the cash variation 
+margin received unless required to do so pursuant to applicable legal 
+requirements or under contractual terms. In the final rule, the 
+agencies are clarifying that unless segregation is required by law, 
+regulation, or any agreement with the counterparty, a banking 
+organization that posts cash variation margin to a counterparty may 
+assume that its counterparty has not segregated the cash variation 
+margin it has received for purposes of meeting this criterion. The 
+agencies also note that ``not segregated'' in this context means that 
+the cash variation margin received is commingled with the banking 
+organization's other funds. In other words, the counterparty that 
+receives the cash variation margin should have no unique restrictions 
+on its ability to use the cash received (e.g., the banking organization 
+may use the cash variation margin received similar to other cash held 
+by the banking organization).
+    With respect to the second criterion, the agencies received a 
+question about the calculation and transfer of cash variation margin on 
+a daily basis. The commenter asked whether the second criterion would 
+be met for certain categories of derivative transactions, such as 
+exchange-traded options and energy derivatives, where variation margin 
+may not be exchanged daily, but is exchanged on a regular basis. In 
+addition, buyers of exchange-traded options do not receive variation 
+margin from the options CCP, who holds the margin collected from option 
+sellers during the course of the contract. For purposes of meeting the 
+second criterion, derivative positions must be valued daily and cash 
+variation margin must be transferred daily to the counterparty or to 
+the counterparty's account when the threshold and daily minimum 
+transfer amounts are satisfied according to the terms of the derivative 
+contract.
+    With respect to the third proposed criterion, commenters expressed 
+the view that there may be occasional short-term differences between 
+the amount of the variation margin provided and the mark-to-fair value 
+of derivative contracts. For example, it is common practice for a 
+morning margin call to be based on the mark-to-fair value of a 
+derivative contract based on the previous end-of-business day's 
+valuation. The commenters recommended that the agencies permit such 
+small, temporary differences between the amount of variation margin 
+provided and the current mark-to-fair value, so long as it is clear 
+that the contract governing such transactions requires variation margin 
+for the full amount of the current credit exposure. The agencies agree 
+with the commenters that such temporary differences should not 
+invalidate recognition of the variation margin already received, and as 
+such, a morning margin call based on the mark from the end of the 
+previous day should be considered to satisfy this criterion. Therefore, 
+the agencies are clarifying that cash variation margin exchanged on the 
+morning of the subsequent trading day would meet the third criterion 
+for cash variation margin.
+    As noted in the preamble to the proposed rule, the regular and 
+timely exchange of cash variation margin helps to protect both 
+counterparties from the effects of a counterparty default. The proposed 
+conditions under which cash collateral may be used to offset the amount 
+of a derivative contract were developed to ensure that such cash 
+collateral is, in substance, a form of pre-settlement payment on a 
+derivative contract. This approach is consistent with the design of the 
+supplementary leverage ratio, which generally does not permit banking 
+organizations to use collateral to reduce exposures for purposes of 
+calculating total leverage exposure. The proposed conditions also 
+ensure that the counterparties calculate their exposures arising from 
+derivative contracts on a daily basis and transfer the net amounts 
+owed, as appropriate, in a timely manner. Therefore, with the 
+clarifications noted above, the agencies
+
+[[Page 57731]]
+
+are finalizing the criteria as proposed for permitting the use of cash 
+variation margin to offset the mark-to-fair value of derivative 
+contracts.
+3. Credit Derivatives
+    Under the 2013 revised capital rule, a banking organization would 
+include in total leverage exposure the potential future exposure (PFE) 
+associated with a credit derivative using the current exposure 
+methodology (CEM) as specified in section 34 of the 2013 revised 
+capital rule. The proposed rule would have required a banking 
+organization to include in total leverage exposure the effective 
+notional principal amount (that is, the apparent or stated notional 
+principal amount multiplied by any multiplier in the derivative 
+contract) of sold credit protection, but would have permitted the 
+banking organization to reduce the effective notional principal amount 
+of sold credit protection with credit protection purchased under 
+certain conditions. Specifically, a banking organization would be 
+permitted to reduce the effective notional principal amount of sold 
+credit protection on a single exposure by the effective notional 
+principal amount of a credit derivative or similar instrument through 
+which the banking organization has purchased credit protection 
+(purchased credit protection), provided that the purchased credit 
+protection has a remaining maturity that is equal to or greater than 
+the remaining maturity of the sold credit protection, and that the 
+reference exposure of the purchased credit protection refers to the 
+same legal entity and ranks pari passu with, or is junior to,\12\ the 
+reference exposure of the sold credit protection.
+---------------------------------------------------------------------------
+
+    \12\ A credit event on the senior reference exposure must result 
+in a credit event on the junior reference exposure.
+---------------------------------------------------------------------------
+
+    In addition, the NPR would have permitted a banking organization to 
+reduce the effective notional principal amount of sold credit 
+protection that references a single reference exposure using purchased 
+credit protection that references multiple exposures if the purchased 
+credit protection is economically equivalent to buying credit 
+protection separately on each of the individual reference exposures of 
+the sold credit protection. For example, this would be the case if a 
+banking organization were to purchase credit protection on an entire 
+securitization structure or on an entire index that includes the 
+reference exposure of the sold credit protection. However, if a banking 
+organization purchases credit protection that references multiple 
+exposures, but the purchased credit protection is not economically 
+equivalent to buying credit protection separately on each of the 
+individual reference exposures (for example, through an n<SUP>th</SUP>-
+to-default credit derivative or a tranche of a securitization), the 
+proposed rule would not have allowed the banking organization to reduce 
+the effective notional principal amount of the sold credit protection 
+that references a single exposure.
+    Under the NPR, to reduce the effective notional principal amount of 
+sold credit protection that references multiple exposures, such as an 
+index (e.g., the CDX) or a tranche of an index or securitization, the 
+reference exposures of the purchased credit protection would need to 
+refer to the same legal entities and rank pari passu with the reference 
+exposures of the sold credit protection. The purchased credit 
+protection also would need to have a remaining maturity that is equal 
+to or greater than the remaining maturity of the sold credit 
+protection. In addition, the level of seniority of the purchased credit 
+protection would need to rank pari passu with the level of seniority of 
+the sold credit protection. Therefore, offsetting would be recognized 
+only when all of the reference exposures and the level of subordination 
+of protection sold and protection purchased are identical. For example, 
+a banking organization may reduce the effective notional principal 
+amount of the sold credit protection on an index, or a tranche of an 
+index, with purchased credit protection on such index, or a tranche of 
+equal seniority of such index, respectively.
+    In general, commenters expressed the view that the criteria in the 
+proposed rule under which a banking organization could reduce the 
+effective notional principal amount of sold credit protection with 
+purchased credit protection were too narrow and would result in an 
+overstatement of the actual economic exposure in some cases. For 
+example, commenters recommended that purchased credit protection that 
+has a residual tenor which is sufficiently long-term be considered 
+eligible to reduce the effective notional amount of sold credit 
+protection if all of the other criteria are met. These commenters 
+expressed the view that such an approach would be appropriate because 
+it would generally disqualify short-term purchased credit protection 
+from reducing the effective notional amount of sold credit protection. 
+In addition, these commenters recommended that purchased credit 
+protection on a junior tranche of a securitization be allowed to offset 
+protection sold on a senior tranche of the same securitization. One 
+comment letter recommended a more restrictive approach, suggesting that 
+offsetting sold credit protection against purchased credit protection 
+should only be allowed if the protection seller has a very high credit 
+rating and is not affiliated with the reference entity.
+    The agencies believe that the criteria in the proposed rule strike 
+a balance between recognizing the amount of sold credit protection and 
+ensuring that the offsetting purchased credit protection appropriately 
+matches the risks of the underlying reference exposure of the sold 
+credit protection. Further, the proposed criteria for offsetting sold 
+credit protection are generally consistent with the way banking 
+organizations seek to limit their exposure to the underlying reference 
+exposures of sold credit protection by purchasing credit protection on 
+the same or similar exposures of the same or longer maturity. The 
+proposed criteria result in a significant reduction of the effective 
+notional amount of sold credit protection, while capturing the 
+effective notional amount of sold credit protection that a banking 
+organization has not fully hedged. The proposed criteria are also 
+consistent with the Basel III leverage ratio standards. With regard to 
+commenters' suggestions of additional adjustments and modifications to 
+these criteria, changing the proposed criteria for offsetting sold 
+credit protection would complicate the calculation of total leverage 
+exposure and the impact of any such modifications would likely be 
+immaterial. With regard to the comment that the criteria for reducing 
+the effective notional amount of sold credit protection should be 
+stricter, the agencies believe that restricting the criteria further 
+would unduly penalize banking organizations that have significantly 
+reduced their exposure to the underlying reference exposures by 
+purchasing credit protection. Therefore, the final rule does not modify 
+the proposed criteria to reduce the effective notional amount of sold 
+credit protection.
+    Commenters also recommended allowing any purchased credit 
+protection which covers the entirety of the subset of exposures covered 
+by the sold credit protection to reduce the effective notional amount 
+of sold credit protection. Specifically, commenters sought clarity 
+regarding a situation in which a banking organization has purchased and 
+sold credit protection on overlapping portions of the same reference 
+index or securitization, but where the purchased credit protection
+
+[[Page 57732]]
+
+does not cover the entirety of the portion of the index or 
+securitization on which the banking organization has sold credit 
+protection.
+    The agencies note that the final rule does permit a banking 
+organization that has purchased and sold credit protection on 
+overlapping portions of the same reference index, but where the 
+purchased credit protection does not cover the entirety of the portion 
+of the index or securitization on which the banking organization has 
+sold credit protection, to offset the sold credit protection by the 
+overlapping portion of purchased credit protection. For example, if a 
+banking organization has sold credit protection on the 3-7 percent 
+tranche(s) of an index and purchased credit protection on the 5-10 
+percent tranche(s) of the same index, the banking organization may 
+offset the 5-7 percent portion of the sold credit protection, assuming 
+all of the other relevant criteria are met. In such situations, 
+offsetting may be recognized because, in accordance with the final 
+rule, all of the reference exposures and the level of subordination of 
+sold credit protection and purchased credit protection are identical 
+for the overlapping portion of purchased and sold credit protection.
+    Commenters recommended that the agencies clarify that clearing 
+member banking organizations are not required to include the effective 
+notional amount of sold credit protection cleared on behalf of a client 
+though a CCP, and that such a derivative transaction, or other similar 
+instrument, related to the sold credit protection should instead be 
+included in total leverage exposure of the clearing member banking 
+organization in the same manner as other cleared derivatives. The 
+agencies are clarifying that the effective notional principal amounts 
+of sold credit protection that are cleared for clearing member clients 
+through CCPs are not included in a clearing member banking 
+organization's total leverage exposure. In addition, the clearing 
+member banking organization would include such a derivative 
+transaction, or other similar instrument, related to the sold credit 
+protection in its total leverage exposure in the same manner as other 
+cleared derivative transactions (that is, if the clearing member 
+banking organization guarantees the performance of a clearing member 
+client with respect to a cleared transaction, the clearing member 
+banking organization would treat the exposure to the clearing member 
+client as a derivative contract).
+    In addition, under the proposed rule, for sold credit protection, a 
+banking organization would have accounted for the notional amount of 
+sold credit protection in total leverage exposure through the effective 
+notional principal amount, as well as through CEM (that is, the current 
+credit exposure and the PFE), as described above. In the proposed rule, 
+a banking organization would have been permitted to adjust the PFE for 
+sold credit protection to avoid double-counting the notional amounts of 
+these exposures. For example, if the sold credit protection was 
+governed by a qualifying master netting agreement, a banking 
+organization would have been permitted to adjust the PFE for sold 
+credit protection covered by the qualifying master netting agreement. 
+However, a banking organization would have been allowed to adjust only 
+the amount A<INF>gross</INF> of the PFE calculation for sold credit 
+derivatives and would not have been allowed to adjust the net-to-gross 
+ratio (NGR) of the PFE calculation. Finally, a banking organization 
+that elected to adjust the PFE for sold credit derivatives would have 
+been required to do so consistently over time. The agencies did not 
+receive any comments on the PFE adjustment, and are therefore 
+finalizing this aspect of the rule substantively as proposed.
+4. Repo-Style Transactions
+    Under the 2013 revised capital rule, total leverage exposure 
+includes the on-balance sheet carrying value of repo-style 
+transactions, but not the related off-balance sheet exposure for such 
+transactions. The proposed rule set forth a revised treatment of repo-
+style transactions, including the conditions under which a banking 
+organization would be permitted to measure the exposure of repo-style 
+transactions using the carrying value for the transactions (using the 
+GAAP offset for repo-style transactions, as described below), rather 
+than the gross value of all receivables due from a counterparty. The 
+proposed rule also specified the treatment for a security-for-security 
+repo-style transaction, a repurchase or reverse repurchase transaction, 
+or a securities borrowing or lending transaction that is treated as a 
+sale for accounting purposes, and the counterparty credit risk 
+component of repo-style transactions. The proposed rule also clarified 
+the calculation of total leverage exposure for repo-style transactions 
+where a banking organization acts as an agent.
+a. Criteria for Recognizing the GAAP Offset for Repo-style Transactions
+    For purposes of determining the on-balance sheet carrying value of 
+a repo-style transaction, GAAP permits a banking organization to offset 
+the gross values of receivables due from a counterparty under reverse 
+repurchase agreements by the amount of the payments due to the same 
+counterparty (that is, amounts recognized as payables to the same 
+counterparty under repurchase agreements), provided the relevant 
+accounting criteria are met (GAAP offset for repo-style transactions). 
+The proposed rule specified the criteria for when a banking 
+organization would have been required to reverse the GAAP offset for 
+repo-style transactions for the purpose of calculating total leverage 
+exposure.
+    If a banking organization entered into repurchase and reverse 
+repurchase transactions with the same counterparty and applied the GAAP 
+offset for repo-style transactions, but the transactions did not meet 
+the criteria described below, the banking organization would have been 
+required to replace the net on-balance sheet assets of the reverse 
+repurchase transactions determined according to GAAP, if any, with the 
+gross value of receivables for those reverse repurchase transactions. 
+Those criteria are:
+    (1) The offsetting transactions have the same explicit final 
+settlement date under their governing agreements;
+    (2) The banking organization's right to offset the amount owed to 
+the counterparty with the amount owed by the counterparty is legally 
+enforceable in the normal course of business and in the event of 
+receivership, insolvency, liquidation, or similar proceeding; and
+    (3) Under the governing agreements, the counterparties intend to 
+settle net, settle simultaneously, or settle according to a process 
+that is the functional equivalent of net settlement. That is, the cash 
+flows of the transactions are equivalent, in effect, to a single net 
+amount on the settlement date. To achieve this result, both 
+transactions must be settled through the same settlement system and the 
+settlement arrangements must be supported by cash or intraday credit 
+facilities intended to ensure that settlement of both transactions will 
+occur by the end of the business day, and the settlement of the 
+underlying securities does not interfere with the net cash settlement.
+    With respect to the first proposed criterion, commenters expressed 
+the view that the agencies clarify or revise the final rule to provide 
+that undated repo-style transactions (sometimes referred to as ``open'' 
+transactions), which can be unwound unconditionally at any time by 
+either counterparty, may be treated as having an effective one-day 
+maturity. Because the proposed rule referred to ``explicit'' settlement 
+dates, it
+
+[[Page 57733]]
+
+would not have permitted receivables or payables from ``open'' 
+transactions to be offset against payables or receivables from 
+overnight transactions (or against other ``open'' transactions).
+    The criterion limiting offsetting to those repo-style transactions 
+that have the ``same explicit final settlement date'' is consistent 
+both with current accounting standards and with the BCBS 2014 revisions 
+to the Basel III leverage ratio. This criterion helps to ensure that 
+the counterparties agree in advance what the settlement date for a 
+repo-style transaction would be, and thus helps a banking organization 
+manage its counterparty exposure, including the net amount owed. To 
+promote consistency in the treatment of repo-style transactions, and to 
+ensure banking organizations do not understate their actual exposure to 
+repo-style transactions for the purpose of calculating total leverage 
+exposure, the agencies continue to believe that explicit identical 
+settlement dates established at the origination of repo-style 
+transactions should be a criterion for offsetting repo-style 
+transactions in the final rule. Therefore, the agencies are finalizing 
+this aspect of the rule as proposed.
+    With respect to the third criterion, commenters recommended 
+deleting the proposed requirement that ``settlement of the underlying 
+securities does not interfere with the net cash settlement.'' The 
+commenters expressed the view that the purpose of this requirement is 
+unclear. In the final rule the agencies are clarifying that this 
+criterion requires that the settlement of the underlying securities be 
+subject to a settlement mechanism that results in the functional 
+equivalence of net settlement. In other words, the cash flows of the 
+transactions must be equivalent, in effect, to a single net amount on 
+the settlement date. To achieve such equivalence, all transactions must 
+be settled through the same settlement system, and any settlement 
+system used to settle the transactions must not require all securities 
+to have successfully settled before settling any net cash obligations. 
+The settlement system's procedures must provide that the failure of any 
+single securities transaction in the settlement system should only 
+delay the matching cash leg (payment) or create an obligation to the 
+settlement system, supported by an associated credit facility. The 
+requirement that settlement of the underlying securities does not 
+interfere with the net cash settlement is not intended to exclude any 
+settlement mechanism, such as a delivery-versus-payment or other 
+mechanism, if it meets these functional requirements. If a settlement 
+system's procedures allow for all of the above, then the third 
+criterion would be met. If the failure of the securities leg of a 
+transaction in such a system persists at the end of the settlement 
+period, however, then this transaction and its matching cash leg must 
+be split out from the netting set and treated gross for the purposes of 
+total leverage exposure.
+    In the proposal, the agencies requested comment on the operational 
+implications of the proposed netting criteria for repo-style 
+transactions compared to GAAP, and the magnitude of the change in total 
+leverage exposure for these transactions compared to GAAP. The agencies 
+also asked about the potential costs of developing the necessary 
+systems to offset amounts recognized as receivables due from a 
+counterparty under reverse repurchase agreements. The agencies did not 
+receive responses to these questions. One comment letter stated that if 
+any additional costs exist, those would not be a valid reason for not 
+requiring the netting criteria as a pre-requisite for the preferential 
+capital treatment for netting.
+b. Treatment of Security-for-Security Repo-style Transactions
+    The proposed rule specified how a banking organization would have 
+treated security-for-security repo-style transactions for purposes of 
+calculating total leverage exposure. Under GAAP, in a security-for-
+security repo-style transaction, the receiver of a security lent (a 
+securities borrower) does not include the security borrowed on its 
+balance sheet provided that the lender has not defaulted under the 
+terms of the transaction. A security that a securities borrower 
+transferred to the lender (a securities lender) as collateral would 
+remain on the securities borrower's balance sheet. Consistent with 
+GAAP, under the proposed rule, a securities borrower would have 
+included a security that is transferred to a securities lender in its 
+total leverage exposure, but the NPR would not have required the 
+securities borrower to adjust its total leverage exposure related to 
+such a transaction, unless and until the security borrower sold the 
+security or the securities lender defaulted. The agencies did not 
+receive any comments on the proposed treatment from the securities 
+borrower's perspective. Therefore, the agencies are adopting the 
+treatment in a security-for-security repo-style transaction for the 
+securities borrower as proposed.
+    Under GAAP, from a securities lender's perspective, a security 
+received as collateral from a securities borrower is included on the 
+security lender's balance sheet as an asset. In addition, a securities 
+lender also must continue to include the security that it lent on its 
+balance sheet if the transaction is treated as a secured borrowing. 
+Under the proposal, in a security-for-security repo-style transaction, 
+a securities lender would have been allowed to exclude the security 
+received as collateral from total leverage exposure, unless and until 
+the securities lender sells or re-hypothecates the security. If the 
+securities lender sold or re-hypothecated the security, the securities 
+lender would have been required to include the amount of cash received 
+or, in the case of re-hypothecation, the value of the security pledged 
+as collateral in its total leverage exposure.
+    Commenters expressed concern that the proposed treatment of 
+security-for security transactions would not achieve consistency across 
+differing accounting frameworks in periods subsequent to a sale or re-
+hypothecation by a securities lender, and recommended revising the 
+proposed rule to permit banking organizations acting as securities 
+lenders to reduce total leverage exposure by the value of the 
+securities received in a security-for-security repo-style transaction, 
+regardless of whether such banking organization sold or re-hypothecated 
+the securities received.
+    The agencies have decided not to change the proposal in response to 
+these comments. The proposed approach, which is consistent with 
+international standards, was designed to ensure that a securities 
+lender would not have included both a security lent and a security 
+received in its total leverage exposure, unless the securities lender 
+sold or re-hypothecated the security received. In addition, the 
+agencies believe the proposed treatment appropriately captures the 
+exposure associated with a security that has been re-hypothecated 
+because a banking organization is obligated to return or repurchase the 
+security at a later date. Further, the agencies note that pursuant to 
+the BCBS 2014 revisions, total leverage exposure would include amounts 
+associated with the sale or re-hypothecation of collateral by a 
+securities lender, thereby eliminating the effect of any differences in 
+accounting frameworks. The agencies are therefore finalizing this 
+aspect of the rule as proposed.
+c. Repurchase and Securities Lending Transactions That Qualify for 
+Sales Treatment Under U.S. GAAP
+    The proposed rule specified the treatment for a repurchase or 
+reverse repurchase transaction or a securities
+
+[[Page 57734]]
+
+borrowing or lending transaction that qualifies for sales treatment 
+under U.S. GAAP (repurchase or securities lending transaction that 
+qualifies for sales treatment under U.S. GAAP). The proposed rule would 
+have required a banking organization to add the value of securities 
+sold under such a repurchase or securities lending transaction that 
+qualifies for sales treatment under U.S. GAAP to total leverage 
+exposure for as long as the transaction is outstanding. The agencies 
+did not receive any comments on this particular aspect of the proposed 
+rule and are finalizing this aspect of the rule as proposed. The 
+agencies are providing clarification of the treatment of a forward 
+agreement associated with a repurchase or securities lending 
+transaction that qualifies for sales treatment under U.S. GAAP. If a 
+repurchase or securities lending transaction qualifies for sales 
+treatment under U.S. GAAP, a banking organization would generally 
+record an associated forward purchase agreement or forward sale 
+agreement, which may be treated as a derivative exposure under GAAP. 
+The replacement cost and PFE associated with this derivative exposure, 
+in combination with the value of the security sold may overstate the 
+actual exposure in total leverage exposure of such a repurchase or 
+securities lending transaction that qualifies for sales treatment under 
+U.S. GAAP. Therefore, the PFE related to a forward agreement associated 
+with a repurchase or securities lending transaction that qualifies for 
+sales treatment under U.S. GAAP may be excluded from total leverage 
+exposure. Moreover, a forward agreement associated with a repurchase or 
+securities lending transaction that qualifies for sales treatment under 
+U.S. GAAP should not be included in total leverage exposure as an off-
+balance sheet exposure subject to a CCF.
+d. Counterparty Credit Risk Measure
+    The proposed rule also included a counterparty credit risk measure 
+in total leverage exposure to capture a banking organization's exposure 
+to its counterparty in repo-style transactions. To determine the 
+counterparty exposure for a repo-style transaction, including a 
+transaction in which a banking organization acts as an agent for a 
+customer and indemnifies the customer against loss, the banking 
+organization would subtract the fair value of the instruments, gold, 
+and cash received from a counterparty from the fair value of any 
+instruments, gold, and cash lent to the counterparty. For repo-style 
+transactions that are not subject to a qualifying master netting 
+agreement or that are not cleared, the counterparty exposure measure 
+would be calculated on a transaction-by-transaction basis. However, if 
+a qualifying master netting agreement were in place, or the 
+transactions were cleared, the banking organization would be able to 
+net the total fair value of instruments, gold, and cash lent to a 
+counterparty against the total fair value of instruments, gold, and 
+cash received from the same counterparty across all those transactions. 
+The agencies did not receive any comments on this part of the proposed 
+rule and are adopting it as proposed.
+    The proposed rule provided that where a banking organization acts 
+as an agent for a repo-style transaction and provides a guarantee 
+(indemnity) to a customer with regard to the performance of the 
+customer's counterparty that is greater than the difference between the 
+fair value of the security or cash lent and the fair value of the 
+security or cash borrowed, the banking organization would have been 
+required to include the amount of the guarantee that is greater than 
+this difference in its total leverage exposure. The agencies did not 
+receive any comments on this part of the proposed rule and are adopting 
+it as proposed.
+e. Repo-style Transactions Cleared Through CCPs
+    One commenter asked the agencies to clarify the proposed rule with 
+regard to repo-style transactions cleared through CCPs, when a banking 
+organization acting as an agent offers indemnifications to the client. 
+According to the commenter, a banking organization that clears repo-
+style transactions through a CCP is generally required to post cash 
+collateral to the CCP. The commenter stated that this would likely 
+result in a larger counterparty exposure amount added to total leverage 
+exposure than a similar repo-style transaction executed as a bilateral 
+trade, and would discourage the clearing of repo-style transactions. 
+However, the commenter did not provide any specific proposals to 
+address the disincentives created by the clearing process, and 
+acknowledged that most repo-style transactions are not currently 
+cleared.
+    The agencies acknowledge that the mechanics of the clearing process 
+currently operate in a manner that results in a larger counterparty 
+exposure than a similar transaction that is not cleared. The treatment 
+is consistent with the approach for repo-style transactions, and the 
+agencies do not believe that there is sufficient justification to 
+provide a different treatment for repo-style transactions cleared 
+through CCPs for purposes of calculating total leverage exposure. 
+Therefore, the agencies are not making any revisions in the final rule 
+to address the clearing of repo-style transactions and are finalizing 
+this aspect of the rule as proposed.
+5. Off-Balance Sheet Exposures
+    Under the 2013 revised capital rule, banking organizations must 
+apply a 100 percent CCF to all off-balance sheet items to calculate 
+total leverage exposure, except for unconditionally cancellable 
+commitments, which are subject to a 10 percent CCF. The NPR would have 
+retained the 10 percent CCF for unconditionally cancellable 
+commitments, but would have replaced the uniform 100 percent CCF for 
+other off-balance sheet items with the CCFs applicable under the 
+standardized approach for risk-weighted assets in section 33 of the 
+2013 revised capital rule.
+    Commenters generally supported the adoption of the standardized 
+approach CCFs. However, some commenters expressed concern over the 
+scope of exposures that are treated as off-balance sheet and, 
+therefore, subject to CCFs. Some commenters also requested that the 
+agencies revise the CCFs applicable to certain trade finance exposures 
+to effectively decrease the amount of such exposures included in total 
+leverage exposure, specifically to make the treatment of these 
+exposures consistent with the European Union's treatment under the CRD-
+IV Directive. Commenters also recommended that the agencies clarify the 
+treatment of certain exposures for purposes of inclusion in total 
+leverage exposure. For example, commenters suggested that the CCF 
+treatment could result in an overstatement of off-balance sheet 
+exposures, specifically with respect to forward-starting reverse repos 
+and securities borrowing transactions that have been entered into at an 
+agreed rate but have not yet been settled. Commenters expressed the 
+view that forward-starting reverse repos should be treated as 
+derivative exposures rather than being assigned a CCF, and that the 
+repo-style transaction counterparty credit risk measure should apply 
+only where a qualifying master netting agreement is in place. 
+Commenters further suggested treating deliverable bond futures and OTC 
+equity forward purchases as derivative exposures rather than off-
+balance sheet exposures subject to CCFs, because they are trading 
+positions. These commenters opined that total leverage exposure should 
+exclude ``forward forward deposits'' that
+
+[[Page 57735]]
+
+represent the renewal of an existing deposit on its maturity, because 
+including these would double count them. Alternatively, commenters 
+requested that the agencies clarify that ``forward asset purchases,'' 
+which receive a 100 percent CCF, do not include deliverable bond 
+futures or forward-starting repo transactions.
+    Under the proposal, off-balance sheet exposures were included in 
+total leverage exposure in a manner consistent with the standardized 
+approach risk-based capital rules. The treatment of specific 
+instruments depended on the characteristics of those instruments. For 
+example, an exposure that receives a conversion factor under section 33 
+of the 2013 revised capital rule would receive the same conversion 
+factor for purposes of calculating total leverage exposure, subject to 
+the minimum 10 percent conversion factor applied to unconditionally 
+cancellable commitments.
+    Regarding the comment to revise the CCFs applicable to certain 
+trade finance exposures, the agencies have decided not to modify the 
+applicable CCFs for the purposes of calculating total leverage 
+exposure. The proposed approach incorporates off-balance sheet 
+exposures in total leverage exposure in a straightforward manner 
+consistent with existing regulatory approaches and that already have 
+proven effective. Thus, the agencies believe that the standardized 
+CCFs, which also are consistent with international standards, are 
+appropriate for measuring total leverage exposure for off-balance sheet 
+exposures. Accordingly, the agencies have decided to adopt this aspect 
+of the final rule as proposed.
+6. Central Clearing of Derivative Transactions
+    The 2013 revised capital rule provides that a banking organization 
+must include in total leverage exposure the PFE for each derivative 
+contract (or each single-product netting set of such transactions) to 
+which the banking organization is a counterparty calculated in 
+accordance with section 34 of the 2013 revised capital rule, but 
+without regard to any collateral used to reduce risk-based capital 
+requirements pursuant to section 34(b) of the 2013 revised capital 
+rule. Although cleared transactions are generally addressed in section 
+35 of the 2013 revised capital rule, section 35 refers to section 34 
+for the purpose of determining the PFE of cleared derivative 
+transactions. Thus, for the purpose of measuring total leverage 
+exposure, the PFE for each derivative transaction to which a banking 
+organization is a counterparty, including cleared derivative 
+transactions, should be determined pursuant to section 34. The proposed 
+rule would have revised the description of total leverage exposure to 
+make this point more clear.
+    When a clearing member banking organization does not guarantee the 
+performance of the CCP, the clearing member banking organization has no 
+payment obligation to the clearing member client in the event of a CCP 
+default. In these circumstances, requiring the clearing member banking 
+organization to include an exposure to the CCP in its total leverage 
+exposure would generally result in an overstatement of total leverage 
+exposure. Therefore, under the proposed rule, and consistent with the 
+Basel III leverage ratio, a clearing member banking organization would 
+not have been required to include in its total leverage exposure an 
+exposure to the CCP for client-cleared transactions if the clearing 
+member banking organization does not guarantee the performance of the 
+CCP to the clearing member client. However, if a clearing member 
+banking organization does guarantee the performance of the CCP to the 
+clearing member client, then the proposed rule would have required a 
+clearing member banking organization to include an exposure to the CCP 
+for the client-cleared transactions in its total leverage exposure.
+    One commenter requested that the agencies clarify in the final rule 
+the treatment of a cleared derivative transaction where the clearing 
+member and the clearing member client are affiliates. Without 
+clarification, the commenter expressed concern that such a situation 
+could result in a double counting of the transaction in the 
+consolidated banking organization's total leverage exposure.
+    The agencies are clarifying in the final rule that a banking 
+organization may exclude from its total leverage exposure the clearing 
+member's exposure to its clearing member client for a derivative 
+transaction if the clearing member client and the clearing member are 
+affiliates and consolidated on the banking organization's balance 
+sheet.
+    Commenters also recommended excluding from a clearing member 
+banking organization's total leverage exposure cash provided by a 
+clearing member client as initial margin and held in a segregated 
+account. The commenters stated that a clearing member banking 
+organization may reflect on its balance sheet both the initial margin 
+passed on to the CCP as well as additional cash initial margin (excess 
+initial margin) requested by the clearing member banking organization 
+but not passed on to the CCP. Commenters further stated that under the 
+customer asset protection rules issued by the CFTC, the clearing member 
+banking organization may not use any segregated cash posted by a 
+clearing member client to support the clearing member banking 
+organization's own operations. In effect, commenters asserted that such 
+segregated cash constitutes an asset of the clearing member client. 
+Commenters also argued that the proposed LCR rules recognize that such 
+segregated cash cannot be treated as an asset available to meet a 
+clearing member banking organization's liquidity needs, even though 
+cash is typically an optimal asset for providing liquidity.
+    As a general matter the agencies do not believe it is appropriate 
+to exclude segregated or otherwise restricted assets from a banking 
+organization's total leverage exposure and are finalizing this aspect 
+of the rule as proposed.
+
+C. Daily Averaging
+
+    The 2013 revised capital rule defines the supplementary leverage 
+ratio as the mean of the ratio of tier 1 capital to total leverage 
+exposure calculated as of the last day of each month in the reporting 
+quarter. Under the proposed rule, the numerator of the supplementary 
+leverage ratio, tier 1 capital, would have been calculated as of the 
+last day of each reporting quarter, while total leverage exposure, the 
+denominator of the supplementary leverage ratio, would have been 
+calculated as the mean of total leverage exposure calculated daily. 
+After calculating quarter-end tier 1 capital, banking organizations 
+would have subtracted from the measure of total leverage exposure the 
+applicable deductions from the quarter-end tier 1 capital for purposes 
+of calculating the quarter-end supplementary leverage ratio.
+    In the NPR, the agencies asked specific questions about the 
+operational burden of the proposed use of average of daily calculations 
+and the burden associated with several alternatives, such as only 
+requiring daily averaging for on-balance sheet assets. Commenters 
+expressed the view that that the application of daily averaging to off-
+balance sheet exposures would introduce significant practical 
+complexities with no offsetting compliance benefit. Several commenters 
+supported an alternative approach in which a banking organization would 
+calculate its total leverage exposure for a quarterly reporting period 
+based on the daily average of on-balance sheet assets and the quarter-
+end balance or an
+
+[[Page 57736]]
+
+average of month-end off-balance sheet exposures. Commenters expressed 
+the view that such an alternative approach strikes an appropriate 
+balance between the accuracy of reported minimum ratios and operational 
+complexity. Commenters maintained that off-balance sheet exposure 
+volatility is far less significant than on-balance sheet exposure 
+volatility. In addition, commenters expressed the view that the 
+industry has no operational processes that would permit the daily 
+calculation of certain components of off-balance sheet exposures and 
+that significant systems changes would be required to calculate off-
+balance sheet exposures on a daily basis. Commenters also recommended 
+that if the final rule were to require the daily averaging of off-
+balance sheet exposures, this requirement should be implemented on a 
+phased-in basis to allow more time for banking organizations to comply 
+with the requirement.
+    While calculating total leverage exposure as the mean of total 
+leverage exposure for each day of the reporting quarter provides the 
+more accurate depiction of total leverage exposure, the agencies 
+recognize the operational burden associated with such calculation for 
+off-balance sheet exposures. For this reason, the agencies are 
+modifying the calculation of total leverage exposure so that total 
+leverage exposure is calculated as the mean of the on-balance sheet 
+assets calculated as of each day of the reporting quarter, plus the 
+mean of the off-balance sheet exposures calculated as of the last day 
+of each of the most recent three months, minus the applicable 
+deductions under the 2013 revised capital rules. In addition, the 
+agencies have removed the proposed reference to the calculation of tier 
+1 capital as of the end of the quarter to avoid the implication that 
+the supplementary leverage ratio is calculated only at the end of the 
+quarter.
+    For purposes of public disclosures and reporting the supplementary 
+leverage ratio on the applicable regulatory reports, a banking 
+organization would calculate the off-balance exposure component of 
+total leverage exposure as the mean of its off-balance sheet exposures 
+as of the last day of each month in the applicable reporting quarter. 
+For example, when a banking organization prepares a regulatory report 
+for the quarter ending December 31, it would calculate the mean of its 
+off-balance sheet exposures as of October 31, November 30, and December 
+31. The agencies will continue to monitor this issue and may revisit it 
+at a future date if it is determined that monthly calculation of off-
+balance sheet exposure raises supervisory concerns. In addition, the 
+agencies are evaluating the calculation methodology for the leverage 
+ratio applicable to all banking organizations and may seek comment on a 
+proposal applicable to advanced approaches banking organizations to 
+align the methodology for calculating on-balance sheet assets for 
+purposes of that leverage ratio and the supplementary leverage ratio in 
+the future.
+
+D. Supervisory Flexibility
+
+    Some commenters recommended that the agencies preserve supervisory 
+flexibility during periods of financial market stress, particularly to 
+address a large, temporary increase in a banking organizations' cash 
+that could lead to a sharp decrease in the banking organization's 
+supplementary leverage ratio. Commenters suggested that the agencies 
+emphasize that falling below the minimum supplementary leverage ratio 
+would not necessarily result in supervisory action, but, at a minimum, 
+would result in heightened supervisory monitoring. Commenters expressed 
+the view that the agencies should adopt a formal process to address 
+compliance with the supplementary leverage ratio minimums on a case-by-
+case basis during periods of financial stress.
+    As previously noted, under the 2013 revised capital rule, the 
+agencies reserved the authority to consider whether the average total 
+consolidated assets or total leverage exposure for a banking 
+organization's supplementary leverage ratio is appropriate given the 
+banking organization's exposures or circumstances, and the agencies may 
+require adjustments to such exposures. The final rule clarifies that 
+this authority applies to the supplementary leverage ratio calculation 
+by replacing the term ``leverage exposure amount'' with the defined 
+term ``total leverage exposure.''
+
+E. Replacement of the Current Exposure Method (CEM)
+
+    The NPR proposed to use the current exposure method (CEM) to 
+measure the total leverage exposure associated with derivative 
+contracts. However, some commenters recommended that the agencies 
+consider the replacement of the CEM with the standardized approach for 
+measuring counterparty credit risk exposures (SA-CCR), recently agreed 
+to by the BCBS though not yet incorporated into its leverage ratio 
+framework.\13\ The commenters requested that the agencies address, in 
+the preamble to the final rule, their intention to consider the 
+replacement of the CEM with the SA-CCR, consistent with any final 
+agreement of the BCBS with regard to the SA-CCR and the Basel III 
+leverage ratio, which is currently under consideration. In general, the 
+commenters supported adoption of SA-CCR. The agencies are participating 
+in the BCBS's development of the international leverage ratio 
+standards, and will consider the extent to which any changes should be 
+made to the calculation of total leverage exposure for derivative 
+contracts in the United States once the BCBS has reached an agreement 
+on whether and how to incorporate the SA-CCR into its leverage ratio.
+---------------------------------------------------------------------------
+
+    \13\ See BCBS, ``The standardised approach for measuring 
+counterparty credit risk exposures'' (March 2014), available at 
+<a href="http://www.bis.org/publ/bcbs279.htm">http://www.bis.org/publ/bcbs279.htm</a>.
+---------------------------------------------------------------------------
+
+III. Disclosures
+
+    The agencies have long supported meaningful public disclosure by 
+banking organizations of their regulatory capital with the goals of 
+disclosing information in a comparable and consistent manner, and 
+improving market discipline. Consistent with the BCBS 2014 revisions, 
+the agencies are applying additional disclosure requirements related to 
+the calculation of the supplementary leverage ratio to top-tier 
+advanced approaches banking organizations. The agencies believe that 
+the additional disclosures will enhance the transparency and promote 
+consistency among the disclosures related to the supplementary leverage 
+ratio for all internationally active banking organizations.
+    Specifically, under the final rule, banking organizations will 
+complete two parts of a supplementary leverage ratio disclosure table. 
+Part 1 is designed to summarize the differences between the total 
+consolidated accounting assets reported on a banking organization's 
+published financial statements and regulatory reports and the 
+calculation of total leverage exposure. Part 2 is designed to collect 
+information on the components of total leverage exposure in more 
+detail, similar to the version of FFIEC 101, Schedule A. The agencies 
+plan to reconsider the regulatory reporting requirements related to the 
+supplementary leverage ratio on FFIEC 101, Schedule A, in the future, 
+to reflect these disclosures and the revisions to the calculation of 
+total leverage exposure.
+
+[[Page 57737]]
+
+
+
+             Table 13 to Section 173 of the 2013 Revised Capital Rule--Supplementary Leverage Ratio
+----------------------------------------------------------------------------------------------------------------
+                                                                          Dollar amounts in thousands
+                                                             ---------------------------------------------------
+                                                                  Tril         Bil          Mil          Thou
+----------------------------------------------------------------------------------------------------------------
+                   Part 1: Summary comparison of accounting assets and total leverage exposure
+----------------------------------------------------------------------------------------------------------------
+1 Total consolidated assets as reported in published          ...........
+ financial statements
+2 Adjustment for investments in banking, financial,           ...........
+ insurance or commercial entities that are consolidated for
+ accounting purposes but outside the scope of regulatory
+ consolidation
+3 Adjustment for fiduciary assets recognized on balance       ...........
+ sheet but excluded from total leverage exposure
+4 Adjustment for derivative exposures                         ...........
+5 Adjustment for repo-style transactions                      ...........
+6 Adjustment for off-balance sheet exposures (that is,        ...........
+ conversion to credit equivalent amounts of off-balance
+ sheet exposures)
+7 Other adjustments                                           ...........
+8 Total leverage exposure                                     ...........
+----------------------------------------------------------------------------------------------------------------
+                                      Part 2: Supplementary leverage ratio
+----------------------------------------------------------------------------------------------------------------
+                 On-balance sheet exposures
+ 
+1 On-balance sheet assets (excluding on-balance sheet assets  ...........
+ for repo-style transactions and derivative exposures, but
+ including cash collateral received in derivative
+ transactions)
+2 LESS: Amounts deducted from tier 1 capital                  ...........
+3 Total on-balance sheet exposures (excluding on-balance      ...........
+ sheet assets for repo-style transactions and derivative
+ exposures, but including cash collateral received in
+ derivative transactions) (sum of lines 1 and 2)
+ 
+                    Derivative exposures
+ 
+4 Replacement cost for derivative exposures (that is, net of  ...........
+ cash variation margin)
+5 Add-on amounts for potential future exposure (PFE) for      ...........
+ derivative exposures
+6 Gross-up for cash collateral posted if deducted from the    ...........
+ on-balance sheet assets, except for cash variation margin
+7 LESS: Deductions of receivable assets for cash variation    ...........
+ margin posted in derivative transactions, if included in on-
+ balance sheet assets
+8 LESS: Exempted CCP leg of client-cleared transactions       ...........
+9 Effective notional principal amount of sold credit          ...........
+ protection
+10 LESS: Effective notional principal amount offsets and PFE  ...........
+ adjustments for sold credit protection
+11 Total derivative exposures (sum of lines 4 to 10)          ...........
+ 
+                   Repo-style transactions
+ 
+12 On-balance sheet assets for repo-style transactions,       ...........
+ except include the gross value of receivables for reverse
+ repurchase transactions. Exclude from this item the value
+ of securities received in a security-for-security repo-
+ style transaction where the securities lender has not sold
+ or re-hypothecated the securities received. Include in this
+ item the value of securities that qualified for sales
+ treatment that must be reversed.
+13 LESS: Reduction of the gross value of receivables in       ...........
+ reverse repurchase transactions by cash payables in
+ repurchase transactions under netting agreements
+14 Counterparty credit risk for all repo-style transactions   ...........
+15 Exposure for repo-style transactions where a banking       ...........
+ organization acts as an agent
+16 Total exposures for repo-style transactions (sum of lines  ...........
+ 12 to 15)
+ 
+              Other off-balance sheet exposures
+ 
+17 Off-balance sheet exposures at gross notional amounts      ...........
+18 LESS: Adjustments for conversion to credit equivalent      ...........
+ amounts
+19 Off-balance sheet exposures (sum of lines 17 and 18)       ...........
+ 
+             Capital and total leverage exposure
+ 
+20 Tier 1 capital                                             ...........
+21 Total leverage exposure (sum of lines 3, 11, 16 and 19)    ...........
+ 
+                Supplementary leverage ratio
+                                                             ---------------------------------------------------
+ 
+22 Supplementary leverage ratio                                                  (in percent)
+----------------------------------------------------------------------------------------------------------------
+
+    Consistent with the BCBS 2014 revisions, if a banking organization 
+has material differences between its total consolidated assets as 
+reported in published financial statements and regulatory reports and 
+its reported on-balance sheet assets for purposes of calculating the 
+supplementary leverage ratio, the banking organization must disclose 
+and explain the source of the material differences. In addition, if a 
+banking organization's supplementary
+
+[[Page 57738]]
+
+leverage ratio changes significantly from one reporting period to 
+another, the banking organization must explain the key drivers of the 
+material changes. Banking organizations must disclose this information 
+quarterly, using the template set forth in Table 13, and make the 
+disclosures publicly available.
+    In the NPR, the agencies proposed to apply additional disclosure 
+requirements for the calculation of the supplementary leverage ratio to 
+top-tier advanced approaches banking organizations. One comment letter 
+recommended that the final rule clarify that Part 1, line 2 of the 
+disclosure table include associated entities reflected on a banking 
+organization's balance sheet on the basis of proportionate 
+consolidation. The commenter noted that it sent the same suggestion to 
+the BCBS to revise the Basel III leverage ratio disclosure 
+requirements. The agencies proposed disclosure requirements for 
+purposes of reporting of the supplementary leverage ratio consistent 
+with the disclosure requirements in the Basel III leverage ratio. The 
+agencies decided not to revise the disclosure table in response to this 
+comment because proportionate consolidation generally does not apply to 
+the U.S. banking organizations subject to the supplementary leverage 
+ratio. If the BCBS reconsiders the Basel III leverage ratio disclosure 
+requirements in light of this comment, then the agencies will consider 
+a revision of the disclosure requirements in the U.S.
+    Another comment letter stated that the required disclosures do not 
+appear to provide a meaningful breakout of off-balance sheet exposures 
+beyond derivative and repo-style transactions. The comment letter 
+recommended that the agencies consider a more detailed breakout of off-
+balance sheet exposures for Part 2, lines 17 and 18. The agencies 
+believe that the table is sufficiently granular, particularly when 
+viewed in combination with the other regulatory disclosure 
+requirements, including the Call Report and FR Y-9C. Therefore, under 
+the final rule, the agencies are not making any changes to the required 
+disclosures.
+
+IV. Regulatory Analyses
+
+A. Paperwork Reduction Act (PRA)
+
+    Certain provisions of the final rule contain ``collection of 
+information'' requirements within the meaning of the Paperwork 
+Reduction Act (PRA) of 1995 (44 U.S.C. 3501-3521). In accordance with 
+the requirements of the PRA, the agencies may not conduct or sponsor, 
+and a respondent is not required to respond to, an information 
+collection unless it displays a currently valid Office of Management 
+and Budget (OMB) control number. The OCC and FDIC will be seeking new 
+OMB Control Numbers. The OMB control number for the Board is 7100-0313 
+and will be extended, with revision. The information collection 
+requirements contained in this final rule were submitted to OMB for 
+review and approval by the OCC and FDIC under section 3507(d) of the 
+PRA and section 1320.11 of OMB's implementing regulations (5 CFR part 
+1320). The Board reviewed the final rule under the authority delegated 
+to the Board by OMB. The final rule contains requirements subject to 
+the PRA. The disclosure requirements are found in section 
+<l-arrow>.173. The disclosure requirements in section <l-arrow>.172 are 
+accounted for in section <l-arrow>.173. This information collection 
+requirement would be consistent with the BCBS 2014 revisions to the 
+Basel III leverage ratio, as mentioned in the Abstract below. The 
+respondents are for-profit financial institutions, not including small 
+businesses (see the agencies' Regulatory Flexibility Analysis).
+    The agencies received two comments on the disclosure requirements. 
+One comment letter recommended that the final rule clarify that Part 1, 
+line 2 of the disclosure table include associated entities reflected on 
+a banking organization's balance sheet on the basis of proportionate 
+consolidation. The commenter noted that it sent the same suggestion to 
+the BCBS to revise the Basel III leverage ratio disclosure 
+requirements. The agencies decided not to revise the disclosure table 
+in response to this comment because proportionate consolidation 
+generally does not apply to the U.S. banking organizations subject to 
+the supplementary leverage ratio.
+    Another comment letter expressed the view that the required 
+disclosures do not appear to provide a meaningful breakout of off-
+balance sheet exposures beyond derivative and repo-style transactions. 
+The comment letter recommended that the agencies consider a more 
+detailed breakout of off-balance sheet exposures for Part 2, lines 17 
+and 18. The agencies believe that the table is sufficiently granular, 
+particularly when viewed in combination with the other regulatory 
+disclosure requirements, including the Call Report and FR Y-9C. 
+Therefore, under the final rule, the agencies are finalizing the 
+disclosures requirements as proposed.
+    The agencies also received three supportive comments regarding the 
+disclosure requirements. These commenters supported the agencies' 
+efforts to increase transparency and consistency in identifying and 
+collecting off-balance sheet activity, aiding both market equity and 
+regulatory oversight.
+    The agencies have a continuing interest in the public's opinions of 
+our collections of information. At any time, comments are invited on:
+    (a) Whether the collections of information are necessary for the 
+proper performance of the agencies' functions, including whether the 
+information has practical utility;
+    (b) The accuracy of the estimates of the burden of the information 
+collections, including the validity of the methodology and assumptions 
+used;
+    (c) Ways to enhance the quality, utility, and clarity of the 
+information to be collected;
+    (d) Ways to minimize the burden of the information collections on 
+respondents, including through the use of automated collection 
+techniques or other forms of information technology; and
+    (e) Estimates of capital or start-up costs and costs of operation, 
+maintenance, and purchase of services to provide information.
+    All comments will become a matter of public record. Comments on 
+aspects of this final rule that may affect reporting, recordkeeping, or 
+disclosure requirements and burden estimates should be sent to the 
+addresses listed in the ADDRESSES section. A copy of the comments may 
+also be submitted to the OMB desk officer for the agencies: By mail to 
+U.S. Office of Management and Budget, 725 17th Street NW., 
+#10235, Washington, DC 20503; by facsimile to 202-395-6974; or 
+by email to: <a href="/cdn-cgi/l/email-protection#d9b6b0abb886aaacbbb4b0aaaab0b6b799b6b4bbf7bcb6a9f7beb6af"><span class="__cf_email__" data-cfemail="234c4a51427c5056414e4a50504a4c4d634c4e410d464c530d444c55">[email&#160;protected]</span></a>, Attention, Federal 
+Banking Agency Desk Officer.
+Proposed Information Collection
+    Title of Information Collection: Disclosure Requirements Associated 
+with Supplementary Leverage Ratio.
+    Frequency of Response: Quarterly.
+    Affected Public: Businesses or other for-profit.
+    Respondents:
+    OCC: National banks and federal savings associations that are 
+subject to the OCC's advanced approaches risk-based capital rules.
+    FDIC: Insured state nonmember banks and state savings associations 
+that are subject to the FDIC's advanced approaches risk-based capital 
+rules.
+    Board: State member banks, bank holding companies, and savings and 
+loan holding companies that are subject
+
+[[Page 57739]]
+
+to the Board's advanced approaches risk-based capital rules.
+    Abstract: All banking organizations that are subject to the 
+agencies' advanced approaches risk-based capital rules (advanced 
+approaches banking organizations), as defined in the 2013 revised 
+capital rule, are required to disclose their supplementary leverage 
+ratios beginning January 1, 2015. Advanced approaches banking 
+organizations must report their supplementary leverage ratios on the 
+applicable regulatory reports. Under the final rule, advanced 
+approaches banking organizations would disclose two parts of a 
+supplementary leverage ratio table beginning January 1, 2015. The 
+disclosure requirements are consistent with the calculation of the 
+supplementary leverage ratio in the final rule and with the BCBS 2014 
+revisions to the Basel III leverage ratio. The agencies believe that 
+the disclosures would enhance the transparency and consistency of 
+reporting requirements for the supplementary leverage ratio by all 
+internationally active organizations.
+Disclosure Requirements
+    Section <l-arrow>.173 states that advanced approaches banking 
+organizations that have successfully completed parallel run must make 
+the disclosures described in Tables 1 through 12. Under the final rule, 
+advanced approaches banking organizations would be required to make the 
+disclosures described in Table 13 beginning January 1, 2015, regardless 
+of the parallel run status. The agencies do not anticipate an 
+additional initial setup burden for complying with the disclosure 
+requirements because advanced approaches banking organizations are 
+already subject to reporting the supplementary leverage ratio on the 
+applicable regulatory reports.
+    Estimated Burden per Response:
+
+Disclosure Burden
+Section <l-arrow>.173--5 hours.
+
+OCC
+    Number of respondents: 26.
+    Total estimated annual burden: 520 hours.
+FDIC
+    Number of respondents: 8.
+    Total estimated annual burden: 160 hours.
+Board
+    Number of respondents: 20.
+    Current estimated annual burden: 413,986 hours.
+    Proposed revisions only estimated annual burden: 400 hours.
+    Total estimated annual burden: 414,386 hours.
+
+B. Regulatory Flexibility Act Analysis
+
+    OCC: The Regulatory Flexibility Act, 5 U.S.C. 601 et seq. (RFA), 
+requires an agency, in connection with a final rule, to prepare an 
+final regulatory flexibility analysis describing the impact of the rule 
+on small entities (defined by the Small Business Administration for 
+purposes of the RFA to include banking entities with total assets of 
+$550 million or less) or to certify that the rule will not have a 
+significant economic impact on a substantial number of small entities.
+    Using the SBA's size standards, as of December 31, 2013, the OCC 
+supervised 1,231 small entities.\14\
+---------------------------------------------------------------------------
+
+    \14\ The OCC calculated the number of small entities using the 
+SBA's size thresholds for commercial banks and savings institutions, 
+and trust companies, which are $550 million and $38.5 million, 
+respectively. Consistent with the General Principles of Affiliation, 
+13 CFR 121.103(a), the OCC counted the assets of affiliated 
+financial institutions when determining whether to classify a 
+national bank or Federal savings association as a small entity. The 
+OCC used December 31, 2013, to determine size because a ``financial 
+institution's assets are determined by averaging the assets reported 
+on its four quarterly financial statements for the preceding year.'' 
+See footnote 8 of the U.S. Small Business Administration's Table of 
+Size Standards.
+---------------------------------------------------------------------------
+
+    As described in the SUPPLEMENTARY INFORMATION section of the 
+preamble, the final rule would apply only to advanced approaches 
+banking organizations. Advanced approaches banking organization is 
+defined to include a national bank or Federal savings associations that 
+has, or is a subsidiary of a bank holding company or savings and loan 
+holding company that has, total consolidated assets of $250 billion or 
+more, total consolidated on-balance sheet foreign exposure of $10 
+billion or more, or that has elected to use the advanced approaches 
+framework. After considering the SBA's size standards and General 
+Principals of Affiliation to identify small entities, the OCC 
+determined that no small national banks or Federal savings associations 
+are advanced approaches banking organizations. Because the final rule 
+applies only to advanced approaches banking organizations, it does not 
+impact any OCC-supervised small entities. Therefore, the OCC certifies 
+that the final rule will not have a significant economic impact on a 
+substantial number of OCC-supervised small entities.
+    Board: The RFA requires an agency to provide a final regulatory 
+flexibility analysis with a final rule or to certify that the rule will 
+not have a significant economic impact on a substantial number of small 
+entities. Under regulations issued by the SBA, a small entity includes 
+a depository institution, bank holding company, or savings and loan 
+holding company with total assets of $550 million or less (a small 
+banking organization).\15\ As of June 30, 2014, there were 
+approximately 657 small state member banks, 3,716 small bank holding 
+companies, and 254 small savings and loan holding companies.
+---------------------------------------------------------------------------
+
+    \15\ See 13 CFR 121.201. Effective July 14, 2014, the SBA 
+revised the size standards for banking organizations to $550 million 
+in assets from $500 million in assets. 79 FR 33647 (June 12, 2014).
+---------------------------------------------------------------------------
+
+    The Board is providing a final regulatory flexibility analysis with 
+respect to this final rule. As discussed above, this final rule would 
+amend the calculation of total leverage exposure in sections 2 and 10 
+of the 2013 revised capital rule, and amend sections 172 and 173 of the 
+rule by adding additional disclosure requirements. These amendments 
+would implement changes in line with the BCBS 2014 revisions. The Board 
+received no comments from the public in response to the initial 
+regulatory flexibility analysis or from the Chief Counsel for Advocacy 
+of the Small Business Administration. Thus, no issues were raised in 
+public comments related to the Board's initial regulatory flexibility 
+act analysis and no changes are being made in response to such 
+comments.
+    The final rule would apply only to advanced approaches banking 
+organizations, which, generally, are banking organizations with total 
+consolidated assets of $250 billion or more, that have total 
+consolidated on-balance sheet foreign exposure of $10 billion or more, 
+are a subsidiary of a depository institution that uses the advanced 
+risk-based capital approaches framework, or that elect to use the 
+advanced risk-based capital approaches framework. Currently, no small 
+top-tier bank holding company, top-tier savings and loan holding 
+company, or state member bank is an advanced approaches banking 
+organization, so there would be no additional projected compliance 
+requirements imposed on small bank holding companies, savings and loan 
+holding companies, or state member banks. The Board expects that any 
+small bank holding companies, savings and loan holding companies, or 
+state member banks that would be covered by this final rule would rely 
+on its parent banking organization for compliance and would not bear 
+additional costs.
+    The Board is aware of no other Federal rules that duplicate, 
+overlap, or conflict with the final rule. The Board believes that the 
+final rule will not have a significant economic impact on small banking 
+organizations supervised by the
+
+[[Page 57740]]
+
+Board and therefore believes that there are no significant alternatives 
+to the final rule that would reduce the economic impact on small 
+banking organizations supervised by the Board.
+
+FDIC
+
+    The Regulatory Flexibility Act, 5 U.S.C. 601 et seq. (RFA) requires 
+an agency to provide, in connection with a notice of final rulemaking, 
+to prepare a Final Regulatory Flexibility Act analysis describing the 
+impact of the rule on small entities (defined by the Small Business 
+Administration for the purposes of the RFA to include banking entities 
+with total assets of $550 million or less) or to certify that the rule 
+will not have a significant economic impact on a substantial number of 
+small entities.\16\
+---------------------------------------------------------------------------
+
+    \16\ Effective July 14, 2014, the SBA revised the size standards 
+for banking organizations to $550 million in assets from $500 
+million in assets. 79 FR 33647 (Jun 12, 2014).
+---------------------------------------------------------------------------
+
+    As described above in this preamble, the final rule amends the 
+definition of total leverage exposure in section 2 of the 2013 revised 
+capital rule, the methodology for determining total leverage exposure 
+under section 10 of the 2013 revised capital rule, and adds an 
+additional disclosure requirement in sections 172 and 173 of the 2013 
+revised capital rule. All of these changes apply only to advanced 
+approaches banking organizations. Generally, the advanced approaches 
+framework applies to banking organizations that have consolidated total 
+assets equal to $250 billion or more; have consolidated total on-
+balance sheet foreign exposure equal to $10 billion or more; are a 
+subsidiary of a depository institution that uses the advanced 
+approaches framework; or elects to use the advanced approaches 
+framework.
+    As of June 30, 2014, based on a $550 million threshold, 2 (out of 
+3,267) small state nonmember banks and no (out of 306) small state 
+savings associations were under the advanced approaches framework. 
+Therefore, the FDIC does not believe that the final rule will result in 
+a significant economic impact on a substantial number of small entities 
+under its supervisory jurisdiction.
+    The FDIC certifies that the final rule would not have a significant 
+economic impact on a substantial number of small FDIC-supervised 
+institutions.
+
+C. OCC Unfunded Mandates Reform Act of 1995 Determination
+
+    The OCC has analyzed the final rule under the factors set forth in 
+the Unfunded Mandates Reform Act of 1995 (UMRA) (2 U.S.C. 1532). Under 
+this analysis, the OCC considered whether the final rule includes a 
+Federal mandate that may result in the expenditure by State, local, and 
+tribal governments, in the aggregate, or by the private sector, of $100 
+million or more in any one year (adjusted annually for inflation).
+    The final rule revises the calculation of the denominator of the 
+supplementary leverage ratio (total leverage exposure) in a manner that 
+is generally consistent with revisions to the international leverage 
+ratio framework published by the BCBS in January 2014. The final rule 
+revises total leverage exposure, as defined in the 2013 revised capital 
+rule, to include the effective notional principal amount of credit 
+derivatives and other similar instruments through which a banking 
+organization provides credit protection (sold credit protection); 
+modifies the calculation of total leverage exposure for derivative and 
+repo-style transactions; and revises the CCFs applied to certain off-
+balance sheet exposures. The final rule also changes the frequency with 
+which certain components of the supplementary leverage ratio are 
+calculated and requires the public disclosure of certain items 
+associated with the supplementary leverage ratio.
+    To estimate the impact of the final rule on capital, OCC staff 
+assumed that all of the affected national banks and Federal savings 
+associations will seek to meet their minimum standard of three percent, 
+or effective minimum of six percent, as appropriate. OCC staff 
+estimated the amount of tier 1 capital that national banks and Federal 
+savings associations will need to comply with the final rule relative 
+to the amount already required to meet existing requirements. To 
+estimate the impact of the final rule on total leverage exposure, OCC 
+staff used a combination of data from regulatory reports and data 
+collected from BHCs as part of a BCBS sponsored quantitative impact 
+study.
+    After comparing existing capital requirements with the revised 
+requirements, and considering the cost of systems changes necessary to 
+comply with its final rule, the OCC has determined that its final rule 
+will not result in expenditures by State, local, and Tribal 
+governments, or by the private sector, of $100 million or more. 
+Accordingly, the OCC has not prepared a written statement to accompany 
+its final rule.
+
+D. Plain Language
+
+    Section 722 of the Gramm-Leach-Bliley Act requires the Federal 
+banking agencies to use plain language in all proposed and final rules 
+published after January 1, 2000. The agencies have sought to present 
+the final rule in a simple and straightforward manner. The agencies did 
+not receive any comment on their use of plain language.
+
+List of Subjects
+
+12 CFR Part 3
+
+    Administrative practice and procedure, Capital, National banks, 
+Reporting and recordkeeping requirements, Risk.
+
+12 CFR Part 217
+
+    Administrative practice and procedure, Banks, Banking, Capital, 
+Federal Reserve System, Holding companies, Reporting and recordkeeping 
+requirements, Securities.
+
+12 CFR Part 324
+
+    Administrative practice and procedure, Banks, Banking, Capital 
+Adequacy, Reporting and recordkeeping requirements, Savings 
+associations, State non-member banks.
+
+Office of the Comptroller of the Currency
+
+12 CFR Chapter I
+
+Authority and Issuance
+
+    For the reasons set forth in the preamble and under the authority 
+of 12 U.S.C. 93a, 1462, 1462a, 1463, 3907, 3909, 1831o, and 
+5312(b)(2)(B), the Office of the Comptroller of the Currency amends 
+part 3 of chapter I of title 12 of the Code of Federal Regulations 
+amended as follows:
+
+PART 3--CAPITAL ADEQUACY STANDARDS
+
+0
+1. The authority citation for part 3 continues to read as follows:
+
+    Authority: 12 U.S.C. 93a, 161, 1462, 1462a, 1463, 1464, 1818, 
+1828(n), 1828 note, 1831n notes, 1835, 3907, 3909, and 
+5412(b)(2)(B).
+
+
+Sec.  3.1  [Amended]
+
+0
+2. In Sec.  3.1 in the first sentence of paragraph (d)(4), remove 
+``leverage exposure amount'' and add in its place ``total leverage 
+exposure''.
+
+0
+3. In Sec.  3.2, revise the definition of ``total leverage exposure'' 
+to read as follows:
+
+
+Sec.  3.2  Definitions.
+
+* * * * *
+    Total leverage exposure is defined in Sec.  3.10(c)(4)(ii) of this 
+part.
+* * * * *
+
+0
+4. In Sec.  3.10, revise paragraph (c)(4) to read as follows:
+
+
+Sec.  3.10  Minimum capital requirements.
+
+* * * * *
+    (c) * * *
+
+[[Page 57741]]
+
+    (4) Supplementary leverage ratio. (i) An advanced approaches 
+national bank's or Federal savings association's supplementary leverage 
+ratio is the ratio of its tier 1 capital to total leverage exposure, 
+the latter which is calculated as the sum of:
+    (A) The mean of the on-balance sheet assets calculated as of each 
+day of the reporting quarter; and
+    (B) The mean of the off-balance sheet exposures calculated as of 
+the last day of each of the most recent three months, minus the 
+applicable deductions under Sec.  3.22(a), (c), and (d).
+    (ii) For purposes of this part, total leverage exposure means the 
+sum of the items described in paragraphs (c)(4)(ii)(A) through (H) of 
+this section, as adjusted pursuant to paragraph (c)(4)(ii)(I) for a 
+clearing member national bank or Federal savings association:
+    (A) The balance sheet carrying value of all of the national bank's 
+or Federal savings association's on-balance sheet assets, plus the 
+value of securities sold under a repurchase transaction or a securities 
+lending transaction that qualifies for sales treatment under U.S. GAAP, 
+less amounts deducted from tier 1 capital under Sec.  3.22(a), (c), and 
+(d), and less the value of securities received in security-for-security 
+repo-style transactions, where the national bank or Federal savings 
+association acts as a securities lender and includes the securities 
+received in its on-balance sheet assets but has not sold or re-
+hypothecated the securities received;
+    (B) The PFE for each derivative contract or each single-product 
+netting set of derivative contracts (including a cleared transaction 
+except as provided in paragraph (c)(4)(ii)(I) of this section and, at 
+the discretion of the national bank or Federal savings association, 
+excluding a forward agreement treated as a derivative contract that is 
+part of a repurchase or reverse repurchase or a securities borrowing or 
+lending transaction that qualifies for sales treatment under U.S. 
+GAAP), to which the national bank or Federal savings association is a 
+counterparty as determined under Sec.  3.34, but without regard to 
+Sec.  3.34(b), provided that:
+    (1) A national bank or Federal savings association may choose to 
+exclude the PFE of all credit derivatives or other similar instruments 
+through which it provides credit protection when calculating the PFE 
+under Sec.  3.34, but without regard to Sec.  3.34(b), provided that it 
+does not adjust the net-to-gross ratio (NGR); and
+    (2) A national bank or Federal savings association that chooses to 
+exclude the PFE of credit derivatives or other similar instruments 
+through which it provides credit protection pursuant to paragraph 
+(c)(4)(ii)(B)(1) of this section must do so consistently over time for 
+the calculation of the PFE for all such instruments;
+    (C) The amount of cash collateral that is received from a 
+counterparty to a derivative contract and that has offset the mark-to-
+fair value of the derivative asset, or cash collateral that is posted 
+to a counterparty to a derivative contract and that has reduced the 
+national bank's or Federal savings association's on-balance sheet 
+assets, unless such cash collateral is all or part of variation margin 
+that satisfies the following requirements:
+    (1) For derivative contracts that are not cleared through a QCCP, 
+the cash collateral received by the recipient counterparty is not 
+segregated (by law, regulation or an agreement with the counterparty);
+    (2) Variation margin is calculated and transferred on a daily basis 
+based on the mark-to-fair value of the derivative contract;
+    (3) The variation margin transferred under the derivative contract 
+or the governing rules for a cleared transaction is the full amount 
+that is necessary to fully extinguish the net current credit exposure 
+to the counterparty of the derivative contracts, subject to the 
+threshold and minimum transfer amounts applicable to the counterparty 
+under the terms of the derivative contract or the governing rules for a 
+cleared transaction;
+    (4) The variation margin is in the form of cash in the same 
+currency as the currency of settlement set forth in the derivative 
+contract, provided that for the purposes of this paragraph, currency of 
+settlement means any currency for settlement specified in the governing 
+qualifying master netting agreement and the credit support annex to the 
+qualifying master netting agreement, or in the governing rules for a 
+cleared transaction;
+    (5) The derivative contract and the variation margin are governed 
+by a qualifying master netting agreement between the legal entities 
+that are the counterparties to the derivative contract or by the 
+governing rules for a cleared transaction, and the qualifying master 
+netting agreement or the governing rules for a cleared transaction must 
+explicitly stipulate that the counterparties agree to settle any 
+payment obligations on a net basis, taking into account any variation 
+margin received or provided under the contract if a credit event 
+involving either counterparty occurs;
+    (6) The variation margin is used to reduce the current credit 
+exposure of the derivative contract, calculated as described in Sec.  
+3.34(a), and not the PFE; and
+    (7) For the purpose of the calculation of the NGR described in 
+Sec.  3.34(a)(2)(ii)(B), variation margin described in paragraph 
+(c)(4)(ii)(C)(6) of this section may not reduce the net current credit 
+exposure or the gross current credit exposure;
+    (D) The effective notional principal amount (that is, the apparent 
+or stated notional principal amount multiplied by any multiplier in the 
+derivative contract) of a credit derivative, or other similar 
+instrument, through which the national bank or Federal savings 
+association provides credit protection, provided that:
+    (1) The national bank or Federal savings association may reduce the 
+effective notional principal amount of the credit derivative by the 
+amount of any reduction in the mark-to-fair value of the credit 
+derivative if the reduction is recognized in common equity tier 1 
+capital;
+    (2) The national bank or Federal savings association may reduce the 
+effective notional principal amount of the credit derivative by the 
+effective notional principal amount of a purchased credit derivative or 
+other similar instrument, provided that the remaining maturity of the 
+purchased credit derivative is equal to or greater than the remaining 
+maturity of the credit derivative through which the national bank or 
+Federal savings association provides credit protection and that:
+    (i) With respect to a credit derivative that references a single 
+exposure, the reference exposure of the purchased credit derivative is 
+to the same legal entity and ranks pari passu with, or is junior to, 
+the reference exposure of the credit derivative through which the 
+national bank or Federal savings association provides credit 
+protection; or
+    (ii) With respect to a credit derivative that references multiple 
+exposures, the reference exposures of the purchased credit derivative 
+are to the same legal entities and rank pari passu with the reference 
+exposures of the credit derivative through which the national bank or 
+Federal savings association provides credit protection, and the level 
+of seniority of the purchased credit derivative ranks pari passu to the 
+level of seniority of the credit derivative through which the national 
+bank or Federal savings association provides credit protection;
+    (iii) Where a national bank or Federal savings association has 
+reduced the effective notional amount of a credit
+
+[[Page 57742]]
+
+derivative through which the national bank or Federal savings 
+association provides credit protection in accordance with paragraph 
+(c)(4)(ii)(D)(1) of this section, the national bank or Federal savings 
+association must also reduce the effective notional principal amount of 
+a purchased credit derivative used to offset the credit derivative 
+through which the national bank or Federal savings association provides 
+credit protection, by the amount of any increase in the mark-to-fair 
+value of the purchased credit derivative that is recognized in common 
+equity tier 1 capital; and
+    (iv) Where the national bank or Federal savings association 
+purchases credit protection through a total return swap and records the 
+net payments received on a credit derivative through which the national 
+bank or Federal savings association provides credit protection in net 
+income, but does not record offsetting deterioration in the mark-to-
+fair value of the credit derivative through which the national bank or 
+Federal savings association provides credit protection in net income 
+(either through reductions in fair value or by additions to reserves), 
+the national bank or Federal savings association may not use the 
+purchased credit protection to offset the effective notional principal 
+amount of the related credit derivative through which the national bank 
+or Federal savings association provides credit protection;
+    (E) Where a national bank or Federal savings association acting as 
+a principal has more than one repo-style transaction with the same 
+counterparty and has offset the gross value of receivables due from a 
+counterparty under reverse repurchase transactions by the gross value 
+of payables under repurchase transactions due to the same counterparty, 
+the gross value of receivables associated with the repo-style 
+transactions less any on-balance sheet receivables amount associated 
+with these repo-style transactions included under paragraph 
+(c)(4)(ii)(A) of this section, unless the following criteria are met:
+    (1) The offsetting transactions have the same explicit final 
+settlement date under their governing agreements;
+    (2) The right to offset the amount owed to the counterparty with 
+the amount owed by the counterparty is legally enforceable in the 
+normal course of business and in the event of receivership, insolvency, 
+liquidation, or similar proceeding; and
+    (3) Under the governing agreements, the counterparties intend to 
+settle net, settle simultaneously, or settle according to a process 
+that is the functional equivalent of net settlement, (that is, the cash 
+flows of the transactions are equivalent, in effect, to a single net 
+amount on the settlement date), where both transactions are settled 
+through the same settlement system, the settlement arrangements are 
+supported by cash or intraday credit facilities intended to ensure that 
+settlement of both transactions will occur by the end of the business 
+day, and the settlement of the underlying securities does not interfere 
+with the net cash settlement;
+    (F) The counterparty credit risk of a repo-style transaction, 
+including where the national bank or Federal savings association acts 
+as an agent for a repo-style transaction and indemnifies the customer 
+with respect to the performance of the customer's counterparty in an 
+amount limited to the difference between the fair value of the security 
+or cash its customer has lent and the fair value of the collateral the 
+borrower has provided, calculated as follows:
+    (1) If the transaction is not subject to a qualifying master 
+netting agreement, the counterparty credit risk (E*) for transactions 
+with a counterparty must be calculated on a transaction by transaction 
+basis, such that each transaction i is treated as its own netting set, 
+in accordance with the following formula, where E<INF>i</INF> is the 
+fair value of the instruments, gold, or cash that the national bank or 
+Federal savings association has lent, sold subject to repurchase, or 
+provided as collateral to the counterparty, and C<INF>i</INF> is the 
+fair value of the instruments, gold, or cash that the national bank or 
+Federal savings association has borrowed, purchased subject to resale, 
+or received as collateral from the counterparty:
+
+E<INF>i</INF>* = max {0, [E<INF>i</INF>-C<INF>i</INF>]{time} ; and
+    (2) If the transaction is subject to a qualifying master netting 
+agreement, the counterparty credit risk (E*) must be calculated as the 
+greater of zero and the total fair value of the instruments, gold, or 
+cash that the national bank or Federal savings association has lent, 
+sold subject to repurchase or provided as collateral to a counterparty 
+for all transactions included in the qualifying master netting 
+agreement ([Sigma]E<INF>i</INF>), less the total fair value of the 
+instruments, gold, or cash that the national bank or Federal savings 
+association borrowed, purchased subject to resale or received as 
+collateral from the counterparty for those transactions 
+([Sigma]C<INF>i</INF>), in accordance with the following formula:
+E* = max {0, [[Sigma]E<INF>i</INF>-[Sigma]C<INF>i</INF>]{time} 
+    (G) If a national bank or Federal savings association acting as an 
+agent for a repo-style transaction provides a guarantee to a customer 
+of the security or cash its customer has lent or borrowed with respect 
+to the performance of the customer's counterparty and the guarantee is 
+not limited to the difference between the fair value of the security or 
+cash its customer has lent and the fair value of the collateral the 
+borrower has provided, the amount of the guarantee that is greater than 
+the difference between the fair value of the security or cash its 
+customer has lent and the value of the collateral the borrower has 
+provided;
+    (H) The credit equivalent amount of all off-balance sheet exposures 
+of the national bank or Federal savings association, excluding repo-
+style transactions, repurchase or reverse repurchase or securities 
+borrowing or lending transactions that qualify for sales treatment 
+under U.S. GAAP, and derivative transactions, determined using the 
+applicable credit conversation factor under Sec.  3.33(b), provided, 
+however, that the minimum credit conversion factor that may be assigned 
+to an off-balance sheet exposure under this paragraph is 10 percent; 
+and
+    (I) For a national bank or Federal savings association that is a 
+clearing member:
+    (1) A clearing member national bank or Federal savings association 
+that guarantees the performance of a clearing member client with 
+respect to a cleared transaction must treat its exposure to the 
+clearing member client as a derivative contract for purposes of 
+determining its total leverage exposure;
+    (2) A clearing member national bank or Federal savings association 
+that guarantees the performance of a CCP with respect to a transaction 
+cleared on behalf of a clearing member client must treat its exposure 
+to the CCP as a derivative contract for purposes of determining its 
+total leverage exposure;
+    (3) A clearing member national bank or Federal savings association 
+that does not guarantee the performance of a CCP with respect to a 
+transaction cleared on behalf of a clearing member client may exclude 
+its exposure to the CCP for purposes of determining its total leverage 
+exposure;
+    (4) A national bank or Federal savings association that is a 
+clearing member may exclude from its total leverage exposure the 
+effective notional principal amount of credit protection sold through a 
+credit derivative contract, or other similar instrument, that it clears 
+on behalf of a clearing member client through a CCP as calculated in 
+accordance with part (c)(4)(ii)(D); and
+
+[[Page 57743]]
+
+    (5) Notwithstanding paragraphs (c)(4)(ii)(I)(1) through (3) of this 
+section, a national bank or Federal savings association may exclude 
+from its total leverage exposure a clearing member's exposure to a 
+clearing member client for a derivative contract, if the clearing 
+member client and the clearing member are affiliates and consolidated 
+for financial reporting purposes on the national bank's or Federal 
+savings association's balance sheet.
+* * * * *
+    5. Section 3.172 is amended by adding paragraph (d) to read as 
+follows:
+
+
+Sec.  3.172  Disclosure requirements.
+
+* * * * *
+    (d) Except as otherwise provided in paragraph (b) of this section, 
+an advanced approaches national bank or Federal savings association 
+must publicly disclose each quarter its supplementary leverage ratio 
+and its components as calculated under subpart B of this part in 
+compliance with paragraph (c) of this section; however, the disclosures 
+required under this paragraph are required without regard to whether 
+the national bank or Federal savings association has completed the 
+parallel run process and has received notification from the OCC 
+pursuant to Sec.  3.121(d).
+
+0
+6. In Sec.  3.173, revise paragraph (a) introductory text and add 
+paragraph (c) and Table 13 to Sec.  3.173 to read as follows:
+
+
+Sec.  3.173  Disclosures by certain advanced approaches national banks 
+and Federal savings associations.
+
+    (a) Except as provided in Sec.  3.172(b), a national bank or 
+Federal savings association described in Sec.  3.172(b) must make the 
+disclosures described in Tables 1 through 13 to Sec.  3.173. The 
+national bank or Federal savings association must make the disclosures 
+required under Tables 1 through 12 publicly available for each of the 
+last three years (that is, twelve quarters) or such shorter period 
+beginning on January 1, 2014. The national bank or Federal savings 
+association must make the disclosures required under Table 13 publicly 
+available beginning on January 1, 2015.
+* * * * *
+    (c) Except as provided in Sec.  3.172(b), a national bank or 
+Federal savings association described in Sec.  3.172(d) must make the 
+disclosures described in Table 13 to Sec.  3.173; provided, however, 
+the disclosures required under this paragraph are required without 
+regard to whether the national bank or Federal savings association has 
+completed the parallel run process and has received notification from 
+the OCC pursuant to Sec.  3.121(d). The national bank or Federal 
+savings association must make these disclosures publicly available 
+beginning on January 1, 2015.
+
+                             Table 13 to Sec.   3.173--Supplementary Leverage Ratio
+----------------------------------------------------------------------------------------------------------------
+                                                                          Dollar amounts in thousands
+                                                             ---------------------------------------------------
+                                                                  Tril         Bil          Mil          Thou
+----------------------------------------------------------------------------------------------------------------
+                   Part 1: Summary comparison of accounting assets and total leverage exposure
+----------------------------------------------------------------------------------------------------------------
+1 Total consolidated assets as reported in published
+ financial statements.......................................
+2 Adjustment for investments in banking, financial,
+ insurance or commercial entities that are consolidated for
+ accounting purposes but outside the scope of regulatory
+ consolidation..............................................
+3 Adjustment for fiduciary assets recognized on balance
+ sheet but excluded from total leverage exposure............
+4 Adjustment for derivative exposures.......................
+5 Adjustment for repo-style transactions....................
+6 Adjustment for off-balance sheet exposures (that is,
+ conversion to credit equivalent amounts of off-balance
+ sheet exposures)...........................................
+7 Other adjustments.........................................
+8 Total leverage exposure...................................
+----------------------------------------------------------------------------------------------------------------
+                                      Part 2: Supplementary leverage ratio
+----------------------------------------------------------------------------------------------------------------
+                 On-balance sheet exposures
+ 
+1 On-balance sheet assets (excluding on-balance sheet assets
+ for repo-style transactions and derivative exposures, but
+ including cash collateral received in derivative
+ transactions)..............................................
+2 LESS: Amounts deducted from tier 1 capital................
+3 Total on-balance sheet exposures (excluding on-balance
+ sheet assets for repo-style transactions and derivative
+ exposures, but including cash collateral received in
+ derivative transactions) (sum of lines 1 and 2)............
+ 
+                    Derivative exposures
+ 
+4 Replacement cost for derivative exposures (that is, net of
+ cash variation margin).....................................
+5 Add-on amounts for potential future exposure (PFE) for
+ derivative exposures.......................................
+6 Gross-up for cash collateral posted if deducted from the
+ on-balance sheet assets, except for cash variation margin..
+7 LESS: Deductions of receivable assets for cash variation
+ margin posted in derivative transactions, if included in on-
+ balance sheet assets.......................................
+8 LESS: Exempted CCP leg of client-cleared transactions.....
+9 Effective notional principal amount of sold credit
+ protection.................................................
+10 LESS: Effective notional principal amount offsets and PFE
+ adjustments for sold credit protection.....................
+11 Total derivative exposures (sum of lines 4 to 10)........
+ 
+
+[[Page 57744]]
+
+ 
+                   Repo-style transactions
+12 On-balance sheet assets for repo-style transactions,
+ except include the gross value of receivables for reverse
+ repurchase transactions. Exclude from this item the value
+ of securities received in a security-for-security repo-
+ style transaction where the securities lender has not sold
+ or re-hypothecated the securities received. Include in this
+ item the value of securities that qualified for sales
+ treatment that must be reversed............................
+13 LESS: Reduction of the gross value of receivables in
+ reverse repurchase transactions by cash payables in
+ repurchase transactions under netting agreements...........
+14 Counterparty credit risk for all repo-style transactions.
+15 Exposure for repo-style transactions where a banking
+ organization acts as an agent..............................
+16 Total exposures for repo-style transactions (sum of lines
+ 12 to 15)..................................................
+ 
+              Other off-balance sheet exposures
+ 
+17 Off-balance sheet exposures at gross notional amounts....
+18 LESS: Adjustments for conversion to credit equivalent
+ amounts....................................................
+19 Off-balance sheet exposures (sum of lines 17 and 18).....
+ 
+             Capital and total leverage exposure
+ 
+20 Tier 1 capital...........................................
+21 Total leverage exposure (sum of lines 3, 11, 16 and 19)..
+ 
+                Supplementary leverage ratio
+                                                             ---------------------------------------------------
+22 Supplementary leverage ratio.............................                     (in percent)
+----------------------------------------------------------------------------------------------------------------
+
+Board of Governors of the Federal Reserve System
+
+12 CFR Chapter II
+
+Authority and Issuance
+
+    For the reasons set forth in the preamble, part 217 of chapter II 
+of title 12 of the Code of Federal Regulations is amended as follows:
+
+PART 217--CAPITAL ADEQUACY OF BOARD-RELATED INSTITUTIONS
+
+0
+7. The authority citation for part 217 continues to read as follows:
+
+    Authority:  12 U.S.C. 248(a), 321-338a, 481-486, 1462a, 1467a, 
+1818, 1828, 1831n, 1831o, 1831p-l, 1831w, 1835, 1844(b), 1851, 3904, 
+3906-3909, 4808, 5365, 5368, 5371.
+
+
+Sec.  217.1  [Amended]
+
+0
+8. In Sec.  217.1, in paragraph (d)(4), in the first sentence remove 
+``leverage exposure amount'' and add in its place ``total leverage 
+exposure''.
+
+0
+9. In Sec.  217.2, revise the definition of ``total leverage exposure'' 
+to read as follows:
+
+
+Sec.  217.2  Definitions.
+
+* * * * *
+    Total leverage exposure is defined in Sec.  217.10(c)(4)(ii).
+* * * * *
+
+0
+10. In Sec.  217.10, revise paragraph (c)(4) to read as follows:
+
+
+Sec.  217.10  Minimum capital requirements.
+
+* * * * *
+    (c) * * *
+    (4) Supplementary leverage ratio. (i) An advanced approaches Board-
+regulated institution's supplementary leverage ratio is the ratio of 
+its tier 1 capital to total leverage exposure, the latter which is 
+calculated as the sum of:
+    (A) The mean of the on-balance sheet assets calculated as of each 
+day of the reporting quarter; and
+    (B) The mean of the off-balance sheet exposures calculated as of 
+the last day of each of the most recent three months, minus the 
+applicable deductions under Sec.  217.22(a), (c), and (d).
+    (ii) For purposes of this part, total leverage exposure means the 
+sum of the items described in paragraphs (c)(4)(ii)(A) through (H) of 
+this section, as adjusted pursuant to paragraph (c)(4)(ii)(I) for a 
+clearing member Board-regulated institution:
+    (A) The balance sheet carrying value of all of the Board-regulated 
+institution's on-balance sheet assets, plus the value of securities 
+sold under a repurchase transaction or a securities lending transaction 
+that qualifies for sales treatment under U.S. GAAP, less amounts 
+deducted from tier 1 capital under Sec.  217.22(a), (c), and (d), and 
+less the value of securities received in security-for-security repo-
+style transactions, where the Board-regulated institution acts as a 
+securities lender and includes the securities received in its on-
+balance sheet assets but has not sold or re-hypothecated the securities 
+received;
+    (B) The PFE for each derivative contract or each single-product 
+netting set of derivative contracts (including a cleared transaction 
+except as provided in paragraph (c)(4)(ii)(I) of this section and, at 
+the discretion of the Board-supervised institution, excluding a forward 
+agreement treated as a derivative contract that is part of a repurchase 
+or reverse repurchase or a securities borrowing or lending transaction 
+that qualifies for sales treatment under U.S. GAAP), to which the 
+Board-regulated institution is a counterparty as determined under Sec.  
+217.34, but without regard to Sec.  217.34(b), provided that:
+    (1) A Board-regulated institution may choose to exclude the PFE of 
+all credit derivatives or other similar instruments through which it 
+provides credit protection when calculating the PFE under Sec.  217.34, 
+but without regard to Sec.  217.34(b), provided that it does not adjust 
+the net-to-gross ratio (NGR); and
+    (2) A Board-regulated institution that chooses to exclude the PFE 
+of credit derivatives or other similar instruments through which it 
+provides credit protection pursuant to paragraph (c)(4)(ii)(B)(1) of 
+this section must do so consistently over time for the calculation of 
+the PFE for all such instruments;
+
+[[Page 57745]]
+
+    (C) The amount of cash collateral that is received from a 
+counterparty to a derivative contract and that has offset the mark-to-
+fair value of the derivative asset, or cash collateral that is posted 
+to a counterparty to a derivative contract and that has reduced the 
+Board-regulated institution's on-balance sheet assets, unless such cash 
+collateral is all or part of variation margin that satisfies the 
+following requirements:
+    (1) For derivative contracts that are not cleared through a QCCP, 
+the cash collateral received by the recipient counterparty is not 
+segregated (by law, regulation or an agreement with the counterparty);
+    (2) Variation margin is calculated and transferred on a daily basis 
+based on the mark-to-fair value of the derivative contract;
+    (3) The variation margin transferred under the derivative contract 
+or the governing rules for a cleared transaction is the full amount 
+that is necessary to fully extinguish the net current credit exposure 
+to the counterparty of the derivative contracts, subject to the 
+threshold and minimum transfer amounts applicable to the counterparty 
+under the terms of the derivative contract or the governing rules for a 
+cleared transaction;
+    (4) The variation margin is in the form of cash in the same 
+currency as the currency of settlement set forth in the derivative 
+contract, provided that for the purposes of this paragraph, currency of 
+settlement means any currency for settlement specified in the governing 
+qualifying master netting agreement and the credit support annex to the 
+qualifying master netting agreement, or in the governing rules for a 
+cleared transaction;
+    (5) The derivative contract and the variation margin are governed 
+by a qualifying master netting agreement between the legal entities 
+that are the counterparties to the derivative contract or by the 
+governing rules for a cleared transaction, and the qualifying master 
+netting agreement or the governing rules for a cleared transaction must 
+explicitly stipulate that the counterparties agree to settle any 
+payment obligations on a net basis, taking into account any variation 
+margin received or provided under the contract if a credit event 
+involving either counterparty occurs;
+    (6) The variation margin is used to reduce the current credit 
+exposure of the derivative contract, calculated as described in Sec.  
+217.34(a), and not the PFE; and
+    (7) For the purpose of the calculation of the NGR described in 
+Sec.  217.34(a)(2)(ii)(B), variation margin described in paragraph 
+(c)(4)(ii)(C)(6) of this section may not reduce the net current credit 
+exposure or the gross current credit exposure;
+    (D) The effective notional principal amount (that is, the apparent 
+or stated notional principal amount multiplied by any multiplier in the 
+derivative contract) of a credit derivative, or other similar 
+instrument, through which the Board-regulated institution provides 
+credit protection, provided that:
+    (1) The Board-regulated institution may reduce the effective 
+notional principal amount of the credit derivative by the amount of any 
+reduction in the mark-to-fair value of the credit derivative if the 
+reduction is recognized in common equity tier 1 capital;
+    (2) The Board-regulated institution may reduce the effective 
+notional principal amount of the credit derivative by the effective 
+notional principal amount of a purchased credit derivative or other 
+similar instrument, provided that the remaining maturity of the 
+purchased credit derivative is equal to or greater than the remaining 
+maturity of the credit derivative through which the Board-regulated 
+institution provides credit protection and that:
+    (i) With respect to a credit derivative that references a single 
+exposure, the reference exposure of the purchased credit derivative is 
+to the same legal entity and ranks pari passu with, or is junior to, 
+the reference exposure of the credit derivative through which the 
+Board-regulated institution provides credit protection; or
+    (ii) With respect to a credit derivative that references multiple 
+exposures, the reference exposures of the purchased credit derivative 
+are to the same legal entities and rank pari passu with the reference 
+exposures of the credit derivative through which the Board-regulated 
+institution provides credit protection, and the level of seniority of 
+the purchased credit derivative ranks pari passu to the level of 
+seniority of the credit derivative through which the Board-regulated 
+institution provides credit protection;
+    (iii) Where a Board-regulated institution has reduced the effective 
+notional amount of a credit derivative through which the Board-
+regulated institution provides credit protection in accordance with 
+paragraph (c)(4)(ii)(D)(1) of this section, the Board-regulated 
+institution must also reduce the effective notional principal amount of 
+a purchased credit derivative used to offset the credit derivative 
+through which the Board-regulated institution provides credit 
+protection, by the amount of any increase in the mark-to-fair value of 
+the purchased credit derivative that is recognized in common equity 
+tier 1 capital; and
+    (iv) Where the Board-regulated institution purchases credit 
+protection through a total return swap and records the net payments 
+received on a credit derivative through which the Board-regulated 
+institution provides credit protection in net income, but does not 
+record offsetting deterioration in the mark-to-fair value of the credit 
+derivative through which the Board-regulated institution provides 
+credit protection in net income (either through reductions in fair 
+value or by additions to reserves), the Board-regulated institution may 
+not use the purchased credit protection to offset the effective 
+notional principal amount of the related credit derivative through 
+which the Board-regulated institution provides credit protection;
+    (E) Where a Board-regulated institution acting as a principal has 
+more than one repo-style transaction with the same counterparty and has 
+offset the gross value of receivables due from a counterparty under 
+reverse repurchase transactions by the gross value of payables under 
+repurchase transactions due to the same counterparty, the gross value 
+of receivables associated with the repo-style transactions less any on-
+balance sheet receivables amount associated with these repo-style 
+transactions included under paragraph (c)(4)(ii)(A) of this section, 
+unless the following criteria are met:
+    (1) The offsetting transactions have the same explicit final 
+settlement date under their governing agreements;
+    (2) The right to offset the amount owed to the counterparty with 
+the amount owed by the counterparty is legally enforceable in the 
+normal course of business and in the event of receivership, insolvency, 
+liquidation, or similar proceeding; and
+    (3) Under the governing agreements, the counterparties intend to 
+settle net, settle simultaneously, or settle according to a process 
+that is the functional equivalent of net settlement, (that is, the cash 
+flows of the transactions are equivalent, in effect, to a single net 
+amount on the settlement date), where both transactions are settled 
+through the same settlement system, the settlement arrangements are 
+supported by cash or intraday credit facilities intended to ensure that 
+settlement of both transactions will occur by the end of the business 
+day, and the settlement of the underlying securities does not interfere 
+with the net cash settlement;
+    (F) The counterparty credit risk of a repo-style transaction, 
+including where
+
+[[Page 57746]]
+
+the Board-regulated institution acts as an agent for a repo-style 
+transaction and indemnifies the customer with respect to the 
+performance of the customer's counterparty in an amount limited to the 
+difference between the fair value of the security or cash its customer 
+has lent and the fair value of the collateral the borrower has 
+provided, calculated as follows:
+    (1) If the transaction is not subject to a qualifying master 
+netting agreement, the counterparty credit risk (E*) for transactions 
+with a counterparty must be calculated on a transaction by transaction 
+basis, such that each transaction i is treated as its own netting set, 
+in accordance with the following formula, where E<INF>i</INF> is the 
+fair value of the instruments, gold, or cash that the Board-regulated 
+institution has lent, sold subject to repurchase, or provided as 
+collateral to the counterparty, and C<INF>i</INF> is the fair value of 
+the instruments, gold, or cash that the Board-regulated institution has 
+borrowed, purchased subject to resale, or received as collateral from 
+the counterparty:
+
+E<INF>i</INF>* = max {0, [E<INF>i</INF>--C<INF>i</INF>]{time} ; and
+
+    (2) If the transaction is subject to a qualifying master netting 
+agreement, the counterparty credit risk (E*) must be calculated as the 
+greater of zero and the total fair value of the instruments, gold, or 
+cash that the Board-regulated institution has lent, sold subject to 
+repurchase or provided as collateral to a counterparty for all 
+transactions included in the qualifying master netting agreement 
+([Sigma]E<INF>i</INF>), less the total fair value of the instruments, 
+gold, or cash that the Board-regulated institution borrowed, purchased 
+subject to resale or received as collateral from the counterparty for 
+those transactions ([Sigma]C<INF>i</INF>), in accordance with the 
+following formula:
+
+E* = max {0, [[Sigma]E<INF>i</INF>- [Sigma]C<INF>i</INF>]{time} 
+
+    (G) If a Board-regulated institution acting as an agent for a repo-
+style transaction provides a guarantee to a customer of the security or 
+cash its customer has lent or borrowed with respect to the performance 
+of the customer's counterparty and the guarantee is not limited to the 
+difference between the fair value of the security or cash its customer 
+has lent and the fair value of the collateral the borrower has 
+provided, the amount of the guarantee that is greater than the 
+difference between the fair value of the security or cash its customer 
+has lent and the value of the collateral the borrower has provided;
+    (H) The credit equivalent amount of all off-balance sheet exposures 
+of the Board-regulated institution, excluding repo-style transactions, 
+repurchase or reverse repurchase or securities borrowing or lending 
+transactions that qualify for sales treatment under U.S. GAAP, and 
+derivative transactions, determined using the applicable credit 
+conversation factor under Sec.  217.33(b), provided, however, that the 
+minimum credit conversion factor that may be assigned to an off-balance 
+sheet exposure under this paragraph is 10 percent; and
+    (I) For a Board-regulated institution that is a clearing member:
+    (1) A clearing member Board-regulated institution that guarantees 
+the performance of a clearing member client with respect to a cleared 
+transaction must treat its exposure to the clearing member client as a 
+derivative contract for purposes of determining its total leverage 
+exposure;
+    (2) A clearing member Board-regulated institution that guarantees 
+the performance of a CCP with respect to a transaction cleared on 
+behalf of a clearing member client must treat its exposure to the CCP 
+as a derivative contract for purposes of determining its total leverage 
+exposure;
+    (3) A clearing member Board-regulated institution that does not 
+guarantee the performance of a CCP with respect to a transaction 
+cleared on behalf of a clearing member client may exclude its exposure 
+to the CCP for purposes of determining its total leverage exposure;
+    (4) A Board-regulated institution that is a clearing member may 
+exclude from its total leverage exposure the effective notional 
+principal amount of credit protection sold through a credit derivative 
+contract, or other similar instrument, that it clears on behalf of a 
+clearing member client through a CCP as calculated in accordance with 
+part (c)(4)(ii)(D); and
+    (5) Notwithstanding paragraphs (c)(4)(ii)(I)(1) through (3) of this 
+section, a Board-regulated institution may exclude from its total 
+leverage exposure a clearing member's exposure to a clearing member 
+client for a derivative contract, if the clearing member client and the 
+clearing member are affiliates and consolidated for financial reporting 
+purposes on the Board-regulated institution's balance sheet.
+* * * * *
+
+0
+11. Section 217.172 is amended by adding paragraph (d) to read as 
+follows:
+
+
+Sec.  217.172  Disclosure requirements.
+
+* * * * *
+    (d) Except as otherwise provided in paragraph (b) of this section, 
+an advanced approaches Board-regulated institution must publicly 
+disclose each quarter its supplementary leverage ratio and its 
+components as calculated under subpart B of this part in compliance 
+with paragraph (c) of this section; however, the disclosures required 
+under this paragraph are required without regard to whether the Board-
+regulated institution has completed the parallel run process and has 
+received notification from the Board pursuant to Sec.  217.121(d).
+
+0
+12. Amend Sec.  217.173 by revising paragraph (a) introductory text and 
+adding paragraph (c) and Table 13 to Sec.  217.173 to read as follows:
+
+
+Sec.  217.173  Disclosures by certain advanced approaches Board-
+regulated institutions.
+
+    (a) Except as provided in Sec.  217.172(b), a Board-regulated 
+institution described in Sec.  217.172(b) must make the disclosures 
+described in Tables 1 through 13 to Sec.  217.173. The Board-regulated 
+institution must make the disclosures required under Tables 1 through 
+12 publicly available for each of the last three years (that is, twelve 
+quarters) or such shorter period beginning on January 1, 2014. The 
+Board-regulated institution must make the disclosures required under 
+Table 13 publicly available beginning on January 1, 2015.
+* * * * *
+    (c) Except as provided in Sec.  217.172(b), a Board-regulated 
+institution described in Sec.  217.172(d) must make the disclosures 
+described in Table 13 to Sec.  217.173; provided, however, the 
+disclosures required under this paragraph are required without regard 
+to whether the Board-regulated institution has completed the parallel 
+run process and has received notification from the Board pursuant to 
+Sec.  217.121(d). The Board-regulated institution must make these 
+disclosures publicly available beginning on January 1, 2015.
+
+[[Page 57747]]
+
+
+
+                            Table 13 to Sec.   217.173--Supplementary Leverage Ratio
+----------------------------------------------------------------------------------------------------------------
+                                                                          Dollar amounts in thousands
+                                                             ---------------------------------------------------
+                                                                  Tril         Bil          Mil          Thou
+----------------------------------------------------------------------------------------------------------------
+                   Part 1: Summary comparison of accounting assets and total leverage exposure
+----------------------------------------------------------------------------------------------------------------
+1 Total consolidated assets as reported in published
+ financial statements.......................................
+2 Adjustment for investments in banking, financial,
+ insurance or commercial entities that are consolidated for
+ accounting purposes but outside the scope of regulatory
+ consolidation..............................................
+3 Adjustment for fiduciary assets recognized on balance
+ sheet but excluded from total leverage exposure............
+4 Adjustment for derivative exposures.......................
+5 Adjustment for repo-style transactions....................
+6 Adjustment for off-balance sheet exposures (that is,
+ conversion to credit equivalent amounts of off-balance
+ sheet exposures)...........................................
+7 Other adjustments.........................................
+8 Total leverage exposure...................................
+----------------------------------------------------------------------------------------------------------------
+                                      Part 2: Supplementary leverage ratio
+----------------------------------------------------------------------------------------------------------------
+                 On-balance sheet exposures
+ 
+1 On-balance sheet assets (excluding on-balance sheet assets
+ for repo-style transactions and derivative exposures, but
+ including cash collateral received in derivative
+ transactions)..............................................
+2 LESS: Amounts deducted from tier 1 capital................
+3 Total on-balance sheet exposures (excluding on-balance
+ sheet assets for repo-style transactions and derivative
+ exposures, but including cash collateral received in
+ derivative transactions) (sum of lines 1 and 2)............
+ 
+                    Derivative exposures
+ 
+4 Replacement cost for derivative exposures (that is, net of
+ cash variation margin).....................................
+5 Add-on amounts for potential future exposure (PFE) for
+ derivative exposures.......................................
+6 Gross-up for cash collateral posted if deducted from the
+ on-balance sheet assets, except for cash variation margin..
+7 LESS: Deductions of receivable assets for cash variation
+ margin posted in derivative transactions, if included in on-
+ balance sheet assets.......................................
+8 LESS: Exempted CCP leg of client-cleared transactions.....
+9 Effective notional principal amount of sold credit
+ protection.................................................
+10 LESS: Effective notional principal amount offsets and PFE
+ adjustments for sold credit protection.....................
+11 Total derivative exposures (sum of lines 4 to 10)........
+ 
+                   Repo-style transactions
+12 On-balance sheet assets for repo-style transactions,
+ except include the gross value of receivables for reverse
+ repurchase transactions. Exclude from this item the value
+ of securities received in a security-for-security repo-
+ style transaction where the securities lender has not sold
+ or re-hypothecated the securities received. Include in this
+ item the value of securities that qualified for sales
+ treatment that must be reversed............................
+13 LESS: Reduction of the gross value of receivables in
+ reverse repurchase transactions by cash payables in
+ repurchase transactions under netting agreements...........
+14 Counterparty credit risk for all repo-style transactions.
+15 Exposure for repo-style transactions where a banking
+ organization acts as an agent..............................
+16 Total exposures for repo-style transactions (sum of lines
+ 12 to 15)..................................................
+ 
+              Other off-balance sheet exposures
+ 
+17 Off-balance sheet exposures at gross notional amounts....
+18 LESS: Adjustments for conversion to credit equivalent
+ amounts....................................................
+19 Off-balance sheet exposures (sum of lines 17 and 18).....
+ 
+             Capital and total leverage exposure
+ 
+20 Tier 1 capital...........................................
+21 Total leverage exposure (sum of lines 3, 11, 16 and 19)..
+ 
+                Supplementary leverage ratio
+                                                             ---------------------------------------------------
+22 Supplementary leverage ratio.............................                     (in percent)
+----------------------------------------------------------------------------------------------------------------
+
+PART 324--CAPITAL ADEQUACY
+
+0
+13. The authority citation for part 324 continues to read as follows:
+
+    Authority: 12 U.S.C. 1815(a), 1815(b), 1816, 1818(a), 1818(b), 
+1818(c), 1818(t), 1819(Tenth), 1828(c), 1828(d), 1828(i), 1828(n), 
+1828(o), 1831o, 1835, 3907, 3909, 4808; 5371; 5412; Pub. L. 102-233, 
+105 Stat. 1761, 1789, 1790 (12 U.S.C. 1831n note); Pub. L. 102-242, 
+105 Stat. 2236, 2355, as amended by Pub. L. 103-325, 108 Stat. 2160, 
+2233 (12
+
+[[Page 57748]]
+
+U.S.C. 1828 note); Pub. L. 102-242, 105 Stat. 2236, 2386, as amended 
+by Pub. L. 102-550, 106 Stat. 3672, 4089 (12 U.S.C. 1828 note); Pub. 
+L. 111-203, 124 Stat. 1376, 1887 (15 U.S.C. 78o-7 note).
+
+
+Sec.  324.1  [Amended]
+
+0
+14. In Sec.  324.1, in the first sentence of paragraph (d)(4), remove 
+``leverage exposure amount'' and add in its place ``total leverage 
+exposure''.
+0
+15. In Sec.  324.2, revise the definition of ``total leverage 
+exposure'' to read as follows:
+
+
+Sec.  324.2  Definitions.
+
+* * * * *
+    Total leverage exposure is defined in Sec.  324.10(c)(4)(ii).
+* * * * *
+
+0
+16. In Sec.  324.10, revise paragraph (c)(4) to read as follows:
+
+
+Sec.  324.10  Minimum capital requirements.
+
+* * * * *
+    (c) * * *
+    (4) Supplementary leverage ratio. (i) An advanced approaches FDIC-
+supervised institution's supplementary leverage ratio is the ratio of 
+its tier 1 capital to total leverage exposure, the latter which is 
+calculated as the sum of:
+    (A) The mean of the on-balance sheet assets calculated as of each 
+day of the reporting quarter; and
+    (B) The mean of the off-balance sheet exposures calculated as of 
+the last day of each of the most recent three months, minus the 
+applicable deductions under Sec.  324.22(a), (c), and (d).
+    (ii) For purposes of this part, total leverage exposure means the 
+sum of the items described in paragraphs (c)(4)(ii)(A) through (H) of 
+this section, as adjusted pursuant to paragraph (c)(4)(ii)(I) for a 
+clearing member FDIC-supervised institution:
+    (A) The balance sheet carrying value of all of the FDIC-supervised 
+institution's on-balance sheet assets, plus the value of securities 
+sold under a repurchase transaction or a securities lending transaction 
+that qualifies for sales treatment under U.S. GAAP, less amounts 
+deducted from tier 1 capital under Sec.  324.22(a), (c), and (d), and 
+less the value of securities received in security-for-security repo-
+style transactions, where the FDIC-supervised institution acts as a 
+securities lender and includes the securities received in its on-
+balance sheet assets but has not sold or re-hypothecated the securities 
+received;
+    (B) The PFE for each derivative contract or each single-product 
+netting set of derivative contracts (including a cleared transaction 
+except as provided in paragraph (c)(4)(ii)(I) of this section and, at 
+the discretion of the FDIC-supervised institution, excluding a forward 
+agreement treated as a derivative contract that is part of a repurchase 
+or reverse repurchase or a securities borrowing or lending transaction 
+that qualifies for sales treatment under U.S. GAAP), to which the FDIC-
+supervised institution is a counterparty as determined under Sec.  
+324.34, but without regard to Sec.  324.34(b), provided that:
+    (1) An FDIC-supervised institution may choose to exclude the PFE of 
+all credit derivatives or other similar instruments through which it 
+provides credit protection when calculating the PFE under Sec.  324.34, 
+but without regard to Sec.  324.34(b), provided that it does not adjust 
+the net-to-gross ratio (NGR); and
+    (2) An FDIC-supervised institution that chooses to exclude the PFE 
+of credit derivatives or other similar instruments through which it 
+provides credit protection pursuant to paragraph (c)(4)(ii)(B)(1) of 
+this section must do so consistently over time for the calculation of 
+the PFE for all such instruments;
+    (C) The amount of cash collateral that is received from a 
+counterparty to a derivative contract and that has offset the mark-to-
+fair value of the derivative asset, or cash collateral that is posted 
+to a counterparty to a derivative contract and that has reduced the 
+FDIC-supervised institution's on-balance sheet assets, unless such cash 
+collateral is all or part of variation margin that satisfies the 
+following requirements:
+    (1) For derivative contracts that are not cleared through a QCCP, 
+the cash collateral received by the recipient counterparty is not 
+segregated (by law, regulation or an agreement with the counterparty);
+    (2) Variation margin is calculated and transferred on a daily basis 
+based on the mark-to-fair value of the derivative contract;
+    (3) The variation margin transferred under the derivative contract 
+or the governing rules for a cleared transaction is the full amount 
+that is necessary to fully extinguish the net current credit exposure 
+to the counterparty of the derivative contracts, subject to the 
+threshold and minimum transfer amounts applicable to the counterparty 
+under the terms of the derivative contract or the governing rules for a 
+cleared transaction;
+    (4) The variation margin is in the form of cash in the same 
+currency as the currency of settlement set forth in the derivative 
+contract, provided that for the purposes of this paragraph, currency of 
+settlement means any currency for settlement specified in the governing 
+qualifying master netting agreement and the credit support annex to the 
+qualifying master netting agreement, or in the governing rules for a 
+cleared transaction;
+    (5) The derivative contract and the variation margin are governed 
+by a qualifying master netting agreement between the legal entities 
+that are the counterparties to the derivative contract or by the 
+governing rules for a cleared transaction, and the qualifying master 
+netting agreement or the governing rules for a cleared transaction must 
+explicitly stipulate that the counterparties agree to settle any 
+payment obligations on a net basis, taking into account any variation 
+margin received or provided under the contract if a credit event 
+involving either counterparty occurs;
+    (6) The variation margin is used to reduce the current credit 
+exposure of the derivative contract, calculated as described in Sec.  
+324.34(a), and not the PFE; and
+    (7) For the purpose of the calculation of the NGR described in 
+Sec.  324.34(a)(2)(ii)(B), variation margin described in paragraph 
+(c)(4)(ii)(C)(6) of this section may not reduce the net current credit 
+exposure or the gross current credit exposure;
+    (D) The effective notional principal amount (that is, the apparent 
+or stated notional principal amount multiplied by any multiplier in the 
+derivative contract) of a credit derivative, or other similar 
+instrument, through which the FDIC-supervised institution provides 
+credit protection, provided that:
+    (1) The FDIC-supervised institution may reduce the effective 
+notional principal amount of the credit derivative by the amount of any 
+reduction in the mark-to-fair value of the credit derivative if the 
+reduction is recognized in common equity tier 1 capital;
+    (2) The FDIC-supervised institution may reduce the effective 
+notional principal amount of the credit derivative by the effective 
+notional principal amount of a purchased credit derivative or other 
+similar instrument, provided that the remaining maturity of the 
+purchased credit derivative is equal to or greater than the remaining 
+maturity of the credit derivative through which the FDIC-supervised 
+institution provides credit protection and that:
+    (i) With respect to a credit derivative that references a single 
+exposure, the reference exposure of the purchased credit derivative is 
+to the same legal entity and ranks pari passu with, or is junior to, 
+the reference exposure of the credit derivative through which the FDIC-
+supervised institution provides credit protection; or
+
+[[Page 57749]]
+
+    (ii) With respect to a credit derivative that references multiple 
+exposures, the reference exposures of the purchased credit derivative 
+are to the same legal entities and rank pari passu with the reference 
+exposures of the credit derivative through which the FDIC-supervised 
+institution provides credit protection, and the level of seniority of 
+the purchased credit derivative ranks pari passu to the level of 
+seniority of the credit derivative through which the FDIC-supervised 
+institution provides credit protection;
+    (iii) Where an FDIC-supervised institution has reduced the 
+effective notional amount of a credit derivative through which the 
+FDIC-supervised institution provides credit protection in accordance 
+with paragraph (c)(4)(ii)(D)(1) of this section, the FDIC-supervised 
+institution must also reduce the effective notional principal amount of 
+a purchased credit derivative used to offset the credit derivative 
+through which the FDIC-supervised institution provides credit 
+protection, by the amount of any increase in the mark-to-fair value of 
+the purchased credit derivative that is recognized in common equity 
+tier 1 capital; and
+    (iv) Where the FDIC-supervised institution purchases credit 
+protection through a total return swap and records the net payments 
+received on a credit derivative through which the FDIC-supervised 
+institution provides credit protection in net income, but does not 
+record offsetting deterioration in the mark-to-fair value of the credit 
+derivative through which the FDIC-supervised institution provides 
+credit protection in net income (either through reductions in fair 
+value or by additions to reserves), the FDIC-supervised institution may 
+not use the purchased credit protection to offset the effective 
+notional principal amount of the related credit derivative through 
+which the FDIC-supervised institution provides credit protection;
+    (E) Where an FDIC-supervised institution acting as a principal has 
+more than one repo-style transaction with the same counterparty and has 
+offset the gross value of receivables due from a counterparty under 
+reverse repurchase transactions by the gross value of payables under 
+repurchase transactions due to the same counterparty, the gross value 
+of receivables associated with the repo-style transactions less any on-
+balance sheet receivables amount associated with these repo-style 
+transactions included under paragraph (c)(4)(ii)(A) of this section, 
+unless the following criteria are met:
+    (1) The offsetting transactions have the same explicit final 
+settlement date under their governing agreements;
+    (2) The right to offset the amount owed to the counterparty with 
+the amount owed by the counterparty is legally enforceable in the 
+normal course of business and in the event of receivership, insolvency, 
+liquidation, or similar proceeding; and
+    (3) Under the governing agreements, the counterparties intend to 
+settle net, settle simultaneously, or settle according to a process 
+that is the functional equivalent of net settlement, (that is, the cash 
+flows of the transactions are equivalent, in effect, to a single net 
+amount on the settlement date), where both transactions are settled 
+through the same settlement system, the settlement arrangements are 
+supported by cash or intraday credit facilities intended to ensure that 
+settlement of both transactions will occur by the end of the business 
+day, and the settlement of the underlying securities does not interfere 
+with the net cash settlement;
+    (F) The counterparty credit risk of a repo-style transaction, 
+including where the FDIC-supervised institution acts as an agent for a 
+repo-style transaction and indemnifies the customer with respect to the 
+performance of the customer's counterparty in an amount limited to the 
+difference between the fair value of the security or cash its customer 
+has lent and the fair value of the collateral the borrower has 
+provided, calculated as follows:
+    (1) If the transaction is not subject to a qualifying master 
+netting agreement, the counterparty credit risk (E*) for transactions 
+with a counterparty must be calculated on a transaction by transaction 
+basis, such that each transaction i is treated as its own netting set, 
+in accordance with the following formula, where E<INF>i</INF> is the 
+fair value of the instruments, gold, or cash that the FDIC-supervised 
+institution has lent, sold subject to repurchase, or provided as 
+collateral to the counterparty, and C<INF>i</INF> is the fair value of 
+the instruments, gold, or cash that the FDIC-supervised institution has 
+borrowed, purchased subject to resale, or received as collateral from 
+the counterparty:
+
+
+E<INF>i</INF>* = max {0, [E<INF>i</INF>-C<INF>i</INF>] {time}  ]; and
+
+    (2) If the transaction is subject to a qualifying master netting 
+agreement, the counterparty credit risk (E*) must be calculated as the 
+greater of zero and the total fair value of the instruments, gold, or 
+cash that the FDIC-supervised institution has lent, sold subject to 
+repurchase or provided as collateral to a counterparty for all 
+transactions included in the qualifying master netting agreement 
+([Sigma]E<INF>i</INF>), less the total fair value of the instruments, 
+gold, or cash that the FDIC-supervised institution borrowed, purchased 
+subject to resale or received as collateral from the counterparty for 
+those transactions ([Sigma]C<INF>i</INF>), in accordance with the 
+following formula:
+
+E* = max {0, [[Sigma]E<INF>i</INF>--[Sigma]C<INF>i</INF>] -{time} 
+
+    (G) If an FDIC-supervised institution acting as an agent for a 
+repo-style transaction provides a guarantee to a customer of the 
+security or cash its customer has lent or borrowed with respect to the 
+performance of the customer's counterparty and the guarantee is not 
+limited to the difference between the fair value of the security or 
+cash its customer has lent and the fair value of the collateral the 
+borrower has provided, the amount of the guarantee that is greater than 
+the difference between the fair value of the security or cash its 
+customer has lent and the value of the collateral the borrower has 
+provided;
+    (H) The credit equivalent amount of all off-balance sheet exposures 
+of the FDIC-supervised institution, excluding repo-style transactions, 
+repurchase or reverse repurchase or securities borrowing or lending 
+transactions that qualify for sales treatment under U.S. GAAP, and 
+derivative transactions, determined using the applicable credit 
+conversation factor under Sec.  324.33(b), provided, however, that the 
+minimum credit conversion factor that may be assigned to an off-balance 
+sheet exposure under this paragraph is 10 percent; and
+    (I) For an FDIC-supervised institution that is a clearing member:
+    (1) A clearing member FDIC-supervised institution that guarantees 
+the performance of a clearing member client with respect to a cleared 
+transaction must treat its exposure to the clearing member client as a 
+derivative contract for purposes of determining its total leverage 
+exposure;
+    (2) A clearing member FDIC-supervised institution that guarantees 
+the performance of a CCP with respect to a transaction cleared on 
+behalf of a clearing member client must treat its exposure to the CCP 
+as a derivative contract for purposes of determining its total leverage 
+exposure;
+    (3) A clearing member FDIC-supervised institution that does not 
+guarantee the performance of a CCP with respect to a transaction 
+cleared on behalf of a clearing member client may exclude its exposure 
+to the CCP for purposes of determining its total leverage exposure;
+
+[[Page 57750]]
+
+    (4) An FDIC-supervised institution that is a clearing member may 
+exclude from its total leverage exposure the effective notional 
+principal amount of credit protection sold through a credit derivative 
+contract, or other similar instrument, that it clears on behalf of a 
+clearing member client through a CCP as calculated in accordance with 
+part (c)(4)(ii)(D); and
+    (5) Notwithstanding paragraphs (c)(4)(ii)(I)(1) through (3) of this 
+section, an FDIC-supervised institution may exclude from its total 
+leverage exposure a clearing member's exposure to a clearing member 
+client for a derivative contract, if the clearing member client and the 
+clearing member are affiliates and consolidated for financial reporting 
+purposes on the FDIC-supervised institution's balance sheet.
+* * * * *
+
+0
+17. Section 324.172 is amended by adding paragraph (d) to read as 
+follows:
+
+
+Sec.  324.172  Disclosure requirements.
+
+* * * * *
+    (d) Except as otherwise provided in paragraph (b) of this section, 
+an advanced approaches FDIC-supervised institution must publicly 
+disclose each quarter its supplementary leverage ratio and its 
+components as calculated under subpart B of this part in compliance 
+with paragraph (c) of this section; however, the disclosures required 
+under this paragraph are required without regard to whether the FDIC-
+supervised institution has completed the parallel run process and has 
+received notification from the FDIC pursuant to Sec.  324.121(d).
+
+0
+18. Amend Sec.  324.173 by revising paragraph (a) introductory text and 
+adding paragraph (c) and Table 13 to Sec.  3.173 to read as follows:
+
+
+Sec.  324.173  Disclosures by certain advanced approaches FDIC-
+supervised institutions.
+
+    (a) Except as provided in Sec.  324.172(b), an FDIC-supervised 
+institution described in Sec.  324.172(b) must make the disclosures 
+described in Tables 1 through 13 to Sec.  324.173. The FDIC-supervised 
+institution must make the disclosures required under Tables 1 through 
+12 publicly available for each of the last three years (that is, twelve 
+quarters) or such shorter period beginning on January 1, 2014. The 
+FDIC-supervised institution must make the disclosures required under 
+Table 13 publicly available beginning on January 1, 2015.
+* * * * *
+    (c) Except as provided in Sec.  324.172(b), an FDIC-supervised 
+institution described in Sec.  324.172(d) must make the disclosures 
+described in Table 13 to Sec.  324.173; provided, however, the 
+disclosures required under this paragraph are required without regard 
+to whether the FDIC-supervised institution has completed the parallel 
+run process and has received notification from the FDIC pursuant to 
+Sec.  324.121(d). The FDIC-supervised institution must make these 
+disclosures publicly available beginning on January 1, 2015.
+
+                            Table 13 to Sec.   324.173--Supplementary Leverage Ratio
+----------------------------------------------------------------------------------------------------------------
+                                                                          Dollar amounts in thousands
+                                                             ---------------------------------------------------
+                                                                  Tril         Bil          Mil          Thou
+----------------------------------------------------------------------------------------------------------------
+                   Part 1: Summary comparison of accounting assets and total leverage exposure
+----------------------------------------------------------------------------------------------------------------
+1 Total consolidated assets as reported in published
+ financial statements.......................................
+2 Adjustment for investments in banking, financial,
+ insurance or commercial entities that are consolidated for
+ accounting purposes but outside the scope of regulatory
+ consolidation..............................................
+3 Adjustment for fiduciary assets recognized on balance
+ sheet but excluded from total leverage exposure............
+4 Adjustment for derivative exposures.......................
+5 Adjustment for repo-style transactions....................
+6 Adjustment for off-balance sheet exposures (that is,
+ conversion to credit equivalent amounts of off-balance
+ sheet exposures)...........................................
+7 Other adjustments.........................................
+8 Total leverage exposure...................................
+----------------------------------------------------------------------------------------------------------------
+                                      Part 2: Supplementary leverage ratio
+----------------------------------------------------------------------------------------------------------------
+                 On-balance sheet exposures
+ 
+1 On-balance sheet assets (excluding on-balance sheet assets
+ for repo-style transactions and derivative exposures, but
+ including cash collateral received in derivative
+ transactions)..............................................
+2 LESS: Amounts deducted from tier 1 capital................
+3 Total on-balance sheet exposures (excluding on-balance
+ sheet assets for repo-style transactions and derivative
+ exposures, but including cash collateral received in
+ derivative transactions) (sum of lines 1 and 2)............
+ 
+                    Derivative exposures
+ 
+4 Replacement cost for derivative exposures (that is, net of
+ cash variation margin).....................................
+5 Add-on amounts for potential future exposure (PFE) for
+ derivative exposures.......................................
+6 Gross-up for cash collateral posted if deducted from the
+ on-balance sheet assets, except for cash variation margin..
+7 LESS: Deductions of receivable assets for cash variation
+ margin posted in derivative transactions, if included in on-
+ balance sheet assets.......................................
+8 LESS: Exempted CCP leg of client-cleared transactions.....
+9 Effective notional principal amount of sold credit
+ protection.................................................
+10 LESS: Effective notional principal amount offsets and PFE
+ adjustments for sold credit protection.....................
+11 Total derivative exposures (sum of lines 4 to 10)........
+ 
+
+[[Page 57751]]
+
+ 
+                   Repo-style transactions
+ 
+12 On-balance sheet assets for repo-style transactions,
+ except include the gross value of receivables for reverse
+ repurchase transactions. Exclude from this item the value
+ of securities received in a security-for-security repo-
+ style transaction where the securities lender has not sold
+ or re-hypothecated the securities received. Include in this
+ item the value of securities that qualified for sales
+ treatment that must be reversed............................
+13 LESS: Reduction of the gross value of receivables in
+ reverse repurchase transactions by cash payables in
+ repurchase transactions under netting agreements...........
+14 Counterparty credit risk for all repo-style transactions.
+15 Exposure for repo-style transactions where a banking
+ organization acts as an agent..............................
+16 Total exposures for repo-style transactions (sum of lines
+ 12 to 15)..................................................
+ 
+              Other off-balance sheet exposures
+ 
+17 Off-balance sheet exposures at gross notional amounts....
+18 LESS: Adjustments for conversion to credit equivalent
+ amounts....................................................
+19 Off-balance sheet exposures (sum of lines 17 and 18).....
+ 
+             Capital and total leverage exposure
+ 
+20 Tier 1 capital...........................................
+21 Total leverage exposure (sum of lines 3, 11, 16 and 19)..
+ 
+                Supplementary leverage ratio
+                                                             ---------------------------------------------------
+ 
+22 Supplementary leverage ratio.............................                     (in percent)
+----------------------------------------------------------------------------------------------------------------
+
+
+    Dated: September 3, 2014.
+Thomas J. Curry,
+Comptroller of the Currency.
+    By order of the Board of Governors of the Federal Reserve 
+System, September 4, 2014.
+Robert deV. Frierson,
+Secretary of the Board.
+    Dated at Washington, DC, this 3rd day of September, 2014.
+
+    By order of the Board of Directors.
+
+Federal Deposit Insurance Corporation.
+Robert E. Feldman,
+Executive Secretary.
+[FR Doc. 2014-22083 Filed 9-25-14; 8:45 am]
+BILLING CODE 4810-33-P; 6210-01-P; 6714-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

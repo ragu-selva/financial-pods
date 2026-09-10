@@ -1,0 +1,629 @@
+<html>
+<head>
+<title>Federal Register, Volume 80 Issue 22 (Tuesday, February 3, 2015)</title>
+</head>
+<body><pre>
+[Federal Register Volume 80, Number 22 (Tuesday, February 3, 2015)]
+[Rules and Regulations]
+[Pages 5666-5670]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2015-02038]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+FEDERAL RESERVE SYSTEM
+
+12 CFR Part 217
+
+[Docket No. R-1508]
+RIN 7100-AE 29
+
+
+Regulation Q; Regulatory Capital Rules: Interim Final Rule To 
+Exempt Small Savings and Loan Holding Companies From the Regulatory 
+Capital Rules
+
+AGENCY: Board of Governors of the Federal Reserve System (Board).
+
+ACTION: Interim final rule with request for comment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Board invites comment on an interim final rule that would 
+exempt savings and loan holding companies that have total consolidated 
+assets of less than $500 million and meet certain other requirements 
+from the Board's regulatory capital requirements (Regulation Q). This 
+interim final rule implements a law recently passed by the U.S. 
+Congress, which exempts small savings and loan holding companies from 
+the minimum capital requirements mandated by section 171 of the Dodd-
+Frank Wall Street Reform and Consumer Protection Act that would meet 
+the Board's Small Bank Holding Company Policy Statement if they were 
+bank holding companies. In connection with this interim final rule, the 
+Board is proposing to remove the requirement that qualifying savings 
+and loan holding companies complete Schedule SC-R, Part I (Regulatory 
+Capital Components and Ratios), of form FR Y-9SP (Parent Company Only 
+Financial Statements for Small Holding Companies).
+
+DATES: This interim final rule is effective January 30, 2015. Comments 
+on the interim final rule must be received on or before March 5, 2015. 
+Comments on the Paperwork Reduction Act burden estimates must be 
+received on or before April 6, 2015.
+
+ADDRESSES: You may submit comments, identified by Docket No. R-1508 and 
+RIN No. 7100-AE 29, by any of the following methods:
+    <bullet> Agency Web site: <a href="http://www.federalreserve.gov">http://www.federalreserve.gov</a>. Follow the 
+instructions for submitting comments at <a href="http://www.federalreserve.gov/apps/foia/proposedregs.aspx">http://www.federalreserve.gov/apps/foia/proposedregs.aspx</a>.
+    <bullet> Federal eRulemaking Portal: <a href="http://www.regulations.gov">http://www.regulations.gov</a>. 
+Follow the instructions for submitting comments.
+    <bullet> Email: <a href="/cdn-cgi/l/email-protection#2b594e4c5805484446464e455f586b4d4e4f4e594a47594e584e595d4e054c445d"><span class="__cf_email__" data-cfemail="04766163772a676b6969616a70774462616061766568766177617672612a636b72">[email&#160;protected]</span></a>. Include the 
+docket number in the subject line of the message.
+    <bullet> Fax: (202) 452-3819 or (202) 452-3102.
+    <bullet> Mail: Robert deV. Frierson, Secretary, Board of Governors 
+of the Federal Reserve System, 20th Street and Constitution Avenue NW., 
+Washington, DC 20551.
+    All public comments will be made available on the Board's Web site 
+at <a href="http://www.federalreserve.gov/apps/foia/proposedregs.aspx">http://www.federalreserve.gov/apps/foia/proposedregs.aspx</a> as 
+submitted, unless modified for technical reasons. Accordingly, your 
+comments will not be edited to remove any identifying or contact 
+information. Public comments may also be viewed electronically or in 
+paper form in Room MP-500 of the Board's Martin Building (20th and C 
+Streets NW., Washington, DC 20551)
+
+[[Page 5667]]
+
+between 9:00 a.m. and 5:00 p.m. on weekdays.
+
+FOR FURTHER INFORMATION CONTACT: Constance M. Horsley, Assistant 
+Director, (202) 452-5239, Cynthia Ayouch, Manager, (202) 452-2204, 
+Thomas Boemio, Manager (202) 452-2982, Douglas Carpenter, Senior 
+Supervisory Financial Analyst, (202) 452-2205, or Page Conkling, 
+Supervisory Financial Analyst (202) 912-4647), Capital and Regulatory 
+Policy, Division of Banking Supervision and Regulation; Laurie 
+Schaffer, Associate General Counsel, (202) 452-2277, Christine Graham, 
+Counsel, (202) 452-3005, or Mark Buresh, Attorney, (202) 452-5270, 
+Legal Division, Board of Governors of the Federal Reserve System, 20th 
+and C Streets NW., Washington, DC 20551. For the hearing impaired only, 
+Telecommunication Device for the Deaf (TDD), (202) 263-4869.
+
+SUPPLEMENTARY INFORMATION: 
+
+I. Background
+
+    In 2010, Congress enacted the Dodd-Frank Wall Street Reform and 
+Consumer Protection Act (Dodd-Frank Act) to address weaknesses in the 
+financial system that contributed to the financial crisis.\1\ In part, 
+the Dodd-Frank Act transferred supervision and regulatory 
+responsibility for savings and loan holding companies to the Board from 
+the Office of Thrift Supervision, and authorized the Board to 
+promulgate regulations and orders in connection with supervising 
+savings and loan holding companies, including establishing regulatory 
+capital requirements.\2\
+---------------------------------------------------------------------------
+
+    \1\ Public Law 111-203, 124 Stat. 1376 (July 21, 2010).
+    \2\ See 12 U.S.C. 5412; 12 U.S.C. 1467a(g)(1).
+---------------------------------------------------------------------------
+
+    In addition, section 171 of the Dodd-Frank Act directed the Board 
+to impose minimum regulatory capital requirements on state member 
+banks, bank holding companies, and savings and loan holding companies 
+that are no less than the generally applicable minimum capital 
+requirements applicable to insured depository institutions.\3\ 
+Recognizing that small bank holding companies historically had not been 
+subject to the Board's capital adequacy guidelines, section 171 
+exempted bank holding companies that were subject to the Board's Small 
+Bank Holding Company Policy Statement (12 CFR part 225, appendix C) 
+(Policy Statement).\4\ However, prior to enactment of Public Law 113-
+250 (described below), there was no corresponding exception for small 
+savings and loan holding companies.\5\
+---------------------------------------------------------------------------
+
+    \3\ 12 U.S.C. 5371.
+    \4\ As in effect as of May 19, 2010, the Board's Small Bank 
+Holding Company Policy Statement applied to bank holding companies 
+with pro forma consolidated assets of less than $500 million that 
+(i) are not engaged in any nonbanking activities involving 
+significant leverage; (ii) are not engaged in any significant off-
+balance sheet activities; and (iii) do not have a significant amount 
+of outstanding debt that is held by the general public. See 12 CFR 
+225, appendix C.
+    \5\ 12 U.S.C. 5371(b)(5)(C) (prior to the enactment of Pub. L. 
+113-250).
+---------------------------------------------------------------------------
+
+    As a result of these actions, savings and loan holding companies of 
+all sizes were made subject to the same minimum capital requirements 
+that are generally applicable to banks. In July 2013, the Board adopted 
+revisions to its regulatory capital framework (Regulation Q) to 
+strengthen the requirements applicable to bank holding companies and 
+state member banks, apply the regulatory capital framework to savings 
+and loan holding companies for the first time in accordance with 
+section 171 of the Dodd-Frank Act, and implement various requirements 
+of the Dodd-Frank Act, including section 171.\6\ Consistent with 
+section 171 (prior to enactment of enactment of Pub. L. 113-250, 
+described below), Regulation Q did not apply to small bank holding 
+companies and generally applied to savings and loan holding companies, 
+regardless of size, beginning on January 1, 2015.\7\
+---------------------------------------------------------------------------
+
+    \6\ The Board and the OCC issued a joint final rule on October 
+11, 2013 (78 FR 62018), and the FDIC issued a substantially 
+identical interim final rule on September 10, 2013 (78 FR 55340). In 
+April 2014, the FDIC adopted the interim final rule as a final rule 
+with no substantive changes. 79 FR 20754 (April 14, 2014).
+    \7\ 12 CFR 217.1(c), (f). The Board's Regulation Q does not 
+apply to savings and loan holding companies that are substantially 
+engaged in insurance underwriting or commercial activities. 12 CFR 
+217.2.
+---------------------------------------------------------------------------
+
+    In December 2014, Congress enacted and the President signed into 
+law Public Law 113-250 (the Act).\8\ Among other changes, the Act 
+revised section 171 of the Dodd-Frank Act to exempt a savings and loan 
+holding company from the minimum regulatory capital requirements of 
+section 171 of the Dodd-Frank Act effective on December 18, 2014, to 
+the extent that the savings and loan holding company would have been 
+exempt if it had been a small bank holding company that met the 
+requirements of the Policy Statement (qualifying savings and loan 
+holding company).\9\ While it appears that Congress intended to exempt 
+a qualifying savings and loan holding company from minimum regulatory 
+capital requirements upon passage of the Act, the Act instead simply 
+removes the statutory requirement that the Board impose minimum 
+regulatory capital requirements on such a savings and loan holding 
+company. Because the Board adopted Regulation Q, as applied to savings 
+and loan holding companies, pursuant to the Home Owners' Loan Act and 
+the Board's general safety and soundness authority, prior to enactment 
+of the Act, and those requirements became effective as of January 1, 
+2015, the Board believes it is appropriate to issue an interim final 
+rule revising Regulation Q to exempt qualifying savings and loan 
+holding companies from consolidated regulatory capital requirements in 
+a manner consistent with the Act. Without such action, qualifying 
+savings and loan holding companies are subject to Regulation Q as of 
+January 1, 2015.\10\
+---------------------------------------------------------------------------
+
+    \8\ To enhance the ability of community financial institutions 
+to foster economic growth and serve their communities, boost small 
+businesses, increase individual savings, and for other purposes, 
+Public Law 113-250 (December 18, 2014) (Pub. L. 113-250).
+    \9\ Public Law 113-250, section 2(b). Public Law 113-250 also 
+directs the Board to propose revisions to the Policy Statement that 
+would increase the asset threshold for its applicability to bank 
+holding companies from $500 million to $1 billion, and would apply 
+the Policy Statement to savings and loan holding companies with 
+total consolidated assets of less than $1 billion. Concurrent with 
+this interim final rule, the Board is issuing a proposal to seek 
+comment in implementing these other provisions of Public Law 113-
+250.
+    \10\ 12 CFR 217.1(f).
+---------------------------------------------------------------------------
+
+II. The Interim Final Rule
+
+    The interim final rule revises Regulation Q, effective January 30, 
+2015, to exclude a qualifying savings and loan holding company from 
+consolidated regulatory capital requirements. Specifically, the 
+exclusion from Regulation Q would apply to a savings and loan holding 
+company that has total consolidated assets of less than $500 million 
+and that also meets the qualitative requirements set forth in the 
+Policy Statement. These qualitative requirements specify that the 
+savings and loan holding company: (i) Is not engaged in significant 
+nonbanking activities either directly or through a nonbank subsidiary; 
+(ii) does not conduct significant off-balance sheet activities 
+(including securitization and asset management or administration) 
+either directly or through a nonbank subsidiary; and (iii) does not 
+have a material amount of debt or equity securities outstanding (other 
+than trust preferred securities) that are registered with the 
+Securities and Exchange Commission (SEC) (Qualitative Requirements).
+    The Policy Statement currently applies only to bank holding 
+companies. As such, the first Qualitative Requirement uses the terms
+
+[[Page 5668]]
+
+``nonbanking activities'' and ``nonbank subsidiary'' to refer to the 
+activities of a bank holding company. Under the Bank Holding Company 
+Act of 1956, however, control of a savings association by a bank 
+holding company is considered a nonbanking activity.\11\ Because 
+savings and loan holding companies control savings associations, all of 
+their activities, including the control of savings associations, would 
+be considered nonbanking activities under the Policy Statement. The 
+Board believes this outcome would be inconsistent with Congressional 
+intent to apply the Policy Statement to savings and loan holding 
+companies.\12\
+---------------------------------------------------------------------------
+
+    \11\ See 12 U.S.C. 1841(c)(2)(B), 1841(j), and 1843(i)(1).
+    \12\ See, e.g., Public Law 113-250, sec. 2(b).
+---------------------------------------------------------------------------
+
+    As is the case with bank holding companies, whether a savings and 
+loan holding company engages in ``significant'' nonbanking activities 
+(other than operation of one or more savings associations) will depend 
+on the scope of the activities of the savings and loan holding company, 
+the nature and level of risk of the activities, the condition of the 
+savings and loan holding company, and other criteria as 
+appropriate.\13\
+---------------------------------------------------------------------------
+
+    \13\ For purposes of applying the Policy Statement to savings 
+and loan holding companies, the term ``nonbank subsidiary'' as used 
+in the Policy Statement would refer to a subsidiary of a savings and 
+loan holding company other than a savings association or a 
+subsidiary of a savings association.
+---------------------------------------------------------------------------
+
+III. Related Rulemaking and Revisions to Reporting Requirements
+
+    In connection with this interim final rule, the Board proposes to 
+remove the requirement that qualifying savings and loan holding 
+companies complete Schedule SC-R, Part I (Regulatory Capital Components 
+and Ratios) of form FR Y-9SP (Parent Company Only Financial Statements 
+for Small Holding Companies).\14\ This schedule would have collected 
+information on consolidated regulatory capital components and ratios 
+from qualifying savings and loan holding companies that are subject to 
+Regulation Q, effective June 30, 2015. Because the interim final rule 
+excludes a qualifying savings and loan holding company from Regulation 
+Q, the Board would not require such a savings and loan holding company 
+to report information regarding regulatory capital components on the 
+form FR Y-9SP.
+---------------------------------------------------------------------------
+
+    \14\ Pursuant to Paperwork Reduction Act's emergency review 
+process, 44 U.S.C. 3507(j), the Board is filing an emergency 
+clearance review to remove the requirement that qualifying savings 
+and loan holding companies complete Schedule SC-R, Part I of form FR 
+Y-9SP. The change implemented through the emergency clearance 
+process would be effective for six months. The Board is now 
+proposing to make the change permanent and invites public comment.
+---------------------------------------------------------------------------
+
+    In addition to amending section 171 for qualifying savings and loan 
+holding companies as described above, the Act directs the Board to 
+publish in the Federal Register proposed revisions to the Policy 
+Statement that provide that the Policy Statement shall apply to bank 
+holding companies and savings and loan holding companies that have pro 
+forma consolidated assets of less than $1 billion. Elsewhere in today's 
+Federal Register, the Board is inviting comment on a proposal that 
+would raise the asset size threshold for determining applicability of 
+the Policy Statement and expand the scope of the Policy Statement to 
+include savings and loan holding companies.
+
+IV. Request for Comments
+
+    The Board invites comment on all aspects of the interim final rule.
+
+V. Effective Date; Solicitation of Comments
+
+    This interim final rule is effective January 30, 2015. Pursuant to 
+the Administrative Procedure Act (APA), at 5 U.S.C. 553(b)(B), notice 
+and comment are not required prior to the issuance of a final rule if 
+an agency, for good cause, finds that ``notice and public procedure 
+thereon are impracticable, unnecessary, or contrary to the public 
+interest.'' \15\ Similarly, a final rule may be published with an 
+immediate effective date if an agency finds good cause and publishes 
+such with the final rule.\16\ In December 18, 2014, the President 
+signed into law Public Law 113-250, which revised section 171 of the 
+Dodd-Frank Act. Public Law 113-250 was effective upon enactment and 
+exempts a savings and loan holding company from the minimum capital 
+requirements of section 171 of the Dodd-Frank Act to the extent that 
+the savings and loan holding company would have been exempt if it were 
+a similarly-sized bank holding company. Prior to enactment of the Act, 
+the Board revised the minimum capital requirements in accordance with 
+section 171 of the Dodd-Frank Act and, in accordance with that section, 
+made these minimum capital requirements applicable to savings and loan 
+holding companies of all sizes. Because Congress intended to exempt 
+qualifying savings and loan holding companies from minimum capital 
+requirements upon passage of the Act, the Board believes it is 
+appropriate to revise Regulation Q in order to effect Congressional 
+intent. Immediate adoption of revisions to Regulation Q would implement 
+Congressional intent, provide clarity to the public and qualifying 
+savings and loan holding companies regarding the capital rules 
+applicable to them, and relieve burden on qualifying savings and loan 
+holding companies that became subject to Regulation Q for the first 
+time beginning on January 1, 2015.
+---------------------------------------------------------------------------
+
+    \15\ 5 U.S.C. 553(b)(3)(B).
+    \16\ 5 U.S.C. 553(d)(3).
+---------------------------------------------------------------------------
+
+    The Board finds that, under these circumstances, prior notice and 
+comment through the issuance of a notice of proposed rulemaking are 
+impracticable and that the public interest is best served by making the 
+rule effective January 30, 2015. Delaying revisions to Regulation Q to 
+complete a traditional notice and comment rulemaking process would 
+cause qualifying savings and loan holding companies to expend 
+significant resources to come into compliance with Regulation Q, only 
+to be relieved from these requirements upon the effective date of the 
+Board's final regulations implementing the changes contemplated by the 
+Act.
+    For these reasons, the Board finds good cause to dispense with the 
+delayed effective date otherwise required by 5 U.S.C. 553(b)(B) and 
+553(d)(3).
+
+VI. Regulatory Analysis
+
+A. Regulatory Flexibility Act Analysis
+
+    The requirements of the Regulatory Flexibility Act (5 U.S.C. 601 et 
+seq) (RFA) are not applicable to this interim final rule.\17\ 
+Nonetheless, the Board believes that the interim final rule would not 
+have a significant economic impact on a substantial number of small 
+entities. The Board requests comment on its conclusion that the new 
+interim final rule should not have a significant economic impact on a 
+substantial number of small entities.
+---------------------------------------------------------------------------
+
+    \17\ The requirements of the RFA are not applicable to rules 
+adopted under the Administrative Procedure Act's ``good cause'' 
+exception. See 5 U.S.C. 601(2) (defining ``rule'' and notice 
+requirements under the Administrative Procedure Act).
+---------------------------------------------------------------------------
+
+    The RFA generally requires an agency to assess the impact a rule is 
+expected to have on small entities.\18\ The RFA requires an agency 
+either to provide a regulatory flexibility analysis or to certify that 
+the interim final rule will not have a significant economic impact on a 
+substantial number of small
+
+[[Page 5669]]
+
+entities. Based on this analysis and for the reasons stated below, the 
+Board believes that this interim final rule will not have a significant 
+economic impact on a substantial number of small entities.
+---------------------------------------------------------------------------
+
+    \18\ Under standards the U.S. Small Business Administration has 
+established, an entity is considered ``small'' if it has $175 
+million or less in assets for banks and other depository 
+institutions. U.S. Small Business Administration, Table of Small 
+Business Size Standards Matched to North American Industry 
+Classification System Codes, available at <a href="http://www.sba.gov/idc/groups/public/documents/sba_homepage/serv_sstd_tablepdf.pdf">http://www.sba.gov/idc/groups/public/documents/sba_homepage/serv_sstd_tablepdf.pdf</a>.
+---------------------------------------------------------------------------
+
+    Under regulations issued by the U.S. Small Business Administration, 
+a small entity includes a depository institution, bank holding company, 
+or savings and loan holding company with total assets of $550 million 
+or less (a small banking organization).\19\ As of June 30, 2014, there 
+were 254 small savings and loan holding companies.
+---------------------------------------------------------------------------
+
+    \19\ See 13 CFR 121.201. Effective July 14, 2014, the Small 
+Business Administration revised the size standards for banking 
+organizations to $550 million in assets from $500 million in assets. 
+79 FR 33647 (June 12, 2014).
+---------------------------------------------------------------------------
+
+    The Board believes that this interim final rule will reduce 
+regulatory burden by excluding a significant majority of savings and 
+loan holding companies with less than $500 million in total 
+consolidated assets from the Board's regulatory capital requirements in 
+Regulation Q. The Board believes that most affected savings and loan 
+holding companies currently have sufficient capital to satisfy the 
+minimum requirements of Regulation Q. Therefore, the relief provided by 
+this interim final rule relates largely to the significant burden of 
+establishing and maintaining the systems necessary to monitor and 
+demonstrate compliance with Regulation Q.
+    The Board is aware of no other Federal rules that duplicate, 
+overlap, or conflict with this interim final rule. The Board does not 
+believe that there are significant alternatives to the interim final 
+rule that would reduce the economic impact on small banking 
+organizations supervised by the Board.
+
+B. Paperwork Reduction Act Analysis
+
+    In accordance with section 3512 of the Paperwork Reduction Act of 
+1995 (44 U.S.C. 3501-3521) (PRA), the Board may not conduct or sponsor, 
+and a respondent is not required to respond to, an information 
+collection unless it displays a currently valid Office of Management 
+and Budget (OMB) control number. The OMB control number is 7100-0128. 
+The Board reviewed the interim final rule under the authority delegated 
+to the Board by OMB. The interim final rule contains requirements 
+subject to the PRA. The reporting requirements are found in sections 
+217.1(c)(1)(iii).
+    Comments are invited on:
+    (a) Whether the proposed collections of information are necessary 
+for the proper performance of the Federal Reserve's functions, 
+including whether the information has practical utility;
+    (b) The accuracy of the Federal Reserve's estimate of the burden of 
+the proposed information collections, including the validity of the 
+methodology and assumptions used;
+    (c) Ways to enhance the quality, utility, and clarity of the 
+information to be collected;
+    (d) Ways to minimize the burden of the information collections on 
+respondents, including through the use of automated collection 
+techniques or other forms of information technology; and
+    (e) Estimates of capital or startup costs and costs of operation, 
+maintenance, and purchase of services to provide information.
+    All comments will become a matter of public record. Comments on 
+aspects of this notice that may affect reporting, recordkeeping, or 
+disclosure requirements and burden estimates should be sent to: 
+Secretary, Board of Governors of the Federal Reserve System, 20th and C 
+Streets NW., Washington, DC 20551. A copy of the comments may also be 
+submitted to the OMB desk officer: By mail to U.S. Office of Management 
+and Budget, 725 17th Street NW., #10235, Washington, DC 20503 or by 
+facsimile to 202-395-5806, Attention, Agency Desk Officer.
+
+Proposed Revisions, With Extension, to the Following Information 
+Collection
+
+    Title of Information Collection: Consolidated Financial Statements 
+for Holding Companies; Parent Company Only Financial Statements for 
+Large Holding Companies; Parent Company Only Financial Statements for 
+Small Holding Companies; Financial Statements for Employee Stock 
+Ownership Plan Holding Companies; and Supplement to the Consolidated 
+Financial Statements for Holding Companies.
+    Agency Form Number: FR Y-9C; FR Y-9LP; FR Y-9SP; FR Y-9ES; and FR 
+Y-9CS.
+    OMB Control Number: 7100-0128.
+    Frequency of Response: Quarterly, semiannually, annually, and on 
+occasion.
+    Affected Public: Businesses or other for-profit.
+    Respondents: Bank holding companies, savings and loan holding 
+companies, and securities holding companies (collectively, ``holding 
+companies'').
+    Abstract: In 2013, the Board revised its regulatory capital rules 
+(revised regulatory capital rules),\20\ requiring corresponding 
+revisions to the FR Y-9C and FR Y-9SP. Effective March 31, 2014, the 
+Federal Reserve split the Schedule HC-R, Regulatory Capital, on the FR 
+Y-9C into two parts: Part I, which collected information on regulatory 
+capital components and ratios under the revised regulatory capital 
+rules, and Part II, which collected information on the existing risk-
+weighted assets reporting requirements. Advanced approaches holding 
+companies, except savings and loan holding companies, began reporting 
+on the proposed Schedule HC-R, Part I.B, Regulatory Capital Components 
+and Ratios \21\ effective March 2014. All other HC-R filers would begin 
+reporting on the proposed Schedule HC-R, Part I, Regulatory Capital 
+Components and Ratios, effective March 31, 2015.\22\ The Board also 
+approved in January 2014, Schedule SC-R, Part I, Regulatory Capital 
+Components and Ratios, to collect information on consolidated 
+regulatory capital components and ratios from small SLHCs that are 
+subject to the revised regulatory capital rules, effective June 30, 
+2015. Schedule SC-R, Part I, would collect the same data items as 
+Schedule HC-R, Part I, except Schedule HC-R, Part I, would collect
+
+[[Page 5670]]
+
+additional data from advanced approaches HCs.
+---------------------------------------------------------------------------
+
+    \20\ The revised regulatory capital rules were approved and 
+issued by the Board in July 2013 and published in the Federal 
+Register on October 11, 2013. See 78 FR 62018.
+    \21\ An advanced approaches institution as defined in section 
+100 of the revised regulatory capital rules (i) has consolidated 
+total assets (excluding assets held by an insurance underwriting 
+subsidiary) on its most recent year-end regulatory report equal to 
+$250 billion or more; (ii) has consolidated total on-balance sheet 
+foreign exposure on its most recent year-end regulatory report equal 
+to $10 billion or more (excluding exposures held by an insurance 
+underwriting subsidiary), as calculated in accordance with FFIEC 009 
+(OMB No. 7100-0035); (iii) is a subsidiary of a depository 
+institution that uses the advanced approaches pursuant to subpart E 
+of 12 CFR part 3 (OCC), 12 CFR part 217 (Board), or 12 CFR part 325 
+(FDIC) to calculate its total risk-weighted assets; (iv) is a 
+subsidiary of a BHC or SLHC that uses the advanced approaches 
+pursuant to 12 CFR part 217 to calculate its total risk-weighted 
+assets; or (v) elects to use the advanced approaches to calculate 
+its total risk-weighted assets. See 78 FR 62018.
+    \22\ During the 2014 reporting periods, Part I Schedule HC-R was 
+divided into Part I.A and Part I.B. Part I.A (completed by non-
+advanced approaches HCs) included data items 1 through 33 of current 
+Schedule HC-R. Part I.B (completed by advanced approaches HCs) 
+included reporting revisions consistent with the revised regulatory 
+capital rules. Part II (completed by all HC-R filers) included data 
+items 34 through Memoranda item 10 of current Schedule HC-R. 
+Effective March 31, 2015, Part I.A would be removed and Part I.B 
+would become Part I (to be completed by all HC-R filers). Part II 
+would be renumbered data items 1 through Memoranda item 4 and, 
+consistent with the revised regulatory capital rules, would 
+implement the standardized approach for the risk weighting of assets 
+(to be completed by all HC-R filers).
+---------------------------------------------------------------------------
+
+    Pursuant to the PRA's emergency review process, 44 U.S.C. 3507(j), 
+the Board is filing an emergency clearance review to eliminate Schedule 
+SC-R, Regulatory Capital, Part I, on the Parent Company Only Financial 
+Statements for Small Holding Companies (FR Y-9SP) to reduce burden on 
+small SLHCs immediately. In the emergency submission, the burden for 
+the FR Y-9SP related to the elimination of Schedule SC-R, Regulatory 
+Capital, Part I, would decrease by 156,935 hours. The change 
+implemented through the emergency clearance process would be effective 
+for six months. The Board is now proposing to make the change permanent 
+and welcomes public comment on any aspect of this information 
+collection. The burden estimates below reflect the updated number from 
+the total emergency clearance review.
+
+Estimated Paperwork Burden
+
+    Estimated Burden per Response:
+FR Y-9C (non Advanced Approaches bank holding companies)--48.84 hours;
+FR Y-9C (Advanced Approaches bank holding companies)--50.09 hours;
+FR Y-9LP--5.25 hours;
+FR Y-9SP--5.40 hours;
+FR Y-9ES--0.5 hours; and
+FR Y-9CS--0.5 hours.
+    Number of respondents:
+FR Y-9C (non Advanced Approaches bank holding companies)--644;
+FR Y-9C (Advanced Approaches bank holding companies)--12;
+FR Y-9LP--818;
+FR Y-9SP--4,390;
+FR Y-9ES--86; and
+FR Y-9CS--236.
+    Total estimated annual burden:
+FR Y-9C (non Advanced Approaches bank holding companies)--125,812 
+hours;
+FR Y-9C (Advanced Approaches bank holding companies)--2,404 hours;
+FR Y-9LP--17,178 hours;
+FR Y-9SP--47,412 hours;
+FR Y-9ES--43 hours; and
+FR Y-9CS--472 hours. (Total burden 193,321 hours)
+
+C. Plain Language
+
+    Section 722 of the Gramm-Leach-Bliley Act requires the Federal 
+banking agencies to use ``plain language'' in all proposed and final 
+rules published after January 1, 2000. In light of this requirement, 
+the Board has sought to present the interim final rule in a simple and 
+straightforward manner. The Board invites comments on whether there are 
+additional steps it could take to make the rule easier to understand.
+
+List of Subjects in 12 CFR Part 217
+
+    Administrative practice and procedure, Banks, banking, Capital, 
+Federal Reserve System, Holding companies, Reporting and recordkeeping 
+requirements, Securities.
+
+Board of Governors of the Federal Reserve System
+
+12 CFR CHAPTER II
+
+Authority and Issuance
+
+    For the reasons set forth in the supplementary information, the 
+Board amends 12 CFR Chapter II part 217 to read as follows:
+
+PART 217--CAPITAL ADEQUACY OF BANK HOLDING COMPANIES, SAVINGS AND 
+LOAN HOLDING COMPANIES, AND STATE MEMBER BANKS (REGULATION Q)
+
+0
+1. The authority citation for part 217 continues to read as follows:
+
+    Authority: 12 U.S.C. 248(a), 321-338a, 481-486, 1462a, 1467a, 
+1818, 1828, 1831n, 1831o, 1831p-l, 1831w, 1835, 1844(b), 1851, 3904, 
+3906-3909, 4808, 5365, 5368, 5371.
+
+
+0
+2. In Sec.  217.1, amend paragraph (c)(1)(iii) to read as follows:
+
+
+Sec.  217.1  Purpose, applicability, reservations of authority, and 
+timing.
+
+* * * * *
+    (c) * * *
+    (1) * * *
+    (iii) A covered savings and loan holding company domiciled in the 
+United States, other than a savings and loan holding company that has 
+total consolidated assets of less than $500 million and meets the 
+requirements of 12 CFR part 225, Appendix C, as if the savings and loan 
+holding company were a bank holding company and the savings association 
+were a bank. For purposes of compliance with the capital adequacy 
+requirements and calculations in this part, savings and loan holding 
+companies that do not file the FR Y-9C should follow the instructions 
+to the FR Y-9C.
+* * * * *
+
+    By order of the Board of Governors of the Federal Reserve 
+System, January 29, 2015.
+Michael Lewandowski,
+Associate Secretary of the Board.
+[FR Doc. 2015-02038 Filed 1-30-15; 11:15 am]
+BILLING CODE 6210-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

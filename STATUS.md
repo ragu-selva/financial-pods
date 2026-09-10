@@ -2,53 +2,34 @@
 
 ## Current Date
 
-2026-09-08, America/New_York. Documentation-only post-merge cleanup snapshot.
+2026-09-10, America/New_York. Internal-prototype activation governance snapshot.
 
 - Sprint 00: **ACCEPTED**.
 - Sprint 01: **ACCEPTED**.
-- Sprint 01 hardening: **ACCEPTED AND MERGED**.
-- PR #2: **MERGED** on 2026-09-08.
-- Sprint 02: **PLANNING ONLY — NOT ACTIVE**.
+- Sprint 01 hardening: **ACCEPTED AND MERGED**; PR #2 **MERGED**.
+- Sprint 02: **ACTIVE** on the activation branch. Implementation: **NOT YET STARTED**.
 
-Labels: **IMPLEMENTED** means present in inspected code; **VERIFIED** means an observed passing
-check; **PLANNED** means not implemented or authorized here; **BLOCKED** identifies an unmet gate.
-Historical acceptance is preserved separately from fresh verification.
+**IMPLEMENTED** = present software; **VERIFIED** = observed passing check; **PLANNED** = absent software.
+**BLOCKED** = unmet execution gate. Human-approved expectations are not runtime-verified results.
 
 ## Current Branch
 
-Local `main` was synchronized with `origin/main` at merge commit `b0cf3a9`.
-This documentation cleanup is published for review on `codex/post-merge-status-cleanup`, based on
-that merged main baseline. No history was rewritten or squashed.
-Repository: https://github.com/ragu-selva/financial-pods
-
-[PR #2 — Sprint 01: integrate and harden financial domain model](https://github.com/ragu-selva/financial-pods/pull/2)
-was merged into `main` on 2026-09-08 by the project owner.
-
-Main retains the original Sprint 01 implementation and hardening commits through merge history.
-The separate Sprint 02 planning branch is not merged into main.
+codex/sprint-02-activation, created from fetched origin/main at
+5fcfc5a42fc8cb3fc0a8bf53a8659fd60fa6d931 (merged PR #3).
+Activation PR: [#4](https://github.com/ragu-selva/financial-pods/pull/4), **OPEN FOR REVIEW**. No automatic merge.
+Main is not yet activated by this branch. Implementation waits for activation PR review and merge.
 
 ## Latest Commit
 
-Confirmed main merge commit:
-`b0cf3a95c97c80fc73d5dbf1b12b59b45cac6183` — merge PR #2, 2026-09-08 12:40:59 -04:00.
+Base main: 5fcfc5a42fc8cb3fc0a8bf53a8659fd60fa6d931.
+PR #2 merge b0cf3a95c97c80fc73d5dbf1b12b59b45cac6183 remains in ancestry.
+Original Sprint 01 03b03ec and hardening a71d639 / 46a723b remain preserved.
 
-Included implementation commit:
-`a71d6391daafcb5a9df4f4ce3e2fd19ed1b7274e` —
-`Harden Sprint 01 decimal, provenance, and immutable domain contracts`.
-
-Relevant history:
-
-- `2281209` — integrates accepted Sprint 01 onto main's history.
-- `03b03ec29f699cd546414a339f7e03ce0cd9eed7` — original accepted Sprint 01 implementation,
-  retained unchanged and already published on its original feature branch.
-- `46a723b` — hardening status/review evidence; included in PR #2 and the main merge.
-- This post-merge cleanup changes documentation only; its branch HEAD identifies the publication commit.
-
-Preserved separately: local `codex/sprint-02-rules-calculation` remains at
-`60fad85b78a1559fe61b78e461894587d165a304` (Sprint 02 draft controls).
-It remains absent from main ancestry. Published review branch `codex/sprint-02-planning` at
-`f90ee1e` retains 60fad85 in its ancestry and contains four planning-only Sprint 02 Markdown files
-relative to merged main. Original local `codex/sprint-02-rules-calculation` remains unchanged.
+Published planning commit: 79b33dbb1f069a89fc6d87336a23268adea08589, unchanged, on
+codex/sprint-02-planning. Local codex/sprint-02-rules-calculation remains at
+60fad85b78a1559fe61b78e461894587d165a304. No history rewritten or wholesale planning merge.
+Activation commit: bfd57576c1615abb53171abe6daeff5b0a854d83.
+The follow-up publication commit records PR #4; see the activation branch HEAD.
 
 ## Completed
 
@@ -71,18 +52,29 @@ relative to merged main. Original local `codex/sprint-02-rules-calculation` rema
 - **IMPLEMENTED / VERIFIED:** New hardening control pack, ADR 0003, 89 regression/property tests,
   and living-document status updates. Original historical Sprint 00/01 review records unchanged.
 - **VERIFIED:** Original Sprint 01 commit ancestry preserved; Sprint 02 branch remains at 60fad85;
-  no Sprint 02 files imported, no immutable reference artifacts altered.
+  during Sprint 01 hardening, no Sprint 02 files were imported; no immutable reference artifacts altered.
+
+- **APPROVED GOVERNANCE, NOT SOFTWARE:** Ragunath Selvaraj, Project Owner / Internal Regulatory
+  Reviewer, approved the narrow US/FRB 2025-01-01 sources and synthetic Golden Case for the internal
+  prototype. This is not independent legal certification or production-bank sign-off.
+- **IMPLEMENTED artifacts / VERIFIED integrity:** Separate approval envelope over unchanged v0.4
+  source manifest; 71 unchanged raw captures, six approved rule scopes, eight resolved dependencies,
+  zero required unresolved, four not-required and two future groups. Exact-date approval only.
+- **APPROVED EXPECTATIONS:** CORPORATE; EXPOSURE_AMOUNT / US_STANDARDIZED_CARRYING_VALUE USD 10m;
+  weight 1.00; RWA USD 10m; only baseline_total_capital_equivalent USD 800k at 0.08.
+  Explicit synthetic zero adjustments/allowance and negative screens accepted, not GAAP/CECL certification.
+- **ACCEPTED:** ADR 0004 generic engine -> registry -> jurisdiction provider, U.S. first.
+  Source resolver included unchanged for evidence resolution only. No classifier/calculator implemented.
 
 ## In Progress
 
-- Documentation-only post-merge synchronization of acceptance and publication records.
-- Architecture/regulatory review of the separately published Sprint 02 planning pack; no activation
-  or regulatory implementation has been authorized.
-- Sprint 01 hardening is accepted and merged; no acceptance or merge action remains for PR #2.
+Activation governance/evidence PR preparation and verification.
+The human/source/Golden prerequisites are complete for the internal prototype.
+PR review and merge remain required before production implementation.
 
 ## Not Started
 
-All items below are **PLANNED**, not implemented or authorized by this hardening task:
+All items below are **PLANNED**, not implemented by this activation task:
 
 - Basel exposure classification, risk weights, EAD, RWA, CET1, capital ratios, and regulatory rulesets.
 - Regulatory source ingestion, approved retrieval indexes, or jurisdiction adapters.
@@ -92,23 +84,16 @@ All items below are **PLANNED**, not implemented or authorized by this hardening
 - Production Terraform/deployment. GCP is the owner's preference, not a locked or deployed architecture.
 - Later packages/content directories remain placeholders, not working features.
 
-Sprint 02 draft activation documents exist only on the preserved planning branch. Their existence
-is not approval of framework selection, sources, reviewer provenance, or implementation.
+Sprint 02 engine implementation is the next approved narrow milestone after activation PR merge.
+This PR contains governance/evidence/tests only; no successful runtime regulatory result exists.
 
 ## Uncommitted Changes
 
-Sprint 01 hardening code and its evidence are committed and merged into main through PR #2.
-This follow-up publishes only documentation from the post-merge cleanup branch. No unrelated local
-production edits were found or included; no production files changed during cleanup.
-
-**Preserved and now published:** Sprint 02 planning commit 60fad85 is reachable from remote
-`codex/sprint-02-planning`; the original local branch still points to 60fad85. No unpublished
-production changes were introduced. The old inventory remains on `codex/current-status-inventory`
-(`73860e1`). No branch was deleted.
-
-Planning branch: https://github.com/ragu-selva/financial-pods/tree/codex/sprint-02-planning
-
-Generated caches/build outputs remain ignored. No secrets or real environment files are committed.
+This activation task publishes only approved Sprint 02 control/evidence artifacts, the resolver skill,
+ADR, artifact tests, CI evidence checks and living documentation. No unrelated local changes found.
+Planning commit 79b33db is already pushed unchanged; the original planning branch/history is preserved.
+Generated caches and build outputs remain ignored. No secrets or real environment files are included.
+Only the scoped activation changes are prepared for publication; final clean-tree verification follows commit.
 
 ## Current Architecture
 
@@ -130,6 +115,11 @@ Generated caches/build outputs remain ignored. No secrets or real environment fi
   other domain packages, cloud hosting, and external AI/video/social-provider integrations.
   No active provider integration or production deployment is present.
 
+- **ACCEPTED DESIGN / NOT IMPLEMENTED:** Generic regulatory engine, ruleset registry and jurisdiction
+  provider abstraction. First provider: USStandardizedRuleset for the approved ordinary corporate
+  path only. BCBS is conceptual, never a U.S. fallback. Other providers/classes and Regxify extraction
+  remain future scope. The source approval package is documentary, not executable software.
+
 ## Current Working Features
 
 - Load the approved synthetic fixture, validate the typed case, serialize it, and restore it.
@@ -144,6 +134,16 @@ There is no working Golden Lesson, regulatory capital calculator, AI tutor, or s
 feature. A running Docker demonstration was not available during this task.
 
 ## Tests and Verification
+
+**Fresh activation verification, 2026-09-10:**
+
+- Source/hash + planning/activation checks: **35/35 PASS**; all 71 raw hashes and unchanged snapshots.
+- Full repository verification: **PASS / exit 0**. Formatting/lint, TypeScript/mypy, 130 finance-engine tests including properties, 5 API tests, 3 web tests, 2 Playwright tests, Next.js and Python builds, 10 immutable artifact hashes.
+- Docker availability rechecked: **BLOCKED**, missing Docker Desktop Linux engine pipe.
+  No local stack-runtime pass is claimed.
+- Hosted activation CI: **PENDING** for final publication head; see [PR #4 checks](https://github.com/ragu-selva/financial-pods/pull/4/checks).
+
+**Retained historical acceptance evidence (not a fresh activation run):**
 
 **VERIFIED locally, 2026-09-08:**
 
@@ -160,7 +160,7 @@ production code, fixtures, dependencies, and infrastructure are unchanged from b
 - Builds: Next.js production build, API sdist/wheel, finance-engine sdist/wheel pass.
 - Artifact checks: all 10 catalogued immutable reference hashes pass.
 - `.venv/Scripts/python.exe -m pytest -c packages/finance-engine/pyproject.toml
-  packages/finance-engine/tests/test_hardening.py --hypothesis-show-statistics -q` — 89 pass.
+packages/finance-engine/tests/test_hardening.py --hypothesis-show-statistics -q` — 89 pass.
   Three new properties each produced 100 passing examples, zero failing examples.
 - `docker compose --env-file .env.example config --quiet` — pass (configuration only).
 - `git diff --check` and protected-history/content checks pass.
@@ -190,7 +190,7 @@ does not reopen or block the accepted and merged Sprint 01 baseline.
 
 - **Non-blocking known limitation:** Local Docker full-stack runtime was unavailable during
   hardening verification. Recheck after Docker Desktop's Linux engine is running.
-- **BLOCKED from implementation:** Sprint 02 still requires separate explicit activation approvals.
+- **BLOCKED from implementation:** Sprint 02 implementation waits for activation PR review and merge; internal-prototype human/source approval is complete.
   PR #2 review, acceptance, and merge are complete.
 - Original Decimal/provenance/mutable-list defects are **FIXED / VERIFIED** by the hardening suite.
   This does not certify every future financial rule or arbitrary input boundary.
@@ -204,24 +204,25 @@ does not reopen or block the accepted and merged Sprint 01 baseline.
 - Sprint 01 remains USD-only; no new magnitude cap, financial rounding policy, or regulatory meaning
   has been invented. Inputs/results must remain within available runtime resources.
 - Some historical onboarding/review documents describe an earlier state. They are historical
-  evidence, not current authorization. STATUS.md and the hardening control pack govern this snapshot.
+  evidence, not current authorization. STATUS.md, Sprint 02 SPRINT.md and ACTIVATION_RECORD.json govern this snapshot.
+
+- Approved source eligibility is restricted to 2025-01-01; unknown legal endpoints are not open-ended.
+  Different dates or changed material facts require review. No general CECL/PPP/market-risk corpus.
+- Runtime schemas, canonical input serialization, classifier/provider/trace and all regulatory runtime
+  tests remain unimplemented. Approval tests cannot establish legal truth or verify a calculator.
 
 ## Current Sprint
 
-Sprint 00: **ACCEPTED**. Sprint 01: **ACCEPTED**. Sprint 01 hardening: **ACCEPTED AND MERGED**
-through PR #2 at `b0cf3a95c97c80fc73d5dbf1b12b59b45cac6183` on 2026-09-08.
-No implementation sprint is active. Sprint 02 is **PLANNING ONLY — NOT ACTIVE**.
+Sprint 00: **ACCEPTED**. Sprint 01: **ACCEPTED**. Sprint 01 hardening: **ACCEPTED AND MERGED**.
+Sprint 02: **ACTIVE** on the activation branch. Implementation: **NOT YET STARTED**.
+The activation PR is governance/evidence only; main execution waits for human review and merge.
 
 ## Recommended Next Sprint
 
-The verified Sprint 01 baseline is accepted and on main. Restore Docker and rerun stack verification
-when available as a non-blocking local-environment follow-up.
-
-Review the four documents on `codex/sprint-02-planning`. Sprint 02 must not begin until its framework,
-jurisdiction, regulatory sources, calculation scope, golden outputs, and regulatory review process
-are explicitly approved by the project owner and accountable regulatory reviewer. The preserved
-60fad85 draft and its publication are not implementation approval.
-Do not begin regulatory calculations merely because the domain hardening tests pass.
+Review and merge the activation PR. Then begin the separate
+codex/sprint-02-us-corporate-engine milestone: generic contracts/registry, one U.S. corporate
+provider, typed exposure amount, weight/RWA, sole educational output, trace and runtime tests.
+Do not start that implementation in this task. Restore Docker separately and rerun stack verification.
 
 ## Important Decisions
 
@@ -236,4 +237,10 @@ Do not begin regulatory calculations merely because the domain hardening tests p
 - V1 still comprises Product V1 Golden Lesson plus Growth V1 social publishing; both remain later
   work. Manual human-approved publishing is sufficient for that planned release.
 - GCP preference is provisional; no AWS/GCP production deployment is locked by this task.
-- No automatic PR merge. No Sprint 02 activation in this task.
+- No automatic PR merge. Activation is internal-prototype governance only; implementation waits for merge.
+
+- Preserve original source evidence and planning snapshots. Approval is a separate pinned package.
+- R-1888 remains PROPOSED / executable=false; no proposal/alias can replace 2025 authority.
+- The USD 800k output is educational, not allocated/economic capital, a complete regulatory
+  requirement, institution-specific requirement or capital adequacy conclusion.
+- The personally confirmed reviewer is Ragunath Selvaraj; AI transcribes but cannot sign that approval.

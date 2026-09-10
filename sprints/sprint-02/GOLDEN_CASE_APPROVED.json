@@ -1,0 +1,622 @@
+{
+  "schema_version": "approved-golden-case.v1",
+  "status": "ACTIVE",
+  "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+  "reviewer_name": "Ragunath Selvaraj",
+  "review_date": "2026-09-10",
+  "review_evidence": "ACTIVATION_RECORD.json",
+  "specimen_kind": "APPROVED_EXPECTATIONS_NOT_EXECUTED_RESULT",
+  "executable": false,
+  "accepted_fixture": {
+    "path": "../../data/finbank/alpha_manufacturing_v1.json",
+    "sha256": "931cacd6e09c899395b074a6303713a86a0a5d464bcf8b2571d0b9b53522ba96",
+    "sha256_policy": "Accepted Git blob (LF); normalize checkout CRLF to LF for fixture comparison only. Captured regulatory source bytes are never normalized.",
+    "working_tree_sha256_at_capture": "9c275922caa59dd968a34f13e30595b78ebf4ca71d3a87cf0b914cdae8da85f4",
+    "regulatory_fact_snapshot": "2025-01-01",
+    "modified": false
+  },
+  "context": {
+    "as_of_date": "2025-01-01",
+    "jurisdiction": "US",
+    "regulator": "FRB",
+    "ruleset_family": "US_FRB_PART217_STANDARDIZED",
+    "regulatory_regime": "STANDARDIZED",
+    "ruleset_version": "US_FRB_PART217_STANDARDIZED@2025-01-01.internal-v1"
+  },
+  "reviewed_candidates": [
+    {
+      "path": "GOLDEN_CASE_CANDIDATE.json",
+      "sha256": "0eae615fc75c0f4a3ac4e578d8f83d6c5ea38e2570c1526bf9bdf702c8581617"
+    },
+    {
+      "path": "GOLDEN_CASE_SOURCE_BOUNDARY.json",
+      "sha256": "913e8d5ef75deb1e631856513a826aa170a5609e2293ec98e3f7793d54bd2e46"
+    }
+  ],
+  "fact_groups": {
+    "institution": {
+      "facts": {
+        "state_member_bank": true,
+        "frb_supervised": true,
+        "standardized_reporting": true,
+        "cblr_elected": false,
+        "cblr_ever_elected": false,
+        "cblr_grace_period": false,
+        "call_report_not_holding_company_report": true
+      },
+      "dependency_ids": ["DEP-INSTITUTION", "DEP-CBLR"],
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "provenance": "Owner-approved synthetic stipulations, not verified real-bank records."
+    },
+    "counterparty": {
+      "facts": {
+        "legal_form": "DOMESTIC_PRIVATE_FOR_PROFIT_CORPORATION",
+        "organized_in": "US",
+        "business_activity": "MANUFACTURE_AND_SALE_OF_PHYSICAL_GOODS",
+        "banking_business": false,
+        "receives_deposits": false,
+        "power_to_accept_demand_deposits": false,
+        "national_or_state_bank_or_banking_association": false,
+        "trust_savings_or_industrial_bank": false,
+        "federal_or_state_savings_association": false,
+        "former_savings_association": false,
+        "joint_agency_savings_association_determination": false,
+        "foreign_bank_or_bank_branch_or_agency": false,
+        "recognized_as_bank_by_supervisor": false,
+        "federal_or_state_credit_union_charter": false,
+        "member_thrift_credit_cooperative": false,
+        "government_or_political_subdivision": false,
+        "government_established_or_chartered_public_purpose_enterprise": false,
+        "multilateral_or_supranational_institution": false,
+        "central_bank": false
+      },
+      "dependency_ids": ["DEP-EXTERNAL-IDENTITY"],
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "provenance": "Owner-approved synthetic stipulations, not verified real-bank records."
+    },
+    "ppp": {
+      "facts": {
+        "ppp_loan": false,
+        "originated_under_15_usc_636_a_36": false,
+        "originated_under_15_usc_636_a_37": false,
+        "sba_program_loan": false,
+        "ppp_refinancing_or_acquired_ppp_loan": false
+      },
+      "dependency_ids": ["DEP-PPP"],
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "provenance": "Owner-approved synthetic stipulations, not verified real-bank records."
+    },
+    "accounting": {
+      "facts": {
+        "accounting_basis": "US_GAAP",
+        "originated_by_finbank": true,
+        "acquired_loan": false,
+        "held_for_investment": true,
+        "intent_and_ability_to_hold": true,
+        "held_for_sale": false,
+        "measurement": "AMORTIZED_COST",
+        "fair_value_option": false,
+        "pcd": false,
+        "legacy_pci_pool": false,
+        "afs_debt_security": false,
+        "htm_debt_security": false,
+        "preferred_security": false,
+        "original_principal": "10000000.00",
+        "outstanding_principal": "10000000.00",
+        "principal_repayments": "0.00",
+        "accrued_interest_receivable": "0.00",
+        "unamortized_premium": "0.00",
+        "unamortized_discount": "0.00",
+        "unamortized_deferred_fees": "0.00",
+        "unamortized_deferred_costs": "0.00",
+        "full_charge_offs": "0.00",
+        "partial_write_offs": "0.00",
+        "credit_loss_allowance": "0.00",
+        "specific_provisions": "0.00",
+        "allocated_transfer_risk_reserve": "0.00",
+        "foreign_exchange_adjustments": "0.00",
+        "fair_value_hedge_adjustments": "0.00",
+        "other_carrying_value_adjustments": "0.00",
+        "currency": "USD",
+        "gross_amortized_cost": "10000000.00",
+        "net_balance_sheet_amount_candidate": "10000000.00",
+        "gaap_based_regulatory_carrying_value_candidate": "10000000.00"
+      },
+      "dependency_ids": ["DEP-REPORTING-ACCOUNTING", "DEP-AOCI"],
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "provenance": "Owner-approved synthetic stipulations, not verified real-bank records."
+    },
+    "market_risk": {
+      "facts": {
+        "bank_functional_currency": "USD",
+        "loan_currency": "USD",
+        "short_term_resale_intent": false,
+        "short_term_price_profit_intent": false,
+        "arbitrage_intent": false,
+        "market_making_or_customer_trading_accommodation": false,
+        "managed_as_trading": false,
+        "reported_as_trading_asset": false,
+        "hedges_another_covered_position": false,
+        "foreign_exchange_position": false,
+        "commodity_position": false,
+        "securities_lending_or_repo_position": false,
+        "embedded_derivative": false
+      },
+      "dependency_ids": ["DEP-COVERED-POSITION"],
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "provenance": "Owner-approved synthetic stipulations, not verified real-bank records."
+    },
+    "other_scope": {
+      "facts": {
+        "fully_drawn": true,
+        "on_balance_sheet": true,
+        "off_balance_sheet": false,
+        "undrawn_amount": "0.00",
+        "security_or_fx_or_commodity_settlement_trade": false,
+        "unsettled_transaction": false,
+        "ccp_or_clearing_member_transaction": false,
+        "cash_collateral_to_ccp": false,
+        "cleared_transaction": false,
+        "default_fund_contribution": false,
+        "derivative": false,
+        "repo_style_transaction": false,
+        "eligible_margin_loan": false,
+        "collateral": false,
+        "guarantee": false,
+        "netting": false,
+        "crm_recognition": false,
+        "real_estate_collateral": false,
+        "real_estate_acquisition_development_or_construction_purpose": false,
+        "securitization_or_tranching": false,
+        "equity_or_equity_linked_return": false,
+        "policy_loan": false,
+        "separate_account": false,
+        "days_past_due": 0,
+        "nonaccrual": false,
+        "defaulted": false
+      },
+      "dependency_ids": [
+        "DEP-UNSETTLED",
+        "DEP-QCCP",
+        "DEP-CRM-DERIVATIVES",
+        "DEP-OTHER-CLASSES",
+        "DEP-PAST-DUE"
+      ],
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "provenance": "Owner-approved synthetic stipulations, not verified real-bank records."
+    }
+  },
+  "exposure_facts": {
+    "product_type": "CORPORATE_TERM_LOAN",
+    "ordinary": true,
+    "fully_drawn": true,
+    "on_balance_sheet": true,
+    "off_balance_sheet": false,
+    "undrawn_amount": "0.00",
+    "currency": "USD",
+    "original_principal": "10000000.00",
+    "outstanding_balance": "10000000.00",
+    "gaap_carrying_value": "10000000.00",
+    "accounting_basis": "US_GAAP",
+    "specific_provisions": "0.00",
+    "partial_write_offs": "0.00",
+    "credit_loss_allowance": "0.00",
+    "other_carrying_value_adjustments": "0.00",
+    "carrying_value_reconciliation_review": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+    "performing": true,
+    "defaulted": false,
+    "past_due": false,
+    "days_past_due": 0,
+    "nonaccrual": false,
+    "crm": "NONE_IN_SCOPE"
+  },
+  "definition_screen": [
+    {
+      "assessment_id": "US-CORP-01",
+      "rule_ref": "US-CLASS",
+      "locator": "12 CFR 217.2 corporate exposure definition (1), as of 2025-01-01",
+      "alternative_assessments": [
+        {
+          "concept": "sovereign",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        },
+        {
+          "concept": "bank_for_international_settlements",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        },
+        {
+          "concept": "european_central_bank",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        },
+        {
+          "concept": "european_commission",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        },
+        {
+          "concept": "international_monetary_fund",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        },
+        {
+          "concept": "european_stability_mechanism",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        },
+        {
+          "concept": "european_financial_stability_facility",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        },
+        {
+          "concept": "multilateral_development_bank",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        },
+        {
+          "concept": "depository_institution",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        },
+        {
+          "concept": "foreign_bank",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        },
+        {
+          "concept": "credit_union",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        },
+        {
+          "concept": "public_sector_entity",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        }
+      ],
+      "reviewer_evidence": "ACTIVATION_RECORD.json"
+    },
+    {
+      "assessment_id": "US-CORP-02",
+      "rule_ref": "US-CLASS",
+      "locator": "12 CFR 217.2 corporate exposure definition (2), as of 2025-01-01",
+      "alternative_assessments": [
+        {
+          "concept": "gse",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        }
+      ],
+      "reviewer_evidence": "ACTIVATION_RECORD.json"
+    },
+    {
+      "assessment_id": "US-CORP-03",
+      "rule_ref": "US-CLASS",
+      "locator": "12 CFR 217.2 corporate exposure definition (3), as of 2025-01-01",
+      "alternative_assessments": [
+        {
+          "concept": "residential_mortgage",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        }
+      ],
+      "reviewer_evidence": "ACTIVATION_RECORD.json"
+    },
+    {
+      "assessment_id": "US-CORP-04",
+      "rule_ref": "US-CLASS",
+      "locator": "12 CFR 217.2 corporate exposure definition (4), as of 2025-01-01",
+      "alternative_assessments": [
+        {
+          "concept": "presold_construction_loan",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        }
+      ],
+      "reviewer_evidence": "ACTIVATION_RECORD.json"
+    },
+    {
+      "assessment_id": "US-CORP-05",
+      "rule_ref": "US-CLASS",
+      "locator": "12 CFR 217.2 corporate exposure definition (5), as of 2025-01-01",
+      "alternative_assessments": [
+        {
+          "concept": "statutory_multifamily_mortgage",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        }
+      ],
+      "reviewer_evidence": "ACTIVATION_RECORD.json"
+    },
+    {
+      "assessment_id": "US-CORP-06",
+      "rule_ref": "US-CLASS",
+      "locator": "12 CFR 217.2 corporate exposure definition (6), as of 2025-01-01",
+      "alternative_assessments": [
+        {
+          "concept": "hvcre",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        }
+      ],
+      "reviewer_evidence": "ACTIVATION_RECORD.json"
+    },
+    {
+      "assessment_id": "US-CORP-07",
+      "rule_ref": "US-CLASS",
+      "locator": "12 CFR 217.2 corporate exposure definition (7), as of 2025-01-01",
+      "alternative_assessments": [
+        {
+          "concept": "cleared_transaction",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        }
+      ],
+      "reviewer_evidence": "ACTIVATION_RECORD.json"
+    },
+    {
+      "assessment_id": "US-CORP-08",
+      "rule_ref": "US-CLASS",
+      "locator": "12 CFR 217.2 corporate exposure definition (8), as of 2025-01-01",
+      "alternative_assessments": [
+        {
+          "concept": "default_fund_contribution",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        }
+      ],
+      "reviewer_evidence": "ACTIVATION_RECORD.json"
+    },
+    {
+      "assessment_id": "US-CORP-09",
+      "rule_ref": "US-CLASS",
+      "locator": "12 CFR 217.2 corporate exposure definition (9), as of 2025-01-01",
+      "alternative_assessments": [
+        {
+          "concept": "securitization",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        }
+      ],
+      "reviewer_evidence": "ACTIVATION_RECORD.json"
+    },
+    {
+      "assessment_id": "US-CORP-10",
+      "rule_ref": "US-CLASS",
+      "locator": "12 CFR 217.2 corporate exposure definition (10), as of 2025-01-01",
+      "alternative_assessments": [
+        {
+          "concept": "equity",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        }
+      ],
+      "reviewer_evidence": "ACTIVATION_RECORD.json"
+    },
+    {
+      "assessment_id": "US-CORP-11",
+      "rule_ref": "US-CLASS",
+      "locator": "12 CFR 217.2 corporate exposure definition (11), as of 2025-01-01",
+      "alternative_assessments": [
+        {
+          "concept": "unsettled_transaction",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        }
+      ],
+      "reviewer_evidence": "ACTIVATION_RECORD.json"
+    },
+    {
+      "assessment_id": "US-CORP-12",
+      "rule_ref": "US-CLASS",
+      "locator": "12 CFR 217.2 corporate exposure definition (12), as of 2025-01-01",
+      "alternative_assessments": [
+        {
+          "concept": "policy_loan",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        }
+      ],
+      "reviewer_evidence": "ACTIVATION_RECORD.json"
+    },
+    {
+      "assessment_id": "US-CORP-13",
+      "rule_ref": "US-CLASS",
+      "locator": "12 CFR 217.2 corporate exposure definition (13), as of 2025-01-01",
+      "alternative_assessments": [
+        {
+          "concept": "separate_account",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        }
+      ],
+      "reviewer_evidence": "ACTIVATION_RECORD.json"
+    },
+    {
+      "assessment_id": "US-CORP-14",
+      "rule_ref": "US-CLASS",
+      "locator": "12 CFR 217.2 corporate exposure definition (14), as of 2025-01-01",
+      "alternative_assessments": [
+        {
+          "concept": "ppp_covered_loan",
+          "outcome": "NO",
+          "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+          "provenance": "Owner approval of GOLDEN_CASE_SOURCE_BOUNDARY.json synthetic facts"
+        }
+      ],
+      "reviewer_evidence": "ACTIVATION_RECORD.json"
+    }
+  ],
+  "treatment_scope_assessments": [
+    {
+      "concept": "MARKET_RISK_COVERED_POSITION",
+      "outcome": "NO",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "review_evidence": "SOURCE_MANIFEST.json and MATERIAL_SOURCE_CLOSURE.md; outer negative screen only"
+    },
+    {
+      "concept": "QCCP_CASH_COLLATERAL_EXCEPTION",
+      "outcome": "NO",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "review_evidence": "SOURCE_MANIFEST.json and MATERIAL_SOURCE_CLOSURE.md; outer negative screen only"
+    },
+    {
+      "concept": "NON_ORDINARY_MEASUREMENT_EXCEPTION",
+      "outcome": "NO",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "review_evidence": "SOURCE_MANIFEST.json and MATERIAL_SOURCE_CLOSURE.md; outer negative screen only"
+    },
+    {
+      "concept": "PURCHASED_CREDIT_DETERIORATED",
+      "outcome": "NO",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "review_evidence": "SOURCE_MANIFEST.json and MATERIAL_SOURCE_CLOSURE.md; outer negative screen only"
+    },
+    {
+      "concept": "GUARANTEE",
+      "outcome": "NO",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "review_evidence": "SOURCE_MANIFEST.json and MATERIAL_SOURCE_CLOSURE.md; outer negative screen only"
+    },
+    {
+      "concept": "NETTING",
+      "outcome": "NO",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "review_evidence": "SOURCE_MANIFEST.json and MATERIAL_SOURCE_CLOSURE.md; outer negative screen only"
+    },
+    {
+      "concept": "COLLATERAL_OR_CRM",
+      "outcome": "NO",
+      "review_status": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+      "review_evidence": "SOURCE_MANIFEST.json and MATERIAL_SOURCE_CLOSURE.md; outer negative screen only"
+    }
+  ],
+  "expected_result": {
+    "schema_version": "regulatory-calculation.v0.2-draft",
+    "jurisdiction": "US",
+    "as_of_date": "2025-01-01",
+    "classification": {
+      "exposure_class": "CORPORATE",
+      "subclass": "GENERAL_CORPORATE",
+      "rule_refs": ["US-CLASS"],
+      "reason_codes": ["US_CORPORATE_DEFINITION_SATISFIED"],
+      "warnings": []
+    },
+    "regulatory_treatment": "ORDINARY_US_STANDARDIZED_CORPORATE",
+    "regulatory_exposure_measure": {
+      "amount": "10000000.00",
+      "currency": "USD",
+      "measure_type": "EXPOSURE_AMOUNT",
+      "measurement_basis": "US_STANDARDIZED_CARRYING_VALUE",
+      "rule_refs": ["US-MEASURE"],
+      "warnings": []
+    },
+    "risk_weight": {
+      "value": "1.00",
+      "unit": "RATIO",
+      "rule_refs": ["US-CORP-RW"]
+    },
+    "rwa": {
+      "amount": "10000000.00",
+      "currency": "USD",
+      "rule_refs": ["US-RWA"]
+    },
+    "capital_teaching_outputs": [
+      {
+        "name": "baseline_total_capital_equivalent",
+        "amount": "800000.00",
+        "currency": "USD",
+        "ratio": "0.08",
+        "rule_refs": ["US-TEACHING"],
+        "warnings": [
+          "EDUCATIONAL_ONLY",
+          "NOT_ALLOCATED_LOAN_CAPITAL",
+          "NOT_INSTITUTION_SPECIFIC_REQUIREMENT",
+          "NOT_CAPITAL_ADEQUACY_CONCLUSION",
+          "NOT_ECONOMIC_CAPITAL",
+          "NOT_COMPLETE_REQUIRED_REGULATORY_CAPITAL"
+        ]
+      }
+    ],
+    "ruleset_id": "US_FRB_PART217_STANDARDIZED",
+    "ruleset_version": "US_FRB_PART217_STANDARDIZED@2025-01-01.internal-v1",
+    "rule_versions": {
+      "US-SCOPE": "US-SCOPE@2025-01-01.internal-v1",
+      "US-CLASS": "US-CLASS@2025-01-01.internal-v1",
+      "US-MEASURE": "US-MEASURE@2025-01-01.internal-v1",
+      "US-CORP-RW": "US-CORP-RW@2025-01-01.internal-v1",
+      "US-RWA": "US-RWA@2025-01-01.internal-v1",
+      "US-TEACHING": "US-TEACHING@2025-01-01.internal-v1"
+    },
+    "manifest_hash": null,
+    "catalog_snapshot_id": null,
+    "input_snapshot_hash": null,
+    "calculation_trace": null,
+    "source_citations": [
+      "US-CLASS",
+      "US-MEASURE",
+      "US-CORP-RW",
+      "US-RWA",
+      "US-TEACHING"
+    ],
+    "warnings": [
+      "INTERNAL_PROTOTYPE_ONLY",
+      "EDUCATIONAL_ONLY",
+      "NOT_ECONOMIC_CAPITAL",
+      "NOT_COMPLETE_REQUIRED_REGULATORY_CAPITAL"
+    ],
+    "exclusions": [
+      "NO_CET1_OR_TIER1_TEACHING_EQUIVALENTS",
+      "NO_BUFFERS_OR_COMPLETE_CAPITAL_REQUIREMENT",
+      "NO_OTHER_EXPOSURE_CLASSES_OR_JURISDICTIONS",
+      "NO_CRM_CALCULATION"
+    ]
+  },
+  "accepted_simplifications": {
+    "gaap_carrying_value": "10000000.00",
+    "currency": "USD",
+    "credit_loss_allowance": "0.00",
+    "write_offs": "0.00",
+    "premium_discount": "0.00",
+    "accrued_interest_fee_adjustment": "0.00",
+    "pcd": false,
+    "crm": "NONE",
+    "past_due": false,
+    "nonaccrual": false
+  },
+  "limitations": [
+    "Synthetic internal prototype only; no treatment established for arbitrary real-bank exposures.",
+    "Zero allowance is explicitly accepted, NOT inferred from performing status and NOT a CECL estimate or GAAP certification.",
+    "Gross amortized cost, net balance-sheet amount and Part 217 carrying value are distinct; do not double-subtract allowances/write-offs.",
+    "USD 800,000 is educational only: not allocated loan capital, economic capital, complete required regulatory capital, institution-specific requirement or capital adequacy conclusion.",
+    "Missing, contradictory or changed material facts reopen source/assumption review. Names must never determine rules.",
+    "Null manifest/catalog/input hashes and trace mean NOT EXECUTED; runtime implementation must produce/verify them before a successful result."
+  ]
+}
