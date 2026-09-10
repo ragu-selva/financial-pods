@@ -1,0 +1,440 @@
+<html>
+<head>
+<title>Federal Register, Volume 80 Issue 220 (Monday, November 16, 2015)</title>
+</head>
+<body><pre>
+[Federal Register Volume 80, Number 220 (Monday, November 16, 2015)]
+[Rules and Regulations]
+[Pages 70671-70673]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2015-28294]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+FEDERAL RESERVE SYSTEM
+
+12 CFR Parts 208, 217, 225, and 252
+
+[Regulations H, Q, Y, and YY; Docket Nos. R-1442 and R-1492]
+RIN 7100 AE-87
+
+
+Regulatory Capital Rules; Enhanced Prudential Standards for Bank 
+Holding Companies and Foreign Banking Organizations; Correction
+
+AGENCY: Board of Governors of the Federal Reserve System.
+
+ACTION: Final rule; correcting amendment.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Board of Governors of the Federal Reserve System (Board) 
+published a final rule in the Federal Register on October 11, 2013 (78 
+FR 62018) regarding Regulatory Capital Rules and another final rule on 
+October 27, 2014 (79 FR 64025) regarding Capital Plan and Stress Test 
+Rules. This publication removes certain expired transitional 
+requirements in Regulations H and Y, resolves certain citation errors, 
+replaces a wrongly duplicated paragraph in Regulation Q, and corrects a 
+typographical error in Regulation YY.
+
+DATES: The corrections are effective November 16, 2015, except that 
+instructions 10.b and 10.f amending 12 CFR 208.43 are effective January 
+1, 2018.
+
+FOR FURTHER INFORMATION CONTACT: Benjamin McDonough, Special Counsel, 
+(202) 452-2036, Julie Anthony, Counsel, (202) 475-6682, or Mark Buresh, 
+Senior Attorney, (202) 452-5270, Legal Division, Board of Governors of 
+the Federal Reserve System, 20th Street and Constitution Avenue NW., 
+Washington, DC 20551. Telecommunications Device for the Deaf (TDD) 
+users may contact (202) 263-4869.
+
+SUPPLEMENTARY INFORMATION: The Board is correcting errors in and 
+deleting certain expired transitional requirements from the final rule 
+that was published in the Federal Register on October 11, 2013 (78 FR 
+62018). These revisions will remove text or footnotes in 12 CFR parts 
+208 and 225 describing certain transitional requirements that have 
+expired, correct citations in 12 CFR 217.2 and 12 CFR 217.202(b)(10), 
+and remove and replace a wrongly duplicated paragraph in 12 CFR 
+217.300(c)(3). The Board is also correcting a typographical error in 
+the final rule that was published in the Federal Register on October 
+27, 2014 (79 FR 64025), which caused the unintended deletion of Sec.  
+252.153(e)(2)-(5).
+
+List of Subjects
+
+12 CFR Part 208
+
+    Accounting, Agriculture, Banks, Banking, Confidential business 
+information, Consumer protection, Crime, Currency, Global systemically 
+important bank, Insurance, Investments, Mortgages, Reporting and 
+recordkeeping requirements, Securities.
+
+12 CFR Part 217
+
+    Administrative practice and procedure, Banks, Banking, Holding 
+companies, Reporting and recordkeeping requirements, Securities.
+
+12 CFR Part 225
+
+    Administrative practice and procedure, Banks, banking, Federal 
+Reserve System, Holding companies, Reporting and recordkeeping 
+requirements, Securities.
+
+[[Page 70672]]
+
+12 CFR Part 252
+
+    Administrative practice and procedure, Banks, Banking, Federal 
+Reserve System, Holding companies, Nonbank financial companies 
+supervised by the Board, Reporting and recordkeeping requirements, 
+Securities, Stress testing.
+
+    For the reasons set forth in the preamble, chapter II of title 12 
+of the Code of Federal Regulations is amended as follows:
+
+PART 208--MEMBERSHIP OF STATE BANKING INSTITUTIONS IN THE FEDERAL 
+RESERVE SYSTEM
+
+0
+1. The authority citation for part 208 continues to read as follows:
+
+    Authority: 12 U.S.C. 24, 36, 92a, 93a, 248(a), 248(c), 321-338a, 
+371d, 461, 481-486, 601, 611, 1814, 1816, 1818, 1820(d)(9), 1833(j), 
+1828(o), 1831, 1831o, 1831p-1, 1831r-1, 1831w, 1831x, 1835a, 1882, 
+2901-2907, 3105, 3310, 3331-3351, 3353, and 3905-3909; 15 U.S.C. 
+78b, 78l(b), 78l(i), 780-4(c)(5), 78q, 78q-1, 78w, 1681s, 1681w, 
+6801 and 6805; 31 U.S.C. 5318; 42 U.S.C. 4012a, 4104b, 4106, and 412
+
+
+Sec.  208.2  [Amended]
+
+0
+2. In Sec.  208.2, remove footnote 2.
+
+
+Sec.  208.3  [Amended]
+
+0
+3. In Sec.  208.3, redesignate footnote 3 as footnote 2.
+
+
+Sec.  208.4  [Amended]
+
+0
+4. In Sec.  208.4, remove footnotes 4 and 5.
+
+
+Sec.  208.5  [Amended]
+
+0
+5. In Sec.  208.5, redesignate footnote 6 as footnote 3 and footnote 7 
+as footnote 4.
+
+
+Sec.  208.21  [Amended]
+
+0
+6. In Sec.  208.21, redesignate footnote 8 as footnote 5.
+
+
+Sec.  208.24  [Amended]
+
+0
+7. In Sec.  208.24, redesignate footnote 9 as footnote 6.
+0
+8. In Sec.  208.40, revise paragraph (e) to read as follows:
+
+
+Sec.  208.40  Authority, purpose, scope, other supervisory authority, 
+and disclosure of capital categories.
+
+* * * * *
+    (e) Timing. The calculation of the definitions of common equity 
+tier 1 capital, the common equity tier 1 risk-based capital ratio, the 
+leverage ratio, the supplementary leverage ratio, tangible equity, tier 
+1 capital, the tier 1 risk-based capital ratio, total assets, total 
+leverage exposure, the total risk-based capital ratio, and total risk-
+weighted assets under this subpart is subject to the timing provisions 
+at 12 CFR 217.1(f) and the transitions at 12 CFR part 217, subpart G.
+* * * * *
+
+
+Sec.  208.41  [Amended]
+
+0
+9. In Sec.  208.41, remove footnotes 10, 11, 12, 13, 14, and 15.
+0
+10. In Sec.  208.43:
+0
+a. Revise paragraph (a);
+0
+b. Effective January 1, 2018, paragraph (a)(2)(iv)(C) as added on May 
+1, 2014 (79 FR 24540), and further amended on August 14, 2015 (80 FR 
+49102), is redesignated as paragraph (a)(4)(iii).
+0
+c. Remove paragraph (b);
+0
+d. Redesignate paragraphs (c) and (d) as paragraphs (b) and (c).
+0
+e. Revise the introductory text of newly redesignated paragraph (b); 
+and
+0
+f. Effective January 1, 2018, paragraph (c)(1)(iv) as revised on May 1, 
+2014 (79 FR 24540), and further amended on August 14, 2015 (80 FR 
+49102), is redesignated as paragraph (b)(1)(iv).
+    The revisions read as follows:
+
+
+Sec.  208.43  Capital measures and capital category definitions.
+
+    (a) Capital measures. For purposes of section 38 and this subpart, 
+the relevant capital measures are:
+    (1) Total Risk-Based Capital Measure: The total risk-based capital 
+ratio;
+    (2) Tier 1 Risk-Based Capital Measure: The tier 1 risk-based 
+capital ratio;
+    (3) Common Equity Tier 1 Capital Measure: The common equity tier 1 
+risk-based capital ratio; and
+    (4) Leverage Measure:
+    (i) The leverage ratio; and
+    (ii) With respect to an advanced approaches bank, on January 1, 
+2018, and thereafter, the supplementary leverage ratio.
+* * * * *
+    (b) Capital categories applicable to all member banks. For purposes 
+of section 38 and this subpart, a member bank is deemed to be:
+* * * * *
+
+
+Sec.  208.102  [Amended]
+
+0
+11. In Sec.  208.102, redesignate footnote 16 as footnote 7.
+
+
+Sec.  208.111  [Amended]
+
+0
+12. In Sec.  208.111, redesignate footnote 17 as footnote 8 and 
+footnote 18 as footnote 9.
+
+PART 217--CAPITAL ADEQUACY OF BANK HOLDING COMPANIES, SAVINGS AND 
+LOAN HOLDING COMPANIES, AND STATE MEMBER BANKS (REGULATION Q)
+
+0
+13. The authority citation for part 217 continues to read as follows:
+
+    Authority: 12 U.S.C. 248(a), 321-338a, 481-486, 1462a, 1467a, 
+1818, 1828, 1831n, 1831o, 1831p-l, 1831w, 1835, 1844(b), 1851, 3904, 
+3906-3909, 4808, 5365, 5368, 5371.
+
+
+0
+14. In Sec.  217.2, in the definition of ``covered savings and loan 
+holding company'', revise paragraph (1) to read as follows:
+
+
+Sec.  217.2  Definitions
+
+* * * * *
+    Covered savings and loan holding company * * *
+    (1) A top-tier savings and loan holding company that is:
+    (i) An institution that meets the requirements of section 
+10(c)(9)(C) of HOLA (12 U.S.C. 1467a(c)(9)(C)); and
+    (ii) As of June 30 of the previous calendar year, derived 50 
+percent or more of its total consolidated assets or 50 percent of its 
+total revenues on an enterprise-wide basis (as calculated under GAAP) 
+from activities that are not financial in nature under section 4(k) of 
+the Bank Holding Company Act of 1956 (12 U.S.C. 1843(k));
+* * * * *
+
+
+Sec.  217.202  [Amended]
+
+0
+15. In Sec.  217.202(b), in paragraph (10)(ii) of the definition of 
+``securitization'', remove ``[12 CFR 208.34 (Board), 12 CFR 9.18 
+(OCC)]'' and add in its place ``12 CFR 208.34.''
+0
+16. In Sec.  217.300, revise paragraph (c)(3) to read as follows:
+
+
+Sec.  217.300  Transitions.
+
+* * * * *
+    (c) * * *
+    (3) Depository institution holding companies under $15 billion and 
+2010 MHCs. (i) Non-qualifying capital instruments issued by depository 
+institution holding companies under $15 billion and 2010 MHCs prior to 
+May 19, 2010, may be included in additional tier 1 or tier 2 capital if 
+the instrument was included in tier 1 or tier 2 capital, respectively, 
+as of January 1, 2014.
+    (ii) Non-qualifying capital instruments includable in tier 1 
+capital are subject to a limit of 25 percent of tier 1 capital 
+elements, excluding any nonqualifying capital instruments and after 
+applying all regulatory capital deductions and adjustments to tier 1 
+capital.
+    (iii) Non-qualifying capital instruments that are not included in 
+tier 1 as a result of the limitation in paragraph (c)(3)(ii) of this 
+section are includable in tier 2 capital.
+* * * * *
+
+[[Page 70673]]
+
+PART 225--BANK HOLDING COMPANIES AND CHANGE IN BANK CONTROL 
+(REGULATION Y)
+
+0
+17. The authority citation for part 225 continues to read as follows:
+
+    Authority: 12 U.S.C. 1844(b), 3106 and 3108, 1817(j)(13), 
+1818(b), 1831i, 1972, 3310, 3331-3351 and 3353; 12 U.S.C. 3901, et 
+seq.; and 12 U.S.C. 1841, et seq.
+
+
+Sec.  225.2  [Amended]
+
+0
+18. In Sec.  225.2(r)(1), remove footnotes 3 and 4.
+
+
+Sec.  225.4  [Amended]
+
+0
+19. In Sec.  225.4, remove footnote 1.
+
+
+Sec.  225.12  [Amended]
+
+0
+20. In Sec.  225.12:
+0
+a. Remove footnote 1;
+0
+b. Redesignate footnote 2 as footnote 1.
+
+
+Sec.  225.22  [Amended]
+
+0
+21. In Sec.  225.22, remove footnote 1.
+
+
+Sec.  225.172  [Amended]
+
+0
+22. In Sec.  225.172, remove footnote 1.
+
+PART 252--ENHANCED PRUDENTIAL STANDARDS (REGULATION YY)
+
+0
+23. The authority citation for part 252 continues to read as follows:
+
+    Authority: 12 U.S.C. 321-338a, 1467a(g), 1818, 1831p-1, 1844(b), 
+1844(c), 5361, 5365, 5366.
+
+0
+24. In Sec.  252.153, add paragraphs (e)(2) through (5) to read as 
+follows:
+
+
+Sec.  252.153  U.S. intermediate holding company requirement for 
+foreign banking organizations with U.S. non-branch assets of $50 
+billion or more.
+
+* * * * *
+    (e) * * *
+    (2) Capital requirements for a U.S. intermediate holding company--
+(i) Risk-based capital and leverage requirements. (A) A U.S. 
+intermediate holding company must calculate and meet all applicable 
+capital adequacy standards set forth in 12 CFR part 217, other than 
+subpart E of 12 CFR part 217, and comply with all restrictions 
+associated with applicable capital buffers, in the same manner as a 
+bank holding company.
+    (B) A U.S. intermediate holding company may choose to comply with 
+subpart E of 12 CFR part 217.
+    (C) Notwithstanding 12 CFR 217.100(b), if a bank holding company is 
+a subsidiary of a foreign banking organization that is subject to this 
+section and the bank holding company is subject to subpart E of 12 CFR 
+part 217, the bank holding company, with the Board's prior written 
+approval, may elect not to comply with subpart E of 12 CFR part 217.
+    (ii) Capital planning. A U.S. intermediate holding company must 
+comply with Sec.  225.8 of Regulation Y in the same manner as a bank 
+holding company.
+    (3) Risk management and risk committee requirements--(i) General. A 
+U.S. intermediate holding company must establish and maintain a risk 
+committee that approves and periodically reviews the risk management 
+policies and oversees the risk-management framework of the U.S. 
+intermediate holding company. The risk committee must be a committee of 
+the board of directors of the U.S. intermediate holding company (or 
+equivalent thereof). The risk committee may also serve as the U.S. risk 
+committee for the combined U.S. operations required pursuant to Sec.  
+252.155(a).
+    (ii) Risk-management framework. The U.S. intermediate holding 
+company's risk-management framework must be commensurate with the 
+structure, risk profile, complexity, activities, and size of the U.S. 
+intermediate holding company and consistent with the risk management 
+policies for the combined U.S. operations of the foreign banking 
+organization. The framework must include:
+    (A) Policies and procedures establishing risk-management 
+governance, risk-management procedures, and risk-control infrastructure 
+for the U.S. intermediate holding company; and
+    (B) Processes and systems for implementing and monitoring 
+compliance with such policies and procedures, including:
+    (1) Processes and systems for identifying and reporting risks and 
+risk-management deficiencies at the U.S. intermediate holding company, 
+including regarding emerging risks and ensuring effective and timely 
+implementation of actions to address emerging risks and risk-management 
+deficiencies;
+    (2) Processes and systems for establishing managerial and employee 
+responsibility for risk management of the U.S. intermediate holding 
+company;
+    (3) Processes and systems for ensuring the independence of the 
+risk-management function of the U.S. intermediate holding company; and
+    (4) Processes and systems to integrate risk management and 
+associated controls with management goals and the compensation 
+structure of the U.S. intermediate holding company.
+    (iii) Corporate governance requirements. The risk committee of the 
+U.S. intermediate holding company must meet at least quarterly and 
+otherwise as needed, and must fully document and maintain records of 
+its proceedings, including risk-management decisions.
+    (iv) Minimum member requirements. The risk committee must:
+    (A) Include at least one member having experience in identifying, 
+assessing, and managing risk exposures of large, complex financial 
+firms; and
+    (B) Have at least one member who:
+    (1) Is not an officer or employee of the foreign banking 
+organization or its affiliates and has not been an officer or employee 
+of the foreign banking organization or its affiliates during the 
+previous three years; and
+    (2) Is not a member of the immediate family, as defined in Sec.  
+225.41(b)(3) of the Board's Regulation Y (12 CFR 225.41(b)(3)), of a 
+person who is, or has been within the last three years, an executive 
+officer, as defined in Sec.  215.2(e)(1) of the Board's Regulation O 
+(12 CFR 215.2(e)(1)) of the foreign banking organization or its 
+affiliates.
+    (v) The U.S. intermediate holding company must take appropriate 
+measures to ensure that it implements the risk management policies for 
+the U.S. intermediate holding company and it provides sufficient 
+information to the U.S. risk committee to enable the U.S. risk 
+committee to carry out the responsibilities of this subpart.
+    (4) Liquidity requirements. A U.S. intermediate holding company 
+must comply with the liquidity risk-management requirements in Sec.  
+252.156 and conduct liquidity stress tests and hold a liquidity buffer 
+pursuant to Sec.  252.157.
+    (5) Stress test requirements. A U.S. intermediate holding company 
+must comply with the requirements of subparts E and F of this part in 
+the same manner as a bank holding company.
+* * * * *
+
+    By order of the Board of Governors of the Federal Reserve 
+System, November 2, 2015.
+Robert deV. Frierson,
+Secretary of the Board.
+[FR Doc. 2015-28294 Filed 11-13-15; 8:45 am]
+ BILLING CODE 6210-01-P
+
+
+</pre></body>
+</html>

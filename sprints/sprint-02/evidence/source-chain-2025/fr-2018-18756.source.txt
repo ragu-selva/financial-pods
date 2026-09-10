@@ -1,0 +1,616 @@
+<html>
+<head>
+<title>Federal Register, Volume 83 Issue 169 (Thursday, August 30, 2018)</title>
+</head>
+<body><pre>
+[Federal Register Volume 83, Number 169 (Thursday, August 30, 2018)]
+[Rules and Regulations]
+[Pages 44195-44199]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2018-18756]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+FEDERAL RESERVE SYSTEM
+
+12 CFR Parts 217 and 225
+
+[Regulations Q and Y; Docket No. R-1619]
+RIN 7100-AF 13
+
+
+Small Bank Holding Company and Savings and Loan Holding Company 
+Policy Statement and Related Regulations; Changes to Reporting 
+Requirements
+
+AGENCY: Board of Governors of the Federal Reserve System (Board).
+
+ACTION: Interim final rule with request for comment; changes to 
+reporting requirements.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Board invites comment on an interim final rule that raises 
+the asset size threshold for determining applicability of the Board's 
+Small Bank Holding Company and Savings and Loan Holding Company Policy 
+Statement (Regulation Y, appendix C) (Policy Statement) to $3 billion 
+from $1 billion of total consolidated assets. The interim final rule 
+also makes related and conforming revisions to the Board's regulatory 
+capital rule (Regulation Q) and requirements for bank holding companies 
+(Regulation Y). In
+
+[[Page 44196]]
+
+connection with these changes, the Board is modifying the respondent 
+panel for certain holding company financial reports.
+
+DATES: The interim final rule is effective August 30, 2018. Comments on 
+the interim final rule must be received no later than October 29, 2018.
+
+ADDRESSES: You may submit comments, identified by Docket No. R-1619 and 
+RIN No 7100 AF 13, by any of the following methods:
+    <bullet> Agency website: <a href="http://www.federalreserve.gov">http://www.federalreserve.gov</a>. Follow the 
+instructions for submitting comments at <a href="http://www.federalreserve.gov/apps/foia/proposedregs.aspx">http://www.federalreserve.gov/apps/foia/proposedregs.aspx</a>.
+    <bullet> Email: <a href="/cdn-cgi/l/email-protection#6b190e0c1845080406060e051f182b0d0e0f0e190a07190e180e191d0e450c041d"><span class="__cf_email__" data-cfemail="addfc8cade83cec2c0c0c8c3d9deedcbc8c9c8dfccc1dfc8dec8dfdbc883cac2db">[email&#160;protected]</span></a>. Include the 
+docket number in the subject line of the message.
+    <bullet> Fax: (202) 452-3819 or (202) 452-3102.
+    <bullet> Mail: Ann Misback, Secretary, Board of Governors of the 
+Federal Reserve System, 20th Street and Constitution Avenue NW, 
+Washington, DC 20551.
+    All public comments will be made available on the Board's website 
+at <a href="http://www.federalreserve.gov/generalinfo/foia/ProposedRegs.cfm">http://www.federalreserve.gov/generalinfo/foia/ProposedRegs.cfm</a> as 
+submitted, unless modified for technical reasons or to remove 
+personally identifiable information at the commenter's request. 
+Accordingly, comments will not be edited to remove any identifying or 
+contact information. Public comments may also be viewed electronically 
+or in paper in Room 3515, 1801 K Street NW (between 18th and 19th 
+Streets NW), between 9:00 a.m. and 5:00 p.m. on weekdays.
+
+FOR FURTHER INFORMATION CONTACT: Constance M. Horsley, Deputy Associate 
+Director, (202) 452-5239, Cynthia Ayouch, Manager, (202) 452-2204, 
+Douglas Carpenter, Senior Supervisory Financial Analyst, (202) 452-
+2205, Vanessa Davis, Supervisory Financial Analyst, (202) 475-6647, or 
+Kevin Tran, Supervisory Financial Analyst, (202) 452-2309, Division of 
+Supervision and Regulation; Laurie Schaffer, Associate General Counsel, 
+(202) 452-2272; Benjamin McDonough, Assistant General Counsel, (202) 
+452-2036, or Mark Buresh, (202) 452-5270, Senior Attorney, Legal 
+Division; Board of Governors of the Federal Reserve System, 20th and C 
+Streets NW, Washington, DC 20551.
+
+SUPPLEMENTARY INFORMATION:
+
+Table of Contents
+
+I. Background
+II. The Interim Final Rule
+III. Administrative Law Matters
+    A. Regulatory Flexibility Act
+    B. Paperwork Reduction Act
+    C. Solicitation of Comments on Use of Plain Language
+
+I. Background
+
+    The Board issued the Small Bank Holding Company and Savings and 
+Loan Holding Company Policy Statement (Regulation Y, appendix C) 
+(Policy Statement) in 1980 to facilitate the transfer of ownership of 
+small community-based banks in a manner consistent with bank safety and 
+soundness.\1\ In general, the Board has discouraged the use of debt by 
+bank holding companies and savings and loan holding companies 
+(collectively, depository institution holding companies) to finance 
+acquisitions because high levels of debt can impair the ability of a 
+depository institution holding company to serve as a source of strength 
+to its subsidiary depository institutions. However, the Board has 
+recognized that small depository institution holding companies have 
+less access to equity financing than larger depository institution 
+holding companies and that, therefore, an acquisition by a small 
+depository institution holding company often requires the use of debt.
+---------------------------------------------------------------------------
+
+    \1\ 12 CFR part 225, app. C.
+---------------------------------------------------------------------------
+
+    The Board originally adopted the Policy Statement to permit the 
+formation and expansion of small bank holding companies with debt 
+levels that are higher than typically permitted for larger bank holding 
+companies. The Policy Statement contains several conditions and 
+restrictions designed to ensure that a small depository institution 
+holding company that operates with the heightened level of debt 
+permitted under the Policy Statement does not present an undue risk to 
+the safety and soundness of its subsidiary depository institutions.
+    Currently, the Policy Statement applies to bank holding companies 
+with pro forma consolidated assets of less than $1 billion that: (i) 
+Are not engaged in significant nonbanking activities either directly or 
+through a nonbank subsidiary; (ii) do not conduct significant off-
+balance sheet activities (including securitization and asset management 
+or administration) either directly or through a nonbank subsidiary; \2\ 
+and (iii) do not have a material amount of debt or equity securities 
+outstanding (other than trust preferred securities) that are registered 
+with the Securities and Exchange Commission (the foregoing enumerated 
+items referred to hereafter as qualitative requirements). The Policy 
+Statement also applies to small savings and loan holding companies as 
+if they were bank holding companies.\3\
+---------------------------------------------------------------------------
+
+    \2\ The examples provided in the Policy Statement are not 
+exhaustive and simply highlight off-balance sheet activities that 
+may involve substantial risk. Other activities than securitization 
+and asset management or administration may present similar concerns. 
+See also 71 FR 9897, 9899, fn. 2 (February 28, 2006) (2006 Final 
+Rule).
+    \3\ 12 CFR 238.9.
+---------------------------------------------------------------------------
+
+    The Policy Statement provides that bank holding companies that meet 
+the qualitative requirements (qualifying small holding companies) may 
+use debt to finance up to 75 percent of the purchase price of an 
+acquisition (that is, they may have a debt-to-equity ratio of up to 
+3:1). However, a qualifying small holding company must satisfy 
+additional ongoing requirements, including that it: (i) Reduce its debt 
+such that all debt is retired within 25 years of the debt being 
+incurred; (ii) reduce its debt-to equity ratio to .30:1 or less within 
+12 years of the debt being incurred; (iii) ensure that each of its 
+subsidiary insured depository institutions is well capitalized; and 
+(iv) refrain from paying dividends until such time as it reduces its 
+debt-to-equity ratio to 1.0:1 or less. The Policy Statement also 
+provides that a qualifying small holding company may not use the 
+expedited applications procedures or obtain a waiver of the stock 
+redemption filing requirements applicable to bank holding companies 
+under the Board's Regulation Y unless the bank holding company has a 
+pro forma debt-to-equity ratio of 1.0:1 or less.\4\
+---------------------------------------------------------------------------
+
+    \4\ 12 CFR 225.4(b), 225.14, and 225.23.
+---------------------------------------------------------------------------
+
+II. The Interim Final Rule
+
+New Asset Threshold of $3 Billion
+
+    On May 24, 2018, the Economic Growth, Regulatory Relief, and 
+Consumer Protection Act (EGRRCPA) was enacted.\5\ Section 207 of 
+EGRRCPA directs the Board to revise the Policy Statement to raise the 
+consolidated assets threshold from $1 billion to $3 billion within 180 
+days of the enactment of EGRRCPA. The Board last raised the asset limit 
+in 2015 when it increased it from $500 million to $1 billion.\6\ The 
+Board is issuing this interim final rule to increase the asset 
+threshold to $3 billion consistent with EGRRCPA. The Board is not 
+making any additional modifications to the Policy Statement at this 
+time. The final rule applies to small savings and loan holding 
+companies to
+
+[[Page 44197]]
+
+the same extent as small bank holding companies, by operation of 
+Regulation LL.
+---------------------------------------------------------------------------
+
+    \5\ Public Law 115-174 (May 24, 2018).
+    \6\ See 80 FR 20153 (April 15, 2015). In this final rule, the 
+Board also applied the Policy Statement to small savings and loan 
+holding companies as if they were bank holding companies. 80 FR 
+20153 (April 15, 2015).
+---------------------------------------------------------------------------
+
+    The Board believes it is appropriate to issue an interim final rule 
+revising the Policy Statement and making conforming revisions to 
+Regulation Q and Regulation Y to apply the statutorily mandated 
+threshold of $3 billion to qualifying holding companies consistent with 
+EGRRCPA. Without such action, qualifying holding companies that cross 
+$1 billion during the pendency of the proposal would be required to 
+incur costs to implement regulatory capital and financial reporting 
+systems that would cease to be necessary upon issuance of the final 
+rule. In addition, the Board believes that it is appropriate to allow 
+holding companies with total consolidated assets of $1 billion or more 
+but less than $3 billion to immediately become subject to reduced 
+regulatory and reporting requirements, consistent with the 
+congressionally-mandated increase in the threshold, so that such firms 
+are not obligated to incur significant compliance costs in the interim 
+until the traditional rulemaking process is completed.
+
+Conforming Regulation Q Change
+
+    For the reasons described previously, the Board is revising 
+Regulation Q to conform the language in Sec.  217.1 to reflect the 
+heightened threshold of the Policy Statement resulting from the interim 
+final rule. Specifically, Sec.  217.1(c)(1)(iii) is revised to remove 
+the reference to the $1 billion threshold.
+
+Other Conforming Amendments
+
+    A number of reporting, filing, and other provisions in Regulation Y 
+are triggered by the consolidated asset threshold established by the 
+Policy Statement. In connection with revising the threshold under the 
+Policy Statement, the Board is making technical and conforming 
+amendments to these provisions to provide that qualifying small holding 
+companies may take advantage of the streamlined informational, notice, 
+and other requirements embodied in these rules. These technical and 
+conforming amendments will provide regulatory burden relief to most 
+holding companies with less than $3 billion of consolidated total 
+assets. The final rule makes the following changes:
+    <bullet> In Sec.  225.2(r), footnote 2, the footnote describing the 
+application of the definition of ``well-capitalized'' in the Board's 
+Regulation Y (12 CFR part 225) to entities subject to the Policy 
+Statement is revised to remove the reference to the threshold of $1 
+billion under the Policy Statement.
+    <bullet> In Sec.  225.4(b)(2)(iii), the thresholds for the 
+different pro forma financial information required of smaller bank 
+holding companies compared to larger bank holding companies under Sec.  
+225.4(b)(1) of the Board's Regulation Y is revised to refer to total 
+assets of less than $3 billion rather than total assets of less than $1 
+billion.
+    <bullet> In Sec.  225.14(a)(1)(v), the thresholds for the different 
+pro forma financial information required of smaller bank holding 
+companies compared to larger bank holding companies under Sec.  225.14 
+of the Board's Regulation Y is revised to refer to total assets of less 
+than $3 billion rather than total assets of less than $1 billion.
+    <bullet> In Sec.  225.17(a)(6), footnote 6, the total asset 
+threshold for application of the footnote related to demonstrating that 
+debt incurred will not unduly burden the bank holding company is 
+revised to refer to total assets of less than $3 billion rather than 
+total assets of less than $1 billion.
+    <bullet> In Sec.  225.23(a)(1)(iii), the threshold for the 
+different pro forma financial information required of smaller bank 
+holding companies compared to larger bank holding companies under Sec.  
+225.23 of the Board's Regulation Y is revised to refer to total assets 
+of less than $3 billion rather than total assets of less than $1 
+billion.
+
+Regulatory Reporting Changes
+
+    The Board requires all depository institution holding companies to 
+file certain reports with the Federal Reserve to monitor the financial 
+condition and operations of depository institution holding companies. 
+Those reports include the Financial Statements for Holding Companies 
+(FR Y-9 series of reports; OMB No. 7100-0128). Depository institution 
+holding companies with consolidated assets of less than $1 billion that 
+also meet qualitative requirements submit summary parent-only financial 
+data semiannually on the FR Y-9SP. Bank holding companies and savings 
+and loan holding companies with consolidated assets of $1 billion or 
+more--or that are otherwise not subject to the Policy Statement--submit 
+consolidated financial data on the FR Y-9C and parent-only financial 
+data on the FR Y-9LP, both quarterly.
+    The Board is modifying, effective immediately, the respondent panel 
+for the FR Y-9SP, FR Y-9C, and FR Y-9LP for bank holding companies and 
+savings and loan holding companies with $1 billion or more but less 
+than $3 billion in total consolidated assets to align the threshold in 
+the Policy Statement. If these institutions meet the qualitative 
+requirements, they will not be required to file the FR Y-9C and the FR 
+Y-9LP (including regulatory capital information) and would instead file 
+the FR Y-9SP. These changes would be consistent with the final rule's 
+changes to the Policy Statement and will reduce the regulatory 
+reporting burden for these smaller institutions. Since most bank 
+holding companies and savings and loan holding companies with less than 
+$3 billion in total consolidated assets have limited activities outside 
+of their subsidiary banks, the Board believes relying on summary 
+parent-only financials from the FR Y-9SP and detailed depository 
+institution financials from the Consolidated Reports of Condition and 
+Income (FFIEC 031, FFIEC 041, FFIEC 051; OMB No. 7100-0036) is 
+sufficient for supervisory purposes.
+
+Comments
+
+    The Board invites comments on all aspects of this interim final 
+rule. Interested parties are encouraged to provide comments on the $3 
+billion asset size threshold adjustment, the revision to Regulation Q, 
+and the related and conforming amendments to Regulations Y.
+Effective Date/Request for Comments
+    The Board is issuing this interim final rule without prior notice 
+and the opportunity for public comment and the 30-day delayed effective 
+date ordinarily prescribed by the Administrative Procedure Act (APA). 
+Pursuant to the Administrative Procedure Act (APA), at 5 U.S.C. 
+553(b)(B), notice and comment are not required prior to the issuance of 
+a final rule if an agency, for good cause, finds that ``notice and 
+public procedure thereon are impracticable, unnecessary, or contrary to 
+the public interest.'' \7\ The interim final rule implements the 
+provisions in section 207 of EGRRCPA, which was enacted on May 24, 
+2018. EGRRCPA includes a directive that the Board revise appendix C to 
+part 225 of title 12 of the Code of Federal Regulations within 180 days 
+to raise the consolidated asset threshold under that appendix from $1 
+billion to $3 billion.\8\ This section of EGRRCPA was effective upon 
+enactment.
+---------------------------------------------------------------------------
+
+    \7\ 5 U.S.C. 553(b)(B).
+    \8\ Public Law 115-174 (May 24, 2018), section 207(b).
+---------------------------------------------------------------------------
+
+    The Board believes that the public interest is best served by 
+implementing the statutorily amended thresholds as soon as possible. 
+Delaying the revisions to the Policy Statement, Regulation Q,
+
+[[Page 44198]]
+
+and Regulation Y to complete a traditional notice and comment 
+rulemaking process would cause holding companies with total 
+consolidated assets of $1 billion or more and less than $3 billion to 
+expend significant resources to continue to comply with Regulation Q 
+and would subject these firms to heightened requirements under 
+Regulation Y for the time necessary for the Board to go through the 
+notice and comment rulemaking process. In addition, any holding 
+companies that qualified under the Policy Statement and that came to 
+have $1 billion or more in total consolidated assets while the 
+rulemaking process was ongoing would be required to expend significant 
+resources to comply with Regulation Q. The Board believes that 
+providing a notice and comment period prior to issuance of the interim 
+final rules is unnecessary because the Board does not expect public 
+objection to the interim final rule being promulgated, as the rule 
+merely provides the relief that Congress intended.
+    The APA also requires a 30-day delayed effective date, except for 
+(1) substantive rules which grant or recognize an exemption or relieve 
+a restriction; (2) interpretative rules and statements of policy; or 
+(3) as otherwise provided by the agency for good cause.\9\ The Board 
+has concluded that, because the rule recognizes an exemption, the 
+interim final rule is exempt from the APA's delayed effective date 
+requirement.\10\ Additionally, the Board finds good cause to publish 
+the interim final rule with an immediate effective date for the same 
+reasons set forth above under the discussion of section 553(b)(B) of 
+the APA.
+---------------------------------------------------------------------------
+
+    \9\ 5 U.S.C. 553(d).
+    \10\ 5 U.S.C. 553(d)(1).
+---------------------------------------------------------------------------
+
+    While the Board believes there is good cause to issue the rules 
+without advance notice and comment and with an immediate effective 
+date, the Board is interested in the views of the public and request 
+comment on all aspects of the interim final rule.
+
+III. Administrative Law Matters
+
+A. Regulatory Flexibility Act Analysis
+
+    The Regulatory Flexibility Act, 5 U.S.C. 601 et seq., applies only 
+to rules for which an agency publishes a general notice of proposed 
+rulemaking. Because the Board has determined for good cause that a 
+notice of proposed rulemaking for this rule is unnecessary, the 
+Regulatory Flexibility Act does not apply to this final rule.
+
+B. Paperwork Reduction Act
+
+    The Board has revised the respondent panel for each of the FR Y-
+9SP, FR Y-9C, and FR Y-9LP in connection with this final rule. 
+Specifically, the minimum total consolidated asset threshold for filing 
+the FR Y-9C and FR Y-9LP has been increased to $3 billion, and the FR 
+Y-9SP has been updated to apply to holding companies with less than $3 
+billion in total consolidated assets. Though the number of total 
+respondents is not affected, the result of this modification is to 
+reduce the aggregate burden for the FR Y-9C, FR Y-9LP, and FR Y-9SP by 
+75,233 hours because more firms will file the less complex FR Y-9SP.
+
+C. Plain Language
+
+    Section 722 of the Gramm-Leach-Bliley Act requires the Federal 
+banking agencies to use ``plain language'' in all proposed and final 
+rules published after January 1, 2000. In light of this requirement, 
+the Board has sought to present the interim final rule in a simple and 
+straightforward manner. The Board invites comments on whether there are 
+additional steps it could take to make the rule easier to understand.
+
+List of Subjects
+
+12 CFR Part 217
+
+    Administrative practice and procedure, Banks, Banking, Federal 
+Reserve System, Holding companies, Reporting and recordkeeping 
+requirements.
+
+12 CFR Part 225
+
+    Administrative practice and procedure, Banks, Banking, Federal 
+Reserve System, Holding companies, Reporting and recordkeeping 
+requirements.
+
+Federal Reserve System
+
+12 CFR Chapter II
+
+Authority and Issuance
+
+    For the reasons set forth in the preamble, chapter II of title 12 
+of the Code of Federal Regulations is amended as set forth below:
+
+PART 217--CAPITAL ADEQUACY OF BANK HOLDING COMPANIES, SAVINGS AND 
+LOAN HOLDING COMPANIES, AND STATE MEMBER BANKS (REGULATION Q)
+
+0
+1. The authority citation for part 217 continues to read as follows:
+
+    Authority: 12 U.S.C. 248(a), 321-338a, 481-486, 1462a, 1467a, 
+1818, 1828, 1831n, 1831o, 1831p-l, 1831w, 1835, 1844(b), 1851, 3904, 
+3906-3909, 4808, 5365, 5368, 5371.
+
+
+0
+2. In Sec.  217.1, revise paragraph (c)(1)(iii) to read as follows:
+
+
+Sec.  217.1  Purpose, applicability, reservations of authority, and 
+timing.
+
+* * * * *
+    (c) * * *
+    (1) * * *
+    (iii) A covered savings and loan holding company domiciled in the 
+United States, other than a savings and loan holding company that meets 
+the requirements of 12 CFR part 225, appendix C, as if the savings and 
+loan holding company were a bank holding company and the savings 
+association were a bank. For purposes of compliance with the capital 
+adequacy requirements and calculations in this part, savings and loan 
+holding companies that do not file the FR Y-9C should follow the 
+instructions to the FR Y-9C.
+* * * * *
+
+PART 225--BANK HOLDING COMPANIES AND CHANGE IN BANK CONTROL 
+(REGULATION Y)
+
+0
+3. The authority citation for part 225 continues to read as follows:
+
+    Authority: 12 U.S.C. 1817(j)(13), 1818, 1828(o), 1831i, 1831p-1, 
+1843(c)(8), 1844(b), 1972(1), 3106, 3108, 3310, 3331-3351, 3906, 
+3907, and 3909; 15 U.S.C. 1681s, 1681w, 6801 and 6805.
+
+
+0
+4. In Sec.  225.2(r), revise footnote 2 to read as follows:
+
+
+Sec.  225.2  Definitions.
+
+* * * * *
+    (r) * * *
+    \2\ For purposes of this subpart and subparts B and C of this part, 
+a bank holding company that is subject to the Small Bank Holding 
+Company and Savings and Loan Holding Company Policy Statement in 
+appendix C of this part will be deemed to be ``well-capitalized'' if 
+the bank holding company meets the requirements for expedited/waived 
+processing in appendix C.
+* * * * *
+
+0
+5. In Sec.  225.4, revise paragraph (b)(2)(iii) to read as follows:
+
+
+Sec.  225.4  Corporate practices.
+
+* * * * *
+    (b) * * *
+    (2) * * *
+    (iii)(A) If the bank holding company has consolidated assets of $3 
+billion or more, consolidated pro forma risk-based capital and leverage 
+ratio calculations for the bank holding company as of the most recent 
+quarter, and, if the redemption is to be debt funded, a
+
+[[Page 44199]]
+
+parent-only pro forma balance sheet as of the most recent quarter; or
+    (B) If the bank holding company has consolidated assets of less 
+than $3 billion, a pro forma parent-only balance sheet as of the most 
+recent quarter, and, if the redemption is to be debt funded, one-year 
+income statement and cash flow projections.
+* * * * *
+
+0
+6. In Sec.  225.14, revise paragraph (a)(1)(v) to read as follows:
+
+
+Sec.  225.14  Expedited action for certain bank acquisitions by well-
+run bank holding companies.
+
+    (a) * * *
+    (1) * * *
+    (v)(A) If the bank holding company has consolidated assets of $3 
+billion or more, an abbreviated consolidated pro forma balance sheet as 
+of the most recent quarter showing credit and debit adjustments that 
+reflect the proposed transaction, consolidated pro forma risk-based 
+capital ratios for the acquiring bank holding company as of the most 
+recent quarter, and a description of the purchase price and the terms 
+and sources of funding for the transaction; or
+    (B) If the bank holding company has consolidated assets of less 
+than $3 billion, a pro forma parent-only balance sheet as of the most 
+recent quarter showing credit and debit adjustments that reflect the 
+proposed transaction, and a description of the purchase price, the 
+terms and sources of funding for the transaction, and the sources and 
+schedule for retiring any debt incurred in the transaction;
+* * * * *
+
+0
+7. In Sec.  225.17(a)(6), revise footnote 6 to read as follows:
+
+
+Sec.  225.17   Notice procedure for one-bank holding company 
+formations.
+
+    (a) * * *
+    (6) * * *
+    \6\ For a banking organization with consolidated assets, on a pro 
+forma basis, of less than $3 billion (other than a banking organization 
+that will control a de novo bank), this requirement is satisfied if the 
+proposal complies with the Board's Small Bank Holding Company and 
+Savings and Loan Holding Company Policy Statement (appendix C of this 
+part).
+* * * * *
+
+0
+8. In Sec.  225.23, revise paragraph (a)(1)(iii) to read as follows:
+
+
+Sec.  225.23  Expedited action for certain nonbanking proposals by 
+well-run bank holding companies.
+
+    (a) * * *
+    (1) * * *
+    (iii) If the proposal involves an acquisition of a going concern:
+    (A) If the bank holding company has consolidated assets of $3 
+billion or more, an abbreviated consolidated pro forma balance sheet 
+for the acquiring bank holding company as of the most recent quarter 
+showing credit and debit adjustments that reflect the proposed 
+transaction, consolidated pro forma risk-based capital ratios for the 
+acquiring bank holding company as of the most recent quarter, a 
+description of the purchase price and the terms and sources of funding 
+for the transaction, and the total revenue and net income of the 
+company to be acquired;
+    (B) If the bank holding company has consolidated assets of less 
+than $3 billion, a pro forma parent-only balance sheet as of the most 
+recent quarter showing credit and debit adjustments that reflect the 
+proposed transaction, a description of the purchase price and the terms 
+and sources of funding for the transaction and the sources and schedule 
+for retiring any debt incurred in the transaction, and the total 
+assets, off-balance sheet items, revenue and net income of the company 
+to be acquired; or
+    (C) For each insured depository institution whose Tier 1 capital, 
+total capital, total assets or risk-weighted assets change as a result 
+of the transaction, the total risk-weighted assets, total assets, Tier 
+1 capital and total capital of the institution on a pro forma basis;
+* * * * *
+
+0
+9. In appendix C, under the header ``1. Applicability of Policy 
+Statement,'' revise the first undesignated paragraph to read as 
+follows:
+
+Appendix C to Part 225--Small Bank Holding Company and Savings and Loan 
+Holding Company Policy Statement
+
+* * * * *
+
+1. Applicability of Policy Statement
+
+    This policy statement applies only to bank holding companies 
+with pro forma consolidated assets of less than $3 billion that (i) 
+are not engaged in significant nonbanking activities either directly 
+or through a nonbank subsidiary; (ii) do not conduct significant 
+off-balance sheet activities (including securitization and asset 
+management or administration) either directly or through a nonbank 
+subsidiary; and (iii) do not have a material amount of debt or 
+equity securities outstanding (other than trust preferred 
+securities) that are registered with the Securities and Exchange 
+Commission. The Board may in its discretion exclude any bank holding 
+company, regardless of asset size, from the policy statement if such 
+action is warranted for supervisory purposes.\1\ With the exception 
+of section 4 (Additional Application Requirements for Expedited/
+Waived Processing), the policy statement applies to savings and loan 
+holding companies as if they were bank holding companies.
+---------------------------------------------------------------------------
+
+    \1\ [RESERVED].
+---------------------------------------------------------------------------
+
+* * * * *
+
+    By order of the Board of Governors of the Federal Reserve 
+System, April 24, 2018.
+Ann Misback,
+Secretary of the Board.
+
+    Editorial note: This document was received for publication by 
+the Office of the Federal Register on August 24, 2018.
+[FR Doc. 2018-18756 Filed 8-29-18; 8:45 am]
+ BILLING CODE 6210-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

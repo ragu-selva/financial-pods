@@ -1,0 +1,206 @@
+<html>
+<head>
+<title>Federal Register, Volume 85 Issue 62 (Tuesday, March 31, 2020)</title>
+</head>
+<body><pre>
+[Federal Register Volume 85, Number 62 (Tuesday, March 31, 2020)]
+[Rules and Regulations]
+[Pages 17721-17722]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2020-06755]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TREASURY
+
+Office of the Comptroller of the Currency
+
+12 CFR Part 3
+
+[Docket ID OCC-2018-0030; RIN 1557-AE44]
+
+FEDERAL RESERVE SYSTEM
+
+12 CFR Part 217
+
+[Regulation Q; Docket No. R-1629; RIN 7100-AF22]
+
+FEDERAL DEPOSIT INSURANCE CORPORATION
+
+12 CFR Part 324
+
+RIN 3064-AF43
+
+
+Standardized Approach for Calculating the Exposure Amount of 
+Derivative Contracts
+
+AGENCY: Office of the Comptroller of the Currency, Treasury; the Board 
+of Governors of the Federal Reserve System; and the Federal Deposit 
+Insurance Corporation.
+
+ACTION: Notification.
+
+-----------------------------------------------------------------------
+
+SUMMARY: In light of recent economic disruptions caused by the COVID-19 
+virus and recent volatility in U.S. financial markets, the Office of 
+the Comptroller of the Currency, the Board of Governors of the Federal 
+Reserve System, and the Federal Deposit Insurance Corporation 
+(collectively, the agencies) are issuing a document to allow depository 
+institutions and depository institution holding companies to implement 
+the final rule titled Standardized Approach for Calculating the 
+Exposure Amount of Derivative Contracts (SA-CCR rule) for the first 
+quarter of 2020, on a best efforts basis.
+
+DATES: Effective March 31, 2020.
+
+FOR FURTHER INFORMATION CONTACT: 
+    OCC: Margot Schwadron, Director, or Guowei Zhang, Risk Expert, 
+Capital and Regulatory Policy, (202) 649-6370; or Carl Kaminski, 
+Special Counsel, Kevin Korzeniewski, Counsel, Daniel Perez, Senior 
+Attorney, Chief Counsel's Office, (202) 649-5490; the Office of the 
+Comptroller of the Currency, 400 7th Street SW, Washington, DC 20219.
+    Board: Constance M. Horsley, Deputy Associate Director, (202) 452-
+5239;
+
+[[Page 17722]]
+
+Teresa A. Scott, Manager, (202) 475-6316; Eusebius Luk, Senior 
+Financial Institution Policy Analyst I, (202) 452-2874; Division of 
+Supervision and Regulation; or Benjamin W. McDonough, Assistant General 
+Counsel, (202) 452-2036; Mark Buresh, Senior Counsel, (202) 452-5270; 
+Jonah Kind, Senior Attorney, (202) 452-2045; Legal Division, Board of 
+Governors of the Federal Reserve System, 20th and C Streets NW, 
+Washington, DC 20551. For the hearing impaired only, Telecommunication 
+Device for the Deaf, (202) 263-4869.
+    FDIC: Bobby R. Bean, Associate Director, <a href="/cdn-cgi/l/email-protection#e2808087838ca284868b81cc858d94"><span class="__cf_email__" data-cfemail="debcbcbbbfb09eb8bab7bdf0b9b1a8">[email&#160;protected]</span></a>; Irina 
+Leonova, Acting Chief, Capital Strategies Section, <a href="/cdn-cgi/l/email-protection#8ae3e6efe5e4e5fcebcaeceee3e9a4ede5fc"><span class="__cf_email__" data-cfemail="b4ddd8d1dbdadbc2d5f4d2d0ddd79ad3dbc2">[email&#160;protected]</span></a>; 
+Peter Yen, Senior Policy Analyst, <a href="/cdn-cgi/l/email-protection#89f9f0ece7c9efede0eaa7eee6ff"><span class="__cf_email__" data-cfemail="a3d3dac6cde3c5c7cac08dc4ccd5">[email&#160;protected]</span></a>, Capital Markets 
+Branch, Division of Risk Management Supervision, (202) 898-6888; or 
+Michael Phillips, Counsel, <a href="/cdn-cgi/l/email-protection#610c1109080d0d08111221070508024f060e17"><span class="__cf_email__" data-cfemail="ff928f97969393968f8cbf999b969cd1989089">[email&#160;protected]</span></a>; Catherine Wood, Counsel, 
+<a href="/cdn-cgi/l/email-protection#3d5e5c4a5252597d5b59545e135a524b"><span class="__cf_email__" data-cfemail="375456405858537751535e5419505841">[email&#160;protected]</span></a>; Supervision Branch, Legal Division, Federal Deposit 
+Insurance Corporation, 550 17th Street NW, Washington, DC 20429.
+
+SUPPLEMENTARY INFORMATION: The Office of the Comptroller of the 
+Currency, the Board of Governors of the Federal Reserve System, and the 
+Federal Deposit Insurance Corporation (collectively, the agencies) 
+recently adopted the final rule titled Standardized Approach for 
+Calculating the Exposure Amount of Derivative Contracts (SA-CCR 
+rule).\1\ The SA-CCR rule implements a new approach--the standardized 
+approach for counterparty credit risk (SA-CCR methodology)--for 
+calculating the exposure amount of derivative contracts under the 
+agencies' regulatory capital rule (capital rule). The SA-CCR rule also 
+revises other aspects of the capital rule related to total leverage 
+exposure (the denominator of the supplementary leverage ratio) and the 
+cleared transactions framework.
+---------------------------------------------------------------------------
+
+    \1\ See 85 FR 4362 (January 24, 2020).
+---------------------------------------------------------------------------
+
+    The agencies are permitting a banking organization the flexibility 
+to implement the SA-CCR rule, including the SA-CCR methodology and the 
+other amendments described in the SA-CCR rule, one quarter early and on 
+a best efforts basis if the banking organization chooses to do so.\2\
+---------------------------------------------------------------------------
+
+    \2\ The SA-CCR rule had an original effective date of April 1, 
+2020, the first day of the calendar quarter following publication in 
+the Federal Register, pursuant to 12 U.S.C. 4802(b)(1). Banking 
+organizations may elect to comply before the effective date pursuant 
+to 12 U.S.C. 4802(b)(2).
+---------------------------------------------------------------------------
+
+    Recent events have suddenly and significantly impacted financial 
+markets. The spread of the COVID-19 virus has disrupted economic 
+activity in many countries. In addition, financial markets have 
+experienced significant volatility. The magnitude and persistence of 
+the overall effects on the economy remain highly uncertain. The 
+notification should help to mitigate the impact of recent dislocations 
+in the U.S. economy as a result of COVID-19. By allowing early adoption 
+of the SA-CCR rule, the notification allows banking organizations to 
+implement the SA-CCR methodology's more risk-sensitive measurement of 
+the exposure amounts of derivative contracts one quarter earlier than 
+the SA-CCR rule provided. For purposes of any early adoption of the SA-
+CCR rule, the agencies understand that banking organizations are in the 
+process of refining their systems to implement the SA-CCR rule and, 
+therefore, for purposes of the first quarter, early adoption would be 
+on a best efforts basis.
+    The SA-CCR rule was issued with an effective date of April 1, 2020. 
+The SA-CCR rule provides banking organizations the option to adopt the 
+SA-CCR methodology for derivative contracts beginning on April 1, 2020. 
+For advanced approaches banking organizations, adoption of the SA-CCR 
+methodology is mandatory beginning January 1, 2022. As a result, by no 
+later than January 1, 2022, advanced approaches banking organizations 
+must use the SA-CCR methodology for purposes of standardized total 
+risk-weighted assets and the supplementary leverage ratio, and must use 
+either the SA-CCR methodology or the internal models methodology for 
+purposes of advanced approaches total risk-weighted assets. The SA-CCR 
+rule provides non-advanced approaches banking organization the option 
+to adopt the SA-CCR methodology for purposes of standardized total 
+risk-weighted assets and, if applicable, the supplementary leverage 
+ratio, beginning April 1, 2020. As a result, banking organizations 
+could adopt the SA-CCR methodology as early as April 1, 2020, and 
+advanced approaches banking organizations are required to adopt the SA-
+CCR methodology beginning January 1, 2022.
+    The SA-CCR rule also included several other amendments to the 
+capital rule that are effective as of April 1, 2020. These amendments 
+include, among others: (1) A 2 percent or a 4 percent risk-weight for 
+cash collateral posted to a qualifying central counterparty (QCCP) 
+subject to certain requirements; (2) the ability of a clearing member 
+banking organization to recognize client collateral posted to a central 
+counterparty (CCP) under certain circumstances; (3) a zero percent 
+risk-weight for the CCP-facing portion of a transaction where a 
+clearing member banking organization does not guarantee the performance 
+of the CCP to the clearing member's client; and (4) the ability of a 
+clearing member banking organization to apply a 5-day holding period 
+for collateral associated with client-facing derivatives for purposes 
+of the collateral haircut approach.
+    The agencies are allowing banking organizations to implement the 
+SA-CCR rule, including the SA-CCR methodology and the other amendments, 
+on a best efforts basis immediately. A banking organization that elects 
+to adopt the SA-CCR methodology must adopt the SA-CCR methodology for 
+all derivative contracts; it cannot implement the SA-CCR methodology 
+for a subset of its derivative contracts. However, a banking 
+organization may adopt some of the other amendments described in the 
+SA-CCR rule regardless of whether it chooses to early adopt the SA-CCR 
+methodology.\3\
+---------------------------------------------------------------------------
+
+    \3\ Certain of the other amendments, such as the ability of a 
+banking organization to use SA-CCR for the calculation of exposure 
+under the OCC's lending limits rule, are dependent on the banking 
+organization adopting the SA-CCR methodology.
+---------------------------------------------------------------------------
+
+    The agencies expect to make related amendments to the Call Report, 
+FFIEC 101, and FR Y-9C, as applicable, filed as of March 31, 2020, to 
+reflect this notification. These amendments will be addressed in a 
+separate Federal Register document. Adopting the SA-CCR rule on a best 
+efforts basis for the first quarter of 2020 is optional for all banking 
+organizations subject to the capital rule. The SA-CCR rule effective 
+date will remain April 1, 2020, and the mandatory compliance date will 
+remain January 1, 2022.
+
+Morris R. Morgan,
+First Deputy Comptroller, Office of the Comptroller of the Currency.
+
+    By order of the Board of Governors of the Federal Reserve 
+System.
+Ann Misback,
+Secretary of the Board.
+Federal Deposit Insurance Corporation.
+
+    By order of the Board of Directors.
+    Dated at Washington, DC, on or about March 26, 2020.
+Robert E. Feldman,
+Executive Secretary.
+[FR Doc. 2020-06755 Filed 3-30-20; 8:45 am]
+ BILLING CODE P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

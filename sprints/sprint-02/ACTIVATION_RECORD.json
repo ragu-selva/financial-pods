@@ -1,0 +1,89 @@
+{
+  "status": "ACTIVE",
+  "activation_status": "HUMAN_APPROVED_PENDING_PR_MERGE",
+  "regulatory_as_of": "2025-01-01",
+  "reviewer_name": "Ragunath Selvaraj",
+  "reviewer_role": "Project Owner / Internal Regulatory Reviewer",
+  "reviewer_qualification_or_authority": "Project owner accountable for regulatory interpretation and Golden Case approval for the internal Financial Pods V1 prototype. This is not independent legal counsel, regulatory certification, or production-bank sign-off.",
+  "responsibilities_accepted": true,
+  "review_date": "2026-09-10",
+  "review_decision": "APPROVED_FOR_INTERNAL_PROTOTYPE",
+  "review_evidence": {
+    "approval_basis": "Explicit project-owner activation request and subsequent confirmation of Ragunath Selvaraj as reviewer. AI transcribes this human decision; it does not independently sign or certify it.",
+    "planning_commit": "79b33dbb1f069a89fc6d87336a23268adea08589",
+    "source_manifest": "SOURCE_MANIFEST.json",
+    "approved_manifest_sha256": "1a693c8acaee30642e7ff9ed02914296568d3f44fbe8884f96d224e4eddfa5ed",
+    "approved_golden_case_sha256": "59e87b7748d4b506adb513d7c657b0e3d4e23d7581428b91810b19e96692e29e",
+    "reviewed_manifest_sha256": "acae53f92c283487d9d7bbd2692d6e25900cc0d63ebb1cfe9a0e2666f92862f2",
+    "source_closure": ["SOURCE_REVIEW.md", "MATERIAL_SOURCE_CLOSURE.md"],
+    "golden_case": "GOLDEN_CASE_APPROVED.json",
+    "reviewed_subjects": [
+      "U.S. source versions and hashes",
+      "rule locators and amendment/effective-date chain",
+      "interpretation and institutional applicability",
+      "Golden Case assumptions",
+      "classification and regulatory exposure measure",
+      "risk weight and RWA",
+      "baseline_total_capital_equivalent only at 0.08",
+      "warnings and exclusions",
+      "contracts and historical source-selection policy"
+    ],
+    "classification": "CORPORATE",
+    "measure_type": "EXPOSURE_AMOUNT",
+    "measurement_basis": "US_STANDARDIZED_CARRYING_VALUE",
+    "exposure_amount_usd": "10000000.00",
+    "risk_weight_ratio": "1.00",
+    "rwa_usd": "10000000.00",
+    "teaching_output": "baseline_total_capital_equivalent",
+    "teaching_ratio": "0.08",
+    "teaching_amount_usd": "800000.00",
+    "warnings_and_exclusions": "GOLDEN_CASE_APPROVED.json#/limitations and #/expected_result",
+    "accepted_simplifications": {
+      "gaap_carrying_value": "10000000.00",
+      "currency": "USD",
+      "credit_loss_allowance": "0.00",
+      "write_offs": "0.00",
+      "premium_discount": "0.00",
+      "accrued_interest_fee_adjustment": "0.00",
+      "pcd": false,
+      "crm": "NONE",
+      "past_due": false,
+      "nonaccrual": false
+    }
+  },
+  "identity_policy": "Only the project owner's supplied or explicitly confirmed human identity and decision may be transcribed. AI cannot assume accountable responsibility or independently approve.",
+  "required_review_subjects": [
+    "U.S. source versions and hashes",
+    "rule locators and amendment/effective-date chain",
+    "interpretation and institutional applicability",
+    "Golden Case assumptions",
+    "classification and regulatory exposure measure",
+    "risk weight and RWA",
+    "baseline_total_capital_equivalent only at 0.08",
+    "warnings and exclusions",
+    "contracts and historical source-selection policy"
+  ],
+  "source_approval_complete": true,
+  "golden_case_approval_complete": true,
+  "owner_activation_decision": "Activate governance for the internal prototype only; implementation waits for activation PR review and merge.",
+  "adr_status": "ACCEPTED",
+  "activation_pr": {
+    "branch": "codex/sprint-02-activation",
+    "base": "main",
+    "created": false,
+    "url": null,
+    "merged": false,
+    "base_commit": "5fcfc5a42fc8cb3fc0a8bf53a8659fd60fa6d931"
+  },
+  "implementation": {
+    "branch": "codex/sprint-02-us-corporate-engine",
+    "authorized": false,
+    "prerequisite": "Activation PR reviewed and merged; no implementation before that.",
+    "status": "NOT YET STARTED"
+  },
+  "source_resolver_skill": {
+    "path": "../../skills/effective-dated-regulatory-source-resolver/SKILL.md",
+    "approved": true,
+    "responsibility": "Resolve effective-dated source evidence only; no calculation, classification or regulatory approval."
+  }
+}

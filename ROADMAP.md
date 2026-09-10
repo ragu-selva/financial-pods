@@ -5,12 +5,13 @@
 - Sprint 00 foundation: accepted with documented follow-up
 - Sprint 01 FinBank/Alpha Manufacturing deterministic domain model: accepted
 - Sprint 01 integration/hardening: accepted and merged through PR #2 at b0cf3a9
-- Sprint 02: PLANNING ONLY — NOT ACTIVE; separate architecture/regulatory review branch
+- Sprint 02: ACTIVE on codex/sprint-02-activation; implementation NOT YET STARTED
+- Internal-prototype U.S./FRB 2025-01-01 sources and Golden expectations approved; implementation waits for activation PR review and merge
 - Lock the coordinated initial-release definition: Product V1 Golden Lesson + Growth V1 social publishing
 
 ## Next
 
-- Reviewed single-framework regulatory ruleset and calculation trace
+- After activation PR merge: the narrow approved U.S. corporate ruleset and calculation trace
 - Golden corporate-exposure lesson and calculator UI
 - Assessment, mastery, and learner progress
 - Grounded AI tutor with citations and evaluation suite

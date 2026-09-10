@@ -1,0 +1,890 @@
+<html>
+<head>
+<title>Federal Register, Volume 85 Issue 197 (Friday, October 9, 2020)</title>
+</head>
+<body><pre>
+[Federal Register Volume 85, Number 197 (Friday, October 9, 2020)]
+[Rules and Regulations]
+[Pages 64003-64009]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2020-19922]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF THE TREASURY
+
+Office of the Comptroller of the Currency
+
+12 CFR Part 3
+
+[Docket ID OCC-2020-0017]
+RIN 1557-AE89
+
+FEDERAL RESERVE SYSTEM
+
+12 CFR Part 217
+
+[Regulation Q; Docket No. R-1711]
+RIN 7100-AF85
+
+FEDERAL DEPOSIT INSURANCE CORPORATION
+
+12 CFR Part 324
+
+RIN 3064-AF47
+
+
+Regulatory Capital Rule: Temporary Changes to and Transition for 
+the Community Bank Leverage Ratio Framework
+
+AGENCY: The Office of the Comptroller of the Currency, Treasury; the 
+Board of Governors of the Federal Reserve System; and the Federal 
+Deposit Insurance Corporation.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Office of the Comptroller of the Currency, the Board of 
+Governors of the Federal Reserve System, and the Federal Deposit 
+Insurance Corporation are adopting as final the revisions to the 
+community bank leverage ratio framework made under two interim final 
+rules issued in the Federal Register on April 23, 2020. The final rule 
+adopts these interim final rules with no changes. Under the final rule, 
+the community bank leverage ratio will remain 8 percent through 
+calendar year 2020, will be 8.5 percent through calendar year 2021, and 
+will be 9 percent thereafter. The final rule also maintains a two-
+quarter grace period for a qualifying community banking organization 
+whose leverage ratio falls no more than 1 percentage point below the 
+applicable community bank leverage ratio requirement.
+
+DATES: The final rule is effective November 9, 2020.
+
+FOR FURTHER INFORMATION CONTACT: 
+    OCC: Benjamin Pegg, Risk Expert, or Jung Sup Kim, Risk Specialist, 
+Capital and Regulatory Policy, (202) 649-6370; Carl Kaminski, Special 
+Counsel, or Daniel Perez, Senior Attorney, Chief Counsel's Office, 
+(202) 649-5490, for persons who are deaf or hearing impaired, TTY, 
+(202) 649-5597, Office of the Comptroller of the Currency, 400 7th 
+Street SW, Washington, DC 20219.
+    Board: Constance M. Horsley, Deputy Associate Director, (202) 452-
+5239; Elizabeth MacDonald, Manager, (202) 872-7526; Christopher Appel, 
+Senior Financial Institution Policy Analyst II, (202) 973-6862; or 
+Brendan Rowan, Senior Financial Institution Policy Analyst I, (202) 
+475-6685, Division of Supervision and Regulation; or Benjamin W. 
+McDonough, Assistant General Counsel, (202) 452-2036; Mark Buresh, 
+Senior Counsel, (202) 452-2877; Andrew Hartlage, Counsel, (202) 452-
+6483; or Jonah Kind, Senior Attorney, (202) 452-2045, Legal Division, 
+Board of Governors of the Federal Reserve System, 20th Street and 
+Constitution Avenue NW, Washington, DC 20551. Users of 
+Telecommunication Device for the Deaf (TDD) only, call (202) 263-4869.
+    FDIC: Bobby R. Bean, Associate Director, <a href="/cdn-cgi/l/email-protection#086a6a6d6966486e6c616b266f677e"><span class="__cf_email__" data-cfemail="aecccccbcfc0eec8cac7cd80c9c1d8">[email&#160;protected]</span></a>; Benedetto 
+Bosco, Chief, Capital Policy Section, <a href="/cdn-cgi/l/email-protection#fb999994889894bb9d9f9298d59c948d"><span class="__cf_email__" data-cfemail="d2b0b0bda1b1bd92b4b6bbb1fcb5bda4">[email&#160;protected]</span></a>; Noah Cuttler, 
+Senior Policy Analyst, <a href="/cdn-cgi/l/email-protection#a8c6cbdddcdcc4cddae8ceccc1cb86cfc7de"><span class="__cf_email__" data-cfemail="88e6ebfdfcfce4edfac8eeece1eba6efe7fe">[email&#160;protected]</span></a>; <a href="/cdn-cgi/l/email-protection#8efcebe9fbe2effae1fcf7edeffee7faefe2cee8eae7eda0e9e1f8"><span class="__cf_email__" data-cfemail="95e7f0f2e0f9f4e1fae7ecf6f4e5fce1f4f9d5f3f1fcf6bbf2fae3">[email&#160;protected]</span></a>; 
+Capital Markets Branch, Division of Risk Management Supervision, (202) 
+898-6888; or Michael Phillips, Counsel, <a href="/cdn-cgi/l/email-protection#b5d8c5dddcd9d9dcc5c6f5d3d1dcd69bd2dac3"><span class="__cf_email__" data-cfemail="6805180001040401181b280e0c010b460f071e">[email&#160;protected]</span></a>; Catherine 
+Wood, Counsel, <a href="/cdn-cgi/l/email-protection#076466706868634761636e6429606871"><span class="__cf_email__" data-cfemail="1f7c7e6870707b5f797b767c31787069">[email&#160;protected]</span></a>; Supervision and Legislation Branch, 
+Legal Division, Federal Deposit Insurance Corporation, 550 17th Street 
+NW, Washington, DC 20429. For the hearing impaired only, 
+Telecommunication Device for the Deaf (TDD), (800) 925-4618.
+
+SUPPLEMENTARY INFORMATION:
+
+Table of Contents
+
+I. Background on the Community Bank Leverage Ratio Framework
+II. Interim Final Rules
+III. Final Rule
+IV. Impact Analysis
+V. Administrative Law Matters
+    A. Congressional Review Act
+    B. Paperwork Reduction Act
+    C. Regulatory Flexibility Act
+    D. Riegle Community Development and Regulatory Improvement Act 
+of 1994
+    E. Use of Plain Language
+    F. Unfunded Mandates Act
+
+I. Background on the Community Bank Leverage Ratio Framework
+
+    The community bank leverage ratio framework provides a simple 
+measure of capital adequacy for community banking organizations that 
+meet certain qualifying criteria. The community bank leverage ratio 
+framework implements section 201 of the Economic Growth, Regulatory 
+Relief, and Consumer Protection Act (EGRRCPA), which requires the 
+Office of the Comptroller of the Currency (OCC), the Board of
+
+[[Page 64004]]
+
+Governors of the Federal Reserve System (Board), and the Federal 
+Deposit Insurance Corporation (FDIC) (collectively, the agencies) to 
+establish a community bank leverage ratio of not less than 8 percent 
+and not more than 10 percent for a qualifying community banking 
+organization.\1\ Under section 201(c) of EGRRCPA, a qualifying 
+community banking organization whose leverage ratio exceeds the 
+community bank leverage ratio, as established by the agencies, shall be 
+considered to have met the generally applicable risk-based and leverage 
+capital requirements in the capital rule (generally applicable rule), 
+any other applicable capital or leverage requirements, and, if 
+applicable, the ``well capitalized'' capital ratio requirements for 
+purposes of section 38 of the Federal Deposit Insurance Act. Section 
+201(b) of EGRRCPA also requires the agencies to establish procedures 
+for the treatment of a qualifying community banking organization whose 
+leverage ratio falls below the community bank leverage ratio 
+requirement as established by the agencies.
+---------------------------------------------------------------------------
+
+    \1\ Public Law 115-174, 132 Stat. 1296, 1306-07 (2018) (codified 
+at 12 U.S.C. 5371 note). The authorizing statutes use the term 
+``qualifying community bank,'' whereas the regulation implementing 
+the statutes uses the term ``qualifying community banking 
+organization.'' The terms generally have the same meaning. Section 
+201(a)(3) of EGRRCPA provides that a qualifying community bank is a 
+depository institution or depository institution holding company 
+with total consolidated assets of less than $10 billion that 
+satisfies such other factors, based on the banking organization's 
+risk profile, that the agencies determine are appropriate. This 
+determination shall be based on consideration of off-balance sheet 
+exposures, trading assets and liabilities, total notional 
+derivatives exposures, and any such factors that the agencies 
+determine appropriate.
+---------------------------------------------------------------------------
+
+    In November 2019, the agencies issued a final rule establishing the 
+community bank leverage ratio framework, which became effective January 
+1, 2020 (2019 final rule).\2\ Under the 2019 final rule, the agencies 
+established a community bank leverage ratio of 9 percent using the 
+existing leverage ratio calculation. A qualifying community banking 
+organization that maintained a leverage ratio of greater than 9 percent 
+and elected to use the community bank leverage ratio framework would 
+have been considered to have satisfied the generally applicable rule, 
+any other applicable capital or leverage requirements, and, if 
+applicable, the capital ratio requirements to be considered well 
+capitalized.\3\
+---------------------------------------------------------------------------
+
+    \2\ 84 FR 61776 (November 13, 2019).
+    \3\ Under existing prompt corrective action requirements 
+applicable to insured depository institutions, to be considered 
+``well capitalized'' a banking organization must demonstrate that it 
+is not subject to any written agreement, order, capital directive, 
+or as applicable, prompt corrective action directive, to meet and 
+maintain a specific capital level for any capital measure. See 12 
+CFR 6.4(b)(1)(iv) (OCC); 12 CFR 208.43(b)(1)(v) (Board); 12 CFR 
+324.403(b)(1)(v) (FDIC). The same legal requirements continue to 
+apply under the community bank leverage ratio framework.
+---------------------------------------------------------------------------
+
+    Under the 2019 final rule, a qualifying community banking 
+organization is any depository institution or depository institution 
+holding company that has less than $10 billion in total consolidated 
+assets, off-balance sheet exposures (excluding derivatives other than 
+sold credit derivatives and unconditionally cancelable commitments) of 
+25 percent or less of total consolidated assets, and trading assets and 
+liabilities of 5 percent or less of total consolidated assets. The 
+banking organization also cannot be an advanced approaches banking 
+organization.\4\
+---------------------------------------------------------------------------
+
+    \4\ A banking organization is an advanced approaches banking 
+organization if it is a global systemically important bank holding 
+company, is a Category II banking organization, has elected to be an 
+advanced approaches banking organization, is a subsidiary of a 
+company that is an advanced approaches banking organization, or has 
+a subsidiary depository institution that is an advanced approaches 
+banking organization. See 12 CFR 3.100 (OCC); 12 CFR 217.100 
+(Board); 12 CFR 324.100 (FDIC).
+---------------------------------------------------------------------------
+
+    In addition, the 2019 final rule established a two-quarter grace 
+period during which a qualifying community banking organization that 
+temporarily failed to meet any of the qualifying criteria, including 
+the leverage ratio requirement, generally would still have been 
+considered well capitalized so long as the banking organization 
+maintained a leverage ratio of greater than 8 percent during that grace 
+period. A banking organization that either failed to meet all the 
+qualifying criteria within the grace period or failed to maintain a 
+leverage ratio of greater than 8 percent would have been required to 
+comply with the generally applicable rule and file the appropriate 
+regulatory reports.
+
+II. Interim Final Rules
+
+    On March 27, 2020, the Coronavirus Aid, Relief, and Economic 
+Security Act (CARES Act) became law.\5\ Section 4012 of the CARES Act 
+directs the agencies to issue an interim final rule providing that, for 
+purposes of section 201 of EGRRCPA, the community bank leverage ratio 
+shall be 8 percent, and a qualifying community banking organization 
+whose leverage ratio falls below the community bank leverage ratio 
+requirement established under the CARES Act shall have a reasonable 
+grace period to satisfy that requirement. Section 4012 of the CARES Act 
+specifies that the interim final rule is effective during the period 
+beginning on the date on which the agencies issue the interim final 
+rule and ending on the sooner of the termination date of the national 
+emergency concerning the coronavirus disease (COVID-19) outbreak 
+declared by the President on March 13, 2020, under the National 
+Emergencies Act, or December 31, 2020 (termination date).
+---------------------------------------------------------------------------
+
+    \5\ Public Law 116-136, 134 Stat. 281.
+---------------------------------------------------------------------------
+
+    Accordingly, the agencies issued an interim final rule that 
+implements a temporary 8-percent community bank leverage ratio 
+requirement, as mandated under section 4012 of the CARES Act (statutory 
+interim final rule).\6\ In addition, under the statutory interim final 
+rule, a community banking organization that temporarily fails to meet 
+any of the qualifying criteria, including the 8-percent community bank 
+leverage ratio requirement, generally will still be considered well 
+capitalized provided that the banking organization maintains a leverage 
+ratio equal to 7 percent or greater. A banking organization that fails 
+to meet the qualifying criteria after the end of the grace period or 
+reports a leverage ratio of less than 7 percent must comply with the 
+generally applicable rule and file the appropriate regulatory reports.
+---------------------------------------------------------------------------
+
+    \6\ 85 FR 22924 (April 23, 2020).
+---------------------------------------------------------------------------
+
+    Since the statutory interim final rule could cease to be effective 
+at any time before December 31, 2020, the agencies issued a separate 
+interim final rule pursuant to section 201(b) of EGRRCPA that provides 
+a graduated transition from the temporary 8-percent community bank 
+leverage ratio requirement to the 9-percent community bank leverage 
+ratio requirement as established under the 2019 final rule (transition 
+interim final rule).\7\ Specifically, the transition interim final rule 
+provides that, once the statutory interim final rule ceases to apply, 
+the community bank leverage ratio will be 8 percent in the second 
+quarter through fourth quarter of calendar year 2020, 8.5 percent in 
+calendar year 2021, and 9 percent thereafter. The transition interim 
+final rule also modifies the two-quarter grace period for a qualifying 
+community banking organization to account for the graduated increase in 
+the community bank leverage ratio requirement. The interim final rules 
+do not make any changes to the other qualifying criteria in the 
+community bank leverage ratio framework.
+---------------------------------------------------------------------------
+
+    \7\ 85 FR 22930 (April 23, 2020).
+---------------------------------------------------------------------------
+
+    The transition interim final rule extends the 8-percent community 
+bank leverage ratio through December 31, 2020, in the event the 
+statutory interim final rule terminates before December 31, 2020. Thus, 
+even if the statutory
+
+[[Page 64005]]
+
+interim final rule were to terminate prior to December 31, 2020, the 
+community bank leverage ratio would continue to be set at 8 percent for 
+the remainder of 2020. Section 201 of EGRRCPA requires a qualifying 
+community banking organization to exceed the community bank leverage 
+ratio established by the agencies in order to be considered to have met 
+the generally applicable rule, any other applicable capital or leverage 
+requirements, and, if applicable, the ``well capitalized'' capital 
+ratio requirements, whereas section 4012 of the CARES Act requires that 
+a qualifying community banking organization meet or exceed an 8 percent 
+community bank leverage ratio to be considered the same.
+    In the 2019 final rule, the agencies adopted a 9-percent community 
+bank leverage ratio requirement on the basis that this threshold, with 
+complementary qualifying criteria, generally maintains the current 
+level of regulatory capital held by qualifying banking organizations 
+and supports the agencies' goals of reducing regulatory burden while 
+maintaining safety and soundness. The agencies intend for the graduated 
+approach under the transition interim final rule to provide community 
+banking organizations with sufficient time to meet a 9-percent 
+community bank leverage ratio requirement while they also focus on 
+supporting lending to creditworthy households and businesses. This 
+latter goal is particularly critical given the recent strain on the 
+U.S. economy caused by COVID-19.
+    Consistent with section 201(c) of EGRRCPA, under the transition 
+interim final rule, a qualifying community banking organization that 
+temporarily fails to meet any of the qualifying criteria, including the 
+applicable community bank leverage ratio requirement, generally would 
+still be deemed well capitalized during a two-quarter grace period so 
+long as the banking organization maintains a leverage ratio of the 
+following: Greater than 7 percent in the second quarter through fourth 
+quarter of calendar year 2020, greater than 7.5 percent in calendar 
+year 2021, and greater than 8 percent thereafter.\8\ A banking 
+organization that fails to meet the qualifying criteria by the end of 
+the grace period or reports a leverage ratio of equal to or less than 7 
+percent in the second through fourth quarters of calendar year 2020, 
+equal to or less than 7.5 percent in calendar year 2021, or equal to or 
+less than 8 percent thereafter, would be required to comply immediately 
+with the generally applicable rule and file the appropriate regulatory 
+reports.
+---------------------------------------------------------------------------
+
+    \8\ While the statutory interim final rule is in effect, a 
+qualifying community banking organization that temporarily fails to 
+meet any of the qualifying criteria, including the applicable 
+community bank leverage ratio requirement, generally would still be 
+deemed well capitalized so long as the banking organization 
+maintains a leverage ratio of 7 percent or greater during a two-
+quarter grace period. Similarly, while the statutory interim final 
+rule is in effect, a banking organization that fails to meet the 
+qualifying criteria by the end of the grace period or reports a 
+leverage ratio of less than 7 percent must comply with the generally 
+applicable rule and file the appropriate regulatory reports.
+---------------------------------------------------------------------------
+
+    The agencies adopted in the 2019 final rule a two-quarter grace 
+period with a leverage ratio requirement that is 1 percentage point 
+below the community bank leverage ratio on the basis that this grace 
+period would appropriately mitigate potential volatility in capital and 
+associated regulatory reporting requirements based on temporary changes 
+in a banking organization's risk profile from quarter to quarter, while 
+capturing more permanent changes in a banking organization's risk 
+profile. The agencies maintained this approach in the interim final 
+rules because they believed that this approach is appropriate and 
+provides a qualifying community banking organization whose leverage 
+ratio falls below the applicable community bank leverage ratio 
+requirement a reasonable amount of time to once again satisfy that 
+requirement. This approach is consistent with section 201(b)(2) of 
+EGRRCPA, which directs the agencies to establish procedures for the 
+treatment of a qualifying community bank whose leverage ratio falls 
+below the community bank leverage ratio requirement as established by 
+the agencies.
+    The agencies received one public comment that addressed the 
+substance of the interim final rules. The commenter urged the agencies 
+to revert to a 9 percent community bank leverage ratio by January 1, 
+2022, which is consistent with the transition interim final rule. The 
+agencies are adopting as final the interim final rules with no changes.
+
+III. Final Rule
+
+    Under the final rule, a qualifying community banking organization 
+must have a leverage ratio equal to or greater than 8 percent beginning 
+in the second quarter of calendar year 2020. If the national emergency 
+is terminated during 2020, under the final rule, a qualifying community 
+banking organization must have a leverage ratio greater than 8 percent 
+for the remainder of calendar year 2020. Subsequently, a qualifying 
+community banking organization must have a leverage ratio greater than 
+8.5 percent through calendar year 2021 and greater than 9 percent 
+thereafter.\9\
+---------------------------------------------------------------------------
+
+    \9\ The provisions under the final rule are effective November 
+9, 2020. Banking organizations will continue to be subject to the 
+requirements under the statutory interim final rule or transition 
+interim final rule for purposes of filing their Consolidated Report 
+of Condition and Income (Call Report) or Form FR Y-9C, as 
+applicable. A banking organization's compliance with capital 
+requirements for a quarter prior to the final rule's effective date 
+shall be determined according to the generally applicable rule 
+unless the banking organization has filed its Call Report or FR Y-9C 
+report, as applicable, for the prior quarter and has indicated that 
+it has elected to use the community bank leverage ratio framework.
+---------------------------------------------------------------------------
+
+    The final rule also includes the modified two-quarter grace period 
+for a qualifying community banking organization to take into account 
+the graduated increase in the community bank leverage ratio 
+requirement.\10\ Specifically, a qualifying community banking 
+organization that temporarily fails to meet any of the qualifying 
+criteria, including the applicable community bank leverage ratio 
+requirement, will generally still be deemed well capitalized during a 
+two-quarter grace period so long as the banking organization maintains 
+a leverage ratio of the following: greater than 7 percent in the second 
+quarter through fourth quarter of calendar year 2020, greater than 7.5 
+percent in calendar year 2021, and greater than 8 percent 
+thereafter.\11\
+---------------------------------------------------------------------------
+
+    \10\ Consistent with the 2019 final rule, a banking organization 
+that ceases to satisfy the qualifying criteria as a result of a 
+business combination also will receive no grace period and will be 
+required to comply with the generally applicable rule.
+    \11\ Prior to the termination date, a qualifying community 
+banking organization that temporarily fails to meet any of the 
+qualifying criteria, including the applicable community bank 
+leverage ratio requirement, generally would still be deemed well 
+capitalized so long as the banking organization maintains a leverage 
+ratio of 7 percent or greater during a two-quarter grace period. 
+Similarly, prior to the termination date, a banking organization 
+that fails to meet the qualifying criteria after the end of the 
+grace period or reports a leverage ratio of less than 7 percent must 
+comply with the generally applicable rule and file the appropriate 
+regulatory reports.
+---------------------------------------------------------------------------
+
+    The final rule does not make any changes to the other qualifying 
+criteria in the community bank leverage ratio framework.
+
+[[Page 64006]]
+
+
+
+     Table 1--Schedule of Community Bank Leverage Ratio Requirements
+------------------------------------------------------------------------
+                                                          Leverage ratio
+                                          Community bank    requirement
+                                          leverage ratio     under the
+              Calendar year                 requirement     applicable
+                                             (percent)     grace period
+                                                             (percent)
+------------------------------------------------------------------------
+2020....................................               8               7
+2021....................................             8.5             7.5
+2022 and thereafter.....................               9               8
+------------------------------------------------------------------------
+
+    The agencies are maintaining the 2019 final rule's requirement that 
+the grace period will begin as of the end of the calendar quarter in 
+which the electing banking organization ceases to satisfy any of the 
+qualifying criteria (so long as the banking organization maintains a 
+leverage ratio of greater than the requirement for the applicable grace 
+period) and will end after two consecutive calendar quarters. For 
+example, if an electing banking organization, which had met all 
+qualifying criteria as of March 31, 2020, no longer met one of the 
+qualifying criteria as of May 15, 2020, and still had not met the 
+criteria as of the end of that quarter, the grace period for the 
+banking organization would have begun as of the end of the quarter 
+ending June 30, 2020. The banking organization may continue to use the 
+community bank leverage ratio framework as of September 30, 2020 (so 
+long as the banking organization maintains a leverage ratio of greater 
+than the requirement for the applicable grace period), but would need 
+to comply fully with the generally applicable rule and associated 
+reporting requirements as of December 31, 2020, unless the banking 
+organization once again meets all qualifying criteria by that date.
+    If an electing banking organization is in the grace period when the 
+community bank leverage ratio increases, the banking organization would 
+be subject, as of the date of the change, to both the higher community 
+bank leverage ratio requirement and higher grace period leverage ratio 
+requirement. For example, if the electing banking organization that 
+were to meet all qualifying criteria as of September 30, 2020, but 
+reports a 7.2 percent leverage ratio as of December 31, 2020, and meets 
+all the other qualifying criteria, the grace period for such a banking 
+organization would begin as of the end of the fourth quarter 2020. The 
+banking organization may continue to use the community bank leverage 
+ratio framework as of March 31, 2021, if the banking organization 
+reports a leverage ratio of greater than 7.5 percent, and would need to 
+comply fully with the generally applicable rule and associated 
+reporting requirements as of June 30, 2021, unless the banking 
+organization reports a leverage ratio of greater than 8.5 percent (and 
+meets all the other qualifying criteria) by that date. In this example, 
+if the banking organization has a leverage ratio equal to or less than 
+7.5 percent as of March 31, 2021, it would not be eligible to use the 
+community bank leverage ratio framework and would be subject to the 
+requirements of the generally applicable rule and associated reporting 
+requirements as of March 31, 2021.
+    As mentioned above, the grace period for an electing community 
+banking organization is limited to two consecutive calendar quarters. 
+For example, if an electing banking organization were to meet all 
+qualifying criteria as of June 30, 2021, but reports a 8.3 percent 
+leverage ratio (while meeting all the other qualifying criteria) as of 
+the end of September 30, 2021, the grace period for such a banking 
+organization would begin as of the end of the third quarter 2021. The 
+banking organization may continue to use the community bank leverage 
+ratio framework as of December 31, 2021, if the banking organization 
+reports a leverage ratio of greater than 7.5 percent, and would need to 
+comply fully with the generally applicable rule and associated 
+reporting requirements as of March 31, 2022, unless the banking 
+organization reports a leverage ratio of greater than 9.0 percent (and 
+meets all the other qualifying criteria) by that date.
+
+IV. Impact Analysis
+
+    The final rule will affect all banking organizations (i.e., 
+depository institutions and depository institution holding companies) 
+that qualify for the community bank leverage ratio framework and elect 
+to adopt it. Based on data as of March 31, 2020, there are 5,189 
+banking organizations with less than $10 billion in total consolidated 
+assets.\12\ The agencies estimate that approximately 96 percent of 
+these banking organizations qualify to use the community bank leverage 
+ratio framework under the 8 percent requirement in effect for the 
+remainder of calendar year 2020. As of March 31, 2020, the temporary 
+reduction in the community bank leverage ratio requirement during the 
+remainder of calendar year 2020 from 9 percent to 8 percent will 
+increase the scope of qualifying community banks by approximately 480 
+depository institutions and approximately 20 depository institution 
+holding companies (holding companies).
+---------------------------------------------------------------------------
+
+    \12\ Based on data reported on Form FR Y-9C and the Reports of 
+Condition and Income (Call Reports).
+---------------------------------------------------------------------------
+
+    As of March 31, 2020, approximately 39 percent of qualifying 
+banking organizations have elected to use the community bank leverage 
+ratio framework. Approximately 92 percent of these banking 
+organizations have total assets of less than $1 billion. As of March 
+31, 2020, 1,709 depository institutions have elected to use the 
+community bank leverage ratio framework. As of the same period, 29 
+holding companies have elected to use the community bank leverage ratio 
+framework. The agencies anticipate that banking organizations that have 
+elected to use the community bank leverage ratio framework should be 
+able to manage the transition in the leverage ratio requirement under 
+the final rule in a prudent manner, given that the final rule provides 
+a graduated transition back to a 9 percent leverage ratio requirement 
+by 2022.
+
+V. Administrative Law Matters
+
+A. Congressional Review Act
+
+    For purposes of the Congressional Review Act, the Office of 
+Management and Budget (OMB) makes a determination as to whether a final 
+rule constitutes a ``major'' rule.\13\ If a rule is deemed a ``major 
+rule'' by the OMB, the Congressional Review Act generally provides that 
+the rule may not take effect until at least 60 days following its 
+publication.\14\
+---------------------------------------------------------------------------
+
+    \13\ 5 U.S.C. 801 et seq.
+    \14\ 5 U.S.C. 801(a)(3).
+---------------------------------------------------------------------------
+
+    The Congressional Review Act defines a ``major rule'' as any rule 
+that the Administrator of the Office of Information and Regulatory 
+Affairs of the OMB finds has resulted in or is likely to result in (A) 
+an annual effect on the economy of $100,000,000 or more; (B) a major 
+increase in costs or prices for consumers, individual industries, 
+Federal, State, or local government agencies or geographic regions; or 
+(C) significant adverse effects on competition, employment, investment, 
+productivity, innovation, or on the ability of United States-based 
+enterprises to compete with foreign-based enterprises in domestic and 
+export markets.\15\
+---------------------------------------------------------------------------
+
+    \15\ 5 U.S.C. 804(2).
+---------------------------------------------------------------------------
+
+    As required by the Congressional Review Act, the agencies will 
+submit the final rule and other appropriate reports to Congress and the 
+Government Accountability Office for review.
+
+B. Paperwork Reduction Act
+
+    The Paperwork Reduction Act of 1995 (44 U.S.C. 3501-3521) (PRA) 
+states that
+
+[[Page 64007]]
+
+no agency may conduct or sponsor, nor is the respondent required to 
+respond to, an information collection unless it displays a currently 
+valid OMB control number. This final rule does not contain any 
+information collection requirements. However, in connection with the 
+transition interim final rule, the Board temporarily revised the 
+Financial Statements for Holding Companies (FR Y-9 reports; OMB No. 
+7100-0128) and invited comment on a proposal to extend that collection 
+of information for three years, with revision. No comments were 
+received regarding this proposal under the PRA. The Board has now 
+extended, with revision, the FR Y-9 reports, as proposed, to align the 
+reporting instructions with this final rule. The Board will submit 
+information collection burden estimates to OMB to finalize the 
+revisions. All of the updates to the FR Y-9C noted in the transition 
+interim final rule should be minimal and result in zero net change in 
+hourly burden.
+    Additionally, in connection with the transition interim final rule, 
+the agencies made revisions to the Call Reports (OCC OMB Control No. 
+1557-0081; Board OMB Control No. 7100-0036; and FDIC OMB Control No. 
+3064-0052) and the FFIEC 101 (OCC OMB Control No. 1557-0239; Board OMB 
+Control No. 7100-0319; FDIC OMB Control No. 3064-0159). The final 
+changes to the Call Reports, the FFIEC 101, and their related 
+instructions are addressed in a separate Federal Register notice.\16\
+---------------------------------------------------------------------------
+
+    \16\ See 85 FR 44361 (May 22, 2020).
+---------------------------------------------------------------------------
+
+Revision, With Extension, of the Following Information Collections
+    (1) Report Title: Financial Statements for Holding Companies.
+    Agency form number: FR Y-9C, FR Y-9LP, FR Y-9SP, FR Y-9ES, and FR 
+Y-9CS.
+    OMB control number: 7100-0128.
+    Effective date: Currently effective.
+    Frequency: Quarterly, semiannually, and annually.
+    Respondents: Bank holding companies, savings and loan holding 
+companies,\17\ securities holding companies, and U.S. intermediate 
+holding companies (collectively, HCs).
+---------------------------------------------------------------------------
+
+    \17\ A savings and loan holding company (SLHC) must file one or 
+more of the FR Y-9 series of reports unless it is: (1) A 
+grandfathered unitary SLHC with primarily commercial assets and 
+thrifts that make up less than 5 percent of its consolidated assets; 
+or (2) a SLHC that primarily holds insurance-related assets and does 
+not otherwise submit financial reports with the SEC pursuant to 
+section 13 or 15(d) of the Securities Exchange Act of 1934.
+---------------------------------------------------------------------------
+
+    Estimated number of respondents: FR Y-9C (non-advanced approaches 
+CBLR HCs with less than $5 billion in total assets): 71; FR Y-9C (non-
+advanced approaches CBLR HCs with $5 billion or more in total assets): 
+35; FR Y-9C (non-advanced approaches, non CBLR, HCs with less than $5 
+billion in total assets): 84; FR Y-9C (non-advanced approaches, non 
+CBLR HCs, with $5 billion or more in total assets): 154; FR Y-9C 
+(advanced approaches HCs): 19; FR Y-9LP: 434; FR Y-9SP: 3,960; FR Y-
+9ES: 83; FR Y-9CS: 236.
+    Estimated average hours per response:
+Reporting
+    FR Y-9C (non-advanced approaches CBLR HCs with less than $5 billion 
+in total assets): 29.17 hours; FR Y-9C (non-advanced approaches CBLR 
+HCs with $5 billion or more in total assets): 35.14; FR Y-9C (non-
+advanced approaches, non CBLR HCs, with less than $5 billion in total 
+assets): 41.01; FR Y-9C (non-advanced approaches, non CBLR, HCs with $5 
+billion or more in total assets): 46.98 hours; FR Y-9C (advanced 
+approaches HCs): 48.80 hours; FR Y-9LP: 5.27 hours; FR Y-9SP: 5.40 
+hours; FR Y-9ES: 0.50 hours; FR Y-9CS: 0.50 hours.
+Recordkeeping
+    FR Y-9C (non-advanced approaches HCs with less than $5 billion in 
+total assets), FR Y-9C (non-advanced approaches HCs with $5 billion or 
+more in total assets), FR Y-9C (advanced approaches HCs), and FR Y-9LP: 
+1.00 hour; FR Y-9SP, FR Y-9ES, and FR Y-9CS: 0.50 hours.
+    Estimated annual burden hours:
+Reporting
+    FR Y-9C (non-advanced approaches CBLR HCs with less than $5 billion 
+in total assets): 8,284 hours; FR Y-9C (non-advanced approaches CBLR 
+HCs with $5 billion or more in total assets): 4,920; FR Y-9C (non-
+advanced approaches non CBLR HCs with less than $5 billion in total 
+assets): 13,779; FR Y-9C (non-advanced approaches non CBLR HCs with $5 
+billion or more in total assets): 28,940 hours; FR Y-9C (advanced 
+approaches HCs): 3,709 hours; FR Y-9LP: 9,149 hours; FR Y-9SP: 42,768 
+hours; FR Y-9ES: 42 hours; FR Y-9CS: 472 hours.
+Recordkeeping
+    FR Y-9C: 1,452 hours; FR Y-9LP: 1,736 hours; FR Y-9SP: 3,960 hours; 
+FR Y-9ES: 42 hours; FR Y-9CS: 472 hours.
+    General description of report:
+    The FR Y-9C consists of standardized financial statements similar 
+to the Call Reports filed by commercial banks.\18\ The FR Y-9C collects 
+consolidated data from HCs and is filed quarterly by top-tier HCs with 
+total consolidated assets of $3 billion or more.\19\ The FR Y-9LP, 
+which collects parent company only financial data, must be submitted by 
+each HC that files the FR Y-9C, as well as by each of its subsidiary 
+HCs.\20\ The report consists of standardized financial statements.
+---------------------------------------------------------------------------
+
+    \18\ The Call Reports consist of the Consolidated Reports of 
+Condition and Income for a Bank with Domestic Offices Only and Total 
+Assets Less Than $5 Billion (FFIEC 051), the Consolidated Reports of 
+Condition and Income for a Bank with Domestic Offices Only (FFIEC 
+041) and the Consolidated Reports of Condition and Income for a Bank 
+with Domestic and Foreign Offices (FFIEC 031).
+    \19\ Under certain circumstances described in the FR Y-9C's 
+General Instructions, HCs with assets under $3 billion may be 
+required to file the FR Y-9C.
+    \20\ A top-tier HC may submit a separate FR Y-9LP on behalf of 
+each of its lower-tier HCs.
+---------------------------------------------------------------------------
+
+    The FR Y-9SP is a parent company only financial statement filed 
+semiannually by HCs with total consolidated assets of less than $3 
+billion. In a banking organization with total consolidated assets of 
+less than $3 billion that has tiered HCs, each HC in the organization 
+must submit, or have the top-tier HC submit on its behalf, a separate 
+FR Y-9SP. This report is designed to obtain basic balance sheet and 
+income data for the parent company, and data on its intangible assets 
+and intercompany transactions.
+    The FR Y-9ES is filed annually by each employee stock ownership 
+plan (ESOP) that is also an HC. The report collects financial data on 
+the ESOP's benefit plan activities. The FR Y-9ES consists of four 
+schedules: A Statement of Changes in Net Assets Available for Benefits, 
+a Statement of Net Assets Available for Benefits, Memoranda, and Notes 
+to the Financial Statements.
+    The FR Y-9CS is a free-form supplemental report that the Board may 
+utilize to collect critical additional data deemed to be needed in an 
+expedited manner from HCs on a voluntary basis. The data are used to 
+assess and monitor emerging issues related to HCs, and the report is 
+intended to supplement the other FR Y-9 reports. The data items 
+included on the FR Y-9CS may change as needed.
+    Legal authorization and confidentiality: The Board has the 
+authority to impose the reporting and recordkeeping requirements 
+associated with the FR Y 9 family of reports on bank holding companies 
+pursuant to section 5 of the Bank Holding Company Act of 1956 (BHC Act) 
+(12 U.S.C. 1844); on savings and loan holding companies pursuant to 
+section 10(b)(2) and (3) of the Home Owners' Loan Act (12 U.S.C. 
+1467a(b)(2) and (3)), as amended by sections 369(8) and 604(h)(2) of 
+the
+
+[[Page 64008]]
+
+Dodd-Frank Wall Street and Consumer Protection Act (Dodd-Frank Act); on 
+U.S. intermediate holding companies pursuant to section 5 of the BHC 
+Act (12 U.S.C. 1844), as well as pursuant to sections 102(a)(1) and 165 
+of the Dodd-Frank Act (12 U.S.C. 511(a)(1) and 5365); and on securities 
+holding companies pursuant to section 618 of the Dodd-Frank Act (12 
+U.S.C. 1850a(c)(1)(A)). The obligation to submit the FR Y 9 series of 
+reports, and the recordkeeping requirements set forth in the respective 
+instructions to each report, are mandatory, except for the FR Y-9CS, 
+which is voluntary.
+    With respect to the FR Y 9C report, Schedule HI's data item 7(g) 
+``FDIC deposit insurance assessments,'' Schedule HC P's data item 7(a) 
+``Representation and warranty reserves for 1 4 family residential 
+mortgage loans sold to U.S. government agencies and government 
+sponsored agencies,'' and Schedule HC P's data item 7(b) 
+``Representation and warranty reserves for 1 4 family residential 
+mortgage loans sold to other parties'' are considered confidential 
+commercial and financial information. Such treatment is appropriate 
+under exemption 4 of the Freedom of Information Act (FOIA) (5 U.S.C. 
+552(b)(4)) because these data items reflect commercial and financial 
+information that is both customarily and actually treated as private by 
+the submitter, and which the Board has previously assured submitters 
+will be treated as confidential. It also appears that disclosing these 
+data items may reveal confidential examination and supervisory 
+information, and in such instances, this information would also be 
+withheld pursuant to exemption 8 of the FOIA (5 U.S.C. 552(b)(8)), 
+which protects information related to the supervision or examination of 
+a regulated financial institution.
+    In addition, for both the FR Y 9C report, Schedule HC's memorandum 
+item 2.b. and the FR Y 9SP report, Schedule SC's memorandum item 2.b., 
+the name and email address of the external auditing firm's engagement 
+partner, is considered confidential commercial information and 
+protected by exemption 4 of the FOIA (5 U.S.C. 552(b)(4)) if the 
+identity of the engagement partner is treated as private information by 
+HCs. The Board has assured respondents that this information will be 
+treated as confidential since the collection of this data item was 
+proposed in 2004.
+    Additionally, items on the FR Y-9C, Schedule HC-C for loans 
+modified under Section 4013, data items Memorandum items 16.a, ``Number 
+of Section 4013 loans outstanding''; and Memorandum items 16.b, 
+``Outstanding balance of Section 4013 loans'' are considered 
+confidential. While the Board generally makes institution-level FR Y-9C 
+report data publicly available, the Board is collecting Section 4013 
+loan information as part of condition reports for the impacted HCs and 
+the Board considers disclosure of these items at the HC level would not 
+be in the public interest. Such information is permitted to be 
+collected on a confidential basis, consistent with 5 U.S.C. 552(b)(8). 
+In addition, holding companies may be reluctant to offer modifications 
+under Section 4013 if information on these modifications made by each 
+holding company is publicly available, as analysts, investors, and 
+other users of public FR Y-9C report information may penalize an 
+institution for using the relief provided by the CARES Act. The Board 
+may disclose Section 4013 loan data on an aggregated basis, consistent 
+with confidentiality.
+    Aside from the data items described above, the remaining data items 
+on the FR Y-9C report and the FR-Y 9SP report are generally not 
+accorded confidential treatment. The data items collected on FR Y-9LP, 
+FR Y-9ES, and FR Y-9CS reports, are also generally not accorded 
+confidential treatment. As provided in the Board's Rules Regarding 
+Availability of Information (12 CFR part 261), however, a respondent 
+may request confidential treatment for any data items the respondent 
+believes should be withheld pursuant to a FOIA exemption. The Board 
+will review any such request to determine if confidential treatment is 
+appropriate, and will inform the respondent if the request for 
+confidential treatment has been denied.
+    To the extent the instructions to the FR Y-9C, FR Y-9LP, FR Y-9SP, 
+and FR Y-9ES reports each respectively direct the financial institution 
+to retain the work papers and related materials used in preparation of 
+each report, such material would only be obtained by the Board as part 
+of the examination or supervision of the financial institution. 
+Accordingly, such information is considered confidential pursuant to 
+exemption 8 of the FOIA (5 U.S.C. 552(b)(8)). In addition, the 
+financial institution's work papers and related materials may also be 
+protected by exemption 4 of the FOIA, to the extent such financial 
+information is treated as confidential by the respondent (5 U.S.C. 
+552(b)(4)).
+
+C. Regulatory Flexibility Act
+
+    The Regulatory Flexibility Act (RFA) requires an agency to consider 
+whether the rules it proposes will have a significant economic impact 
+on a substantial number of small entities.\21\ The RFA requires an 
+agency to prepare a final regulatory flexibility analysis when it 
+promulgates a final rule after being required to publish a general 
+notice of proposed rulemaking.\22\ As discussed previously, the 
+agencies have decided to adopt, without changes, revisions to the 
+community bank leverage ratio framework made under the statutory 
+interim final rule and the transition interim final rule. There is no 
+general notice of proposed rulemaking associated with this final rule. 
+Accordingly, the agencies have concluded that the RFA's requirements 
+relating to initial and final regulatory flexibility analysis do not 
+apply to the promulgation of this final rule.
+---------------------------------------------------------------------------
+
+    \21\ Under regulations issued by the Small Business 
+Administration, a small entity includes a depository institution, 
+bank holding company, or savings and loan holding company with total 
+assets of $600 million or less and trust companies with annual 
+receipts of $41.5 million or less. See 13 CFR 121.201.
+    \22\ 5 U.S.C. 604.
+---------------------------------------------------------------------------
+
+D. Riegle Community Development and Regulatory Improvement Act of 1994
+
+    Pursuant to section 302(a) of the Riegle Community Development and 
+Regulatory Improvement Act (RCDRIA),\23\ in determining the effective 
+date and administrative compliance requirements for new regulations 
+that impose additional reporting, disclosure, or other requirements on 
+insured depository institutions, each Federal banking agency must 
+consider, consistent with the principle of safety and soundness and the 
+public interest, any administrative burdens that such regulations would 
+place on depository institutions, including small depository 
+institutions, and customers of depository institutions, as well as the 
+benefits of such regulations. In addition, section 302(b) of RCDRIA 
+requires new regulations and amendments to regulations that impose 
+additional reporting, disclosures, or other new requirements on insured 
+depository institutions generally to take effect on the first day of a 
+calendar quarter that begins on or after the date on which the 
+regulations are published in final form.\24\ Each Federal banking 
+agency has determined that the final rule would not impose additional 
+reporting, disclosure, or other requirements; therefore the 
+requirements of the RCDRIA do not apply.
+---------------------------------------------------------------------------
+
+    \23\ 12 U.S.C. 4802(a).
+    \24\ 12 U.S.C. 4802.
+
+---------------------------------------------------------------------------
+
+[[Page 64009]]
+
+E. Use of Plain Language
+
+    Section 722 of the Gramm-Leach-Bliley Act \25\ requires the Federal 
+banking agencies to use ``plain language'' in all proposed and final 
+rules published after January 1, 2000. In light of this requirement, 
+the agencies have sought to present the final rule in a simple and 
+straightforward manner. The agencies did not receive any comments on 
+the use of plain language.
+---------------------------------------------------------------------------
+
+    \25\ 12 U.S.C. 4809.
+---------------------------------------------------------------------------
+
+F. Unfunded Mandates Act
+
+    As a general matter, the Unfunded Mandates Act of 1995 (UMRA), 2 
+U.S.C. 1531 et seq., requires the preparation of a budgetary impact 
+statement before promulgating a rule that includes a Federal mandate 
+that may result in the expenditure by State, local, and tribal 
+governments, in the aggregate, or by the private sector, of $100 
+million or more in any one year. However, the UMRA does not apply to 
+final rules for which a general notice of proposed rulemaking was not 
+published.\26\ Therefore, because the OCC has found good cause to 
+dispense with notice and comment for the final rule, the OCC concludes 
+that the requirements of UMRA do not apply to this final rule.
+---------------------------------------------------------------------------
+
+    \26\ See 2 U.S.C. 1532(a).
+---------------------------------------------------------------------------
+
+Authority and Issuance
+
+    For the reasons set forth in the joint preamble, the interim final 
+rules which were published at 85 FR 22924 and 85 FR 22930 on April 23, 
+2020, are adopted as a final rule by the OCC, Board, and FDIC without 
+change.
+
+Brian P. Brooks,
+Acting Comptroller of the Currency.
+
+    By order of the Board of Governors of the Federal Reserve 
+System.
+Ann Misback,
+Secretary of the Board.
+
+Federal Deposit Insurance Corporation.
+
+    By order of the Board of Directors.
+
+    Dated at Washington, DC, on or about August 21, 2020.
+James P. Sheesley,
+Acting Assistant Executive Secretary.
+[FR Doc. 2020-19922 Filed 10-8-20; 8:45 am]
+BILLING CODE 4810-33-P; 6210-01-P; 6714-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

@@ -14,12 +14,17 @@ Model FinBank, Alpha Manufacturing, loan/exposure inputs, money/percentage primi
 
 ## Phase 2 — Regulatory rules and calculation slice
 
-Sprint 01 integration/hardening is accepted and merged through PR #2. Phase 2 remains
-PLANNING ONLY — NOT ACTIVE. Framework, jurisdiction, regulatory sources, calculation scope,
-golden outputs, and regulatory review process require explicit approval before implementation.
-The separate Sprint 02 planning branch is not merged into main by post-merge cleanup.
+Sprint 01 integration/hardening is accepted and merged through PR #2.
+Sprint 02: ACTIVE on the activation branch; Implementation: NOT YET STARTED.
+The owner approved the internal-prototype US / FRB / US_FRB_PART217_STANDARDIZED boundary for
+2025-01-01 and its synthetic corporate Golden Case. See sprints/sprint-02/ACTIVATION_RECORD.json.
+The planning branch is preserved, not wholesale merged. Implementation waits for activation PR
+review and merge, then starts on codex/sprint-02-us-corporate-engine.
 
-Introduce a reviewed, versioned ruleset for one explicitly selected jurisdiction/framework; implement deterministic exposure-to-capital calculation, audit trace, citations, fixtures, and regulatory regression tests.
+Build the generic engine -> registry -> jurisdiction provider architecture under accepted ADR 0004.
+Only the narrow U.S. ordinary corporate path is authorized next: typed exposure amount, 100% weight,
+RWA, sole 8% educational total-capital equivalent, trace, citations and regulatory regression tests.
+No broad Basel engine, other providers/classes, business routes, persistence, UI or tutor in Sprint 02.
 
 ## Phase 3 — Golden lesson experience
 

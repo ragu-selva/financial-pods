@@ -93,6 +93,9 @@ jobs:
       - name: Verify immutable reference artifacts
         run: node scripts/task.mjs verify-artifacts
 
+      - name: Verify Sprint 02 source and activation evidence
+        run: node --test sprints/sprint-02/planning-evidence.test.mjs sprints/sprint-02/activation-evidence.test.mjs
+
       - name: Lint
         run: node scripts/task.mjs lint
 

@@ -1,0 +1,881 @@
+<html>
+<head>
+<title>Federal Register, Volume 85 Issue 209 (Wednesday, October 28, 2020)</title>
+</head>
+<body><pre>
+[Federal Register Volume 85, Number 209 (Wednesday, October 28, 2020)]
+[Rules and Regulations]
+[Pages 68243-68249]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2020-21894]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+DEPARTMENT OF TREASURY
+
+Office of the Comptroller of the Currency
+
+12 CFR Parts 3 and 50
+
+[Docket ID OCC-2020-0017]
+RIN 1557-AE89; 1557-AE90; 1557-AE92]
+
+FEDERAL RESERVE SYSTEM
+
+12 CFR Parts 217 and 249
+
+[Docket Nos. R-1711; 1712; and 1717]
+RIN 7100-AF85; 7100-AF86: 7100-AF90
+
+FEDERAL DEPOSIT INSURANCE CORPORATION
+
+12 CFR Parts 324 and 329
+
+RIN 3064-AF41; 3064-AF49; 3064-AF51
+
+
+Treatment of Certain Emergency Facilities in the Regulatory 
+Capital Rule and the Liquidity Coverage Ratio Rule
+
+AGENCY: The Office of the Comptroller of the Currency, Department of 
+the Treasury; the Board of Governors of the Federal Reserve System; and 
+the Federal Deposit Insurance Corporation.
+
+ACTION: Final rule.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Office of the Comptroller of the Currency, the Board of 
+Governors of the Federal Reserve System, and the Federal Deposit 
+Insurance Corporation are adopting as final the revisions to the 
+regulatory capital rule and the liquidity coverage ratio (LCR) rule 
+made under three interim final rules published in the Federal Register 
+on March 23, April 13, and May 6, 2020. The agencies are adopting these 
+interim final rules as final with no changes. Under this final rule, 
+banking organizations may continue to neutralize the regulatory capital 
+effects of participating in the Money Market Mutual Fund Liquidity 
+Facility (MMLF) and the Paycheck Protection Program Liquidity Facility 
+(PPPLF), and are required to continue to neutralize the LCR effects of 
+participating in the MMLF and the PPPLF. In addition, Paycheck 
+Protection Program loans will receive a zero percent risk weight under 
+the agencies' regulatory capital rules.
+
+DATES: The final rule is effective December 28, 2020.
+
+[[Page 68244]]
+
+
+FOR FURTHER INFORMATION CONTACT: 
+    OCC: Andrew Tschirhart, Risk Expert, Capital and Regulatory Policy, 
+(202) 649-6370; James Weinberger, Technical Expert, Treasury & Market 
+Risk Policy, (202) 649-6360; Henry Barkhausen, Counsel, Kevin 
+Korzeniewski, Counsel, Rima Kundnani, Senior Attorney, or Daniel Perez, 
+Senior Attorney, Chief Counsel's Office, (202) 649-5490, for persons 
+who are deaf or hearing impaired, TTY, (202) 649-5597, Office of the 
+Comptroller of the Currency, 400 7th Street SW, Washington, DC 20219.
+    Board: Anna Lee Hewko, Associate Director, (202) 530-6360; 
+Constance M. Horsley, Deputy Associate Director, (202) 452-5239; Juan 
+Climent, Assistant Director, (202) 872-7526; Kathryn Ballintine, 
+Manager, (202) 452-2555; Kevin Littler, Lead Financial Institution 
+Policy Analyst, (202) 475-6677; Devyn Jeffereis, Senior Financial 
+Institution Policy Analyst, (202) 365-2467; or Brendan Rowan, Senior 
+Financial Institution Policy Analyst, (202) 475-6685, Division of 
+Supervision and Regulation; or Benjamin W. McDonough, Assistant General 
+Counsel, (202) 452-2036; David W. Alexander, Senior Counsel, (202) 452-
+2877; Steve Bowne, Senior Counsel, (202) 452-3900; Jason Shafer, Senior 
+Counsel, (202) 728-5811; Laura Bain, Counsel (202) 736-5546; or Jeffery 
+Zhang, Attorney, (202) 736-1968, Legal Division, Board of Governors of 
+the Federal Reserve System, 20th Street and Constitution Avenue NW, 
+Washington, DC 20551. Users of Telecommunication Device for the Deaf 
+(TDD) only, call (202) 263-4869.
+    FDIC: Bobby R. Bean, Associate Director, <a href="/cdn-cgi/l/email-protection#2e4c4c4b4f406e484a474d00494158"><span class="__cf_email__" data-cfemail="0664646367684660626f6528616970">[email&#160;protected]</span></a>; Benedetto 
+Bosco, Chief, Capital Policy Section, <a href="/cdn-cgi/l/email-protection#ea888885998985aa8c8e8389c48d859c"><span class="__cf_email__" data-cfemail="d9bbbbb6aabab699bfbdb0baf7beb6af">[email&#160;protected]</span></a>; Noah Cuttler, 
+Senior Policy Analyst, <a href="/cdn-cgi/l/email-protection#4f212c3a3b3b232a3d0f292b262c61282039"><span class="__cf_email__" data-cfemail="4b25283e3f3f272e390b2d2f2228652c243d">[email&#160;protected]</span></a>; Eric Schatten, Senior Policy 
+Analyst, <a href="/cdn-cgi/l/email-protection#d7b2a4b4bfb6a3a3b2b997b1b3beb4f9b0b8a1"><span class="__cf_email__" data-cfemail="c5a0b6a6ada4b1b1a0ab85a3a1aca6eba2aab3">[email&#160;protected]</span></a>; Andrew Carayiannis, Senior Policy Analyst, 
+<a href="/cdn-cgi/l/email-protection#fe9f9d9f8c9f87979f9090978dbe989a979dd0999188"><span class="__cf_email__" data-cfemail="8aebe9ebf8ebf3e3ebe4e4e3f9caeceee3e9a4ede5fc">[email&#160;protected]</span></a>; <a href="/cdn-cgi/l/email-protection#45372022302924312a373c2624352c3124290523212c266b222a33"><span class="__cf_email__" data-cfemail="25574042504944514a575c4644554c5144496543414c460b424a53">[email&#160;protected]</span></a>; Capital Markets 
+Branch, Division of Risk Management Supervision, (202) 898-6888; or 
+Michael Phillips, Counsel, <a href="/cdn-cgi/l/email-protection#7b160b13121717120b083b1d1f1218551c140d"><span class="__cf_email__" data-cfemail="375a475f5e5b5b5e47447751535e5419505841">[email&#160;protected]</span></a>; Catherine Wood, Counsel, 
+<a href="/cdn-cgi/l/email-protection#9ffcfee8f0f0fbdff9fbf6fcb1f8f0e9"><span class="__cf_email__" data-cfemail="a4c7c5d3cbcbc0e4c2c0cdc78ac3cbd2">[email&#160;protected]</span></a>; Sue Dawley, Counsel, <a href="/cdn-cgi/l/email-protection#5c2f29383d2b3039251c3a38353f723b332a"><span class="__cf_email__" data-cfemail="7c0f09181d0b1019053c1a18151f521b130a">[email&#160;protected]</span></a>; Gregory Feder, 
+Counsel, <a href="/cdn-cgi/l/email-protection#197e7f7c7d7c6b597f7d707a377e766f"><span class="__cf_email__" data-cfemail="cdaaaba8a9a8bf8daba9a4aee3aaa2bb">[email&#160;protected]</span></a>; Andrew B. Williams, II, Counsel, 
+<a href="/cdn-cgi/l/email-protection#1a7b747e6d737676737b77695a7c7e7379347d756c"><span class="__cf_email__" data-cfemail="b9d8d7ddced0d5d5d0d8d4caf9dfddd0da97ded6cf">[email&#160;protected]</span></a>; Supervision and Legislation Branch, Legal 
+Division, Federal Deposit Insurance Corporation, 550 17th Street NW, 
+Washington, DC 20429. For the hearing impaired only, Telecommunication 
+Device for the Deaf (TDD), (800) 925-4618.
+
+SUPPLEMENTARY INFORMATION:
+
+Table of Contents
+
+I. Background
+    A. Capital Rule
+    B. LCR Rule
+II. Overview of the Interim Final Rules and Public Comments
+    A. MMLF Capital Interim Final Rule
+    B. PPPLF Capital Interim Final Rule
+    C. LCR Interim Final Rule
+    D. Public Comments
+III. Summary of the Final Rule
+IV. Administrative Law Matters
+    A. Congressional Review Act
+    B. Paperwork Reduction Act
+    C. Regulatory Flexibility Act
+    D. Riegle Community Development and Regulatory Improvement Act 
+of 1994
+    E. Use of Plain Language
+    F. OCC Unfunded Mandates Reform Act of 1995
+
+I. Background
+
+    In light of recent disruptions in economic conditions caused by the 
+outbreak of the coronavirus disease 2019 and the stress in U.S. 
+financial markets, the Board of Governors of the Federal Reserve System 
+(Board), with the approval of the U.S. Secretary of the Treasury, 
+established certain liquidity facilities pursuant to section 13(3) of 
+the Federal Reserve Act.\1\
+---------------------------------------------------------------------------
+
+    \1\ 12 U.S.C. 343(3).
+---------------------------------------------------------------------------
+
+    In order to prevent disruptions in the money markets from 
+destabilizing the financial system, the Board authorized the Federal 
+Reserve Bank of Boston to establish the Money Market Mutual Fund 
+Liquidity Facility (MMLF). Under the MMLF, the Federal Reserve Bank of 
+Boston may extend non-recourse loans to eligible borrowers to purchase 
+assets from money market mutual funds. Assets purchased from money 
+market mutual funds are posted as collateral to the Federal Reserve 
+Bank of Boston.
+    In order to provide liquidity to small business lenders and the 
+broader credit markets, and to help stabilize the financial system, the 
+Board authorized each of the Federal Reserve Banks to extend credit 
+under the Paycheck Protection Program Liquidity Facility (PPPLF).\2\ 
+Under the PPPLF, each of the Federal Reserve Banks may extend non-
+recourse loans to institutions that are eligible to make Paycheck 
+Protection Program (PPP) covered loans as defined in section 7(a)(36) 
+of the Small Business Act.\3\ Under the PPPLF, only PPP covered loans 
+that are guaranteed by the Small Business Administration (SBA) with 
+respect to both principal and accrued interest and that are originated 
+by an eligible institution may be pledged as collateral to the Federal 
+Reserve Banks. The maturity date of the extension of credit under the 
+PPPLF equals the maturity date of the PPP covered loans pledged to 
+secure the extension of credit.\4\
+---------------------------------------------------------------------------
+
+    \2\ The Paycheck Protection Program Liquidity Facility was 
+previously known as the Paycheck Protection Program Lending 
+Facility.
+    \3\ Congress created the PPP as part of the Coronavirus Aid, 
+Relief, and Economic Security Act and in recognition of the exigent 
+circumstances faced by small businesses. PPP covered loans are fully 
+guaranteed as to principal and accrued interest by the Small 
+Business Administration (SBA) and also afford borrower forgiveness 
+up to the principal amount and accrued interest of the PPP covered 
+loan, if the proceeds of the PPP covered loan are used for certain 
+expenses. Under the PPP, eligible borrowers generally include 
+businesses with fewer than 500 employees or that are otherwise 
+considered to be small by the SBA. The SBA reimburses PPP lenders 
+for any amount of a PPP covered loan that is forgiven. In general, 
+PPP lenders are not held liable for any representations made by PPP 
+borrowers in connection with a borrower's request for PPP covered 
+loan forgiveness. For more information on the Paycheck Protection 
+Program, see <a href="https://www.sba.gov/funding-programs/loans/coronavirus-relief-options/paycheck-protection-program-ppp">https://www.sba.gov/funding-programs/loans/coronavirus-relief-options/paycheck-protection-program-ppp</a>.
+    \4\ The maturity date of the loan made under the PPPLF will be 
+accelerated if the underlying PPP covered loan goes into default and 
+the eligible borrower sells the PPP covered loan to the Small 
+Business Administration (SBA) to realize the SBA guarantee. The 
+maturity date of the loan made under the PPPLF also will be 
+accelerated to the extent of any PPP covered loan forgiveness 
+reimbursement received by the eligible borrower from the SBA.
+---------------------------------------------------------------------------
+
+    Eligible borrowers from the MMLF and PPPLF and holders of PPP 
+covered loans include banking organizations supervised by the Office of 
+the Comptroller of the Currency (OCC), the Board, and the Federal 
+Deposit Insurance Corporation (FDIC) (together, the agencies) that are 
+subject to the agencies' regulatory capital rule (capital rule) \5\ and 
+that may be subject to the liquidity coverage ratio (LCR) rule.\6\ To 
+facilitate the use of the MMLF and the PPPLF, the agencies adopted 
+three interim final rules (interim final rules) to address the capital 
+treatment of participation in the MMLF (MMLF capital interim final 
+rule),\7\ the capital treatment of participation in the PPPLF (PPPLF 
+capital interim final rule),\8\ and the LCR treatment of participation 
+in the
+
+[[Page 68245]]
+
+MMLF and the PPPLF (LCR interim final rule),\9\ respectively.
+---------------------------------------------------------------------------
+
+    \5\ Banking organizations subject to the capital rule include 
+national banks, state member banks, state nonmember banks, savings 
+associations, and top-tier bank holding companies and savings and 
+loan holding companies domiciled in the United States not subject to 
+the Board's Small Bank Holding Company Policy Statement (12 CFR part 
+225, appendix C), but exclude certain savings and loan holding 
+companies that are substantially engaged in insurance underwriting 
+or commercial activities or that are estate trusts, and bank holding 
+companies and savings and loan holding companies that are employee 
+stock ownership plans. See 12 CFR part 3 (OCC); 12 CFR part 217 
+(Board); and 12 CFR part 324 (FDIC).
+    \6\ See 12 CFR part 50 (OCC); 12 CFR part 249 (Board); and 12 
+CFR part 329 (FDIC).
+    \7\ 85 FR 16232 (Mar. 23, 2020).
+    \8\ 85 FR 20387 (Apr. 13, 2020).
+    \9\ 85 FR 26835 (May 6, 2020).
+---------------------------------------------------------------------------
+
+A. Capital Rule
+
+    The capital rule requires banking organizations to comply with 
+risk-based and leverage capital requirements, which are expressed as a 
+ratio of regulatory capital to assets and certain other exposures. 
+Risk-based capital requirements are based on risk-weighted assets, 
+whereas leverage capital requirements are based on a measure of average 
+total consolidated assets or total leverage exposure. Participation in 
+the MMLF or the PPPLF affects the balance sheet of a banking 
+organization. To participate in the MMLF, a banking organization must 
+acquire and hold assets (that is, eligible collateral pledged to the 
+Federal Reserve Bank of Boston) on its balance sheet. Similarly, to 
+participate in the PPPLF, a banking organization must hold PPP covered 
+loans on its balance sheet. As a result, without the agencies' issuance 
+of the MMLF capital and PPPLF capital interim final rules, a banking 
+organization that participates in either facility could have been 
+required to maintain increased regulatory capital.
+
+B. LCR Rule
+
+    The LCR rule requires covered companies \10\ to calculate and 
+maintain an amount of high-quality liquid assets (HQLA) sufficient to 
+cover their total net cash outflows over a 30-day stress period. A 
+covered company's LCR is the ratio of its HQLA amount divided by its 
+total net cash outflow amount. The total net cash outflow amount is 
+calculated as the difference between outflow and inflow amounts, which 
+are determined by applying a standardized set of outflow and inflow 
+rates to the cash flows of various assets and liabilities, together 
+with off-balance sheet items, as specified in sections __.32 and __.33 
+of the LCR rule.\11\
+---------------------------------------------------------------------------
+
+    \10\ The applicability of the LCR rule is described in 12 CFR 
+50.1 (OCC); 12 CFR 249.1 (Board); and 12 CFR 329.1 (FDIC).
+    \11\ See 12 CFR 50.32 and 50.33 (OCC); 12 CFR 249.32 and 249.33 
+(Board); and 12 CFR 329.32 and 329.33 (FDIC). Section __.30 of the 
+LCR rule also requires a covered company, as applicable, to include 
+in its total net cash outflow amount a maturity mismatch add-on, 
+which is calculated as the difference (if greater than zero) between 
+the covered company's largest net cumulative maturity outflow amount 
+for any of the 30 calendar days following the calculation date and 
+the net day 30 cumulative maturity outflow amount. See 12 CFR 50.30 
+(OCC); 12 CFR 249.30 (Board); and 12 CFR 329.30 (FDIC).
+---------------------------------------------------------------------------
+
+    Absent changes to the LCR rule, covered companies would have been 
+required to recognize outflows for MMLF and PPPLF advances with a 
+remaining maturity of 30 days or less and inflows for certain assets 
+securing the MMLF and PPPLF advances. As a result, a covered company's 
+participation in the MMLF or PPPLF could have affected its total net 
+cash outflow amount, which potentially could have resulted in an 
+inconsistent, unpredictable, and more volatile calculation of LCR 
+requirements across covered companies.
+
+II. Overview of the Interim Final Rules and Public Comments
+
+A. MMLF Capital Interim Final Rule
+
+    On March 23, 2020, the agencies published in the Federal Register 
+the MMLF capital interim final rule to neutralize the regulatory 
+capital effect of participation in the MMLF. The MMLF capital interim 
+final rule permits a banking organization to exclude exposures acquired 
+as part of the MMLF from the banking organization's total leverage 
+exposure, average total consolidated assets, advanced approaches total 
+risk-weighted assets, and standardized total risk-weighted assets, as 
+applicable. Because of the non-recourse nature of the Federal Reserve 
+Bank of Boston's extension of credit to the banking organization, the 
+organization is not exposed to credit or market risk from the assets 
+purchased by the banking organization and pledged to the Federal 
+Reserve Bank of Boston. The MMLF capital interim final rule reflects 
+the agencies' determination that, prior to the MMLF capital interim 
+final rule, the leverage and risk-based capital requirements in place 
+in the capital rule for the assets acquired by a banking organization 
+as part of the MMLF did not reflect the substantial protections 
+provided to the organization by the Federal Reserve Bank of Boston in 
+connection with the facility.
+
+B. PPPLF Capital Interim Final Rule
+
+    On April 13, 2020, the agencies published in the Federal Register 
+the PPPLF capital interim final rule to neutralize the regulatory 
+capital effect of participation in the PPPLF. The PPPLF capital interim 
+final rule permits a banking organization to exclude exposures pledged 
+as collateral to the PPPLF from the banking organization's total 
+leverage exposure, average total consolidated assets, advanced 
+approaches total risk-weighted assets, and standardized total risk-
+weighted assets, as applicable. Because of the non-recourse nature of 
+each Federal Reserve Bank's extension of credit to the banking 
+organization, the banking organization is not exposed to credit or 
+market risk from the pledged PPP covered loans. The PPPLF capital 
+interim final rule reflects the agencies' determination that, prior to 
+the PPPLF capital interim final rule, the regulatory capital 
+requirements in place in the capital rule for PPP covered loans pledged 
+by a banking organization to a Federal Reserve Bank as part of the 
+PPPLF did not reflect the substantial protections from risk provided to 
+the banking organization in connection with the facility.
+    Additionally, the PPPLF capital interim final rule provides that a 
+banking organization must apply a zero percent risk weight to PPP 
+covered loans, as required by Section 1102 of the Coronavirus Aid, 
+Relief, and Economic Security (CARES) Act. A banking organization must 
+apply a zero percent risk weight to PPP covered loans regardless of 
+whether they are pledged under the PPPLF.
+
+C. LCR Interim Final Rule
+
+    On May 6, 2020, the agencies published in the Federal Register the 
+LCR interim final rule to require a banking organization subject to the 
+LCR rule to neutralize the effect on its LCR of participation in the 
+MMLF and PPPLF. The LCR interim final rule requires a covered company 
+to neutralize the LCR effects of the advances made by the MMLF and 
+PPPLF together with the assets securing these advances. Specifically, 
+the LCR interim final rule adds a new definition to the LCR rule for 
+``Covered Federal Reserve Facility Funding'' to identify MMLF and PPPLF 
+advances separately from other secured funding transactions under the 
+LCR rule. The LCR interim final rule requires outflow amounts 
+associated with Covered Federal Reserve Facility Funding and inflow 
+amounts associated with the assets securing this funding to be excluded 
+from a covered company's total net cash outflow amount under the LCR 
+rule.\12\
+---------------------------------------------------------------------------
+
+    \12\ See 12 CFR 50.34 (OCC); 12 CFR 249.34 (Board); and 12 CFR 
+329.34 (FDIC). Section __.34 does not apply to the extent the 
+covered company secures Covered Federal Reserve Facility Funding 
+with securities, debt obligations, or other instruments issued by 
+the covered company or its consolidated entity.
+---------------------------------------------------------------------------
+
+    Advances from the MMLF and PPPLF facilities are non-recourse and 
+the maturity of the advance generally aligns with the maturity of the 
+collateral. Accordingly, a covered company is not exposed to credit or 
+market risk from the collateral securing the MMLF or PPPLF advance that 
+could otherwise affect the banking organization's ability to settle the 
+loan and generally can use the value of cash received from the 
+collateral to repay the advances at
+
+[[Page 68246]]
+
+maturity. For these reasons, the agencies issued the LCR interim final 
+rule to better align the treatment of these advances and collateral 
+under the LCR rule with the liquidity risk associated with funding 
+exposures through these facilities, and to ensure consistent and 
+predictable treatment of covered companies' participation in the 
+facilities under the LCR rule.
+
+D. Public Comments
+
+Comments on the MMLF Capital Interim Final Rule
+    The agencies received two comment letters, from a trade association 
+and an advocacy organization, addressing the MMLF capital interim final 
+rule. These commenters supported the agencies' actions to encourage 
+banking organizations' participation in the emergency lending facility. 
+One commenter recommended broader considerations for money market 
+mutual fund reform that are outside the scope of this rulemaking.
+Comments on the PPPLF Capital Interim Final Rule
+    The agencies received 14 comment letters from industry 
+participants, advocacy groups, trade associations, and individuals 
+addressing the PPPLF interim final rule. Several commenters expressed 
+support for the agencies' actions under the PPPLF capital interim final 
+rule, and two of these commenters further supported the agencies' 
+determination that good cause existed to issue the interim final rules 
+without notice and comment. Several commenters suggested that the 
+agencies extend the zero percent risk weight to PPP covered loans 
+purchased in secondary markets. The agencies note that, under the PPPLF 
+capital interim final rule, the risk weight for all PPP covered loans 
+is zero percent.
+    Several commenters asserted that the PPPLF capital interim final 
+rule should extend the leverage exclusion to PPP covered loans that are 
+not pledged to the PPPLF, arguing that the treatment could discourage 
+banking organizations that are not using the PPPLF from making PPP 
+covered loans. Notwithstanding these arguments, the agencies are 
+adopting as final the PPPLF capital interim final rule. The CARES Act 
+set the risk weight of these loans at zero percent and did not exclude 
+these loans from the leverage capital requirements. The favorable 
+leverage capital treatment in the PPPLF capital interim final rule 
+reflects the non-recourse nature of the relevant Federal Reserve Bank's 
+extension of credit to a banking organization only for PPP covered 
+loans pledged by a banking organization to a Federal Reserve Bank.
+Comments on the LCR Interim Final Rule
+    The agencies received one comment letter, from a trade association, 
+on the LCR interim final rule. The commenter supported the requirements 
+under the LCR interim final rule, arguing that the requirements 
+encourage participation in the facilities, which ultimately provides 
+benefits to small businesses, households, and investors.
+
+III. Summary of the Final Rule
+
+    For the reasons discussed above, the agencies are adopting as final 
+the revisions to the capital and LCR rules unchanged from the interim 
+final rules. Accordingly, a banking organization may continue to 
+exclude assets acquired as part of the MMLF and PPP covered loans 
+pledged under the PPPLF from its total leverage exposure, average total 
+consolidated assets, advanced approaches total risk-weighted assets, 
+and standardized total risk-weighted assets, as applicable (and for 
+purposes of the community bank leverage ratio).\13\ Further, a banking 
+organization must continue to apply a zero percent risk weight to all 
+PPP covered loans that are not pledged to the PPPLF (regardless of 
+whether the banking organization originated the loan). In addition, a 
+banking organization subject to the LCR rule is required to continue 
+excluding from its total net cash outflow amount outflow amounts 
+associated with advances from the MMLF and PPPLF and inflow amounts 
+associated with collateral securing the advances.
+---------------------------------------------------------------------------
+
+    \13\ Assets acquired as part of the MMLF and PPP covered loans 
+pledged to the PPPLF would continue to be included in a bank's 
+measure of total consolidated assets, including for purposes of 
+determining whether a banking organization is a qualifying community 
+banking organization.
+---------------------------------------------------------------------------
+
+IV. Administrative Law Matters
+
+A. Congressional Review Act
+
+    For purposes of the Congressional Review Act, the Office of 
+Management and Budget (OMB) makes a determination as to whether a final 
+rule constitutes a ``major'' rule.\14\ If a rule is deemed a ``major 
+rule'' by the OMB, the Congressional Review Act generally provides that 
+the rule may not take effect until at least 60 days following its 
+publication.\15\
+---------------------------------------------------------------------------
+
+    \14\ 5 U.S.C. 801 et seq.
+    \15\ 5 U.S.C. 801(a)(3).
+---------------------------------------------------------------------------
+
+    The Congressional Review Act defines a ``major rule'' as any rule 
+that the Administrator of the Office of Information and Regulatory 
+Affairs of the OMB finds has resulted in or is likely to result in (A) 
+an annual effect on the economy of $100,000,000 or more; (B) a major 
+increase in costs or prices for consumers, individual industries, 
+Federal, State, or local government agencies or geographic regions; or 
+(C) significant adverse effects on competition, employment, investment, 
+productivity, innovation, or on the ability of United States-based 
+enterprises to compete with foreign-based enterprises in domestic and 
+export markets.\16\
+---------------------------------------------------------------------------
+
+    \16\ 5 U.S.C. 804(2).
+---------------------------------------------------------------------------
+
+    As required by the Congressional Review Act, the agencies will 
+submit the final rule and other appropriate reports to Congress and the 
+Government Accountability Office for review.
+
+B. Paperwork Reduction Act
+
+    The Paperwork Reduction Act of 1995 (44 U.S.C. 3501-3521) (PRA) 
+states that no agency may conduct or sponsor, nor is the respondent 
+required to respond to, an information collection unless it displays a 
+currently valid OMB control number. This final rule does not contain 
+any information collection requirements. However, in connection with 
+the interim final rules, the Board temporarily revised the Financial 
+Statements for Holding Companies (FR Y-9 reports; OMB No. 7100-0128) 
+and the Complex Institution Liquidity Monitoring Report (FR 2052a; OMB 
+No. 7100-0361) and invited comment on proposals to extend those 
+collections of information for three years, with revision.\17\
+---------------------------------------------------------------------------
+
+    \17\ The Board published a separate Federal Register notice to 
+make temporary revisions to the FR Y-9 reports in connection with 
+the MMLF Capital Interim Final Rule. 85 FR 19944 (Apr. 9, 2020).
+---------------------------------------------------------------------------
+
+    Additionally, in connection with the interim final rules, the 
+agencies made revisions to the Call Reports (OCC OMB Control No. 1557-
+0081; Board OMB Control No. 7100-0036; FDIC OMB Control No. 3064-0052), 
+the Report of Assets and Liabilities of U.S. Branches and Agencies of 
+Foreign Banks (FFIEC 002; OMB Control No. 7100-0032), and the 
+Regulatory Capital Reporting for Institutions Subject to the Advanced 
+Capital Adequacy Framework (FFIEC 101; OCC OMB Control No. 1557-0239; 
+Board OMB Control No. 7100-0319; FDIC OMB Control No. 3064-0159). The 
+changes to the Call Reports, FFIEC 002, and FFIEC 101 and their related 
+instructions are addressed in a separate Federal Register notice.\18\
+---------------------------------------------------------------------------
+
+    \18\ See 85 FR 44361 (July 22, 2020).
+---------------------------------------------------------------------------
+
+Current Actions
+
+    The Board has extended the FR Y-9 and FR 2052a for three years, 
+with
+
+[[Page 68247]]
+
+revision, as originally proposed. The updates to the FR Y-9 and FR 
+2052a resulted in an estimated zero net change in hourly burden. No 
+public comments were received regarding these proposals under the PRA.
+
+Revision, With Extension, of the Following Information Collections
+
+    (1) Report title: Financial Statements for Holding Companies.
+    Agency form numbers: FR Y-9C, FR Y-9LP, FR Y-9SP, FR Y-9ES, and FR 
+Y-9CS.
+    OMB control number: 7100-0128.
+    Effective date: December 28, 2020.
+    Frequency: Quarterly, semiannually, and annually.
+    Affected public: Businesses or other for-profit.
+    Respondents: Bank holding companies (BHCs), savings and loan 
+holding companies (SLHCs), securities holding companies (SHCs), and 
+U.S. intermediate holding companies (IHCs) (collectively, holding 
+companies (HCs)).\19\
+---------------------------------------------------------------------------
+
+    \19\ An SLHC must file one or more of the FR Y-9 family of 
+reports unless it is: (1) A grandfathered unitary SLHC with 
+primarily commercial assets and thrifts that make up less than five 
+percent of its consolidated assets; or (2) a SLHC that primarily 
+holds insurance-related assets and does not otherwise submit 
+financial reports with the SEC pursuant to section 13 or 15(d) of 
+the Securities Exchange Act of 1934.
+---------------------------------------------------------------------------
+
+    Estimated number of respondents:
+    FR Y-9C (non-advanced approaches (AA) HCs community bank leverage 
+ratio (CBLR)) with less than $5 billion in total assets--71,
+    FR Y-9C (non AA HCs CBLR) with $5 billion or more in total assets--
+35,
+    FR Y-9C (non AA HCs non-CBLR) with less than $5 billion in total 
+assets--84,
+    FR Y-9C (non AA HCs non-CBLR) with $5 billion or more in total 
+assets--154,
+    FR Y-9C (AA HCs)--19,
+    FR Y-9LP--434,
+    FR Y-9SP--3,960,
+    FR Y-9ES--83,
+    FR Y-9CS--236.
+    Estimated average hours per response:
+
+Reporting
+
+    FR Y-9C (non AA HCs CBLR) with less than $5 billion in total 
+assets--29.17,
+    FR Y-9C (non AA HCs CBLR) with $5 billion or more in total assets--
+35.14,
+    FR Y-9C (non AA HCs non-CBLR) with less than $5 billion in total 
+assets--41.01,
+    FR Y-9C (non AA HCs non-CBLR) with $5 billion or more in total 
+assets--46.98,
+    FR Y-9C (AA HCs)--48.80,
+    FR Y-9LP--5.27,
+    FR Y-9SP--5.40,
+    FR Y-9ES--0.50,
+    FR Y-9CS--0.50.
+
+Recordkeeping
+
+    FR Y-9C--1,
+    FR Y-9LP--1,
+    FR Y-9SP--0.50,
+    FR Y-9ES--0.50,
+    FR Y-9CS--0.50.
+    Estimated annual burden hours:
+
+Reporting
+
+    FR Y-9C (non AA HCs CBLR) with less than $5 billion in total 
+assets--8,284,
+    FR Y-9C (non AA HCs CBLR) with $5 billion or more in total assets--
+4,920,
+    FR Y-9C (non AA HCs non-CBLR) with less than $5 billion in total 
+assets--13,779,
+    FR Y-9C (non AA HCs non-CBLR) with $5 billion or more in total 
+assets--28,940,
+    FR Y-9C (AA HCs)--3,709,
+    FR Y-9LP--9,149,
+    FR Y-9SP--42,768,
+    FR Y-9ES--42,
+    FR Y-9CS--472.
+
+Recordkeeping
+
+    FR Y-9C--1,452,
+    FR Y-9LP--1,736,
+    FR Y-9SP--3,960,
+    FR Y-9ES--42,
+    FR Y-9CS--472.
+    General description of report: The FR Y-9C consists of standardized 
+financial statements similar to the Call Reports filed by banks and 
+savings associations. The FR Y-9C collects consolidated data from HCs 
+and is filed quarterly by top-tier HCs with total consolidated assets 
+of $3 billion or more.\20\
+---------------------------------------------------------------------------
+
+    \20\ Under certain circumstances described in the FR Y-9C's 
+General Instructions, HCs with assets under $3 billion may be 
+required to file the FR Y-9C.
+---------------------------------------------------------------------------
+
+    The FR Y-9LP, which collects parent company only financial data, 
+must be submitted by each HC that files the FR Y-9C, as well as by each 
+of its subsidiary HCs.\21\ The report consists of standardized 
+financial statements.
+---------------------------------------------------------------------------
+
+    \21\ A top-tier HC may submit a separate FR Y-9LP on behalf of 
+each of its lower-tier HCs.
+---------------------------------------------------------------------------
+
+    The FR Y-9SP is a parent company only financial statement filed 
+semiannually by HCs with total consolidated assets of less than $3 
+billion. In a banking organization with total consolidated assets of 
+less than $3 billion that has tiered HCs, each HC in the organization 
+must submit, or have the top-tier HC submit on its behalf, a separate 
+FR Y-9SP. This report is designed to obtain basic balance sheet and 
+income data for the parent company, and data on its intangible assets 
+and intercompany transactions.
+    The FR Y-9ES is filed annually by each employee stock ownership 
+plan (ESOP) that is also an HC. The report collects financial data on 
+the ESOP's benefit plan activities. The FR Y-9ES consists of four 
+schedules: A Statement of Changes in Net Assets Available for Benefits, 
+a Statement of Net Assets Available for Benefits, Memoranda, and Notes 
+to the Financial Statements.
+    The FR Y-9CS is a free-form supplemental report that the Board may 
+utilize to collect critical additional data deemed to be needed in an 
+expedited manner from HCs on a voluntary basis. The data are used to 
+assess and monitor emerging issues related to HCs, and the report is 
+intended to supplement the other FR Y-9 reports. The data items 
+included on the FR Y-9CS may change as needed.
+    Legal authorization and confidentiality: The Board has the 
+authority to impose the reporting and recordkeeping requirements 
+associated with the FR Y-9 family of reports on BHCs pursuant to 
+section 5 of the Bank Holding Company Act of 1956 (BHC Act) (12 U.S.C. 
+1844); on SLHCs pursuant to section 10(b)(2) and (3) of the Home 
+Owners' Loan Act (12 U.S.C. 1467a(b)(2) and (3)), as amended by 
+sections 369(8) and 604(h)(2) of the Dodd-Frank Wall Street Reform and 
+Consumer Protection Act (Dodd-Frank Act); on U.S. IHCs pursuant to 
+section 5 of the BHC Act (12 U.S.C. 1844), as well as pursuant to 
+sections 102(a)(1) and 165 of the Dodd-Frank Act (12 U.S.C. 511(a)(1) 
+and 5365); and on SHCs pursuant to section 618 of the Dodd-Frank Act 
+(12 U.S.C. 1850a(c)(1)(A)). The obligation to submit the FR Y-9 series 
+of reports, and the recordkeeping requirements set forth in the 
+respective instructions to each report, are mandatory, except for the 
+FR Y-9CS, which is voluntary.
+    With respect to the FR Y-9C report, Schedule HI's data item 7(g), 
+``FDIC deposit insurance assessments,'' Schedule HC-P's data item 7(a), 
+``Representation and warranty reserves for 1-4 family residential 
+mortgage loans sold to U.S. government agencies and government 
+sponsored agencies,'' and Schedule HC-P's data item 7(b), 
+``Representation and warranty reserves for 1-4 family residential 
+mortgage loans sold to other parties'' are considered confidential 
+commercial and financial information. Such treatment is appropriate 
+under exemption 4 of the Freedom of Information Act (FOIA) (5 U.S.C. 
+552(b)(4)) because these data items reflect commercial and financial 
+information that is both customarily and actually treated as private by 
+the submitter, and which the Board has
+
+[[Page 68248]]
+
+previously assured submitters will be treated as confidential. It also 
+appears that disclosing these data items may reveal confidential 
+examination and supervisory information, and in such instances, this 
+information would also be withheld pursuant to exemption 8 of the FOIA 
+(5 U.S.C. 552(b)(8)), which protects information related to the 
+supervision or examination of a regulated financial institution.
+    In addition, for both the FR Y-9C report, Schedule HC's memorandum 
+item 2.b. and the FR Y-9SP report, Schedule SC's memorandum item 2.b., 
+the name and email address of the external auditing firm's engagement 
+partner, is considered confidential commercial information and 
+protected by exemption 4 of the FOIA (5 U.S.C. 552(b)(4)) if the 
+identity of the engagement partner is treated as private information by 
+HCs. The Board has assured respondents that this information will be 
+treated as confidential since the collection of this data item was 
+proposed in 2004.
+    Additionally, items on the FR Y-9C, Schedule HC-C for loans 
+modified under Section 4013, data items Memorandum items 16.a, ``Number 
+of Section 4013 loans outstanding''; and Memorandum items 16.b, 
+``Outstanding balance of Section 4013 loans'' are considered 
+confidential. While the Board generally makes institution-level FR Y-9C 
+report data publicly available, the Board is collecting Section 4013 
+loan information as part of condition reports for the impacted HCs and 
+the Board considers disclosure of these items at the HC level would not 
+be in the public interest. Such information is permitted to be 
+collected on a confidential basis, consistent with 5 U.S.C. 552(b)(8). 
+In addition, holding companies may be reluctant to offer modifications 
+under Section 4013 if information on these modifications made by each 
+holding company is publicly available, as analysts, investors, and 
+other users of public FR Y-9C report information may penalize an 
+institution for using the relief provided by the CARES Act. The Board 
+may disclose Section 4013 loan data on an aggregated basis, consistent 
+with confidentiality considerations.
+    Aside from the data items described above, the remaining data items 
+on the FR Y-9C report and the FR Y-9SP report are generally not 
+accorded confidential treatment. The data items collected on FR Y-9LP, 
+FR Y-9ES, and FR Y-9CS reports, are also generally not accorded 
+confidential treatment. As provided in the Board's Rules Regarding 
+Availability of Information (12 CFR part 261), however, a respondent 
+may request confidential treatment for any data items the respondent 
+believes should be withheld pursuant to a FOIA exemption. The Board 
+will review any such request to determine if confidential treatment is 
+appropriate, and will inform the respondent if the request for 
+confidential treatment has been denied.
+    To the extent the instructions to the FR Y-9C, FR Y-9LP, FR Y-9SP, 
+and FR Y-9ES reports each respectively direct the financial institution 
+to retain the work papers and related materials used in preparation of 
+each report, such material would only be obtained by the Board as part 
+of the examination or supervision of the financial institution. 
+Accordingly, such information is considered confidential pursuant to 
+exemption 8 of the FOIA (5 U.S.C. 552(b)(8)). In addition, the 
+financial institution's work papers and related materials may also be 
+protected by exemption 4 of the FOIA, to the extent such financial 
+information is treated as confidential by the respondent (5 U.S.C. 
+552(b)(4)).
+    (2) Report title: Complex Institution Liquidity Monitoring Report.
+    Agency form number: FR 2052a.
+    OMB control number: 7100-0361.
+    Effective date: December 28, 2020.
+    Frequency: Monthly, and each business day (daily).
+    Affected public: Businesses or other for-profit.
+    Respondents: U.S. BHCs, U.S. SLHCs, and foreign banking 
+organizations (FBOs) with U.S. assets.
+    Estimated number of respondents: Monthly, 26; daily, 16.
+    Estimated average hours per response: Monthly, 120; daily, 220.
+    Estimated annual burden hours: 917,440.
+    General description of report: The Board uses the FR 2052a to 
+monitor the overall liquidity profile of supervised institutions. These 
+data provide detailed information on the liquidity risks within 
+different business lines (e.g., financing of securities positions, 
+prime brokerage activities). In particular, these data serve as part of 
+the Board's supervisory surveillance program in its liquidity risk 
+management area and provide timely information on firm-specific 
+liquidity risks during periods of stress. Analyses of systemic and 
+idiosyncratic liquidity risk issues are then used to inform the Board's 
+supervisory processes, including the preparation of analytical reports 
+that detail funding vulnerabilities.
+    Legal authorization and confidentiality: The FR 2052a is authorized 
+pursuant to section 5 of the BHC Act (12 U.S.C. 1844), section 8 of the 
+International Banking Act (12 U.S.C. 3106), section 165 of the Dodd-
+Frank Act (12 U.S.C. 5365), and section 10 of the Home Owners' Loan Act 
+(12 U.S.C. 1467(a)) and is mandatory. Section 5(c) of the BHC Act 
+authorizes the Board to require BHCs to submit reports to the Board 
+regarding their financial condition. Section 8(a) of the International 
+Banking Act subjects FBOs to the provisions of the BHC Act. Section 165 
+of the Dodd-Frank Act requires the Board to establish prudential 
+standards for certain BHCs and FBOs, which include liquidity 
+requirements. Section 10(g) of the Home Owners' Loan Act authorizes the 
+Board to collect reports from SLHCs.
+    Financial institution information required by the FR 2052a is 
+collected as part of the Board's supervisory process. Therefore, such 
+information is entitled to confidential treatment under Exemption 8 of 
+the FOIA (5 U.S.C. 552(b)(8)). In addition, the institution information 
+provided by each respondent would not be otherwise available to the 
+public and its disclosure could cause substantial competitive harm. 
+Accordingly, it is entitled to confidential treatment under the 
+authority of exemption 4 of the FOIA (5 U.S.C. 552(b)(4)), which 
+protects from disclosure trade secrets and commercial or financial 
+information.
+
+C. Regulatory Flexibility Act
+
+    The Regulatory Flexibility Act (RFA) requires an agency to consider 
+whether the rules it proposes will have a significant economic impact 
+on a substantial number of small entities. The RFA requires an agency 
+to prepare a final regulatory flexibility analysis when it promulgates 
+a final rule after being required to publish a general notice of 
+proposed rulemaking. As discussed previously, the agencies have decided 
+to adopt, without changes, revisions to the capital and LCR rules made 
+under the interim final rules. There was no general notice of proposed 
+rulemaking associated with the interim final rules or this final rule. 
+Accordingly, the agencies have concluded that the RFA's requirements 
+relating to initial and final regulatory flexibility analyses do not 
+apply to the promulgation of this final rule.
+
+D. Riegle Community Development and Regulatory Improvement Act of 1994
+
+    Pursuant to section 302(a) of the Riegle Community Development and 
+Regulatory Improvement Act (RCDRIA),\22\ in determining the effective 
+date and administrative compliance requirements for new regulations 
+that
+
+[[Page 68249]]
+
+impose additional reporting, disclosure, or other requirements on 
+insured depository institutions (IDIs), each Federal banking agency 
+must consider, consistent with the principle of safety and soundness 
+and the public interest, any administrative burdens that the 
+regulations would place on depository institutions, including small 
+depository institutions and customers of depository institutions, as 
+well as the benefits of the regulations. In addition, section 302(b) of 
+RCDRIA requires new regulations and amendments to regulations that 
+impose additional reporting, disclosures, or other new requirements on 
+IDIs generally to take effect on the first day of a calendar quarter 
+that begins on or after the date on which the regulations are published 
+in final form.\23\ Each Federal banking agency has determined that the 
+final rule would not impose additional reporting, disclosure, or other 
+requirements; therefore the requirements of the RCDRIA do not apply.
+---------------------------------------------------------------------------
+
+    \22\ 12 U.S.C. 4802(a).
+    \23\ 12 U.S.C. 4802.
+---------------------------------------------------------------------------
+
+E. Use of Plain Language
+
+    Section 722 of the Gramm-Leach-Bliley Act \24\ requires the Federal 
+banking agencies to use ``plain language'' in all proposed and final 
+rules published after January 1, 2000. In light of this requirement, 
+the agencies have sought to present the final rule in a simple and 
+straightforward manner. The agencies did not receive any comments on 
+the use of plain language in the interim final rules.
+---------------------------------------------------------------------------
+
+    \24\ 12 U.S.C. 4809.
+---------------------------------------------------------------------------
+
+F. OCC Unfunded Mandates Reform Act of 1995
+
+    As a general matter, the Unfunded Mandates Act of 1995 (UMRA), 2 
+U.S.C. 1531 et seq., requires the preparation of a budgetary impact 
+statement before promulgating a rule that includes a Federal mandate 
+that may result in the expenditure by State, local, and tribal 
+governments, in the aggregate, or by the private sector, of $100 
+million or more in any one year. However, the UMRA does not apply to 
+final rules for which a general notice of proposed rulemaking was not 
+published.\25\ Because there was no general notice of proposed 
+rulemaking associated with the interim final rules or the final rule, 
+the OCC concludes that the requirements of the UMRA do not apply to 
+this final rule.
+---------------------------------------------------------------------------
+
+    \25\ See 2 U.S.C. 1532(a).
+---------------------------------------------------------------------------
+
+Authority and Issuance
+
+    For the reasons set forth in the joint SUPPLEMENTARY INFORMATION 
+section, the interim final rules, which were published at 85 FR 16232, 
+85 FR 20387, and 85 FR 26835 on March 23, April 13, and May 6, 2020, 
+are adopted as a final rule by the OCC, Board, and FDIC without change.
+
+Brian P. Brooks,
+Acting Comptroller of the Currency.
+
+    By order of the Board of Governors of the Federal Reserve 
+System.
+Ann E. Misback,
+Secretary of the Board.
+
+Federal Deposit Insurance Corporation.
+
+    By order of the Board of Directors.
+
+    Dated at Washington, DC, on or about September 15, 2020.
+James P. Sheesley,
+Assistant Executive Secretary.
+[FR Doc. 2020-21894 Filed 10-27-20; 8:45 am]
+BILLING CODE 4810-33-6210-01-6714-01-P
+
+
+</pre><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

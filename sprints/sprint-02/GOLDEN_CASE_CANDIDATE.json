@@ -1,0 +1,440 @@
+{
+  "status": "PLANNING ONLY — NOT ACTIVE",
+  "candidate_version": "golden-us-corporate-2025.v0.2-draft",
+  "review_status": "PENDING_REVIEW",
+  "executable": false,
+  "accepted_fixture": {
+    "path": "../../data/finbank/alpha_manufacturing_v1.json",
+    "sha256": "931cacd6e09c899395b074a6303713a86a0a5d464bcf8b2571d0b9b53522ba96",
+    "sha256_policy": "Accepted Git blob (LF); normalize checkout CRLF to LF for fixture comparison only. Captured regulatory source bytes are never normalized.",
+    "working_tree_sha256_at_capture": "9c275922caa59dd968a34f13e30595b78ebf4ca71d3a87cf0b914cdae8da85f4",
+    "regulatory_fact_snapshot": "2025-01-01",
+    "modified": false
+  },
+  "context": {
+    "jurisdiction": "US",
+    "regulator": "Federal Reserve",
+    "ruleset_family": "US_FRB_PART217_STANDARDIZED",
+    "ruleset_version": null,
+    "regulatory_as_of": "2025-01-01"
+  },
+  "candidate_facts": {
+    "institution": {
+      "display_name": "FinBank",
+      "type": "synthetic in-scope Board-regulated state member bank",
+      "reporting_regime": "STANDARDIZED",
+      "cblr_elected": false,
+      "institutional_applicability_review": "PENDING"
+    },
+    "counterparty": {
+      "display_name": "Alpha Manufacturing",
+      "type": "synthetic non-financial company"
+    },
+    "exposure": {
+      "product_type": "CORPORATE_TERM_LOAN",
+      "ordinary": true,
+      "fully_drawn": true,
+      "on_balance_sheet": true,
+      "off_balance_sheet": false,
+      "undrawn_amount": "0.00",
+      "currency": "USD",
+      "original_principal": "10000000.00",
+      "outstanding_balance": "10000000.00",
+      "gaap_carrying_value": "10000000.00",
+      "accounting_basis": "US_GAAP",
+      "specific_provisions": "0.00",
+      "partial_write_offs": "0.00",
+      "credit_loss_allowance": "0.00",
+      "other_carrying_value_adjustments": "0.00",
+      "carrying_value_reconciliation_review": "PENDING",
+      "performing": true,
+      "defaulted": false,
+      "past_due": false,
+      "days_past_due": 0,
+      "nonaccrual": false,
+      "crm": "NONE_IN_SCOPE"
+    },
+    "definition_screen": [
+      {
+        "assessment_id": "US-CORP-01",
+        "rule_ref": "US-CLASS",
+        "locator": "12 CFR 217.2 corporate exposure definition (1), as of 2025-01-01",
+        "alternative_assessments": [
+          {
+            "concept": "sovereign",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          },
+          {
+            "concept": "bank_for_international_settlements",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          },
+          {
+            "concept": "european_central_bank",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          },
+          {
+            "concept": "european_commission",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          },
+          {
+            "concept": "international_monetary_fund",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          },
+          {
+            "concept": "european_stability_mechanism",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          },
+          {
+            "concept": "european_financial_stability_facility",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          },
+          {
+            "concept": "multilateral_development_bank",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          },
+          {
+            "concept": "depository_institution",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          },
+          {
+            "concept": "foreign_bank",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          },
+          {
+            "concept": "credit_union",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          },
+          {
+            "concept": "public_sector_entity",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          }
+        ],
+        "reviewer_evidence": null
+      },
+      {
+        "assessment_id": "US-CORP-02",
+        "rule_ref": "US-CLASS",
+        "locator": "12 CFR 217.2 corporate exposure definition (2), as of 2025-01-01",
+        "alternative_assessments": [
+          {
+            "concept": "gse",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          }
+        ],
+        "reviewer_evidence": null
+      },
+      {
+        "assessment_id": "US-CORP-03",
+        "rule_ref": "US-CLASS",
+        "locator": "12 CFR 217.2 corporate exposure definition (3), as of 2025-01-01",
+        "alternative_assessments": [
+          {
+            "concept": "residential_mortgage",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          }
+        ],
+        "reviewer_evidence": null
+      },
+      {
+        "assessment_id": "US-CORP-04",
+        "rule_ref": "US-CLASS",
+        "locator": "12 CFR 217.2 corporate exposure definition (4), as of 2025-01-01",
+        "alternative_assessments": [
+          {
+            "concept": "presold_construction_loan",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          }
+        ],
+        "reviewer_evidence": null
+      },
+      {
+        "assessment_id": "US-CORP-05",
+        "rule_ref": "US-CLASS",
+        "locator": "12 CFR 217.2 corporate exposure definition (5), as of 2025-01-01",
+        "alternative_assessments": [
+          {
+            "concept": "statutory_multifamily_mortgage",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          }
+        ],
+        "reviewer_evidence": null
+      },
+      {
+        "assessment_id": "US-CORP-06",
+        "rule_ref": "US-CLASS",
+        "locator": "12 CFR 217.2 corporate exposure definition (6), as of 2025-01-01",
+        "alternative_assessments": [
+          {
+            "concept": "hvcre",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          }
+        ],
+        "reviewer_evidence": null
+      },
+      {
+        "assessment_id": "US-CORP-07",
+        "rule_ref": "US-CLASS",
+        "locator": "12 CFR 217.2 corporate exposure definition (7), as of 2025-01-01",
+        "alternative_assessments": [
+          {
+            "concept": "cleared_transaction",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          }
+        ],
+        "reviewer_evidence": null
+      },
+      {
+        "assessment_id": "US-CORP-08",
+        "rule_ref": "US-CLASS",
+        "locator": "12 CFR 217.2 corporate exposure definition (8), as of 2025-01-01",
+        "alternative_assessments": [
+          {
+            "concept": "default_fund_contribution",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          }
+        ],
+        "reviewer_evidence": null
+      },
+      {
+        "assessment_id": "US-CORP-09",
+        "rule_ref": "US-CLASS",
+        "locator": "12 CFR 217.2 corporate exposure definition (9), as of 2025-01-01",
+        "alternative_assessments": [
+          {
+            "concept": "securitization",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          }
+        ],
+        "reviewer_evidence": null
+      },
+      {
+        "assessment_id": "US-CORP-10",
+        "rule_ref": "US-CLASS",
+        "locator": "12 CFR 217.2 corporate exposure definition (10), as of 2025-01-01",
+        "alternative_assessments": [
+          {
+            "concept": "equity",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          }
+        ],
+        "reviewer_evidence": null
+      },
+      {
+        "assessment_id": "US-CORP-11",
+        "rule_ref": "US-CLASS",
+        "locator": "12 CFR 217.2 corporate exposure definition (11), as of 2025-01-01",
+        "alternative_assessments": [
+          {
+            "concept": "unsettled_transaction",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          }
+        ],
+        "reviewer_evidence": null
+      },
+      {
+        "assessment_id": "US-CORP-12",
+        "rule_ref": "US-CLASS",
+        "locator": "12 CFR 217.2 corporate exposure definition (12), as of 2025-01-01",
+        "alternative_assessments": [
+          {
+            "concept": "policy_loan",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          }
+        ],
+        "reviewer_evidence": null
+      },
+      {
+        "assessment_id": "US-CORP-13",
+        "rule_ref": "US-CLASS",
+        "locator": "12 CFR 217.2 corporate exposure definition (13), as of 2025-01-01",
+        "alternative_assessments": [
+          {
+            "concept": "separate_account",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          }
+        ],
+        "reviewer_evidence": null
+      },
+      {
+        "assessment_id": "US-CORP-14",
+        "rule_ref": "US-CLASS",
+        "locator": "12 CFR 217.2 corporate exposure definition (14), as of 2025-01-01",
+        "alternative_assessments": [
+          {
+            "concept": "ppp_covered_loan",
+            "candidate_outcome": "NO",
+            "provenance": "OWNER_SUPPLIED_SYNTHETIC_ACTIVATION_CANDIDATE",
+            "review_status": "PENDING_REVIEW"
+          }
+        ],
+        "reviewer_evidence": null
+      }
+    ],
+    "treatment_scope_assessments": [
+      {
+        "concept": "MARKET_RISK_COVERED_POSITION",
+        "candidate_outcome": "NO",
+        "review_status": "PENDING_REVIEW",
+        "rule_locator_review": "PENDING"
+      },
+      {
+        "concept": "QCCP_CASH_COLLATERAL_EXCEPTION",
+        "candidate_outcome": "NO",
+        "review_status": "PENDING_REVIEW",
+        "rule_locator_review": "PENDING"
+      },
+      {
+        "concept": "NON_ORDINARY_MEASUREMENT_EXCEPTION",
+        "candidate_outcome": "NO",
+        "review_status": "PENDING_REVIEW",
+        "rule_locator_review": "PENDING"
+      },
+      {
+        "concept": "PURCHASED_CREDIT_DETERIORATED",
+        "candidate_outcome": "NO",
+        "review_status": "PENDING_REVIEW",
+        "rule_locator_review": "PENDING"
+      },
+      {
+        "concept": "GUARANTEE",
+        "candidate_outcome": "NO",
+        "review_status": "PENDING_REVIEW",
+        "rule_locator_review": "PENDING"
+      },
+      {
+        "concept": "NETTING",
+        "candidate_outcome": "NO",
+        "review_status": "PENDING_REVIEW",
+        "rule_locator_review": "PENDING"
+      },
+      {
+        "concept": "COLLATERAL_OR_CRM",
+        "candidate_outcome": "NO",
+        "review_status": "PENDING_REVIEW",
+        "rule_locator_review": "PENDING"
+      }
+    ],
+    "generic_future_vocabulary": {
+      "specialised_lending": "NOT_AN_INDEPENDENT_US_PREDICATE",
+      "regulatory_retail": "NOT_AN_INDEPENDENT_US_PREDICATE",
+      "bcbs_sme": "NOT_AN_INDEPENDENT_US_PREDICATE",
+      "bcbs_external_rating": "NOT_AN_INDEPENDENT_US_PREDICATE"
+    }
+  },
+  "candidate_result": {
+    "schema_version": "regulatory-calculation.v0.2-draft",
+    "jurisdiction": "US",
+    "as_of_date": "2025-01-01",
+    "classification": {
+      "exposure_class": "CORPORATE",
+      "subclass": "GENERAL_CORPORATE",
+      "rule_refs": ["US-CLASS"],
+      "reason_codes": ["US_CORPORATE_DEFINITION_SATISFIED"],
+      "warnings": []
+    },
+    "regulatory_treatment": "ORDINARY_US_STANDARDIZED_CORPORATE_CANDIDATE",
+    "regulatory_exposure_measure": {
+      "amount": "10000000.00",
+      "currency": "USD",
+      "measure_type": "EXPOSURE_AMOUNT",
+      "measurement_basis": "US_STANDARDIZED_CARRYING_VALUE",
+      "rule_refs": ["US-MEASURE"],
+      "warnings": []
+    },
+    "risk_weight": {
+      "value": "1.00",
+      "unit": "RATIO",
+      "rule_refs": ["US-CORP-RW"]
+    },
+    "rwa": {
+      "amount": "10000000.00",
+      "currency": "USD",
+      "rule_refs": ["US-RWA"]
+    },
+    "capital_teaching_outputs": [
+      {
+        "name": "baseline_total_capital_equivalent",
+        "amount": "800000.00",
+        "currency": "USD",
+        "ratio": "0.08",
+        "rule_refs": ["US-TEACHING"],
+        "warnings": [
+          "EDUCATIONAL_ONLY",
+          "NOT_ALLOCATED_LOAN_CAPITAL",
+          "NOT_INSTITUTION_SPECIFIC_REQUIREMENT",
+          "NOT_CAPITAL_ADEQUACY_CONCLUSION"
+        ]
+      }
+    ],
+    "ruleset_id": "US_FRB_PART217_STANDARDIZED",
+    "ruleset_version": null,
+    "rule_versions": null,
+    "manifest_hash": null,
+    "catalog_snapshot_id": null,
+    "input_snapshot_hash": null,
+    "calculation_trace": null,
+    "source_citations": [
+      "US-CLASS",
+      "US-MEASURE",
+      "US-CORP-RW",
+      "US-RWA",
+      "US-TEACHING"
+    ],
+    "warnings": ["UNAPPROVED_ACTIVATION_CANDIDATE"],
+    "exclusions": [
+      "NO_CET1_OR_TIER1_TEACHING_EQUIVALENTS",
+      "NO_BUFFERS_OR_COMPLETE_CAPITAL_REQUIREMENT",
+      "NO_OTHER_EXPOSURE_CLASSES_OR_JURISDICTIONS",
+      "NO_CRM_CALCULATION"
+    ]
+  },
+  "candidate_only_note": "Null version/hash/trace/reviewer fields are deliberate unresolved gates. This document is neither a valid successful runtime result nor approved expected output. No regulatory arithmetic was executed to generate it; values are owner-supplied candidates."
+}

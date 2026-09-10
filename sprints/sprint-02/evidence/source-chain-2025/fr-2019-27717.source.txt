@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Federal Register, Volume 84 Issue 247 (Thursday, December 26, 2019)</title>
+</head>
+<body><pre>
+[Federal Register Volume 84, Number 247 (Thursday, December 26, 2019)]
+[Rules and Regulations]
+[Page 70887]
+From the Federal Register Online via the Government Publishing Office [<a href="http://www.gpo.gov">www.gpo.gov</a>]
+[FR Doc No: 2019-27717]
+
+
+=======================================================================
+-----------------------------------------------------------------------
+
+FEDERAL RESERVE SYSTEM
+
+12 CFR Parts 206, 208, 211, 215, 217, 223, 225, 238, and 251
+
+[Regulation Q; Docket No. R-1638]
+RIN 7100-AF 29
+
+
+Regulatory Capital Rule: Capital Simplification for Qualifying 
+Community Banking Organizations
+
+AGENCY: Board of Governors of the Federal Reserve System (Board).
+
+ACTION: Final rule; correction.
+
+-----------------------------------------------------------------------
+
+SUMMARY: The Federal Register document of November 13, 2019, 
+promulgating a final rule that provides for a simple measure of capital 
+adequacy for certain community banking organization had two erroneous 
+amendment instructions. This document corrects these errors.
+
+DATES: This correction is effective on January 1, 2020.
+
+SUPPLEMENTARY INFORMATION: In FR Doc. 2019-23472 appearing on page 
+61776 in the Federal Register of Wednesday, November 13, 2019, the 
+following corrections are made:
+
+0
+1. On page 61796, in the center column, amendatory instruction 31 is 
+corrected to read as follows:
+    ``31. Section 208.43 is amended by revising paragraphs (a), (b) 
+introductory text, and (b)(1) to read as follows:''
+
+0
+2. On page 61799, in the center column, amendatory instruction 46 is 
+corrected to read as follows:
+    ``46. Section 225.14 is amended by:
+    a. Redesignating footnote 3 to paragraph (a)(1)(ii) as footnote 1 
+to paragraph (a)(1)(ii);
+    b. Revising paragraphs (a)(1)(v), (a)(1)(vii), and (c)(6)(i)(A) and 
+(B); and
+    c. Adding paragraphs (c)(6)(iii) and (f).''
+
+    Board of Governors of the Federal Reserve System, December 18, 
+2019.
+Ann Misback,
+Secretary of the Board.
+[FR Doc. 2019-27717 Filed 12-23-19; 8:45 am]
+BILLING CODE 6210-01-P
+
+
+</pre></body>
+</html>
