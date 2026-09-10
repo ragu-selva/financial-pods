@@ -488,7 +488,7 @@ test("changed facts, values, EAD aliases, missing warnings and fabricated traces
     assert.throws(() => checkGolden(changed));
   }
 });
-test("current controls distinguish active governance from unstarted software and retain historical review", () => {
+test("current controls record merged activation before implementation and retain historical review", () => {
   for (const path of [
     "SPRINT.md",
     "FRAMEWORK_SCOPE.md",
@@ -513,5 +513,17 @@ test("current controls distinguish active governance from unstarted software and
     read("SPRINT.md"),
     /Only after review and merge may implementation start/,
   );
-  assert.match(read("SPRINT.md"), /NOT YET STARTED/);
+  const implementation = json("IMPLEMENTATION_RECORD.json");
+  assert.equal(implementation.activation_pr, 4);
+  assert.equal(implementation.activation_merged, true);
+  assert.equal(
+    implementation.activation_merge_commit,
+    "a89eeb60727c5f615514f75ecc27f57f19ec23cf",
+  );
+  assert.equal(implementation.branch, "codex/sprint-02-us-corporate-engine");
+  assert.equal(implementation.status, "IMPLEMENTED_PENDING_REVIEW");
+  assert.equal(implementation.implementation_accepted, false);
+  assert.equal(implementation.ruleset_version, version);
+  // The signed activation-time record is historical, never rewritten as software acceptance.
+  assert.match(read("SPRINT.md"), /Current implementation stop condition/);
 });

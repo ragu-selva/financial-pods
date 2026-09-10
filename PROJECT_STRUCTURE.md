@@ -72,14 +72,17 @@ financial-pods/
 |   |   |-- DOMAIN_MODEL_SCOPE.md   Approved facts, terminology, assumptions, and decisions
 |   |   |-- ACCEPTANCE_CRITERIA.md  Objective completion checklist
 |   |   `-- REVIEW.md               Verification evidence and acceptance decision
-|   `-- sprint-02..05/               Future placeholders; no authorization implied
+|   |-- sprint-02/                  Active U.S. corporate engine, approved evidence and runtime contracts
+|   `-- sprint-03..05/              Future placeholders; no authorization implied
 `-- archive/
     `-- bootstrap-packages/          Historical generated snapshots, not live source
 ```
 
 `tests/integration/stack-health.mjs` is the executable four-service health and contract smoke
-test. The regulatory and AI-evaluation test locations remain intentionally empty until authorized
-by later sprints.
+test. Sprint 02 regulatory runtime tests are colocated in packages/finance-engine/tests/test_regulatory.py;
+its eight regulatory source modules live under src/financial_pods_finance_engine/regulatory.
+The root tests/regulatory and AI-evaluation locations remain placeholders. Evidence/approval checks
+remain in sprints/sprint-02. packages/regulatory is not a second executable engine.
 
 Sprint 00 runtime and onboarding details are documented in `docs/architecture/LOCAL_DEVELOPMENT.md`. Sprint 01 accepted only the domain package and synthetic fixture defined by its control pack; all other empty domain/content locations remain unused until a later sprint is approved.
 

@@ -14,10 +14,16 @@ Run also: node --test sprints/sprint-02/activation-evidence.test.mjs
 
 Activation checks enforce the human identity/decision, exact source/fact pins, narrow approval
 allowlist, fixed as-of date, proposal rejection, preserved unknown endpoints, unchanged Golden
-amounts, synthetic simplifications and implementation-not-started gate. These are offline artifact
+amounts, synthetic simplifications and preserved activation-time approval. Current implementation
+checks separately enforce the merged activation baseline. These are offline artifact
 checks, not runtime regulatory calculations and not independent legal review.
 
-## Runtime tests required AFTER activation (NOT IMPLEMENTED)
+## Runtime tests implemented after activation
+
+The runtime suite is packages/finance-engine/tests/test_regulatory.py. These vectors were planned
+before activation; current v1 mappings and exact verification counts are in RUNTIME_CONTRACT.md and
+REVIEW.md. Exact-date-only execution replaces a general historical interval selector; no later final
+ruleset is implemented. Draft v0.2 examples below have been finalized as v1, not silently aliased.
 
 ### Measure/result/trace contracts
 
@@ -72,6 +78,5 @@ checks, not runtime regulatory calculations and not independent legal review.
   retains 2025-01-01 and all material facts/provenance.
 - Existing baseline tests, formatting, lint, types, builds and artifact verification remain passing.
 
-Runtime acceptance remains unchecked until authorized implementation and independent human review.
-
-Sprint 02: ACTIVE. Implementation: NOT YET STARTED.
+Runtime engineering checks are implemented; human implementation review/acceptance remains pending.
+Sprint 02: ACTIVE. No automatic implementation PR merge.

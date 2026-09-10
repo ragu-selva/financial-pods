@@ -60,6 +60,9 @@ Manual, human-approved channel publishing is sufficient for V1. Automated platfo
 Sprint 00 and Sprint 01 are accepted. Sprint 01 hardening is accepted and merged through PR #2
 on 2026-09-08 at `b0cf3a9`; see sprints/sprint-01-hardening/REVIEW.md. Exact decimal handling,
 structural provenance, and runtime immutability are part of the accepted main baseline.
-Sprint 02 is PLANNING ONLY — NOT ACTIVE; its separate review branch grants no implementation authority.
-Regulatory classification, risk weights, EAD, RWA, capital calculations, lesson/tutor behavior,
-authentication, billing, production deployment, and social publishing remain unauthorized.
+Sprint 02 is ACTIVE on main after PR #4 merged at a89eeb6. Its separate implementation branch
+contains only the approved US/FRB 2025-01-01 ordinary corporate engine: classification, typed
+EXPOSURE_AMOUNT/carrying value, 1.00 risk weight, RWA, one 0.08 educational equivalent and trace.
+It is implemented for review, not a completed product release or production-bank calculator.
+EAD, other rulesets/classes, actual capital adequacy, lesson/tutor/UI/API/persistence,
+authentication, billing, production deployment and social publishing remain outside this task.

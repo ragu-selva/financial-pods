@@ -7,8 +7,9 @@ Reviewer: **Ragunath Selvaraj — Project Owner / Internal Regulatory Reviewer**
 This is the owner's accountable internal-prototype approval, not independent legal counsel,
 regulatory certification, production-bank sign-off or real-bank GAAP certification.
 
-Sprint 02: **ACTIVE** on the activation branch. Implementation: **NOT YET STARTED**.
-Implementation remains blocked until the activation PR is reviewed and merged; no automatic merge.
+Sprint 02: **ACTIVE** on main after PR #4 merged at a89eeb6. The separate narrow implementation
+is now present for review; see REVIEW.md and IMPLEMENTATION_RECORD.json. No automatic merge.
+The approved source boundary and historical documentary review below are unchanged.
 
 ## Current approved boundary
 

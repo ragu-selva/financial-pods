@@ -294,7 +294,7 @@ test("planning specimen check rejects CET1 and Tier 1 teaching expansion", () =>
   }
 });
 
-test("trace planning binds RWA to the typed measure; runtime tests remain deferred", () => {
+test("historical trace plan binds the typed measure; current runtime tests are documented", () => {
   const scope = read("FRAMEWORK_SCOPE.md");
   assert.ok(scope.includes("regulatory-trace.v0.2-draft"));
   assert.ok(
@@ -303,7 +303,9 @@ test("trace planning binds RWA to the typed measure; runtime tests remain deferr
     ),
   );
   assert.ok(
-    read("PLANNED_TESTS.md").includes("AFTER activation (NOT IMPLEMENTED)"),
+    read("PLANNED_TESTS.md").includes(
+      "Runtime tests implemented after activation",
+    ),
   );
   assert.ok(
     read("SPRINT.md").includes(
