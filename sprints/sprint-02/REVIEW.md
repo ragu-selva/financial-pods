@@ -3,7 +3,9 @@
 Status: ACTIVE
 
 Review date: 2026-09-10. Implementation: **NOT YET STARTED**.
-Activation PR: **NOT YET CREATED**. No automatic merge.
+Activation PR: [#4](https://github.com/ragu-selva/financial-pods/pull/4), **OPEN FOR REVIEW**. No automatic merge.
+Activation commit: bfd57576c1615abb53171abe6daeff5b0a854d83.
+Hosted CI: pending for the final publication head; local verification below passed.
 
 ## Human approval
 

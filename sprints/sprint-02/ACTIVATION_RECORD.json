@@ -70,8 +70,8 @@
   "activation_pr": {
     "branch": "codex/sprint-02-activation",
     "base": "main",
-    "created": false,
-    "url": null,
+    "created": true,
+    "url": "https://github.com/ragu-selva/financial-pods/pull/4",
     "merged": false,
     "base_commit": "5fcfc5a42fc8cb3fc0a8bf53a8659fd60fa6d931"
   },

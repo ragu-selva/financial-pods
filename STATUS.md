@@ -16,7 +16,7 @@
 
 codex/sprint-02-activation, created from fetched origin/main at
 5fcfc5a42fc8cb3fc0a8bf53a8659fd60fa6d931 (merged PR #3).
-Activation PR: **NOT YET CREATED**. No automatic merge.
+Activation PR: [#4](https://github.com/ragu-selva/financial-pods/pull/4), **OPEN FOR REVIEW**. No automatic merge.
 Main is not yet activated by this branch. Implementation waits for activation PR review and merge.
 
 ## Latest Commit
@@ -28,7 +28,8 @@ Original Sprint 01 03b03ec and hardening a71d639 / 46a723b remain preserved.
 Published planning commit: 79b33dbb1f069a89fc6d87336a23268adea08589, unchanged, on
 codex/sprint-02-planning. Local codex/sprint-02-rules-calculation remains at
 60fad85b78a1559fe61b78e461894587d165a304. No history rewritten or wholesale planning merge.
-The activation publication commit is the HEAD containing this status; see the activation PR.
+Activation commit: bfd57576c1615abb53171abe6daeff5b0a854d83.
+The follow-up publication commit records PR #4; see the activation branch HEAD.
 
 ## Completed
 
@@ -140,7 +141,7 @@ feature. A running Docker demonstration was not available during this task.
 - Full repository verification: **PASS / exit 0**. Formatting/lint, TypeScript/mypy, 130 finance-engine tests including properties, 5 API tests, 3 web tests, 2 Playwright tests, Next.js and Python builds, 10 immutable artifact hashes.
 - Docker availability rechecked: **BLOCKED**, missing Docker Desktop Linux engine pipe.
   No local stack-runtime pass is claimed.
-- Hosted activation CI: **NOT YET RUN** (PR not yet created).
+- Hosted activation CI: **PENDING** for final publication head; see [PR #4 checks](https://github.com/ragu-selva/financial-pods/pull/4/checks).
 
 **Retained historical acceptance evidence (not a fresh activation run):**
 
