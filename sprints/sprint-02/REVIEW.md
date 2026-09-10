@@ -1,13 +1,23 @@
-# Sprint 02 — Implementation Review
+# Sprint 02 — Post-Merge Acceptance Review
 
-Status: ACTIVE
+Activation Status: ACTIVE (approved baseline retained; PR #4 merged).
 
-Review date: 2026-09-10. Implementation: IMPLEMENTED / locally VERIFIED / PENDING HUMAN REVIEW.
-Activation PR #4 is MERGED at a89eeb60727c5f615514f75ecc27f57f19ec23cf.
-Implementation branch: codex/sprint-02-us-corporate-engine.
-Implementation PR: [#5](https://github.com/ragu-selva/financial-pods/pull/5), OPEN FOR REVIEW.
-Implementation commit: 0f386d2f4d880a0cfb1fd4ab8eb6283b47634d65.
-No automatic merge; this engineering review is not final human implementation acceptance.
+Sprint 02 Status: ACCEPTED AND MERGED.
+
+Acceptance date: 2026-09-10. U.S. corporate engine: IMPLEMENTED AND VERIFIED.
+The project owner confirmed that PR #5 was reviewed and merged; GitHub confirms merge at
+2026-09-10T21:00:17Z. This records delivery acceptance, not a new regulatory-source approval.
+Activation PR [#4](https://github.com/ragu-selva/financial-pods/pull/4): MERGED at
+a89eeb60727c5f615514f75ecc27f57f19ec23cf.
+Implementation PR [#5](https://github.com/ragu-selva/financial-pods/pull/5): MERGED at
+979dda66a3cc3424d1bf244680ef719a879680e1, now synchronized to local main.
+Implementation commit 0f386d2f4d880a0cfb1fd4ab8eb6283b47634d65 and publication head
+2fa438062977e15651ca4ad79d74795df820edec remain preserved.
+
+Activation remains approved; the activation label above does not mean Sprint 02 is still in progress.
+This post-merge delivery status supersedes earlier pending-review wording in the retained control
+and implementation snapshots. Sprint 03 is NOT ACTIVE / NOT STARTED. This task changes only this
+review, STATUS.md and ROADMAP.md on codex/sprint-02-post-merge-cleanup; no automatic PR merge.
 
 ## Implemented scope
 
@@ -17,7 +27,12 @@ exact RWA, sole 0.08 educational equivalent, canonical JSON and a twelve-step so
 Evidence is loaded locally before calculation and revalidated in memory; direct provider calls
 also cannot bypass source verification. No network/clock/random/DB/Redis/LLM in calculation.
 
-Golden USD 10m produces CORPORATE / RWA USD 10m / educational equivalent USD 800k.
+Exact approved ruleset: US_FRB_PART217_STANDARDIZED@2025-01-01.internal-v1.
+Post-merge runtime demonstration: CORPORATE; EXPOSURE_AMOUNT /
+US_STANDARDIZED_CARRYING_VALUE USD 10,000,000.00; risk weight 1.00; RWA USD 10,000,000.00;
+baseline_total_capital_equivalent USD 800,000.00 at 0.08; 12 source-linked trace steps.
+These are observed runtime outputs, not only approved expected values. R-1888 remains
+PROPOSED / non-executable. No dates, exposure classes or regulatory coverage were added.
 Different borrower name, counterparty ID and case ID leave authoritative JSON/trace identical.
 The owner-requested USD 5m proof produces RWA USD 5m / educational equivalent USD 400k.
 No borrower-name or hard-coded principal dispatch; other facts retain the approved narrow scope.
@@ -29,19 +44,21 @@ selection, all capture tampering, unapproved/proposed/future evidence, EAD/basis
 direct-provider evidence bypass, immutable tuples, canonical JSON, hostile Decimal contexts,
 name invariance and generated alternate amounts. No excluded treatment is calculated.
 
-## Fresh engineering verification
+## Post-merge verification
 
-- node scripts/task.mjs verify: PASS, exit 0 on the final production-code revision.
+- node scripts/task.mjs verify: PASS, exit 0 on accepted main 979dda6 during this cleanup.
 - Format checks, ESLint/Ruff, TypeScript and strict mypy: PASS.
-- Finance tests: 429 PASS (130 original/hardening + 299 regulatory), 68.54 seconds.
+- Finance tests: 429 PASS (130 original/hardening + 299 regulatory).
 - API: 5 PASS. Web: 3 PASS. Playwright Chromium: 2 PASS.
 - Next.js production build and API/finance-engine sdist/wheel: PASS.
 - All 10 immutable reference-artifact hashes: PASS.
 - Planning/activation source-hash checks: 35 PASS; all 71 captures and approval pins unchanged.
-- Amount property: 50 generated examples PASS, zero failing/invalid examples; 1 passed, 298 deselected.
+- Retained implementation property evidence: 50 generated examples PASS, zero failing/invalid examples;
+  1 passed, 298 deselected. The full property/regression suite also reran after merge.
 - git diff --check: PASS; original fixture, source and historical paths unchanged.
-- Hosted implementation CI: PENDING for the publication head; no unobserved success claimed.
-  See [PR #5 checks](https://github.com/ragu-selva/financial-pods/pull/5/checks).
+- Hosted implementation CI: VERIFIED / PASSED, [run 34515138968](https://github.com/ragu-selva/financial-pods/actions/runs/34515138968).
+  GitHub reports completed / success for merged PR #5 head 2fa438062977e15651ca4ad79d74795df820edec.
+  Any documentation-cleanup PR checks are separate; this does not imply their result.
 
 Docker Compose configuration passes. Docker runtime remains a non-blocking local limitation:
 failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine;
@@ -53,14 +70,18 @@ No local four-service stack-runtime success is claimed. Infrastructure is unchan
 The accepted Sprint 01 fixture, source manifests/Golden enrichment, activation approval fields,
 all 71 captures, accepted ADR and historical Sprint 00/01/hardening reviews are unchanged.
 ACTIVATION_RECORD.json remains an immutable activation-time snapshot. IMPLEMENTATION_RECORD.json
-records the later merged activation and owner-authorized software work without fabricating approval.
+retains the pre-merge implementation-review snapshot. Neither JSON record is edited by this cleanup;
+this acceptance section records the subsequent human acceptance/merge without changing reviewer evidence.
 No new source investigation, jurisdiction, exposure class, UI/API/persistence/tutor, content,
 bank capital adequacy, CET1/Tier 1 teaching or Regxify extraction was implemented.
 
 RUNTIME_CONTRACT.md finalizes draft schemas as v1 and documents the hash/metadata policy.
 Only the fixed approved date executes. Fractional-cent teaching amounts fail rather than round.
 Synthetic zero allowance/adjustments are not a CECL estimate or real-bank accounting certification.
-Final implementation acceptance/merge remains with the human reviewer.
+Sprint 02 implementation acceptance and merge are complete, as confirmed by the owner and GitHub.
+The USD 800,000 remains educational, not allocated/economic capital, a complete regulatory capital
+requirement, an institution-specific requirement or a capital adequacy conclusion. This cleanup
+adds no source interpretation, approval field, code or test change. Sprint 03 remains unstarted.
 
 ## Historical activation review — preserved verbatim
 

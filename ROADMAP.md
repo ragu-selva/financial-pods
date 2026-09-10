@@ -5,14 +5,19 @@
 - Sprint 00 foundation: accepted with documented follow-up
 - Sprint 01 FinBank/Alpha Manufacturing deterministic domain model: accepted
 - Sprint 01 integration/hardening: accepted and merged through PR #2 at b0cf3a9
-- Sprint 02: ACTIVE on main after PR #4 merge a89eeb6; narrow engine IMPLEMENTED, pending PR review
-- Internal-prototype U.S./FRB 2025-01-01 sources remain pinned; runtime Golden/name/amount and fail-closed proofs implemented
+- Sprint 02: ACCEPTED AND MERGED; activation PR #4 at a89eeb6 and implementation PR #5 at 979dda6 are merged
+- U.S. corporate engine: IMPLEMENTED AND VERIFIED; hosted PR #5 CI passed (run 34515138968)
+- Exact ruleset US_FRB_PART217_STANDARDIZED@2025-01-01.internal-v1; existing sources and human approvals unchanged
+- Runtime Golden: CORPORATE; EXPOSURE_AMOUNT / US_STANDARDIZED_CARRYING_VALUE USD 10m; weight 1.00; RWA USD 10m; baseline_total_capital_equivalent USD 800k at 0.08
+- 12-step source-linked trace and alternate-name/USD 5m generic-engine proofs verified; R-1888 remains PROPOSED/non-executable
+- Local Docker runtime remains unavailable and non-blocking; no stack-runtime pass claimed
 - Lock the coordinated initial-release definition: Product V1 Golden Lesson + Growth V1 social publishing
 
 ## Next
 
-- Review and accept the narrow U.S. corporate implementation PR; do not merge automatically
-- Golden corporate-exposure lesson and calculator UI
+- Sprint 03 is NOT ACTIVE / NOT STARTED; agree its bounded control pack and acceptance criteria before implementation
+- Recommended first slice: a read-only Golden Lesson screen over the accepted engine, using a thin application/API contract to show facts, exact results, educational warnings, citations and the 12-step trace
+- No new regulatory coverage or browser-side financial calculations; broader lesson/calculator interaction follows explicit scope approval
 - Assessment, mastery, and learner progress
 - Grounded AI tutor with citations and evaluation suite
 - Growth V1 source packets, canonical scripts, publication governance, and channel templates
